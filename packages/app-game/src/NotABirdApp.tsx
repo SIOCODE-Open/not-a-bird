@@ -1,5 +1,11 @@
 import { useRef, useState } from "react";
 import { LandingPage } from "./pages/LandingPage";
+import { GamePage } from "./pages/GamePage";
+
+const pages: Array<{ path: string, component: any }> = [
+    { path: "/landing-page", component: LandingPage },
+    { path: "/game", component: GamePage },
+];
 
 export function NotABirdApp() {
     const [currentPage, setCurrentPage] = useState("/landing-page");
@@ -10,11 +16,12 @@ export function NotABirdApp() {
             return;
         }
 
-        if (path === "/landing-page") {
-            setCurrentPage("/landing-page");
-            currentCompRef.current = LandingPage;
+        let foundPage = pages.find(page => page.path === path);
+        if (foundPage) {
+            setCurrentPage(path);
+            currentCompRef.current = foundPage.component;
         } else {
-            alert(`Unknown path: ${path}`);
+            alert(`Page not found: ${path}`);
         }
     };
 

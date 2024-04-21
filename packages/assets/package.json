@@ -1,5 +1,16 @@
 {
     "name": "@not-a-bird/assets",
     "version": "0.0.1",
-    "private": true
+    "private": true,
+    "main": "src/index.ts",
+    "dependencies": {},
+    "devDependencies": {
+        "fs-extra": "*",
+        "chokidar": "*",
+        "chalk": "*"
+    },
+    "scripts": {
+        "build": "node scripts/copy.js",
+        "watch": "node scripts/watch-copy.js"
+    }
 }
