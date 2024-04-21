@@ -1,0 +1,15 @@
+{
+    "name": "@siocode/not-a-bird",
+    "version": "0.0.1",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "esbuild": "0.20.2",
+        "typescript": "5.4.5",
+        "concurrently": "8.2.2",
+        "sass": "1.75.0"
+    }
+}
