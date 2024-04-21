@@ -9,10 +9,14 @@
         ],
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "jsx": "react-native"
     },
     "include": [
         "src/**/*.ts",
-        "src/**/*.js"
+        "src/**/*.js",
+        "src/**/*.tsx",
+        "src/**/*.jsx",
+        "src/index.tsx"
     ]
 }
