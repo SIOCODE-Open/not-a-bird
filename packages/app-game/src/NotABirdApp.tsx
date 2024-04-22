@@ -1,10 +1,12 @@
 import { useRef, useState } from "react";
 import { LandingPage } from "./pages/LandingPage";
 import { GamePage } from "./pages/GamePage";
+import { GameOverPage } from "./pages/GameOverPage";
 
 const pages: Array<{ path: string, component: any }> = [
     { path: "/landing-page", component: LandingPage },
     { path: "/game", component: GamePage },
+    { path: "/game-over", component: GameOverPage }
 ];
 
 export function NotABirdApp() {
