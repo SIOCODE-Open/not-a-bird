@@ -1,10 +1,12 @@
 import { useRef, useState } from "react";
 import { LandingPage } from "./pages/LandingPage";
 import { GamePage } from "./pages/GamePage";
+import { FrankPage } from "./pages/FrankPage";
 
 const pages: Array<{ path: string, component: any }> = [
     { path: "/landing-page", component: LandingPage },
     { path: "/game", component: GamePage },
+    { path: "/frank", component: FrankPage },
 ];
 
 export function NotABirdApp() {

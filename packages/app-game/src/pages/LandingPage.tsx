@@ -11,9 +11,16 @@ export function LandingPage(
         props.navigate('/game');
     };
 
+    const goToFrankPage = () => {
+        props.navigate('/frank');
+    };
+
     return <CenteredLayout>
         <Card>
             <Button onClick={onStartPlaying}>Play the game</Button>
+        </Card>
+        <Card>
+            <Button onClick={goToFrankPage}>Go to Frank Page</Button>
         </Card>
     </CenteredLayout>
 }
