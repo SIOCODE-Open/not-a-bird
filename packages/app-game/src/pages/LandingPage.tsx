@@ -8,7 +8,7 @@ export function LandingPage(
     }
 ) {
     const onStartPlaying = () => {
-        props.navigate('/game');
+        props.navigate('/star-map');
     };
 
     return <CenteredLayout>
