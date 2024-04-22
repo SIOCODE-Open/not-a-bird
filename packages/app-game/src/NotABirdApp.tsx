@@ -6,13 +6,13 @@ import { GameOverPage } from "./pages/GameOverPage";
 import { StarMapPage } from "./pages/StarMapPage";
 import { StarSystemPage } from "./pages/StarSystemPage";
 
-const pages: Array<{ path: string, component: any }> = [
-    { path: "/landing-page", component: LandingPage },
-    { path: "/star-map", component: StarMapPage },
-    { path: "/star-system", component: StarSystemPage },
-    { path: "/game", component: GamePage },
-    { path: "/game-over", component: GameOverPage },
-    { path: "/frank", component: FrankPage },
+const pages: Array<{ path: string; component: any }> = [
+  { path: "/landing-page", component: LandingPage },
+  { path: "/star-map", component: StarMapPage },
+  { path: "/star-system", component: StarSystemPage },
+  { path: "/game", component: GamePage },
+  { path: "/game-over", component: GameOverPage },
+  { path: "/frank", component: FrankPage },
 ];
 
 export function NotABirdApp() {
