@@ -1,20 +1,12 @@
 # Tasks
 
-## Frank
-- [ ] Do one commit
-- [ ] work in progress ... ^^
+## ℹ️ Information - All
+
+- See Botond Notes for How to navigate Repo.
+- Add Prettier. Do Format via `npm run format` in `./packages/app-game/`
 
 ## Frontend
-- [X] Frontend app entrypoint (see [`packages/app-game/src/index.tsx`](packages/app-game/src/index.tsx), [`packages/app-game/public/index.html`](packages/app-game/public/index.html))
-- [X] Some kind of simple routing (see [`packages/app-game/src/NotABirdApp.tsx`](packages/app-game/src/NotABirdApp.tsx))
-- [X] SCSS for stylesheets (see [`packages/app-game/src/index.scss`](packages/app-game/src/index.scss))
-- [X] Package for game assets, such as images, fonts, audio, etc. (see [`packages/assets/package.json`](packages/assets/package.json))
-- [X] Game assets should be copied to the frontend app (see [`packages/assets/scripts/copy.js`](packages/assets/scripts/copy.js), [`packages/app-game/package.json`](packages/app-game/package.json))
-- [X] Component for completely centered content (see [`packages/app-game/src/layout/CenteredLayout.tsx`](packages/app-game/src/layout/CenteredLayout.tsx))
-- [X] A Card component, has some border, and a shadow (see [`packages/app-game/src/components/Card.tsx`](packages/app-game/src/components/Card.tsx))
-- [X] A Button component (see [`packages/app-game/src/components/Button.tsx`](packages/app-game/src/components/Button.tsx))
-- [X] A landing page screen for starting the game (see [`packages/app-game/src/pages/LandingPage.tsx`](packages/app-game/src/pages/LandingPage.tsx))
-- [X] A page for the game itself (see [`packages/app-game/src/pages/GamePage.tsx`](packages/app-game/src/pages/GamePage.tsx))
+
 - [ ] An Inventory component, featuring grid of items
 - [ ] On inventory slot click, open the _inventory slot menu_
 - [ ] Support the _Sell_ action in the inventory slot menu
@@ -30,9 +22,38 @@
 - [ ] A page for the game over screen
 
 ## Backend
+
 - [ ] More detailed breakdown of the tasks
 - [ ] Packages & architecture for game logic
 - [ ] Game logic implementation without blockchain, let's call it `local`
 - [ ] Support items such as _materials_ and _buildings_
 - [ ] React to drag and drop interactions if possible
 - [ ] Game logic implementation with blockchain, let's call it `blockchain`
+
+---
+
+## Notes
+
+### Botond
+
+- Frontend app entrypoint (see [`packages/app-game/src/index.tsx`](packages/app-game/src/index.tsx), [`packages/app-game/public/index.html`](packages/app-game/public/index.html))
+- Some kind of simple routing (see [`packages/app-game/src/NotABirdApp.tsx`](packages/app-game/src/NotABirdApp.tsx))
+- SCSS for stylesheets (see [`packages/app-game/src/index.scss`](packages/app-game/src/index.scss))
+- Package for game assets, such as images, fonts, audio, etc. (see [`packages/assets/package.json`](packages/assets/package.json))
+- Game assets should be copied to the frontend app (see [`packages/assets/scripts/copy.js`](packages/assets/scripts/copy.js), [`packages/app-game/package.json`](packages/app-game/package.json))
+- Component for completely centered content (see [`packages/app-game/src/layout/CenteredLayout.tsx`](packages/app-game/src/layout/CenteredLayout.tsx))
+- A Card component, has some border, and a shadow (see [`packages/app-game/src/components/Card.tsx`](packages/app-game/src/components/Card.tsx))
+- A Button component (see [`packages/app-game/src/components/Button.tsx`](packages/app-game/src/components/Button.tsx))
+- A landing page screen for starting the game (see [`packages/app-game/src/pages/LandingPage.tsx`](packages/app-game/src/pages/LandingPage.tsx))
+- A page for the game itself (see [`packages/app-game/src/pages/GamePage.tsx`](packages/app-game/src/pages/GamePage.tsx))
+
+### Frank
+
+| Note                 | ClockIn                          | ClockOut                         | Total |
+| :------------------- | :------------------------------- | :------------------------------- | :---- |
+| Add Frank Page       | Mon Apr 22 05:00:00 PM CEST 2024 | Mon Apr 22 05:45:00 PM CEST 2024 | -     |
+| Do Figma for Landing | -                                | -                                | -     |
+
+- [x] Do one commit
+- [x] Add A Frank Page, seperation of Concern
+- [ ] Do Figma For Landing
