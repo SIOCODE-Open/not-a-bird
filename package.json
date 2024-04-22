@@ -1,27 +1,28 @@
 {
-    "name": "@siocode/not-a-bird",
-    "version": "0.0.1",
-    "private": true,
-    "workspaces": [
-        "packages/*"
-    ],
-    "dependencies": {
-        "react": "18.2.0",
-        "react-dom": "18.2.0"
-    },
-    "devDependencies": {
-        "esbuild": "0.20.2",
-        "typescript": "5.4.5",
-        "concurrently": "8.2.2",
-        "sass": "1.75.0",
-        "@types/react": "18.2.79",
-        "@types/react-dom": "18.2.25",
-        "fs-extra": "11.2.0",
-        "chokidar": "3.6.0",
-        "chalk": "4"
-    },
-    "scripts": {
-        "build": "npm run -w @not-a-bird/app-game build",
-        "serve": "npm run -w @not-a-bird/app-game serve"
-    }
+  "name": "@siocode/not-a-bird",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.79",
+    "@types/react-dom": "18.2.25",
+    "chalk": "4",
+    "chokidar": "3.6.0",
+    "concurrently": "8.2.2",
+    "esbuild": "0.20.2",
+    "fs-extra": "11.2.0",
+    "sass": "1.75.0",
+    "typescript": "5.4.5",
+    "prettier": "^3.2.5"
+  },
+  "scripts": {
+    "build": "npm run -w @not-a-bird/app-game build",
+    "serve": "npm run -w @not-a-bird/app-game serve"
+  }
 }

@@ -1,28 +1,29 @@
 {
-    "name": "@not-a-bird/app-game",
-    "version": "0.0.1",
-    "private": true,
-    "dependencies": {
-        "react": "*",
-        "react-dom": "*",
-        "@not-a-bird/assets": "*"
-    },
-    "devDependencies": {
-        "esbuild": "*",
-        "typescript": "*",
-        "concurrently": "*",
-        "sass": "*",
-        "@types/react": "*",
-        "@types/react-dom": "*"
-    },
-    "scripts": {
-        "build:assets": "npm run -w @not-a-bird/assets build",
-        "build:js": "esbuild --platform=browser --bundle --minify --sourcemap --jsx=automatic --outfile=public/index.bundle.js src/index.tsx",
-        "build:css": "sass src/index.scss public/index.bundle.css",
-        "build": "npm run build:js",
-        "serve:assets": "npm run -w @not-a-bird/assets watch",
-        "serve:js": "esbuild --platform=browser --bundle --sourcemap --jsx=automatic --outfile=public/index.bundle.js --serve=0.0.0.0:5000 --servedir=public src/index.tsx",
-        "serve:css": "sass src/index.scss public/index.bundle.css --watch",
-        "serve": "concurrently \"npm run serve:js\" \"npm run serve:css\" \"npm run serve:assets\" -n \"JS,CSS,ASSETS\""
-    }
+  "name": "@not-a-bird/app-game",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "@not-a-bird/assets": "*"
+  },
+  "devDependencies": {
+    "esbuild": "*",
+    "typescript": "*",
+    "concurrently": "*",
+    "sass": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*"
+  },
+  "scripts": {
+    "build:assets": "npm run -w @not-a-bird/assets build",
+    "build:js": "esbuild --platform=browser --bundle --minify --sourcemap --jsx=automatic --outfile=public/index.bundle.js src/index.tsx",
+    "build:css": "sass src/index.scss public/index.bundle.css",
+    "build": "npm run build:js",
+    "serve:assets": "npm run -w @not-a-bird/assets watch",
+    "serve:js": "esbuild --platform=browser --bundle --sourcemap --jsx=automatic --outfile=public/index.bundle.js --serve=0.0.0.0:5000 --servedir=public src/index.tsx",
+    "serve:css": "sass src/index.scss public/index.bundle.css --watch",
+    "serve": "concurrently \"npm run serve:js\" \"npm run serve:css\" \"npm run serve:assets\" -n \"JS,CSS,ASSETS\"",
+    "format": "npx prettier --write ./src"
+  }
 }
