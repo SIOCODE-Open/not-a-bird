@@ -11,15 +11,15 @@
 - [ ] On inventory slot click, open the _inventory slot menu_
 - [ ] Support the _Sell_ action in the inventory slot menu
 - [ ] Support drag and dropping items from one slot to another
-- [ ] A StarMap component, showing one _sector_ of starts
-- [ ] Player should be able to navigate StarMap between [-127, -127] and [128, 128]
+- [x] A StarMap page, showing one _sector_ of starts (see [`packages/app-game/src/pages/StarMapPage.tsx`](packages/app-game/src/pages/StarMapPage.tsx))
+- [x] Player should be able to navigate StarMap between [-127, -127] and [128, 128]
 - [ ] Each sector should contain _star systems_, which should contain _planets_, which contain _inventory slots_
-- [ ] A StarSystem component, showing _planets_ of a _star system_
+- [x] A StarSystem page, showing _planets_ of a _star system_ (see [`packages/app-game/src/pages/StarSystemPage.tsx`](packages/app-game/src/pages/StarSystemPage.tsx))
 - [ ] A Planet component, showing details and _inventory slots_ of a _planet_
-- [ ] The player should choose their _home planet_ at the beginning of the game
+- [x] The player should choose their _home planet_ at the beginning of the game
 - [ ] The player should be able to open the StarMap anytime
 - [ ] The player should be able to buy new planets
-- [ ] A page for the game over screen
+- [x] A page for the game over screen (see [`packages/app-game/src/pages/GameOverPage.tsx`](packages/app-game/src/pages/GameOverPage.tsx))
 
 ## Backend
 
