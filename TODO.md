@@ -40,6 +40,9 @@
 - [X] Split SCSS button from main bundle (see [`packages/app-game/src/style/_button.scss`](packages/app-game/src/style/_button.scss))
 - [X] Split SCSS Unbounded font face from main bundle (see [`packages/app-game/src/style/_typography.scss`](packages/app-game/src/style/_typography.scss))
 - [ ] Tutorials should only be shown once globally
+- [ ] Add an items wiki page
+- [ ] Game page should have a FAB for the items wiki
+- [ ] Add an item details wiki page
 
 ## Backend
 
@@ -54,6 +57,7 @@
 - [X] We need a package for generating space regions (see [`packages/region-generator/package.json`](packages/region-generator/package.json), [`packages/region-generator/src/index.ts`](packages/region-generator/src/index.ts))
 - [X] We need a package for generating star systems (see [`packages/star-system-generator/package.json`](packages/star-system-generator/package.json), [`packages/star-system-generator/src/index.ts`](packages/star-system-generator/src/index.ts))
 - [X] We need a package for generating planets (see [`packages/planet-generator/package.json`](packages/planet-generator/package.json), [`packages/planet-generator/src/index.ts`](packages/planet-generator/src/index.ts))
+- [ ] We need a package for _items_
 - [ ] We need a package for _combination recipes_
 - [ ] We need a package for _usage recipes_
 - [ ] We need a package for _production recipes_

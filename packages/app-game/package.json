@@ -22,7 +22,7 @@
     "build:assets": "npm run -w @not-a-bird/assets build",
     "build:js": "esbuild --platform=browser --bundle --minify --sourcemap --jsx=automatic --outfile=public/index.bundle.js src/index.tsx",
     "build:css": "sass src/index.scss public/index.bundle.css",
-    "build": "npm run build:js",
+    "build": "npm run build:js && npm run build:css && npm run build:assets",
     "serve:assets": "npm run -w @not-a-bird/assets watch",
     "serve:js": "esbuild --platform=browser --bundle --sourcemap --jsx=automatic --outfile=public/index.bundle.js --serve=0.0.0.0:5000 --servedir=public src/index.tsx",
     "serve:css": "sass src/index.scss public/index.bundle.css --watch",
