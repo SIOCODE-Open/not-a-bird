@@ -33,6 +33,9 @@
 - [ ] Support items such as _materials_ and _buildings_
 - [ ] React to drag and drop interactions if possible
 - [ ] Game logic implementation with blockchain, let's call it `blockchain`
+- [X] We need a JS seeded PRNG (see [`packages/seeded-random/package.json`](packages/seeded-random/package.json), [`packages/seeded-random/src/index.ts`](packages/seeded-random/src/index.ts))
+- [X] We need a package for the game model interfaces (see [`packages/model/package.json`](packages/model/package.json), [`packages/model/src/index.ts`](packages/model/src/index.ts))
+- [X] We need a package for generating space regions (see [`packages/region-generator/package.json`](packages/region-generator/package.json), [`packages/region-generator/src/index.ts`](packages/region-generator/src/index.ts))
 
 ---
 
