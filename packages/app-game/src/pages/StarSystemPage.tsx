@@ -4,6 +4,7 @@ import { CenteredLayout } from "../layout/CenteredLayout";
 import { $starMapService } from "../service/StarMapService";
 import { $starSystemService } from "../service/StarSystemService";
 import { Button } from "../components/Button";
+import { StarSystemTutorial } from "../tutorials/StarSystemTutorial";
 
 export function StarSystemPage(props: { navigate: (path: string) => void }) {
   const [regionX, setRegionX] = useState(0);
@@ -37,7 +38,7 @@ export function StarSystemPage(props: { navigate: (path: string) => void }) {
     perform();
   }, []);
 
-  return (
+  return (<>
     <CenteredLayout>
       <Card>
         <h5>{starSystem && starSystem.name}</h5>
@@ -50,5 +51,6 @@ export function StarSystemPage(props: { navigate: (path: string) => void }) {
           ))}
       </Card>
     </CenteredLayout>
-  );
+    <StarSystemTutorial />
+  </>);
 }

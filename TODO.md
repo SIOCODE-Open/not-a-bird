@@ -20,10 +20,10 @@
 - [ ] The player should be able to open the StarMap anytime
 - [ ] The player should be able to buy new planets
 - [X] A page for the game over screen (see [`packages/app-game/src/pages/GameOverPage.tsx`](packages/app-game/src/pages/GameOverPage.tsx))
-- [ ] There should be a reusable tutorial component
-- [ ] There should be a tutorial for the star map
-- [ ] There should be a tutorial for the star system page
-- [ ] There should be a tutorial for the game
+- [X] There should be a reusable tutorial component (see [`packages/app-game/src/components/Tutorial.tsx`](packages/app-game/src/components/Tutorial.tsx))
+- [X] There should be a tutorial for the star map (see [`packages/app-game/src/tutorials/StarMapTutorial.tsx`](packages/app-game/src/tutorials/StarMapTutorial.tsx))
+- [X] There should be a tutorial for the star system page (see [`packages/app-game/src/tutorials/StarSystemTutorial.tsx`](packages/app-game/src/tutorials/StarSystemTutorial.tsx))
+- [X] There should be a tutorial for the game page (see [`packages/app-game/src/tutorials/GameTutorial.tsx`](packages/app-game/src/tutorials/GameTutorial.tsx))
 
 ## Backend
 

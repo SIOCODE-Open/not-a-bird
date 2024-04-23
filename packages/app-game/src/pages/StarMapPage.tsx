@@ -4,6 +4,7 @@ import { CenteredLayout } from "../layout/CenteredLayout";
 import { Group } from "../components/Group";
 import { $starMapService } from "../service/StarMapService";
 import { Button } from "../components/Button";
+import { StarMapTutorial } from "../tutorials/StarMapTutorial";
 
 export function StarMapPage(props: { navigate: (path: string) => void }) {
   const [regionX, setRegionX] = useState(
@@ -31,7 +32,7 @@ export function StarMapPage(props: { navigate: (path: string) => void }) {
 
   useEffect(onRegionCoordinatesChanged, []);
 
-  return (
+  return (<>
     <CenteredLayout>
       <Card>
         <Card>
@@ -65,5 +66,6 @@ export function StarMapPage(props: { navigate: (path: string) => void }) {
         </Card>
       </Card>
     </CenteredLayout>
-  );
+    <StarMapTutorial />
+  </>);
 }
