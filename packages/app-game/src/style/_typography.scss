@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Unbounded";
+    src: url(fonts/Unbounded-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Unbounded";
+    src: url(fonts/Unbounded-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Unbounded";
+    src: url(fonts/Unbounded-Light.ttf);
+    font-weight: lighter;
+}
+
+* {
+    font-family: "Unbounded", sans-serif;
+    font-size: 1em;
+}

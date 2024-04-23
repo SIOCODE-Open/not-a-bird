@@ -24,9 +24,24 @@
 - [X] There should be a tutorial for the star map (see [`packages/app-game/src/tutorials/StarMapTutorial.tsx`](packages/app-game/src/tutorials/StarMapTutorial.tsx))
 - [X] There should be a tutorial for the star system page (see [`packages/app-game/src/tutorials/StarSystemTutorial.tsx`](packages/app-game/src/tutorials/StarSystemTutorial.tsx))
 - [X] There should be a tutorial for the game page (see [`packages/app-game/src/tutorials/GameTutorial.tsx`](packages/app-game/src/tutorials/GameTutorial.tsx))
+- [ ] There should be a market page for buying stuff
+- [ ] Show the player's current money
+- [ ] Show in the game which planet we are currently seeing
+- [ ] Show in a star system which planets are owned by the player
+- [ ] Show in a space region which star system contains player owned planets
+- [ ] Show star systems spread out in the space region
+- [ ] When clicking / hovering on a star system, show the star system info panel
+- [ ] Show orbits of planets in a star system
+- [ ] When clicking / hovering on a planet, show the planet info panel
+- [X] Split SCSS utilities from main bundle (see [`packages/app-game/src/style/_utils.scss`](packages/app-game/src/style/_utils.scss))
+- [X] Split SCSS tutorial styling from main bundle (see [`packages/app-game/src/style/_tutorial.scss`](packages/app-game/src/style/_tutorial.scss))
+- [X] Split SCSS spacing from main bundle (see [`packages/app-game/src/style/_spacing.scss`](packages/app-game/src/style/_spacing.scss))
+- [X] Split SCSS flex from main bundle (see [`packages/app-game/src/style/_flex.scss`](packages/app-game/src/style/_flex.scss))
+- [X] Split SCSS button from main bundle (see [`packages/app-game/src/style/_button.scss`](packages/app-game/src/style/_button.scss))
+- [X] Split SCSS Unbounded font face from main bundle (see [`packages/app-game/src/style/_typography.scss`](packages/app-game/src/style/_typography.scss))
+- [ ] Tutorials should only be shown once globally
 
 ## Backend
-
 
 - [ ] More detailed breakdown of the tasks
 - [ ] Packages & architecture for game logic
@@ -37,6 +52,9 @@
 - [X] We need a JS seeded PRNG (see [`packages/seeded-random/package.json`](packages/seeded-random/package.json), [`packages/seeded-random/src/index.ts`](packages/seeded-random/src/index.ts))
 - [X] We need a package for the game model interfaces (see [`packages/model/package.json`](packages/model/package.json), [`packages/model/src/index.ts`](packages/model/src/index.ts))
 - [X] We need a package for generating space regions (see [`packages/region-generator/package.json`](packages/region-generator/package.json), [`packages/region-generator/src/index.ts`](packages/region-generator/src/index.ts))
+- [ ] We need a package for _combination recipes_
+- [ ] We need a package for _usage recipes_
+- [ ] We need a package for _production recipes_
 
 ---
 
