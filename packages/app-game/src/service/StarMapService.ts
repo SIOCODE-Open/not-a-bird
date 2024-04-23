@@ -2,6 +2,7 @@ import { ISpaceRegion, IStarSystem } from "@not-a-bird/model";
 
 export interface IStarMapService {
   getRegion(x: number, y: number): ISpaceRegion;
+  selectedStarSystemCoordinates: [number, number, number];
 }
 
 class StarMapServiceImpl implements IStarMapService {

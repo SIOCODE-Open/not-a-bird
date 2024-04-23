@@ -2,6 +2,7 @@ import { IStarSystem } from "@not-a-bird/model";
 
 export interface IStarSystemService {
   getStarSystem(x: number, y: number, n: number): IStarSystem;
+  selectedPlanetCoordinates: [number, number, number, number];
 }
 
 class StarSystemServiceImpl implements IStarSystemService {
