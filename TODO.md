@@ -28,6 +28,10 @@
 - [ ] The player should be able to open the StarMap anytime
 - [ ] The player should be able to buy new planets
 - [X] A page for the game over screen (see [`packages/app-game/src/pages/GameOverPage.tsx`](packages/app-game/src/pages/GameOverPage.tsx))
+- [ ] There should be a reusable tutorial component
+- [ ] There should be a tutorial for the star map
+- [ ] There should be a tutorial for the star system page
+- [ ] There should be a tutorial for the game
 
 ## Backend
 - [ ] More detailed breakdown of the tasks
