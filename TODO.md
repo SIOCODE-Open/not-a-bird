@@ -41,7 +41,7 @@
 - [X] Split SCSS Unbounded font face from main bundle (see [`packages/app-game/src/style/_typography.scss`](packages/app-game/src/style/_typography.scss))
 - [ ] Tutorials should only be shown once globally
 - [X] Add an items wiki page (see [`packages/app-game/src/pages/ItemsWikiPage.tsx`](packages/app-game/src/pages/ItemsWikiPage.tsx))
-- [ ] Game page should have a FAB for the items wiki
+- [X] Game page should have a FAB for the items wiki
 - [ ] Add an item details wiki page
 
 ## Backend
