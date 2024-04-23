@@ -52,6 +52,8 @@
 - [X] We need a JS seeded PRNG (see [`packages/seeded-random/package.json`](packages/seeded-random/package.json), [`packages/seeded-random/src/index.ts`](packages/seeded-random/src/index.ts))
 - [X] We need a package for the game model interfaces (see [`packages/model/package.json`](packages/model/package.json), [`packages/model/src/index.ts`](packages/model/src/index.ts))
 - [X] We need a package for generating space regions (see [`packages/region-generator/package.json`](packages/region-generator/package.json), [`packages/region-generator/src/index.ts`](packages/region-generator/src/index.ts))
+- [X] We need a package for generating star systems (see [`packages/star-system-generator/package.json`](packages/star-system-generator/package.json), [`packages/star-system-generator/src/index.ts`](packages/star-system-generator/src/index.ts))
+- [X] We need a package for generating planets (see [`packages/planet-generator/package.json`](packages/planet-generator/package.json), [`packages/planet-generator/src/index.ts`](packages/planet-generator/src/index.ts))
 - [ ] We need a package for _combination recipes_
 - [ ] We need a package for _usage recipes_
 - [ ] We need a package for _production recipes_
