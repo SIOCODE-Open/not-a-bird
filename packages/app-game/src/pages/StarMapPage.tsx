@@ -5,57 +5,65 @@ import { Group } from "../components/Group";
 import { $starMapService } from "../service/StarMapService";
 import { Button } from "../components/Button";
 
-export function StarMapPage(
-    props: {
-        navigate: (path: string) => void
-    }
-) {
-    const [regionX, setRegionX] = useState(
-        -127 + Math.floor(Math.random() * 256)
-    );
-    const [regionY, setRegionY] = useState(
-        -127 + Math.floor(Math.random() * 256)
-    );
-    const [regionSystems, setRegionSystems] = useState([]);
+export function StarMapPage(props: { navigate: (path: string) => void }) {
+  const [regionX, setRegionX] = useState(
+    -127 + Math.floor(Math.random() * 256),
+  );
+  const [regionY, setRegionY] = useState(
+    -127 + Math.floor(Math.random() * 256),
+  );
+  const [regionSystems, setRegionSystems] = useState([]);
 
-    const onRegionCoordinatesChanged = () => {
-        const perform = async () => {
-            const region = await $starMapService.getRegion(regionX, regionY);
-            setRegionSystems(region.starSystems);
-        };
-        perform();
-    }
-
-    const onSelectStarSystem = (n: number) => {
-        $starMapService.selectedStarSystemCoordinates = [regionX, regionY, n];
-        props.navigate("/star-system");
+  const onRegionCoordinatesChanged = () => {
+    const perform = async () => {
+      const region = await $starMapService.getRegion(regionX, regionY);
+      setRegionSystems(region.starSystems);
     };
+    perform();
+  };
 
-    useEffect(
-        onRegionCoordinatesChanged,
-        [regionX, regionY]
-    );
+  const onSelectStarSystem = (n: number) => {
+    $starMapService.selectedStarSystemCoordinates = [regionX, regionY, n];
+    props.navigate("/star-system");
+  };
 
-    useEffect(onRegionCoordinatesChanged, []);
+  useEffect(onRegionCoordinatesChanged, [regionX, regionY]);
 
-    return <CenteredLayout>
+  useEffect(onRegionCoordinatesChanged, []);
+
+  return (
+    <CenteredLayout>
+      <Card>
         <Card>
-            <Card>
-                <h5>Coordinates</h5>
-                <Group>
-                    <input size={6} type="number" value={regionX} onChange={e => setRegionX(parseInt(e.target.value))} />
-                    <input size={6} type="number" value={regionY} onChange={e => setRegionY(parseInt(e.target.value))} />
-                </Group>
-            </Card>
-
-            <Card>
-                <h5>Star Systems</h5>
-                {regionSystems.map((system, systemIndex) => (
-                    <Button key={system.id} onClick={() => onSelectStarSystem(systemIndex)}>
-                        {system.name}
-                    </Button>
-                ))}
-            </Card>
+          <h5>Coordinates</h5>
+          <Group>
+            <input
+              size={6}
+              type="number"
+              value={regionX}
+              onChange={(e) => setRegionX(parseInt(e.target.value))}
+            />
+            <input
+              size={6}
+              type="number"
+              value={regionY}
+              onChange={(e) => setRegionY(parseInt(e.target.value))}
+            />
+          </Group>
         </Card>
+
+        <Card>
+          <h5>Star Systems</h5>
+          {regionSystems.map((system, systemIndex) => (
+            <Button
+              key={system.id}
+              onClick={() => onSelectStarSystem(systemIndex)}
+            >
+              {system.name}
+            </Button>
+          ))}
+        </Card>
+      </Card>
     </CenteredLayout>
+  );
 }
