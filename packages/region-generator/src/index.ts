@@ -1,4 +1,4 @@
-import { IGeneratedSpaceRegion } from "@not-a-bird/model";
+import { ISpaceRegion } from "@not-a-bird/model";
 import { seededRandom } from "@not-a-bird/seeded-random";
 
 function spaceRegionNameGenerator(seed: number) {
@@ -34,7 +34,7 @@ function randomElement(array: Array<any>, random: () => number) {
 export function generateRegion(
     x: number,
     y: number
-): IGeneratedSpaceRegion {
+): ISpaceRegion {
     const seed = x * 1000 + y;
     const random = seededRandom(seed);
 

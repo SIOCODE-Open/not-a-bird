@@ -1,0 +1,10 @@
+{
+    "name": "@not-a-bird/star-system-generator",
+    "version": "0.0.1",
+    "private": true,
+    "main": "src/index.ts",
+    "dependencies": {
+        "@not-a-bird/model": "*",
+        "@not-a-bird/seeded-random": "*"
+    }
+}

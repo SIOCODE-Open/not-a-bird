@@ -19,47 +19,8 @@ class StarMapServiceImpl implements IStarMapService {
     this._selectedStarSystemCoordinates = value;
   }
 
-  private dummyStarSystem(x: number, y: number): IStarSystem {
-    return {
-      coordinates: [x, y, 0],
-      name: "Dummy Star System",
-      planets: [
-        {
-          name: "Dummy Planet",
-          type: "M",
-          inventorySlots: [
-            {
-              quantity: 0
-            },
-            {
-              quantity: 0
-            },
-            {
-              quantity: 0
-            },
-            {
-              quantity: 0
-            },
-          ],
-          size: 2
-        },
-      ],
-    };
-  }
-
   getRegion(x: number, y: number): ISpaceRegion {
-    const generatedRegion = generateRegion(x, y);
-    const starSystems: Array<IStarSystem> = [];
-
-    for (let i = 0; i < generatedRegion.numStarSystems; i++) {
-      starSystems.push(this.dummyStarSystem(x, y));
-    }
-
-    return {
-      coordinates: [x, y],
-      name: generatedRegion.name,
-      starSystems,
-    };
+    return generateRegion(x, y);
   }
 }
 

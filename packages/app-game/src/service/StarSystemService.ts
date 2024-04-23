@@ -1,4 +1,5 @@
 import { IStarSystem } from "@not-a-bird/model";
+import { generateStarSystem } from "@not-a-bird/star-system-generator";
 
 export interface IStarSystemService {
   getStarSystem(x: number, y: number, n: number): IStarSystem;
@@ -22,21 +23,8 @@ class StarSystemServiceImpl implements IStarSystemService {
     this._selectedPlanetCoordinates = value;
   }
 
-  private dummyStarSystem(x: number, y: number, n: number): IStarSystem {
-    return {
-      coordinates: [x, y, n],
-      name: "Dummy Star System",
-      planets: [
-        {
-          name: "Dummy Planet",
-          type: "earthlike",
-        },
-      ],
-    };
-  }
-
   getStarSystem(x: number, y: number, n: number): IStarSystem {
-    return this.dummyStarSystem(x, y, n);
+    return generateStarSystem(x, y, n);
   }
 }
 

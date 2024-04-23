@@ -6,7 +6,9 @@
     "react": "*",
     "react-dom": "*",
     "@not-a-bird/assets": "*",
-    "@not-a-bird/region-generator": "*"
+    "@not-a-bird/region-generator": "*",
+    "@not-a-bird/star-system-generator": "*",
+    "@not-a-bird/planet-generator": "*"
   },
   "devDependencies": {
     "esbuild": "*",

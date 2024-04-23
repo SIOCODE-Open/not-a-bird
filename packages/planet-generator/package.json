@@ -1,0 +1,11 @@
+{
+    "name": "@not-a-bird/planet-generator",
+    "version": "0.0.1",
+    "private": true,
+    "main": "src/index.ts",
+    "dependencies": {
+        "@not-a-bird/model": "*",
+        "@not-a-bird/seeded-random": "*",
+        "@not-a-bird/star-system-generator": "*"
+    }
+}

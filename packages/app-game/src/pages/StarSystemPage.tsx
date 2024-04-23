@@ -5,12 +5,14 @@ import { $starMapService } from "../service/StarMapService";
 import { $starSystemService } from "../service/StarSystemService";
 import { Button } from "../components/Button";
 import { StarSystemTutorial } from "../tutorials/StarSystemTutorial";
+import { $planetService } from "../service/PlanetService";
 
 export function StarSystemPage(props: { navigate: (path: string) => void }) {
   const [regionX, setRegionX] = useState(0);
   const [regionY, setRegionY] = useState(0);
   const [systemN, setSystemN] = useState(0);
   const [starSystem, setStarSystem] = useState(null);
+  const [starSystemPlanets, setStarSystemPlanets] = useState([]);
 
   const onSelectPlanet = (planetN: number) => {
     $starSystemService.selectedPlanetCoordinates = [
@@ -34,6 +36,17 @@ export function StarSystemPage(props: { navigate: (path: string) => void }) {
         selectedCoords[2],
       );
       setStarSystem(system);
+      const systemPlanets = [];
+      for (let nPlanet = 0; nPlanet < system.numPlanets; nPlanet++) {
+        const generatedPlanet = await $planetService.getPlanet(
+          selectedCoords[0],
+          selectedCoords[1],
+          selectedCoords[2],
+          nPlanet,
+        );
+        systemPlanets.push(generatedPlanet);
+      }
+      setStarSystemPlanets(systemPlanets);
     };
     perform();
   }, []);
@@ -47,7 +60,7 @@ export function StarSystemPage(props: { navigate: (path: string) => void }) {
         <Card className="mt w-100">
           <h5>Planets</h5>
           {starSystem &&
-            starSystem.planets.map((planet, planetIndex) => (
+            starSystemPlanets.map((planet, planetIndex) => (
               <Button onClick={() => onSelectPlanet(planetIndex)}>
                 {planet.name}
               </Button>

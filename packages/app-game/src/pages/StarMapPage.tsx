@@ -5,6 +5,7 @@ import { Group } from "../components/Group";
 import { $starMapService } from "../service/StarMapService";
 import { Button } from "../components/Button";
 import { StarMapTutorial } from "../tutorials/StarMapTutorial";
+import { $starSystemService } from "../service/StarSystemService";
 
 export function StarMapPage(props: { navigate: (path: string) => void }) {
   const [regionX, setRegionX] = useState(
@@ -19,7 +20,12 @@ export function StarMapPage(props: { navigate: (path: string) => void }) {
   const onRegionCoordinatesChanged = () => {
     const perform = async () => {
       const region = await $starMapService.getRegion(regionX, regionY);
-      setRegionSystems(region.starSystems);
+      const regionSystems = [];
+      for (let nSystem = 0; nSystem < region.numStarSystems; nSystem++) {
+        const generatedSystem = await $starSystemService.getStarSystem(regionX, regionY, nSystem);
+        regionSystems.push(generatedSystem);
+      }
+      setRegionSystems(regionSystems);
       setRegionName(region.name);
     };
     perform();
