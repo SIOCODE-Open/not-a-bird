@@ -5,6 +5,7 @@ import { FrankPage } from "./pages/FrankPage";
 import { GameOverPage } from "./pages/GameOverPage";
 import { StarMapPage } from "./pages/StarMapPage";
 import { StarSystemPage } from "./pages/StarSystemPage";
+import { ItemsWikiPage } from "./pages/ItemsWikiPage";
 
 const pages: Array<{ path: string; component: any }> = [
   { path: "/landing-page", component: LandingPage },
@@ -13,6 +14,7 @@ const pages: Array<{ path: string; component: any }> = [
   { path: "/game", component: GamePage },
   { path: "/game-over", component: GameOverPage },
   { path: "/frank", component: FrankPage },
+  { path: "/items-wiki", component: ItemsWikiPage },
 ];
 
 export function NotABirdApp() {
