@@ -49,11 +49,24 @@
 
 ### Frank
 
-| Note                 | ClockIn                          | ClockOut                         | Total |
-| :------------------- | :------------------------------- | :------------------------------- | :---- |
-| Add Frank Page       | Mon Apr 22 05:00:00 PM CEST 2024 | Mon Apr 22 05:45:00 PM CEST 2024 | -     |
-| Do Figma for Landing | -                                | -                                | -     |
+| Note           | ClockIn                          | ClockOut                         | Total |
+| :------------- | :------------------------------- | :------------------------------- | :---- |
+| Add Frank Page | Mon Apr 22 05:00:00 PM CEST 2024 | Mon Apr 22 05:50:00 PM CEST 2024 | 0:50  |
+| Do Figma Base  | Mon Apr 22 07:10:00 PM CEST 2024 | Mon Apr 22 08:30:00 PM CEST 2024 | 1:20  |
+| Do Figma Base  | Mon Apr 22 08:35:00 PM CEST 2024 | Mon Apr 22 09:30:00 PM CEST 2024 | 0:55  |
+| Landing Page   | Tue Apr 23 08:10:00 AM CEST 2024 | Tue Apr 23 09:15:00 AM CEST 2024 | 1:05  |
+| Landing Page   | Tue Apr 23 09:30:00 AM CEST 2024 | Tue Apr 23 10:10:00 AM CEST 2024 | 0:40  |
+| Total          | -                                | -                                | 4:50  |
+| SetUp Ink      | -                                | -                                | -     |
 
 - [x] Do one commit
 - [x] Add A Frank Page, seperation of Concern
 - [ ] Do Figma For Landing
+  - [x] Set Colorshema
+  - [x] Set Fonts
+  - [x] Do Landing
+  - [ ] wait for feedback
+- [ ] Create Smart Contract Outline
+  - [ ] Mint A
+  - [ ] Mint B
+  - [ ] Burn A + B -> Get C
