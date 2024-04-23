@@ -27,6 +27,7 @@
 
 ## Backend
 
+
 - [ ] More detailed breakdown of the tasks
 - [ ] Packages & architecture for game logic
 - [ ] Game logic implementation without blockchain, let's call it `local`
