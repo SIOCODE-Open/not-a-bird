@@ -14,11 +14,13 @@ export function StarMapPage(props: { navigate: (path: string) => void }) {
     -127 + Math.floor(Math.random() * 256),
   );
   const [regionSystems, setRegionSystems] = useState([]);
+  const [regionName, setRegionName] = useState("");
 
   const onRegionCoordinatesChanged = () => {
     const perform = async () => {
       const region = await $starMapService.getRegion(regionX, regionY);
       setRegionSystems(region.starSystems);
+      setRegionName(region.name);
     };
     perform();
   };
@@ -54,15 +56,21 @@ export function StarMapPage(props: { navigate: (path: string) => void }) {
         </Card>
 
         <Card className="mt w-100">
+          <h5>{regionName}</h5>
+        </Card>
+
+        <Card className="mt w-100">
           <h5>Star Systems</h5>
-          {regionSystems.map((system, systemIndex) => (
-            <Button
-              key={system.id}
-              onClick={() => onSelectStarSystem(systemIndex)}
-            >
-              {system.name}
-            </Button>
-          ))}
+          <Group>
+            {regionSystems.map((system, systemIndex) => (
+              <Button
+                key={system.id}
+                onClick={() => onSelectStarSystem(systemIndex)}
+              >
+                {system.name}
+              </Button>
+            ))}
+          </Group>
         </Card>
       </Card>
     </CenteredLayout>

@@ -1,4 +1,5 @@
 import { ISpaceRegion, IStarSystem } from "@not-a-bird/model";
+import { generateRegion } from "@not-a-bird/region-generator";
 
 export interface IStarMapService {
   getRegion(x: number, y: number): ISpaceRegion;
@@ -8,7 +9,7 @@ export interface IStarMapService {
 class StarMapServiceImpl implements IStarMapService {
   private _selectedStarSystemCoordinates: [number, number, number] = [0, 0, 0];
 
-  constructor() {}
+  constructor() { }
 
   public get selectedStarSystemCoordinates(): [number, number, number] {
     return this._selectedStarSystemCoordinates;
@@ -25,16 +26,39 @@ class StarMapServiceImpl implements IStarMapService {
       planets: [
         {
           name: "Dummy Planet",
-          type: "earthlike",
+          type: "M",
+          inventorySlots: [
+            {
+              quantity: 0
+            },
+            {
+              quantity: 0
+            },
+            {
+              quantity: 0
+            },
+            {
+              quantity: 0
+            },
+          ],
+          size: 2
         },
       ],
     };
   }
 
   getRegion(x: number, y: number): ISpaceRegion {
+    const generatedRegion = generateRegion(x, y);
+    const starSystems: Array<IStarSystem> = [];
+
+    for (let i = 0; i < generatedRegion.numStarSystems; i++) {
+      starSystems.push(this.dummyStarSystem(x, y));
+    }
+
     return {
       coordinates: [x, y],
-      starSystems: [this.dummyStarSystem(x, y)],
+      name: generatedRegion.name,
+      starSystems,
     };
   }
 }
