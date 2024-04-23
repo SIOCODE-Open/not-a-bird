@@ -41,14 +41,18 @@ export function StarSystemPage(props: { navigate: (path: string) => void }) {
   return (<>
     <CenteredLayout>
       <Card>
-        <h5>{starSystem && starSystem.name}</h5>
-        <h5>Planets</h5>
-        {starSystem &&
-          starSystem.planets.map((planet, planetIndex) => (
-            <Button onClick={() => onSelectPlanet(planetIndex)}>
-              {planet.name}
-            </Button>
-          ))}
+        <Card>
+          <h5>{starSystem && starSystem.name}</h5>
+        </Card>
+        <Card className="mt w-100">
+          <h5>Planets</h5>
+          {starSystem &&
+            starSystem.planets.map((planet, planetIndex) => (
+              <Button onClick={() => onSelectPlanet(planetIndex)}>
+                {planet.name}
+              </Button>
+            ))}
+        </Card>
       </Card>
     </CenteredLayout>
     <StarSystemTutorial />

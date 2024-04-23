@@ -53,7 +53,7 @@ export function StarMapPage(props: { navigate: (path: string) => void }) {
           </Group>
         </Card>
 
-        <Card>
+        <Card className="mt w-100">
           <h5>Star Systems</h5>
           {regionSystems.map((system, systemIndex) => (
             <Button
