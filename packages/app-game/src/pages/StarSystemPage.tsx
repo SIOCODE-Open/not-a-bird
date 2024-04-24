@@ -15,12 +15,7 @@ export function StarSystemPage(props: { navigate: (path: string) => void }) {
   const [starSystemPlanets, setStarSystemPlanets] = useState([]);
 
   const onSelectPlanet = (planetN: number) => {
-    $starSystemService.selectedPlanetCoordinates = [
-      regionX,
-      regionY,
-      systemN,
-      planetN,
-    ];
+    $starSystemService.selectPlanet(planetN);
     props.navigate("/game");
   };
 
@@ -61,7 +56,7 @@ export function StarSystemPage(props: { navigate: (path: string) => void }) {
           <h5>Planets</h5>
           {starSystem &&
             starSystemPlanets.map((planet, planetIndex) => (
-              <Button onClick={() => onSelectPlanet(planetIndex)}>
+              <Button key={planetIndex} onClick={() => onSelectPlanet(planetIndex)}>
                 {planet.name}
               </Button>
             ))}

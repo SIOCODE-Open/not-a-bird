@@ -6,6 +6,7 @@ import { $starMapService } from "../service/StarMapService";
 import { Button } from "../components/Button";
 import { StarMapTutorial } from "../tutorials/StarMapTutorial";
 import { $starSystemService } from "../service/StarSystemService";
+import { $starMapChangesService } from "../service/StarMapChangesService";
 
 export function StarMapPage(props: { navigate: (path: string) => void }) {
   const [regionX, setRegionX] = useState(
@@ -17,28 +18,50 @@ export function StarMapPage(props: { navigate: (path: string) => void }) {
   const [regionSystems, setRegionSystems] = useState([]);
   const [regionName, setRegionName] = useState("");
 
+  const populateRegion = async () => {
+    const region = await $starMapService.getRegion(regionX, regionY);
+    const regionSystems = [];
+    for (let nSystem = 0; nSystem < region.numStarSystems; nSystem++) {
+      const generatedSystem = await $starSystemService.getStarSystem(regionX, regionY, nSystem);
+      regionSystems.push(generatedSystem);
+    }
+    setRegionSystems(regionSystems);
+    setRegionName(region.name);
+  };
+
   const onRegionCoordinatesChanged = () => {
     const perform = async () => {
-      const region = await $starMapService.getRegion(regionX, regionY);
-      const regionSystems = [];
-      for (let nSystem = 0; nSystem < region.numStarSystems; nSystem++) {
-        const generatedSystem = await $starSystemService.getStarSystem(regionX, regionY, nSystem);
-        regionSystems.push(generatedSystem);
-      }
-      setRegionSystems(regionSystems);
-      setRegionName(region.name);
+      await populateRegion();
     };
     perform();
   };
 
   const onSelectStarSystem = (n: number) => {
-    $starMapService.selectedStarSystemCoordinates = [regionX, regionY, n];
+    $starMapService.selectStarSystem(n);
+    $starSystemService.selectPlanet(0);
     props.navigate("/star-system");
   };
 
   useEffect(onRegionCoordinatesChanged, [regionX, regionY]);
 
   useEffect(onRegionCoordinatesChanged, []);
+
+  useEffect(
+    () => {
+      // Select before subscribing
+      $starMapService.selectRegion(regionX, regionY);
+      const regionCoordsSub = $starMapChangesService.regionCoordinatesChanged.subscribe(
+        (newCoords: [number, number]) => {
+          setRegionX(newCoords[0]);
+          setRegionY(newCoords[1]);
+        },
+      );
+      return () => {
+        regionCoordsSub.unsubscribe();
+      };
+    },
+    []
+  );
 
   return (<>
     <CenteredLayout>
@@ -70,7 +93,7 @@ export function StarMapPage(props: { navigate: (path: string) => void }) {
           <Group>
             {regionSystems.map((system, systemIndex) => (
               <Button
-                key={system.id}
+                key={systemIndex}
                 onClick={() => onSelectStarSystem(systemIndex)}
               >
                 {system.name}

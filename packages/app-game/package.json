@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "*",
     "react-dom": "*",
+    "rxjs": "*",
     "@not-a-bird/assets": "*",
     "@not-a-bird/region-generator": "*",
     "@not-a-bird/star-system-generator": "*",
