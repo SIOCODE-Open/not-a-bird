@@ -1,0 +1,17 @@
+$horizontal-sizes: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-items: flex-start;
+
+    @each $size in $horizontal-sizes {
+        &.has-#{$size}-columns {
+            .column {
+                flex: 0 0 calc(100% / #{$size});
+            }
+        }
+    }
+    
+}

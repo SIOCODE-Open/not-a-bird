@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
 
-export function Button(props: { onClick?: () => void; children?: ReactNode }) {
+export function Button(props: { onClick?: () => void; children?: ReactNode, className?: string }) {
   return (
-    <button className="elevated button" onClick={props.onClick}>
+    <button className={"elevated button " + (props.className || "")} onClick={props.onClick}>
       {props.children}
     </button>
   );

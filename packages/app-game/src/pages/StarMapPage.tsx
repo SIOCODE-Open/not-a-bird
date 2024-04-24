@@ -7,6 +7,8 @@ import { Button } from "../components/Button";
 import { StarMapTutorial } from "../tutorials/StarMapTutorial";
 import { $starSystemService } from "../service/StarSystemService";
 import { $starMapChangesService } from "../service/StarMapChangesService";
+import { StackedLayout } from "../layout/StackedLayout";
+import { HorizontalLayout } from "../layout/HorizontalLayout";
 
 export function StarMapPage(props: { navigate: (path: string) => void }) {
   const [regionX, setRegionX] = useState(
@@ -31,6 +33,7 @@ export function StarMapPage(props: { navigate: (path: string) => void }) {
 
   const onRegionCoordinatesChanged = () => {
     const perform = async () => {
+      $starMapService.selectRegion(regionX, regionY);
       await populateRegion();
     };
     perform();
@@ -52,6 +55,7 @@ export function StarMapPage(props: { navigate: (path: string) => void }) {
       $starMapService.selectRegion(regionX, regionY);
       const regionCoordsSub = $starMapChangesService.regionCoordinatesChanged.subscribe(
         (newCoords: [number, number]) => {
+          if (newCoords[0] === regionX && newCoords[1] === regionY) return;
           setRegionX(newCoords[0]);
           setRegionY(newCoords[1]);
         },
@@ -64,9 +68,41 @@ export function StarMapPage(props: { navigate: (path: string) => void }) {
   );
 
   return (<>
-    <CenteredLayout>
-      <Card>
-        <Card>
+    <StackedLayout layers={[
+      {
+        className: "h-100",
+        content: <CenteredLayout>
+          <HorizontalLayout columns={[
+            {
+              className: "padded",
+              content: <Card className="mt w-100">
+                <h5>{regionName}</h5>
+                <Group>
+                  {regionSystems.map((system, systemIndex) => (
+                    <Button
+                      key={systemIndex}
+                      onClick={() => onSelectStarSystem(systemIndex)}
+                      className="mx mb"
+                    >
+                      {system.name}
+                    </Button>
+                  ))}
+                </Group>
+              </Card>
+            },
+            {
+              className: "padded",
+              content: <Card className="mt w-100">
+                <h5>Star system details</h5>
+              </Card>
+            }
+          ]} />
+        </CenteredLayout>
+      },
+
+      {
+        className: "padded top-left",
+        content: <Card>
           <h5>Coordinates</h5>
           <Group>
             <input
@@ -83,26 +119,9 @@ export function StarMapPage(props: { navigate: (path: string) => void }) {
             />
           </Group>
         </Card>
+      },
 
-        <Card className="mt w-100">
-          <h5>{regionName}</h5>
-        </Card>
-
-        <Card className="mt w-100">
-          <h5>Star Systems</h5>
-          <Group>
-            {regionSystems.map((system, systemIndex) => (
-              <Button
-                key={systemIndex}
-                onClick={() => onSelectStarSystem(systemIndex)}
-              >
-                {system.name}
-              </Button>
-            ))}
-          </Group>
-        </Card>
-      </Card>
-    </CenteredLayout>
+    ]} />
     <StarMapTutorial />
   </>);
 }

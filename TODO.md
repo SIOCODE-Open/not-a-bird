@@ -43,6 +43,8 @@
 - [X] Add an items wiki page (see [`packages/app-game/src/pages/ItemsWikiPage.tsx`](packages/app-game/src/pages/ItemsWikiPage.tsx))
 - [X] Game page should have a FAB for the items wiki
 - [ ] Add an item details wiki page
+- [X] A stacked layout component for position: absolute layers (see [`packages/app-game/src/layout/StackedLayout.tsx`](packages/app-game/src/layout/StackedLayout.tsx), [`packages/app-game/src/style/_stacked.scss`](packages/app-game/src/style/_stacked.scss))
+- [X] A horizontal layout component for equally sized column layout (see [`packages/app-game/src/layout/HorizontalLayout.tsx`](packages/app-game/src/layout/HorizontalLayout.tsx), [`packages/app-game/src/style/_horizontal.scss`](packages/app-game/src/style/_horizontal.scss))
 
 ## Backend
 
