@@ -15,6 +15,9 @@ rock = { path = "rock", default-features = false, features = [
 stone = { path = "stone", default-features = false, features = [
   "ink-as-dependency",
 ] }
+gem = { path = "gem", default-features = false, features = [
+  "ink-as-dependency",
+] }
 
 
 [dev-dependencies]
@@ -24,7 +27,7 @@ ink_e2e = { version = "5.0.0" }
 path = "lib.rs"
 
 [features]
-std = ["ink/std", "other-contract/std", "rock/std", "stone/std"]
+std = ["ink/std", "other-contract/std", "rock/std", "stone/std", "gem/std"]
 default = ["std"]
 ink-as-dependency = []
-e2e-tests = []
+# e2e-tests = []

@@ -1,19 +1,25 @@
 #![cfg_attr(not(feature = "std"), no_std, no_main)]
 
 #[ink::contract]
-mod cross_contract_calls {
+mod gem_creator {
+    use gem::GemRef;
     use rock::RockRef;
     use stone::StoneRef;
 
     #[ink(storage)]
-    pub struct CrossContractCalls {
+    pub struct GemCreator {
+        gem: GemRef,
         rock: RockRef,
         stone: StoneRef,
     }
 
-    impl CrossContractCalls {
+    impl GemCreator {
         #[ink(constructor)]
-        pub fn new_v2_no_limits(rock_code_hash: Hash, stone_code_hash: Hash) -> Self {
+        pub fn new_v2_no_limits(
+            rock_code_hash: Hash,
+            stone_code_hash: Hash,
+            gem_code_hash: Hash,
+        ) -> Self {
             let rock = RockRef::new()
                 .code_hash(rock_code_hash)
                 .endowment(0)
@@ -24,10 +30,19 @@ mod cross_contract_calls {
                 .endowment(0)
                 .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
                 .instantiate();
+            let gem = GemRef::new()
+                .code_hash(gem_code_hash)
+                .endowment(0)
+                .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
+                .instantiate();
 
-            Self { rock, stone }
+            Self { rock, stone, gem }
         }
         #[ink(message)]
-        pub fn hola(&self) {}
+        pub fn create_gem(&self) {
+            //burn rock
+            //burn stone
+            //mint gem
+        }
     }
 }
