@@ -3,8 +3,9 @@ import { useState } from "react";
 import { useFrank } from "../service/FrankService";
 
 export function FrankPage(props: { navigate: (path: string) => void }) {
-  const [mintNumber, setMintNumber] = useState(new BN(2));
-  const { mintRock, getRockOwnerOf, getStoneOwnerOf, mintStone } = useFrank();
+  const [mintNumber, setMintNumber] = useState(new BN(1));
+  const { mintRock, getRockOwnerOf, getStoneOwnerOf, mintStone, createGem } =
+    useFrank();
 
   return (
     <>
@@ -29,7 +30,7 @@ export function FrankPage(props: { navigate: (path: string) => void }) {
         <hr style={{ borderTop: "1px solid black", width: "200px" }}></hr>
 
         <br />
-        <button>Create Gem</button>
+        <button onClick={async () => createGem()}>Create Gem</button>
       </div>
     </>
   );
