@@ -6,6 +6,10 @@ edition = "2021"
 
 [dependencies]
 ink = { version = "5.0.0", default-features = false }
+other-contract = { path = "other-contract", default-features = false, features = [
+  "ink-as-dependency",
+] }
+
 
 [dev-dependencies]
 ink_e2e = { version = "5.0.0" }
@@ -14,7 +18,7 @@ ink_e2e = { version = "5.0.0" }
 path = "lib.rs"
 
 [features]
+std = ["ink/std", "other-contract/std"]
 default = ["std"]
-std = ["ink/std"]
 ink-as-dependency = []
 e2e-tests = []
