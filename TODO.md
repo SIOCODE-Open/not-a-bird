@@ -91,11 +91,15 @@
 | Landing Page   | Tue Apr 23 08:10:00 AM CEST 2024 | Tue Apr 23 09:15:00 AM CEST 2024 | 1:05  |
 | Landing Page   | Tue Apr 23 09:30:00 AM CEST 2024 | Tue Apr 23 10:10:00 AM CEST 2024 | 0:40  |
 | Total          | -                                | -                                | 4:50  |
-| SetUp Ink      | Tue Apr 23 11:40:00 AM CEST 2024 | Tue Apr 23 12:15:00 PM CEST 2024 | -     |
-| Write Script   | Wed Apr 24 07:30:00 AM CEST 2024 | Wed Apr 24 10:00:00 AM CEST 2024 |       |
-| Write Script   | Wed Apr 24 10:55:00 AM CEST 2024 | Wed Apr 24 11:35:00 AM CEST 2024 |       |
-| Write Script   | Wed Apr 24 11:50:00 AM CEST 2024 | Wed Apr 24 12:35:00 PM CEST 2024 |       |
-| Merge Logic    | Thu Apr 25 07:20:00 AM CEST 2024 | Thu Apr 25 08:20:00 AM CEST 2024 |       |
+| SetUp Ink      | Tue Apr 23 11:40:00 AM CEST 2024 | Tue Apr 23 12:15:00 PM CEST 2024 | 0:35  |
+| Write Script   | Wed Apr 24 07:30:00 AM CEST 2024 | Wed Apr 24 10:00:00 AM CEST 2024 | 0:30  |
+| Write Script   | Wed Apr 24 10:55:00 AM CEST 2024 | Wed Apr 24 11:35:00 AM CEST 2024 | 0:40  |
+| Write Script   | Wed Apr 24 11:50:00 AM CEST 2024 | Wed Apr 24 12:35:00 PM CEST 2024 | 0:45  |
+| Merge Logic    | Thu Apr 25 07:20:00 AM CEST 2024 | Thu Apr 25 08:20:00 AM CEST 2024 | 1:00  |
+| Merge Logic    | Thu Apr 25 08:25:00 AM CEST 2024 | Thu Apr 25 09:30:00 AM CEST 2024 | 1:05  |
+| Total          | -                                | -                                | 9:25  |
+| Merge Logic    | Thu Apr 25 09:40:00 AM CEST 2024 | Thu Apr 25 10:10:00 AM CEST 2024 |       |
+| Merge Logic    | Thu Apr 25 11:10:00 AM CEST 2024 | Thu Apr 25 12:90:00 AM CEST 2024 |       |
 
 - [x] Do one commit
 - [x] Add A Frank Page, seperation of Concern
@@ -112,7 +116,9 @@
 - [ ] Iteration till `merge merge boom`
   - [x] modularize it
   - [x] Create stone_nft
-  - [ ] Create rock_nft
-  - [ ] Create merge.rs which eats 2 stones and mints 1 rock.
-  - [ ] Create nodeJS to merge two rocks with one stone.
-  - [ ] Create merge button in FranksPage.
+  - [x] Create rock_nft
+  - [x] Throw them in seperate modules
+  - [x] Create conract, which impots boths
+  - [x] Create gem_nft
+  - [x] Create notes.md of how to manually deploy and interact with gem_creator contract
+  - [ ] Create create_gem button in FranksPage.
