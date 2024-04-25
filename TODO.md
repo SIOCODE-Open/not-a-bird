@@ -40,11 +40,11 @@
 - [x] Split SCSS button from main bundle (see [`packages/app-game/src/style/_button.scss`](packages/app-game/src/style/_button.scss))
 - [x] Split SCSS Unbounded font face from main bundle (see [`packages/app-game/src/style/_typography.scss`](packages/app-game/src/style/_typography.scss))
 - [ ] Tutorials should only be shown once globally
-- [X] Add an items wiki page (see [`packages/app-game/src/pages/ItemsWikiPage.tsx`](packages/app-game/src/pages/ItemsWikiPage.tsx))
-- [X] Game page should have a FAB for the items wiki
+- [x] Add an items wiki page (see [`packages/app-game/src/pages/ItemsWikiPage.tsx`](packages/app-game/src/pages/ItemsWikiPage.tsx))
+- [x] Game page should have a FAB for the items wiki
 - [ ] Add an item details wiki page
-- [X] A stacked layout component for position: absolute layers (see [`packages/app-game/src/layout/StackedLayout.tsx`](packages/app-game/src/layout/StackedLayout.tsx), [`packages/app-game/src/style/_stacked.scss`](packages/app-game/src/style/_stacked.scss))
-- [X] A horizontal layout component for equally sized column layout (see [`packages/app-game/src/layout/HorizontalLayout.tsx`](packages/app-game/src/layout/HorizontalLayout.tsx), [`packages/app-game/src/style/_horizontal.scss`](packages/app-game/src/style/_horizontal.scss))
+- [x] A stacked layout component for position: absolute layers (see [`packages/app-game/src/layout/StackedLayout.tsx`](packages/app-game/src/layout/StackedLayout.tsx), [`packages/app-game/src/style/_stacked.scss`](packages/app-game/src/style/_stacked.scss))
+- [x] A horizontal layout component for equally sized column layout (see [`packages/app-game/src/layout/HorizontalLayout.tsx`](packages/app-game/src/layout/HorizontalLayout.tsx), [`packages/app-game/src/style/_horizontal.scss`](packages/app-game/src/style/_horizontal.scss))
 
 ## Backend
 
@@ -94,6 +94,8 @@
 | SetUp Ink      | Tue Apr 23 11:40:00 AM CEST 2024 | Tue Apr 23 12:15:00 PM CEST 2024 | -     |
 | Write Script   | Wed Apr 24 07:30:00 AM CEST 2024 | Wed Apr 24 10:00:00 AM CEST 2024 |       |
 | Write Script   | Wed Apr 24 10:55:00 AM CEST 2024 | Wed Apr 24 11:35:00 AM CEST 2024 |       |
+| Write Script   | Wed Apr 24 11:50:00 AM CEST 2024 | Wed Apr 24 12:35:00 PM CEST 2024 |       |
+| Merge Logic    | Thu Apr 25 07:20:00 AM CEST 2024 | Thu Apr 25 08:20:00 AM CEST 2024 |       |
 
 - [x] Do one commit
 - [x] Add A Frank Page, seperation of Concern
@@ -102,9 +104,15 @@
   - [x] Set Fonts
   - [x] Do Landing
   - [x] wait for feedback
-- [ ] Create Smart Contract Base
   - [x] Create PSP34 Base
-  - [ ] Write NodeJS Base
+  - [x] Write NodeJS Base
     - [x] Write instantiate.js
     - [x] write get_call.js
-    - [ ] Write write_call.j0
+    - [x] Write write_call.js
+- [ ] Iteration till `merge merge boom`
+  - [x] modularize it
+  - [x] Create stone_nft
+  - [ ] Create rock_nft
+  - [ ] Create merge.rs which eats 2 stones and mints 1 rock.
+  - [ ] Create nodeJS to merge two rocks with one stone.
+  - [ ] Create merge button in FranksPage.
