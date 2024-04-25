@@ -11,6 +11,7 @@ mod gem_creator {
         gem: GemRef,
         rock: RockRef,
         stone: StoneRef,
+        gem_minted: bool,
     }
 
     impl GemCreator {
@@ -35,14 +36,30 @@ mod gem_creator {
                 .endowment(0)
                 .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
                 .instantiate();
+            let gem_minted = true;
 
-            Self { rock, stone, gem }
+            Self {
+                rock,
+                stone,
+                gem,
+                gem_minted,
+            }
         }
+
         #[ink(message)]
-        pub fn create_gem(&self) {
-            //burn rock
-            //burn stone
-            //mint gem
+        pub fn create_gem(&mut self) -> Result<(), ()> {
+            let _ = self.stone.mint(1);
+            let _ = self.rock.mint(1);
+            let _ = self.stone.burn(1);
+            let _ = self.rock.burn(1);
+            let _ = self.gem.mint(1);
+            self.gem_minted = true;
+            Ok(())
+        }
+
+        #[ink(message)]
+        pub fn gem_is_minted(&self) -> bool {
+            self.gem_minted
         }
     }
 }
