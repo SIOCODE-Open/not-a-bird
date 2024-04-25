@@ -14,13 +14,15 @@ mod gem_creator {
         gem_minted: bool,
     }
 
+    #[derive(Debug, PartialEq, Eq, Copy, Clone)]
+    #[ink::scale_derive(Encode, Decode, TypeInfo)]
+    pub enum GemCreatorError {
+        DoesntWork,
+    }
+
     impl GemCreator {
         #[ink(constructor)]
-        pub fn new_v2_no_limits(
-            rock_code_hash: Hash,
-            stone_code_hash: Hash,
-            gem_code_hash: Hash,
-        ) -> Self {
+        pub fn new(rock_code_hash: Hash, stone_code_hash: Hash, gem_code_hash: Hash) -> Self {
             let rock = RockRef::new()
                 .code_hash(rock_code_hash)
                 .endowment(0)
@@ -36,7 +38,7 @@ mod gem_creator {
                 .endowment(0)
                 .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
                 .instantiate();
-            let gem_minted = true;
+            let gem_minted = false;
 
             Self {
                 rock,
@@ -47,12 +49,27 @@ mod gem_creator {
         }
 
         #[ink(message)]
-        pub fn create_gem(&mut self) -> Result<(), ()> {
-            let _ = self.stone.mint(1);
-            let _ = self.rock.mint(1);
-            let _ = self.stone.burn(1);
-            let _ = self.rock.burn(1);
-            let _ = self.gem.mint(1);
+        pub fn create_gem(&mut self) -> Result<(), GemCreatorError> {
+            if self.gem_minted {
+                return Err(GemCreatorError::DoesntWork);
+            }
+
+            if self.stone.mint(1).is_err() {
+                return Err(GemCreatorError::DoesntWork);
+            }
+            if self.rock.mint(1).is_err() {
+                return Err(GemCreatorError::DoesntWork);
+            }
+            if self.stone.burn(1).is_err() {
+                return Err(GemCreatorError::DoesntWork);
+            }
+            if self.rock.burn(1).is_err() {
+                return Err(GemCreatorError::DoesntWork);
+            }
+            if self.gem.mint(1).is_err() {
+                return Err(GemCreatorError::DoesntWork);
+            }
+
             self.gem_minted = true;
             Ok(())
         }
