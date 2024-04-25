@@ -49,24 +49,24 @@ mod gem_creator {
         }
 
         #[ink(message)]
-        pub fn create_gem(&mut self) -> Result<(), GemCreatorError> {
+        pub fn create_gem(&mut self, mint_number: u32) -> Result<(), GemCreatorError> {
             if self.gem_minted {
                 return Err(GemCreatorError::DoesntWork);
             }
 
-            if self.stone.mint(1).is_err() {
+            if self.stone.mint(mint_number).is_err() {
                 return Err(GemCreatorError::DoesntWork);
             }
-            if self.rock.mint(1).is_err() {
+            if self.rock.mint(mint_number).is_err() {
                 return Err(GemCreatorError::DoesntWork);
             }
-            if self.stone.burn(1).is_err() {
+            if self.stone.burn(mint_number).is_err() {
                 return Err(GemCreatorError::DoesntWork);
             }
-            if self.rock.burn(1).is_err() {
+            if self.rock.burn(mint_number).is_err() {
                 return Err(GemCreatorError::DoesntWork);
             }
-            if self.gem.mint(1).is_err() {
+            if self.gem.mint(mint_number).is_err() {
                 return Err(GemCreatorError::DoesntWork);
             }
 

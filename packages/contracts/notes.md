@@ -1,20 +1,20 @@
-# Notes 
+# Notes
 
 **Rock**  
-Code Hash: 0xf0f1d7bd6033cf36073779c585ce6618f221ea75ada1d765bf3dba2d4972343d  
-Contract: 5G8tYCMLZQYgwE9hkYNq5orJXEDhTCMu6kRa5frW4nY6bVsS  
+Code hash: 0xf0f1d7bd6033cf36073779c585ce6618f221ea75ada1d765bf3dba2d4972343d  
+Contract: 5G8tYCMLZQYgwE9hkYNq5orJXEDhTCMu6kRa5frW4nY6bVsS
 
 **Stone**  
-Code Hash: 0xfa7c986661caa52ac783e1e1b33763136bf908eaeeb5f71b88a0f21d188c67f8  
-Contract: 5GexZHnN2FpPD91324YFT1K7oUxugdqycmhRo4irX9CsD8XS  
+Code hash: 0xfa7c986661caa52ac783e1e1b33763136bf908eaeeb5f71b88a0f21d188c67f8  
+Contract: 5GexZHnN2FpPD91324YFT1K7oUxugdqycmhRo4irX9CsD8XS
 
-**Gem:**   
-Code Hash: 0x1b553c17f78eabc6774c3a19421d2bcaa97fdef10db0454be175708db0f8a0f1  
-Contract: 5EwBoamaJYogJw12BLg56opa89EAA8fw5feQGbZus5JeKW5F  
+**Gem:**  
+Code hash: 0x1b553c17f78eabc6774c3a19421d2bcaa97fdef10db0454be175708db0f8a0f1
+Contract: 5EwBoamaJYogJw12BLg56opa89EAA8fw5feQGbZus5JeKW5F
 
-**GemCreater:**    
-Code Hash: 0xfd04245f4d8af6b95353cf3532fb9f6814bb484deda5133dcceab769703e3f38  
-Contract: 5EKEqV82jqMLsuuG4gB9dg6zYHNwFyFCx53pugqKQ6jyQqWU  
+**GemCreater:**  
+Code hash: 0xfbd5e01c88fa270745839df2a97047116b30e0cb19505a478e0853f0ea16811a
+Contract: 5CJVVuLeTiszM5GfG1Tgf25DhGSAUuDLtT1xLZoJGrjaSgL3
 
 ## How to deploy and interact
 
@@ -33,7 +33,7 @@ Contract: 5EKEqV82jqMLsuuG4gB9dg6zYHNwFyFCx53pugqKQ6jyQqWU
 10. `cd ../gem`
 11. `cargo contract build`
 12. `cargo contract instantiate --skip-confirm --suri //Alice`
-13. Replace CodeHash and Contract in this file under Gem 
+13. Replace CodeHash and Contract in this file under Gem
 
 14. `cd ../`
 15. `cargo contract build`
