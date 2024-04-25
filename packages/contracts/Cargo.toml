@@ -12,6 +12,9 @@ other-contract = { path = "other-contract", default-features = false, features =
 rock = { path = "rock", default-features = false, features = [
   "ink-as-dependency",
 ] }
+stone = { path = "stone", default-features = false, features = [
+  "ink-as-dependency",
+] }
 
 
 [dev-dependencies]
@@ -21,7 +24,7 @@ ink_e2e = { version = "5.0.0" }
 path = "lib.rs"
 
 [features]
-std = ["ink/std", "other-contract/std", "rock/std"]
+std = ["ink/std", "other-contract/std", "rock/std", "stone/std"]
 default = ["std"]
 ink-as-dependency = []
 e2e-tests = []

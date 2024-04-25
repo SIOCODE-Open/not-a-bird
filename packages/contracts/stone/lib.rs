@@ -1,16 +1,16 @@
 #![cfg_attr(not(feature = "std"), no_std, no_main)]
 
-pub use self::rock_nft::{Rock, RockRef};
+pub use self::stone_nft::{Stone, StoneRef};
 
 #[ink::contract]
-pub mod rock_nft {
+pub mod stone_nft {
     use ink::storage::Mapping;
 
     pub type TokenId = u32;
 
     #[ink(storage)]
     #[derive(Default)]
-    pub struct Rock {
+    pub struct Stone {
         token_owner: Mapping<TokenId, AccountId>,
         owned_tokens_count: Mapping<AccountId, u32>,
     }
@@ -27,7 +27,7 @@ pub mod rock_nft {
     }
 
     #[ink(event)]
-    pub struct TransferRock {
+    pub struct TransferStone {
         #[ink(topic)]
         from: Option<AccountId>,
         #[ink(topic)]
@@ -36,7 +36,7 @@ pub mod rock_nft {
         id: TokenId,
     }
 
-    impl Rock {
+    impl Stone {
         #[ink(constructor)]
         pub fn new() -> Self {
             Default::default()
@@ -63,7 +63,7 @@ pub mod rock_nft {
         pub fn mint(&mut self, id: TokenId) -> Result<(), Error> {
             let caller = self.env().caller();
             self.add_token_to(&caller, id)?;
-            self.env().emit_event(TransferRock {
+            self.env().emit_event(TransferStone {
                 from: Some(AccountId::from([0x0; 32])),
                 to: Some(caller),
                 id,
@@ -92,7 +92,7 @@ pub mod rock_nft {
             owned_tokens_count.insert(caller, &count);
             token_owner.remove(id);
 
-            self.env().emit_event(TransferRock {
+            self.env().emit_event(TransferStone {
                 from: Some(caller),
                 to: Some(AccountId::from([0x0; 32])),
                 id,
@@ -114,7 +114,7 @@ pub mod rock_nft {
             };
             self.remove_token_from(from, id)?;
             self.add_token_to(to, id)?;
-            self.env().emit_event(TransferRock {
+            self.env().emit_event(TransferStone {
                 from: Some(*from),
                 to: Some(*to),
                 id,
