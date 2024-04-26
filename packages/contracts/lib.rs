@@ -11,7 +11,7 @@ mod gem_creator {
         gem: GemRef,
         rock: RockRef,
         stone: StoneRef,
-        gem_minted: bool,
+        gem_count: u32,
     }
 
     #[derive(Debug, PartialEq, Eq, Copy, Clone)]
@@ -38,13 +38,13 @@ mod gem_creator {
                 .endowment(0)
                 .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
                 .instantiate();
-            let gem_minted = false;
+            let gem_count = 0u32;
 
             Self {
                 rock,
                 stone,
                 gem,
-                gem_minted,
+                gem_count,
             }
         }
 
@@ -71,14 +71,13 @@ mod gem_creator {
                 return Err(GemCreatorError::DoesntWork);
             }
 
-            /*say gem is minted*/
-            self.gem_minted = true;
+            self.gem_count = self.gem_count.wrapping_add(1u32);
             Ok(())
         }
 
         #[ink(message)]
-        pub fn gem_is_minted(&self) -> bool {
-            self.gem_minted
+        pub fn get_gem_number(&self) -> u32 {
+            self.gem_count
         }
     }
 }
