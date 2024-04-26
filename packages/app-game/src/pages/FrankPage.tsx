@@ -30,7 +30,7 @@ export function FrankPage(props: { navigate: (path: string) => void }) {
         <hr style={{ borderTop: "1px solid black", width: "200px" }}></hr>
 
         <br />
-        <button onClick={async () => createGem()}>Create Gem</button>
+        <button onClick={async () => createGem(new BN(3))}>Create Gem</button>
       </div>
     </>
   );

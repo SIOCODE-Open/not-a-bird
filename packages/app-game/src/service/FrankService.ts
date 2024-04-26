@@ -8,7 +8,7 @@ export const rockContractAdress =
 export const stoneContractAdress =
   "5GexZHnN2FpPD91324YFT1K7oUxugdqycmhRo4irX9CsD8XS";
 export const gemCreatorContractAdress =
-  "5CJVVuLeTiszM5GfG1Tgf25DhGSAUuDLtT1xLZoJGrjaSgL3";
+  "5Fh52rxaPZU7aZUEAokbqmgnYPc3d96ddiLhrgX4d6yaEafC";
 
 export function useFrank() {
   async function getRockOwnerOf(mintNumber: BN) {
