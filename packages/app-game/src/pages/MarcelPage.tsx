@@ -1,8 +1,8 @@
 import { MouseEventHandler, useState } from "react";
 
 export function MarcelPage(props: { navigate: (path: string) => { void } }) {
-  const [strElement1, setstrElement1] = useState("Wurst");
-  const [strElement2, setstrElement2] = useState("Apfel");
+  const [label1, setLabel1] = useState("Krystal");
+  const [label2, setLabel2] = useState("Kohle");
 
   const [isDragging, setIsDragging] = useState(false);
   const [offsetX, setOffsetX] = useState(0);
@@ -36,10 +36,16 @@ export function MarcelPage(props: { navigate: (path: string) => { void } }) {
   return (
     <>
       <div className="cardBackground" onMouseDown={handleMouseDown} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp}>
-        {strElement2}
+        <div className="centerContainerPictureAndText">
+          <img src="assets/items/item.crystal.png" style={{ width: "100%", height: "100%" }} />
+          <p className="modifyCardP">{label1}</p>
+        </div>
       </div>
       <div className="cardBackground" onMouseDown={handleMouseDown} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp}>
-        {strElement1}
+        <div className="centerContainerPictureAndText">
+          <img src="assets/items/item.coalbag.png" style={{ width: "100%", height: "100%" }} />
+          <p className="modifyCardP">{label2}</p>
+        </div>
       </div>
     </>
   );
