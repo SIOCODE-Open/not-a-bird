@@ -23,19 +23,20 @@ mod gem_creator {
     impl GemCreator {
         #[ink(constructor)]
         pub fn new(rock_code_hash: Hash, stone_code_hash: Hash, gem_code_hash: Hash) -> Self {
+            let total_balance = Self::env().balance();
             let rock = RockRef::new()
+                .endowment(total_balance / 4)
                 .code_hash(rock_code_hash)
-                .endowment(0)
                 .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
                 .instantiate();
             let stone = StoneRef::new()
+                .endowment(total_balance / 4)
                 .code_hash(stone_code_hash)
-                .endowment(0)
                 .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
                 .instantiate();
             let gem = GemRef::new()
+                .endowment(total_balance / 4)
                 .code_hash(gem_code_hash)
-                .endowment(0)
                 .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
                 .instantiate();
             let gem_count = 0u32;
@@ -49,28 +50,18 @@ mod gem_creator {
         }
 
         #[ink(message)]
-        pub fn create_gem(&mut self, mint_number: u32) -> Result<(), GemCreatorError> {
+        pub fn create_gem(&mut self) -> Result<(), GemCreatorError> {
+            let gem_count = self.gem_count;
             /*mint stone*/
-            if self.stone.mint(mint_number).is_err() {
-                return Err(GemCreatorError::DoesntWork);
-            }
+            let _ = self.stone.mint(gem_count);
             /*mint rock*/
-            if self.rock.mint(mint_number).is_err() {
-                return Err(GemCreatorError::DoesntWork);
-            }
+            let _ = self.rock.mint(gem_count);
             /*burn stone*/
-            if self.stone.burn(mint_number).is_err() {
-                return Err(GemCreatorError::DoesntWork);
-            }
+            let _ = self.stone.burn(gem_count);
             /*burn rock*/
-            if self.rock.burn(mint_number).is_err() {
-                return Err(GemCreatorError::DoesntWork);
-            }
+            let _ = self.rock.burn(gem_count);
             /*mint gem*/
-            if self.gem.mint(mint_number).is_err() {
-                return Err(GemCreatorError::DoesntWork);
-            }
-
+            let _ = self.gem.mint(gem_count);
             self.gem_count = self.gem_count.wrapping_add(1u32);
             Ok(())
         }
@@ -78,6 +69,11 @@ mod gem_creator {
         #[ink(message)]
         pub fn get_gem_number(&self) -> u32 {
             self.gem_count
+        }
+
+        #[ink(message)]
+        pub fn inc_gem_number(&mut self) {
+            self.gem_count = self.gem_count.wrapping_add(1u32);
         }
     }
 }
