@@ -8,7 +8,7 @@ export const rockContractAdress =
 export const stoneContractAdress =
   "5GexZHnN2FpPD91324YFT1K7oUxugdqycmhRo4irX9CsD8XS";
 export const gemCreatorContractAdress =
-  "5Fh52rxaPZU7aZUEAokbqmgnYPc3d96ddiLhrgX4d6yaEafC";
+  "5EM2cVurGbt9otLcnqoSw348wJSSN4keCXGZZzjb3qwzwTNJ";
 
 export function useFrank() {
   async function getRockOwnerOf(mintNumber: BN) {
@@ -139,7 +139,7 @@ export function useFrank() {
     );
   }
 
-  async function createGem(mintNumber: BN) {
+  async function createGem() {
     const wsProvider = new WsProvider("ws://127.0.0.1:9944");
     const api = await ApiPromise.create({ provider: wsProvider });
     const res = await fetch("./gem_creator.json");
@@ -151,22 +151,24 @@ export function useFrank() {
     const alicePair = keyring.addFromUri("//Alice");
 
     const gasLimit: WeightV2 = api.registry.createType("WeightV2", {
-      refTime: new BN("2000000000"),
-      proofSize: new BN("200000"),
+      refTime: new BN("200000000000"),
+      proofSize: new BN("20000000"),
     });
     const storageDepositLimit = null;
 
     await contract.tx
-      .createGem({ gasLimit, storageDepositLimit }, mintNumber)
+      .createGem({ gasLimit, storageDepositLimit })
       .signAndSend(alicePair, (result) => {});
 
-    const { output } = await contract.query.gemIsMinted(alicePair.address, {
-      gasLimit,
-      storageDepositLimit,
-    });
-    console.log(
-      `GemCreator minted Gem. Gem is ${output.toJSON()["ok"]} ly minted.`,
+    const { output, result } = await contract.query.getGemNumber(
+      alicePair.address,
+      {
+        gasLimit,
+        storageDepositLimit,
+      },
     );
+    console.log(`The gemnumber is now ${output} `);
+    console.log(`The gemnumber is now ${result} `);
   }
 
   return { getRockOwnerOf, mintRock, getStoneOwnerOf, mintStone, createGem };
