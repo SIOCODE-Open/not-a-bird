@@ -8,26 +8,24 @@ export function MarcelPage(props: { navigate: (path: string) => { void } }) {
   const [offsetX, setOffsetX] = useState(0);
   const [offsetY, setOffsetY] = useState(0);
 
-  function changeName(newStr: string) {
-    if (strElement1) setstrElement1(newStr);
-    else {
-      setstrElement2;
-    }
-  }
-
-  const handleMouseDown = (event) => {
+  const handleMouseDown = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
     setIsDragging(true);
-    setOffsetX(event.clientX - event.target.getBoundingClientRect().left);
-    setOffsetY(event.clientY - event.target.getBoundingClientRect().top);
+
+    const target = event.currentTarget as HTMLElement;
+    const rect = target.getBoundingClientRect();
+
+    setOffsetX(event.clientX - rect.left);
+    setOffsetY(event.clientY - rect.top);
   };
 
-  const handleMouseMove = (event) => {
+  const handleMouseMove = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
     if (isDragging) {
       const posX = event.clientX - offsetX;
       const posY = event.clientY - offsetY;
 
-      event.target.style.left = posX + "px";
-      event.target.style.top = posY + "px";
+      const target = event.currentTarget as HTMLElement;
+      target.style.left = posX + "px";
+      target.style.top = posY + "px";
     }
   };
 
