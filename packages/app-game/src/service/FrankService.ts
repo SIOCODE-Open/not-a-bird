@@ -3,31 +3,30 @@ import { ContractPromise } from "@polkadot/api-contract";
 import type { WeightV2 } from "@polkadot/types/interfaces";
 import { BN } from "@polkadot/util";
 
-export const rockContractAdress =
-  "5G8tYCMLZQYgwE9hkYNq5orJXEDhTCMu6kRa5frW4nY6bVsS";
-export const stoneContractAdress =
-  "5GexZHnN2FpPD91324YFT1K7oUxugdqycmhRo4irX9CsD8XS";
-export const gemCreatorContractAdress =
-  "5EM2cVurGbt9otLcnqoSw348wJSSN4keCXGZZzjb3qwzwTNJ";
+export const metalContractAdress =
+  "5DivQJzBkaLJJNVUiSdJs4aWQM7MepJk5MdRZwonH9w2T9PB";
+export const crystalContractAdress =
+  "5C5bQbCjtHU4VgatZucseJMV3uWAW4SrS3T635MUpAbWWrGR";
+export const metcrysCreatorContractAdress =
+  "5EgJWjqMxMaWe4KaJU2jTfpteRnr2NkFV65687iPkjf1A58z";
 
 export function useFrank() {
-  async function getRockOwnerOf(mintNumber: BN) {
+  async function getMetalOwnerOf(mintNumber: BN) {
     const wsProvider = new WsProvider("ws://127.0.0.1:9944");
     const api = await ApiPromise.create({ provider: wsProvider });
     const keyring = new Keyring({ type: "sr25519" });
     const alicePair = keyring.addFromUri("//Alice");
-    // const rockContractAdress = "";
-    const res = await fetch("./rock.json");
+    const res = await fetch("./metal.json");
     const abi = await res.json();
 
-    const contract = new ContractPromise(api, abi, rockContractAdress);
+    const metalContract = new ContractPromise(api, abi, metalContractAdress);
     const gasLimit: WeightV2 = api.registry.createType("WeightV2", {
       refTime: new BN("2000000000"),
       proofSize: new BN("200000"),
     });
     const storageDepositLimit = null;
 
-    const { output } = await contract.query.ownerOf(
+    const { output } = await metalContract.query.ownerOf(
       alicePair.address,
       {
         gasLimit,
@@ -37,17 +36,17 @@ export function useFrank() {
     );
 
     console.log(
-      `Rock (${mintNumber.toString()}) is owned by ${output.toJSON()["ok"]}`,
+      `Metal (${mintNumber.toString()}) is owned by ${output.toJSON()["ok"]}`,
     );
   }
 
-  async function mintRock(mintNumber: BN) {
+  async function mintMetal(mintNumber: BN) {
     const wsProvider = new WsProvider("ws://127.0.0.1:9944");
     const api = await ApiPromise.create({ provider: wsProvider });
-    const res = await fetch("./rock.json");
+    const res = await fetch("./metal.json");
     const abi = await res.json();
     // const rockContractAdress = "";
-    const contract = new ContractPromise(api, abi, rockContractAdress);
+    const metalContract = new ContractPromise(api, abi, metalContractAdress);
 
     const keyring = new Keyring({ type: "sr25519" });
     const alicePair = keyring.addFromUri("//Alice");
@@ -58,11 +57,11 @@ export function useFrank() {
     });
     const storageDepositLimit = null;
 
-    await contract.tx
+    await metalContract.tx
       .mint({ gasLimit, storageDepositLimit }, mintNumber)
       .signAndSend(alicePair, () => {});
 
-    const { output } = await contract.query.ownerOf(
+    const { output } = await metalContract.query.ownerOf(
       alicePair.address,
       {
         gasLimit,
@@ -71,27 +70,30 @@ export function useFrank() {
       mintNumber,
     );
     console.log(
-      `Rock (${mintNumber.toString()}) is minted by ${output.toJSON()["ok"]}`,
+      `Metal (${mintNumber.toString()}) is minted by ${output.toJSON()["ok"]}`,
     );
   }
 
-  async function getStoneOwnerOf(mintNumber: BN) {
+  async function getCrystalOwnerOf(mintNumber: BN) {
     const wsProvider = new WsProvider("ws://127.0.0.1:9944");
     const api = await ApiPromise.create({ provider: wsProvider });
     const keyring = new Keyring({ type: "sr25519" });
     const alicePair = keyring.addFromUri("//Alice");
-    // const stoneContractAdress = "";
-    const res = await fetch("./rock.json");
+    const res = await fetch("./metal.json");
     const abi = await res.json();
 
-    const contract = new ContractPromise(api, abi, stoneContractAdress);
+    const crystalContract = new ContractPromise(
+      api,
+      abi,
+      crystalContractAdress,
+    );
     const gasLimit: WeightV2 = api.registry.createType("WeightV2", {
       refTime: new BN("2000000000"),
       proofSize: new BN("200000"),
     });
     const storageDepositLimit = null;
 
-    const { output } = await contract.query.ownerOf(
+    const { output } = await crystalContract.query.ownerOf(
       alicePair.address,
       {
         gasLimit,
@@ -101,17 +103,21 @@ export function useFrank() {
     );
 
     console.log(
-      `Stone (${mintNumber.toString()}) is owned by ${output.toJSON()["ok"]}`,
+      `Crystal (${mintNumber.toString()}) is owned by ${output.toJSON()["ok"]}`,
     );
   }
 
-  async function mintStone(mintNumber: BN) {
+  async function mintCrystal(mintNumber: BN) {
     const wsProvider = new WsProvider("ws://127.0.0.1:9944");
     const api = await ApiPromise.create({ provider: wsProvider });
-    const res = await fetch("./stone.json");
+    const res = await fetch("./crystal.json");
     const abi = await res.json();
-    // const stoneContractAdress = "";
-    const contract = new ContractPromise(api, abi, stoneContractAdress);
+
+    const crystalContract = new ContractPromise(
+      api,
+      abi,
+      crystalContractAdress,
+    );
 
     const keyring = new Keyring({ type: "sr25519" });
     const alicePair = keyring.addFromUri("//Alice");
@@ -122,11 +128,11 @@ export function useFrank() {
     });
     const storageDepositLimit = null;
 
-    await contract.tx
+    await crystalContract.tx
       .mint({ gasLimit, storageDepositLimit }, mintNumber)
       .signAndSend(alicePair, () => {});
 
-    const { output } = await contract.query.ownerOf(
+    const { output } = await crystalContract.query.ownerOf(
       alicePair.address,
       {
         gasLimit,
@@ -135,17 +141,21 @@ export function useFrank() {
       mintNumber,
     );
     console.log(
-      `Stone (${mintNumber.toString()}) is minted by ${output.toJSON()["ok"]}`,
+      `Crystal (${mintNumber.toString()}) is minted by ${output.toJSON()["ok"]}`,
     );
   }
 
-  async function createGem() {
+  async function createMetcrys() {
     const wsProvider = new WsProvider("ws://127.0.0.1:9944");
     const api = await ApiPromise.create({ provider: wsProvider });
-    const res = await fetch("./gem_creator.json");
+    const res = await fetch("./metcrys_creator.json");
     const abi = await res.json();
-    // const gemCreatorContractAdress = "";
-    const contract = new ContractPromise(api, abi, gemCreatorContractAdress);
+
+    const metcrysCreatorContract = new ContractPromise(
+      api,
+      abi,
+      metcrysCreatorContractAdress,
+    );
 
     const keyring = new Keyring({ type: "sr25519" });
     const alicePair = keyring.addFromUri("//Alice");
@@ -156,20 +166,59 @@ export function useFrank() {
     });
     const storageDepositLimit = null;
 
-    await contract.tx
+    await metcrysCreatorContract.tx
       .createGem({ gasLimit, storageDepositLimit })
       .signAndSend(alicePair, (result) => {});
 
-    const { output, result } = await contract.query.getGemNumber(
+    const { output, result } = await metcrysCreatorContract.query.getGemNumber(
       alicePair.address,
       {
         gasLimit,
         storageDepositLimit,
       },
     );
-    console.log(`The gemnumber is now ${output} `);
-    console.log(`The gemnumber is now ${result} `);
+    console.log(`The metcrys is minted`);
+    console.log(`The metcrys count is now ${output.toJSON()["ok"]} `);
   }
 
-  return { getRockOwnerOf, mintRock, getStoneOwnerOf, mintStone, createGem };
+  async function getMetcrysCount() {
+    const wsProvider = new WsProvider("ws://127.0.0.1:9944");
+    const api = await ApiPromise.create({ provider: wsProvider });
+    const res = await fetch("./metcrys_creator.json");
+    const abi = await res.json();
+
+    const metcrysCreatorContract = new ContractPromise(
+      api,
+      abi,
+      metcrysCreatorContractAdress,
+    );
+
+    const keyring = new Keyring({ type: "sr25519" });
+    const alicePair = keyring.addFromUri("//Alice");
+
+    const gasLimit: WeightV2 = api.registry.createType("WeightV2", {
+      refTime: new BN("200000000000"),
+      proofSize: new BN("20000000"),
+    });
+    const storageDepositLimit = null;
+
+    const { output, result } = await metcrysCreatorContract.query.getGemNumber(
+      alicePair.address,
+      {
+        gasLimit,
+        storageDepositLimit,
+      },
+    );
+    console.log(`The metcrys count is now ${output.toJSON()["ok"]} `);
+    return `${output.toJSON()["ok"]}`;
+  }
+
+  return {
+    getMetalOwnerOf,
+    mintMetal,
+    getCrystalOwnerOf,
+    mintCrystal,
+    createMetcrys,
+    getMetcrysCount,
+  };
 }

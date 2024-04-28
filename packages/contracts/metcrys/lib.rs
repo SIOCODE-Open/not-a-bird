@@ -1,27 +1,27 @@
 #![cfg_attr(not(feature = "std"), no_std, no_main)]
 
-pub use self::gem_nft::{Gem, GemRef};
+pub use self::metcrys_nft::{Metcrys, MetcrysRef};
 
 #[ink::contract]
-pub mod gem_nft {
+pub mod metcrys_nft {
     use ink::storage::Mapping;
 
     pub type TokenId = u32;
 
     #[ink(storage)]
     #[derive(Default)]
-    pub struct Gem {
+    pub struct Metcrys {
         token_owner: Mapping<TokenId, AccountId>,
         owned_tokens_count: Mapping<AccountId, u32>,
     }
 
     #[derive(Debug, PartialEq, Eq, Copy, Clone)]
     #[ink::scale_derive(Encode, Decode, TypeInfo)]
-    pub enum GemError {
+    pub enum MetcrysError {
         DoesntWork,
     }
 
-    impl Gem {
+    impl Metcrys {
         #[ink(constructor)]
         pub fn new() -> Self {
             Default::default()
@@ -38,13 +38,13 @@ pub mod gem_nft {
         }
 
         #[ink(message)]
-        pub fn mint(&mut self, id: TokenId) -> Result<(), GemError> {
+        pub fn mint(&mut self, id: TokenId) -> Result<(), MetcrysError> {
             let caller = self.env().caller();
             self.add_token_to(&caller, id)?;
             Ok(())
         }
 
-        fn add_token_to(&mut self, to: &AccountId, id: TokenId) -> Result<(), GemError> {
+        fn add_token_to(&mut self, to: &AccountId, id: TokenId) -> Result<(), MetcrysError> {
             let Self {
                 token_owner,
                 owned_tokens_count,
@@ -52,11 +52,11 @@ pub mod gem_nft {
             } = self;
 
             if token_owner.contains(id) {
-                return Err(GemError::DoesntWork);
+                return Err(MetcrysError::DoesntWork);
             }
 
             if *to == AccountId::from([0x0; 32]) {
-                return Err(GemError::DoesntWork);
+                return Err(MetcrysError::DoesntWork);
             };
 
             let count = owned_tokens_count
