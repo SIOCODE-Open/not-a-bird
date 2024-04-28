@@ -83,36 +83,37 @@
 
 ### Frank
 
-| Note             | ClockIn                          | ClockOut                         | Total |
-| :--------------- | :------------------------------- | :------------------------------- | :---- |
-| Add Frank Page   | Mon Apr 22 05:00:00 PM CEST 2024 | Mon Apr 22 05:50:00 PM CEST 2024 | 0:50  |
-| Do Figma Base    | Mon Apr 22 07:10:00 PM CEST 2024 | Mon Apr 22 08:30:00 PM CEST 2024 | 1:20  |
-| Do Figma Base    | Mon Apr 22 08:35:00 PM CEST 2024 | Mon Apr 22 09:30:00 PM CEST 2024 | 0:55  |
-| Landing Page     | Tue Apr 23 08:10:00 AM CEST 2024 | Tue Apr 23 09:15:00 AM CEST 2024 | 1:05  |
-| Landing Page     | Tue Apr 23 09:30:00 AM CEST 2024 | Tue Apr 23 10:10:00 AM CEST 2024 | 0:40  |
-| Total            | -                                | -                                | 4:50  |
-| SetUp Ink        | Tue Apr 23 11:40:00 AM CEST 2024 | Tue Apr 23 12:15:00 PM CEST 2024 | 0:35  |
-| Write Script     | Wed Apr 24 07:30:00 AM CEST 2024 | Wed Apr 24 10:00:00 AM CEST 2024 | 0:30  |
-| Write Script     | Wed Apr 24 10:55:00 AM CEST 2024 | Wed Apr 24 11:35:00 AM CEST 2024 | 0:40  |
-| Write Script     | Wed Apr 24 11:50:00 AM CEST 2024 | Wed Apr 24 12:35:00 PM CEST 2024 | 0:45  |
-| Merge Logic      | Thu Apr 25 07:20:00 AM CEST 2024 | Thu Apr 25 08:20:00 AM CEST 2024 | 1:00  |
-| Merge Logic      | Thu Apr 25 08:25:00 AM CEST 2024 | Thu Apr 25 09:30:00 AM CEST 2024 | 1:05  |
-| Total            | -                                | -                                | 9:25  |
-| Merge Logic      | Thu Apr 25 09:40:00 AM CEST 2024 | Thu Apr 25 10:10:00 AM CEST 2024 | 0:30  |
-| Merge Logic      | Thu Apr 25 11:10:00 AM CEST 2024 | Thu Apr 25 12:30:00 AM CEST 2024 | 1:20  |
-| Bit Frontend     | Thu Apr 25 12:40:00 PM CEST 2024 | Thu Apr 25 01:25:00 PM CEST 2024 | 1:45  |
-| Bit Frontend     | Thu Apr 25 04:10:00 PM CEST 2024 | Thu Apr 25 05:20:00 PM CEST 2024 | 1:10  |
-| Bit Frontend     | Thu Apr 25 04:30:00 PM CEST 2024 | Thu Apr 25 04:50:00 PM CEST 2024 | 0:20  |
-| Fix Bug Frontend | Fri Apr 26 09:30:00 AM CEST 2024 | Fri Apr 26 10:00:00 AM CEST 2024 | 0:30  |
-| Fix Bug Frontend | Fri Apr 26 10:20:00 AM CEST 2024 | Fri Apr 26 11:50:00 AM CEST 2024 | 1:30  |
-| Fix Bug Frontend | Fri Apr 26 12:00:00 AM CEST 2024 | Fri Apr 26 12:55:00 AM CEST 2024 | 0:55  |
-| Fix Bug Frontend | Sat Apr 27 08:00:00 AM CEST 2024 | Sat Apr 27 08:50:00 AM CEST 2024 | 0:50  |
-| Fix Bug Frontend | Sat Apr 27 09:00:00 AM CEST 2024 | Sat Apr 27 09:50:00 AM CEST 2024 | 0:50  |
-| Record the glory | Sat Apr 27 09:55:00 AM CEST 2024 | Sat Apr 27 10:20:00 AM CEST 2024 | 0:25  |
-| Align Fro & Cro  | Sun Apr 28 08:50:29 AM CEST 2024 | Sun Apr 28 09:10:00 AM CEST 2024 | 0:20  |
-| Align Fro & Cro  | Sun Apr 28 09:15:29 AM CEST 2024 | Sun Apr 28 09:50:00 AM CEST 2024 | 0:35  |
-| Create Helper    | Sun Apr 28 09:55:00 AM CEST 2024 | Sun Apr 28 10:45:00 AM CEST 2024 | 0:50  |
-| Align Fro & Cro  | Sun Apr 28 10:45:00 AM CEST 2024 | Sun Apr 28 11:20:00 AM CEST 2024 | 0:35  |
+| Note               | ClockIn                          | ClockOut                         | Total |
+| :----------------- | :------------------------------- | :------------------------------- | :---- |
+| Add Frank Page     | Mon Apr 22 05:00:00 PM CEST 2024 | Mon Apr 22 05:50:00 PM CEST 2024 | 0:50  |
+| Do Figma Base      | Mon Apr 22 07:10:00 PM CEST 2024 | Mon Apr 22 08:30:00 PM CEST 2024 | 1:20  |
+| Do Figma Base      | Mon Apr 22 08:35:00 PM CEST 2024 | Mon Apr 22 09:30:00 PM CEST 2024 | 0:55  |
+| Landing Page       | Tue Apr 23 08:10:00 AM CEST 2024 | Tue Apr 23 09:15:00 AM CEST 2024 | 1:05  |
+| Landing Page       | Tue Apr 23 09:30:00 AM CEST 2024 | Tue Apr 23 10:10:00 AM CEST 2024 | 0:40  |
+| Total              | -                                | -                                | 4:50  |
+| SetUp Ink          | Tue Apr 23 11:40:00 AM CEST 2024 | Tue Apr 23 12:15:00 PM CEST 2024 | 0:35  |
+| Write Script       | Wed Apr 24 07:30:00 AM CEST 2024 | Wed Apr 24 10:00:00 AM CEST 2024 | 0:30  |
+| Write Script       | Wed Apr 24 10:55:00 AM CEST 2024 | Wed Apr 24 11:35:00 AM CEST 2024 | 0:40  |
+| Write Script       | Wed Apr 24 11:50:00 AM CEST 2024 | Wed Apr 24 12:35:00 PM CEST 2024 | 0:45  |
+| Merge Logic        | Thu Apr 25 07:20:00 AM CEST 2024 | Thu Apr 25 08:20:00 AM CEST 2024 | 1:00  |
+| Merge Logic        | Thu Apr 25 08:25:00 AM CEST 2024 | Thu Apr 25 09:30:00 AM CEST 2024 | 1:05  |
+| Total              | -                                | -                                | 9:25  |
+| Merge Logic        | Thu Apr 25 09:40:00 AM CEST 2024 | Thu Apr 25 10:10:00 AM CEST 2024 | 0:30  |
+| Merge Logic        | Thu Apr 25 11:10:00 AM CEST 2024 | Thu Apr 25 12:30:00 AM CEST 2024 | 1:20  |
+| Bit Frontend       | Thu Apr 25 12:40:00 PM CEST 2024 | Thu Apr 25 01:25:00 PM CEST 2024 | 1:45  |
+| Bit Frontend       | Thu Apr 25 04:10:00 PM CEST 2024 | Thu Apr 25 05:20:00 PM CEST 2024 | 1:10  |
+| Bit Frontend       | Thu Apr 25 04:30:00 PM CEST 2024 | Thu Apr 25 04:50:00 PM CEST 2024 | 0:20  |
+| Fix Bug Frontend   | Fri Apr 26 09:30:00 AM CEST 2024 | Fri Apr 26 10:00:00 AM CEST 2024 | 0:30  |
+| Fix Bug Frontend   | Fri Apr 26 10:20:00 AM CEST 2024 | Fri Apr 26 11:50:00 AM CEST 2024 | 1:30  |
+| Fix Bug Frontend   | Fri Apr 26 12:00:00 AM CEST 2024 | Fri Apr 26 12:55:00 AM CEST 2024 | 0:55  |
+| Fix Bug Frontend   | Sat Apr 27 08:00:00 AM CEST 2024 | Sat Apr 27 08:50:00 AM CEST 2024 | 0:50  |
+| Fix Bug Frontend   | Sat Apr 27 09:00:00 AM CEST 2024 | Sat Apr 27 09:50:00 AM CEST 2024 | 0:50  |
+| Record the glory   | Sat Apr 27 09:55:00 AM CEST 2024 | Sat Apr 27 10:20:00 AM CEST 2024 | 0:25  |
+| Align Fro & Cro    | Sun Apr 28 08:50:29 AM CEST 2024 | Sun Apr 28 09:10:00 AM CEST 2024 | 0:20  |
+| Align Fro & Cro    | Sun Apr 28 09:15:29 AM CEST 2024 | Sun Apr 28 09:50:00 AM CEST 2024 | 0:35  |
+| Create Helper      | Sun Apr 28 09:55:00 AM CEST 2024 | Sun Apr 28 10:45:00 AM CEST 2024 | 0:50  |
+| Align Fro & Cro    | Sun Apr 28 10:45:00 AM CEST 2024 | Sun Apr 28 11:20:00 AM CEST 2024 | 0:35  |
+| Think & WriteDraft | Sun Apr 28 11:25:00 AM CEST 2024 | Sun Apr 28 12:40:00 PM CEST 2024 | 1:15  |
 
 - [x] Do one commit
 - [x] Add A Frank Page, seperation of Concern
@@ -147,4 +148,5 @@
 - [x] rename thingies after marcelo session
 - [x] adjust contract call
 - [x] create helper
-- [ ] review & think & create fightplan draft
+- [x] review & think
+  - [x] Write simplistic draft, share it
