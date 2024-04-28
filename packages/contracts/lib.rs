@@ -2,15 +2,15 @@
 
 #[ink::contract]
 mod gem_creator {
+    use crystal::CrystalRef;
     use gem::GemRef;
     use metal::MetalRef;
-    use stone::StoneRef;
 
     #[ink(storage)]
     pub struct GemCreator {
         gem: GemRef,
         metal: MetalRef,
-        stone: StoneRef,
+        crystal: CrystalRef,
         gem_count: u32,
     }
 
@@ -29,7 +29,7 @@ mod gem_creator {
                 .code_hash(metal_code_hash)
                 .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
                 .instantiate();
-            let stone = StoneRef::new()
+            let crystal = CrystalRef::new()
                 .endowment(total_balance / 4)
                 .code_hash(stone_code_hash)
                 .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
@@ -43,7 +43,7 @@ mod gem_creator {
 
             Self {
                 metal,
-                stone,
+                crystal,
                 gem,
                 gem_count,
             }
@@ -53,11 +53,11 @@ mod gem_creator {
         pub fn create_gem(&mut self) -> Result<(), GemCreatorError> {
             let gem_count = self.gem_count;
             /*mint stone*/
-            let _ = self.stone.mint(gem_count);
+            let _ = self.crystal.mint(gem_count);
             /*mint rock*/
             let _ = self.metal.mint(gem_count);
             /*burn stone*/
-            let _ = self.stone.burn(gem_count);
+            let _ = self.crystal.burn(gem_count);
             /*burn rock*/
             let _ = self.metal.burn(gem_count);
             /*mint gem*/
