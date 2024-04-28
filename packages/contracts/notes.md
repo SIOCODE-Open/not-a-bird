@@ -46,3 +46,27 @@ Contract: 5Fh52rxaPZU7aZUEAokbqmgnYPc3d96ddiLhrgX4d6yaEafC
 22. Check if Result is Ok(true)
 
 23: :tada:
+
+### Iteration #3
+
+> Goal:  
+> Find a simplistic way to create the 15 definied Ressources.
+
+- User Traits to implent PSP37 Interface
+
+```plantuml
+@startuml
+!theme plain
+left to right direction
+interface Element{
+ + token_owner: Mapping<u32, AccountId>
+ + owned_tokens_count: Mapping<AccountId, u32>
+ + new()
+ + mint()
+ + burn()
+ + balance_of()
+ + owner_of()
+ + transfer()
+}
+@enduml
+```
