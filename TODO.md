@@ -98,13 +98,21 @@
 | Merge Logic      | Thu Apr 25 07:20:00 AM CEST 2024 | Thu Apr 25 08:20:00 AM CEST 2024 | 1:00  |
 | Merge Logic      | Thu Apr 25 08:25:00 AM CEST 2024 | Thu Apr 25 09:30:00 AM CEST 2024 | 1:05  |
 | Total            | -                                | -                                | 9:25  |
-| Merge Logic      | Thu Apr 25 09:40:00 AM CEST 2024 | Thu Apr 25 10:10:00 AM CEST 2024 |       |
-| Merge Logic      | Thu Apr 25 11:10:00 AM CEST 2024 | Thu Apr 25 12:90:00 AM CEST 2024 |       |
-| Bit Frontend     | Thu Apr 25 12:40:00 PM CEST 2024 | Thu Apr 25 01:25:00 PM CEST 2024 |       |
-| Bit Frontend     | Thu Apr 25 04:10:00 PM CEST 2024 | Thu Apr 25 05:20:00 PM CEST 2024 |       |
-| Bit Frontend     | Thu Apr 25 04:30:00 PM CEST 2024 | Thu Apr 25 04:50:00 PM CEST 2024 |       |
-| Fix Bug Frontend | Fri Apr 26 09:30:00 AM CEST 2024 | Fri Apr 26 10:00:00 AM CEST 2024 |       |
-| Fix Bug Frontend | Fri Apr 26 10:20:00 AM CEST 2024 | Fri Apr 26 11:50:00 AM CEST 2024 |       |
+| Merge Logic      | Thu Apr 25 09:40:00 AM CEST 2024 | Thu Apr 25 10:10:00 AM CEST 2024 | 0:30  |
+| Merge Logic      | Thu Apr 25 11:10:00 AM CEST 2024 | Thu Apr 25 12:30:00 AM CEST 2024 | 1:20  |
+| Bit Frontend     | Thu Apr 25 12:40:00 PM CEST 2024 | Thu Apr 25 01:25:00 PM CEST 2024 | 1:45  |
+| Bit Frontend     | Thu Apr 25 04:10:00 PM CEST 2024 | Thu Apr 25 05:20:00 PM CEST 2024 | 1:10  |
+| Bit Frontend     | Thu Apr 25 04:30:00 PM CEST 2024 | Thu Apr 25 04:50:00 PM CEST 2024 | 0:20  |
+| Fix Bug Frontend | Fri Apr 26 09:30:00 AM CEST 2024 | Fri Apr 26 10:00:00 AM CEST 2024 | 0:30  |
+| Fix Bug Frontend | Fri Apr 26 10:20:00 AM CEST 2024 | Fri Apr 26 11:50:00 AM CEST 2024 | 1:30  |
+| Fix Bug Frontend | Fri Apr 26 12:00:00 AM CEST 2024 | Fri Apr 26 12:55:00 AM CEST 2024 | 0:55  |
+| Fix Bug Frontend | Sat Apr 27 08:00:00 AM CEST 2024 | Sat Apr 27 08:50:00 AM CEST 2024 | 0:50  |
+| Fix Bug Frontend | Sat Apr 27 09:00:00 AM CEST 2024 | Sat Apr 27 09:50:00 AM CEST 2024 | 0:50  |
+| Record the glory | Sat Apr 27 09:55:00 AM CEST 2024 | Sat Apr 27 10:20:00 AM CEST 2024 | 0:25  |
+| Align Fro & Cro  | Sun Apr 28 08:50:29 AM CEST 2024 | Sun Apr 28 09:10:00 AM CEST 2024 | 0:20  |
+| Align Fro & Cro  | Sun Apr 28 09:15:29 AM CEST 2024 | Sun Apr 28 09:50:00 AM CEST 2024 | 0:35  |
+| Create Helper    | Sun Apr 28 09:55:00 AM CEST 2024 | Sun Apr 28 10:45:00 AM CEST 2024 | 0:50  |
+| Align Fro & Cro  | Sun Apr 28 10:45:00 AM CEST 2024 | Sun Apr 28 11:20:00 AM CEST 2024 | 0:35  |
 
 - [x] Do one commit
 - [x] Add A Frank Page, seperation of Concern
@@ -118,7 +126,7 @@
   - [x] Write instantiate.js
   - [x] write get_call.js
   - [x] Write write_call.js
-- [ ] Iteration till `merge merge boom`
+- [x] Iteration till `merge merge boom`
   - [x] modularize it
   - [x] Create stone_nft
   - [x] Create rock_nft
@@ -131,6 +139,12 @@
     - [x] mintRock(x)
     - [x] getStone(x)
     - [x] mintStone(x)
-    - [ ] createGem(x)
+    - [x] createGem(x)
       - [x] create auto deploy script
-      - [ ] create helper script in nodesJS
+      - [x] create helper script in nodesJS
+      - [x] apply nodeJs to browser version
+- [x] Record this glory 😬
+- [x] rename thingies after marcelo session
+- [x] adjust contract call
+- [x] create helper
+- [ ] review & think & create fightplan draft
