@@ -5,8 +5,8 @@ PID=$(ps aux | grep substrate-contracts-node | grep -v grep | awk '{print $2}')
 kill -9 $PID
 substrate-contracts-node --dev -l 0 &
 
-echo -e "\033[1;34m **Build rock** \033[0m"
-cd ~/not-a-bird/packages/contracts/rock/ && cargo contract build 2>&1 | tail -n 6
+echo -e "\033[1;34m **Build metal** \033[0m"
+cd ~/not-a-bird/packages/contracts/metal/ && cargo contract build 2>&1 | tail -n 6
 echo -e "\033[1;34m **Build stone** \033[0m"
 cd ~/not-a-bird/packages/contracts/stone/ && cargo contract build 2>&1 | tail -n 6
 echo -e "\033[1;34m **Build gem** \033[0m"
@@ -18,16 +18,16 @@ echo -e "\033[1;34m **Copying abis to ./public** \033[0m"
 cd ~/not-a-bird/packages/app-game/
 rm ~/not-a-bird/packages/app-game/public/*.json
 cp ~/not-a-bird/packages/contracts/target/ink/gem_creator.json ~/not-a-bird/packages/app-game/public/
-cp ~/not-a-bird/packages/contracts/rock/target/ink/rock.json ~/not-a-bird/packages/app-game/public/
+cp ~/not-a-bird/packages/contracts/metal/target/ink/rock.json ~/not-a-bird/packages/app-game/public/
 cp ~/not-a-bird/packages/contracts/stone/target/ink/stone.json ~/not-a-bird/packages/app-game/public/
 cp ~/not-a-bird/packages/contracts/gem/target/ink/gem.json ~/not-a-bird/packages/app-game/public/
 
 echo -e "\033[1;34m **Deploy rock contract** \033[0m"
-cd ~/not-a-bird/packages/contracts/rock/ && cargo contract instantiate --suri //Alice --skip-confirm --execute >~/not-a-bird/packages/app-game/tmp.log
-echo "Rock" >~/not-a-bird/packages/app-game/tmp2.log
+cd ~/not-a-bird/packages/contracts/metal/ && cargo contract instantiate --suri //Alice --skip-confirm --execute >~/not-a-bird/packages/app-game/tmp.log
+echo "Metal" >~/not-a-bird/packages/app-game/tmp2.log
 cat ~/not-a-bird/packages/app-game/tmp.log | grep "\<Code\ hash\>" | awk '{$1=$1};1' >>~/not-a-bird/packages/app-game/tmp2.log
 cat ~/not-a-bird/packages/app-game/tmp.log | grep "\<Contract\>" | awk '{$1=$1};1' >>~/not-a-bird/packages/app-game/tmp2.log
-rock_code_hash=$(cat ~/not-a-bird/packages/app-game/tmp2.log | grep "\<Code\ hash\>" | awk '{print $3}' | awk 'NR==1')
+metal_code_hash=$(cat ~/not-a-bird/packages/app-game/tmp2.log | grep "\<Code\ hash\>" | awk '{print $3}' | awk 'NR==1')
 
 echo -e "\033[1;34m **Deploy stone contract** \033[0m"
 cd ~/not-a-bird/packages/contracts/stone/ && cargo contract instantiate --suri //Alice --skip-confirm --execute >~/not-a-bird/packages/app-game/tmp.log
@@ -44,7 +44,7 @@ cat ~/not-a-bird/packages/app-game/tmp.log | grep "\<Contract\>" | awk '{$1=$1};
 gem_code_hash=$(cat ~/not-a-bird/packages/app-game/tmp2.log | grep "\<Code\ hash\>" | awk '{print $3}' | awk 'NR==3')
 
 echo -e "\033[1;34m **Deploy gem_creator contracts** \033[0m"
-cd ~/not-a-bird/packages/contracts/ && cargo contract instantiate --suri //Alice --skip-confirm --execute --args $rock_code_hash $stone_code_hash $gem_code_hash >~/not-a-bird/packages/app-game/tmp.log
+cd ~/not-a-bird/packages/contracts/ && cargo contract instantiate --suri //Alice --skip-confirm --execute --args $metal_code_hash $stone_code_hash $gem_code_hash >~/not-a-bird/packages/app-game/tmp.log
 echo "Gem Creator" >>~/not-a-bird/packages/app-game/tmp2.log
 cat ~/not-a-bird/packages/app-game/tmp.log | grep "\<Code\ hash\>" | awk '{$1=$1};1' >>~/not-a-bird/packages/app-game/tmp2.log
 cat ~/not-a-bird/packages/app-game/tmp.log | grep "\<Contract\>" | awk '{$1=$1};1' >>~/not-a-bird/packages/app-game/tmp2.log

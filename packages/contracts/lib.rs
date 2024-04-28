@@ -3,13 +3,13 @@
 #[ink::contract]
 mod gem_creator {
     use gem::GemRef;
-    use rock::RockRef;
+    use metal::MetalRef;
     use stone::StoneRef;
 
     #[ink(storage)]
     pub struct GemCreator {
         gem: GemRef,
-        rock: RockRef,
+        metal: MetalRef,
         stone: StoneRef,
         gem_count: u32,
     }
@@ -22,11 +22,11 @@ mod gem_creator {
 
     impl GemCreator {
         #[ink(constructor)]
-        pub fn new(rock_code_hash: Hash, stone_code_hash: Hash, gem_code_hash: Hash) -> Self {
+        pub fn new(metal_code_hash: Hash, stone_code_hash: Hash, gem_code_hash: Hash) -> Self {
             let total_balance = Self::env().balance();
-            let rock = RockRef::new()
+            let metal = MetalRef::new()
                 .endowment(total_balance / 4)
-                .code_hash(rock_code_hash)
+                .code_hash(metal_code_hash)
                 .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
                 .instantiate();
             let stone = StoneRef::new()
@@ -42,7 +42,7 @@ mod gem_creator {
             let gem_count = 0u32;
 
             Self {
-                rock,
+                metal,
                 stone,
                 gem,
                 gem_count,
@@ -55,11 +55,11 @@ mod gem_creator {
             /*mint stone*/
             let _ = self.stone.mint(gem_count);
             /*mint rock*/
-            let _ = self.rock.mint(gem_count);
+            let _ = self.metal.mint(gem_count);
             /*burn stone*/
             let _ = self.stone.burn(gem_count);
             /*burn rock*/
-            let _ = self.rock.burn(gem_count);
+            let _ = self.metal.burn(gem_count);
             /*mint gem*/
             let _ = self.gem.mint(gem_count);
             self.gem_count = self.gem_count.wrapping_add(1u32);

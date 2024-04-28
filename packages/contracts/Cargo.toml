@@ -9,7 +9,7 @@ ink = { version = "5.0.0", default-features = false }
 other-contract = { path = "other-contract", default-features = false, features = [
   "ink-as-dependency",
 ] }
-rock = { path = "rock", default-features = false, features = [
+metal = { path = "metal", default-features = false, features = [
   "ink-as-dependency",
 ] }
 stone = { path = "stone", default-features = false, features = [
@@ -23,6 +23,6 @@ gem = { path = "gem", default-features = false, features = [
 path = "lib.rs"
 
 [features]
-std = ["ink/std", "other-contract/std", "rock/std", "stone/std", "gem/std"]
+std = ["ink/std", "other-contract/std", "metal/std", "stone/std", "gem/std"]
 default = ["std"]
 ink-as-dependency = []
