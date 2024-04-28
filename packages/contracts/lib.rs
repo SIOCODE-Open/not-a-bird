@@ -3,26 +3,30 @@
 #[ink::contract]
 mod gem_creator {
     use crystal::CrystalRef;
-    use gem::GemRef;
     use metal::MetalRef;
+    use metcrys::MetcrysRef;
 
     #[ink(storage)]
-    pub struct GemCreator {
-        gem: GemRef,
+    pub struct MetcrysCreator {
         metal: MetalRef,
         crystal: CrystalRef,
+        metcrys: MetcrysRef,
         gem_count: u32,
     }
 
     #[derive(Debug, PartialEq, Eq, Copy, Clone)]
     #[ink::scale_derive(Encode, Decode, TypeInfo)]
-    pub enum GemCreatorError {
+    pub enum MetcrysError {
         DoesntWork,
     }
 
-    impl GemCreator {
+    impl MetcrysCreator {
         #[ink(constructor)]
-        pub fn new(metal_code_hash: Hash, stone_code_hash: Hash, gem_code_hash: Hash) -> Self {
+        pub fn new(
+            metal_code_hash: Hash,
+            crystal_code_hash: Hash,
+            metcrys_code_hash: Hash,
+        ) -> Self {
             let total_balance = Self::env().balance();
             let metal = MetalRef::new()
                 .endowment(total_balance / 4)
@@ -31,12 +35,12 @@ mod gem_creator {
                 .instantiate();
             let crystal = CrystalRef::new()
                 .endowment(total_balance / 4)
-                .code_hash(stone_code_hash)
+                .code_hash(crystal_code_hash)
                 .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
                 .instantiate();
-            let gem = GemRef::new()
+            let metcrys = MetcrysRef::new()
                 .endowment(total_balance / 4)
-                .code_hash(gem_code_hash)
+                .code_hash(metcrys_code_hash)
                 .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
                 .instantiate();
             let gem_count = 0u32;
@@ -44,13 +48,13 @@ mod gem_creator {
             Self {
                 metal,
                 crystal,
-                gem,
+                metcrys,
                 gem_count,
             }
         }
 
         #[ink(message)]
-        pub fn create_gem(&mut self) -> Result<(), GemCreatorError> {
+        pub fn create_gem(&mut self) -> Result<(), MetcrysError> {
             let gem_count = self.gem_count;
             /*mint stone*/
             let _ = self.crystal.mint(gem_count);
@@ -61,7 +65,7 @@ mod gem_creator {
             /*burn rock*/
             let _ = self.metal.burn(gem_count);
             /*mint gem*/
-            let _ = self.gem.mint(gem_count);
+            let _ = self.metcrys.mint(gem_count);
             self.gem_count = self.gem_count.wrapping_add(1u32);
             Ok(())
         }

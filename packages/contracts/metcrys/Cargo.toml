@@ -1,5 +1,5 @@
 [package]
-name = "gem"
+name = "metcrys"
 version = "5.0.0"
 authors = ["Frank Dierolf <frank_dierolf@web.de>"]
 edition = "2021"

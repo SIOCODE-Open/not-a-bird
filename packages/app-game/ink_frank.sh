@@ -9,18 +9,18 @@ echo -e "\033[1;34m **Build metal** \033[0m"
 cd ~/not-a-bird/packages/contracts/metal/ && cargo contract build 2>&1 | tail -n 6
 echo -e "\033[1;34m **Build crystal** \033[0m"
 cd ~/not-a-bird/packages/contracts/crystal/ && cargo contract build 2>&1 | tail -n 6
-echo -e "\033[1;34m **Build gem** \033[0m"
-cd ~/not-a-bird/packages/contracts/gem/ && cargo contract build 2>&1 | tail -n 6
-echo -e "\033[1;34m **Build gem_creator** \033[0m"
+echo -e "\033[1;34m **Build metcrys** \033[0m"
+cd ~/not-a-bird/packages/contracts/metcrys/ && cargo contract build 2>&1 | tail -n 6
+echo -e "\033[1;34m **Build metcrys_creator** \033[0m"
 cd ~/not-a-bird/packages/contracts/ && cargo contract build 2>&1 | tail -n 6
 
 echo -e "\033[1;34m **Copying abis to ./public** \033[0m"
 cd ~/not-a-bird/packages/app-game/
 rm ~/not-a-bird/packages/app-game/public/*.json
-cp ~/not-a-bird/packages/contracts/target/ink/gem_creator.json ~/not-a-bird/packages/app-game/public/
+cp ~/not-a-bird/packages/contracts/target/ink/metcrys_creator.json ~/not-a-bird/packages/app-game/public/
 cp ~/not-a-bird/packages/contracts/metal/target/ink/metal.json ~/not-a-bird/packages/app-game/public/
 cp ~/not-a-bird/packages/contracts/crystal/target/ink/crystal.json ~/not-a-bird/packages/app-game/public/
-cp ~/not-a-bird/packages/contracts/gem/target/ink/gem.json ~/not-a-bird/packages/app-game/public/
+cp ~/not-a-bird/packages/contracts/metcrys/target/ink/metcrys.json ~/not-a-bird/packages/app-game/public/
 
 echo -e "\033[1;34m **Deploy metal contract** \033[0m"
 cd ~/not-a-bird/packages/contracts/metal/ && cargo contract instantiate --suri //Alice --skip-confirm --execute >~/not-a-bird/packages/app-game/tmp.log
@@ -36,19 +36,19 @@ cat ~/not-a-bird/packages/app-game/tmp.log | grep "\<Code\ hash\>" | awk '{$1=$1
 cat ~/not-a-bird/packages/app-game/tmp.log | grep "\<Contract\>" | awk '{$1=$1};1' >>~/not-a-bird/packages/app-game/tmp2.log
 crystal_code_hash=$(cat ~/not-a-bird/packages/app-game/tmp2.log | grep "\<Code\ hash\>" | awk '{print $3}' | awk 'NR==2')
 
-echo -e "\033[1;34m **Deploy gem contract** \033[0m"
-cd ~/not-a-bird/packages/contracts/gem/ && cargo contract instantiate --suri //Alice --skip-confirm --execute >~/not-a-bird/packages/app-game/tmp.log
-echo "Gem" >>~/not-a-bird/packages/app-game/tmp2.log
+echo -e "\033[1;34m **Deploy metcrys contract** \033[0m"
+cd ~/not-a-bird/packages/contracts/metcrys/ && cargo contract instantiate --suri //Alice --skip-confirm --execute >~/not-a-bird/packages/app-game/tmp.log
+echo "Metcrys" >>~/not-a-bird/packages/app-game/tmp2.log
 cat ~/not-a-bird/packages/app-game/tmp.log | grep "\<Code\ hash\>" | awk '{$1=$1};1' >>~/not-a-bird/packages/app-game/tmp2.log
 cat ~/not-a-bird/packages/app-game/tmp.log | grep "\<Contract\>" | awk '{$1=$1};1' >>~/not-a-bird/packages/app-game/tmp2.log
-gem_code_hash=$(cat ~/not-a-bird/packages/app-game/tmp2.log | grep "\<Code\ hash\>" | awk '{print $3}' | awk 'NR==3')
+metcrys_code_hash=$(cat ~/not-a-bird/packages/app-game/tmp2.log | grep "\<Code\ hash\>" | awk '{print $3}' | awk 'NR==3')
 
-echo -e "\033[1;34m **Deploy gem_creator contracts** \033[0m"
-cd ~/not-a-bird/packages/contracts/ && cargo contract instantiate --suri //Alice --skip-confirm --execute --args $metal_code_hash $crystal_code_hash $gem_code_hash >~/not-a-bird/packages/app-game/tmp.log
-echo "Gem Creator" >>~/not-a-bird/packages/app-game/tmp2.log
+echo -e "\033[1;34m **Deploy metcrys_creator contracts** \033[0m"
+cd ~/not-a-bird/packages/contracts/ && cargo contract instantiate --suri //Alice --skip-confirm --execute --args $metal_code_hash $crystal_code_hash $metcrys_code_hash >~/not-a-bird/packages/app-game/tmp.log
+echo "Metcrys Creator" >>~/not-a-bird/packages/app-game/tmp2.log
 cat ~/not-a-bird/packages/app-game/tmp.log | grep "\<Code\ hash\>" | awk '{$1=$1};1' >>~/not-a-bird/packages/app-game/tmp2.log
 cat ~/not-a-bird/packages/app-game/tmp.log | grep "\<Contract\>" | awk '{$1=$1};1' >>~/not-a-bird/packages/app-game/tmp2.log
-gem_creator_code_hash=$(cat ~/not-a-bird/packages/app-game/tmp2.log | grep "\<Code\ hash\>" | awk '{print $3}' | awk 'NR==3')
+metcrys_creator_code_hash=$(cat ~/not-a-bird/packages/app-game/tmp2.log | grep "\<Code\ hash\>" | awk '{print $3}' | awk 'NR==3')
 
 echo -e "\033[1;34m **Do cleanup** \033[0m"
 rm ~/not-a-bird/packages/app-game/tmp.log

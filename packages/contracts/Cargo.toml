@@ -1,5 +1,5 @@
 [package]
-name = "gem_creator"
+name = "metcrys_creator"
 version = "0.1.0"
 authors = ["[Frank Dierolf] <[frank_dierolf@web.de]>"]
 edition = "2021"
@@ -15,7 +15,7 @@ metal = { path = "metal", default-features = false, features = [
 crystal = { path = "crystal", default-features = false, features = [
   "ink-as-dependency",
 ] }
-gem = { path = "gem", default-features = false, features = [
+metcrys = { path = "metcrys", default-features = false, features = [
   "ink-as-dependency",
 ] }
 
@@ -23,6 +23,12 @@ gem = { path = "gem", default-features = false, features = [
 path = "lib.rs"
 
 [features]
-std = ["ink/std", "other-contract/std", "metal/std", "crystal/std", "gem/std"]
+std = [
+  "ink/std",
+  "other-contract/std",
+  "metal/std",
+  "crystal/std",
+  "metcrys/std",
+]
 default = ["std"]
 ink-as-dependency = []
