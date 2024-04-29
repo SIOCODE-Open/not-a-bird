@@ -1,83 +1,41 @@
 #![cfg_attr(not(feature = "std"), no_std, no_main)]
 
+// An Export
+pub use self::a_contract::{StateVariables, StateVariablesRef};
+
 #[ink::contract]
-mod gem_creator {
-    use crystal::CrystalRef;
-    use metal::MetalRef;
-    use metcrys::MetcrysRef;
+mod a_contract {
+    // An Import
+    use ink::prelude::string::String;
 
     #[ink(storage)]
-    pub struct MetcrysCreator {
-        metal: MetalRef,
-        crystal: CrystalRef,
-        metcrys: MetcrysRef,
-        gem_count: u32,
+    #[derive(Default)]
+    pub struct StateVariables {
+        a_string: String,
+        a_number: u32,
+        a_bool: bool,
     }
 
-    #[derive(Debug, PartialEq, Eq, Copy, Clone)]
-    #[ink::scale_derive(Encode, Decode, TypeInfo)]
-    pub enum MetcrysError {
-        DoesntWork,
-    }
-
-    impl MetcrysCreator {
+    impl StateVariables {
         #[ink(constructor)]
-        pub fn new(
-            metal_code_hash: Hash,
-            crystal_code_hash: Hash,
-            metcrys_code_hash: Hash,
-        ) -> Self {
-            let total_balance = Self::env().balance();
-            let metal = MetalRef::new()
-                .endowment(total_balance / 4)
-                .code_hash(metal_code_hash)
-                .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
-                .instantiate();
-            let crystal = CrystalRef::new()
-                .endowment(total_balance / 4)
-                .code_hash(crystal_code_hash)
-                .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
-                .instantiate();
-            let metcrys = MetcrysRef::new()
-                .endowment(total_balance / 4)
-                .code_hash(metcrys_code_hash)
-                .salt_bytes([0xDE, 0xAD, 0xBE, 0xEF])
-                .instantiate();
-            let gem_count = 0u32;
-
+        pub fn new() -> Self {
+            let a_string = String::from("my great string");
+            let a_number: u32 = 3;
+            let a_bool = false;
             Self {
-                metal,
-                crystal,
-                metcrys,
-                gem_count,
+                a_string,
+                a_number,
+                a_bool,
             }
         }
 
         #[ink(message)]
-        pub fn create_gem(&mut self) -> Result<(), MetcrysError> {
-            let gem_count = self.gem_count;
-            /*mint stone*/
-            let _ = self.crystal.mint(gem_count);
-            /*mint rock*/
-            let _ = self.metal.mint(gem_count);
-            /*burn stone*/
-            let _ = self.crystal.burn(gem_count);
-            /*burn rock*/
-            let _ = self.metal.burn(gem_count);
-            /*mint gem*/
-            let _ = self.metcrys.mint(gem_count);
-            self.gem_count = self.gem_count.wrapping_add(1u32);
-            Ok(())
-        }
+        pub fn a_function(&self) {}
 
         #[ink(message)]
-        pub fn get_gem_number(&self) -> u32 {
-            self.gem_count
-        }
-
-        #[ink(message)]
-        pub fn inc_gem_number(&mut self) {
-            self.gem_count = self.gem_count.wrapping_add(1u32);
+        pub fn a_mutable_funtion(&mut self) {
+            let new_string = String::from("my other great string");
+            self.a_string = new_string;
         }
     }
 }
