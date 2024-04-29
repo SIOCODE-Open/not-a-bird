@@ -4,24 +4,26 @@
 #[ink::contract]
 mod element_store {
     use franks_interfaces::NftInterface;
+    use ink::{contract_ref, storage::StorageVec};
 
     #[ink(storage)]
+    #[allow(clippy::type_complexity)]
     pub struct ElementStore {
-        element: ink::contract_ref!(NftInterface),
+        elements: StorageVec<contract_ref!(NftInterface)>, // Array of contract references
+        element_count: u32,
     }
 
     impl ElementStore {
         #[ink(constructor)]
-        pub fn new(element: AccountId) -> Self {
+        pub fn new() -> Self {
             Self {
-                element: element.into(),
+                elements: Default::default(),
+                element_count: 0,
             }
         }
 
         #[ink(message)]
-        pub fn set_element(&mut self, contract: AccountId) {
-            self.element = contract.into();
-        }
+        pub fn set_element(&mut self) {}
 
         // TODO
         #[ink(message)]
@@ -30,8 +32,14 @@ mod element_store {
         }
 
         #[ink(message)]
-        pub fn call_mint(&mut self) {
-            self.element.mint();
+        pub fn call_mint(&self, index: u32) {
+            // assert_eq!(Some(&[10, 40][..]), v.get(0..2));
+            if let Some(contract) = self.elements.get(0).clone() {
+                contract.clone().mint();
+            } else {
+                // Handle the case where the elements Vec is empty
+            }
+            // contract.mint();
         }
     }
 }

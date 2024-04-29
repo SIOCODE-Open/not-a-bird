@@ -1,5 +1,7 @@
 #![cfg_attr(not(feature = "std"), no_std, no_main)]
 
+pub use self::element::{Element, ElementRef};
+
 #[ink::contract]
 mod element {
     use franks_interfaces::NftInterface;
