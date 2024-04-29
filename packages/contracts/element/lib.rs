@@ -2,7 +2,7 @@
 
 #[ink::contract]
 mod element {
-    use franks_interfaces::franks_interfaces::NftInterfacec;
+    use franks_interfaces::NftInterface;
     use ink::storage::Mapping;
 
     type TokenId = u128;
@@ -23,7 +23,7 @@ mod element {
         }
     }
 
-    impl NftInterfacec for Element {
+    impl NftInterface for Element {
         #[ink(message)]
         fn mint(&mut self) {
             // add ID to AccountId
