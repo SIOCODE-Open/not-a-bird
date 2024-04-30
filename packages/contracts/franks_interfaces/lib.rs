@@ -19,4 +19,7 @@ pub trait NftInterface {
 
     #[ink(message)]
     fn transfer(&mut self, to: AccountId, value: u32);
+
+    #[ink(message)]
+    fn get_contract_address(&self) -> AccountId;
 }

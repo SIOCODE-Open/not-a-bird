@@ -23,23 +23,30 @@ mod element_store {
         }
 
         #[ink(message)]
-        pub fn set_element(&mut self) {}
+        pub fn set_element(&mut self, index: u32, new_contract: contract_ref!(NftInterface)) {
+            if index < self.elements.len() {
+                self.elements.set(index, &new_contract);
+            }
+        }
 
         // TODO
         #[ink(message)]
-        pub fn get_contract(&self) -> AccountId {
-            AccountId::from([0xff; 32])
+        pub fn get_contract(&mut self, index: u32) {
+            let _ = self.elements.get(index);
         }
 
         #[ink(message)]
-        pub fn call_mint(&self, index: u32) {
-            // assert_eq!(Some(&[10, 40][..]), v.get(0..2));
-            if let Some(contract) = self.elements.get(0).clone() {
+        pub fn call_mint(&mut self, index: u32) {
+            if let Some(contract) = self.elements.get(index).clone() {
                 contract.clone().mint();
-            } else {
-                // Handle the case where the elements Vec is empty
             }
-            // contract.mint();
+        }
+
+        #[ink(message)]
+        pub fn call_burn(&self, index: u32) {
+            if let Some(contract) = self.elements.get(index).clone() {
+                contract.clone().burn();
+            }
         }
     }
 }
