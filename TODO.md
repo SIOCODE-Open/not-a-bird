@@ -116,7 +116,6 @@
 | Align Fro & Cro     | Sun Apr 28 10:45:00 AM CEST 2024 | Sun Apr 28 11:20:00 AM CEST 2024 | 0:35  |
 | Think & WriteDraft  | Sun Apr 28 11:25:00 AM CEST 2024 | Sun Apr 28 12:40:00 PM CEST 2024 | 1:15  |
 | Write a helper      | Sun Apr 28 02:30:00 PM CEST 2024 | Sun Apr 28 03:30:00 PM CEST 2024 | 1:00  |
-| Total               |                                  |                                  | 24:05 |
 | Finish helper       | Sun Apr 28 06:20:00 PM CEST 2024 | Sun Apr 28 06:35:00 PM CEST 2024 | 0:15  |
 | Write DataBlobs     | Sun Apr 28 06:40:00 PM CEST 2024 | Sun Apr 28 06:55:00 PM CEST 2024 | 0:15  |
 | Create Interface    | Mon Apr 29 07:55:00 AM CEST 2024 | Mon Apr 29 08:55:00 AM CEST 2024 | 1:00  |
@@ -125,6 +124,17 @@
 | Create ElementStore | Mon Apr 29 11:33:18 AM CEST 2024 | Mon Apr 29 11:58:44 AM CEST 2024 | 0:25  |
 | Create ElementStore | Mon Apr 29 12:08:00 PM CEST 2024 | Mon Apr 29 12:28:00 PM CEST 2024 | 0:20  |
 | Create ElementStore | Mon Apr 29 01:22:23 PM CEST 2024 | Mon Apr 29 01:49:27 PM CEST 2024 | 0:27  |
+| Create ElementStore | Mon Apr 29 08:29:43 PM CEST 2024 | Mon Apr 29 09:20:54 PM CEST 2024 | 0:51  |
+| Create ElementStore | Tue Apr 30 07:41:31 AM CEST 2024 | Tue Apr 30 08:20:58 AM CEST 2024 | 0:39  |
+| Create ElementStore | Tue Apr 30 09:05:18 AM CEST 2024 | Tue Apr 30 09:28:43 AM CEST 2024 | 0:23  |
+| Create ElementStore | Tue Apr 30 09:40:42 AM CEST 2024 | Tue Apr 30 10:13:32 AM CEST 2024 | 0:33  |
+| Update Botond       | Tue Apr 30 10:18:42 AM CEST 2024 | Tue Apr 30 10:43:58 AM CEST 2024 | 0:25  |
+| Create ElementStore | Tue Apr 30 10:51:06 AM CEST 2024 | Tue Apr 30 11:01:18 AM CEST 2024 | 0:10  |
+| Total               | -                                | -                                | 31:16 |
+| Create ElementStore | Tue Apr 30 08:17:00 PM CEST 2024 | Tue Apr 30 08:25:50 PM CEST 2024 |       |
+| Create ElementStore | Wed May 1 07:27:44 AM CEST 2024  | Wed May 1 08:06:16 AM CEST 2024  |       |
+| Create ElementStore | Wed May 1 08:20:55 AM CEST 2024  | Wed May 1 08:42:34 AM CEST 2024  |       |
+| Create ElementStore | Wed May 1 11:32:15 AM CEST 2024  | Wed May 1 12:49:56 PM CEST 2024  |       |
 
 </details>
 
@@ -171,4 +181,9 @@
 - [x] add nft_interface to module
 - [x] Create a vanilla ElementStore
 - [ ] Create a List out of it.
-  - [ ] checkout delegate thingies, use lazyvec?
+  - [x] checkout delegate thingies, use lazyvec?
+  - [x] failed ^^, read consience [upgrade](https://use.ink/basics/upgradeable-contracts)
+  - [x] do setcodehash
+  - [ ] do setcodehash with migration
+  - [ ] do delegation
+  - [ ] implent delegation correctly
