@@ -1,3 +1,6 @@
+> ❗Look at ./not-a-bird/packages/app-game/deploy_version_1.sh  
+> That's an automatized and a more update date script
+
 # Notes
 
 **Rock**  
