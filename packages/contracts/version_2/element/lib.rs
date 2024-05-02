@@ -1,5 +1,7 @@
 #![cfg_attr(not(feature = "std"), no_std, no_main)]
 
+pub use self::element::{Element, ElementRef};
+
 #[ink::contract]
 mod element {
     use franks_interfaces::NftInterface;
@@ -55,5 +57,10 @@ mod element {
 
         #[ink(message)]
         fn transfer(&mut self, _to: AccountId, _value: u32) {}
+
+        #[ink(message)]
+        fn get_contract_address(&self) -> AccountId {
+            Self::env().caller()
+        }
     }
 }

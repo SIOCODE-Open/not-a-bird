@@ -6,9 +6,6 @@ edition = "2021"
 
 [dependencies]
 ink = { version = "5.0.0", default-features = false }
-other-contract = { path = "../other-contract", default-features = false, features = [
-  "ink-as-dependency",
-] }
 metal = { path = "../metal", default-features = false, features = [
   "ink-as-dependency",
 ] }
@@ -23,12 +20,6 @@ metcrys = { path = "../metcrys", default-features = false, features = [
 path = "lib.rs"
 
 [features]
-std = [
-  "ink/std",
-  "other-contract/std",
-  "metal/std",
-  "crystal/std",
-  "metcrys/std",
-]
+std = ["ink/std", "metal/std", "crystal/std", "metcrys/std"]
 default = ["std"]
 ink-as-dependency = []
