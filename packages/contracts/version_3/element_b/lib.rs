@@ -2,13 +2,13 @@
 
 #[ink::contract]
 mod element_b {
+    use ink::prelude::vec::Vec;
     use ink::storage::{traits::ManualKey, Lazy, Mapping};
 
     #[ink(storage)]
     pub struct ElementB {
-        addresses: Mapping<AccountId, i32, ManualKey<0x23>>,
-        owned_called_count: Mapping<AccountId, i32, ManualKey<0x24>>,
-        ressources: Mapping<AccountId, (i32, i32), ManualKey<0x25>>,
+        contracts: Mapping<AccountId, i32, ManualKey<0x23>>,
+        ressources: Mapping<AccountId, Vec<i32>, ManualKey<0x25>>,
         delegate_to: Lazy<Hash>,
     }
 
@@ -21,26 +21,52 @@ mod element_b {
 
         #[ink(message)]
         pub fn mint(&mut self) {
+            // Get caller
             let caller = self.env().caller();
-            let count = self.owned_called_count.get(caller).unwrap_or_default();
+            // Get vec from caller
+            let vec = self.ressources.get(caller).unwrap();
+            // Hardcode Index
+            let index: usize = 0;
+            // Get current count
+            let current_count = vec[index];
+            // Declare new_count
+            let new_count = current_count.saturating_add(1);
+            // Replace count with new Count
+            self.ressources
+                .get(caller)
+                .unwrap()
+                .insert(index, new_count);
+            // Print helpful message
             ink::env::debug_println!(
-                "The current mint count is {:?}. It got called by element_b. The caller was {:?}",
-                &count,
-                &caller
+                "Mint on element_b was called. \n
+                The count was {:?}.\n 
+                Count of index {:?} \n 
+                changed. The new count is {:?}",
+                current_count,
+                index,
+                new_count
             );
-            self.owned_called_count.insert(caller, &count);
         }
 
-        // #[ink(message)]
-        // pub fn append_address_value(&mut self) {
-        //     let caller = self.env().caller();
-        //     self.addresses.insert(caller, &self.counter);
-        // }
-
         #[ink(message)]
-        pub fn get_owned_called_count(&self) -> i32 {
+        pub fn get_ressource_count_by_index(&self) -> i32 {
+            // Get caller
             let caller = self.env().caller();
-            self.owned_called_count.get(caller).unwrap()
+            // Get vec from caller
+            let vec = self.ressources.get(caller).unwrap();
+            // Hardcode Index
+            let index: usize = 0;
+            // Get current count
+            let current_count = vec[index];
+            // Print helpful message
+            ink::env::debug_println!(
+                "get_ressource_by_index on element_a was called. \n 
+                The used index was {:?} \n
+                The current count is {:?}",
+                &index,
+                &current_count
+            );
+            current_count
         }
     }
 }
