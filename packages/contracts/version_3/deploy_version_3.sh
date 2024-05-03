@@ -32,8 +32,19 @@ sleep 2
 
 echo -e "\033[1;34m **Call inc(1)** \033[0m"
 cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message inc_delegate --suri //Alice --skip-confirm --execute | head -n 3
-echo -e "\033[1;34m **Get value** \033[0m"
+echo -e "\033[1;34m **Get counter** \033[0m"
 cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message get_counter --suri //Alice --skip-confirm | head -n 1
+
+echo -e "\033[1;34m **Call mint(1)** \033[0m"
+cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message mint_delegate --suri //Alice --skip-confirm --execute | head -n 3
+echo -e "\033[1;34m **Get value of Alice** \033[0m"
+cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message get_value_mint --args 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY --suri //Alice --skip-confirm | head -n 1
+echo -e "\033[1;34m **Call mint(1)** \033[0m"
+cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message mint_delegate --suri //Alice --skip-confirm --execute | head -n 3
+echo -e "\033[1;34m **Get value of Alice** \033[0m"
+cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message get_value_mint --args 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY --suri //Alice --skip-confirm | head -n 1
+# echo -e "\033[1;34m **Mint value** \033[0m"
+# cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message get_counter --suri //Alice --skip-confirm | head -n 1
 
 sleep 2
 
@@ -49,10 +60,5 @@ echo -e "\033[1;34m **Call update_delegate_to(elementB)** \033[0m"
 cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message update_delegate_to --args $ELEMENT_B_CODE_HASH --suri //Alice --skip-confirm --execute
 echo -e "\033[1;34m **Call inc(10)** \033[0m"
 cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message inc_delegate --suri //Alice --skip-confirm --execute | head -n 3
-echo -e "\033[1;34m **Get value** \033[0m"
+echo -e "\033[1;34m **Get counter** \033[0m"
 cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message get_counter --suri //Alice --skip-confirm | head -n 1
-
-# echo -e "\033[1;34m **Get get_owned_called_count of Alice** \033[0m"
-# cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message get_owned_called_count --suri //Alice --skip-confirm
-# echo -e "\033[1;34m **Get get_owned_called_count of Bob** \033[0m"
-# cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message get_owned_called_count --suri //Bob --skip-confirm

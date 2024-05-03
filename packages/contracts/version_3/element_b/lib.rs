@@ -22,9 +22,23 @@ mod element_b {
         pub fn inc(&mut self) {
             let caller = self.env().caller();
             let count = self.owned_called_count.get(caller).unwrap_or_default();
-            ink::env::debug_println!("{:?}", &count);
+            ink::env::debug_println!(
+                "The current count is {:?}. It got called by element_b",
+                &count
+            );
             self.owned_called_count.insert(caller, &count);
             self.counter = self.counter.checked_add(10).unwrap();
+        }
+        #[ink(message)]
+        pub fn mint(&mut self) {
+            let caller = self.env().caller();
+            let count = self.owned_called_count.get(caller).unwrap_or_default();
+            ink::env::debug_println!(
+                "The current mint count is {:?}. It got called by element_b. The caller was {:?}",
+                &count,
+                &caller
+            );
+            self.owned_called_count.insert(caller, &count);
         }
 
         #[ink(message)]

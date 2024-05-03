@@ -58,6 +58,18 @@ mod element_store {
         }
 
         #[ink(message)]
+        pub fn mint_delegate(&mut self) {
+            let selector = ink::selector_bytes!("mint");
+            ink::env::debug_println!("mint_delegate was called");
+            let _ = build_call::<DefaultEnvironment>()
+                .delegate(self.delegate_to())
+                .call_flags(CallFlags::TAIL_CALL)
+                .exec_input(ExecutionInput::new(Selector::new(selector)))
+                .returns::<()>()
+                .try_invoke();
+        }
+
+        #[ink(message)]
         pub fn add_entry_delegate(&mut self) {
             let selector = ink::selector_bytes!("append_address_value");
             let _ = build_call::<DefaultEnvironment>()
@@ -75,6 +87,11 @@ mod element_store {
         #[ink(message)]
         pub fn get_value(&self, address: AccountId) -> (AccountId, Option<i32>) {
             (self.env().caller(), self.addresses.get(address))
+        }
+
+        #[ink(message)]
+        pub fn get_value_mint(&self, address: AccountId) -> (AccountId, Option<i32>) {
+            (self.env().caller(), self.owned_called_count.get(address))
         }
 
         fn delegate_to(&self) -> Hash {
