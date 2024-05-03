@@ -30,3 +30,18 @@ echo -e "\033[1;34m **Call inc(1)** \033[0m"
 cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message inc_delegate --suri //Alice --skip-confirm --execute | head -n 3
 echo -e "\033[1;34m **Get value** \033[0m"
 cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message get_counter --suri //Alice --skip-confirm | head -n 1
+
+echo -e "\033[1;34m **Build element_b** \033[0m"
+cd ~/not-a-bird/packages/contracts/version_3/element_b/ && cargo contract build 2>&1 | tail -n 6
+echo -e "\033[1;34m **Upload element_b** \033[0m"
+cd ~/not-a-bird/packages/contracts/version_3/element_b/ && cargo contract upload --suri //Alice --skip-confirm --execute >~/not-a-bird/packages/contracts/version_3/tmp.log
+echo "Element A" >~/not-a-bird/packages/contracts/version_3/tmp2.log
+cat ~/not-a-bird/packages/contracts/version_3/tmp.log | grep "\<Code\ hash\>" | awk '{$1=$1};1' >>~/not-a-bird/packages/contracts/version_3/tmp2.log
+ELEMENT_B_CODE_HASH=$(cat ~/not-a-bird/packages/contracts/version_3/tmp2.log | grep "\<Code\ hash\>" | awk '{print $3}')
+
+echo -e "\033[1;34m **Call update_delegate_to(elementB)** \033[0m"
+cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message update_delegate_to --args $ELEMENT_B_CODE_HASH --suri //Alice --skip-confirm --execute
+echo -e "\033[1;34m **Call inc(10)** \033[0m"
+cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message inc_delegate --suri //Alice --skip-confirm --execute | head -n 3
+echo -e "\033[1;34m **Get value** \033[0m"
+cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message get_counter --suri //Alice --skip-confirm | head -n 1
