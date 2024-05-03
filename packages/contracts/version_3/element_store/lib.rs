@@ -13,8 +13,8 @@ mod element_store {
     #[ink(storage)]
     pub struct ElementStore {
         addresses: Mapping<AccountId, i32, ManualKey<0x23>>,
+        owned_called_count: Mapping<AccountId, i32, ManualKey<0x24>>,
         counter: i32,
-        // owned_called_count: Mapping<AccountId, u32>,
         delegate_to: Lazy<Hash>,
     }
 
@@ -22,6 +22,7 @@ mod element_store {
         #[ink(constructor)]
         pub fn new(init_value: i32, hash: Hash) -> Self {
             let v = Mapping::new();
+            let v2 = Mapping::new();
 
             let mut delegate_to = Lazy::new();
             delegate_to.set(&hash);
@@ -29,9 +30,9 @@ mod element_store {
 
             Self {
                 addresses: v,
+                owned_called_count: v2,
                 counter: init_value,
                 delegate_to,
-                // owned_called_count: Mapping::default(),
             }
         }
 
@@ -46,11 +47,8 @@ mod element_store {
 
         #[ink(message)]
         pub fn inc_delegate(&mut self) {
-            // let caller = self.env().caller();
-            // let count = self.owned_called_count.get(caller).unwrap();
-            // self.owned_called_count.insert(caller, &count);
-
             let selector = ink::selector_bytes!("inc");
+            ink::env::debug_println!("inc_delegate was called");
             let _ = build_call::<DefaultEnvironment>()
                 .delegate(self.delegate_to())
                 .call_flags(CallFlags::TAIL_CALL)
@@ -78,12 +76,6 @@ mod element_store {
         pub fn get_value(&self, address: AccountId) -> (AccountId, Option<i32>) {
             (self.env().caller(), self.addresses.get(address))
         }
-
-        // #[ink(message)]
-        // pub fn get_owned_called_count(&self) -> u32 {
-        //     let caller = self.env().caller();
-        //     self.owned_called_count.get(caller).unwrap()
-        // }
 
         fn delegate_to(&self) -> Hash {
             self.delegate_to

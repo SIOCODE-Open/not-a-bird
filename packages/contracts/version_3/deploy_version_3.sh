@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo -e "\033[1;34m **Restart substrate-contracts-node** \033[0m"
-PID=$(ps aux | grep substrate-contracts-node | grep -v grep | awk '{print $2}')
-kill -9 $PID
-sleep 2
-substrate-contracts-node --dev -l 0 &
-sleep 2
+# echo -e "\033[1;34m **Restart substrate-contracts-node** \033[0m"
+# PID=$(ps aux | grep substrate-contracts-node | grep -v grep | awk '{print $2}')
+# kill -9 $PID
+# sleep 2
+# substrate-contracts-node --dev -l 0 &
+# sleep 2
 
 echo -e "\033[1;34m **Build element_a** \033[0m"
 cd ~/not-a-bird/packages/contracts/version_3/element_a/ && cargo contract build 2>&1 | tail -n 6
