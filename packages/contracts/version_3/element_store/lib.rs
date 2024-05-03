@@ -12,26 +12,27 @@ mod element_store {
 
     #[ink(storage)]
     pub struct ElementStore {
-        addresses: Mapping<AccountId, i32, ManualKey<0x23>>,
+        contracts: Mapping<AccountId, i32, ManualKey<0x23>>,
         owned_called_count: Mapping<AccountId, i32, ManualKey<0x24>>,
-        counter: i32,
+        ressources: Mapping<AccountId, (i32, i32), ManualKey<0x25>>,
         delegate_to: Lazy<Hash>,
     }
 
     impl ElementStore {
         #[ink(constructor)]
-        pub fn new(init_value: i32, hash: Hash) -> Self {
+        pub fn new(_init_value: i32, hash: Hash) -> Self {
             let v = Mapping::new();
             let v2 = Mapping::new();
+            let v3 = Mapping::new();
 
             let mut delegate_to = Lazy::new();
             delegate_to.set(&hash);
             Self::env().lock_delegate_dependency(&hash);
 
             Self {
-                addresses: v,
+                contracts: v,
                 owned_called_count: v2,
-                counter: init_value,
+                ressources: v3,
                 delegate_to,
             }
         }
@@ -69,29 +70,20 @@ mod element_store {
                 .try_invoke();
         }
 
-        #[ink(message)]
-        pub fn add_entry_delegate(&mut self) {
-            let selector = ink::selector_bytes!("append_address_value");
-            let _ = build_call::<DefaultEnvironment>()
-                .delegate(self.delegate_to())
-                .exec_input(ExecutionInput::new(Selector::new(selector)))
-                .returns::<()>()
-                .try_invoke();
-        }
+        // #[ink(message)]
+        // pub fn add_entry_delegate(&mut self) {
+        //     let selector = ink::selector_bytes!("append_address_value");
+        //     ink::env::debug_println!("add_entry_delegate was called");
+        //     let _ = build_call::<DefaultEnvironment>()
+        //         .delegate(self.delegate_to())
+        //         .exec_input(ExecutionInput::new(Selector::new(selector)))
+        //         .returns::<()>()
+        //         .try_invoke();
+        // }
 
         #[ink(message)]
-        pub fn get_counter(&self) -> i32 {
-            self.counter
-        }
-
-        #[ink(message)]
-        pub fn get_value(&self, address: AccountId) -> (AccountId, Option<i32>) {
-            (self.env().caller(), self.addresses.get(address))
-        }
-
-        #[ink(message)]
-        pub fn get_value_mint(&self, address: AccountId) -> (AccountId, Option<i32>) {
-            (self.env().caller(), self.owned_called_count.get(address))
+        pub fn get_value_mint(&self, owner: AccountId) -> (AccountId, Option<i32>) {
+            (self.env().caller(), self.owned_called_count.get(owner))
         }
 
         fn delegate_to(&self) -> Hash {

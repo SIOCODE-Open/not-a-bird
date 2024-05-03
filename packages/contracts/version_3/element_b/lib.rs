@@ -8,7 +8,7 @@ mod element_b {
     pub struct ElementB {
         addresses: Mapping<AccountId, i32, ManualKey<0x23>>,
         owned_called_count: Mapping<AccountId, i32, ManualKey<0x24>>,
-        counter: i32,
+        ressources: Mapping<AccountId, (i32, i32), ManualKey<0x25>>,
         delegate_to: Lazy<Hash>,
     }
 
@@ -18,17 +18,7 @@ mod element_b {
         pub fn new() -> Self {
             unreachable!("Constructors are not called when upgrading using `set_code_hash`.")
         }
-        #[ink(message)]
-        pub fn inc(&mut self) {
-            let caller = self.env().caller();
-            let count = self.owned_called_count.get(caller).unwrap_or_default();
-            ink::env::debug_println!(
-                "The current count is {:?}. It got called by element_b",
-                &count
-            );
-            self.owned_called_count.insert(caller, &count);
-            self.counter = self.counter.checked_add(10).unwrap();
-        }
+
         #[ink(message)]
         pub fn mint(&mut self) {
             let caller = self.env().caller();
@@ -41,11 +31,11 @@ mod element_b {
             self.owned_called_count.insert(caller, &count);
         }
 
-        #[ink(message)]
-        pub fn append_address_value(&mut self) {
-            let caller = self.env().caller();
-            self.addresses.insert(caller, &self.counter);
-        }
+        // #[ink(message)]
+        // pub fn append_address_value(&mut self) {
+        //     let caller = self.env().caller();
+        //     self.addresses.insert(caller, &self.counter);
+        // }
 
         #[ink(message)]
         pub fn get_owned_called_count(&self) -> i32 {
