@@ -2,12 +2,14 @@
 
 #[ink::contract]
 mod element_a {
-    use ink::storage::{traits::ManualKey, Mapping};
+    use ink::storage::{traits::ManualKey, Lazy, Mapping};
 
     #[ink(storage)]
     pub struct ElementA {
         addresses: Mapping<AccountId, i32, ManualKey<0x23>>,
         counter: i32,
+        // owned_called_count: Mapping<AccountId, u32>,
+        delegate_to: Lazy<Hash>,
     }
 
     impl ElementA {

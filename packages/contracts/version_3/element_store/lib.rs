@@ -14,6 +14,7 @@ mod element_store {
     pub struct ElementStore {
         addresses: Mapping<AccountId, i32, ManualKey<0x23>>,
         counter: i32,
+        // owned_called_count: Mapping<AccountId, u32>,
         delegate_to: Lazy<Hash>,
     }
 
@@ -30,8 +31,10 @@ mod element_store {
                 addresses: v,
                 counter: init_value,
                 delegate_to,
+                // owned_called_count: Mapping::default(),
             }
         }
+
         #[ink(message)]
         pub fn update_delegate_to(&mut self, hash: Hash) {
             if let Some(old_hash) = self.delegate_to.get() {
@@ -43,6 +46,10 @@ mod element_store {
 
         #[ink(message)]
         pub fn inc_delegate(&mut self) {
+            // let caller = self.env().caller();
+            // let count = self.owned_called_count.get(caller).unwrap();
+            // self.owned_called_count.insert(caller, &count);
+
             let selector = ink::selector_bytes!("inc");
             let _ = build_call::<DefaultEnvironment>()
                 .delegate(self.delegate_to())
@@ -71,6 +78,12 @@ mod element_store {
         pub fn get_value(&self, address: AccountId) -> (AccountId, Option<i32>) {
             (self.env().caller(), self.addresses.get(address))
         }
+
+        // #[ink(message)]
+        // pub fn get_owned_called_count(&self) -> u32 {
+        //     let caller = self.env().caller();
+        //     self.owned_called_count.get(caller).unwrap()
+        // }
 
         fn delegate_to(&self) -> Hash {
             self.delegate_to
