@@ -1,0 +1,42 @@
+ Dry-running new (skip with --skip-dry-run)
+    Success! Gas required estimated at Weight(ref_time: 408276549, proof_size: 19588)
+      Events
+       Event Balances ➜ Withdraw
+         who: 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
+         amount: 4.247571009mUNIT
+       Event Contracts ➜ CodeStored
+         code_hash: 0xa7a6f0ae5a97c133eefdebd0592f2e4cea4be0e7983714e09becfee120b6c2d2
+         deposit_held: 281.04mUNIT
+         uploader: 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
+       Event System ➜ NewAccount
+         account: 5Co1DoTQ1vYR1MDX9dgZQbqBWADCLoFYB3JXspD834D3YBVm
+       Event Balances ➜ Endowed
+         account: 5Co1DoTQ1vYR1MDX9dgZQbqBWADCLoFYB3JXspD834D3YBVm
+         free_balance: 1mUNIT
+       Event Balances ➜ Transfer
+         from: 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
+         to: 5Co1DoTQ1vYR1MDX9dgZQbqBWADCLoFYB3JXspD834D3YBVm
+         amount: 1mUNIT
+       Event Contracts ➜ Instantiated
+         deployer: 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
+         contract: 5Co1DoTQ1vYR1MDX9dgZQbqBWADCLoFYB3JXspD834D3YBVm
+       Event Contracts ➜ StorageDepositTransferredAndHeld
+         from: 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
+         to: 5Co1DoTQ1vYR1MDX9dgZQbqBWADCLoFYB3JXspD834D3YBVm
+         amount: 100.61mUNIT
+       Event Contracts ➜ StorageDepositTransferredAndHeld
+         from: 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
+         to: 5Co1DoTQ1vYR1MDX9dgZQbqBWADCLoFYB3JXspD834D3YBVm
+         amount: 200.18mUNIT
+       Event Balances ➜ Deposit
+         who: 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
+         amount: 2.616392μUNIT
+       Event TransactionPayment ➜ TransactionFeePaid
+         who: 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
+         actual_fee: 4.244954617mUNIT
+         tip: 0UNIT
+       Event System ➜ ExtrinsicSuccess
+         dispatch_info: DispatchInfo { weight: Weight { ref_time: 4245015206, proof_size: 11986 }, class: Normal, pays_fee: Yes }
+
+   Code hash 0xa7a6f0ae5a97c133eefdebd0592f2e4cea4be0e7983714e09becfee120b6c2d2
+    Contract 5Co1DoTQ1vYR1MDX9dgZQbqBWADCLoFYB3JXspD834D3YBVm
