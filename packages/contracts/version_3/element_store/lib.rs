@@ -2,140 +2,80 @@
 
 #[ink::contract]
 mod element_store {
+    use ink::{
+        env::{
+            call::{build_call, ExecutionInput, Selector},
+            CallFlags, DefaultEnvironment,
+        },
+        storage::{traits::ManualKey, Lazy, Mapping},
+    };
 
-    /// Defines the storage of your contract.
-    /// Add new fields to the below struct in order
-    /// to add new static storage fields to your contract.
     #[ink(storage)]
     pub struct ElementStore {
-        /// Stores a single `bool` value on the storage.
-        value: bool,
+        addresses: Mapping<AccountId, i32, ManualKey<0x23>>,
+        counter: i32,
+        delegate_to: Lazy<Hash>,
     }
 
     impl ElementStore {
-        /// Constructor that initializes the `bool` value to the given `init_value`.
         #[ink(constructor)]
-        pub fn new(init_value: bool) -> Self {
-            Self { value: init_value }
-        }
+        pub fn new(init_value: i32, hash: Hash) -> Self {
+            let v = Mapping::new();
 
-        /// Constructor that initializes the `bool` value to `false`.
-        ///
-        /// Constructors can delegate to other constructors.
-        #[ink(constructor)]
-        pub fn default() -> Self {
-            Self::new(Default::default())
-        }
+            let mut delegate_to = Lazy::new();
+            delegate_to.set(&hash);
+            Self::env().lock_delegate_dependency(&hash);
 
-        /// A message that can be called on instantiated contracts.
-        /// This one flips the value of the stored `bool` from `true`
-        /// to `false` and vice versa.
+            Self {
+                addresses: v,
+                counter: init_value,
+                delegate_to,
+            }
+        }
         #[ink(message)]
-        pub fn flip(&mut self) {
-            self.value = !self.value;
+        pub fn update_delegate_to(&mut self, hash: Hash) {
+            if let Some(old_hash) = self.delegate_to.get() {
+                self.env().unlock_delegate_dependency(&old_hash)
+            }
+            self.env().lock_delegate_dependency(&hash);
+            self.delegate_to.set(&hash);
         }
 
-        /// Simply returns the current value of our `bool`.
         #[ink(message)]
-        pub fn get(&self) -> bool {
-            self.value
-        }
-    }
-
-    /// Unit tests in Rust are normally defined within such a `#[cfg(test)]`
-    /// module and test functions are marked with a `#[test]` attribute.
-    /// The below code is technically just normal Rust code.
-    #[cfg(test)]
-    mod tests {
-        /// Imports all the definitions from the outer scope so we can use them here.
-        use super::*;
-
-        /// We test if the default constructor does its job.
-        #[ink::test]
-        fn default_works() {
-            let element_store = ElementStore::default();
-            assert_eq!(element_store.get(), false);
+        pub fn inc_delegate(&mut self) {
+            let selector = ink::selector_bytes!("inc");
+            let _ = build_call::<DefaultEnvironment>()
+                .delegate(self.delegate_to())
+                .call_flags(CallFlags::TAIL_CALL)
+                .exec_input(ExecutionInput::new(Selector::new(selector)))
+                .returns::<()>()
+                .try_invoke();
         }
 
-        /// We test a simple use case of our contract.
-        #[ink::test]
-        fn it_works() {
-            let mut element_store = ElementStore::new(false);
-            assert_eq!(element_store.get(), false);
-            element_store.flip();
-            assert_eq!(element_store.get(), true);
-        }
-    }
-
-
-    /// This is how you'd write end-to-end (E2E) or integration tests for ink! contracts.
-    ///
-    /// When running these you need to make sure that you:
-    /// - Compile the tests with the `e2e-tests` feature flag enabled (`--features e2e-tests`)
-    /// - Are running a Substrate node which contains `pallet-contracts` in the background
-    #[cfg(all(test, feature = "e2e-tests"))]
-    mod e2e_tests {
-        /// Imports all the definitions from the outer scope so we can use them here.
-        use super::*;
-
-        /// A helper function used for calling contract messages.
-        use ink_e2e::ContractsBackend;
-
-        /// The End-to-End test `Result` type.
-        type E2EResult<T> = std::result::Result<T, Box<dyn std::error::Error>>;
-
-        /// We test that we can upload and instantiate the contract using its default constructor.
-        #[ink_e2e::test]
-        async fn default_works(mut client: ink_e2e::Client<C, E>) -> E2EResult<()> {
-            // Given
-            let mut constructor = ElementStoreRef::default();
-
-            // When
-            let contract = client
-                .instantiate("element_store", &ink_e2e::alice(), &mut constructor)
-                .submit()
-                .await
-                .expect("instantiate failed");
-            let call_builder = contract.call_builder::<ElementStore>();
-
-            // Then
-            let get = call_builder.get();
-            let get_result = client.call(&ink_e2e::alice(), &get).dry_run().await?;
-            assert!(matches!(get_result.return_value(), false));
-
-            Ok(())
+        #[ink(message)]
+        pub fn add_entry_delegate(&mut self) {
+            let selector = ink::selector_bytes!("append_address_value");
+            let _ = build_call::<DefaultEnvironment>()
+                .delegate(self.delegate_to())
+                .exec_input(ExecutionInput::new(Selector::new(selector)))
+                .returns::<()>()
+                .try_invoke();
         }
 
-        /// We test that we can read and write a value from the on-chain contract contract.
-        #[ink_e2e::test]
-        async fn it_works(mut client: ink_e2e::Client<C, E>) -> E2EResult<()> {
-            // Given
-            let mut constructor = ElementStoreRef::new(false);
-            let contract = client
-                .instantiate("element_store", &ink_e2e::bob(), &mut constructor)
-                .submit()
-                .await
-                .expect("instantiate failed");
-            let mut call_builder = contract.call_builder::<ElementStore>();
+        #[ink(message)]
+        pub fn get_counter(&self) -> i32 {
+            self.counter
+        }
 
-            let get = call_builder.get();
-            let get_result = client.call(&ink_e2e::bob(), &get).dry_run().await?;
-            assert!(matches!(get_result.return_value(), false));
+        #[ink(message)]
+        pub fn get_value(&self, address: AccountId) -> (AccountId, Option<i32>) {
+            (self.env().caller(), self.addresses.get(address))
+        }
 
-            // When
-            let flip = call_builder.flip();
-            let _flip_result = client
-                .call(&ink_e2e::bob(), &flip)
-                .submit()
-                .await
-                .expect("flip failed");
-
-            // Then
-            let get = call_builder.get();
-            let get_result = client.call(&ink_e2e::bob(), &get).dry_run().await?;
-            assert!(matches!(get_result.return_value(), true));
-
-            Ok(())
+        fn delegate_to(&self) -> Hash {
+            self.delegate_to
+                .get()
+                .expect("delegate_to always has a value")
         }
     }
 }
