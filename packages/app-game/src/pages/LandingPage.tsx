@@ -9,11 +9,17 @@ export function LandingPage(props: { navigate: (path: string) => void }) {
   const goToFrankPage = () => {
     props.navigate("/frank");
   };
+  const goToMergicankPage = () => {
+    props.navigate("/mergican");
+  };
 
   return (
     <CenteredLayout>
       <Card>
         <Button onClick={onStartPlaying}>Play the game</Button>
+      </Card>
+      <Card>
+        <Button onClick={goToMergicankPage}>Go to Mergican Page</Button>
       </Card>
       <Card>
         <Button onClick={goToFrankPage}>Go to Frank Page</Button>
