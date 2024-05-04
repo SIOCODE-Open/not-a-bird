@@ -61,7 +61,7 @@ mod element_store {
             // Get caller
             let caller = self.env().caller();
             // Get vec from caller
-            let vec = self.ressources.get(caller).unwrap();
+            let vec = self.ressources.get(caller).unwrap_or_default();
             // Hardcode Index
             let index: usize = 0;
             // Get current count

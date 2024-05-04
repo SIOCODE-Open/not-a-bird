@@ -5,6 +5,11 @@ mod element_a {
     use ink::prelude::vec::Vec;
     use ink::storage::{traits::ManualKey, Lazy, Mapping};
 
+    // #[ink::storage_item]
+    // pub struct Inner {
+    //     value: bool,
+    // }
+
     #[ink(storage)]
     pub struct ElementA {
         contracts: Mapping<AccountId, i32, ManualKey<0x23>>,
@@ -21,31 +26,23 @@ mod element_a {
 
         #[ink(message)]
         pub fn mint(&mut self) {
-            // Get caller
             let caller = self.env().caller();
-            // Get vec from caller
-            let vec = self.ressources.get(caller).unwrap();
-            // Hardcode Index
-            let index: usize = 0;
-            // Get current count
-            let current_count = vec[index];
-            // Declare new_count
-            let new_count = current_count.saturating_add(1);
-            // Replace count with new Count
-            self.ressources
-                .get(caller)
-                .unwrap()
-                .insert(index, new_count);
-            // Print helpful message
-            ink::env::debug_println!(
-                "Mint on element_a was called. \n
-                The count was {:?}.\n 
-                Count of index {:?} \n 
-                changed. The new count is {:?}",
-                current_count,
-                index,
-                new_count
-            );
+            let mut current_vec = self.ressources.get(caller).unwrap_or_default();
+            if current_vec.len() > 0 {
+                current_vec[0] = current_vec.get(0).unwrap_or(&0i32).saturating_add(1);
+            } else {
+                current_vec.insert(0, current_vec.get(0).unwrap_or(&0i32).saturating_add(1));
+            }
+            // let mut new_vec: Vec<i32> = Vec::new();
+            // for (index, &num) in current_vec.iter().enumerate() {
+            //     if index == 0 {
+            //         new_vec.push(num.saturating_add(1));
+            //     } else {
+            //         new_vec.push(num);
+            //     }
+            // }
+            self.ressources.insert(caller, &current_vec);
+            ink::env::debug_println!("Mint was called {:?}", self.ressources.get(caller))
         }
 
         #[ink(message)]
@@ -53,7 +50,7 @@ mod element_a {
             // Get caller
             let caller = self.env().caller();
             // Get vec from caller
-            let vec = self.ressources.get(caller).unwrap();
+            let vec = self.ressources.get(caller).unwrap_or_default();
             // Hardcode Index
             let index: usize = 0;
             // Get current count
