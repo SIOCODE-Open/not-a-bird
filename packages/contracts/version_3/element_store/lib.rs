@@ -21,16 +21,13 @@ mod element_store {
     impl ElementStore {
         #[ink(constructor)]
         pub fn new(_init_value: i32, hash: Hash) -> Self {
-            let v = Mapping::new();
-            let v3 = Mapping::new();
-
             let mut delegate_to = Lazy::new();
             delegate_to.set(&hash);
             Self::env().lock_delegate_dependency(&hash);
 
             Self {
-                contracts: v,
-                ressources: v3,
+                contracts: Mapping::new(),
+                ressources: Mapping::new(),
                 delegate_to,
             }
         }
@@ -57,24 +54,20 @@ mod element_store {
         }
 
         #[ink(message)]
+        pub fn burn_delegate(&mut self, index: i32) {
+            let selector = ink::selector_bytes!("burn");
+            ink::env::debug_println!("burn_delegate was called");
+            let _ = build_call::<DefaultEnvironment>()
+                .delegate(self.delegate_to())
+                .call_flags(CallFlags::TAIL_CALL)
+                .exec_input(ExecutionInput::new(Selector::new(selector)).push_arg(index))
+                .returns::<()>()
+                .try_invoke();
+        }
+
+        #[ink(message)]
         pub fn get_ressource_count_by_index(&self) -> i32 {
-            // Get caller
-            let caller = self.env().caller();
-            // Get vec from caller
-            let vec = self.ressources.get(caller).unwrap_or_default();
-            // Hardcode Index
-            let index: usize = 0;
-            // Get current count
-            let current_count = vec[index];
-            // Print helpful message
-            ink::env::debug_println!(
-                "get_ressource_count_by_index on element_store was called. \n 
-                The used index was {:?} \n
-                The current count is {:?}",
-                &index,
-                &current_count
-            );
-            current_count
+            todo!()
         }
 
         fn delegate_to(&self) -> Hash {

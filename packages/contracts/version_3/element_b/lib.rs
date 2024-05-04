@@ -20,53 +20,34 @@ mod element_b {
         }
 
         #[ink(message)]
-        pub fn mint(&mut self) {
-            // Get caller
+        pub fn mint(&mut self, index: i32) {
             let caller = self.env().caller();
-            // Get vec from caller
-            let vec = self.ressources.get(caller).unwrap_or_default();
-            // Hardcode Index
-            let index: usize = 0;
-            // Get current count
-            let current_count = vec[index];
-            // Declare new_count
-            let new_count = current_count.saturating_add(1);
-            // Replace count with new Count
-            self.ressources
-                .get(caller)
-                .unwrap_or_default()
-                .insert(index, new_count);
-            // Print helpful message
-            ink::env::debug_println!(
-                "Mint on element_b was called. \n
-                The count was {:?}.\n 
-                Count of index {:?} \n 
-                changed. The new count is {:?}",
-                current_count,
-                index,
-                new_count
-            );
+            let mut current_vec = self.ressources.get(caller).unwrap_or_default();
+            let index_as_usize: usize = index as usize;
+            if current_vec.len() <= index_as_usize {
+                current_vec.resize(index_as_usize.saturating_add(1), 0);
+            }
+            current_vec[index_as_usize] = current_vec[index_as_usize].saturating_add(1);
+            self.ressources.insert(caller, &current_vec);
+            ink::env::debug_println!("Mint was called {:?}", self.ressources.get(caller))
+        }
+
+        #[ink(message)]
+        pub fn burn(&mut self, index: i32) {
+            let caller = self.env().caller();
+            let mut current_vec = self.ressources.get(caller).unwrap_or_default();
+            let index_as_usize: usize = index as usize;
+            if current_vec.len() <= index_as_usize {
+                current_vec.resize(index_as_usize.saturating_sub(1), 0);
+            }
+            current_vec[index_as_usize] = current_vec[index_as_usize].saturating_sub(1);
+            self.ressources.insert(caller, &current_vec);
+            ink::env::debug_println!("Burn was called {:?}", self.ressources.get(caller))
         }
 
         #[ink(message)]
         pub fn get_ressource_count_by_index(&self) -> i32 {
-            // Get caller
-            let caller = self.env().caller();
-            // Get vec from caller
-            let vec = self.ressources.get(caller).unwrap_or_default();
-            // Hardcode Index
-            let index: usize = 0;
-            // Get current count
-            let current_count = vec[index];
-            // Print helpful message
-            ink::env::debug_println!(
-                "get_ressource_by_index on element_a was called. \n 
-                The used index was {:?} \n
-                The current count is {:?}",
-                &index,
-                &current_count
-            );
-            current_count
+            todo!();
         }
     }
 }
