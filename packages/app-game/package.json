@@ -9,6 +9,7 @@
     "@not-a-bird/star-system-generator": "*",
     "@polkadot/api": "^11.0.2",
     "@polkadot/api-contract": "^11.0.2",
+    "leva": "^0.9.35",
     "react": "*",
     "react-dom": "*",
     "rxjs": "*"
