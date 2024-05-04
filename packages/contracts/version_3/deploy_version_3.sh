@@ -7,9 +7,11 @@ main() {
 	read choice
 	if [ $choice -eq 1 ]; then
 		spin_up_substrate_node
-		process
+		buildAnDeploy
+		testo
 	elif [ $choice -eq 2 ]; then
-		process
+		buildAnDeploy
+		testo
 	else
 		echo "Invalid choice. Please select 1 or 2."
 	fi
@@ -24,7 +26,7 @@ spin_up_substrate_node() {
 	sleep 2
 }
 
-process() {
+buildAnDeploy() {
 	echo -e "\033[1;34m **Build element_a** \033[0m"
 	cd ~/not-a-bird/packages/contracts/version_3/element_a/ && cargo contract build 2>&1 | tail -n 6
 	echo -e "\033[1;34m **Upload element_a** \033[0m"
@@ -44,13 +46,6 @@ process() {
 	ELEMENTSTORE_CONTRACT=$(cat ~/not-a-bird/packages/contracts/version_3/contracts_info.log | grep "\<Contract\>" | awk '{print $2}')
 	echo "$ELEMENTSTORE_CONTRACT"
 
-	echo -e "\033[1;34m **Call mint(0) with ElementA** \033[0m"
-	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message mint_delegate --suri //Alice --skip-confirm --execute --args 0 | head -n 3
-	echo -e "\033[1;34m **Call mint(1) with ElementA** \033[0m"
-	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message mint_delegate --suri //Alice --skip-confirm --execute --args 1 | head -n 3
-	echo -e "\033[1;34m **Call mint(5) with ElementA** \033[0m"
-	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message mint_delegate --suri //Alice --skip-confirm --execute --args 5 | head -n 3
-
 	echo -e "\033[1;34m **Build element_b** \033[0m"
 	cd ~/not-a-bird/packages/contracts/version_3/element_b/ && cargo contract build 2>&1 | tail -n 6
 	echo -e "\033[1;34m **Upload element_b** \033[0m"
@@ -59,15 +54,42 @@ process() {
 	cat ~/not-a-bird/packages/contracts/version_3/tmp.log | grep "\<Code\ hash\>" | awk '{$1=$1};1' >>~/not-a-bird/packages/contracts/version_3/contracts_info.log
 	ELEMENT_B_CODE_HASH=$(cat ~/not-a-bird/packages/contracts/version_3/contracts_info.log | grep "\<Code\ hash\>" | awk 'NR==3 { print $3 }')
 	echo "$ELEMENT_B_CODE_HASH"
-	#
+}
+
+testo() {
+	echo -e "\033[1;34m **Call mint(0) with ElementA with Alice** \033[0m"
+	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message mint_delegate --suri //Alice --skip-confirm --execute --args 0 | head -n 3
+	echo -e "\033[1;34m **Call mint(1) with ElementA with Alice** \033[0m"
+	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message mint_delegate --suri //Alice --skip-confirm --execute --args 1 | head -n 3
+	echo -e "\033[1;34m **Call mint(5) with ElementA with Alice** \033[0m"
+	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message mint_delegate --suri //Alice --skip-confirm --execute --args 5 | head -n 3
+
 	echo -e "\033[1;34m **Call update_delegate_to(elementB)** \033[0m"
 	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message update_delegate_to --args $ELEMENT_B_CODE_HASH --suri //Alice --skip-confirm --execute
-	echo -e "\033[1;34m **Call mint(0) with ElementB** \033[0m"
+	echo -e "\033[1;34m **Call mint(0) with ElementB with Alice** \033[0m"
 	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message mint_delegate --suri //Alice --skip-confirm --execute --args 0 | head -n 3
-	echo -e "\033[1;34m **Call burn(1) with ElementB** \033[0m"
+	echo -e "\033[1;34m **Call burn(1) with ElementB with Alice** \033[0m"
 	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message burn_delegate --suri //Alice --skip-confirm --execute --args 1 | head -n 3
-	echo -e "\033[1;34m **Call burn(5) with ElementB** \033[0m"
+	echo -e "\033[1;34m **Call burn(5) with ElementB with Alice** \033[0m"
 	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message burn_delegate --suri //Alice --skip-confirm --execute --args 5 | head -n 3
+
+	echo -e "\033[1;34m **Call update_delegate_to(elementA)** \033[0m"
+	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message update_delegate_to --args $ELEMENT_A_CODE_HASH --suri //Bob --skip-confirm --execute
+	echo -e "\033[1;34m **Call mint(0) with ElementA with Bob** \033[0m"
+	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message mint_delegate --suri //Bob --skip-confirm --execute --args 0 | head -n 3
+	echo -e "\033[1;34m **Call mint(1) with ElementA with Bob** \033[0m"
+	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message mint_delegate --suri //Bob --skip-confirm --execute --args 1 | head -n 3
+	echo -e "\033[1;34m **Call mint(5) with ElementA with Bob** \033[0m"
+	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message mint_delegate --suri //Bob --skip-confirm --execute --args 5 | head -n 3
+
+	echo -e "\033[1;34m **Call update_delegate_to(elementB)** \033[0m"
+	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message update_delegate_to --args $ELEMENT_B_CODE_HASH --suri //Alice --skip-confirm --execute
+	echo -e "\033[1;34m **Call mint(0) with ElementB with Bob** \033[0m"
+	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message mint_delegate --suri //Bob --skip-confirm --execute --args 0 | head -n 3
+	echo -e "\033[1;34m **Call burn(1) with ElementB with Bob** \033[0m"
+	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message burn_delegate --suri //Bob --skip-confirm --execute --args 1 | head -n 3
+	echo -e "\033[1;34m **Call burn(5) with ElementB with Bob** \033[0m"
+	cd ~/not-a-bird/packages/contracts/version_3/element_store/ && cargo contract call --contract $ELEMENTSTORE_CONTRACT --message burn_delegate --suri //Bob --skip-confirm --execute --args 5 | head -n 3
 }
 
 main
