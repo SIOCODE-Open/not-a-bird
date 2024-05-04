@@ -45,13 +45,13 @@ mod element_store {
         }
 
         #[ink(message)]
-        pub fn mint_delegate(&mut self) {
+        pub fn mint_delegate(&mut self, index: i32) {
             let selector = ink::selector_bytes!("mint");
             ink::env::debug_println!("mint_delegate was called");
             let _ = build_call::<DefaultEnvironment>()
                 .delegate(self.delegate_to())
                 .call_flags(CallFlags::TAIL_CALL)
-                .exec_input(ExecutionInput::new(Selector::new(selector)))
+                .exec_input(ExecutionInput::new(Selector::new(selector)).push_arg(index))
                 .returns::<()>()
                 .try_invoke();
         }

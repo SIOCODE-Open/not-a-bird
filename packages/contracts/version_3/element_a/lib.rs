@@ -25,14 +25,29 @@ mod element_a {
         }
 
         #[ink(message)]
-        pub fn mint(&mut self) {
+        pub fn mint(&mut self, index: i32) {
+            ink::env::debug_println!("This is my delegated index {:?}", index);
             let caller = self.env().caller();
             let mut current_vec = self.ressources.get(caller).unwrap_or_default();
-            if current_vec.len() > 0 {
-                current_vec[0] = current_vec.get(0).unwrap_or(&0i32).saturating_add(1);
-            } else {
-                current_vec.insert(0, current_vec.get(0).unwrap_or(&0i32).saturating_add(1));
+            let index_as_usize: usize = index as usize;
+            if current_vec.len() <= index_as_usize {
+                current_vec.resize(index_as_usize.saturating_add(1), 0);
             }
+            current_vec[index_as_usize] = current_vec[index_as_usize].saturating_add(1);
+            // if current_vec.len() > index_as_usize {
+            //     current_vec[index_as_usize] = current_vec
+            //         .get(index_as_usize)
+            //         .unwrap_or(&0i32)
+            //         .saturating_add(1);
+            // } else {
+            //     current_vec.insert(
+            //         index_as_usize,
+            //         current_vec
+            //             .get(index_as_usize)
+            //             .unwrap_or(&0i32)
+            //             .saturating_add(1),
+            //     );
+            // }
             // let mut new_vec: Vec<i32> = Vec::new();
             // for (index, &num) in current_vec.iter().enumerate() {
             //     if index == 0 {
