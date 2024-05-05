@@ -34,9 +34,14 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
   //Mouse
   const [mouseX, setMouseX] = useState(0);
   const [mouseY, setMouseY] = useState(0);
+  const [isMouseDown, setIsMouseDown] = useState(false);
   function handleClick() {}
-  const handleMouseDown = () => {};
-  const handleMouseUp = () => {};
+  const handleMouseDown = (e: MouseEvent) => {
+    setIsMouseDown(true);
+  };
+  const handleMouseUp = (e: MouseEvent) => {
+    setIsMouseDown(false);
+  };
   const handleMouseMove = (e: MouseEvent) => {
     setMouseX(e.clientX);
     setMouseY(e.clientY);
@@ -87,15 +92,21 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     canvas.addEventListener("mouseup", handleMouseUp);
     canvas.addEventListener("mousemove", handleMouseMove);
 
-    resources.forEach((rect: Resource) => {
-      if (getDistance(mouseX, mouseY, rect.x, rect.y) <= 50) {
-        rect.color = "blue";
+    resources.forEach((res_el: Resource) => {
+      if (getDistance(mouseX, mouseY, res_el.x, res_el.y) <= 50) {
+        res_el.color = "blue";
+        res_el.isSelected = true;
+        if (isMouseDown) {
+          res_el.x = mouseX;
+          res_el.y = mouseY;
+        }
       } else {
-        rect.color = "red";
+        res_el.color = "red";
+        res_el.isSelected = false;
       }
       // draw the rectangle
-      ctx.fillStyle = rect.color;
-      ctx.fillRect(rect.x, rect.y, 50, 50);
+      ctx.fillStyle = res_el.color;
+      ctx.fillRect(res_el.x, res_el.y, 50, 50);
     });
 
     // if (currentImage.src !== items[currentItemIndex]) {
