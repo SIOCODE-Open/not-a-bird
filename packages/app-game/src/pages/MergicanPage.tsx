@@ -1,37 +1,29 @@
 import { useEffect, useState } from "react";
 import { useControls, button } from "leva";
+import { Resource } from "../classes/RessourceClass";
 
-interface Ressource {
-  x: number;
-  y: number;
-  color: string;
-  image: string;
-}
 export function MergicanPage(props: { navigate: (path: string) => void }) {
   const [currentItemIndex, setCurrentItemIndex] = useState(0);
   const [currentImage, setCurrentImage] = useState(new Image());
-  const [rectX, setRectX] = useState(0); // Initial X position of the rectangle
-  const [rectY, setRectY] = useState(0); // Initial Y position of the rectangle
+  const [rectX, setRectX] = useState(0);
+  const [rectY, setRectY] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
-  const [rectangles, setRectangles] = useState<Ressource[]>([
-    { x: 300, y: 300, color: "red", image: "" },
-    { x: 500, y: 500, color: "red", image: "" },
-    { x: 200, y: 200, color: "red", image: "" },
-    { x: 280, y: 120, color: "red", image: "" },
+  const [resource, setResource] = useState<Resource[]>([
+    { x: 300, y: 300, color: "red", isSelected: false, image: "" },
+    { x: 500, y: 500, color: "red", isSelected: false, image: "" },
+    { x: 200, y: 200, color: "red", isSelected: false, image: "" },
+    { x: 280, y: 120, color: "red", isSelected: false, image: "" },
   ]);
 
   // Function to add a new resource
-  const addResource = (newResource: Ressource) => {
-    setRectangles((prevRectangles) => [...prevRectangles, newResource]);
+  const addResource = (newResource: Resource) => {
+    setResource((prevResource) => [...prevResource, newResource]);
   };
 
   // Function to update a resource
-  const updateResource = (
-    resourceIndex: number,
-    updatedResource: Ressource,
-  ) => {
-    setRectangles((prevRectangles) =>
-      prevRectangles.map((rect, index) =>
+  const updateResource = (resourceIndex: number, updatedResource: Resource) => {
+    setResource((prevResource) =>
+      prevResource.map((rect, index) =>
         index === resourceIndex ? updatedResource : rect,
       ),
     );
@@ -39,8 +31,8 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
 
   // Function to remove a resource
   const removeResource = (resourceIndex: number) => {
-    setRectangles((prevRectangles) =>
-      prevRectangles.filter((_, index) => index !== resourceIndex),
+    setResource((prevResource) =>
+      prevResource.filter((_, index) => index !== resourceIndex),
     );
   };
 
@@ -72,26 +64,23 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
   const [, set] = useControls(
     "a_number",
     () => ({
-      owner: {
+      aNumber: {
         value: 4,
         disabled: true,
       },
-      set_number: button(() => set_number()),
       change_picture: button(() => handleClick()),
       add_rectancle: button(() => {
         addResource({
           x: 500 * Math.random(),
           y: 500 * Math.random(),
+          isSelected: false,
           image: items[8],
           color: "purple",
         });
       }),
     }),
-    [currentItemIndex, rectangles],
+    [currentItemIndex, resource],
   );
-  const set_number = async () => {
-    set({ owner: 3 });
-  };
 
   const handleMouseDown = () => {
     setIsDragging(true);
@@ -128,7 +117,8 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
 
     const getDistance = (x1: number, y1: number, x2: number, y2: number) =>
       Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
-    rectangles.forEach((rect: Ressource) => {
+
+    resource.forEach((rect: Resource) => {
       if (getDistance(rectX, rectY, rect.x, rect.y) <= 50) {
         rect.color = "blue";
       } else {
@@ -139,7 +129,7 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
       ctx.fillRect(rect.x, rect.y, 50, 50);
     });
 
-    setRectangles([...rectangles]);
+    setResource([...resource]);
 
     canvas.addEventListener("mousedown", handleMouseDown);
     canvas.addEventListener("mouseup", handleMouseUp);
