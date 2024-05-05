@@ -6,11 +6,11 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
   // Resource State
   const [selectedResources, setSelectedResources] = useState<Resource[]>([]);
   const [resources, setResources] = useState<Resource[]>([
-    new Resource(300, 300, "red", false, 0, 0, 1),
-    new Resource(300, 300, "red", false, 0, 0, 1),
-    new Resource(500, 500, "red", false, 2, 0, 1),
-    new Resource(200, 200, "red", false, 4, 0, 1),
-    new Resource(280, 120, "red", false, 6, 0, 1),
+    new Resource(300, 300, "white", false, 0, 0, 1),
+    new Resource(300, 300, "white", false, 0, 0, 1),
+    new Resource(500, 500, "white", false, 2, 0, 1),
+    new Resource(200, 200, "white", false, 4, 0, 1),
+    new Resource(280, 120, "white", false, 6, 0, 1),
   ]);
 
   // Function to add a new resource
@@ -93,32 +93,76 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     canvas.addEventListener("mouseup", handleMouseUp);
     canvas.addEventListener("mousemove", handleMouseMove);
 
-    let selection_count = 0;
+    let newRessourecs: Resource[] = [];
     resources.forEach((res_el: Resource) => {
       // If mouse in rectangle then blue
       if (getDistance(mouseX, mouseY, res_el.x, res_el.y) <= 50) {
-        res_el.color = "blue";
-        if (selection_count < 2) {
-          selection_count += 1;
-        }
+        res_el.color = "#ddffff";
         // and if mouse down make it moveable
         if (isMouseDown) {
           res_el.isSelected = true;
           res_el.x = mouseX;
           res_el.y = mouseY;
-          // only one element get updated,
-          // ???
-          // only one element get updated,
+          newRessourecs = resources.filter((el) => el.isSelected === false);
         }
       } else {
-        selection_count = 0;
-        res_el.color = "red";
+        res_el.color = "white";
         res_el.isSelected = false;
       }
 
-      // draw the rectangle
+      const cornerRadius = 10;
+      const borderWidth = 2;
+
+      // Draw the main rectangle
       ctx.fillStyle = res_el.color;
       ctx.fillRect(res_el.x, res_el.y, 50, 50);
+
+      // Draw top left corner
+      ctx.fillStyle = "#66cccc";
+      ctx.fillRect(res_el.x, res_el.y, cornerRadius, borderWidth);
+      ctx.fillRect(res_el.x, res_el.y, borderWidth, cornerRadius);
+
+      // Draw top right corner
+      ctx.fillRect(
+        res_el.x + 50 - cornerRadius,
+        res_el.y,
+        cornerRadius,
+        borderWidth,
+      );
+      ctx.fillRect(
+        res_el.x + 50 - borderWidth,
+        res_el.y,
+        borderWidth,
+        cornerRadius,
+      );
+
+      // Draw bottom left corner
+      ctx.fillRect(
+        res_el.x,
+        res_el.y + 50 - borderWidth,
+        cornerRadius,
+        borderWidth,
+      );
+      ctx.fillRect(
+        res_el.x,
+        res_el.y + 50 - cornerRadius,
+        borderWidth,
+        cornerRadius,
+      );
+
+      // Draw bottom right corner
+      ctx.fillRect(
+        res_el.x + 50 - cornerRadius,
+        res_el.y + 50 - borderWidth,
+        cornerRadius,
+        borderWidth,
+      );
+      ctx.fillRect(
+        res_el.x + 50 - borderWidth,
+        res_el.y + 50 - cornerRadius,
+        borderWidth,
+        cornerRadius,
+      );
 
       // Add Image in rectangle
       const img = new Image();
@@ -127,7 +171,12 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     });
 
     // Recreate Ressources
-    setResources([...resources]);
+    console.log(newRessourecs.length);
+    if (newRessourecs.length === 2) {
+      setResources([...newRessourecs]);
+    } else {
+      setResources([...resources]);
+    }
     // Clean Up
     return () => {
       canvas.removeEventListener("mousedown", handleMouseDown);
