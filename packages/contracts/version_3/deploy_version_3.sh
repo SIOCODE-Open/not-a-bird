@@ -9,9 +9,11 @@ main() {
 		spin_up_substrate_node
 		buildAnDeploy
 		testo
+		clean_up
 	elif [ $choice -eq 2 ]; then
 		buildAnDeploy
 		testo
+		clean_up
 	else
 		echo "Invalid choice. Please select 1 or 2."
 	fi
@@ -24,6 +26,10 @@ spin_up_substrate_node() {
 	sleep 2
 	substrate-contracts-node --dev -l 0 &
 	sleep 2
+}
+
+clean_up() {
+	rm ~/not-a-bird/packages/contracts/version_3/tmp.log
 }
 
 buildAnDeploy() {
