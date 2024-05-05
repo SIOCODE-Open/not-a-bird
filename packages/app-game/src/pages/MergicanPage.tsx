@@ -4,12 +4,15 @@ import { Resource } from "../classes/RessourceClass";
 
 export function MergicanPage(props: { navigate: (path: string) => void }) {
   // Resource State
+  const [selectedResources, setSelectedResources] = useState<Resource[]>([]);
   const [resources, setResources] = useState<Resource[]>([
     new Resource(300, 300, "red", false, 0, 0, 1),
-    new Resource(500, 500, "red", false, 0, 0, 1),
-    new Resource(200, 200, "red", false, 0, 0, 1),
-    new Resource(280, 120, "red", false, 0, 0, 1),
+    new Resource(300, 300, "red", false, 0, 0, 1),
+    new Resource(500, 500, "red", false, 2, 0, 1),
+    new Resource(200, 200, "red", false, 4, 0, 1),
+    new Resource(280, 120, "red", false, 6, 0, 1),
   ]);
+
   // Function to add a new resource
   const addResource = (newResource: Resource) => {
     setResources((prevResources) => [...prevResources, newResource]);
@@ -23,7 +26,6 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
       ),
     );
   };
-
   // Function to remove a resource
   const removeResource = (resourceIndex: number) => {
     setResources((prevResources) =>
@@ -31,7 +33,7 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     );
   };
 
-  //Mouse
+  // Mouse
   const [mouseX, setMouseX] = useState(0);
   const [mouseY, setMouseY] = useState(0);
   const [isMouseDown, setIsMouseDown] = useState(false);
@@ -45,7 +47,6 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
   const handleMouseMove = (e: MouseEvent) => {
     setMouseX(e.clientX);
     setMouseY(e.clientY);
-    console.log(`Mouse position: (${e.clientX}, ${e.clientY})`);
   };
 
   // Leva Helpers
@@ -92,40 +93,48 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     canvas.addEventListener("mouseup", handleMouseUp);
     canvas.addEventListener("mousemove", handleMouseMove);
 
+    let selection_count = 0;
     resources.forEach((res_el: Resource) => {
+      // If mouse in rectangle then blue
       if (getDistance(mouseX, mouseY, res_el.x, res_el.y) <= 50) {
         res_el.color = "blue";
-        res_el.isSelected = true;
+        if (selection_count < 2) {
+          selection_count += 1;
+        }
+        // and if mouse down make it moveable
         if (isMouseDown) {
+          res_el.isSelected = true;
           res_el.x = mouseX;
           res_el.y = mouseY;
+          // only one element get updated,
+          // ???
+          // only one element get updated,
         }
       } else {
+        selection_count = 0;
         res_el.color = "red";
         res_el.isSelected = false;
       }
+
       // draw the rectangle
       ctx.fillStyle = res_el.color;
       ctx.fillRect(res_el.x, res_el.y, 50, 50);
+
+      // Add Image in rectangle
+      const img = new Image();
+      img.src = res_el.getCurrentImage();
+      ctx.drawImage(img, res_el.x, res_el.y, 50, 50); // Draw texture on canvas
     });
 
-    // if (currentImage.src !== items[currentItemIndex]) {
-    //   const img = new Image();
-    //   img.src = items[currentItemIndex];
-    //   img.onload = () => setCurrentImage(img);
-    //   img.src = items[currentItemIndex];
-    //   ctx.drawImage(img, rectX, rectY, 50, 50); // Draw texture on canvas
-    // } else {
-    //   ctx.drawImage(currentImage, rectX, rectY, 50, 50); // Draw texture on canvas
-    // }
-
+    // Recreate Ressources
     setResources([...resources]);
+    // Clean Up
     return () => {
       canvas.removeEventListener("mousedown", handleMouseDown);
       canvas.removeEventListener("mouseup", handleMouseUp);
       canvas.removeEventListener("mousemove", handleMouseMove);
     };
-  }, [mouseX, mouseY]);
+  }, [mouseX, mouseY, isMouseDown]);
   return (
     <>
       <canvas></canvas>
