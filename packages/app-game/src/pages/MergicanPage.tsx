@@ -3,6 +3,11 @@ import { useControls, button } from "leva";
 
 export function MergicanPage(props: { navigate: (path: string) => void }) {
   const [currentItemIndex, setCurrentItemIndex] = useState(0);
+  const [currentImage, setCurrentImage] = useState(new Image());
+  const [rectX, setRectX] = useState(0); // Initial X position of the rectangle
+  const [rectY, setRectY] = useState(0); // Initial Y position of the rectangle
+  const [isDragging, setIsDragging] = useState(false);
+
   const [items, setItems] = useState([
     "/assets/items/item.coalbag.png",
     "/assets/items/item.coalore.png",
@@ -20,6 +25,7 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     "/assets/items/item.steelbars.png",
     "/assets/items/item.wheat.png",
   ]);
+
   function handleClick() {
     if (currentItemIndex < items.length - 1) {
       setCurrentItemIndex((prevIndex) => prevIndex + 1);
@@ -43,10 +49,6 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     set({ owner: 3 });
   };
 
-  const [rectX, setRectX] = useState(0); // Initial X position of the rectangle
-  const [rectY, setRectY] = useState(0); // Initial Y position of the rectangle
-  const [isDragging, setIsDragging] = useState(false);
-
   const handleMouseDown = () => {
     setIsDragging(true);
   };
@@ -60,6 +62,7 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
       setRectX(e.clientX);
       setRectY(e.clientY);
     }
+    console.log(`Mouse position: (${e.clientX}, ${e.clientY})`);
   };
 
   useEffect(() => {
@@ -69,14 +72,18 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
-    const texture = new Image();
-    texture.src = items[currentItemIndex];
-    console.log(currentItemIndex);
+    if (currentImage.src !== items[currentItemIndex]) {
+      const img = new Image();
+      img.src = items[currentItemIndex];
+      img.onload = () => setCurrentImage(img);
+      img.src = items[currentItemIndex];
+      ctx.drawImage(img, rectX, rectY, 50, 50); // Draw texture on canvas
+    } else {
+      ctx.drawImage(currentImage, rectX, rectY, 50, 50); // Draw texture on canvas
+    }
 
-    texture.onload = () => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear
-      ctx.drawImage(texture, rectX, rectY, 50, 50); // Draw texture on canvas
-    };
+    ctx.fillStyle = "red";
+    ctx.fillRect(300, 300, 50, 50);
 
     canvas.addEventListener("mousedown", handleMouseDown);
     canvas.addEventListener("mouseup", handleMouseUp);
