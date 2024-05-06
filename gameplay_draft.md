@@ -1,6 +1,8 @@
 # Gameplay Draft #3
 
-You are a merger. Your call is to merge all Items. Catch them all.
+You are a merger. Your merge Items.
+
+**Philosophy: Catch them all.**
 
 ## Main - Mergican
 
@@ -27,7 +29,8 @@ Resources can be merged.It works the following:
 | Gears    | 12    | ?            |
 | firewood | 13    | ?            |
 
----
+<details>
+  <summary>Older Drafts</summary>
 
 # Gameplay Draft #1
 
@@ -132,3 +135,5 @@ RessourceStore -> Alice: "Its zero"
 | **Energy**                         |
 | :--------------------------------- |
 | Merge 2 Energy, you get 1 Shimmer. |
+
+</details>

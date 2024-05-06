@@ -157,7 +157,9 @@
 | Frontend            | Sun May 5 09:34:42 AM CEST 2024  | Sun May 5 11:00:37 AM CEST 2024  | 1:26  |
 | Frontend            | Sun May 5 11:02:16 AM CEST 2024  | Sun May 5 11:35:38 AM CEST 2024  |       |
 | Frontend            | Sun May 5 11:47:48 AM CEST 2024  | Sun May 5 12:20:52 PM CEST 2024  |       |
-| Frontend            |                                  |                                  |       |
+| Frontend            | Sun May 5 01:00:00 PM CEST 2024  | Sun May 5 03:02:06 PM CEST 2024  |       |
+| Frontend            | Mon May 6 08:30:00 AM CEST 2024  | Sun May 5 10:15:00 PM CEST 2024  |       |
+| Frontend            | Mon May 6 10:25:00 AM CEST 2024  | Sun May 5 10:45:00 PM CEST 2024  |       |
 
 </details>
 
@@ -181,7 +183,7 @@
   - [x] Create conract, which impots boths
   - [x] Create gem_nft
   - [x] Create notes.md of how to manually deploy and interact with gem_creator contract
-  - [ ] Create create_gem button in FranksPage
+  - [x] Create create_gem button in FranksPage
     - [x] getRock(x)
     - [x] mintRock(x)
     - [x] getStone(x)
@@ -197,16 +199,16 @@
 - [x] review & think
   - [x] Write simplistic draft, share it
 - [x] Write another helper
-- [ ] Write Data Blobs
-  - [ ] Ressource
-  - [ ] Mine
+- [x] Write Data Blobs
+  - [x] Ressource
+  - [x] Mine
 - [x] Create Module franks Interfaces
 - [x] add nft_interface to module
 - [x] Create a vanilla ElementStore
-- [ ] Create a List out of it.
+- [x] Create a List out of it.
   - [x] checkout delegate thingies, use lazyvec?
   - [x] failed ^^, read consience [upgrade](https://use.ink/basics/upgradeable-contracts)
   - [x] do setcodehash
-  - [ ] do setcodehash with migration
-  - [ ] do delegation
-  - [ ] implent delegation correctly
+  - [x] do setcodehash with migration
+  - [x] do delegation
+  - [x] implent delegation correctly
