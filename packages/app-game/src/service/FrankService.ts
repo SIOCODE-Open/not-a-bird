@@ -4,11 +4,11 @@ import type { WeightV2 } from "@polkadot/types/interfaces";
 import { BN } from "@polkadot/util";
 
 export const metalContractAdress =
-  "5DivQJzBkaLJJNVUiSdJs4aWQM7MepJk5MdRZwonH9w2T9PB";
+  "5HNFCj4rfcb9P7ffUjrokn5z2EKoqRBrETPPzfBte9vThc3Y";
 export const crystalContractAdress =
-  "5C5bQbCjtHU4VgatZucseJMV3uWAW4SrS3T635MUpAbWWrGR";
+  "5HA4Nm7CBpeCU9nP6cpNBJ4sdzughgUE3P76bfsoaf6s7g77";
 export const metcrysCreatorContractAdress =
-  "5EgJWjqMxMaWe4KaJU2jTfpteRnr2NkFV65687iPkjf1A58z";
+  "5DJUHFfqRbhTi6sBH4fWGHEbzL3y22BkQ7hrSqGVZAkYaAFv";
 
 export function useFrank() {
   async function getMetalOwnerOf(mintNumber: BN) {

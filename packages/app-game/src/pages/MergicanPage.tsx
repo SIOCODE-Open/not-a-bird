@@ -4,8 +4,16 @@ import { Resource } from "../classes/RessourceClass";
 //!TODO BROWSER COMPATIBLITLY
 import { useUnique } from "../service/UniqueService";
 
+import { useFrank } from "../service/FrankService";
+import { BN } from "@polkadot/util";
+
 export function MergicanPage(props: { navigate: (path: string) => void }) {
   // const { mint, burn, createCollection } = useUnique("");
+
+  const { mintMetal, mintCrystal, createMetcrys, getMetcrysCount } = useFrank();
+  const [metalCount, setMetalCount] = useState(new BN(0));
+  const [crystalCount, setCrystalCount] = useState(new BN(0));
+  const [metCrysCount, setmetCrysCount] = useState("");
 
   // Resource State
   const [selectedResources, setSelectedResources] = useState<Resource[]>([]);
@@ -98,9 +106,55 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     [resources],
   );
 
-  const [, setContractVersion2] = useControls("ContractVersion2", () => ({}), [
-    resources,
-  ]);
+  const [, setContractVersion1] = useControls(
+    "ContractVersion1",
+    () => ({
+      metcrysCount: {
+        value: 0,
+        disabled: true,
+      },
+      metal: {
+        value: metalCount.toNumber(),
+        disabled: true,
+      },
+      crystal: {
+        value: crystalCount.toNumber(),
+        disabled: true,
+      },
+      metCrys: {
+        value: "",
+        disabled: true,
+      },
+      mintMetal: button(async () => {
+        console.log("mint metal");
+        const newMetalCount = metalCount.add(new BN(1));
+        await mintMetal(newMetalCount);
+        setMetalCount(newMetalCount);
+        setContractVersion1({ metal: metalCount.toNumber() });
+      }),
+      mintCrystal: button(async () => {
+        console.log("mint crystal");
+        const newCrystalCount = crystalCount.add(new BN(1));
+        await mintCrystal(newCrystalCount);
+        setCrystalCount(newCrystalCount);
+        setContractVersion1({ crystal: crystalCount.toNumber() });
+      }),
+      createMetcrys: button(async () => {
+        console.log("create MetCrys");
+        await createMetcrys();
+        const newMetCrysCount = await getMetcrysCount();
+        setmetCrysCount(newMetCrysCount);
+        setContractVersion1({ metCrys: metCrysCount });
+      }),
+      getMetcrysCount: button(async () => {
+        console.log("getMetcrysCount");
+        const newMetCrysCount = await getMetcrysCount();
+        setmetCrysCount(newMetCrysCount);
+        setContractVersion1({ metCrys: metCrysCount });
+      }),
+    }),
+    [resources, metalCount, crystalCount, metCrysCount],
+  );
 
   const [, setContractVersion3] = useControls("ContractVersion3", () => ({}), [
     resources,
