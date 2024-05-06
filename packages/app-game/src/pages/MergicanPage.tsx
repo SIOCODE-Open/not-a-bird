@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { useControls, button } from "leva";
 import { Resource } from "../classes/RessourceClass";
+//!TODO BROWSER COMPATIBLITLY
 import { useUnique } from "../service/UniqueService";
 
 export function MergicanPage(props: { navigate: (path: string) => void }) {
-  const { mint, burn, createCollection } = useUnique("");
+  // const { mint, burn, createCollection } = useUnique("");
 
   // Resource State
   const [selectedResources, setSelectedResources] = useState<Resource[]>([]);
@@ -52,16 +53,33 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
   };
 
   // Leva Helpers
-  const [, set] = useControls(
-    "a_number",
+  const [, setUnique] = useControls(
+    "Unique",
     () => ({
-      aNumber: {
-        value: 4,
+      collectionId: {
+        value: 0,
         disabled: true,
       },
-      createCollectionOnUnique: button(async () => createCollection()),
-      mintOnUnique: button(async () => mint()),
-      burOnUnique: button(async () => burn(5)),
+      createCollectionOnUnique: button(async () => {
+        /*createCollection()*/
+      }),
+      mintOnUnique: button(async () => {
+        /*mint()*/
+      }),
+      burOnUnique: button(async () => {
+        /*burn(5)*/
+      }),
+    }),
+    [resources],
+  );
+
+  const [, setFrontend] = useControls(
+    "Frontend",
+    () => ({
+      resourcesCount: {
+        value: resources.length,
+        disabled: true,
+      },
       add_ressource: button(() => {
         addResource(
           new Resource(
@@ -74,10 +92,20 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
             1,
           ),
         );
+        setFrontend({ resourcesCount: resources.length });
       }),
     }),
     [resources],
   );
+
+  const [, setContractVersion2] = useControls("ContractVersion2", () => ({}), [
+    resources,
+  ]);
+
+  const [, setContractVersion3] = useControls("ContractVersion3", () => ({}), [
+    resources,
+  ]);
+
   // Helpers
   const getDistance = (x1: number, y1: number, x2: number, y2: number) =>
     Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
