@@ -1,8 +1,11 @@
 import { useEffect, useState } from "react";
 import { useControls, button } from "leva";
 import { Resource } from "../classes/RessourceClass";
+import { useUnique } from "../service/UniqueService";
 
 export function MergicanPage(props: { navigate: (path: string) => void }) {
+  const { mint, burn, createCollection } = useUnique("");
+
   // Resource State
   const [selectedResources, setSelectedResources] = useState<Resource[]>([]);
   const [resources, setResources] = useState<Resource[]>([
@@ -37,7 +40,6 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
   const [mouseX, setMouseX] = useState(0);
   const [mouseY, setMouseY] = useState(0);
   const [isMouseDown, setIsMouseDown] = useState(false);
-  function handleClick() {}
   const handleMouseDown = (e: MouseEvent) => {
     setIsMouseDown(true);
   };
@@ -57,8 +59,10 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         value: 4,
         disabled: true,
       },
-      change_picture: button(() => handleClick()),
-      add_rectancle: button(() => {
+      createCollectionOnUnique: button(async () => createCollection()),
+      mintOnUnique: button(async () => mint()),
+      burOnUnique: button(async () => burn(5)),
+      add_ressource: button(() => {
         addResource(
           new Resource(
             500 * Math.random(),
