@@ -5,9 +5,9 @@
 <h3 align="center">Magican by not a Bird</h3>
   <p align="center">
   <br />
-    <a>Demo</a>
+    <a href="https://magican.surge.sh/">Demo v0.0.1</a>
     ·
-    <a>Youtube</a>
+    <a href="https://youtu.be/XkQCJIe48-M?si=Dn65WveHu1yoclYP">Youtube</a>
     ·
     <a href="https://github.com/SIOCODE-Open/not-a-bird.git">Repo</a>
   </p>
