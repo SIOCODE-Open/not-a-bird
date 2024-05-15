@@ -14,7 +14,7 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
   const [metalCount, setMetalCount] = useState(new BN(0));
   const [crystalCount, setCrystalCount] = useState(new BN(0));
   const [metCrysCount, setmetCrysCount] = useState("");
-
+  const [colorBorder, setColorBorder] = useState("#fff000");
   // Resource State
   const [selectedResources, setSelectedResources] = useState<Resource[]>([]);
   const [resources, setResources] = useState<Resource[]>([
@@ -32,17 +32,11 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
 
   // Function to update a resource
   const updateResource = (resourceIndex: number, updatedResource: Resource) => {
-    setResources((prevResources) =>
-      prevResources.map((rect, index) =>
-        index === resourceIndex ? updatedResource : rect,
-      ),
-    );
+    setResources((prevResources) => prevResources.map((rect, index) => (index === resourceIndex ? updatedResource : rect)));
   };
   // Function to remove a resource
   const removeResource = (resourceIndex: number) => {
-    setResources((prevResources) =>
-      prevResources.filter((_, index) => index !== resourceIndex),
-    );
+    setResources((prevResources) => prevResources.filter((_, index) => index !== resourceIndex));
   };
 
   // Mouse
@@ -78,7 +72,7 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         /*burn(5)*/
       }),
     }),
-    [resources],
+    [resources]
   );
 
   const [, setFrontend] = useControls(
@@ -89,21 +83,28 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         disabled: true,
       },
       add_ressource: button(() => {
-        addResource(
-          new Resource(
-            500 * Math.random(),
-            500 * Math.random(),
-            "green",
-            false,
-            0,
-            0,
-            1,
-          ),
-        );
+        addResource(new Resource(500 * Math.random(), 500 * Math.random(), "green", false, 0, 0, 1));
         setFrontend({ resourcesCount: resources.length });
       }),
     }),
-    [resources],
+    [resources]
+  );
+
+  const [borderControls, setBorder] = useControls(
+    "Border",
+    () => ({
+      color: {
+        value: colorBorder,
+        disabled: false,
+        onChange: (c) => {
+          setColorBorder(c);
+        },
+      },
+      get_color: button(() => {
+        console.log(colorBorder);
+      }),
+    }),
+    [colorBorder]
   );
 
   const [, setContractVersion1] = useControls(
@@ -153,16 +154,13 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         setContractVersion1({ metCrys: metCrysCount });
       }),
     }),
-    [resources, metalCount, crystalCount, metCrysCount],
+    [resources, metalCount, crystalCount, metCrysCount]
   );
 
-  const [, setContractVersion3] = useControls("ContractVersion3", () => ({}), [
-    resources,
-  ]);
+  const [, setContractVersion3] = useControls("ContractVersion3", () => ({}), [resources]);
 
   // Helpers
-  const getDistance = (x1: number, y1: number, x2: number, y2: number) =>
-    Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+  const getDistance = (x1: number, y1: number, x2: number, y2: number) => Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
   useEffect(() => {
     // Get Canvas Element
@@ -204,51 +202,22 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
       ctx.fillRect(res_el.x, res_el.y, 50, 50);
 
       // Draw top left corner
-      ctx.fillStyle = "#66cccc";
+      // Border
+      ctx.fillStyle = colorBorder;
       ctx.fillRect(res_el.x, res_el.y, cornerRadius, borderWidth);
       ctx.fillRect(res_el.x, res_el.y, borderWidth, cornerRadius);
 
       // Draw top right corner
-      ctx.fillRect(
-        res_el.x + 50 - cornerRadius,
-        res_el.y,
-        cornerRadius,
-        borderWidth,
-      );
-      ctx.fillRect(
-        res_el.x + 50 - borderWidth,
-        res_el.y,
-        borderWidth,
-        cornerRadius,
-      );
+      ctx.fillRect(res_el.x + 50 - cornerRadius, res_el.y, cornerRadius, borderWidth);
+      ctx.fillRect(res_el.x + 50 - borderWidth, res_el.y, borderWidth, cornerRadius);
 
       // Draw bottom left corner
-      ctx.fillRect(
-        res_el.x,
-        res_el.y + 50 - borderWidth,
-        cornerRadius,
-        borderWidth,
-      );
-      ctx.fillRect(
-        res_el.x,
-        res_el.y + 50 - cornerRadius,
-        borderWidth,
-        cornerRadius,
-      );
+      ctx.fillRect(res_el.x, res_el.y + 50 - borderWidth, cornerRadius, borderWidth);
+      ctx.fillRect(res_el.x, res_el.y + 50 - cornerRadius, borderWidth, cornerRadius);
 
       // Draw bottom right corner
-      ctx.fillRect(
-        res_el.x + 50 - cornerRadius,
-        res_el.y + 50 - borderWidth,
-        cornerRadius,
-        borderWidth,
-      );
-      ctx.fillRect(
-        res_el.x + 50 - borderWidth,
-        res_el.y + 50 - cornerRadius,
-        borderWidth,
-        cornerRadius,
-      );
+      ctx.fillRect(res_el.x + 50 - cornerRadius, res_el.y + 50 - borderWidth, cornerRadius, borderWidth);
+      ctx.fillRect(res_el.x + 50 - borderWidth, res_el.y + 50 - cornerRadius, borderWidth, cornerRadius);
 
       // Add Image in rectangle
       const img = new Image();
@@ -269,7 +238,7 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
       canvas.removeEventListener("mouseup", handleMouseUp);
       canvas.removeEventListener("mousemove", handleMouseMove);
     };
-  }, [mouseX, mouseY, isMouseDown]);
+  }, [mouseX, mouseY, isMouseDown, colorBorder]);
   return (
     <>
       <canvas></canvas>
