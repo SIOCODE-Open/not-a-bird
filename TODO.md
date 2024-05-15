@@ -130,11 +130,36 @@
 | Create ElementStore | Tue Apr 30 09:40:42 AM CEST 2024 | Tue Apr 30 10:13:32 AM CEST 2024 | 0:33  |
 | Update Botond       | Tue Apr 30 10:18:42 AM CEST 2024 | Tue Apr 30 10:43:58 AM CEST 2024 | 0:25  |
 | Create ElementStore | Tue Apr 30 10:51:06 AM CEST 2024 | Tue Apr 30 11:01:18 AM CEST 2024 | 0:10  |
-| Total               | -                                | -                                | 31:16 |
-| Create ElementStore | Tue Apr 30 08:17:00 PM CEST 2024 | Tue Apr 30 08:25:50 PM CEST 2024 |       |
-| Create ElementStore | Wed May 1 07:27:44 AM CEST 2024  | Wed May 1 08:06:16 AM CEST 2024  |       |
-| Create ElementStore | Wed May 1 08:20:55 AM CEST 2024  | Wed May 1 08:42:34 AM CEST 2024  |       |
-| Create ElementStore | Wed May 1 11:32:15 AM CEST 2024  | Wed May 1 12:49:56 PM CEST 2024  |       |
+| Create ElementStore | Tue Apr 30 08:17:00 PM CEST 2024 | Tue Apr 30 08:25:50 PM CEST 2024 | 0:08  |
+| Create ElementStore | Wed May 1 07:27:44 AM CEST 2024  | Wed May 1 08:06:16 AM CEST 2024  | 0:39  |
+| Create ElementStore | Wed May 1 08:20:55 AM CEST 2024  | Wed May 1 08:42:34 AM CEST 2024  | 0:22  |
+| Create ElementStore | Wed May 1 11:32:15 AM CEST 2024  | Wed May 1 12:49:56 PM CEST 2024  | 1:17  |
+| Create ElementStore | Wed May 1 04:23:57 PM CEST 2024  | Wed May 1 05:10:28 PM CEST 2024  | 0:47  |
+| Create ElementStore | Thu May 2 07:52:23 AM CEST 2024  | Thu May 2 08:35:27 AM CEST 2024  | 0:43  |
+| Create ElementStore | Thu May 2 08:40:45 AM CEST 2024  | Thu May 2 09:57:46 AM CEST 2024  | 1:17  |
+| Call with Unique    | Thu May 2 09:59:29 AM CEST 2024  | Thu May 2 11:00:00 AM CEST 2024  | 1:01  |
+| Write notes         | Thu May 2 11:05:00 AM CEST 2024  | Thu May 2 11:28:57 AM CEST 2024  | 0:23  |
+| Create ElementStore | Fri May 3 06:44:19 AM CEST 2024  | Fri May 3 07:41:06 AM CEST 2024  | 0:57  |
+| Create ElementStore | Fri May 3 07:47:39 AM CEST 2024  | Fri May 3 08:22:14 AM CEST 2024  | 0:35  |
+| Create ElementStore | Fri May 3 09:01:56 AM CEST 2024  | Fri May 3 10:12:38 AM CEST 2024  | 1:11  |
+| Create ElementStore | Fri May 3 10:30:04 AM CEST 2024  | Fri May 3 11:00:00 AM CEST 2024  | 0:30  |
+| Create ElementStore | Fri May 3 03:40:21 PM CEST 2024  | Fri May 3 04:23:59 PM CEST 2024  | 0:43  |
+| Create ElementStore | Fri May 3 04:37:31 PM CEST 2024  | Fri May 3 05:03:58 PM CEST 2024  | 0:26  |
+| Create ElementStore | Sat May 4 08:10:08 AM CEST 2024  | Sat May 4 08:36:00 AM CEST 2024  | 0:26  |
+| Create ElementStore | Sat May 4 09:15:33 AM CEST 2024  | Sat May 4 09:56:27 AM CEST 2024  | 0:41  |
+| Mark Session        | Sat May 4 10:10:33 AM CEST 2024  | Sat May 4 12:01:27 AM CEST 2024  | 1:51  |
+| Create ElementStore | Sat May 4 12:20:00 PM CEST 2024  | Sat May 4 01:10:00 PM CEST 2024  | 0:50  |
+| Create ElementStore | Sat May 4 01:18:41 PM CEST 2024  | Sat May 4 01:48:20 PM CEST 2024  | 0:30  |
+| Clean up & Frontend | Sat May 4 01:50:00 PM CEST 2024  | Sat May 4 03:30:00 PM CEST 2024  | 1:40  |
+| Frontend            | Sat May 4 04:00:20 PM CEST 2024  | Sat May 4 04:30:00 PM CEST 2024  | 0:30  |
+| Total               | -                                | -                                | 48:35 |
+| Frontend            | Sun May 5 08:54:21 AM CEST 2024  | Sun May 5 09:28:09 AM CEST 2024  | 0:34  |
+| Frontend            | Sun May 5 09:34:42 AM CEST 2024  | Sun May 5 11:00:37 AM CEST 2024  | 1:26  |
+| Frontend            | Sun May 5 11:02:16 AM CEST 2024  | Sun May 5 11:35:38 AM CEST 2024  |       |
+| Frontend            | Sun May 5 11:47:48 AM CEST 2024  | Sun May 5 12:20:52 PM CEST 2024  |       |
+| Frontend            | Sun May 5 01:00:00 PM CEST 2024  | Sun May 5 03:02:06 PM CEST 2024  |       |
+| Frontend            | Mon May 6 08:30:00 AM CEST 2024  | Sun May 5 10:15:00 PM CEST 2024  |       |
+| Frontend            | Mon May 6 10:25:00 AM CEST 2024  | Sun May 5 10:45:00 PM CEST 2024  |       |
 
 </details>
 
@@ -158,7 +183,7 @@
   - [x] Create conract, which impots boths
   - [x] Create gem_nft
   - [x] Create notes.md of how to manually deploy and interact with gem_creator contract
-  - [ ] Create create_gem button in FranksPage
+  - [x] Create create_gem button in FranksPage
     - [x] getRock(x)
     - [x] mintRock(x)
     - [x] getStone(x)
@@ -174,16 +199,16 @@
 - [x] review & think
   - [x] Write simplistic draft, share it
 - [x] Write another helper
-- [ ] Write Data Blobs
-  - [ ] Ressource
-  - [ ] Mine
+- [x] Write Data Blobs
+  - [x] Ressource
+  - [x] Mine
 - [x] Create Module franks Interfaces
 - [x] add nft_interface to module
 - [x] Create a vanilla ElementStore
-- [ ] Create a List out of it.
+- [x] Create a List out of it.
   - [x] checkout delegate thingies, use lazyvec?
   - [x] failed ^^, read consience [upgrade](https://use.ink/basics/upgradeable-contracts)
   - [x] do setcodehash
-  - [ ] do setcodehash with migration
-  - [ ] do delegation
-  - [ ] implent delegation correctly
+  - [x] do setcodehash with migration
+  - [x] do delegation
+  - [x] implent delegation correctly

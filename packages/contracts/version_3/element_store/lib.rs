@@ -2,6 +2,7 @@
 
 #[ink::contract]
 mod element_store {
+    use ink::prelude::vec::Vec;
     use ink::{
         env::{
             call::{build_call, ExecutionInput, Selector},
@@ -12,26 +13,21 @@ mod element_store {
 
     #[ink(storage)]
     pub struct ElementStore {
-        addresses: Mapping<AccountId, i32, ManualKey<0x23>>,
-        owned_called_count: Mapping<AccountId, i32, ManualKey<0x24>>,
-        counter: i32,
+        contracts: Mapping<AccountId, i32, ManualKey<0x23>>,
+        ressources: Mapping<AccountId, Vec<i32>, ManualKey<0x25>>,
         delegate_to: Lazy<Hash>,
     }
 
     impl ElementStore {
         #[ink(constructor)]
-        pub fn new(init_value: i32, hash: Hash) -> Self {
-            let v = Mapping::new();
-            let v2 = Mapping::new();
-
+        pub fn new(_init_value: i32, hash: Hash) -> Self {
             let mut delegate_to = Lazy::new();
             delegate_to.set(&hash);
             Self::env().lock_delegate_dependency(&hash);
 
             Self {
-                addresses: v,
-                owned_called_count: v2,
-                counter: init_value,
+                contracts: Mapping::new(),
+                ressources: Mapping::new(),
                 delegate_to,
             }
         }
@@ -46,52 +42,32 @@ mod element_store {
         }
 
         #[ink(message)]
-        pub fn inc_delegate(&mut self) {
-            let selector = ink::selector_bytes!("inc");
-            ink::env::debug_println!("inc_delegate was called");
-            let _ = build_call::<DefaultEnvironment>()
-                .delegate(self.delegate_to())
-                .call_flags(CallFlags::TAIL_CALL)
-                .exec_input(ExecutionInput::new(Selector::new(selector)))
-                .returns::<()>()
-                .try_invoke();
-        }
-
-        #[ink(message)]
-        pub fn mint_delegate(&mut self) {
+        pub fn mint_delegate(&mut self, index: i32) {
             let selector = ink::selector_bytes!("mint");
             ink::env::debug_println!("mint_delegate was called");
             let _ = build_call::<DefaultEnvironment>()
                 .delegate(self.delegate_to())
                 .call_flags(CallFlags::TAIL_CALL)
-                .exec_input(ExecutionInput::new(Selector::new(selector)))
+                .exec_input(ExecutionInput::new(Selector::new(selector)).push_arg(index))
                 .returns::<()>()
                 .try_invoke();
         }
 
         #[ink(message)]
-        pub fn add_entry_delegate(&mut self) {
-            let selector = ink::selector_bytes!("append_address_value");
+        pub fn burn_delegate(&mut self, index: i32) {
+            let selector = ink::selector_bytes!("burn");
+            ink::env::debug_println!("burn_delegate was called");
             let _ = build_call::<DefaultEnvironment>()
                 .delegate(self.delegate_to())
-                .exec_input(ExecutionInput::new(Selector::new(selector)))
+                .call_flags(CallFlags::TAIL_CALL)
+                .exec_input(ExecutionInput::new(Selector::new(selector)).push_arg(index))
                 .returns::<()>()
                 .try_invoke();
         }
 
         #[ink(message)]
-        pub fn get_counter(&self) -> i32 {
-            self.counter
-        }
-
-        #[ink(message)]
-        pub fn get_value(&self, address: AccountId) -> (AccountId, Option<i32>) {
-            (self.env().caller(), self.addresses.get(address))
-        }
-
-        #[ink(message)]
-        pub fn get_value_mint(&self, address: AccountId) -> (AccountId, Option<i32>) {
-            (self.env().caller(), self.owned_called_count.get(address))
+        pub fn get_ressource_count_by_index(&self) -> i32 {
+            todo!()
         }
 
         fn delegate_to(&self) -> Hash {

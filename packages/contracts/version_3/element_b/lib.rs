@@ -2,13 +2,13 @@
 
 #[ink::contract]
 mod element_b {
+    use ink::prelude::vec::Vec;
     use ink::storage::{traits::ManualKey, Lazy, Mapping};
 
     #[ink(storage)]
     pub struct ElementB {
-        addresses: Mapping<AccountId, i32, ManualKey<0x23>>,
-        owned_called_count: Mapping<AccountId, i32, ManualKey<0x24>>,
-        counter: i32,
+        contracts: Mapping<AccountId, i32, ManualKey<0x23>>,
+        ressources: Mapping<AccountId, Vec<i32>, ManualKey<0x25>>,
         delegate_to: Lazy<Hash>,
     }
 
@@ -18,39 +18,36 @@ mod element_b {
         pub fn new() -> Self {
             unreachable!("Constructors are not called when upgrading using `set_code_hash`.")
         }
+
         #[ink(message)]
-        pub fn inc(&mut self) {
+        pub fn mint(&mut self, index: i32) {
             let caller = self.env().caller();
-            let count = self.owned_called_count.get(caller).unwrap_or_default();
-            ink::env::debug_println!(
-                "The current count is {:?}. It got called by element_b",
-                &count
-            );
-            self.owned_called_count.insert(caller, &count);
-            self.counter = self.counter.checked_add(10).unwrap();
-        }
-        #[ink(message)]
-        pub fn mint(&mut self) {
-            let caller = self.env().caller();
-            let count = self.owned_called_count.get(caller).unwrap_or_default();
-            ink::env::debug_println!(
-                "The current mint count is {:?}. It got called by element_b. The caller was {:?}",
-                &count,
-                &caller
-            );
-            self.owned_called_count.insert(caller, &count);
+            let mut current_vec = self.ressources.get(caller).unwrap_or_default();
+            let index_as_usize: usize = index as usize;
+            if current_vec.len() <= index_as_usize {
+                current_vec.resize(index_as_usize.saturating_add(1), 0);
+            }
+            current_vec[index_as_usize] = current_vec[index_as_usize].saturating_add(1);
+            self.ressources.insert(caller, &current_vec);
+            ink::env::debug_println!("Mint was called {:?}", self.ressources.get(caller))
         }
 
         #[ink(message)]
-        pub fn append_address_value(&mut self) {
+        pub fn burn(&mut self, index: i32) {
             let caller = self.env().caller();
-            self.addresses.insert(caller, &self.counter);
+            let mut current_vec = self.ressources.get(caller).unwrap_or_default();
+            let index_as_usize: usize = index as usize;
+            if current_vec.len() <= index_as_usize {
+                current_vec.resize(index_as_usize.saturating_sub(1), 0);
+            }
+            current_vec[index_as_usize] = current_vec[index_as_usize].saturating_sub(1);
+            self.ressources.insert(caller, &current_vec);
+            ink::env::debug_println!("Burn was called {:?}", self.ressources.get(caller))
         }
 
         #[ink(message)]
-        pub fn get_owned_called_count(&self) -> i32 {
-            let caller = self.env().caller();
-            self.owned_called_count.get(caller).unwrap()
+        pub fn get_ressource_count_by_index(&self) -> i32 {
+            todo!();
         }
     }
 }
