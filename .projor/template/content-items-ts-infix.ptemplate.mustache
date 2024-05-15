@@ -1,0 +1,39 @@
+{
+    "map": {
+        "items": "items",
+        "recipes": "recipes"
+    },
+    "filename": "packages/content/src/index.ts",
+    "infix": {
+        "start": "\n/** Begin generated content items */\n",
+        "end": "\n/** End generated content items */\n"
+    }
+}
+---
+
+{{#each items}}
+export const CONTENT_ITEM_{{constantCase name}}: IItem = {
+    "name": "{{{name}}}",
+    "description": "{{{description}}}"
+};
+{{/each}}
+export const CONTENT_ITEMS: Array<IItem> = [
+{{#each items}}
+    CONTENT_ITEM_{{constantCase name}},
+{{/each}}
+];
+
+
+{{#each recipes}}
+export const CONTENT_RECIPE_{{constantCase name}}: IRecipe = {
+    a: CONTENT_ITEM_{{constantCase a.name}},
+    b: CONTENT_ITEM_{{constantCase b.name}},
+    result: CONTENT_ITEM_{{constantCase c.name}},
+};
+{{/each}}
+export const CONTENT_RECIPES: Array<IRecipe> = [
+{{#each recipes}}
+    CONTENT_RECIPE_{{constantCase name}},
+{{/each}}
+];
+

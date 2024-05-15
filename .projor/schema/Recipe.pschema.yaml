@@ -1,0 +1,16 @@
+id: s/Recipe
+name: Recipe
+description: A recipe is a combination of two items to create a third item
+fields:
+  - name: a
+    description: The first item
+    type: reference
+    references: s/Item
+  - name: b
+    description: The second item
+    type: reference
+    references: s/Item
+  - name: c
+    description: The resulting item
+    type: reference
+    references: s/Item

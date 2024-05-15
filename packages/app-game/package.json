@@ -4,9 +4,7 @@
   "private": true,
   "dependencies": {
     "@not-a-bird/assets": "*",
-    "@not-a-bird/planet-generator": "*",
-    "@not-a-bird/region-generator": "*",
-    "@not-a-bird/star-system-generator": "*",
+    "@not-a-bird/model": "*",
     "@polkadot/api": "^11.0.2",
     "@polkadot/api-contract": "^11.0.2",
     "leva": "^0.9.35",
