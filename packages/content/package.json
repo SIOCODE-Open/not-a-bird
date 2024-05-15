@@ -1,0 +1,9 @@
+{
+    "name": "@not-a-bird/content",
+    "version": "0.0.1",
+    "description": "The game content, including items and recipes",
+    "dependencies": {
+        "@not-a-bird/model": "*"
+    },
+    "main": "src/index.ts"
+}

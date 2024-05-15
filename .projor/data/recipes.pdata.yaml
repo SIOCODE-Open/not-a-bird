@@ -1,0 +1,15 @@
+id: recipes
+name: Recipes
+description: The recipes in the game
+schema: s/Recipe
+objects:
+  - name: create_steam
+    description: Combining **water** and **fire** creates **steam**
+    a: items#water
+    b: items#fire
+    c: items#steam
+  - name: create_lava
+    description: Lava is created when a volcano errupts, combining **earth** and **fire**
+    a: items#earth
+    b: items#fire
+    c: items#lava

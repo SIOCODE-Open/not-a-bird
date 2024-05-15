@@ -1,0 +1,17 @@
+id: items
+name: items
+description: The items in the game
+schema: s/Item
+objects:
+  - name: water
+    description: Water is a liquid with formula H~2~O
+  - name: fire
+    description: Fire is a chemical reaction that releases heat and light
+  - name: earth
+    description: Earth is the solid material that makes up the surface of the planet
+  - name: air
+    description: Air is a mixture of gases that make up the atmosphere
+  - name: steam
+    description: Steam is the gaseous form of water with formula H~2~O
+  - name: lava
+    description: Lava is molten rock that flows from a volcano
