@@ -3,18 +3,17 @@ import { useControls, button } from "leva";
 import { Resource } from "../classes/RessourceClass";
 //!TODO BROWSER COMPATIBLITLY
 import { useUnique } from "../service/UniqueService";
-
+import { useBorderControls, useContractVersion1Controls, useFrontendControls } from "../components/LevaCmp";
 import { useFrank } from "../service/FrankService";
 import { BN } from "@polkadot/util";
 
 export function MergicanPage(props: { navigate: (path: string) => void }) {
   // const { mint, burn, createCollection } = useUnique("");
-
   const { mintMetal, mintCrystal, createMetcrys, getMetcrysCount } = useFrank();
   const [metalCount, setMetalCount] = useState(new BN(0));
   const [crystalCount, setCrystalCount] = useState(new BN(0));
   const [metCrysCount, setmetCrysCount] = useState("");
-  const [colorBorder, setColorBorder] = useState("#fff000");
+  // const [colorBorder, setColorBorder] = useState("#fff000");
   // Resource State
   const [selectedResources, setSelectedResources] = useState<Resource[]>([]);
   const [resources, setResources] = useState<Resource[]>([
@@ -29,6 +28,23 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
   const addResource = (newResource: Resource) => {
     setResources((prevResources) => [...prevResources, newResource]);
   };
+
+  // Leva Controls
+  const { colorBorder, setColorBorder, borderControls } = useBorderControls();
+  const { resourcesCount, setResourcesCount, frontendControls } = useFrontendControls(resources, addResource);
+  const { contractVersion1Controls } = useContractVersion1Controls(
+    resources,
+    metalCount,
+    crystalCount,
+    metCrysCount,
+    mintMetal,
+    mintCrystal,
+    createMetcrys,
+    getMetcrysCount,
+    setMetalCount,
+    setCrystalCount,
+    setmetCrysCount
+  );
 
   // Function to update a resource
   const updateResource = (resourceIndex: number, updatedResource: Resource) => {
@@ -55,107 +71,107 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
   };
 
   // Leva Helpers
-  const [, setUnique] = useControls(
-    "Unique",
-    () => ({
-      collectionId: {
-        value: 0,
-        disabled: true,
-      },
-      createCollectionOnUnique: button(async () => {
-        /*createCollection()*/
-      }),
-      mintOnUnique: button(async () => {
-        /*mint()*/
-      }),
-      burOnUnique: button(async () => {
-        /*burn(5)*/
-      }),
-    }),
-    [resources]
-  );
+  // const [, setUnique] = useControls(
+  //   "Unique",
+  //   () => ({
+  //     collectionId: {
+  //       value: 0,
+  //       disabled: true,
+  //     },
+  //     createCollectionOnUnique: button(async () => {
+  //       /*createCollection()*/
+  //     }),
+  //     mintOnUnique: button(async () => {
+  //       /*mint()*/
+  //     }),
+  //     burOnUnique: button(async () => {
+  //       /*burn(5)*/
+  //     }),
+  //   }),
+  //   [resources]
+  // );
 
-  const [, setFrontend] = useControls(
-    "Frontend",
-    () => ({
-      resourcesCount: {
-        value: resources.length,
-        disabled: true,
-      },
-      add_ressource: button(() => {
-        addResource(new Resource(500 * Math.random(), 500 * Math.random(), "green", false, 0, 0, 1));
-        setFrontend({ resourcesCount: resources.length });
-      }),
-    }),
-    [resources]
-  );
+  // const [, setFrontend] = useControls(
+  //   "Frontend",
+  //   () => ({
+  //     resourcesCount: {
+  //       value: resources.length,
+  //       disabled: true,
+  //     },
+  //     add_ressource: button(() => {
+  //       addResource(new Resource(500 * Math.random(), 500 * Math.random(), "green", false, 0, 0, 1));
+  //       setFrontend({ resourcesCount: resources.length });
+  //     }),
+  //   }),
+  //   [resources]
+  // );
 
-  const [borderControls, setBorder] = useControls(
-    "Border",
-    () => ({
-      color: {
-        value: colorBorder,
-        disabled: false,
-        onChange: (c) => {
-          setColorBorder(c);
-        },
-      },
-      get_color: button(() => {
-        console.log(colorBorder);
-      }),
-    }),
-    [colorBorder]
-  );
+  // const [borderControls, setBorder] = useControls(
+  //   "Border",
+  //   () => ({
+  //     color: {
+  //       value: colorBorder,
+  //       disabled: false,
+  //       onChange: (c) => {
+  //         setColorBorder(c);
+  //       },
+  //     },
+  //     get_color: button(() => {
+  //       console.log(colorBorder);
+  //     }),
+  //   }),
+  //   [colorBorder]
+  // );
 
-  const [, setContractVersion1] = useControls(
-    "ContractVersion1",
-    () => ({
-      metcrysCount: {
-        value: 0,
-        disabled: true,
-      },
-      metal: {
-        value: metalCount.toNumber(),
-        disabled: true,
-      },
-      crystal: {
-        value: crystalCount.toNumber(),
-        disabled: true,
-      },
-      metCrys: {
-        value: "",
-        disabled: true,
-      },
-      mintMetal: button(async () => {
-        console.log("mint metal");
-        const newMetalCount = metalCount.add(new BN(1));
-        await mintMetal(newMetalCount);
-        setMetalCount(newMetalCount);
-        setContractVersion1({ metal: metalCount.toNumber() });
-      }),
-      mintCrystal: button(async () => {
-        console.log("mint crystal");
-        const newCrystalCount = crystalCount.add(new BN(1));
-        await mintCrystal(newCrystalCount);
-        setCrystalCount(newCrystalCount);
-        setContractVersion1({ crystal: crystalCount.toNumber() });
-      }),
-      createMetcrys: button(async () => {
-        console.log("create MetCrys");
-        await createMetcrys();
-        const newMetCrysCount = await getMetcrysCount();
-        setmetCrysCount(newMetCrysCount);
-        setContractVersion1({ metCrys: metCrysCount });
-      }),
-      getMetcrysCount: button(async () => {
-        console.log("getMetcrysCount");
-        const newMetCrysCount = await getMetcrysCount();
-        setmetCrysCount(newMetCrysCount);
-        setContractVersion1({ metCrys: metCrysCount });
-      }),
-    }),
-    [resources, metalCount, crystalCount, metCrysCount]
-  );
+  // const [, setContractVersion1] = useControls(
+  //   "ContractVersion1",
+  //   () => ({
+  //     metcrysCount: {
+  //       value: 0,
+  //       disabled: true,
+  //     },
+  //     metal: {
+  //       value: metalCount.toNumber(),
+  //       disabled: true,
+  //     },
+  //     crystal: {
+  //       value: crystalCount.toNumber(),
+  //       disabled: true,
+  //     },
+  //     metCrys: {
+  //       value: "",
+  //       disabled: true,
+  //     },
+  //     mintMetal: button(async () => {
+  //       console.log("mint metal");
+  //       const newMetalCount = metalCount.add(new BN(1));
+  //       await mintMetal(newMetalCount);
+  //       setMetalCount(newMetalCount);
+  //       setContractVersion1({ metal: metalCount.toNumber() });
+  //     }),
+  //     mintCrystal: button(async () => {
+  //       console.log("mint crystal");
+  //       const newCrystalCount = crystalCount.add(new BN(1));
+  //       await mintCrystal(newCrystalCount);
+  //       setCrystalCount(newCrystalCount);
+  //       setContractVersion1({ crystal: crystalCount.toNumber() });
+  //     }),
+  //     createMetcrys: button(async () => {
+  //       console.log("create MetCrys");
+  //       await createMetcrys();
+  //       const newMetCrysCount = await getMetcrysCount();
+  //       setmetCrysCount(newMetCrysCount);
+  //       setContractVersion1({ metCrys: metCrysCount });
+  //     }),
+  //     getMetcrysCount: button(async () => {
+  //       console.log("getMetcrysCount");
+  //       const newMetCrysCount = await getMetcrysCount();
+  //       setmetCrysCount(newMetCrysCount);
+  //       setContractVersion1({ metCrys: metCrysCount });
+  //     }),
+  //   }),
+  //   [resources, metalCount, crystalCount, metCrysCount]
+  // );
 
   const [, setContractVersion3] = useControls("ContractVersion3", () => ({}), [resources]);
 
