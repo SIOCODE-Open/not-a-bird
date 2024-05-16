@@ -169,6 +169,85 @@ pub mod water {
             Ok(())
         }
 
+        #[ink(message)]
+        pub fn transfer(&mut self, to: AccountId, value: u128) -> Result<(), Error> {
+            let from = self.env().caller();
+            let from_balance = self.balances.get(from).unwrap_or_default();
+            if from_balance < value {
+                return Err(Error::InsufficientBalance);
+            }
+            self.balances.insert(from, &from_balance.checked_sub(value).ok_or(Error::Custom(String::from("Underflow transferring tokens")))?);
+            let to_balance = self.balances.get(to).unwrap_or_default();
+            self.balances.insert(to, &to_balance.checked_add(value).ok_or(Error::Custom(String::from("Overflow transferring tokens")))?);
+            self.env().emit_event(PSP22Transfer {
+                from: Some(from),
+                to: Some(to),
+                value,
+            });
+            Ok(())
+        }
+
+        #[ink(message)]
+        pub fn approve(&mut self, spender: AccountId, value: u128) -> Result<(), Error> {
+            let owner = self.env().caller();
+            self.allowances.insert((owner, spender), &value);
+            self.env().emit_event(PSP22Approval {
+                owner,
+                spender,
+                amount: value,
+            });
+            Ok(())
+        }
+
+        #[ink(message)]
+        pub fn transfer_from(&mut self, from: AccountId, to: AccountId, value: u128) -> Result<(), Error> {
+            let caller = self.env().caller();
+            let allowance = self.allowances.get((from, caller)).unwrap_or_default();
+            if allowance < value {
+                return Err(Error::InsufficientAllowance);
+            }
+            let from_balance = self.balances.get(from).unwrap_or_default();
+            if from_balance < value {
+                return Err(Error::InsufficientBalance);
+            }
+            self.allowances.insert((from, caller), &allowance.checked_sub(value).ok_or(Error::Custom(String::from("Underflow transferring tokens")))?);
+            self.balances.insert(from, &from_balance.checked_sub(value).ok_or(Error::Custom(String::from("Underflow transferring tokens")))?);
+            let to_balance = self.balances.get(to).unwrap_or_default();
+            self.balances.insert(to, &to_balance.checked_add(value).ok_or(Error::Custom(String::from("Overflow transferring tokens")))?);
+            self.env().emit_event(PSP22Transfer {
+                from: Some(from),
+                to: Some(to),
+                value,
+            });
+            Ok(())
+        }
+
+        #[ink(message)]
+        pub fn increase_allowance(&mut self, spender: AccountId, added_value: u128) -> Result<(), Error> {
+            let owner = self.env().caller();
+            let allowance = self.allowances.get((owner, spender)).unwrap_or_default();
+            self.allowances.insert((owner, spender), &allowance.checked_add(added_value).ok_or(Error::Custom(String::from("Overflow increasing allowance")))?);
+            self.env().emit_event(PSP22Approval {
+                owner,
+                spender,
+                amount: allowance.checked_add(added_value).ok_or(Error::Custom(String::from("Overflow increasing allowance")))?,
+            });
+            Ok(())
+        }
+
+        #[ink(message)]
+        pub fn decrease_allowance(&mut self, spender: AccountId, subtracted_value: u128) -> Result<(), Error> {
+            let owner = self.env().caller();
+            let allowance = self.allowances.get((owner, spender)).unwrap_or_default();
+            self.allowances.insert((owner, spender), &allowance.checked_sub(subtracted_value).ok_or(Error::Custom(String::from("Underflow decreasing allowance")))?);
+            self.env().emit_event(PSP22Approval {
+                owner,
+                spender,
+                amount: allowance.checked_sub(subtracted_value).ok_or(Error::Custom(String::from("Underflow decreasing allowance")))?,
+            });
+            Ok(())
+        }
+
     }
 
 }
