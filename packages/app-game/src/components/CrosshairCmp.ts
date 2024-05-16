@@ -1,4 +1,4 @@
-import { Resource } from "../classes/RessourceClass";
+import { Resource } from "../classes/ResourceClass";
 
 export function useCrosshair() {
   const createCrosshair = (canvas: HTMLCanvasElement, res_el: Resource, colorBorder: string) => {
