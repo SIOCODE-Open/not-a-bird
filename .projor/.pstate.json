@@ -1,3 +1,148 @@
 {
-  "generatedSource": []
+  "generatedSource": [
+    {
+      "filename": "packages/contract-air/Cargo.toml",
+      "content": "[workspace]\n\nresolver = \"1\"\nmembers = [\n  \"src\"\n]",
+      "contentHash": "72fbba0ae8f1e9965160d14eb9ffdaf149382667f320919492016c9569c9e8b2",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-air/package.json",
+      "content": "{\n    \"name\": \"@not-a-bird/contract-air\",\n    \"description\": \"PSP-22 compatible game smart contract for element 'air'\",\n    \"version\": \"0.0.1\",\n    \"private\": true,\n    \"dependencies\": {},\n    \"scripts\": {\n        \"build\": \"cargo contract build --target wasm --release --manifest-path src/Cargo.toml\"\n    }\n}",
+      "contentHash": "e9655f46dd82755a4e38ce8d5625f1a5e36ab94ae454210c9369ccb1b04a5848",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-air/src/Cargo.toml",
+      "content": "[package]\nname = \"air\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"4.3.0\", default-features = false }\n\nscale = { package = \"parity-scale-codec\", version = \"3\", default-features = false, features = [\"derive\"] }\nscale-info = { version = \"2\", default-features = false, features = [\"derive\"], optional = true }\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\", \"scale/std\", \"scale-info/std\"]\nink-as-dependency = []",
+      "contentHash": "52d0cb29c9f63d7d1d653207768cc9628e3e80e3a2a259195d55825ec201ea89",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-air/src/lib.rs",
+      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod air {\n\n    /** Error type for PSP-22 compatible contract for element 'air' */\n    #[derive(scale::Encode, scale::Decode, Debug, PartialEq, Eq, Copy, Clone)]\n    #[cfg_attr(feature = \"std\", derive(scale_info::TypeInfo))]\n    pub enum Error {\n    }\n\n    #[ink(storage)]\n    pub struct AirContract {\n    }\n\n    impl AirContract {\n        /// Creates a new PSP-22 compatible Air Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self {\n            }\n        }\n    }\n\n}",
+      "contentHash": "59ba0aaf1317add974d7efc5d34826987829a4b8c00f0e02f61fca6dbbf11417",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-earth/Cargo.toml",
+      "content": "[workspace]\n\nresolver = \"1\"\nmembers = [\n  \"src\"\n]",
+      "contentHash": "72fbba0ae8f1e9965160d14eb9ffdaf149382667f320919492016c9569c9e8b2",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-earth/package.json",
+      "content": "{\n    \"name\": \"@not-a-bird/contract-earth\",\n    \"description\": \"PSP-22 compatible game smart contract for element 'earth'\",\n    \"version\": \"0.0.1\",\n    \"private\": true,\n    \"dependencies\": {},\n    \"scripts\": {\n        \"build\": \"cargo contract build --target wasm --release --manifest-path src/Cargo.toml\"\n    }\n}",
+      "contentHash": "148c02fbca356ac90f5edd1de72f03b78a7b4cf602cceb490926b1ecc11c4ded",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-earth/src/Cargo.toml",
+      "content": "[package]\nname = \"earth\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"4.3.0\", default-features = false }\n\nscale = { package = \"parity-scale-codec\", version = \"3\", default-features = false, features = [\"derive\"] }\nscale-info = { version = \"2\", default-features = false, features = [\"derive\"], optional = true }\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\", \"scale/std\", \"scale-info/std\"]\nink-as-dependency = []",
+      "contentHash": "cf974b546f9377912a59d7c5a14f39be9b8c44fa231dcf944c3b3af34d5e282e",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-earth/src/lib.rs",
+      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod earth {\n\n    /** Error type for PSP-22 compatible contract for element 'earth' */\n    #[derive(scale::Encode, scale::Decode, Debug, PartialEq, Eq, Copy, Clone)]\n    #[cfg_attr(feature = \"std\", derive(scale_info::TypeInfo))]\n    pub enum Error {\n    }\n\n    #[ink(storage)]\n    pub struct EarthContract {\n    }\n\n    impl EarthContract {\n        /// Creates a new PSP-22 compatible Earth Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self {\n            }\n        }\n    }\n\n}",
+      "contentHash": "86c65ce75a924b02248f2fc77d1d1419287d58585bee8498cabc65c90987f61d",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-fire/Cargo.toml",
+      "content": "[workspace]\n\nresolver = \"1\"\nmembers = [\n  \"src\"\n]",
+      "contentHash": "72fbba0ae8f1e9965160d14eb9ffdaf149382667f320919492016c9569c9e8b2",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-fire/package.json",
+      "content": "{\n    \"name\": \"@not-a-bird/contract-fire\",\n    \"description\": \"PSP-22 compatible game smart contract for element 'fire'\",\n    \"version\": \"0.0.1\",\n    \"private\": true,\n    \"dependencies\": {},\n    \"scripts\": {\n        \"build\": \"cargo contract build --target wasm --release --manifest-path src/Cargo.toml\"\n    }\n}",
+      "contentHash": "3405f6a2335d729c1cd168a53d66e2de75acd64603186b9c82fa42bc796442dc",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-fire/src/Cargo.toml",
+      "content": "[package]\nname = \"fire\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"4.3.0\", default-features = false }\n\nscale = { package = \"parity-scale-codec\", version = \"3\", default-features = false, features = [\"derive\"] }\nscale-info = { version = \"2\", default-features = false, features = [\"derive\"], optional = true }\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\", \"scale/std\", \"scale-info/std\"]\nink-as-dependency = []",
+      "contentHash": "ad2e9dd8817c2d1bf7d23b53f6ee76bdd76ac250e97c65712c1a0a907dee0a55",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-fire/src/lib.rs",
+      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod fire {\n\n    /** Error type for PSP-22 compatible contract for element 'fire' */\n    #[derive(scale::Encode, scale::Decode, Debug, PartialEq, Eq, Copy, Clone)]\n    #[cfg_attr(feature = \"std\", derive(scale_info::TypeInfo))]\n    pub enum Error {\n    }\n\n    #[ink(storage)]\n    pub struct FireContract {\n    }\n\n    impl FireContract {\n        /// Creates a new PSP-22 compatible Fire Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self {\n            }\n        }\n    }\n\n}",
+      "contentHash": "66bb23a190315f4893a0b1a77cf1e35c0a147fc00f1074d38c113a18bf72782c",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-lava/Cargo.toml",
+      "content": "[workspace]\n\nresolver = \"1\"\nmembers = [\n  \"src\"\n]",
+      "contentHash": "72fbba0ae8f1e9965160d14eb9ffdaf149382667f320919492016c9569c9e8b2",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-lava/package.json",
+      "content": "{\n    \"name\": \"@not-a-bird/contract-lava\",\n    \"description\": \"PSP-22 compatible game smart contract for element 'lava'\",\n    \"version\": \"0.0.1\",\n    \"private\": true,\n    \"dependencies\": {},\n    \"scripts\": {\n        \"build\": \"cargo contract build --target wasm --release --manifest-path src/Cargo.toml\"\n    }\n}",
+      "contentHash": "ff5cd696d66f0401b84905ebcda5d0906c213cb89f125d23ca2f4c9c5e5e709c",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-lava/src/Cargo.toml",
+      "content": "[package]\nname = \"lava\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"4.3.0\", default-features = false }\n\nscale = { package = \"parity-scale-codec\", version = \"3\", default-features = false, features = [\"derive\"] }\nscale-info = { version = \"2\", default-features = false, features = [\"derive\"], optional = true }\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\", \"scale/std\", \"scale-info/std\"]\nink-as-dependency = []",
+      "contentHash": "4514c3e77a3c37e7613350e57f8750a883b53d3ca1b508945725be7d3b1e210a",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-lava/src/lib.rs",
+      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod lava {\n\n    /** Error type for PSP-22 compatible contract for element 'lava' */\n    #[derive(scale::Encode, scale::Decode, Debug, PartialEq, Eq, Copy, Clone)]\n    #[cfg_attr(feature = \"std\", derive(scale_info::TypeInfo))]\n    pub enum Error {\n    }\n\n    #[ink(storage)]\n    pub struct LavaContract {\n    }\n\n    impl LavaContract {\n        /// Creates a new PSP-22 compatible Lava Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self {\n            }\n        }\n    }\n\n}",
+      "contentHash": "8be8786f8d0a6be5df76f88f0ae6c0b49a776667bd866e830607a5980032f2ba",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-steam/Cargo.toml",
+      "content": "[workspace]\n\nresolver = \"1\"\nmembers = [\n  \"src\"\n]",
+      "contentHash": "72fbba0ae8f1e9965160d14eb9ffdaf149382667f320919492016c9569c9e8b2",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-steam/package.json",
+      "content": "{\n    \"name\": \"@not-a-bird/contract-steam\",\n    \"description\": \"PSP-22 compatible game smart contract for element 'steam'\",\n    \"version\": \"0.0.1\",\n    \"private\": true,\n    \"dependencies\": {},\n    \"scripts\": {\n        \"build\": \"cargo contract build --target wasm --release --manifest-path src/Cargo.toml\"\n    }\n}",
+      "contentHash": "d1d5338bf2c97324ccbbd9a8b8908a78c00f68c292e1ffa9970ddb485e06a1f3",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-steam/src/Cargo.toml",
+      "content": "[package]\nname = \"steam\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"4.3.0\", default-features = false }\n\nscale = { package = \"parity-scale-codec\", version = \"3\", default-features = false, features = [\"derive\"] }\nscale-info = { version = \"2\", default-features = false, features = [\"derive\"], optional = true }\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\", \"scale/std\", \"scale-info/std\"]\nink-as-dependency = []",
+      "contentHash": "f7556c8ff8d00e1f208b03b28aad78cbd74cb98de453dcf5311a2300a55ed6bc",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-steam/src/lib.rs",
+      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod steam {\n\n    /** Error type for PSP-22 compatible contract for element 'steam' */\n    #[derive(scale::Encode, scale::Decode, Debug, PartialEq, Eq, Copy, Clone)]\n    #[cfg_attr(feature = \"std\", derive(scale_info::TypeInfo))]\n    pub enum Error {\n    }\n\n    #[ink(storage)]\n    pub struct SteamContract {\n    }\n\n    impl SteamContract {\n        /// Creates a new PSP-22 compatible Steam Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self {\n            }\n        }\n    }\n\n}",
+      "contentHash": "660ba61d767f83a4cf76c0254ba9624ab1aecb9d8323f5c8f3476ee56ecf6cab",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-water/Cargo.toml",
+      "content": "[workspace]\n\nresolver = \"1\"\nmembers = [\n  \"src\"\n]",
+      "contentHash": "72fbba0ae8f1e9965160d14eb9ffdaf149382667f320919492016c9569c9e8b2",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-water/package.json",
+      "content": "{\n    \"name\": \"@not-a-bird/contract-water\",\n    \"description\": \"PSP-22 compatible game smart contract for element 'water'\",\n    \"version\": \"0.0.1\",\n    \"private\": true,\n    \"dependencies\": {},\n    \"scripts\": {\n        \"build\": \"cargo contract build --target wasm --release --manifest-path src/Cargo.toml\"\n    }\n}",
+      "contentHash": "73e554672fbc18b041d4a04e9907550b6689ab8baac63e60ca001740d5a15dd5",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-water/src/Cargo.toml",
+      "content": "[package]\nname = \"water\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"4.3.0\", default-features = false }\n\nscale = { package = \"parity-scale-codec\", version = \"3\", default-features = false, features = [\"derive\"] }\nscale-info = { version = \"2\", default-features = false, features = [\"derive\"], optional = true }\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\", \"scale/std\", \"scale-info/std\"]\nink-as-dependency = []",
+      "contentHash": "6b0c2a2353250169f08fc81420245b9794607fd2fbb5d3208ab31a6925610afa",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/contract-water/src/lib.rs",
+      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod water {\n\n    /** Error type for PSP-22 compatible contract for element 'water' */\n    #[derive(scale::Encode, scale::Decode, Debug, PartialEq, Eq, Copy, Clone)]\n    #[cfg_attr(feature = \"std\", derive(scale_info::TypeInfo))]\n    pub enum Error {\n    }\n\n    #[ink(storage)]\n    pub struct WaterContract {\n    }\n\n    impl WaterContract {\n        /// Creates a new PSP-22 compatible Water Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self {\n            }\n        }\n    }\n\n}",
+      "contentHash": "2cc8b6a2e57f50447c3debe754ef8ca2b8ac02a5c77c5f6a286ea6ba85e99ee1",
+      "noWriteIfExists": false
+    }
+  ]
 }

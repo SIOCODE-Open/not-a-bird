@@ -1,0 +1,15 @@
+{
+    "forEach": "item-psp22-contracts",
+    "filename": "packages/contract-{{kebabCase name}}/package.json"
+}
+---
+{
+    "name": "@not-a-bird/contract-{{kebabCase name}}",
+    "description": "{{{description}}}",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {},
+    "scripts": {
+        "build": "cargo contract build --target wasm --release --manifest-path src/Cargo.toml"
+    }
+}

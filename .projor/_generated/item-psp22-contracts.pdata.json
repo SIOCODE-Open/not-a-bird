@@ -1,0 +1,32 @@
+{
+    "id": "item-psp22-contracts",
+    "name": "Item PSP-22 Contracts",
+    "description": "List of PSP-22 compatible game smart contracts for each item in the game",
+    "schema": "s/PSP22Contract",
+    "objects": [
+        {
+            "name": "water",
+            "description": "PSP-22 compatible game smart contract for element 'water'"
+        },
+        {
+            "name": "fire",
+            "description": "PSP-22 compatible game smart contract for element 'fire'"
+        },
+        {
+            "name": "earth",
+            "description": "PSP-22 compatible game smart contract for element 'earth'"
+        },
+        {
+            "name": "air",
+            "description": "PSP-22 compatible game smart contract for element 'air'"
+        },
+        {
+            "name": "steam",
+            "description": "PSP-22 compatible game smart contract for element 'steam'"
+        },
+        {
+            "name": "lava",
+            "description": "PSP-22 compatible game smart contract for element 'lava'"
+        }
+    ]
+}

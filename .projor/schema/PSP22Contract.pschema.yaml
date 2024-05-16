@@ -1,0 +1,4 @@
+id: s/PSP22Contract
+name: PSP22Contract
+description: A PSP-22 compatible contract implementing the Fungible Token standard
+fields: []
