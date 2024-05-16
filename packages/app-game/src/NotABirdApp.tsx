@@ -5,6 +5,7 @@ import { FrankPage } from "./pages/FrankPage";
 import { GameOverPage } from "./pages/GameOverPage";
 import { ItemsWikiPage } from "./pages/ItemsWikiPage";
 import { MergicanPage } from "./pages/MergicanPage";
+import { ParticlePage } from "./pages/ParticlePage";
 
 const pages: Array<{ path: string; component: any }> = [
   { path: "/landing-page", component: LandingPage },
@@ -13,11 +14,12 @@ const pages: Array<{ path: string; component: any }> = [
   { path: "/frank", component: FrankPage },
   { path: "/items-wiki", component: ItemsWikiPage },
   { path: "/mergican", component: MergicanPage },
+  { path: "/particle", component: ParticlePage },
 ];
 
 export function NotABirdApp() {
-  const [currentPage, setCurrentPage] = useState("/mergican");
-  const currentCompRef = useRef(MergicanPage);
+  const [currentPage, setCurrentPage] = useState("/landing-page");
+  const currentCompRef = useRef(LandingPage);
 
   const navigate = (path: string) => {
     if (path === currentPage) {
