@@ -7,9 +7,16 @@
 ---
 [workspace]
 
-resolver = "1"
+resolver = "2"
 members = [
   {{#each itemcontracts}}
   "packages/contract-{{kebabCase name}}/src",
   {{/each}}
 ]
+exclude = [
+  ".cargo",
+  "target"
+]
+
+[workspace.dependencies]
+ink = { version = "5.0.0", default-features = false }

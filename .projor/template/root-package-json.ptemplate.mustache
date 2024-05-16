@@ -35,6 +35,9 @@
     "prettier": "^3.2.5"
   },
   "scripts": {
+    {{#each items}}
+    "build:{{kebabCase name}}": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-{{kebabCase name}}/src/Cargo.toml",
+    {{/each}}
     "build:contracts": "{{#each items}}cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-{{kebabCase name}}/src/Cargo.toml{{#unless @last}} && {{/unless}}{{/each}}",
     "build": "npm run -w @not-a-bird/app-game build",
     "serve": "npm run -w @not-a-bird/app-game serve"

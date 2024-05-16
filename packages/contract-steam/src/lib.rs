@@ -87,6 +87,16 @@ pub mod steam {
         pub fn token_decimals(&self)-> u8 {
             0
         }
+
+        #[ink(message)]
+        pub fn total_supply(&self) -> u128 {
+            self.total_supply
+        }
+
+        #[ink(message)]
+        pub fn balance_of(&self, owner: AccountId) -> u128 {
+            self.balances.get(owner).unwrap_or_default()
+        }
     }
 
 }

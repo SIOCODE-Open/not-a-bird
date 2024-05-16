@@ -5,7 +5,7 @@ authors = ["SIOCODE Llc. <info@siocode.hu>"]
 edition = "2021"
 
 [dependencies]
-ink = { version = "5.0.0", default-features = false }
+ink = { workspace = true }
 
 
 [lib]
