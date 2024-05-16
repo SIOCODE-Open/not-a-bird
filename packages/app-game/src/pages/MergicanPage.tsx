@@ -1,33 +1,24 @@
 import { useEffect, useRef, useState } from "react";
-import { Resource } from "../classes/RessourceClass";
+import { Resource } from "../classes/ResourceClass";
 //!TODO BROWSER COMPATIBLITLY
 import { useBorderControls, useContractVersion1Controls, useFrontendControls } from "../components/LevaCmp";
 import { useFrank } from "../service/FrankService";
 import { BN } from "@polkadot/util";
 import { useCrosshair } from "../components/CrosshairCmp";
+import { useResources } from "../service/ResourceService";
 
 export function MergicanPage(props: { navigate: (path: string) => void }) {
   // const { mint, burn, createCollection } = useUnique("");
   const { mintMetal, mintCrystal, createMetcrys, getMetcrysCount } = useFrank();
   const { createCrosshair } = useCrosshair();
+  const { getResources, addResource, setResources } = useResources();
+
   const [metalCount, setMetalCount] = useState(new BN(0));
   const [crystalCount, setCrystalCount] = useState(new BN(0));
   const [metCrysCount, setmetCrysCount] = useState("");
 
   // Resource State
-  const [selectedResources, setSelectedResources] = useState<Resource[]>([]);
-  const [resources, setResources] = useState<Resource[]>([
-    new Resource(300, 300, "white", false, 0, 0, 1),
-    new Resource(300, 300, "white", false, 0, 0, 1),
-    new Resource(500, 500, "white", false, 2, 0, 1),
-    new Resource(200, 200, "white", false, 4, 0, 1),
-    new Resource(280, 120, "white", false, 6, 0, 1),
-  ]);
-
-  // Function to add a new resource
-  const addResource = (newResource: Resource) => {
-    setResources((prevResources) => [...prevResources, newResource]);
-  };
+  const resources = getResources();
 
   // Leva Controls
   const { colorBorder, setColorBorder, borderControls } = useBorderControls();
@@ -45,15 +36,6 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     setCrystalCount,
     setmetCrysCount
   );
-
-  // Function to update a resource
-  const updateResource = (resourceIndex: number, updatedResource: Resource) => {
-    setResources((prevResources) => prevResources.map((rect, index) => (index === resourceIndex ? updatedResource : rect)));
-  };
-  // Function to remove a resource
-  const removeResource = (resourceIndex: number) => {
-    setResources((prevResources) => prevResources.filter((_, index) => index !== resourceIndex));
-  };
 
   // Mouse
   const [mouseX, setMouseX] = useState(0);
