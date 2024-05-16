@@ -15,7 +15,12 @@
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "rxjs": "7.8.1"
+    "rxjs": "7.8.1",
+    "@polkadot/api": "11.0.2",
+    "@polkadot/api-contract": "11.0.2",
+    "leva": "0.9.35",
+    "@unique-nft/accounts": "^0.3.7",
+    "@unique-nft/sdk": "^0.7.4"
   },
   "devDependencies": {
     "@types/react": "18.2.79",
@@ -30,7 +35,10 @@
     "prettier": "^3.2.5"
   },
   "scripts": {
-    "build:contracts": "{{#each items}}npm run -w @not-a-bird/contract-{{kebabCase name}} build{{#unless @last}} && {{/unless}}{{/each}}",
+    {{#each items}}
+    "build:{{kebabCase name}}": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-{{kebabCase name}}/src/Cargo.toml",
+    {{/each}}
+    "build:contracts": "{{#each items}}cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-{{kebabCase name}}/src/Cargo.toml{{#unless @last}} && {{/unless}}{{/each}}",
     "build": "npm run -w @not-a-bird/app-game build",
     "serve": "npm run -w @not-a-bird/app-game serve"
   }

@@ -8,7 +8,12 @@
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "rxjs": "7.8.1"
+    "rxjs": "7.8.1",
+    "@polkadot/api": "11.0.2",
+    "@polkadot/api-contract": "11.0.2",
+    "leva": "0.9.35",
+    "@unique-nft/accounts": "^0.3.7",
+    "@unique-nft/sdk": "^0.7.4"
   },
   "devDependencies": {
     "@types/react": "18.2.79",
@@ -23,7 +28,13 @@
     "prettier": "^3.2.5"
   },
   "scripts": {
-    "build:contracts": "npm run -w @not-a-bird/contract-water build && npm run -w @not-a-bird/contract-fire build && npm run -w @not-a-bird/contract-earth build && npm run -w @not-a-bird/contract-air build && npm run -w @not-a-bird/contract-steam build && npm run -w @not-a-bird/contract-lava build",
+    "build:water": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-water/src/Cargo.toml",
+    "build:fire": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-fire/src/Cargo.toml",
+    "build:earth": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-earth/src/Cargo.toml",
+    "build:air": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-air/src/Cargo.toml",
+    "build:steam": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-steam/src/Cargo.toml",
+    "build:lava": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-lava/src/Cargo.toml",
+    "build:contracts": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-water/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-fire/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-earth/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-air/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-steam/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-lava/src/Cargo.toml",
     "build": "npm run -w @not-a-bird/app-game build",
     "serve": "npm run -w @not-a-bird/app-game serve"
   }

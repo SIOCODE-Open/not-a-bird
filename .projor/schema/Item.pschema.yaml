@@ -1,4 +1,7 @@
 id: s/Item
 name: Item
 description: An item in the game
-fields: []
+fields:
+  - name: tier
+    description: The tier of an item determines its buy cost. Buy cost of N * (contract.buy_cost[1]) item(s) equals (contract.buy_cost[0] * N) native tokens.
+    type: integer

@@ -1,0 +1,18 @@
+[workspace]
+
+resolver = "2"
+members = [
+  "packages/contract-water/src",
+  "packages/contract-fire/src",
+  "packages/contract-earth/src",
+  "packages/contract-air/src",
+  "packages/contract-steam/src",
+  "packages/contract-lava/src",
+]
+exclude = [
+  ".cargo",
+  "target"
+]
+
+[workspace.dependencies]
+ink = { version = "5.0.0", default-features = false }

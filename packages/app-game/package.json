@@ -5,14 +5,14 @@
   "dependencies": {
     "@not-a-bird/assets": "*",
     "@not-a-bird/model": "*",
-    "@polkadot/api": "^11.0.2",
-    "@polkadot/api-contract": "^11.0.2",
-    "leva": "^0.9.35",
+    "@polkadot/api": "*",
+    "@polkadot/api-contract": "*",
+    "leva": "*",
     "react": "*",
     "react-dom": "*",
     "rxjs": "*",
-    "@unique-nft/accounts": "^0.3.7",
-    "@unique-nft/sdk": "^0.7.4"
+    "@unique-nft/accounts": "*",
+    "@unique-nft/sdk": "*"
   },
   "devDependencies": {
     "@types/react": "*",

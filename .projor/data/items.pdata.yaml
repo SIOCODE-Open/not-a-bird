@@ -5,13 +5,19 @@ schema: s/Item
 objects:
   - name: water
     description: Water is a liquid with formula H~2~O
+    tier: 1
   - name: fire
     description: Fire is a chemical reaction that releases heat and light
+    tier: 1
   - name: earth
     description: Earth is the solid material that makes up the surface of the planet
+    tier: 1
   - name: air
     description: Air is a mixture of gases that make up the atmosphere
+    tier: 1
   - name: steam
     description: Steam is the gaseous form of water with formula H~2~O
+    tier: 2
   - name: lava
     description: Lava is molten rock that flows from a volcano
+    tier: 2
