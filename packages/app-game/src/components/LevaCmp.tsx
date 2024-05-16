@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Resource } from "../classes/RessourceClass";
 
 export function useBorderControls() {
-  const [colorBorder, setColorBorder] = useState("#fff000");
+  const [colorBorder, setColorBorder] = useState("#0000ff");
   const [borderControls, setBorder] = useControls(
     "Border",
     () => ({
