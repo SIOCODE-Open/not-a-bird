@@ -1,5 +1,6 @@
 import { Particle } from "./ParticleClass";
-export class Effect {
+
+class Effect {
   width: number;
   height: number;
   particlesArray: Particle[];
@@ -75,3 +76,5 @@ export class Effect {
     this.particlesArray.forEach((particle) => particle.particlePrint());
   }
 }
+
+export { Effect };

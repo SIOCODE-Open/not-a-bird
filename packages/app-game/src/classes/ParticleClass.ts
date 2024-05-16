@@ -1,5 +1,6 @@
 import { Effect } from "./EffectClass";
-export class Particle {
+
+class Particle {
   effect: Effect;
   x: number;
   y: number;
@@ -99,3 +100,5 @@ export class Particle {
     }, this.effect.counter * 0.05);
   }
 }
+
+export { Particle };
