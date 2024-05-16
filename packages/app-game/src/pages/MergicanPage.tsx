@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Resource } from "../classes/ResourceClass";
-import { useBorderControls } from "../components/LevaCmp";
-import { useCrosshair } from "../components/CrosshairCmp";
+import { useBorderControls } from "../service/LevaService";
+import { useCrosshair } from "../service/CrossHairService";
 import { useResources } from "../service/ResourceService";
 import { useMouse } from "../service/MouseService";
 import { useHelpers } from "../service/HelperService";

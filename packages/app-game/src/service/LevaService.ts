@@ -3,10 +3,11 @@ import { useEffect, useState } from "react";
 import { Resource } from "../classes/ResourceClass";
 import { BN } from "@polkadot/util";
 import { useResources } from "../service/ResourceService";
+import { useFrank } from "./FrankService";
 
-export function useBorderControls() {
+function useBorderControls() {
   const [colorBorder, setColorBorder] = useState("#0000ff");
-  const [borderControls, setBorder] = useControls(
+  const [, setBorder] = useControls(
     "Border",
     () => ({
       color: {
@@ -23,42 +24,13 @@ export function useBorderControls() {
     [colorBorder],
   );
 
-  return { colorBorder, setColorBorder, borderControls };
+  return { colorBorder, setColorBorder };
 }
 
-// NOT IMPLEMENTED FOR NOW
-// export function useUniqueControls() {
-//   const [collectionId, setCollectionId] = useState(0);
-//   const [uniqueControls, setUnique] = useControls(
-//     "Unique",
-//     () => ({
-//       collectionId: {
-//         value: collectionId,
-//         disabled: true,
-//         onChange: (id) => {
-//           setCollectionId(id);
-//         },
-//       },
-//       createCollectionOnUnique: button(async () => {
-//         /*createCollection()*/
-//       }),
-//       mintOnUnique: button(async () => {
-//         /*mint()*/
-//       }),
-//       burOnUnique: button(async () => {
-//         /*burn(5)*/
-//       }),
-//     }),
-//     [collectionId]
-//   );
-
-//   return { collectionId, setCollectionId, uniqueControls };
-// }
-
-export function useFrontendControls() {
+function useFrontendControls() {
   const { resources, addResource } = useResources();
   const [resourcesCount, setResourcesCount] = useState(resources.length);
-  const [frontendControls, setFrontend] = useControls(
+  const [, setFrontend] = useControls(
     "Frontend",
     () => ({
       resourcesCount: {
@@ -89,24 +61,16 @@ export function useFrontendControls() {
   useEffect(() => {
     setResourcesCount(resources.length);
   }, [resources, setResourcesCount]);
-
-  return { resourcesCount, setResourcesCount, frontendControls };
 }
 
-export function useContractVersion1Controls(
-  metalCount,
-  crystalCount,
-  metCrysCount,
-  mintMetal,
-  mintCrystal,
-  createMetcrys,
-  getMetcrysCount,
-  setMetalCount,
-  setCrystalCount,
-  setmetCrysCount,
-) {
+function useContractVersionOne() {
   const { resources } = useResources();
-  const [contractVersion1Controls, setContractVersion1] = useControls(
+  const [metalCount, setMetalCount] = useState(new BN(0));
+  const [crystalCount, setCrystalCount] = useState(new BN(0));
+  const [metCrysCount, setmetCrysCount] = useState("");
+  const { mintMetal, mintCrystal, createMetcrys, getMetcrysCount } = useFrank();
+
+  const [, setContractVersion1] = useControls(
     "ContractVersion1",
     () => ({
       metcrysCount: {
@@ -155,6 +119,35 @@ export function useContractVersion1Controls(
     }),
     [resources, metalCount, crystalCount, metCrysCount],
   );
-
-  return { contractVersion1Controls };
 }
+
+export { useContractVersionOne, useFrontendControls, useBorderControls };
+
+// NOT IMPLEMENTED FOR NOW
+// export function useUniqueControls() {
+//   const [collectionId, setCollectionId] = useState(0);
+//   const [uniqueControls, setUnique] = useControls(
+//     "Unique",
+//     () => ({
+//       collectionId: {
+//         value: collectionId,
+//         disabled: true,
+//         onChange: (id) => {
+//           setCollectionId(id);
+//         },
+//       },
+//       createCollectionOnUnique: button(async () => {
+//         /*createCollection()*/
+//       }),
+//       mintOnUnique: button(async () => {
+//         /*mint()*/
+//       }),
+//       burOnUnique: button(async () => {
+//         /*burn(5)*/
+//       }),
+//     }),
+//     [collectionId]
+//   );
+
+//   return { collectionId, setCollectionId, uniqueControls };
+// }
