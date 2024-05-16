@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Resource } from "../classes/RessourceClass";
 //!TODO BROWSER COMPATIBLITLY
 import { useBorderControls, useContractVersion1Controls, useFrontendControls } from "../components/LevaCmp";
@@ -58,8 +58,17 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
   // Mouse
   const [mouseX, setMouseX] = useState(0);
   const [mouseY, setMouseY] = useState(0);
+  const offsetX = useRef(0);
+  const offsetY = useRef(0);
+
   const [isMouseDown, setIsMouseDown] = useState(false);
   const handleMouseDown = (e: MouseEvent) => {
+    resources.forEach((res_el: Resource) => {
+      if (getDistance(e.clientX, e.clientY, res_el.x, res_el.y) <= 50) {
+        offsetX.current = e.clientX - res_el.x;
+        offsetY.current = e.clientY - res_el.y;
+      }
+    });
     setIsMouseDown(true);
   };
   const handleMouseUp = (e: MouseEvent) => {
@@ -95,15 +104,16 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         // and if mouse down make it moveable
         if (isMouseDown) {
           res_el.isSelected = true;
-          res_el.x = mouseX;
-          res_el.y = mouseY;
-          newRessourecs = resources.filter((el) => el.isSelected === false);
+          res_el.x = mouseX - offsetX.current;
+          res_el.y = mouseY - offsetY.current;
+          newRessourecs = resources.filter((el: Resource) => el.isSelected === false);
         }
       } else {
         res_el.color = "white";
         res_el.isSelected = false;
       }
 
+      // Draw Crosshair Rectangle of the Ressources on the Canvas
       const crosshairCTX = createCrosshair(canvas, res_el, colorBorder);
 
       // Add Image in rectangle
@@ -113,7 +123,6 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     });
 
     // Recreate Ressources
-    console.log(newRessourecs.length);
     if (newRessourecs.length === 2) {
       setResources([...newRessourecs]);
     } else {
