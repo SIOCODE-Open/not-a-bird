@@ -1,9 +1,11 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { Effect } from "../classes/EffectClass";
 
 export function ParticlePage(props: { navigate: (path: string) => void }) {
+  const imageRef = useRef<HTMLImageElement>(null);
   useEffect(() => {
-    setTimeout(() => {
+    if (!imageRef.current) return;
+    const handleLoad = () => {
       const canvas = document.getElementById("canvas1") as HTMLCanvasElement;
       // const image = document.getElementById("image1") as HTMLImageElement;
       const ctx = canvas.getContext("2d");
@@ -18,14 +20,25 @@ export function ParticlePage(props: { navigate: (path: string) => void }) {
         requestAnimationFrame(animate);
       }
       animate();
-      effect.assemble();
-    }, 150);
+      effect.particlePrint();
+    };
+    imageRef.current.addEventListener("load", handleLoad);
+    return () => {
+      if (imageRef.current) {
+        imageRef.current.removeEventListener("load", handleLoad);
+      }
+    };
   }, []);
 
   return (
     <>
       <canvas id="canvas1"></canvas>
-      <img id="image1" src="/assets/items/item.ironore.png" hidden></img>
+      <img
+        ref={imageRef}
+        id="image1"
+        src="/assets/items/item.ironore.png"
+        hidden
+      ></img>
     </>
   );
 }
