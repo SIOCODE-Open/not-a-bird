@@ -1,6 +1,6 @@
 import { Resource } from "./ResourceClass";
 
-class BuilderClass {
+class ContextBuilder {
   ctx: CanvasRenderingContext2D;
   x: number;
   y: number;
@@ -127,8 +127,15 @@ class BuilderClass {
 
     return this;
   }
+  addImage() {
+    const img = new Image();
+    img.src = this.resource.getCurrentImage();
+    this.resource.getCurrentImage();
+    this.ctx.drawImage(img, this.resource.x, this.resource.y, 50, 50);
+    return this;
+  }
   getCtx() {
     return this.ctx;
   }
 }
-export { BuilderClass };
+export { ContextBuilder };

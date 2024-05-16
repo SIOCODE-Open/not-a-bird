@@ -5,7 +5,7 @@ import { useCrosshair } from "../service/CrossHairService";
 import { useResources } from "../service/ResourceService";
 import { useMouse } from "../service/MouseService";
 import { useHelpers } from "../service/HelperService";
-import { BuilderClass } from "../classes/BuilderClassExample";
+import { ContextBuilder } from "../classes/ContextBuilder";
 
 export function MergicanPage(props: { navigate: (path: string) => void }) {
   const { addCrosshair } = useCrosshair();
@@ -68,18 +68,28 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
 
       // We use the builder Pattern and pass the the context around.
       // f.e. Doe + Tomoato + Salami + Onions + Mushrooms + Cheese = Pizza
-      const builder = new BuilderClass(ctx, res_el.x, res_el.y, 50, 50, res_el);
+
+      // 1. Create Builder
+      const builder = new ContextBuilder(
+        ctx,
+        res_el.x,
+        res_el.y,
+        50,
+        50,
+        res_el,
+      );
+
+      // 2. Draw one thing after another
       const new_ctx = builder
         .addSparkels("gold")
         .addBlueCircle()
         .addX()
         .addCrossHair("blue")
+        .addImage()
         .getCtx();
 
-      // Add Image in rectangle
-      const img = new Image();
-      img.src = res_el.getCurrentImage();
-      new_ctx.drawImage(img, res_el.x, res_el.y, 50, 50); // Draw texture on canvas
+      // 3. ContextBuilder return after getCtx call the modified ctx for more thingies if needed
+      // Done
     });
 
     // Recreate Ressources
