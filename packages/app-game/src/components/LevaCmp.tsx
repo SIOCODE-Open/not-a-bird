@@ -1,6 +1,8 @@
 import { button, useControls } from "leva";
 import { useEffect, useState } from "react";
 import { Resource } from "../classes/ResourceClass";
+import { BN } from "@polkadot/util";
+import { useResources } from "../service/ResourceService";
 
 export function useBorderControls() {
   const [colorBorder, setColorBorder] = useState("#0000ff");
@@ -18,7 +20,7 @@ export function useBorderControls() {
         console.log("Hello World");
       }),
     }),
-    [colorBorder]
+    [colorBorder],
   );
 
   return { colorBorder, setColorBorder, borderControls };
@@ -53,7 +55,8 @@ export function useBorderControls() {
 //   return { collectionId, setCollectionId, uniqueControls };
 // }
 
-export function useFrontendControls(resources, addResource) {
+export function useFrontendControls() {
+  const { resources, addResource } = useResources();
   const [resourcesCount, setResourcesCount] = useState(resources.length);
   const [frontendControls, setFrontend] = useControls(
     "Frontend",
@@ -66,11 +69,21 @@ export function useFrontendControls(resources, addResource) {
         },
       },
       add_ressource: button(() => {
-        addResource(new Resource(500 * Math.random(), 500 * Math.random(), "green", false, 0, 0, 1));
+        addResource(
+          new Resource(
+            500 * Math.random(),
+            500 * Math.random(),
+            "green",
+            false,
+            0,
+            0,
+            1,
+          ),
+        );
         setResourcesCount(resources.length);
       }),
     }),
-    [resourcesCount]
+    [resourcesCount],
   );
 
   useEffect(() => {
@@ -81,7 +94,6 @@ export function useFrontendControls(resources, addResource) {
 }
 
 export function useContractVersion1Controls(
-  resources,
   metalCount,
   crystalCount,
   metCrysCount,
@@ -91,8 +103,9 @@ export function useContractVersion1Controls(
   getMetcrysCount,
   setMetalCount,
   setCrystalCount,
-  setmetCrysCount
+  setmetCrysCount,
 ) {
+  const { resources } = useResources();
   const [contractVersion1Controls, setContractVersion1] = useControls(
     "ContractVersion1",
     () => ({
@@ -140,7 +153,7 @@ export function useContractVersion1Controls(
         setContractVersion1({ metCrys: newMetCrysCount });
       }),
     }),
-    [resources, metalCount, crystalCount, metCrysCount]
+    [resources, metalCount, crystalCount, metCrysCount],
   );
 
   return { contractVersion1Controls };
