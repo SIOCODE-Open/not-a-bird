@@ -1,6 +1,6 @@
 import { button, useControls } from "leva";
 import { useEffect, useState } from "react";
-import { Resource } from "../classes/RessourceClass";
+import { Resource } from "../classes/ResourceClass";
 
 export function useBorderControls() {
   const [colorBorder, setColorBorder] = useState("#0000ff");
