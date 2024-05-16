@@ -1,19 +1,19 @@
 import { useEffect, useState } from "react";
-import { useControls, button } from "leva";
 import { Resource } from "../classes/RessourceClass";
 //!TODO BROWSER COMPATIBLITLY
-import { useUnique } from "../service/UniqueService";
 import { useBorderControls, useContractVersion1Controls, useFrontendControls } from "../components/LevaCmp";
 import { useFrank } from "../service/FrankService";
 import { BN } from "@polkadot/util";
+import { useCrosshair } from "../components/CrosshairCmp";
 
 export function MergicanPage(props: { navigate: (path: string) => void }) {
   // const { mint, burn, createCollection } = useUnique("");
   const { mintMetal, mintCrystal, createMetcrys, getMetcrysCount } = useFrank();
+  const { createCrosshair } = useCrosshair();
   const [metalCount, setMetalCount] = useState(new BN(0));
   const [crystalCount, setCrystalCount] = useState(new BN(0));
   const [metCrysCount, setmetCrysCount] = useState("");
-  // const [colorBorder, setColorBorder] = useState("#fff000");
+
   // Resource State
   const [selectedResources, setSelectedResources] = useState<Resource[]>([]);
   const [resources, setResources] = useState<Resource[]>([
@@ -77,7 +77,6 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     // Get Canvas Element
     const canvas = document.querySelector("canvas");
     // Grab the 2D Context out of it
-    const ctx = canvas.getContext("2d");
 
     // Set the Canvas Size as the whole viewport
     canvas.width = window.innerWidth;
@@ -105,35 +104,12 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         res_el.isSelected = false;
       }
 
-      const cornerRadius = 10;
-      const borderWidth = 2;
-
-      // Draw the main rectangle
-      ctx.fillStyle = res_el.color;
-      ctx.fillRect(res_el.x, res_el.y, 50, 50);
-
-      // Draw top left corner
-      // Border
-      ctx.fillStyle = colorBorder;
-      ctx.fillRect(res_el.x, res_el.y, cornerRadius, borderWidth);
-      ctx.fillRect(res_el.x, res_el.y, borderWidth, cornerRadius);
-
-      // Draw top right corner
-      ctx.fillRect(res_el.x + 50 - cornerRadius, res_el.y, cornerRadius, borderWidth);
-      ctx.fillRect(res_el.x + 50 - borderWidth, res_el.y, borderWidth, cornerRadius);
-
-      // Draw bottom left corner
-      ctx.fillRect(res_el.x, res_el.y + 50 - borderWidth, cornerRadius, borderWidth);
-      ctx.fillRect(res_el.x, res_el.y + 50 - cornerRadius, borderWidth, cornerRadius);
-
-      // Draw bottom right corner
-      ctx.fillRect(res_el.x + 50 - cornerRadius, res_el.y + 50 - borderWidth, cornerRadius, borderWidth);
-      ctx.fillRect(res_el.x + 50 - borderWidth, res_el.y + 50 - cornerRadius, borderWidth, cornerRadius);
+      const crosshairCTX = createCrosshair(canvas, res_el, colorBorder);
 
       // Add Image in rectangle
       const img = new Image();
       img.src = res_el.getCurrentImage();
-      ctx.drawImage(img, res_el.x, res_el.y, 50, 50); // Draw texture on canvas
+      crosshairCTX.drawImage(img, res_el.x, res_el.y, 50, 50); // Draw texture on canvas
     });
 
     // Recreate Ressources
