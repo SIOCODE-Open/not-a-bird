@@ -1,0 +1,11 @@
+{
+    "map": {
+        "itemcontracts": "item-psp22-contracts"
+    },
+    "filename": "packages/on-chain-game/src/contracts/index.ts"
+}
+---
+export * from './IGameContract';
+{{#each itemcontracts}}
+export * from './I{{pascalCase name}}Contract';
+{{/each}}

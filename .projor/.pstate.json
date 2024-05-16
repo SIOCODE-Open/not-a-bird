@@ -1,21 +1,21 @@
 {
   "generatedSource": [
     {
+      "filename": "Cargo.toml",
+      "content": "[workspace]\n\nresolver = \"1\"\nmembers = [\n  \"packages/contract-water/src\",\n  \"packages/contract-fire/src\",\n  \"packages/contract-earth/src\",\n  \"packages/contract-air/src\",\n  \"packages/contract-steam/src\",\n  \"packages/contract-lava/src\",\n]",
+      "contentHash": "baddfbc745e83b4437c12a2901ec8970fb1359d33454da29a0222c2d991dbcdb",
+      "noWriteIfExists": false
+    },
+    {
       "filename": "package.json",
-      "content": "{\n  \"name\": \"@siocode/not-a-bird\",\n  \"version\": \"0.0.1\",\n  \"private\": true,\n  \"workspaces\": [\n    \"packages/*\"\n  ],\n  \"dependencies\": {\n    \"react\": \"18.2.0\",\n    \"react-dom\": \"18.2.0\",\n    \"rxjs\": \"7.8.1\"\n  },\n  \"devDependencies\": {\n    \"@types/react\": \"18.2.79\",\n    \"@types/react-dom\": \"18.2.25\",\n    \"chalk\": \"4\",\n    \"chokidar\": \"3.6.0\",\n    \"concurrently\": \"8.2.2\",\n    \"esbuild\": \"0.20.2\",\n    \"fs-extra\": \"11.2.0\",\n    \"sass\": \"1.75.0\",\n    \"typescript\": \"5.4.5\",\n    \"prettier\": \"^3.2.5\"\n  },\n  \"scripts\": {\n    \"build:contracts\": \"npm run -w @not-a-bird/contract-water build && npm run -w @not-a-bird/contract-fire build && npm run -w @not-a-bird/contract-earth build && npm run -w @not-a-bird/contract-air build && npm run -w @not-a-bird/contract-steam build && npm run -w @not-a-bird/contract-lava build\",\n    \"build\": \"npm run -w @not-a-bird/app-game build\",\n    \"serve\": \"npm run -w @not-a-bird/app-game serve\"\n  }\n}",
-      "contentHash": "71569cce616721a4fa5e7fd0921f1d12f6cbd299456b5e224442d3e3a3db7be8",
+      "content": "{\n  \"name\": \"@siocode/not-a-bird\",\n  \"version\": \"0.0.1\",\n  \"private\": true,\n  \"workspaces\": [\n    \"packages/*\"\n  ],\n  \"dependencies\": {\n    \"react\": \"18.2.0\",\n    \"react-dom\": \"18.2.0\",\n    \"rxjs\": \"7.8.1\",\n    \"@polkadot/api\": \"11.0.2\",\n    \"@polkadot/api-contract\": \"11.0.2\",\n    \"leva\": \"0.9.35\",\n    \"@unique-nft/accounts\": \"^0.3.7\",\n    \"@unique-nft/sdk\": \"^0.7.4\"\n  },\n  \"devDependencies\": {\n    \"@types/react\": \"18.2.79\",\n    \"@types/react-dom\": \"18.2.25\",\n    \"chalk\": \"4\",\n    \"chokidar\": \"3.6.0\",\n    \"concurrently\": \"8.2.2\",\n    \"esbuild\": \"0.20.2\",\n    \"fs-extra\": \"11.2.0\",\n    \"sass\": \"1.75.0\",\n    \"typescript\": \"5.4.5\",\n    \"prettier\": \"^3.2.5\"\n  },\n  \"scripts\": {\n    \"build:contracts\": \"cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-water/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-fire/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-earth/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-air/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-steam/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-lava/src/Cargo.toml\",\n    \"build\": \"npm run -w @not-a-bird/app-game build\",\n    \"serve\": \"npm run -w @not-a-bird/app-game serve\"\n  }\n}",
+      "contentHash": "163599d15159970efb96376b79e2aa19ca95d06551d0d36e6b763774491ff5a3",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/contract-air/.gitignore",
       "content": "target/",
       "contentHash": "91e32e7c7446da0e17ef5bc0a3a783065c4476613ea4a7c24dee14aa889c6ddd",
-      "noWriteIfExists": false
-    },
-    {
-      "filename": "packages/contract-air/Cargo.toml",
-      "content": "[workspace]\n\nresolver = \"1\"\nmembers = [\n  \"src\"\n]",
-      "contentHash": "72fbba0ae8f1e9965160d14eb9ffdaf149382667f320919492016c9569c9e8b2",
       "noWriteIfExists": false
     },
     {
@@ -49,12 +49,6 @@
       "noWriteIfExists": false
     },
     {
-      "filename": "packages/contract-earth/Cargo.toml",
-      "content": "[workspace]\n\nresolver = \"1\"\nmembers = [\n  \"src\"\n]",
-      "contentHash": "72fbba0ae8f1e9965160d14eb9ffdaf149382667f320919492016c9569c9e8b2",
-      "noWriteIfExists": false
-    },
-    {
       "filename": "packages/contract-earth/package.json",
       "content": "{\n    \"name\": \"@not-a-bird/contract-earth\",\n    \"description\": \"PSP-22 compatible game smart contract for element 'earth'\",\n    \"version\": \"0.0.1\",\n    \"private\": true,\n    \"dependencies\": {},\n    \"scripts\": {\n        \"build\": \"cargo contract build --target wasm --release --manifest-path src/Cargo.toml\"\n    }\n}",
       "contentHash": "148c02fbca356ac90f5edd1de72f03b78a7b4cf602cceb490926b1ecc11c4ded",
@@ -82,12 +76,6 @@
       "filename": "packages/contract-fire/.gitignore",
       "content": "target/",
       "contentHash": "91e32e7c7446da0e17ef5bc0a3a783065c4476613ea4a7c24dee14aa889c6ddd",
-      "noWriteIfExists": false
-    },
-    {
-      "filename": "packages/contract-fire/Cargo.toml",
-      "content": "[workspace]\n\nresolver = \"1\"\nmembers = [\n  \"src\"\n]",
-      "contentHash": "72fbba0ae8f1e9965160d14eb9ffdaf149382667f320919492016c9569c9e8b2",
       "noWriteIfExists": false
     },
     {
@@ -121,12 +109,6 @@
       "noWriteIfExists": false
     },
     {
-      "filename": "packages/contract-lava/Cargo.toml",
-      "content": "[workspace]\n\nresolver = \"1\"\nmembers = [\n  \"src\"\n]",
-      "contentHash": "72fbba0ae8f1e9965160d14eb9ffdaf149382667f320919492016c9569c9e8b2",
-      "noWriteIfExists": false
-    },
-    {
       "filename": "packages/contract-lava/package.json",
       "content": "{\n    \"name\": \"@not-a-bird/contract-lava\",\n    \"description\": \"PSP-22 compatible game smart contract for element 'lava'\",\n    \"version\": \"0.0.1\",\n    \"private\": true,\n    \"dependencies\": {},\n    \"scripts\": {\n        \"build\": \"cargo contract build --target wasm --release --manifest-path src/Cargo.toml\"\n    }\n}",
       "contentHash": "ff5cd696d66f0401b84905ebcda5d0906c213cb89f125d23ca2f4c9c5e5e709c",
@@ -154,12 +136,6 @@
       "filename": "packages/contract-steam/.gitignore",
       "content": "target/",
       "contentHash": "91e32e7c7446da0e17ef5bc0a3a783065c4476613ea4a7c24dee14aa889c6ddd",
-      "noWriteIfExists": false
-    },
-    {
-      "filename": "packages/contract-steam/Cargo.toml",
-      "content": "[workspace]\n\nresolver = \"1\"\nmembers = [\n  \"src\"\n]",
-      "contentHash": "72fbba0ae8f1e9965160d14eb9ffdaf149382667f320919492016c9569c9e8b2",
       "noWriteIfExists": false
     },
     {
@@ -193,12 +169,6 @@
       "noWriteIfExists": false
     },
     {
-      "filename": "packages/contract-water/Cargo.toml",
-      "content": "[workspace]\n\nresolver = \"1\"\nmembers = [\n  \"src\"\n]",
-      "contentHash": "72fbba0ae8f1e9965160d14eb9ffdaf149382667f320919492016c9569c9e8b2",
-      "noWriteIfExists": false
-    },
-    {
       "filename": "packages/contract-water/package.json",
       "content": "{\n    \"name\": \"@not-a-bird/contract-water\",\n    \"description\": \"PSP-22 compatible game smart contract for element 'water'\",\n    \"version\": \"0.0.1\",\n    \"private\": true,\n    \"dependencies\": {},\n    \"scripts\": {\n        \"build\": \"cargo contract build --target wasm --release --manifest-path src/Cargo.toml\"\n    }\n}",
       "contentHash": "73e554672fbc18b041d4a04e9907550b6689ab8baac63e60ca001740d5a15dd5",
@@ -220,6 +190,48 @@
       "filename": "packages/contract-water/src/lib.rs",
       "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod water {\n    pub use ink::prelude::string::String;\n    pub use ink::storage::Mapping;\n\n    // Begin borrowed code: https://github.com/Cardinal-Cryptography/PSP22/blob/main/events.rs\n    /// Event emitted when allowance by `owner` to `spender` changes.\n    #[ink::event]\n    pub struct PSP22Approval {\n        /// Account providing allowance.\n        #[ink(topic)]\n        pub owner: AccountId,\n        /// Allowance beneficiary.\n        #[ink(topic)]\n        pub spender: AccountId,\n        /// New allowance amount.\n        pub amount: u128,\n    }\n\n    /// Event emitted when transfer of tokens occurs.\n    #[ink::event]\n    pub struct PSP22Transfer {\n        /// Transfer sender. `None` in case of minting new tokens.\n        #[ink(topic)]\n        pub from: Option<AccountId>,\n        /// Transfer recipient. `None` in case of burning tokens.\n        #[ink(topic)]\n        pub to: Option<AccountId>,\n        /// Amount of tokens transferred (or minted/burned).\n        pub value: u128,\n    }\n    // End borrowed code: https://github.com/Cardinal-Cryptography/PSP22/blob/main/events.rs\n\n    /** Error type for PSP-22 compatible contract for element 'water' */\n    #[derive(Debug, PartialEq, Eq)]\n    #[ink::scale_derive(Encode, Decode, TypeInfo)]\n    pub enum Error {\n        // Begin borrowed code from https://github.com/Cardinal-Cryptography/PSP22/blob/main/errors.rs\n        /// Custom error type for implementation-based errors.\n        Custom(String),\n        /// Returned when an account does not have enough tokens to complete the operation.\n        InsufficientBalance,\n        /// Returned if there is not enough allowance to complete the operation.\n        InsufficientAllowance,\n        // End borrowed code from https://github.com/Cardinal-Cryptography/PSP22/blob/main/errors.rs\n    }\n\n    #[ink(storage)]\n    pub struct WaterContract {\n        total_supply: u128,\n        balances: Mapping<AccountId, u128>,\n        allowances: Mapping<(AccountId, AccountId), u128>,\n    }\n\n    impl Default for WaterContract {\n        fn default() -> Self {\n            let balances = Mapping::new();\n            let allowances = Mapping::new();\n            Self {\n                total_supply: 0,\n                balances,\n                allowances,\n            }\n        }\n    }\n\n    impl WaterContract {\n        /// Creates a new PSP-22 compatible Water Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self::default()\n        }\n\n        #[ink(message)]\n        pub fn token_name(&self)-> String {\n            String::from(\"Water\")\n        }\n\n        #[ink(message)]\n        pub fn token_symbol(&self)-> String {\n            String::from(\"MWATER\")\n        }\n        \n        #[ink(message)]\n        pub fn token_decimals(&self)-> u8 {\n            0\n        }\n    }\n\n}",
       "contentHash": "a10606c36a83c9528458b3b3cbbeeb7a122ad599858eb3419f201a13e15e58c4",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/on-chain-game/src/contracts/IAirContract.ts",
+      "content": "/** PSP-22 compatible game smart contract for element 'air' */\nexport interface IAirContract {\n    /** PSP-22 total_supply method */\n    totalSupply(): Promise<number>;\n\n    /** PSP-22 balance_of method */\n    balanceOf(owner: string): Promise<number>;\n\n    /** PSP-22 allowance method */\n    allowance(owner: string, spender: string): Promise<number>;\n\n    /** PSP-22 transfer method */\n    transfer(to: string, value: number, data: string): Promise<void>;\n\n    /** PSP-22 transfer_from method */\n    transferFrom(from: string, to: string, value: number, data: string): Promise<void>;\n\n    /** PSP-22 approve method */\n    approve(spender: string, value: number): Promise<void>;\n\n    /** PSP-22 increase_allowance method */\n    increaseAllowance(spender: string, deltaValue: number): Promise<void>;\n\n    /** PSP-22 decrease_allowance method */\n    decreaseAllowance(spender: string, deltaValue: number): Promise<void>;\n\n    /** PSP-22 Metadata token_name method */\n    tokenName(): Promise<string>;\n\n    /** PSP-22 Metadata token_symbol method */\n    tokenSymbol(): Promise<string>;\n\n    /** PSP-22 Metadata token_decimals method */\n    tokenDecimals(): Promise<number>;\n\n    /** Element Contract claim_ownership method */\n    claimOwnership(): Promise<void>;\n\n    /** Element Contract lock_game_contract method */\n    lockGameContract(gameContract: string): Promise<void>;\n}",
+      "contentHash": "ca6f8ffbb012a5313b46ff479bfc643dcfef5336cab8efff749f79e5023463e5",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/on-chain-game/src/contracts/IEarthContract.ts",
+      "content": "/** PSP-22 compatible game smart contract for element 'earth' */\nexport interface IEarthContract {\n    /** PSP-22 total_supply method */\n    totalSupply(): Promise<number>;\n\n    /** PSP-22 balance_of method */\n    balanceOf(owner: string): Promise<number>;\n\n    /** PSP-22 allowance method */\n    allowance(owner: string, spender: string): Promise<number>;\n\n    /** PSP-22 transfer method */\n    transfer(to: string, value: number, data: string): Promise<void>;\n\n    /** PSP-22 transfer_from method */\n    transferFrom(from: string, to: string, value: number, data: string): Promise<void>;\n\n    /** PSP-22 approve method */\n    approve(spender: string, value: number): Promise<void>;\n\n    /** PSP-22 increase_allowance method */\n    increaseAllowance(spender: string, deltaValue: number): Promise<void>;\n\n    /** PSP-22 decrease_allowance method */\n    decreaseAllowance(spender: string, deltaValue: number): Promise<void>;\n\n    /** PSP-22 Metadata token_name method */\n    tokenName(): Promise<string>;\n\n    /** PSP-22 Metadata token_symbol method */\n    tokenSymbol(): Promise<string>;\n\n    /** PSP-22 Metadata token_decimals method */\n    tokenDecimals(): Promise<number>;\n\n    /** Element Contract claim_ownership method */\n    claimOwnership(): Promise<void>;\n\n    /** Element Contract lock_game_contract method */\n    lockGameContract(gameContract: string): Promise<void>;\n}",
+      "contentHash": "c19b2ea89c941fa2fc3c24413c50fc20790b7a727675edad6a9f4cb5012c8756",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/on-chain-game/src/contracts/IFireContract.ts",
+      "content": "/** PSP-22 compatible game smart contract for element 'fire' */\nexport interface IFireContract {\n    /** PSP-22 total_supply method */\n    totalSupply(): Promise<number>;\n\n    /** PSP-22 balance_of method */\n    balanceOf(owner: string): Promise<number>;\n\n    /** PSP-22 allowance method */\n    allowance(owner: string, spender: string): Promise<number>;\n\n    /** PSP-22 transfer method */\n    transfer(to: string, value: number, data: string): Promise<void>;\n\n    /** PSP-22 transfer_from method */\n    transferFrom(from: string, to: string, value: number, data: string): Promise<void>;\n\n    /** PSP-22 approve method */\n    approve(spender: string, value: number): Promise<void>;\n\n    /** PSP-22 increase_allowance method */\n    increaseAllowance(spender: string, deltaValue: number): Promise<void>;\n\n    /** PSP-22 decrease_allowance method */\n    decreaseAllowance(spender: string, deltaValue: number): Promise<void>;\n\n    /** PSP-22 Metadata token_name method */\n    tokenName(): Promise<string>;\n\n    /** PSP-22 Metadata token_symbol method */\n    tokenSymbol(): Promise<string>;\n\n    /** PSP-22 Metadata token_decimals method */\n    tokenDecimals(): Promise<number>;\n\n    /** Element Contract claim_ownership method */\n    claimOwnership(): Promise<void>;\n\n    /** Element Contract lock_game_contract method */\n    lockGameContract(gameContract: string): Promise<void>;\n}",
+      "contentHash": "36f2293e10fb93f0df07534f0f15acc788a0ac1c2c9d31133b5bb0216eeebded",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/on-chain-game/src/contracts/ILavaContract.ts",
+      "content": "/** PSP-22 compatible game smart contract for element 'lava' */\nexport interface ILavaContract {\n    /** PSP-22 total_supply method */\n    totalSupply(): Promise<number>;\n\n    /** PSP-22 balance_of method */\n    balanceOf(owner: string): Promise<number>;\n\n    /** PSP-22 allowance method */\n    allowance(owner: string, spender: string): Promise<number>;\n\n    /** PSP-22 transfer method */\n    transfer(to: string, value: number, data: string): Promise<void>;\n\n    /** PSP-22 transfer_from method */\n    transferFrom(from: string, to: string, value: number, data: string): Promise<void>;\n\n    /** PSP-22 approve method */\n    approve(spender: string, value: number): Promise<void>;\n\n    /** PSP-22 increase_allowance method */\n    increaseAllowance(spender: string, deltaValue: number): Promise<void>;\n\n    /** PSP-22 decrease_allowance method */\n    decreaseAllowance(spender: string, deltaValue: number): Promise<void>;\n\n    /** PSP-22 Metadata token_name method */\n    tokenName(): Promise<string>;\n\n    /** PSP-22 Metadata token_symbol method */\n    tokenSymbol(): Promise<string>;\n\n    /** PSP-22 Metadata token_decimals method */\n    tokenDecimals(): Promise<number>;\n\n    /** Element Contract claim_ownership method */\n    claimOwnership(): Promise<void>;\n\n    /** Element Contract lock_game_contract method */\n    lockGameContract(gameContract: string): Promise<void>;\n}",
+      "contentHash": "77be1648f8ca37e955c3cad87ef61a546a8b1b4ce8683547178a062f0c8c4551",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/on-chain-game/src/contracts/index.ts",
+      "content": "export * from './IGameContract';\nexport * from './IWaterContract';\nexport * from './IFireContract';\nexport * from './IEarthContract';\nexport * from './IAirContract';\nexport * from './ISteamContract';\nexport * from './ILavaContract';\n",
+      "contentHash": "d6a949ae059afd491625c2d65895c9cf57f322917c91380059d82f7950724887",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/on-chain-game/src/contracts/ISteamContract.ts",
+      "content": "/** PSP-22 compatible game smart contract for element 'steam' */\nexport interface ISteamContract {\n    /** PSP-22 total_supply method */\n    totalSupply(): Promise<number>;\n\n    /** PSP-22 balance_of method */\n    balanceOf(owner: string): Promise<number>;\n\n    /** PSP-22 allowance method */\n    allowance(owner: string, spender: string): Promise<number>;\n\n    /** PSP-22 transfer method */\n    transfer(to: string, value: number, data: string): Promise<void>;\n\n    /** PSP-22 transfer_from method */\n    transferFrom(from: string, to: string, value: number, data: string): Promise<void>;\n\n    /** PSP-22 approve method */\n    approve(spender: string, value: number): Promise<void>;\n\n    /** PSP-22 increase_allowance method */\n    increaseAllowance(spender: string, deltaValue: number): Promise<void>;\n\n    /** PSP-22 decrease_allowance method */\n    decreaseAllowance(spender: string, deltaValue: number): Promise<void>;\n\n    /** PSP-22 Metadata token_name method */\n    tokenName(): Promise<string>;\n\n    /** PSP-22 Metadata token_symbol method */\n    tokenSymbol(): Promise<string>;\n\n    /** PSP-22 Metadata token_decimals method */\n    tokenDecimals(): Promise<number>;\n\n    /** Element Contract claim_ownership method */\n    claimOwnership(): Promise<void>;\n\n    /** Element Contract lock_game_contract method */\n    lockGameContract(gameContract: string): Promise<void>;\n}",
+      "contentHash": "f367baa77910330dc627f99d166928ef2e23deae6e3d1e77bc5ec17c22fae618",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/on-chain-game/src/contracts/IWaterContract.ts",
+      "content": "/** PSP-22 compatible game smart contract for element 'water' */\nexport interface IWaterContract {\n    /** PSP-22 total_supply method */\n    totalSupply(): Promise<number>;\n\n    /** PSP-22 balance_of method */\n    balanceOf(owner: string): Promise<number>;\n\n    /** PSP-22 allowance method */\n    allowance(owner: string, spender: string): Promise<number>;\n\n    /** PSP-22 transfer method */\n    transfer(to: string, value: number, data: string): Promise<void>;\n\n    /** PSP-22 transfer_from method */\n    transferFrom(from: string, to: string, value: number, data: string): Promise<void>;\n\n    /** PSP-22 approve method */\n    approve(spender: string, value: number): Promise<void>;\n\n    /** PSP-22 increase_allowance method */\n    increaseAllowance(spender: string, deltaValue: number): Promise<void>;\n\n    /** PSP-22 decrease_allowance method */\n    decreaseAllowance(spender: string, deltaValue: number): Promise<void>;\n\n    /** PSP-22 Metadata token_name method */\n    tokenName(): Promise<string>;\n\n    /** PSP-22 Metadata token_symbol method */\n    tokenSymbol(): Promise<string>;\n\n    /** PSP-22 Metadata token_decimals method */\n    tokenDecimals(): Promise<number>;\n\n    /** Element Contract claim_ownership method */\n    claimOwnership(): Promise<void>;\n\n    /** Element Contract lock_game_contract method */\n    lockGameContract(gameContract: string): Promise<void>;\n}",
+      "contentHash": "20ec2b07a2134421021478bc713d41543528e0ec5053d5c18ea348600ef8d929",
       "noWriteIfExists": false
     }
   ]

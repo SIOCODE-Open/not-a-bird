@@ -1,0 +1,11 @@
+[workspace]
+
+resolver = "1"
+members = [
+  "packages/contract-water/src",
+  "packages/contract-fire/src",
+  "packages/contract-earth/src",
+  "packages/contract-air/src",
+  "packages/contract-steam/src",
+  "packages/contract-lava/src",
+]

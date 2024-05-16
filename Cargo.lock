@@ -13,6 +13,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "air"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
 name = "array-init"
 version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -228,6 +235,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0d6ef0072f8a535281e4876be788938b528e9a1d43900b82c2569af7da799125"
 
 [[package]]
+name = "earth"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
 name = "either"
 version = "1.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -244,6 +258,13 @@ name = "fiat-crypto"
 version = "0.2.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "28dea519a9695b9977216879a3ebfddf92f1c08c05d984f8996aecd6ecdc811d"
+
+[[package]]
+name = "fire"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
 
 [[package]]
 name = "fnv"
@@ -558,6 +579,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ecc2af9a1119c51f12a14607e783cb977bde58bc069ff0c3da1095e635d70654"
 dependencies = [
  "cpufeatures",
+]
+
+[[package]]
+name = "lava"
+version = "0.0.1"
+dependencies = [
+ "ink",
 ]
 
 [[package]]
@@ -1036,6 +1064,13 @@ name = "static_assertions"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f"
+
+[[package]]
+name = "steam"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
 
 [[package]]
 name = "strsim"

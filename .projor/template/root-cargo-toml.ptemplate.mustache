@@ -1,0 +1,15 @@
+{
+    "map": {
+      "itemcontracts": "item-psp22-contracts"
+    },
+    "filename": "Cargo.toml"
+}
+---
+[workspace]
+
+resolver = "1"
+members = [
+  {{#each itemcontracts}}
+  "packages/contract-{{kebabCase name}}/src",
+  {{/each}}
+]

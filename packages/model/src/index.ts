@@ -1,24 +1,32 @@
 export interface IItem {
-    name: string;
-    description: string;
+    readonly id: number;
+    readonly name: string;
+    readonly description: string;
+    readonly tier: number;
 }
 
 export interface IRecipe {
-    a: IItem;
-    b: IItem;
-    result: IItem;
+    readonly id: number;
+    readonly a: IItem;
+    readonly b: IItem;
+    readonly result: IItem;
 }
 
 export interface IAsset {
-    type: IItem;
+    readonly type: IItem;
     position: {
         x: number;
         y: number;
     }
 }
 
+export interface IInventory {
+    balances: Record<number, number>;
+}
+
 export interface IWorld {
-    assets: Array<IAsset>;
-    recipes: Array<IRecipe>;
-    items: Array<IItem>;
+    readonly inventory: IInventory;
+    readonly assets: Array<IAsset>;
+    readonly recipes: Array<IRecipe>;
+    readonly items: Array<IItem>;
 }
