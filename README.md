@@ -149,3 +149,7 @@ $ git log --oneline --reverse | frankFiltering.sh
 | Botond | -         | tthe1871  |
 | Marcel | -         | fishmac   |
 | Frank  | frankbevr | frankbevr |
+
+# Botond Notes
+
+* Use the following command to build app contracts: `npm run build:contracts`

@@ -1,4 +1,11 @@
 {
+    "map": {
+        "items": "items"
+    },
+    "filename": "package.json"
+}
+---
+{
   "name": "@siocode/not-a-bird",
   "version": "0.0.1",
   "private": true,
@@ -23,7 +30,7 @@
     "prettier": "^3.2.5"
   },
   "scripts": {
-    "build:contracts": "npm run -w @not-a-bird/contract-water build && npm run -w @not-a-bird/contract-fire build && npm run -w @not-a-bird/contract-earth build && npm run -w @not-a-bird/contract-air build && npm run -w @not-a-bird/contract-steam build && npm run -w @not-a-bird/contract-lava build",
+    "build:contracts": "{{#each items}}npm run -w @not-a-bird/contract-{{kebabCase name}} build{{#unless @last}} && {{/unless}}{{/each}}",
     "build": "npm run -w @not-a-bird/app-game build",
     "serve": "npm run -w @not-a-bird/app-game serve"
   }

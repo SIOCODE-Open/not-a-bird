@@ -4,4 +4,4 @@ This is a air contract.
 
 ### Quickstart
 
-- `cargo contract build`
+- `npm run build`

@@ -4,4 +4,4 @@ This is a lava contract.
 
 ### Quickstart
 
-- `cargo contract build`
+- `npm run build`
