@@ -11,25 +11,31 @@ export function LandingPage(props: { navigate: (path: string) => void }) {
   };
   const goToMarcelPage = () => {
     props.navigate("/marcel");
-    const goToMergicankPage = () => {
-      props.navigate("/mergican");
-    };
-
-    return (
-      <CenteredLayout>
-        <Card>
-          <Button onClick={onStartPlaying}>Play the game</Button>
-        </Card>
-        <Card>
-          <Button onClick={goToMergicankPage}>Go to Mergican Page</Button>
-        </Card>
-        <Card>
-          <Button onClick={goToFrankPage}>Go to Frank Page</Button>
-        </Card>
-        <Card>
-          <Button onClick={goToMarcelPage}>Go to Marcel Page</Button>
-        </Card>
-      </CenteredLayout>
-    );
   };
+  const goToMergicankPage = () => {
+    props.navigate("/mergican");
+  };
+  const goToParticlePage = () => {
+    props.navigate("/particle");
+  };
+
+  return (
+    <CenteredLayout>
+      <Card>
+        <Button onClick={onStartPlaying}>Play the game</Button>
+      </Card>
+      <Card>
+        <Button onClick={goToMergicankPage}>Go to Mergican Page</Button>
+      </Card>
+      <Card>
+        <Button onClick={goToFrankPage}>Go to Frank Page</Button>
+      </Card>
+      <Card>
+        <Button onClick={goToMarcelPage}>Go to Marcel Page</Button>
+      </Card>
+      <Card>
+        <Button onClick={goToParticlePage}>Go to Particle Page</Button>
+      </Card>
+    </CenteredLayout>
+  );
 }
