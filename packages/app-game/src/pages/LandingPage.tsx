@@ -4,7 +4,7 @@ import { CenteredLayout } from "../layout/CenteredLayout";
 
 export function LandingPage(props: { navigate: (path: string) => void }) {
   const onStartPlaying = () => {
-    props.navigate("/star-map");
+    props.navigate("/game");
   };
   const goToFrankPage = () => {
     props.navigate("/frank");
