@@ -13,15 +13,21 @@
       "noWriteIfExists": false
     },
     {
+      "filename": "packages/contract-air/README.md",
+      "content": "# air - Contract\n\nThis is a air contract.\n\n### Quickstart\n\n- `cargo contract build`",
+      "contentHash": "b7534fd3e31216e27c07986f047d04e8d672d89ed3ec5255b8d21c9d9a78a346",
+      "noWriteIfExists": false
+    },
+    {
       "filename": "packages/contract-air/src/Cargo.toml",
-      "content": "[package]\nname = \"air\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"4.3.0\", default-features = false }\n\nscale = { package = \"parity-scale-codec\", version = \"3\", default-features = false, features = [\"derive\"] }\nscale-info = { version = \"2\", default-features = false, features = [\"derive\"], optional = true }\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\", \"scale/std\", \"scale-info/std\"]\nink-as-dependency = []",
-      "contentHash": "52d0cb29c9f63d7d1d653207768cc9628e3e80e3a2a259195d55825ec201ea89",
+      "content": "[package]\nname = \"air\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"5.0.0\", default-features = false }\n\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\"]\nink-as-dependency = []",
+      "contentHash": "f04bb0a3a4b373a11260152c8ec14df2b21888c43100ca23b48a1cb545590b8e",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/contract-air/src/lib.rs",
-      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod air {\n\n    /** Error type for PSP-22 compatible contract for element 'air' */\n    #[derive(scale::Encode, scale::Decode, Debug, PartialEq, Eq, Copy, Clone)]\n    #[cfg_attr(feature = \"std\", derive(scale_info::TypeInfo))]\n    pub enum Error {\n    }\n\n    #[ink(storage)]\n    pub struct AirContract {\n    }\n\n    impl AirContract {\n        /// Creates a new PSP-22 compatible Air Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self {\n            }\n        }\n    }\n\n}",
-      "contentHash": "59ba0aaf1317add974d7efc5d34826987829a4b8c00f0e02f61fca6dbbf11417",
+      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod air {\n    pub use ink::prelude::string::String;\n\n    /** Error type for PSP-22 compatible contract for element 'air' */\n    #[derive(Debug, PartialEq, Eq, Copy, Clone)]\n    #[ink::scale_derive(Encode, Decode, TypeInfo)]\n    pub enum Error {}\n\n    #[ink(storage)]\n    pub struct AirContract {\n        name: String,\n    }\n\n    impl Default for AirContract {\n        fn default() -> Self {\n            Self {\n                name: String::from(\"air\"),\n            }\n        }\n    }\n\n    impl AirContract {\n        /// Creates a new PSP-22 compatible Air Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self::default()\n        }\n\n        #[ink(message)]\n        pub fn get_name(&self)-> String {\n            self.name.clone()\n        }\n    }\n\n}",
+      "contentHash": "b6e7deefbff5ad50a9c728a083aaadde64365914af8b9a37b6560810c7f74c68",
       "noWriteIfExists": false
     },
     {
@@ -37,15 +43,21 @@
       "noWriteIfExists": false
     },
     {
+      "filename": "packages/contract-earth/README.md",
+      "content": "# earth - Contract\n\nThis is a earth contract.\n\n### Quickstart\n\n- `cargo contract build`",
+      "contentHash": "d4e858622cb28a9dbf9a997529e0633371ba39f366b5f5c1268f5c348c23ba45",
+      "noWriteIfExists": false
+    },
+    {
       "filename": "packages/contract-earth/src/Cargo.toml",
-      "content": "[package]\nname = \"earth\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"4.3.0\", default-features = false }\n\nscale = { package = \"parity-scale-codec\", version = \"3\", default-features = false, features = [\"derive\"] }\nscale-info = { version = \"2\", default-features = false, features = [\"derive\"], optional = true }\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\", \"scale/std\", \"scale-info/std\"]\nink-as-dependency = []",
-      "contentHash": "cf974b546f9377912a59d7c5a14f39be9b8c44fa231dcf944c3b3af34d5e282e",
+      "content": "[package]\nname = \"earth\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"5.0.0\", default-features = false }\n\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\"]\nink-as-dependency = []",
+      "contentHash": "5a3f9d6d83be648c3420bf11d63ff2fc55249000ec3fc68f64eff2e759ac25f7",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/contract-earth/src/lib.rs",
-      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod earth {\n\n    /** Error type for PSP-22 compatible contract for element 'earth' */\n    #[derive(scale::Encode, scale::Decode, Debug, PartialEq, Eq, Copy, Clone)]\n    #[cfg_attr(feature = \"std\", derive(scale_info::TypeInfo))]\n    pub enum Error {\n    }\n\n    #[ink(storage)]\n    pub struct EarthContract {\n    }\n\n    impl EarthContract {\n        /// Creates a new PSP-22 compatible Earth Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self {\n            }\n        }\n    }\n\n}",
-      "contentHash": "86c65ce75a924b02248f2fc77d1d1419287d58585bee8498cabc65c90987f61d",
+      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod earth {\n    pub use ink::prelude::string::String;\n\n    /** Error type for PSP-22 compatible contract for element 'air' */\n    #[derive(Debug, PartialEq, Eq, Copy, Clone)]\n    #[ink::scale_derive(Encode, Decode, TypeInfo)]\n    pub enum Error {}\n\n    #[ink(storage)]\n    pub struct EarthContract {\n        name: String,\n    }\n\n    impl Default for EarthContract {\n        fn default() -> Self {\n            Self {\n                name: String::from(\"earth\"),\n            }\n        }\n    }\n\n    impl EarthContract {\n        /// Creates a new PSP-22 compatible Earth Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self::default()\n        }\n\n        #[ink(message)]\n        pub fn get_name(&self)-> String {\n            self.name.clone()\n        }\n    }\n\n}",
+      "contentHash": "7f6c31bfc5141b482431380704303ecf7e920c49e6108c16eda8659b6455c944",
       "noWriteIfExists": false
     },
     {
@@ -61,15 +73,21 @@
       "noWriteIfExists": false
     },
     {
+      "filename": "packages/contract-fire/README.md",
+      "content": "# fire - Contract\n\nThis is a fire contract.\n\n### Quickstart\n\n- `cargo contract build`",
+      "contentHash": "d09d279a31c45cfe16e9bbd1ac4b0a606a01eb124efdefffe243e12ce1bebd39",
+      "noWriteIfExists": false
+    },
+    {
       "filename": "packages/contract-fire/src/Cargo.toml",
-      "content": "[package]\nname = \"fire\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"4.3.0\", default-features = false }\n\nscale = { package = \"parity-scale-codec\", version = \"3\", default-features = false, features = [\"derive\"] }\nscale-info = { version = \"2\", default-features = false, features = [\"derive\"], optional = true }\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\", \"scale/std\", \"scale-info/std\"]\nink-as-dependency = []",
-      "contentHash": "ad2e9dd8817c2d1bf7d23b53f6ee76bdd76ac250e97c65712c1a0a907dee0a55",
+      "content": "[package]\nname = \"fire\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"5.0.0\", default-features = false }\n\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\"]\nink-as-dependency = []",
+      "contentHash": "d1bcb8caeb6364c15a537ae9c5e4660489bc95071fb62b5e0f1be6f950529ccd",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/contract-fire/src/lib.rs",
-      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod fire {\n\n    /** Error type for PSP-22 compatible contract for element 'fire' */\n    #[derive(scale::Encode, scale::Decode, Debug, PartialEq, Eq, Copy, Clone)]\n    #[cfg_attr(feature = \"std\", derive(scale_info::TypeInfo))]\n    pub enum Error {\n    }\n\n    #[ink(storage)]\n    pub struct FireContract {\n    }\n\n    impl FireContract {\n        /// Creates a new PSP-22 compatible Fire Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self {\n            }\n        }\n    }\n\n}",
-      "contentHash": "66bb23a190315f4893a0b1a77cf1e35c0a147fc00f1074d38c113a18bf72782c",
+      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod fire {\n    pub use ink::prelude::string::String;\n\n    /** Error type for PSP-22 compatible contract for element 'air' */\n    #[derive(Debug, PartialEq, Eq, Copy, Clone)]\n    #[ink::scale_derive(Encode, Decode, TypeInfo)]\n    pub enum Error {}\n\n    #[ink(storage)]\n    pub struct FireContract {\n        name: String,\n    }\n\n    impl Default for FireContract {\n        fn default() -> Self {\n            Self {\n                name: String::from(\"fire\"),\n            }\n        }\n    }\n\n    impl FireContract {\n        /// Creates a new PSP-22 compatible Fire Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self::default()\n        }\n\n        #[ink(message)]\n        pub fn get_name(&self)-> String {\n            self.name.clone()\n        }\n    }\n\n}",
+      "contentHash": "f8aa159e12d649e528d4c14962e1cb6b0f281fba5aeff69abc332c7c05e4b9bc",
       "noWriteIfExists": false
     },
     {
@@ -85,15 +103,21 @@
       "noWriteIfExists": false
     },
     {
+      "filename": "packages/contract-lava/README.md",
+      "content": "# lava - Contract\n\nThis is a lava contract.\n\n### Quickstart\n\n- `cargo contract build`",
+      "contentHash": "cc0196f780de8e3e75303d7b64e0f4accd2ffb7ad1faa4c99d1e044247f84602",
+      "noWriteIfExists": false
+    },
+    {
       "filename": "packages/contract-lava/src/Cargo.toml",
-      "content": "[package]\nname = \"lava\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"4.3.0\", default-features = false }\n\nscale = { package = \"parity-scale-codec\", version = \"3\", default-features = false, features = [\"derive\"] }\nscale-info = { version = \"2\", default-features = false, features = [\"derive\"], optional = true }\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\", \"scale/std\", \"scale-info/std\"]\nink-as-dependency = []",
-      "contentHash": "4514c3e77a3c37e7613350e57f8750a883b53d3ca1b508945725be7d3b1e210a",
+      "content": "[package]\nname = \"lava\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"5.0.0\", default-features = false }\n\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\"]\nink-as-dependency = []",
+      "contentHash": "3b6067600561e968bc2c78de76a275b47359ffb280a8bcb9797ca3d298f1e51a",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/contract-lava/src/lib.rs",
-      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod lava {\n\n    /** Error type for PSP-22 compatible contract for element 'lava' */\n    #[derive(scale::Encode, scale::Decode, Debug, PartialEq, Eq, Copy, Clone)]\n    #[cfg_attr(feature = \"std\", derive(scale_info::TypeInfo))]\n    pub enum Error {\n    }\n\n    #[ink(storage)]\n    pub struct LavaContract {\n    }\n\n    impl LavaContract {\n        /// Creates a new PSP-22 compatible Lava Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self {\n            }\n        }\n    }\n\n}",
-      "contentHash": "8be8786f8d0a6be5df76f88f0ae6c0b49a776667bd866e830607a5980032f2ba",
+      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod lava {\n    pub use ink::prelude::string::String;\n\n    /** Error type for PSP-22 compatible contract for element 'air' */\n    #[derive(Debug, PartialEq, Eq, Copy, Clone)]\n    #[ink::scale_derive(Encode, Decode, TypeInfo)]\n    pub enum Error {}\n\n    #[ink(storage)]\n    pub struct LavaContract {\n        name: String,\n    }\n\n    impl Default for LavaContract {\n        fn default() -> Self {\n            Self {\n                name: String::from(\"lava\"),\n            }\n        }\n    }\n\n    impl LavaContract {\n        /// Creates a new PSP-22 compatible Lava Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self::default()\n        }\n\n        #[ink(message)]\n        pub fn get_name(&self)-> String {\n            self.name.clone()\n        }\n    }\n\n}",
+      "contentHash": "31d8ca8e8bdb0d4a2b5d7359c038412f5e2a4e41074943483e03cf30b4f2e80e",
       "noWriteIfExists": false
     },
     {
@@ -109,15 +133,21 @@
       "noWriteIfExists": false
     },
     {
+      "filename": "packages/contract-steam/README.md",
+      "content": "# steam - Contract\n\nThis is a steam contract.\n\n### Quickstart\n\n- `cargo contract build`",
+      "contentHash": "17d2f77ec300bc5bcb483fa7002bc769156980008cb81dc95c9daf22601b6a1e",
+      "noWriteIfExists": false
+    },
+    {
       "filename": "packages/contract-steam/src/Cargo.toml",
-      "content": "[package]\nname = \"steam\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"4.3.0\", default-features = false }\n\nscale = { package = \"parity-scale-codec\", version = \"3\", default-features = false, features = [\"derive\"] }\nscale-info = { version = \"2\", default-features = false, features = [\"derive\"], optional = true }\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\", \"scale/std\", \"scale-info/std\"]\nink-as-dependency = []",
-      "contentHash": "f7556c8ff8d00e1f208b03b28aad78cbd74cb98de453dcf5311a2300a55ed6bc",
+      "content": "[package]\nname = \"steam\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"5.0.0\", default-features = false }\n\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\"]\nink-as-dependency = []",
+      "contentHash": "d4240b76ebcbfca97a53f247930d64b9d9043aa607cb1f930bfd19fb333ec826",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/contract-steam/src/lib.rs",
-      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod steam {\n\n    /** Error type for PSP-22 compatible contract for element 'steam' */\n    #[derive(scale::Encode, scale::Decode, Debug, PartialEq, Eq, Copy, Clone)]\n    #[cfg_attr(feature = \"std\", derive(scale_info::TypeInfo))]\n    pub enum Error {\n    }\n\n    #[ink(storage)]\n    pub struct SteamContract {\n    }\n\n    impl SteamContract {\n        /// Creates a new PSP-22 compatible Steam Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self {\n            }\n        }\n    }\n\n}",
-      "contentHash": "660ba61d767f83a4cf76c0254ba9624ab1aecb9d8323f5c8f3476ee56ecf6cab",
+      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod steam {\n    pub use ink::prelude::string::String;\n\n    /** Error type for PSP-22 compatible contract for element 'air' */\n    #[derive(Debug, PartialEq, Eq, Copy, Clone)]\n    #[ink::scale_derive(Encode, Decode, TypeInfo)]\n    pub enum Error {}\n\n    #[ink(storage)]\n    pub struct SteamContract {\n        name: String,\n    }\n\n    impl Default for SteamContract {\n        fn default() -> Self {\n            Self {\n                name: String::from(\"steam\"),\n            }\n        }\n    }\n\n    impl SteamContract {\n        /// Creates a new PSP-22 compatible Steam Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self::default()\n        }\n\n        #[ink(message)]\n        pub fn get_name(&self)-> String {\n            self.name.clone()\n        }\n    }\n\n}",
+      "contentHash": "e05f8e83eb7fa3db2a2906301bb046c6001758049fd0afa60d1fb88f9699c19c",
       "noWriteIfExists": false
     },
     {
@@ -133,15 +163,21 @@
       "noWriteIfExists": false
     },
     {
+      "filename": "packages/contract-water/README.md",
+      "content": "# water - Contract\n\nThis is a water contract.\n\n### Quickstart\n\n- `cargo contract build`",
+      "contentHash": "3fddec44d58d1c5a23baa72f0f95c2fecf9629c932e61c35c0e13325d194ad45",
+      "noWriteIfExists": false
+    },
+    {
       "filename": "packages/contract-water/src/Cargo.toml",
-      "content": "[package]\nname = \"water\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"4.3.0\", default-features = false }\n\nscale = { package = \"parity-scale-codec\", version = \"3\", default-features = false, features = [\"derive\"] }\nscale-info = { version = \"2\", default-features = false, features = [\"derive\"], optional = true }\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\", \"scale/std\", \"scale-info/std\"]\nink-as-dependency = []",
-      "contentHash": "6b0c2a2353250169f08fc81420245b9794607fd2fbb5d3208ab31a6925610afa",
+      "content": "[package]\nname = \"water\"\nversion = \"0.0.1\"\nauthors = [\"SIOCODE Llc. <info@siocode.hu>\"]\nedition = \"2021\"\n\n[dependencies]\nink = { version = \"5.0.0\", default-features = false }\n\n\n[lib]\npath = \"lib.rs\"\n\n[features]\ndefault = [\"std\"]\nstd = [\"ink/std\"]\nink-as-dependency = []",
+      "contentHash": "cdbc038d804804f238c060ccaa463c62f20da5c50d397e31d999d506db628295",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/contract-water/src/lib.rs",
-      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod water {\n\n    /** Error type for PSP-22 compatible contract for element 'water' */\n    #[derive(scale::Encode, scale::Decode, Debug, PartialEq, Eq, Copy, Clone)]\n    #[cfg_attr(feature = \"std\", derive(scale_info::TypeInfo))]\n    pub enum Error {\n    }\n\n    #[ink(storage)]\n    pub struct WaterContract {\n    }\n\n    impl WaterContract {\n        /// Creates a new PSP-22 compatible Water Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self {\n            }\n        }\n    }\n\n}",
-      "contentHash": "2cc8b6a2e57f50447c3debe754ef8ca2b8ac02a5c77c5f6a286ea6ba85e99ee1",
+      "content": "#![cfg_attr(not(feature = \"std\"), no_std, no_main)]\n\n#[ink::contract]\npub mod water {\n    pub use ink::prelude::string::String;\n\n    /** Error type for PSP-22 compatible contract for element 'air' */\n    #[derive(Debug, PartialEq, Eq, Copy, Clone)]\n    #[ink::scale_derive(Encode, Decode, TypeInfo)]\n    pub enum Error {}\n\n    #[ink(storage)]\n    pub struct WaterContract {\n        name: String,\n    }\n\n    impl Default for WaterContract {\n        fn default() -> Self {\n            Self {\n                name: String::from(\"water\"),\n            }\n        }\n    }\n\n    impl WaterContract {\n        /// Creates a new PSP-22 compatible Water Element contract\n        #[ink(constructor)]\n        pub fn new() -> Self {\n            Self::default()\n        }\n\n        #[ink(message)]\n        pub fn get_name(&self)-> String {\n            self.name.clone()\n        }\n    }\n\n}",
+      "contentHash": "37ad82e52a1e16a4c43248d3559514897759847cafd4f50d6cc3e86105a012c2",
       "noWriteIfExists": false
     }
   ]
