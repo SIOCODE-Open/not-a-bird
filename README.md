@@ -153,3 +153,4 @@ $ git log --oneline --reverse | frankFiltering.sh
 # Botond Notes
 
 * Use the following command to build app contracts: `npm run build:contracts`
+* [Read the items "wiki"](./ITEMS.md)
