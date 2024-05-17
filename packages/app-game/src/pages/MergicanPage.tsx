@@ -1,100 +1,107 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Resource } from "../classes/ResourceClass";
-import { useBorderControls } from "../service/LevaService";
 import { useResources } from "../service/ResourceService";
-import { useMouse } from "../service/MouseService";
-import { useHelpers } from "../service/HelperService";
 
 export function MergicanPage(props: { navigate: (path: string) => void }) {
-  const { getResources, setResources } = useResources();
-  const imageRef = useRef<HTMLImageElement>(null);
-
+  const { getResources } = useResources();
+  const [loaded, setLoaded] = useState(false);
   // Resource State
   const resources = getResources();
 
-  // Leva Controls
-  const { colorBorder } = useBorderControls();
-
-  // Mouse
-  const {
-    mouseX,
-    mouseY,
-    offsetX,
-    offsetY,
-    isMouseDown,
-    handleMouseDown,
-    handleMouseUp,
-    handleMouseMove,
-  } = useMouse();
-
-  const { getDistance } = useHelpers();
+  useEffect(() => {
+    const img = new Image();
+    img.onload = () => setLoaded(true);
+    img.src = "/assets/items/item.ironore.png"; // replace this with the url of the image in your public folder
+  }, []);
 
   useEffect(() => {
-    if (!imageRef.current) return;
+    if (!loaded) return;
     // Get Canvas Element
     const canvas = document.querySelector("canvas");
     const ctx = canvas.getContext("2d");
-
     // Set the Canvas Size as the whole viewport
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
+    const res_el = resources[0];
 
-    // Get Current Mouse Position
-    canvas.addEventListener("mousedown", handleMouseDown);
-    canvas.addEventListener("mouseup", handleMouseUp);
-    canvas.addEventListener("mousemove", handleMouseMove);
+    //!TODO Main
+    const img = new Image();
+    img.src = res_el.getCurrentImage();
+    console.log(img);
+    ctx.drawImage(img, res_el.x, res_el.y, res_el.width, res_el.height);
 
-    let newRessourecs: Resource[] = [];
-
-    //Loop for all ressources And draw each ressource
-    resources.forEach((res_el: Resource) => {
-      // If mouse in rectangle then blue
-      if (getDistance(mouseX, mouseY, res_el.x, res_el.y) <= 50) {
-        res_el.color = "#ddffff";
-        // and if mouse down make it moveable
-        if (isMouseDown) {
-          res_el.isSelected = true;
-          res_el.x = mouseX - offsetX.current;
-          res_el.y = mouseY - offsetY.current;
-
-          newRessourecs = resources.filter(
-            (el: Resource) => el.isSelected === false,
-          );
-        }
-      } else {
-        res_el.color = "#00000000";
-        res_el.isSelected = false;
+    class Cell {
+      effect: Effect;
+      x: number;
+      y: number;
+      width: number;
+      height: number;
+      constructor(effect: Effect, x: number, y: number) {
+        this.effect = effect;
+        this.x = x;
+        this.y = y;
+        this.width = this.effect.cellWidth;
+        this.height = this.effect.cellHeight;
       }
-
-      //!TODO Main
-      const img = new Image();
-      img.src = res_el.getCurrentImage();
-      ctx.drawImage(img, res_el.x, res_el.y, 50, 50);
-    });
-
-    // Recreate Ressources
-    if (newRessourecs.length === 2) {
-      setResources([...newRessourecs]);
-    } else {
-      setResources([...resources]);
     }
+    class Effect {
+      canvas: HTMLCanvasElement;
+      width: number;
+      height: number;
+      cellWidth: number;
+      cellHeight: number;
+      cell: Cell;
+      imageGrid: Cell[];
+      resources: Resource;
+      constructor(canvas: HTMLCanvasElement, resource: Resource) {
+        this.canvas = canvas;
+        this.width = this.canvas.width;
+        this.height = this.canvas.height;
+        this.cellWidth = 10;
+        this.cellHeight = 10;
+        this.resources = resource;
+        this.cell = new Cell(this, this.cellWidth, this.cellHeight);
+        this.imageGrid = [];
+        this.createGrid();
+      }
+      createGrid() {
+        for (let y = 0; y < this.resources.y / 3; y += this.cellHeight) {
+          for (let x = 0; x < this.resources.x / 3; x += this.cellWidth) {
+            this.imageGrid.push(
+              new Cell(this, this.resources.x + x, this.resources.y + y),
+            );
+          }
+        }
+        console.log(this.imageGrid);
+      }
+      render(ctx: CanvasRenderingContext2D) {
+        this.imageGrid.forEach((cell) => {
+          cell.x = cell.x + Math.random() * 5;
+          cell.y = cell.y + Math.random() * 5;
+          ctx.drawImage(img, cell.x, cell.y, cell.width, cell.height);
+          // ctx.drawImage(
+          //   img,
+          //   cell.x,
+          //   cell.y,
+          //   cell.width,
+          //   cell.height,
+          //   cell.x,
+          //   cell.y,
+          //   cell.width,
+          //   cell.height,
+          // );
+          ctx.strokeRect(cell.x, cell.y, 10, 10);
+        });
+      }
+    }
+    const effect = new Effect(canvas, res_el);
+    effect.render(ctx);
 
-    // Clean Up
-    return () => {
-      canvas.removeEventListener("mousedown", handleMouseDown);
-      canvas.removeEventListener("mouseup", handleMouseUp);
-      canvas.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, [mouseX, mouseY, isMouseDown, colorBorder]);
+    return () => {};
+  }, [loaded]);
   return (
     <>
       <canvas></canvas>
-      <img
-        ref={imageRef}
-        id="image1"
-        src="/assets/items/item.ironore.png"
-        hidden
-      ></img>
     </>
   );
 }

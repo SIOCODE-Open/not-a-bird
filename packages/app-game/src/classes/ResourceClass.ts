@@ -1,6 +1,8 @@
 class Resource {
   x: number;
   y: number;
+  width: number;
+  height: number;
   isSelected: boolean;
   color: string;
   private elementIndex: number;
@@ -48,6 +50,8 @@ class Resource {
   ) {
     this.x = x;
     this.y = y;
+    this.width = 100;
+    this.height = 100;
     this.color = color;
     this.isSelected = isSelected;
     this.imageSrc = [
