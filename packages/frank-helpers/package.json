@@ -1,0 +1,9 @@
+{
+  "name": "@not-a-bird/frank-helpers",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "convert": "cat ~/not-a-bird/unfires_element_table.md | bash ./md2csv_converter.sh > ~/not-a-bird/unfires_element_table.csv"
+  }
+}
