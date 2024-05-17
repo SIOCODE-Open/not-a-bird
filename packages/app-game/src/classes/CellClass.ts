@@ -17,7 +17,17 @@ class Cell {
     this.image.src = "/assets/items/item.corn.png";
   }
   draw(context: CanvasRenderingContext2D) {
-    context.drawImage(this.image, this.x, this.y, this.width, this.height);
+    context.drawImage(
+      this.image,
+      this.x,
+      this.y,
+      this.width,
+      this.height,
+      this.x,
+      this.y,
+      this.width,
+      this.height,
+    );
     context.strokeRect(this.x, this.y, this.width, this.height);
   }
 }

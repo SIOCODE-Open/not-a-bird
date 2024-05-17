@@ -26,8 +26,12 @@ class ImageEffect {
       }
     }
   }
-  render(context: CanvasRenderingContext2D) {
-    this.imageGrid.forEach((cell) => cell.draw(context));
+  render(context: CanvasRenderingContext2D, drawTill: number) {
+    this.imageGrid.forEach((cell, i) => {
+      if (i < drawTill) {
+        cell.draw(context);
+      }
+    });
     // this.cell.draw(context);
   }
 }

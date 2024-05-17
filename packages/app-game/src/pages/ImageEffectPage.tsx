@@ -18,7 +18,14 @@ function ImageEffectPage(props: { navigate: (path: string) => void }) {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     const effect = new ImageEffect(canvas);
-    effect.render(ctx);
+    let counter = 0;
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      effect.render(ctx, counter);
+      counter++;
+      requestAnimationFrame(animate);
+    }
+    animate();
     console.log(effect);
   }, [loaded]);
 
