@@ -8,6 +8,7 @@ class ImageEffect {
   cellHeight: number;
   cell: Cell;
   imageGrid: Cell[];
+  image: HTMLImageElement;
   constructor(canvas: HTMLCanvasElement) {
     this.canvas = canvas;
     this.width = this.canvas.width;
@@ -17,6 +18,8 @@ class ImageEffect {
     this.cell = new Cell(this, this.cellWidth * 10, this.cellHeight * 10);
     this.imageGrid = [];
     this.createGrid();
+    this.image = new Image();
+    this.image.src = "/assets/items/item.corn.png";
     console.log(this.imageGrid);
   }
   createGrid() {
@@ -27,6 +30,17 @@ class ImageEffect {
     }
   }
   render(context: CanvasRenderingContext2D) {
+    context.drawImage(
+      this.image,
+      0,
+      0,
+      1028,
+      1028,
+      0,
+      0,
+      this.canvas.height,
+      this.canvas.width,
+    );
     this.imageGrid.forEach((cell) => cell.draw(context));
     // this.cell.draw(context);
   }
