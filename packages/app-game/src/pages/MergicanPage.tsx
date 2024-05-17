@@ -1,14 +1,15 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { Resource } from "../classes/ResourceClass";
 import { useBorderControls } from "../service/LevaService";
-import { useCrosshair } from "../service/CrossHairService";
 import { useResources } from "../service/ResourceService";
 import { useMouse } from "../service/MouseService";
 import { useHelpers } from "../service/HelperService";
+import { ContextBuilder } from "../classes/ContextBuilder";
+import { Effect } from "../classes/EffectClass";
 
 export function MergicanPage(props: { navigate: (path: string) => void }) {
-  const { createCrosshair } = useCrosshair();
   const { getResources, setResources } = useResources();
+  const imageRef = useRef<HTMLImageElement>(null);
 
   // Resource State
   const resources = getResources();
@@ -27,11 +28,14 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     handleMouseUp,
     handleMouseMove,
   } = useMouse();
+
   const { getDistance } = useHelpers();
 
   useEffect(() => {
+    if (!imageRef.current) return;
     // Get Canvas Element
     const canvas = document.querySelector("canvas");
+    const ctx = canvas.getContext("2d");
 
     // Set the Canvas Size as the whole viewport
     canvas.width = window.innerWidth;
@@ -43,6 +47,8 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     canvas.addEventListener("mousemove", handleMouseMove);
 
     let newRessourecs: Resource[] = [];
+
+    //Loop for all ressources And draw each ressource
     resources.forEach((res_el: Resource) => {
       // If mouse in rectangle then blue
       if (getDistance(mouseX, mouseY, res_el.x, res_el.y) <= 50) {
@@ -52,22 +58,50 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
           res_el.isSelected = true;
           res_el.x = mouseX - offsetX.current;
           res_el.y = mouseY - offsetY.current;
+
           newRessourecs = resources.filter(
             (el: Resource) => el.isSelected === false,
           );
         }
       } else {
-        res_el.color = "white";
+        res_el.color = "#00000000";
         res_el.isSelected = false;
       }
 
-      // Draw Crosshair Rectangle of the Ressources on the Canvas
-      const crosshairCTX = createCrosshair(canvas, res_el, colorBorder);
+      // We use the builder Pattern and pass the the context around.
+      // f.e. Doe + Tomoato + Salami + Onions + Mushrooms + Cheese = Pizza
 
-      // Add Image in rectangle
-      const img = new Image();
-      img.src = res_el.getCurrentImage();
-      crosshairCTX.drawImage(img, res_el.x, res_el.y, 50, 50); // Draw texture on canvas
+      // 1. Create Builder
+      const builder = new ContextBuilder(
+        ctx,
+        res_el.x,
+        res_el.y,
+        50,
+        50,
+        res_el,
+      );
+
+      // 2. Draw one thing after another
+      const new_ctx = builder
+        .addSparkels("black")
+        .addCrossHair("blue")
+        .addImage()
+        .getCtx();
+
+      // const effect = new Effect(canvas.width, canvas.height);
+      // effect.init(ctx);
+
+      // function animate() {
+      // ctx.clearRect(0, 0, canvas.width, canvas.height);
+      // effect.draw(ctx);
+      // effect.update();
+      // requestAnimationFrame(animate);
+      // }
+      // animate();
+      // effect.blocks();
+
+      // 3. ContextBuilder return after getCtx call the modified ctx for more thingies if needed
+      // Done
     });
 
     // Recreate Ressources
@@ -76,6 +110,7 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     } else {
       setResources([...resources]);
     }
+
     // Clean Up
     return () => {
       canvas.removeEventListener("mousedown", handleMouseDown);
@@ -86,6 +121,12 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
   return (
     <>
       <canvas></canvas>
+      <img
+        ref={imageRef}
+        id="image1"
+        src="/assets/items/item.ironore.png"
+        hidden
+      ></img>
     </>
   );
 }

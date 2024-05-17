@@ -18,6 +18,9 @@ export function LandingPage(props: { navigate: (path: string) => void }) {
   const goToParticlePage = () => {
     props.navigate("/particle");
   };
+  const goToImageEffectPage = () => {
+    props.navigate("/imageEffect");
+  };
 
   return (
     <CenteredLayout>
@@ -35,6 +38,9 @@ export function LandingPage(props: { navigate: (path: string) => void }) {
       </Card>
       <Card>
         <Button onClick={goToParticlePage}>Go to Particle Page</Button>
+      </Card>
+      <Card>
+        <Button onClick={goToImageEffectPage}>Go to ImageEffect Page</Button>
       </Card>
     </CenteredLayout>
   );

@@ -1,4 +1,4 @@
-export class Resource {
+class Resource {
   x: number;
   y: number;
   isSelected: boolean;
@@ -118,3 +118,5 @@ export class Resource {
     return this.imageSrc;
   }
 }
+
+export { Resource };

@@ -1,12 +1,11 @@
 import { Resource } from "../classes/ResourceClass";
 
 export function useCrosshair() {
-  const createCrosshair = (
-    canvas: HTMLCanvasElement,
+  const addCrosshair = (
+    ctx: CanvasRenderingContext2D,
     res_el: Resource,
     colorBorder: string,
   ) => {
-    const ctx = canvas.getContext("2d");
     const cornerRadius = 10;
     const borderWidth = 2;
 
@@ -65,5 +64,5 @@ export function useCrosshair() {
     return ctx;
   };
 
-  return { createCrosshair };
+  return { addCrosshair };
 }
