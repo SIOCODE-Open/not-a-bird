@@ -14,7 +14,7 @@ class Cell {
     this.height = this.effect.cellHeight;
   }
   draw(context: CanvasRenderingContext2D) {
-    context.fillRect(this.x, this.y, this.width, this.height);
+    context.strokeRect(this.x, this.y, this.width, this.height);
   }
 }
 export { Cell };
