@@ -1,15 +1,15 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { Resource } from "../classes/ResourceClass";
 import { useBorderControls } from "../service/LevaService";
-import { useCrosshair } from "../service/CrossHairService";
 import { useResources } from "../service/ResourceService";
 import { useMouse } from "../service/MouseService";
 import { useHelpers } from "../service/HelperService";
 import { ContextBuilder } from "../classes/ContextBuilder";
+import { Effect } from "../classes/EffectClass";
 
 export function MergicanPage(props: { navigate: (path: string) => void }) {
-  const { addCrosshair } = useCrosshair();
   const { getResources, setResources } = useResources();
+  const imageRef = useRef<HTMLImageElement>(null);
 
   // Resource State
   const resources = getResources();
@@ -28,9 +28,11 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     handleMouseUp,
     handleMouseMove,
   } = useMouse();
+
   const { getDistance } = useHelpers();
 
   useEffect(() => {
+    if (!imageRef.current) return;
     // Get Canvas Element
     const canvas = document.querySelector("canvas");
     const ctx = canvas.getContext("2d");
@@ -81,12 +83,22 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
 
       // 2. Draw one thing after another
       const new_ctx = builder
-        .addSparkels("gold")
-        .addBlueCircle()
-        .addX()
+        .addSparkels("black")
         .addCrossHair("blue")
         .addImage()
         .getCtx();
+
+      // const effect = new Effect(canvas.width, canvas.height);
+      // effect.init(ctx);
+
+      // function animate() {
+      // ctx.clearRect(0, 0, canvas.width, canvas.height);
+      // effect.draw(ctx);
+      // effect.update();
+      // requestAnimationFrame(animate);
+      // }
+      // animate();
+      // effect.blocks();
 
       // 3. ContextBuilder return after getCtx call the modified ctx for more thingies if needed
       // Done
@@ -98,6 +110,7 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     } else {
       setResources([...resources]);
     }
+
     // Clean Up
     return () => {
       canvas.removeEventListener("mousedown", handleMouseDown);
@@ -108,6 +121,12 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
   return (
     <>
       <canvas></canvas>
+      <img
+        ref={imageRef}
+        id="image1"
+        src="/assets/items/item.ironore.png"
+        hidden
+      ></img>
     </>
   );
 }

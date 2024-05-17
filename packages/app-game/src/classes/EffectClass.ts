@@ -10,11 +10,11 @@ class Effect {
   x: number;
   y: number;
   gap: number;
-  mouse: {
-    radius: number;
-    x: undefined | number;
-    y: undefined | number;
-  };
+  // mouse: {
+  //   radius: number;
+  //   x: undefined | number;
+  //   y: undefined | number;
+  // };
   counter: number;
   constructor(width: number, height: number) {
     this.width = width;
@@ -26,15 +26,15 @@ class Effect {
     this.x = this.centerX - this.image.width * 0.5;
     this.y = this.centerY - this.image.height * 0.5;
     this.gap = 3;
-    this.mouse = {
-      radius: 3000,
-      x: undefined,
-      y: undefined,
-    };
-    window.addEventListener("mousemove", (event) => {
-      this.mouse.x = event.x;
-      this.mouse.y = event.y;
-    });
+    // this.mouse = {
+    //   radius: 3000,
+    //   x: undefined,
+    //   y: undefined,
+    // };
+    // window.addEventListener("mousemove", (event) => {
+    //   this.mouse.x = event.x;
+    //   this.mouse.y = event.y;
+    // });
     this.counter = 0;
   }
   init(context: CanvasRenderingContext2D) {

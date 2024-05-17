@@ -127,6 +127,7 @@ class ContextBuilder {
 
     return this;
   }
+
   addImage() {
     const img = new Image();
     img.src = this.resource.getCurrentImage();
@@ -134,6 +135,7 @@ class ContextBuilder {
     this.ctx.drawImage(img, this.resource.x, this.resource.y, 50, 50);
     return this;
   }
+
   getCtx() {
     return this.ctx;
   }
