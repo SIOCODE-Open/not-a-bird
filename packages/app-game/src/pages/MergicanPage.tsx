@@ -4,8 +4,6 @@ import { useBorderControls } from "../service/LevaService";
 import { useResources } from "../service/ResourceService";
 import { useMouse } from "../service/MouseService";
 import { useHelpers } from "../service/HelperService";
-import { ContextBuilder } from "../classes/ContextBuilder";
-import { Effect } from "../classes/EffectClass";
 
 export function MergicanPage(props: { navigate: (path: string) => void }) {
   const { getResources, setResources } = useResources();
@@ -68,40 +66,10 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         res_el.isSelected = false;
       }
 
-      // We use the builder Pattern and pass the the context around.
-      // f.e. Doe + Tomoato + Salami + Onions + Mushrooms + Cheese = Pizza
-
-      // 1. Create Builder
-      const builder = new ContextBuilder(
-        ctx,
-        res_el.x,
-        res_el.y,
-        50,
-        50,
-        res_el,
-      );
-
-      // 2. Draw one thing after another
-      const new_ctx = builder
-        .addSparkels("black")
-        .addCrossHair("blue")
-        .addImage()
-        .getCtx();
-
-      // const effect = new Effect(canvas.width, canvas.height);
-      // effect.init(ctx);
-
-      // function animate() {
-      // ctx.clearRect(0, 0, canvas.width, canvas.height);
-      // effect.draw(ctx);
-      // effect.update();
-      // requestAnimationFrame(animate);
-      // }
-      // animate();
-      // effect.blocks();
-
-      // 3. ContextBuilder return after getCtx call the modified ctx for more thingies if needed
-      // Done
+      //!TODO Main
+      const img = new Image();
+      img.src = res_el.getCurrentImage();
+      ctx.drawImage(img, res_el.x, res_el.y, 50, 50);
     });
 
     // Recreate Ressources
