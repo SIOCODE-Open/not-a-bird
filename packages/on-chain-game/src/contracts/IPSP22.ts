@@ -1,10 +1,4 @@
-{
-    "forEach": "item-psp22-contracts",
-    "filename": "packages/on-chain-game/src/contracts/I{{pascalCase name}}Contract.ts"
-}
----
-/** {{{description}}} */
-export interface I{{pascalCase name}}Contract {
+export interface IPSP22 {
     /** PSP-22 total_supply method */
     totalSupply(): Promise<number>;
 
@@ -28,19 +22,4 @@ export interface I{{pascalCase name}}Contract {
 
     /** PSP-22 decrease_allowance method */
     decreaseAllowance(spender: string, deltaValue: number): Promise<void>;
-
-    /** PSP-22 Metadata token_name method */
-    tokenName(): Promise<string>;
-
-    /** PSP-22 Metadata token_symbol method */
-    tokenSymbol(): Promise<string>;
-
-    /** PSP-22 Metadata token_decimals method */
-    tokenDecimals(): Promise<number>;
-
-    /** Element Contract claim_ownership method */
-    claimOwnership(): Promise<void>;
-
-    /** Element Contract lock_game_contract method */
-    lockGameContract(gameContract: string): Promise<void>;
 }

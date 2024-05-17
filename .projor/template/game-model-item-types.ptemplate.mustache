@@ -1,0 +1,23 @@
+{
+    "map": {
+        "items": "items"
+    },
+    "filename": "packages/model/src/items.ts"
+}
+---
+import { IItem } from './IItem';
+
+{{#each items}}
+export const ITEM_{{constantCase name}}: IItem = {
+    id: {{@index}},
+    name: '{{capitalCase name}}',
+    description: '{{{description}}}',
+    tier: {{tier}},
+};
+{{/each}}
+
+export const ALL_ITEMS: IItem[] = [
+    {{#each items}}
+    ITEM_{{constantCase name}},
+    {{/each}}
+];
