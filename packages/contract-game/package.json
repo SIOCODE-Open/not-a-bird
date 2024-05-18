@@ -1,0 +1,10 @@
+{
+    "name": "@not-a-bird/contract-game",
+    "description": "The Game Contract is the main outer contract the game logic interacts with from the browser.",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {},
+    "scripts": {
+        "build": "cargo contract build --target wasm --release --manifest-path src/Cargo.toml"
+    }
+}
