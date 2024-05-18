@@ -72,29 +72,38 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
       }
     }
     class Effect {
-      canvas: HTMLCanvasElement;
-      width: number;
-      height: number;
-      cellWidth: number;
-      cellHeight: number;
       imageGrid: Cell[];
       resource: Resource;
-      constructor(canvas: HTMLCanvasElement, resource: Resource) {
-        this.canvas = canvas;
-        this.width = this.canvas.width;
-        this.height = this.canvas.height;
-        this.cellWidth = 10;
-        this.cellHeight = 10;
+      constructor(resource: Resource) {
         this.resource = resource;
         this.imageGrid = [];
         this.createGrid(300, 300);
       }
-      createGrid(postionX: number, positionY: number) {
-        const cellWidth = 100 / 10;
-        const cellHeight = 100 / 10;
-        for (let x = 0; x < 10; x += 10) {
-          for (let y = 0; y < 10; y += 10) {
-            const cell = new Cell(img, 0, 0, 1028, 1028, 300, 300, 100, 100);
+      createGrid(positionX: number, positionY: number) {
+        const cellWidth = 10;
+        const cellHeight = 10;
+        let rows = 10;
+        let columns = 10;
+        const imgWidth = img.width;
+        const imgHeight = img.height;
+        const srcWidth = imgWidth / columns;
+        const srcHeight = imgHeight / rows;
+
+        for (let y = 0; y < cellWidth * rows; y += cellWidth) {
+          for (let x = 0; x < cellHeight * columns; x += cellHeight) {
+            let random = Math.random() * 2;
+            ctx.strokeRect(300 + x + random, 300 + y + random, 10, 10);
+            const cell = new Cell(
+              img,
+              (x / cellWidth) * srcWidth,
+              (y / cellHeight) * srcHeight,
+              srcWidth,
+              srcHeight,
+              x + positionX + random,
+              y + positionY + random,
+              cellWidth,
+              cellHeight,
+            );
             this.imageGrid.push(cell);
           }
         }
@@ -105,7 +114,7 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         });
       }
     }
-    const effect = new Effect(canvas, resourceEl);
+    const effect = new Effect(resourceEl);
     effect.render(ctx);
 
     return () => {};
