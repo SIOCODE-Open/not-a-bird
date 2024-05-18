@@ -1,6 +1,6 @@
 class Resource {
-  x: number;
-  y: number;
+  positionX: number;
+  positionY: number;
   width: number;
   height: number;
   isSelected: boolean;
@@ -40,16 +40,16 @@ class Resource {
   ];
 
   constructor(
-    x: number,
-    y: number,
+    positionX: number,
+    positionY: number,
     color: string,
     isSelected: boolean,
     imageIndex: number,
     elementIndex: number,
     elementCount: number,
   ) {
-    this.x = x;
-    this.y = y;
+    this.positionX = positionX;
+    this.positionY = positionY;
     this.width = 100;
     this.height = 100;
     this.color = color;
@@ -92,8 +92,8 @@ class Resource {
 
   // Display
   updatePosition(x: number, y: number) {
-    this.x = x;
-    this.y = y;
+    this.positionX = x;
+    this.positionY = y;
   }
   updateColor(color: string) {
     this.color = color;
