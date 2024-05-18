@@ -163,9 +163,10 @@ pub mod {{snakeCase name}} {
         // Selector is first 4 bytes of blake2b_256("ElementContract::burn")
         #[ink(message, selector = 0x100fa9ca)]
         pub fn burn(&mut self, owner: AccountId, value: u128) -> Result<(), Error> {
-            if self.game_contract_id != self.env().caller() {
+            // FIXME: Only allow minting for the game contract
+            /* if self.game_contract_id != self.env().caller() {
                 return Err(Error::Custom(String::from("Only the game contract can burn tokens")));
-            }
+            } */
             let from_balance = self.balances.get(owner).unwrap_or_default();
             if from_balance < value {
                 return Err(Error::Custom(String::from("Insufficient balance to burn tokens")));

@@ -125,9 +125,10 @@ pub mod fire {
         // Selector is first 4 bytes of blake2b_256("ElementContract::lock_game_contract")
         #[ink(message, selector = 0x6386465e)]
         pub fn lock_game_contract(&mut self, game_contract_id: AccountId) -> Result<(), Error> {
-            if self.game_contract_is_set {
+            // FIXME: Only allow locking ONCE
+            /* if self.game_contract_is_set {
                 return Err(Error::Custom(String::from("Game contract already set")));
-            }
+            } */
             if self.owner_account_id != self.env().caller() {
                 return Err(Error::Custom(String::from("Only the owner can lock the game contract")));
             }
@@ -139,6 +140,7 @@ pub mod fire {
         // Selector is first 4 bytes of blake2b_256("ElementContract::mint")
         #[ink(message, selector = 0x21615d0f)]
         pub fn mint(&mut self, owner: AccountId, value: u128) -> Result<(), Error> {
+            // FIXME: Only allow minting for the game contract
             /* if self.game_contract_id != self.env().caller() {
                 return Err(Error::Custom(String::from("Only the game contract can mint tokens")));
             } */
@@ -156,9 +158,10 @@ pub mod fire {
         // Selector is first 4 bytes of blake2b_256("ElementContract::burn")
         #[ink(message, selector = 0x100fa9ca)]
         pub fn burn(&mut self, owner: AccountId, value: u128) -> Result<(), Error> {
-            if self.game_contract_id != self.env().caller() {
+            // FIXME: Only allow minting for the game contract
+            /* if self.game_contract_id != self.env().caller() {
                 return Err(Error::Custom(String::from("Only the game contract can burn tokens")));
-            }
+            } */
             let from_balance = self.balances.get(owner).unwrap_or_default();
             if from_balance < value {
                 return Err(Error::Custom(String::from("Insufficient balance to burn tokens")));
