@@ -211,7 +211,7 @@ pub mod game {
             // Burn calls to element contracts
             let call_result_a = build_call::<DefaultEnvironment>()
                 .call(element_a_contract_id)
-                .call_flags(CallFlags::TAIL_CALL)
+                .call_flags(CallFlags::ALLOW_REENTRY)
                 .exec_input(
                     ExecutionInput::new(Selector::new(
                             // Selector of ElementContract::burn -> 0x100fa9ca
@@ -220,12 +220,12 @@ pub mod game {
                         .push_arg::<AccountId>(self.env().caller()) // owner: AccountId parameter
                         .push_arg::<u128>(1) // value: u128 parameter
                 )
-                .returns::<()>()
+                .returns::<Result<(), Error>>()
                 .try_invoke();
             
             let call_result_b = build_call::<DefaultEnvironment>()
                 .call(element_b_contract_id)
-                .call_flags(CallFlags::TAIL_CALL)
+                .call_flags(CallFlags::ALLOW_REENTRY)
                 .exec_input(
                     ExecutionInput::new(Selector::new(
                             // Selector of ElementContract::burn -> 0x100fa9ca
@@ -234,25 +234,25 @@ pub mod game {
                         .push_arg::<AccountId>(self.env().caller()) // owner: AccountId parameter
                         .push_arg::<u128>(1) // value: u128 parameter
                 )
-                .returns::<()>()
+                .returns::<Result<(), Error>>()
                 .try_invoke();
             
             match call_result_a {
-                Ok(okresult) => match okresult {
+                Ok(okresult1) => match okresult1 {
                     Ok(_) => (),
-                    Err(reserr) => return Err(Error::InkError(reserr))
+                    Err(reserr1) => return Err(Error::InkError(reserr1))
                 },
-                Err(fatalerr) => return Err(Error::FatalError(format!("Error invoking ElementContract::burn: {:?}", fatalerr)))
+                Err(fatalerr1) => return Err(Error::FatalError(format!("Error invoking ElementContract::burn (1 / 3): {:?}", fatalerr1)))
             }
 
             match call_result_b {
-                Ok(okresult) => match okresult {
+                Ok(okresult2) => match okresult2 {
                     Ok(_) => (),
-                    Err(reserr) => return Err(Error::InkError(reserr))
+                    Err(reserr2) => return Err(Error::InkError(reserr2))
                 },
-                Err(fatalerr) => return Err(Error::FatalError(format!("Error invoking ElementContract::burn: {:?}", fatalerr)))
+                Err(fatalerr2) => return Err(Error::FatalError(format!("Error invoking ElementContract::burn (2 / 3): {:?}", fatalerr2)))
             }
-
+            
             // Mint call to element contract
             let call_result_c = build_call::<DefaultEnvironment>()
                 .call(element_c_contract_id)
@@ -265,15 +265,15 @@ pub mod game {
                         .push_arg::<AccountId>(self.env().caller()) // owner: AccountId parameter
                         .push_arg::<u128>(1) // value: u128 parameter
                 )
-                .returns::<()>()
+                .returns::<Result<(), Error>>()
                 .try_invoke();
-            
+    
             match call_result_c {
-                Ok(okresult) => match okresult {
+                Ok(okresult3) => match okresult3 {
                     Ok(_) => Ok(()),
-                    Err(reserr) => Err(Error::InkError(reserr))
+                    Err(reserr3) => Err(Error::InkError(reserr3))
                 },
-                Err(fatalerr) => Err(Error::FatalError(format!("Error invoking ElementContract::mint: {:?}", fatalerr)))
+                Err(fatalerr3) => Err(Error::FatalError(format!("Error invoking ElementContract::mint (3 / 3): {:?}", fatalerr3)))
             }
             
         }
