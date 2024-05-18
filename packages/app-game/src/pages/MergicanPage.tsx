@@ -25,17 +25,50 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     img.src = resourceEl.getCurrentImage();
 
     class Cell {
-      effect: Effect;
-      x: number;
-      y: number;
-      width: number;
-      height: number;
-      constructor(effect: Effect, x: number, y: number) {
-        this.effect = effect;
-        this.x = x;
-        this.y = y;
-        this.width = this.effect.cellWidth;
-        this.height = this.effect.cellHeight;
+      image: HTMLImageElement;
+      sx: number;
+      sy: number;
+      sWidth: number;
+      sHeight: number;
+      dx: number;
+      dy: number;
+      dWidth: number;
+      dHeight: number;
+
+      //image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight
+      constructor(
+        img: HTMLImageElement,
+        sx: number,
+        sy: number,
+        sWidth: number,
+        sHeight: number,
+        dx: number,
+        dy: number,
+        dWidth: number,
+        dHeight: number,
+      ) {
+        this.image = img;
+        this.sx = sx;
+        this.sy = sy;
+        this.sWidth = sWidth;
+        this.sHeight = sHeight;
+        this.dx = dx;
+        this.dy = dy;
+        this.dWidth = dWidth;
+        this.dHeight = dHeight;
+      }
+      draw(ctx: CanvasRenderingContext2D) {
+        ctx.drawImage(
+          this.image,
+          this.sx,
+          this.sy,
+          this.sWidth,
+          this.sHeight,
+          this.dx,
+          this.dy,
+          this.dWidth,
+          this.dHeight,
+        );
       }
     }
     class Effect {
@@ -44,7 +77,6 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
       height: number;
       cellWidth: number;
       cellHeight: number;
-      cell: Cell;
       imageGrid: Cell[];
       resource: Resource;
       constructor(canvas: HTMLCanvasElement, resource: Resource) {
@@ -54,37 +86,27 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         this.cellWidth = 10;
         this.cellHeight = 10;
         this.resource = resource;
-        this.cell = new Cell(this, this.cellWidth, this.cellHeight);
         this.imageGrid = [];
-        this.createGrid();
+        this.createGrid(300, 300);
       }
-      createGrid() {
-        // drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
-        for (let y = 0; y < 100; y += 1) {
-          for (let x = 0; x < 100; x += 1) {
-            ctx.drawImage(
-              img,
-              x * (1024 / 100),
-              y * (1024 / 100),
-              1024 / 100,
-              1024 / 100,
-              300 + x,
-              300 + y,
-              10,
-              10,
-            );
-            // Show Grid
-          }
-          for (let y = 0; y < 100; y += 10) {
-            for (let x = 0; x < 100; x += 10) {
-              ctx.strokeRect(300 + x, 300 + y, 10, 10);
-            }
+      createGrid(postionX: number, positionY: number) {
+        const cellWidth = 100 / 10;
+        const cellHeight = 100 / 10;
+        for (let x = 0; x < 10; x += 10) {
+          for (let y = 0; y < 10; y += 10) {
+            const cell = new Cell(img, 0, 0, 1028, 1028, 300, 300, 100, 100);
+            this.imageGrid.push(cell);
           }
         }
       }
-      render(ctx: CanvasRenderingContext2D) {}
+      render(ctx: CanvasRenderingContext2D) {
+        this.imageGrid.forEach((cell, i) => {
+          cell.draw(ctx);
+        });
+      }
     }
     const effect = new Effect(canvas, resourceEl);
+    effect.render(ctx);
 
     return () => {};
   }, [loaded]);
