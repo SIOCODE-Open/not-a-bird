@@ -28,13 +28,14 @@
     "prettier": "^3.2.5"
   },
   "scripts": {
-    "build:water": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-water/src/Cargo.toml",
-    "build:fire": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-fire/src/Cargo.toml",
-    "build:earth": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-earth/src/Cargo.toml",
-    "build:air": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-air/src/Cargo.toml",
-    "build:steam": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-steam/src/Cargo.toml",
-    "build:lava": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-lava/src/Cargo.toml",
-    "build:contracts": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-water/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-fire/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-earth/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-air/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-steam/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-lava/src/Cargo.toml",
+    "c:water": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-water/src/Cargo.toml",
+    "c:fire": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-fire/src/Cargo.toml",
+    "c:earth": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-earth/src/Cargo.toml",
+    "c:air": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-air/src/Cargo.toml",
+    "c:steam": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-steam/src/Cargo.toml",
+    "c:lava": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-lava/src/Cargo.toml",
+    "c:game": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-game/src/Cargo.toml",
+    "build:contracts": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-game/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-water/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-fire/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-earth/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-air/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-steam/src/Cargo.toml && cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-lava/src/Cargo.toml",
     "build": "npm run -w @not-a-bird/app-game build",
     "serve": "npm run -w @not-a-bird/app-game serve"
   }
