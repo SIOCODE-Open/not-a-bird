@@ -68,8 +68,8 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         this.slideY = 1;
         this.vx = Math.random() * 10 - 5;
         this.vy = Math.random() * 10 - 5;
-        this.ease = 0.9;
-        this.friction = 0.1;
+        this.ease = 0.1;
+        this.friction = 0.8;
       }
       draw(ctx: CanvasRenderingContext2D) {
         ctx.strokeRect(
@@ -102,8 +102,13 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
           this.vy = force * Math.cos(angle);
         }
         // pushes rectancles around positionX and postionMouseY
-        this.slideX += this.vx - this.slideX;
-        this.slideY += this.vy - this.slideY;
+        this.slideX += (this.vx *= this.friction) - this.slideX * this.ease;
+        this.slideY += (this.vy *= this.friction) - this.slideY * this.ease;
+        if (this.vx < 0.0000001 && this.vy < 0.0000001) {
+          this.vx = Math.random() * 10 - 5;
+          this.vy = Math.random() * 10 - 5;
+        }
+        console.log(this.vx);
       }
     }
     class Effect {
