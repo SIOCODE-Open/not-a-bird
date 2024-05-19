@@ -1,6 +1,6 @@
 {
     "map": {
-        "items": "items",
+        "items": "indexed-items",
         "recipes": "recipes"
     },
     "filename": "packages/content/src/index.ts",
@@ -13,6 +13,7 @@
 
 {{#each items}}
 export const CONTENT_ITEM_{{constantCase name}}: IItem = {
+    "id": {{{id}}},
     "name": "{{{name}}}",
     "description": "{{{description}}}"
 };
@@ -26,6 +27,7 @@ export const CONTENT_ITEMS: Array<IItem> = [
 
 {{#each recipes}}
 export const CONTENT_RECIPE_{{constantCase name}}: IRecipe = {
+    id: {{@index}},
     a: CONTENT_ITEM_{{constantCase a.name}},
     b: CONTENT_ITEM_{{constantCase b.name}},
     result: CONTENT_ITEM_{{constantCase c.name}},

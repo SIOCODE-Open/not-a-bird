@@ -1,4 +1,4 @@
-import { IWorld } from "../../model/src";
+import { IGameWallet, IWorld } from "@not-a-bird/model";
 
 /** Client interface for interacting with the on-chain game.
  * 
@@ -20,4 +20,12 @@ export interface IOnChainGame {
 
     /** Sacrifices an item into the common pot */
     sacrifice(itemId: number): Promise<void>;
+
+    /** Retrieves the wallet used for the game */
+    wallet(): Promise<IGameWallet>;
+
+    /** Sends element tokens from the wallet used to play the game */
+    send(itemId: number, to: string, amount: number): Promise<void>;
+
+    
 }

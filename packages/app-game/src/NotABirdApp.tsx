@@ -7,6 +7,7 @@ import { ItemsWikiPage } from "./pages/ItemsWikiPage";
 import { MergicanPage } from "./pages/MergicanPage";
 import { ParticlePage } from "./pages/ParticlePage";
 import { ImageEffectPage } from "./pages/ImageEffectPage";
+import { POCGamePage } from "./pages/POCGamePage";
 
 const pages: Array<{ path: string; component: any }> = [
   { path: "/landing-page", component: LandingPage },
@@ -17,6 +18,7 @@ const pages: Array<{ path: string; component: any }> = [
   { path: "/mergican", component: MergicanPage },
   { path: "/particle", component: ParticlePage },
   { path: "/imageEffect", component: ImageEffectPage },
+  { path: "/pocgame", component: POCGamePage },
 ];
 
 export function NotABirdApp() {

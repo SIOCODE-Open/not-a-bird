@@ -21,6 +21,9 @@ export function LandingPage(props: { navigate: (path: string) => void }) {
   const goToImageEffectPage = () => {
     props.navigate("/imageEffect");
   };
+  const onStartPlayingPOC = () => {
+    props.navigate("/pocgame");
+  };
 
   return (
     <CenteredLayout>
@@ -41,6 +44,9 @@ export function LandingPage(props: { navigate: (path: string) => void }) {
       </Card>
       <Card>
         <Button onClick={goToImageEffectPage}>Go to ImageEffect Page</Button>
+      </Card>
+      <Card>
+        <Button onClick={onStartPlayingPOC}>Play the POC</Button>
       </Card>
     </CenteredLayout>
   );

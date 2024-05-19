@@ -13,13 +13,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "air"
-version = "0.0.1"
-dependencies = [
- "ink",
-]
-
-[[package]]
 name = "array-init"
 version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -42,6 +35,27 @@ name = "autocfg"
 version = "1.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0c4b4d0bd25bd0b74681c0ad21497610ce1b7c91b1022cd21c80c6fbdd9476b0"
+
+[[package]]
+name = "bear"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
+name = "bee"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
+name = "beer"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
 
 [[package]]
 name = "bitflags"
@@ -71,12 +85,33 @@ dependencies = [
 ]
 
 [[package]]
+name = "block"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
 name = "block-buffer"
 version = "0.10.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3078c7629b62d3f0439517fa394996acacc5cbc91c5a20d8c658e77abd503a71"
 dependencies = [
  "generic-array",
+]
+
+[[package]]
+name = "blockchain"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
+name = "bridge"
+version = "0.0.1"
+dependencies = [
+ "ink",
 ]
 
 [[package]]
@@ -92,6 +127,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1fd0f2584146f6f2ef48085050886acf353beff7305ebd1ae69500e27c67f64b"
 
 [[package]]
+name = "cardano"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
 name = "cc"
 version = "1.0.97"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -102,6 +144,13 @@ name = "cfg-if"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
+
+[[package]]
+name = "coin"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
 
 [[package]]
 name = "const_env"
@@ -235,13 +284,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0d6ef0072f8a535281e4876be788938b528e9a1d43900b82c2569af7da799125"
 
 [[package]]
-name = "earth"
-version = "0.0.1"
-dependencies = [
- "ink",
-]
-
-[[package]]
 name = "either"
 version = "1.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -258,13 +300,6 @@ name = "fiat-crypto"
 version = "0.2.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "28dea519a9695b9977216879a3ebfddf92f1c08c05d984f8996aecd6ecdc811d"
-
-[[package]]
-name = "fire"
-version = "0.0.1"
-dependencies = [
- "ink",
-]
 
 [[package]]
 name = "fnv"
@@ -317,6 +352,27 @@ dependencies = [
 ]
 
 [[package]]
+name = "giraffe"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
+name = "gold"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
+name = "golden_gate"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
 name = "hashbrown"
 version = "0.14.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -327,6 +383,27 @@ name = "heck"
 version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "95505c38b4572b2d910cecb0281560f54b440a19336cbbcb27bf6ce6adc6f5a8"
+
+[[package]]
+name = "hive"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
+name = "hydra"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
+name = "hyper_marmalade"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
 
 [[package]]
 name = "ident_case"
@@ -589,13 +666,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "lava"
-version = "0.0.1"
-dependencies = [
- "ink",
-]
-
-[[package]]
 name = "libc"
 version = "0.2.154"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -622,6 +692,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "lock"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
+name = "marmalade"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
 name = "memchr"
 version = "2.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -637,6 +721,20 @@ dependencies = [
  "keccak",
  "rand_core",
  "zeroize",
+]
+
+[[package]]
+name = "monkey"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
+name = "monkey_branch"
+version = "0.0.1"
+dependencies = [
+ "ink",
 ]
 
 [[package]]
@@ -698,10 +796,24 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a"
 
 [[package]]
+name = "peer_review"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
 name = "platforms"
 version = "3.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "db23d408679286588f4d4644f965003d056e3dd5abcaaa938116871d7ce2fee7"
+
+[[package]]
+name = "polkadot"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
 
 [[package]]
 name = "polkavm-common"
@@ -808,6 +920,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c"
 dependencies = [
  "getrandom",
+]
+
+[[package]]
+name = "rhodium"
+version = "0.0.1"
+dependencies = [
+ "ink",
 ]
 
 [[package]]
@@ -1061,6 +1180,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "silver"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
 name = "smallvec"
 version = "1.13.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1073,13 +1199,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f"
 
 [[package]]
-name = "steam"
-version = "0.0.1"
-dependencies = [
- "ink",
-]
-
-[[package]]
 name = "strsim"
 version = "0.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1090,6 +1209,20 @@ name = "subtle"
 version = "2.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "81cdd64d312baedb58e21336b31bc043b77e01cc99033ce76ef539f78e965ebc"
+
+[[package]]
+name = "super_marmalade"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
+name = "swarm"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
 
 [[package]]
 name = "syn"
@@ -1159,6 +1292,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "transaction"
+version = "0.0.1"
+dependencies = [
+ "ink",
+]
+
+[[package]]
 name = "typenum"
 version = "1.17.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1181,13 +1321,6 @@ name = "wasi"
 version = "0.11.0+wasi-snapshot-preview1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423"
-
-[[package]]
-name = "water"
-version = "0.0.1"
-dependencies = [
- "ink",
-]
 
 [[package]]
 name = "winnow"
