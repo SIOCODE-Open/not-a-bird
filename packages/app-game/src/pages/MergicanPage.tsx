@@ -25,66 +25,126 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
     img.src = resourceEl.getCurrentImage();
 
     class Cell {
-      effect: Effect;
-      x: number;
-      y: number;
-      width: number;
-      height: number;
-      constructor(effect: Effect, x: number, y: number) {
-        this.effect = effect;
-        this.x = x;
-        this.y = y;
-        this.width = this.effect.cellWidth;
-        this.height = this.effect.cellHeight;
+      image: HTMLImageElement;
+      sx: number;
+      sy: number;
+      sWidth: number;
+      sHeight: number;
+      dx: number;
+      dy: number;
+      dWidth: number;
+      dHeight: number;
+
+      slideX: number;
+      slideY: number;
+
+      //image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight
+      constructor(
+        img: HTMLImageElement,
+        sx: number,
+        sy: number,
+        sWidth: number,
+        sHeight: number,
+        dx: number,
+        dy: number,
+        dWidth: number,
+        dHeight: number,
+      ) {
+        this.image = img;
+        this.sx = sx;
+        this.sy = sy;
+        this.sWidth = sWidth;
+        this.sHeight = sHeight;
+        this.dx = dx;
+        this.dy = dy;
+        this.dWidth = dWidth;
+        this.dHeight = dHeight;
+
+        this.slideX = Math.random() * 10;
+        this.slideY = Math.random() * 10;
+      }
+      draw(ctx: CanvasRenderingContext2D) {
+        ctx.strokeRect(
+          this.dx + this.slideX,
+          this.dy + this.slideY,
+          this.dWidth,
+          this.dHeight,
+        );
+        ctx.drawImage(
+          this.image,
+          this.sx,
+          this.sy,
+          this.sWidth,
+          this.sHeight,
+          this.dx + this.slideX,
+          this.dy + this.slideY,
+          this.dWidth,
+          this.dHeight,
+        );
+      }
+      update() {
+        this.slideX = Math.random() * 10;
+        this.slideY = Math.random() * 10;
       }
     }
     class Effect {
-      canvas: HTMLCanvasElement;
-      width: number;
-      height: number;
-      cellWidth: number;
-      cellHeight: number;
-      cell: Cell;
       imageGrid: Cell[];
       resource: Resource;
-      constructor(canvas: HTMLCanvasElement, resource: Resource) {
-        this.canvas = canvas;
-        this.width = this.canvas.width;
-        this.height = this.canvas.height;
-        this.cellWidth = 10;
-        this.cellHeight = 10;
+      constructor(resource: Resource) {
         this.resource = resource;
-        this.cell = new Cell(this, this.cellWidth, this.cellHeight);
         this.imageGrid = [];
-        this.createGrid();
+        this.createGrid(150, 150);
       }
-      createGrid() {
-        // drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
-        for (let y = 0; y < 100; y += 1) {
-          for (let x = 0; x < 100; x += 1) {
-            ctx.drawImage(
+      createGrid(positionX: number, positionY: number) {
+        const cellWidth = 15;
+        const cellHeight = 15;
+        let rows = 15;
+        let columns = 10;
+        const imgWidth = img.width;
+        const imgHeight = img.height;
+        const srcWidth = imgWidth / columns;
+        const srcHeight = imgHeight / rows;
+
+        for (let y = 0; y < cellWidth * rows; y += cellWidth) {
+          for (let x = 0; x < cellHeight * columns; x += cellHeight) {
+            const random = Math.random() * 3;
+            const cell = new Cell(
               img,
-              x * (1024 / 100),
-              y * (1024 / 100),
-              1024 / 100,
-              1024 / 100,
-              300 + x,
-              300 + y,
-              10,
-              10,
+              (x / cellWidth) * srcWidth,
+              (y / cellHeight) * srcHeight,
+              srcWidth,
+              srcHeight,
+              x + positionX + random,
+              y + positionY + random,
+              cellWidth,
+              cellHeight,
             );
-            // Show Grid
-          }
-          for (let y = 0; y < 100; y += 10) {
-            for (let x = 0; x < 100; x += 10) {
-              ctx.strokeRect(300 + x, 300 + y, 10, 10);
-            }
+            this.imageGrid.push(cell);
           }
         }
       }
-      render(ctx: CanvasRenderingContext2D) {}
+      render(ctx: CanvasRenderingContext2D) {
+        console.log(this.imageGrid.length);
+        this.imageGrid.forEach((cell, i) => {
+          cell.update();
+          cell.draw(ctx);
+        });
+      }
     }
-    const effect = new Effect(canvas, resourceEl);
+    const effect = new Effect(resourceEl);
+    let timeoutId = null;
+    function animate() {
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
+
+      timeoutId = setTimeout(() => {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        effect.render(ctx);
+        requestAnimationFrame(animate);
+      }, 1000);
+    }
+    animate();
 
     return () => {};
   }, [loaded]);

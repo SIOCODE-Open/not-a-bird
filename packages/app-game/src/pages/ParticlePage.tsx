@@ -7,6 +7,7 @@ function ParticlePage(props: { navigate: (path: string) => void }) {
     if (!imageRef.current) return;
     const handleLoad = () => {
       const canvas = document.getElementById("canvas1") as HTMLCanvasElement;
+      // const image = document.getElementById("image1") as HTMLImageElement;
       const ctx = canvas.getContext("2d");
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
@@ -21,7 +22,6 @@ function ParticlePage(props: { navigate: (path: string) => void }) {
         requestAnimationFrame(animate);
       }
       animate();
-      effect.blocks();
     };
     imageRef.current.addEventListener("load", handleLoad);
     return () => {
