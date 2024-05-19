@@ -5,12 +5,12 @@ fields:
   - name: a
     description: The first item
     type: reference
-    references: s/Item
+    references: s/IndexedItem
   - name: b
     description: The second item
     type: reference
-    references: s/Item
+    references: s/IndexedItem
   - name: c
     description: The resulting item
     type: reference
-    references: s/Item
+    references: s/IndexedItem

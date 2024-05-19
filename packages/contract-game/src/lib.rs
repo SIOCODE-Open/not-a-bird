@@ -28,6 +28,7 @@ pub mod game {
         InsufficientBuyTransferredValue,
         InvalidRecipe,
         NotEnoughElements,
+        InvalidElement,
     }
 
     #[ink(storage)]
@@ -39,6 +40,101 @@ pub mod game {
         buy_offer_reward_tier_points: u128,
         buy_offer_is_set: bool,
     }
+
+    struct Element {
+        id: u32,
+        name: &'static str,
+        description: &'static str,
+        tier: u32,
+    }
+
+    struct Recipe {
+        id: u32,
+        a: u32,
+        b: u32,
+        c: u32,
+    }
+
+/** Begin game contract items generated code */const ELEMENT_WATER: Element = Element {
+    id: 0,
+    name: "water",
+    description: "Water is a liquid with formula H~2~O",
+    tier: 1,
+};
+const ELEMENT_FIRE: Element = Element {
+    id: 1,
+    name: "fire",
+    description: "Fire is a chemical reaction that releases heat and light",
+    tier: 1,
+};
+const ELEMENT_EARTH: Element = Element {
+    id: 2,
+    name: "earth",
+    description: "Earth is the solid material that makes up the surface of the planet",
+    tier: 1,
+};
+const ELEMENT_AIR: Element = Element {
+    id: 3,
+    name: "air",
+    description: "Air is a mixture of gases that make up the atmosphere",
+    tier: 1,
+};
+const ELEMENT_STEAM: Element = Element {
+    id: 4,
+    name: "steam",
+    description: "Steam is the gaseous form of water with formula H~2~O",
+    tier: 2,
+};
+const ELEMENT_LAVA: Element = Element {
+    id: 5,
+    name: "lava",
+    description: "Lava is molten rock that flows from a volcano",
+    tier: 2,
+};
+const RECIPE_CREATE_STEAM: Recipe = Recipe {
+    id: 0,
+    a: 0,
+    b: 1,
+    c: 4,
+};
+const RECIPE_CREATE_LAVA: Recipe = Recipe {
+    id: 1,
+    a: 2,
+    b: 1,
+    c: 5,
+};
+
+fn find_item(index: u32) -> Option<Element> {
+    if index == 0 {
+        return Some(ELEMENT_WATER);
+    }
+    if index == 1 {
+        return Some(ELEMENT_FIRE);
+    }
+    if index == 2 {
+        return Some(ELEMENT_EARTH);
+    }
+    if index == 3 {
+        return Some(ELEMENT_AIR);
+    }
+    if index == 4 {
+        return Some(ELEMENT_STEAM);
+    }
+    if index == 5 {
+        return Some(ELEMENT_LAVA);
+    }
+    None
+}
+
+fn find_recipe(index: u32) -> Option<Recipe> {
+    if index == 0 {
+        return Some(RECIPE_CREATE_STEAM);
+    }
+    if index == 1 {
+        return Some(RECIPE_CREATE_LAVA);
+    }
+    None
+}/** End game contract items generated code */
 
     impl Default for GameContract {
         fn default() -> Self {
@@ -152,12 +248,24 @@ pub mod game {
                 return Err(Error::FatalError(String::from("Error calculating reward tier points, possible overflow")));
             }
 
-            let reward_items: u128 = reward_tier_points;
-
             let element_contract_id = self.element_contract_ids.get(element_id).unwrap_or(AccountId::from([0xFF; 32]));
 
             if element_contract_id == AccountId::from([0xFF; 32]) {
                 return Err(Error::ElementContractIsNotLocked);
+            }
+
+            let element = find_item(element_id);
+
+            if element.is_none() {
+                return Err(Error::InvalidElement);
+            }
+
+            let el = element.unwrap();
+
+            let reward_items: u128 = reward_tier_points.checked_div(el.tier.into()).unwrap_or(0);
+
+            if reward_items == 0 {
+                return Err(Error::InsufficientBuyTransferredValue);
             }
 
             let call_result = build_call::<DefaultEnvironment>()
@@ -184,14 +292,17 @@ pub mod game {
 
         #[ink(message)]
         pub fn craft(&mut self, recipe_id: u32) -> Result<(), Error> {
-            let element_a_index = 0;
-            let element_b_index = 1;
-            let element_c_index = 2;
+            let recipe = find_recipe(recipe_id);
 
-            // TODO: Generate recipes
-            if recipe_id != 0 {
+            if recipe.is_none() {
                 return Err(Error::InvalidRecipe);
             }
+
+            let rec = recipe.unwrap();
+
+            let element_a_index = rec.a;
+            let element_b_index = rec.b;
+            let element_c_index = rec.c;
 
             let element_a_contract_id = self.element_contract_ids.get(element_a_index).unwrap_or(AccountId::from([0xFF; 32]));
             let element_b_contract_id = self.element_contract_ids.get(element_b_index).unwrap_or(AccountId::from([0xFF; 32]));

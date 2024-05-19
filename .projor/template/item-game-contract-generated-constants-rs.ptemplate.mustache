@@ -1,0 +1,46 @@
+{
+    "map": {
+        "items": "items",
+        "recipes": "recipes"
+    },
+    "filename": "packages/contract-game/src/lib.rs",
+    "infix": {
+        "start": "/** Begin game contract items generated code */",
+        "end": "/** End game contract items generated code */"
+    }
+}
+---
+{{#each items}}
+const ELEMENT_{{constantCase name}}: Element = Element {
+    id: {{@index}},
+    name: "{{name}}",
+    description: "{{description}}",
+    tier: {{tier}},
+};
+{{/each}}
+{{#each recipes}}
+const RECIPE_{{constantCase name}}: Recipe = Recipe {
+    id: {{@index}},
+    a: {{a.index}},
+    b: {{b.index}},
+    c: {{c.index}},
+};
+{{/each}}
+
+fn find_item(index: u32) -> Option<Element> {
+    {{#each items}}
+    if index == {{@index}} {
+        return Some(ELEMENT_{{constantCase name}});
+    }
+    {{/each}}
+    None
+}
+
+fn find_recipe(index: u32) -> Option<Recipe> {
+    {{#each recipes}}
+    if index == {{@index}} {
+        return Some(RECIPE_{{constantCase name}});
+    }
+    {{/each}}
+    None
+}

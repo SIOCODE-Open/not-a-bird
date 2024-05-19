@@ -1,0 +1,8 @@
+digraph G {
+"s/Item" [label="Item"];
+"s/PSP22Contract" [label="PSP22Contract"];
+"s/Recipe" [label="Recipe"];
+"s/Recipe" -> "s/Item" [label="a" arrowhead=vee];
+"s/Recipe" -> "s/Item" [label="b" arrowhead=vee];
+"s/Recipe" -> "s/Item" [label="c" arrowhead=vee];
+}

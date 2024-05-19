@@ -1,0 +1,11 @@
+id: s/IndexedItem
+name: IndexedItem
+description: An item and its index
+fields:
+  - name: index
+    type: integer
+    description: The index of the item
+  - name: item
+    type: reference
+    description: The item
+    references: s/Item

@@ -5,11 +5,11 @@ schema: s/Recipe
 objects:
   - name: create_steam
     description: Combining **water** and **fire** creates **steam**
-    a: items#water
-    b: items#fire
-    c: items#steam
+    a: indexed-items#water
+    b: indexed-items#fire
+    c: indexed-items#steam
   - name: create_lava
     description: Lava is created when a volcano errupts, combining **earth** and **fire**
-    a: items#earth
-    b: items#fire
-    c: items#lava
+    a: indexed-items#earth
+    b: indexed-items#fire
+    c: indexed-items#lava

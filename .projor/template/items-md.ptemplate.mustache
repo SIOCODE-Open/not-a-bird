@@ -25,5 +25,5 @@ For starters, each **item** has a **tier**. The item tier is a **positive intege
 ## Recipes
 
 {{#each recipes}}
-* **{{capitalCase name}}** (`{{a.tier}} + {{b.tier}} -> {{c.tier}}`) - **{{capitalCase a.name}}** + **{{capitalCase b.name}}** -> **{{capitalCase c.name}}**: {{{description}}}
+* **{{capitalCase name}}** (`{{a.item.tier}} + {{b.item.tier}} -> {{c.item.tier}}`) - **{{capitalCase a.name}}** + **{{capitalCase b.name}}** -> **{{capitalCase c.name}}**: {{{description}}}
 {{/each}}
