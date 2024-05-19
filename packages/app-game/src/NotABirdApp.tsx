@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import { LandingPage } from "./pages/LandingPage";
 import { GamePage } from "./pages/GamePage";
 import { FrankPage } from "./pages/FrankPage";
+import { MarcelPage } from "./pages/MarcelPage";
 import { GameOverPage } from "./pages/GameOverPage";
 import { ItemsWikiPage } from "./pages/ItemsWikiPage";
 import { MergicanPage } from "./pages/MergicanPage";
@@ -13,6 +14,7 @@ const pages: Array<{ path: string; component: any }> = [
   { path: "/game", component: GamePage },
   { path: "/game-over", component: GameOverPage },
   { path: "/frank", component: FrankPage },
+  { path: "/marcel", component: MarcelPage },
   { path: "/items-wiki", component: ItemsWikiPage },
   { path: "/mergican", component: MergicanPage },
   { path: "/particle", component: ParticlePage },
