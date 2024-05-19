@@ -5,28 +5,104 @@
     "schema": "s/PSP22Contract",
     "objects": [
         {
-            "name": "water",
-            "description": "PSP-22 compatible game smart contract for element 'water'"
+            "name": "Monkey",
+            "description": "PSP-22 compatible game smart contract for element 'Monkey'"
         },
         {
-            "name": "fire",
-            "description": "PSP-22 compatible game smart contract for element 'fire'"
+            "name": "Giraffe",
+            "description": "PSP-22 compatible game smart contract for element 'Giraffe'"
         },
         {
-            "name": "earth",
-            "description": "PSP-22 compatible game smart contract for element 'earth'"
+            "name": "Bee",
+            "description": "PSP-22 compatible game smart contract for element 'Bee'"
         },
         {
-            "name": "air",
-            "description": "PSP-22 compatible game smart contract for element 'air'"
+            "name": "Coin",
+            "description": "PSP-22 compatible game smart contract for element 'Coin'"
         },
         {
-            "name": "steam",
-            "description": "PSP-22 compatible game smart contract for element 'steam'"
+            "name": "SWARM",
+            "description": "PSP-22 compatible game smart contract for element 'SWARM'"
         },
         {
-            "name": "lava",
-            "description": "PSP-22 compatible game smart contract for element 'lava'"
+            "name": "Hydra",
+            "description": "PSP-22 compatible game smart contract for element 'Hydra'"
+        },
+        {
+            "name": "MonkeyBranch",
+            "description": "PSP-22 compatible game smart contract for element 'MonkeyBranch'"
+        },
+        {
+            "name": "Bridge",
+            "description": "PSP-22 compatible game smart contract for element 'Bridge'"
+        },
+        {
+            "name": "GoldenGate",
+            "description": "PSP-22 compatible game smart contract for element 'GoldenGate'"
+        },
+        {
+            "name": "Gold",
+            "description": "PSP-22 compatible game smart contract for element 'Gold'"
+        },
+        {
+            "name": "Silver",
+            "description": "PSP-22 compatible game smart contract for element 'Silver'"
+        },
+        {
+            "name": "Rhodium",
+            "description": "PSP-22 compatible game smart contract for element 'Rhodium'"
+        },
+        {
+            "name": "Hive",
+            "description": "PSP-22 compatible game smart contract for element 'Hive'"
+        },
+        {
+            "name": "Transaction",
+            "description": "PSP-22 compatible game smart contract for element 'Transaction'"
+        },
+        {
+            "name": "Block",
+            "description": "PSP-22 compatible game smart contract for element 'Block'"
+        },
+        {
+            "name": "Blockchain",
+            "description": "PSP-22 compatible game smart contract for element 'Blockchain'"
+        },
+        {
+            "name": "Polkadot",
+            "description": "PSP-22 compatible game smart contract for element 'Polkadot'"
+        },
+        {
+            "name": "PeerReview",
+            "description": "PSP-22 compatible game smart contract for element 'PeerReview'"
+        },
+        {
+            "name": "Cardano",
+            "description": "PSP-22 compatible game smart contract for element 'Cardano'"
+        },
+        {
+            "name": "Bear",
+            "description": "PSP-22 compatible game smart contract for element 'Bear'"
+        },
+        {
+            "name": "Beer",
+            "description": "PSP-22 compatible game smart contract for element 'Beer'"
+        },
+        {
+            "name": "Lock",
+            "description": "PSP-22 compatible game smart contract for element 'Lock'"
+        },
+        {
+            "name": "Marmalade",
+            "description": "PSP-22 compatible game smart contract for element 'Marmalade'"
+        },
+        {
+            "name": "SuperMarmalade",
+            "description": "PSP-22 compatible game smart contract for element 'SuperMarmalade'"
+        },
+        {
+            "name": "HyperMarmalade",
+            "description": "PSP-22 compatible game smart contract for element 'HyperMarmalade'"
         }
     ]
 }

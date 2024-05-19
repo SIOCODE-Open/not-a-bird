@@ -3,21 +3,78 @@ name: items
 description: The items in the game
 schema: s/Item
 objects:
-  - name: water
-    description: Water is a liquid with formula H~2~O
+  - description: We need a description here
+    name: Monkey
     tier: 1
-  - name: fire
-    description: Fire is a chemical reaction that releases heat and light
+  - description: We need a description here
+    name: Giraffe
     tier: 1
-  - name: earth
-    description: Earth is the solid material that makes up the surface of the planet
+  - description: We need a description here
+    name: Bee
     tier: 1
-  - name: air
-    description: Air is a mixture of gases that make up the atmosphere
+  - description: We need a description here
+    name: Coin
     tier: 1
-  - name: steam
-    description: Steam is the gaseous form of water with formula H~2~O
+  - description: We need a description here
+    name: SWARM
     tier: 2
-  - name: lava
-    description: Lava is molten rock that flows from a volcano
+  - description: We need a description here
+    name: Hydra
+    tier: 2
+  - description: We need a description here
+    name: MonkeyBranch
+    tier: 2
+  - description: We need a description here
+    name: Bridge
+    tier: 2
+  - description: We need a description here
+    name: GoldenGate
+    tier: 2
+  - description: We need a description here
+    name: Gold
+    tier: 1
+  - description: We need a description here
+    name: Silver
+    tier: 1
+  - description: We need a description here
+    name: Rhodium
+    tier: 1
+  - description: We need a description here
+    name: Hive
+    tier: 1
+  - description: We need a description here
+    name: Transaction
+    tier: 1
+  - description: We need a description here
+    name: Block
+    tier: 1
+  - description: We need a description here
+    name: Blockchain
+    tier: 1
+  - description: We need a description here
+    name: Polkadot
+    tier: 1
+  - description: We need a description here
+    name: PeerReview
+    tier: 1
+  - description: We need a description here
+    name: Cardano
+    tier: 2
+  - description: We need a description here
+    name: Bear
+    tier: 1
+  - description: We need a description here
+    name: Beer
+    tier: 2
+  - description: We need a description here
+    name: Lock
+    tier: 2
+  - description: We need a description here
+    name: Marmalade
+    tier: 1
+  - description: We need a description here
+    name: SuperMarmalade
+    tier: 2
+  - description: We need a description here
+    name: HyperMarmalade
     tier: 2

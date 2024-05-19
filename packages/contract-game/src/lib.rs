@@ -55,83 +55,326 @@ pub mod game {
         c: u32,
     }
 
-/** Begin game contract items generated code */const ELEMENT_WATER: Element = Element {
+/** Begin game contract items generated code */const ELEMENT_MONKEY: Element = Element {
     id: 0,
-    name: "water",
-    description: "Water is a liquid with formula H~2~O",
+    name: "Monkey",
+    description: "We need a description here",
     tier: 1,
 };
-const ELEMENT_FIRE: Element = Element {
+const ELEMENT_GIRAFFE: Element = Element {
     id: 1,
-    name: "fire",
-    description: "Fire is a chemical reaction that releases heat and light",
+    name: "Giraffe",
+    description: "We need a description here",
     tier: 1,
 };
-const ELEMENT_EARTH: Element = Element {
+const ELEMENT_BEE: Element = Element {
     id: 2,
-    name: "earth",
-    description: "Earth is the solid material that makes up the surface of the planet",
+    name: "Bee",
+    description: "We need a description here",
     tier: 1,
 };
-const ELEMENT_AIR: Element = Element {
+const ELEMENT_COIN: Element = Element {
     id: 3,
-    name: "air",
-    description: "Air is a mixture of gases that make up the atmosphere",
+    name: "Coin",
+    description: "We need a description here",
     tier: 1,
 };
-const ELEMENT_STEAM: Element = Element {
+const ELEMENT_SWARM: Element = Element {
     id: 4,
-    name: "steam",
-    description: "Steam is the gaseous form of water with formula H~2~O",
+    name: "SWARM",
+    description: "We need a description here",
     tier: 2,
 };
-const ELEMENT_LAVA: Element = Element {
+const ELEMENT_HYDRA: Element = Element {
     id: 5,
-    name: "lava",
-    description: "Lava is molten rock that flows from a volcano",
+    name: "Hydra",
+    description: "We need a description here",
     tier: 2,
 };
-const RECIPE_CREATE_STEAM: Recipe = Recipe {
+const ELEMENT_MONKEY_BRANCH: Element = Element {
+    id: 6,
+    name: "MonkeyBranch",
+    description: "We need a description here",
+    tier: 2,
+};
+const ELEMENT_BRIDGE: Element = Element {
+    id: 7,
+    name: "Bridge",
+    description: "We need a description here",
+    tier: 2,
+};
+const ELEMENT_GOLDEN_GATE: Element = Element {
+    id: 8,
+    name: "GoldenGate",
+    description: "We need a description here",
+    tier: 2,
+};
+const ELEMENT_GOLD: Element = Element {
+    id: 9,
+    name: "Gold",
+    description: "We need a description here",
+    tier: 1,
+};
+const ELEMENT_SILVER: Element = Element {
+    id: 10,
+    name: "Silver",
+    description: "We need a description here",
+    tier: 1,
+};
+const ELEMENT_RHODIUM: Element = Element {
+    id: 11,
+    name: "Rhodium",
+    description: "We need a description here",
+    tier: 1,
+};
+const ELEMENT_HIVE: Element = Element {
+    id: 12,
+    name: "Hive",
+    description: "We need a description here",
+    tier: 1,
+};
+const ELEMENT_TRANSACTION: Element = Element {
+    id: 13,
+    name: "Transaction",
+    description: "We need a description here",
+    tier: 1,
+};
+const ELEMENT_BLOCK: Element = Element {
+    id: 14,
+    name: "Block",
+    description: "We need a description here",
+    tier: 1,
+};
+const ELEMENT_BLOCKCHAIN: Element = Element {
+    id: 15,
+    name: "Blockchain",
+    description: "We need a description here",
+    tier: 1,
+};
+const ELEMENT_POLKADOT: Element = Element {
+    id: 16,
+    name: "Polkadot",
+    description: "We need a description here",
+    tier: 1,
+};
+const ELEMENT_PEER_REVIEW: Element = Element {
+    id: 17,
+    name: "PeerReview",
+    description: "We need a description here",
+    tier: 1,
+};
+const ELEMENT_CARDANO: Element = Element {
+    id: 18,
+    name: "Cardano",
+    description: "We need a description here",
+    tier: 2,
+};
+const ELEMENT_BEAR: Element = Element {
+    id: 19,
+    name: "Bear",
+    description: "We need a description here",
+    tier: 1,
+};
+const ELEMENT_BEER: Element = Element {
+    id: 20,
+    name: "Beer",
+    description: "We need a description here",
+    tier: 2,
+};
+const ELEMENT_LOCK: Element = Element {
+    id: 21,
+    name: "Lock",
+    description: "We need a description here",
+    tier: 2,
+};
+const ELEMENT_MARMALADE: Element = Element {
+    id: 22,
+    name: "Marmalade",
+    description: "We need a description here",
+    tier: 1,
+};
+const ELEMENT_SUPER_MARMALADE: Element = Element {
+    id: 23,
+    name: "SuperMarmalade",
+    description: "We need a description here",
+    tier: 2,
+};
+const ELEMENT_HYPER_MARMALADE: Element = Element {
+    id: 24,
+    name: "HyperMarmalade",
+    description: "We need a description here",
+    tier: 2,
+};
+const RECIPE_MAKE_SWARM: Recipe = Recipe {
     id: 0,
-    a: 0,
-    b: 1,
+    a: 2,
+    b: 2,
     c: 4,
 };
-const RECIPE_CREATE_LAVA: Recipe = Recipe {
+const RECIPE_MAKE_HYDRA: Recipe = Recipe {
     id: 1,
-    a: 2,
+    a: 1,
     b: 1,
     c: 5,
+};
+const RECIPE_MAKE_MONKEY_BRANCH: Recipe = Recipe {
+    id: 2,
+    a: 0,
+    b: 5,
+    c: 6,
+};
+const RECIPE_MAKE_BRIDGE: Recipe = Recipe {
+    id: 3,
+    a: 6,
+    b: 6,
+    c: 7,
+};
+const RECIPE_MAKE_GOLDEN_GATE: Recipe = Recipe {
+    id: 4,
+    a: 3,
+    b: 7,
+    c: 8,
+};
+const RECIPE_MAKE_CARDANO: Recipe = Recipe {
+    id: 5,
+    a: 15,
+    b: 17,
+    c: 18,
+};
+const RECIPE_MAKE_BEER: Recipe = Recipe {
+    id: 6,
+    a: 2,
+    b: 19,
+    c: 20,
+};
+const RECIPE_MAKE_LOCK: Recipe = Recipe {
+    id: 7,
+    a: 10,
+    b: 10,
+    c: 21,
+};
+const RECIPE_MAKE_SUPER_MARMALADE: Recipe = Recipe {
+    id: 8,
+    a: 22,
+    b: 22,
+    c: 23,
+};
+const RECIPE_MAKE_HYPER_MARMALADE: Recipe = Recipe {
+    id: 9,
+    a: 23,
+    b: 23,
+    c: 24,
 };
 
 fn find_item(index: u32) -> Option<Element> {
     if index == 0 {
-        return Some(ELEMENT_WATER);
+        return Some(ELEMENT_MONKEY);
     }
     if index == 1 {
-        return Some(ELEMENT_FIRE);
+        return Some(ELEMENT_GIRAFFE);
     }
     if index == 2 {
-        return Some(ELEMENT_EARTH);
+        return Some(ELEMENT_BEE);
     }
     if index == 3 {
-        return Some(ELEMENT_AIR);
+        return Some(ELEMENT_COIN);
     }
     if index == 4 {
-        return Some(ELEMENT_STEAM);
+        return Some(ELEMENT_SWARM);
     }
     if index == 5 {
-        return Some(ELEMENT_LAVA);
+        return Some(ELEMENT_HYDRA);
+    }
+    if index == 6 {
+        return Some(ELEMENT_MONKEY_BRANCH);
+    }
+    if index == 7 {
+        return Some(ELEMENT_BRIDGE);
+    }
+    if index == 8 {
+        return Some(ELEMENT_GOLDEN_GATE);
+    }
+    if index == 9 {
+        return Some(ELEMENT_GOLD);
+    }
+    if index == 10 {
+        return Some(ELEMENT_SILVER);
+    }
+    if index == 11 {
+        return Some(ELEMENT_RHODIUM);
+    }
+    if index == 12 {
+        return Some(ELEMENT_HIVE);
+    }
+    if index == 13 {
+        return Some(ELEMENT_TRANSACTION);
+    }
+    if index == 14 {
+        return Some(ELEMENT_BLOCK);
+    }
+    if index == 15 {
+        return Some(ELEMENT_BLOCKCHAIN);
+    }
+    if index == 16 {
+        return Some(ELEMENT_POLKADOT);
+    }
+    if index == 17 {
+        return Some(ELEMENT_PEER_REVIEW);
+    }
+    if index == 18 {
+        return Some(ELEMENT_CARDANO);
+    }
+    if index == 19 {
+        return Some(ELEMENT_BEAR);
+    }
+    if index == 20 {
+        return Some(ELEMENT_BEER);
+    }
+    if index == 21 {
+        return Some(ELEMENT_LOCK);
+    }
+    if index == 22 {
+        return Some(ELEMENT_MARMALADE);
+    }
+    if index == 23 {
+        return Some(ELEMENT_SUPER_MARMALADE);
+    }
+    if index == 24 {
+        return Some(ELEMENT_HYPER_MARMALADE);
     }
     None
 }
 
 fn find_recipe(index: u32) -> Option<Recipe> {
     if index == 0 {
-        return Some(RECIPE_CREATE_STEAM);
+        return Some(RECIPE_MAKE_SWARM);
     }
     if index == 1 {
-        return Some(RECIPE_CREATE_LAVA);
+        return Some(RECIPE_MAKE_HYDRA);
+    }
+    if index == 2 {
+        return Some(RECIPE_MAKE_MONKEY_BRANCH);
+    }
+    if index == 3 {
+        return Some(RECIPE_MAKE_BRIDGE);
+    }
+    if index == 4 {
+        return Some(RECIPE_MAKE_GOLDEN_GATE);
+    }
+    if index == 5 {
+        return Some(RECIPE_MAKE_CARDANO);
+    }
+    if index == 6 {
+        return Some(RECIPE_MAKE_BEER);
+    }
+    if index == 7 {
+        return Some(RECIPE_MAKE_LOCK);
+    }
+    if index == 8 {
+        return Some(RECIPE_MAKE_SUPER_MARMALADE);
+    }
+    if index == 9 {
+        return Some(RECIPE_MAKE_HYPER_MARMALADE);
     }
     None
 }/** End game contract items generated code */

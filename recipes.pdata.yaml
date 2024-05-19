@@ -1,0 +1,41 @@
+objects:
+- a: indexed-items#Bee
+  b: indexed-items#Bee
+  c: indexed-items#SWARM
+  name: Make SWARM
+- a: indexed-items#Giraffe
+  b: indexed-items#Giraffe
+  c: indexed-items#Hydra
+  name: Make Hydra
+- a: indexed-items#Monkey
+  b: indexed-items#Hydra
+  c: indexed-items#MonkeyBranch
+  name: Make MonkeyBranch
+- a: indexed-items#MonkeyBranch
+  b: indexed-items#MonkeyBranch
+  c: indexed-items#Bridge
+  name: Make Bridge
+- a: indexed-items#Coin
+  b: indexed-items#Bridge
+  c: indexed-items#GoldenGate
+  name: Make GoldenGate
+- a: indexed-items#Blockchain
+  b: indexed-items#PeerReview
+  c: indexed-items#Cardano
+  name: Make Cardano
+- a: indexed-items#Bee
+  b: indexed-items#Bear
+  c: indexed-items#Beer
+  name: Make Beer
+- a: indexed-items#Silver
+  b: indexed-items#Silver
+  c: indexed-items#Lock
+  name: Make Lock
+- a: indexed-items#Marmalade
+  b: indexed-items#Marmalade
+  c: indexed-items#SuperMarmalade
+  name: Make SuperMarmalade
+- a: indexed-items#SuperMarmalde
+  b: indexed-items#SuperMarmalde
+  c: indexed-items#HyperMarmalade
+  name: Make HyperMarmalade

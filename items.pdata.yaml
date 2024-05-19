@@ -1,0 +1,76 @@
+objects:
+- description: We need a description here
+  name: Monkey
+  tier: 1
+- description: We need a description here
+  name: Giraffe
+  tier: 1
+- description: We need a description here
+  name: Bee
+  tier: 1
+- description: We need a description here
+  name: Coin
+  tier: 1
+- description: We need a description here
+  name: SWARM
+  tier: 2
+- description: We need a description here
+  name: Hydra
+  tier: 2
+- description: We need a description here
+  name: MonkeyBranch
+  tier: 2
+- description: We need a description here
+  name: Bridge
+  tier: 2
+- description: We need a description here
+  name: GoldenGate
+  tier: 2
+- description: We need a description here
+  name: Gold
+  tier: 1
+- description: We need a description here
+  name: Silver
+  tier: 1
+- description: We need a description here
+  name: Rhodium
+  tier: 1
+- description: We need a description here
+  name: Hive
+  tier: 1
+- description: We need a description here
+  name: Transaction
+  tier: 1
+- description: We need a description here
+  name: Block
+  tier: 1
+- description: We need a description here
+  name: Blockchain
+  tier: 1
+- description: We need a description here
+  name: Polkadot
+  tier: 1
+- description: We need a description here
+  name: PeerReview
+  tier: 1
+- description: We need a description here
+  name: Cardano
+  tier: 2
+- description: We need a description here
+  name: Bear
+  tier: 1
+- description: We need a description here
+  name: Beer
+  tier: 2
+- description: We need a description here
+  name: Lock
+  tier: 2
+- description: We need a description here
+  name: Marmalade
+  tier: 1
+- description: We need a description here
+  name: SuperMarmalade
+  tier: 2
+- description: We need a description here
+  name: HyperMarmalade
+  tier: 2
