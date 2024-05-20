@@ -4,6 +4,8 @@ import { Card } from "../components/Card";
 import { CenteredLayout } from "../layout/CenteredLayout";
 import { ALL_ITEMS, ALL_RECIPES, IGameWallet, IRecipe, IWorld } from "@not-a-bird/model";
 import { IOnChainGame } from "@not-a-bird/on-chain-game";
+import { BulmaButton } from "../components/BulmaButton";
+import { BulmaCard } from "../components/BulmaCard";
 
 class MockedOnChainGame implements IOnChainGame {
     private _world: IWorld;
@@ -164,20 +166,31 @@ function GameHeader(
         onChainGame: IOnChainGame
     }
 ) {
-    return <div className="game-header">
-        <div className="flex row j-center a-center">
-            <div className="mx">
-                Balance: {(props.wallet.balance / Math.pow(10, props.wallet.token.decimals)).toFixed(4)} {props.wallet.token.symbol}
-            </div>
-            <div className="mx">
-                Total elements: {
-                    Object.keys(props.world.inventory.balances).reduce(
-                        (acc, key) => acc + props.world.inventory.balances[key],
-                        0
-                    )
-                }
+    return <div className="level">
+
+        <div className="level-item has-text-centered">
+            <div>
+                <div className="heading">Balance</div>
+                <div className="title">
+                    {(props.wallet.balance / Math.pow(10, props.wallet.token.decimals)).toFixed(4)} {props.wallet.token.symbol}
+                </div>
             </div>
         </div>
+        <div className="level-item has-text-centered">
+            <div>
+                <div className="heading">Game data</div>
+                <div className="title">
+                    <span className="has-text-danger">
+                        {
+                            Object.keys(props.world.inventory.balances).reduce(
+                                (acc, key) => acc + props.world.inventory.balances[key],
+                                0
+                            )
+                        } E</span>, <span className="has-text-primary">{props.world.items.length} I</span>, <span className="has-text-link">{props.world.recipes.length} R</span>
+                </div>
+            </div>
+        </div>
+
     </div>;
 }
 
@@ -197,9 +210,9 @@ function ElementCard(
     const elementItem = ALL_ITEMS.find((item) => item.id === props.elementId);
 
     if (!elementItem) {
-        return <Card className="my">
+        return <BulmaCard>
             <p>Element not found: {props.elementId}</p>
-        </Card>;
+        </BulmaCard>;
     }
 
     const onBuyElement = async () => {
@@ -236,14 +249,17 @@ function ElementCard(
         props.onExecuteCraft?.(parseInt(ev.dataTransfer.getData("elementId")), props.elementId);
     };
 
-    return <Card className={"my"
-        + (isBeingDragged ? " dragged" : "")
-        + (props.isActiveDropTarget ? " drop-target" : "")
-    } draggable onDragStart={onStartDraggingElement}
-        onDragEnd={onEndDraggingElement}
-        onDrop={onDropElement}
-        onDragOver={(ev) => ev.preventDefault()}
-    >
+    return <BulmaCard footer={[
+        <BulmaButton onClick={onBuyElement}>
+            Buy
+        </BulmaButton>,
+        <BulmaButton onClick={onSacrificeElement}>
+            Sacrifice
+        </BulmaButton>,
+        <BulmaButton onClick={onSendElement}>
+            Send
+        </BulmaButton>
+    ]}>
         <h1>
             {elementItem.name}
         </h1>
@@ -255,18 +271,7 @@ function ElementCard(
         <p>
             You have: {props.world.inventory.balances[props.elementId]}
         </p>
-        <div className="flex row j-center a-center">
-            <Button onClick={onBuyElement}>
-                Buy
-            </Button>
-            <Button onClick={onSacrificeElement}>
-                Sacrifice
-            </Button>
-            <Button onClick={onSendElement}>
-                Send
-            </Button>
-        </div>
-    </Card>
+    </BulmaCard>
 }
 
 export function POCGamePage(props: { navigate: (path: string) => void }) {
@@ -329,19 +334,16 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
 
     if (isInitialLoading) {
         /// Displays a loading message with a back button to the landing page
-        return <CenteredLayout>
-            <h1>POC Game Page</h1>
+        return <>
             <p>Loading ...</p>
-            <Button onClick={() => props.navigate("/landing-page")}>Back</Button>
-        </CenteredLayout>;
+        </>;
     } else if (initialLoadingError) {
         /// Displays an error message with a back button to the landing page and a refresh button
-        return <CenteredLayout>
-            <h1>POC Game Page</h1>
+        return <>
             <p>Error: {initialLoadingError.toString()}</p>
-            <Button onClick={() => props.navigate("/landing-page")}>Back</Button>
-            <Button onClick={() => location.reload()}>Refresh</Button>
-        </CenteredLayout>;
+            <BulmaButton color="primary" outlined onClick={() => props.navigate("/landing-page")}>Back</BulmaButton>
+            <BulmaButton color="link" outlined onClick={() => location.reload()}>Refresh</BulmaButton>
+        </>;
     } else {
 
         const elementCards = Object.keys(world.inventory.balances).map(
@@ -364,17 +366,22 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
         );
 
         /// Displays the actual game when it is fully loaded and running
-        return <CenteredLayout>
-            <h1>POC Game Page</h1>
-            <GameHeader world={world} wallet={wallet} onChainGame={onChainGameRef.current} />
-            <p>
-                Number of items: {world.items.length}
-            </p>
-            <p>
-                Number of recipes: {world.recipes.length}
-            </p>
-            {elementCards}
-            <Button onClick={() => props.navigate("/landing-page")}>Back</Button>
-        </CenteredLayout>
+        return <>
+            <section className="container is-fluid">
+                <GameHeader world={world} wallet={wallet} onChainGame={onChainGameRef.current} />
+                <div className="columns is-multiline">
+                    {
+                        elementCards.map(
+                            (card, index) => (
+                                <div className="column is-3" key={index}>
+                                    {card}
+                                </div>
+                            )
+                        )
+                    }
+                </div>
+                <BulmaButton color="link" outlined onClick={() => props.navigate("/landing-page")}>Back</BulmaButton>
+            </section>
+        </>
     }
 }

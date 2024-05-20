@@ -1,3 +1,4 @@
+import { BulmaButton } from "../components/BulmaButton";
 import { LandingPageV2_Navbar } from "./LandingPageV2_Navbar";
 
 export function LandingPageV2(
@@ -14,7 +15,7 @@ export function LandingPageV2(
                 <div className="container">
                     <p className="title">Welcome to <b>Unnamed Game</b>!</p>
                     <p className="subtitle">
-                        <button className="button is-primary is-small is-rounded my" onClick={() => props.navigate("/pocgame")}>Play</button>
+                        <BulmaButton className="my" size="small" color="primary" rounded onClick={() => props.navigate("/pocgame")}>Play</BulmaButton>
                     </p>
                 </div>
             </div>
