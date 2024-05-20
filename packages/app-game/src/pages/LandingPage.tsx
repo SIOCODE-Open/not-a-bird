@@ -31,6 +31,10 @@ export function LandingPage(props: { navigate: (path: string) => void }) {
     props.navigate("/playground");
   };
 
+  const onStartFranksCard = () => {
+    props.navigate("/franks-card");
+  };
+
   return (
     <CenteredLayout>
       <Card>
@@ -59,6 +63,9 @@ export function LandingPage(props: { navigate: (path: string) => void }) {
       </Card>
       <Card>
         <Button onClick={onStartPlayground}>Got to Franks Playground</Button>
+      </Card>
+      <Card>
+        <Button onClick={onStartFranksCard}>Got to Franks Card</Button>
       </Card>
     </CenteredLayout>
   );
