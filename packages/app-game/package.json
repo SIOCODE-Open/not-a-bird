@@ -14,7 +14,8 @@
     "react-dom": "*",
     "rxjs": "*",
     "@unique-nft/accounts": "*",
-    "@unique-nft/sdk": "*"
+    "@unique-nft/sdk": "*",
+    "bulma": "*"
   },
   "devDependencies": {
     "@types/react": "*",

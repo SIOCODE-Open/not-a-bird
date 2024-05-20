@@ -3,6 +3,9 @@ import { Card } from "../components/Card";
 import { CenteredLayout } from "../layout/CenteredLayout";
 
 export function LandingPage(props: { navigate: (path: string) => void }) {
+  const onV2Click = () => {
+    props.navigate("/landing-page-v2");
+  };
   const onStartPlaying = () => {
     props.navigate("/game");
   };
@@ -27,6 +30,9 @@ export function LandingPage(props: { navigate: (path: string) => void }) {
 
   return (
     <CenteredLayout>
+      <Card>
+        <Button onClick={onV2Click}>V2</Button>
+      </Card>
       <Card>
         <Button onClick={onStartPlaying}>Play the game</Button>
       </Card>

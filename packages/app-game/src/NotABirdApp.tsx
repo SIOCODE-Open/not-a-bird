@@ -9,6 +9,8 @@ import { MergicanPage } from "./pages/MergicanPage";
 import { ParticlePage } from "./pages/ParticlePage";
 import { ImageEffectPage } from "./pages/ImageEffectPage";
 import { POCGamePage } from "./pages/POCGamePage";
+import { LandingPageV2 } from "./pages/LandingPageV2";
+import { LearnPage } from "./pages/LearnPage";
 
 const pages: Array<{ path: string; component: any }> = [
   { path: "/landing-page", component: LandingPage },
@@ -21,6 +23,8 @@ const pages: Array<{ path: string; component: any }> = [
   { path: "/particle", component: ParticlePage },
   { path: "/imageEffect", component: ImageEffectPage },
   { path: "/pocgame", component: POCGamePage },
+  { path: "/landing-page-v2", component: LandingPageV2 },
+  { path: "/learn", component: LearnPage },
 ];
 
 export function NotABirdApp() {
