@@ -27,6 +27,9 @@ export function LandingPage(props: { navigate: (path: string) => void }) {
   const onStartPlayingPOC = () => {
     props.navigate("/pocgame");
   };
+  const onStartPlayground = () => {
+    props.navigate("/playground");
+  };
 
   return (
     <CenteredLayout>
@@ -53,6 +56,9 @@ export function LandingPage(props: { navigate: (path: string) => void }) {
       </Card>
       <Card>
         <Button onClick={onStartPlayingPOC}>Play the POC</Button>
+      </Card>
+      <Card>
+        <Button onClick={onStartPlayground}>Got to Franks Playground</Button>
       </Card>
     </CenteredLayout>
   );

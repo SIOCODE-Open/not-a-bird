@@ -11,6 +11,7 @@ import { ImageEffectPage } from "./pages/ImageEffectPage";
 import { POCGamePage } from "./pages/POCGamePage";
 import { LandingPageV2 } from "./pages/LandingPageV2";
 import { LearnPage } from "./pages/LearnPage";
+import { ParticleImage } from "./pages/Plaground2";
 
 const pages: Array<{ path: string; component: any }> = [
   { path: "/landing-page", component: LandingPage },
@@ -25,6 +26,7 @@ const pages: Array<{ path: string; component: any }> = [
   { path: "/pocgame", component: POCGamePage },
   { path: "/landing-page-v2", component: LandingPageV2 },
   { path: "/learn", component: LearnPage },
+  { path: "/playground", component: ParticleImage },
 ];
 
 export function NotABirdApp() {

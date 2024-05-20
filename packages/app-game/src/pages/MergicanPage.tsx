@@ -34,13 +34,24 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
       dy: number;
       dWidth: number;
       dHeight: number;
+      effect: Effect;
 
       slideX: number;
       slideY: number;
       vx: number;
       vy: number;
+      //Ease defines how fast they slide back
       ease: number;
+      //Friction defines how fast the pushforce decase
       friction: number;
+
+      cellWidth: number;
+      cellHeight: number;
+
+      positionCellX: number;
+      positionCellY: number;
+      speedX: number;
+      speedY: number;
 
       //image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight
       constructor(
@@ -53,6 +64,7 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         dy: number,
         dWidth: number,
         dHeight: number,
+        effect: Effect,
       ) {
         this.image = img;
         this.sx = sx;
@@ -63,6 +75,7 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         this.dy = dy;
         this.dWidth = dWidth;
         this.dHeight = dHeight;
+        this.effect = effect;
 
         this.slideX = 1;
         this.slideY = 1;
@@ -70,8 +83,14 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         this.vy = Math.random() * 10 - 5;
         this.ease = 0.1;
         this.friction = 0.8;
+
+        this.positionCellX = 0;
+        this.positionCellY = 0;
+        this.speedX = 0;
+        this.speedY = 0;
       }
       draw(ctx: CanvasRenderingContext2D) {
+        // Debug
         ctx.strokeRect(
           this.dx + this.slideX,
           this.dy + this.slideY,
@@ -91,37 +110,56 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         );
       }
       update() {
-        const postionMouseX = 50;
-        const postionMouseY = 50;
-        ctx.fillRect(50, 50, 10, 10);
+        // Cell position
+        // this.speedX = (this.dx - this.positionCellX) / 10;
+        // this.speedY = (this.dy - this.positionCellY) / 10;
+        // this.positionCellY += this.speedX;
+        // this.positionCellX += this.speedY;
+
+        const postionMouseX = 250;
+        const postionMouseY = 250;
+        const radius = 10;
+
+        //Debug rectancle
+        ctx.fillRect(postionMouseX, postionMouseY, 10, 10);
+
         const distance = Math.hypot(postionMouseX, postionMouseY);
-        if (distance < 10) {
+        if (distance < radius) {
           const angle = Math.atan2(postionMouseY, postionMouseX);
           const force = distance / 10;
           this.vx = force * Math.sin(angle);
           this.vy = force * Math.cos(angle);
         }
         // pushes rectancles around positionX and postionMouseY
-        this.slideX += (this.vx *= this.friction) - this.slideX * this.ease;
-        this.slideY += (this.vy *= this.friction) - this.slideY * this.ease;
+        this.slideX -= (this.vx *= this.friction) + this.slideX * this.ease;
+        this.slideY -= (this.vy *= this.friction) + this.slideY * this.ease;
+        //reset force when vx is super weak/
         if (this.vx < 0.0000001 && this.vy < 0.0000001) {
           this.vx = Math.random() * 10 - 5;
           this.vy = Math.random() * 10 - 5;
         }
-        console.log(this.vx);
       }
     }
     class Effect {
       imageGrid: Cell[];
       resource: Resource;
-      constructor(resource: Resource) {
+      width: number;
+      height: number;
+
+      cellWidth: number;
+      cellHeight: number;
+      constructor(resource: Resource, width: number, height: number) {
         this.resource = resource;
         this.imageGrid = [];
-        this.createGrid(0, 0);
+        this.width = width;
+        this.height = height;
+
+        this.cellWidth = this.width / 10;
+        this.cellHeight = this.height / 10;
+
+        this.createGrid(150, 150);
       }
       createGrid(positionX: number, positionY: number) {
-        const cellWidth = 10;
-        const cellHeight = 10;
         let rows = 10;
         let columns = 10;
         const imgWidth = img.width;
@@ -129,19 +167,21 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         const srcWidth = imgWidth / columns;
         const srcHeight = imgHeight / rows;
 
-        for (let y = 0; y < cellWidth * rows; y += cellWidth) {
-          for (let x = 0; x < cellHeight * columns; x += cellHeight) {
+        for (let y = 0; y < this.cellWidth * rows; y += this.cellWidth) {
+          for (let x = 0; x < this.cellHeight * columns; x += this.cellHeight) {
             const random = Math.random() * 3;
+            // Push one Cell with the according picture
             const cell = new Cell(
               img,
-              (x / cellWidth) * srcWidth,
-              (y / cellHeight) * srcHeight,
+              (x / this.cellWidth) * srcWidth,
+              (y / this.cellHeight) * srcHeight,
               srcWidth,
               srcHeight,
               x + positionX + random,
               y + positionY + random,
-              cellWidth,
-              cellHeight,
+              this.cellWidth,
+              this.cellHeight,
+              this,
             );
             this.imageGrid.push(cell);
           }
@@ -154,13 +194,12 @@ export function MergicanPage(props: { navigate: (path: string) => void }) {
         });
       }
     }
-    const effect = new Effect(resourceEl);
+    const effect = new Effect(resourceEl, 200, 200);
     let timeoutId = null;
     function animate() {
       if (timeoutId) {
         clearTimeout(timeoutId);
       }
-
       timeoutId = setTimeout(() => {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         effect.render(ctx);
