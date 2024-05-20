@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Button } from "../components/Button";
 import { Card } from "../components/Card";
 import { CenteredLayout } from "../layout/CenteredLayout";
-import { ALL_ITEMS, ALL_RECIPES, IGameWallet, IRecipe, IWorld } from "@not-a-bird/model";
+import { ALL_ITEMS, ALL_RECIPES, IGameWallet, IPool, IRecipe, IWorld } from "@not-a-bird/model";
 import { IOnChainGame } from "@not-a-bird/on-chain-game";
 import { BulmaButton } from "../components/BulmaButton";
 import { BulmaCard } from "../components/BulmaCard";
@@ -14,25 +14,43 @@ class MockedOnChainGame implements IOnChainGame {
         1
     ];
     private _nativeTokens = 1_000 * 1_000_000_000_000;
+    private _poolTarget = 100;
+    private _poolPoints = 0;
+    private _totalSpentNativeTokens = 0;
 
     constructor() {
         this._world = MockedOnChainGame.initialWorld();
     }
 
+    private async _checkPoolSaturation() {
+        if (this._poolPoints >= this._poolTarget) {
+            this._poolPoints = 0;
+            this._poolTarget += 100;
+            this._nativeTokens += this._totalSpentNativeTokens;
+            this._totalSpentNativeTokens = 0;
+        }
+    }
+
     public static initialWorld(): IWorld {
-        return {
+        const rootElements = ALL_ITEMS.filter(
+            item => !ALL_RECIPES.some(
+                recipe => recipe.result.id === item.id
+            )
+        );
+        const w = {
             assets: [],
             inventory: {
-                balances: {
-                    0: 4,
-                    1: 4,
-                    2: 4,
-                    3: 4,
-                }
+                balances: {}
             },
             items: ALL_ITEMS,
             recipes: ALL_RECIPES,
         };
+        rootElements.forEach(
+            (item) => {
+                w.inventory.balances[item.id] = 1;
+            }
+        );
+        return w;
     }
 
     public static initialWallet(): IGameWallet {
@@ -47,6 +65,14 @@ class MockedOnChainGame implements IOnChainGame {
         };
     }
 
+    public static initialPool(): IPool {
+        return {
+            target: 100,
+            total: 0,
+            value: 0,
+            participants: 1
+        };
+    }
 
     async world(): Promise<IWorld> {
         return this._world;
@@ -70,6 +96,7 @@ class MockedOnChainGame implements IOnChainGame {
         }
 
         this._nativeTokens -= cost;
+        this._totalSpentNativeTokens += cost;
     }
 
     async craft(a: number, b: number): Promise<void> {
@@ -107,6 +134,12 @@ class MockedOnChainGame implements IOnChainGame {
                 return;
             }
 
+            if (a === b) {
+                if (this._world.inventory.balances[a] < 2) {
+                    return;
+                }
+            }
+
             this._world.inventory.balances[a] -= 1;
             this._world.inventory.balances[b] -= 1;
 
@@ -122,6 +155,8 @@ class MockedOnChainGame implements IOnChainGame {
         if (itemId in this._world.inventory.balances) {
             if (this._world.inventory.balances[itemId] > 0) {
                 this._world.inventory.balances[itemId] -= 1;
+                this._poolPoints += ALL_ITEMS.find((item) => item.id === itemId)?.tier || 1;
+                await this._checkPoolSaturation();
             }
         }
     }
@@ -148,6 +183,15 @@ class MockedOnChainGame implements IOnChainGame {
             }
         }
     }
+
+    async pool(): Promise<IPool> {
+        return {
+            target: this._poolTarget,
+            total: this._poolPoints,
+            value: this._totalSpentNativeTokens,
+            participants: 1
+        };
+    }
 }
 const createMockedOnChainGame = () => new MockedOnChainGame();
 
@@ -165,6 +209,7 @@ function GameHeader(
     props: {
         world: IWorld,
         wallet: IGameWallet,
+        pool: IPool,
         onChainGame: IOnChainGame
     }
 ) {
@@ -174,7 +219,9 @@ function GameHeader(
             <div>
                 <div className="heading">Balance</div>
                 <div className="title">
-                    {(props.wallet.balance / Math.pow(10, props.wallet.token.decimals)).toFixed(4)} {props.wallet.token.symbol}
+                    <span className="has-text-primary">
+                        {(props.wallet.balance / Math.pow(10, props.wallet.token.decimals)).toFixed(4)}
+                    </span> {props.wallet.token.symbol}
                 </div>
             </div>
         </div>
@@ -189,6 +236,26 @@ function GameHeader(
                                 0
                             )
                         } E</span>, <span className="has-text-primary">{props.world.items.length} I</span>, <span className="has-text-link">{props.world.recipes.length} R</span>
+                </div>
+            </div>
+        </div>
+        <div className="level-item has-text-centered">
+            <div>
+                <div className="heading">Pool</div>
+                <div className="title">
+                    <span className="has-text-primary">
+                        {props.pool.total}
+                    </span> / {props.pool.target}
+                </div>
+            </div>
+        </div>
+        <div className="level-item has-text-centered">
+            <div>
+                <div className="heading">Prize</div>
+                <div className="title">
+                    <span className="has-text-primary">
+                        {(props.pool.value / Math.pow(10, props.wallet.token.decimals)).toFixed(4)}
+                    </span> {props.wallet.token.symbol}
                 </div>
             </div>
         </div>
@@ -332,6 +399,9 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
     const [wallet, setWallet] = useState<IGameWallet>(
         MockedOnChainGame.initialWallet()
     );
+    const [pool, setPool] = useState<IPool>(
+        MockedOnChainGame.initialPool()
+    );
     const [activeElementDropTargets, setActiveElementDropTargets] = useState<number[]>([]);
     const [isInitialLoading, setIsInitialLoading] = useState(true);
     const [initialLoadingError, setInitialLoadingError] = useState<Error | string | null>(null);
@@ -343,8 +413,10 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
     const populateWorld = async () => {
         const newWorld = await onChainGameRef.current.world();
         const newWallet = await onChainGameRef.current.wallet();
+        const newPool = await onChainGameRef.current.pool();
         setWorld(newWorld);
         setWallet(newWallet);
+        setPool(newPool);
     };
 
     /// Finds elements that can be crafted with the given element
@@ -409,7 +481,11 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
         /// Displays the actual game when it is fully loaded and running
         return <>
             <section className="container is-fluid">
-                <GameHeader world={world} wallet={wallet} onChainGame={onChainGameRef.current} />
+                <GameHeader world={world}
+                    wallet={wallet}
+                    pool={pool}
+                    onChainGame={onChainGameRef.current}
+                />
                 <div className="columns is-multiline">
                     {
                         elementCards.map(

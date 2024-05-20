@@ -1,4 +1,4 @@
-import { IGameWallet, IWorld } from "@not-a-bird/model";
+import { IGameWallet, IPool, IWorld } from "@not-a-bird/model";
 
 /** Client interface for interacting with the on-chain game.
  * 
@@ -27,5 +27,6 @@ export interface IOnChainGame {
     /** Sends element tokens from the wallet used to play the game */
     send(itemId: number, to: string, amount: number): Promise<void>;
 
-    
+    /** Retrieves the "pool" from the game contract */
+    pool(): Promise<IPool>;
 }

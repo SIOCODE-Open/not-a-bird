@@ -30,6 +30,10 @@ class NonDeployedOnChainGameImpl implements IOnChainGame {
     async send(itemId: number, to: string, amount: number): Promise<any> {
         throw new Error("This game is not deployed on-chain.");
     }
+
+    async pool(): Promise<any> {
+        throw new Error("This game is not deployed on-chain.");
+    }
 }
 
 class OnChainGameImpl implements IOnChainGame {
@@ -93,6 +97,10 @@ class OnChainGameImpl implements IOnChainGame {
     }
 
     async send(itemId: number, to: string, amount: number): Promise<any> {
+        throw new Error("Method not implemented.");
+    }
+
+    async pool(): Promise<any> {
         throw new Error("Method not implemented.");
     }
 }
