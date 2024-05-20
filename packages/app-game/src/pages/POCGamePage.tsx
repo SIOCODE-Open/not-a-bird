@@ -85,6 +85,8 @@ class MockedOnChainGame implements IOnChainGame {
             }
         }
 
+        console.log("MockedOnChainGame.craft: ", a, b, foundRecipe, this._world.recipes);
+
         if (foundRecipe) {
             let hasA = false;
             let hasB = false;
@@ -207,6 +209,8 @@ function ElementCard(
     }
 ) {
     const [isBeingDragged, setIsBeingDragged] = useState(false);
+    const craftSelectRef = useRef<HTMLSelectElement>(null);
+
     const elementItem = ALL_ITEMS.find((item) => item.id === props.elementId);
 
     if (!elementItem) {
@@ -249,6 +253,39 @@ function ElementCard(
         props.onExecuteCraft?.(parseInt(ev.dataTransfer.getData("elementId")), props.elementId);
     };
 
+    const onCraftElement = () => {
+        props.onBeginCrafting?.();
+    };
+
+    const foundRecipes = props.world.recipes.filter(
+        (recipe) => recipe.a.id === props.elementId || recipe.b.id === props.elementId
+    );
+    const activeElementIdsSet = new Set<number>();
+    let craftableWithSelf = false;
+    foundRecipes.forEach((recipe) => {
+        activeElementIdsSet.add(recipe.a.id);
+        activeElementIdsSet.add(recipe.b.id);
+        if (recipe.a.id === props.elementId && recipe.b.id === props.elementId) {
+            craftableWithSelf = true;
+        }
+    });
+    if (!craftableWithSelf) {
+        activeElementIdsSet.delete(props.elementId);
+    }
+    const craftableWith = props.world.items.filter(
+        (item) => activeElementIdsSet.has(item.id) && props.world.inventory.balances[item.id] > 0
+    );
+
+    const onSelectChanged = (ev: React.ChangeEvent<HTMLSelectElement>) => {
+        const selectedId = parseInt(ev.target.value);
+        console.log("Selected: ", selectedId);
+        if (selectedId < 0) {
+            return;
+        }
+        props.onExecuteCraft?.(props.elementId, selectedId);
+        ev.target.options[0].selected = true;
+    }
+
     return <BulmaCard footer={[
         <BulmaButton onClick={onBuyElement}>
             Buy
@@ -258,7 +295,21 @@ function ElementCard(
         </BulmaButton>,
         <BulmaButton onClick={onSendElement}>
             Send
-        </BulmaButton>
+        </BulmaButton>,
+        <div className="select is-rounded">
+            <select title="Craft ..." ref={craftSelectRef} onChange={onSelectChanged}>
+                <option value={-1}>Craft ...</option>
+                {
+                    craftableWith.map(
+                        (item) => (
+                            <option value={item.id}>
+                                {item.name}
+                            </option>
+                        )
+                    )
+                }
+            </select>
+        </div>
     ]}>
         <h1>
             {elementItem.name}
@@ -298,17 +349,7 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
 
     /// Finds elements that can be crafted with the given element
     const onBeginCrafting = (elementId: number) => {
-        const foundRecipes = world.recipes.filter(
-            (recipe) => recipe.a.id === elementId || recipe.b.id === elementId
-        );
-        const activeElementIdsSet = new Set<number>();
-        foundRecipes.forEach((recipe) => {
-            activeElementIdsSet.add(recipe.a.id);
-            activeElementIdsSet.add(recipe.b.id);
-        });
-        activeElementIdsSet.delete(elementId);
-        setActiveElementDropTargets(Array.from(activeElementIdsSet));
-        console.log("Active element drop targets: ", activeElementDropTargets);
+        console.log("onBeginCrafting: ", elementId);
     };
 
     /// Executes the crafting of two elements
@@ -373,7 +414,7 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
                     {
                         elementCards.map(
                             (card, index) => (
-                                <div className="column is-3" key={index}>
+                                <div className="column is-12 is-6-tablet is-6-desktop is-6-widescreen is-4-fullhd" key={index}>
                                     {card}
                                 </div>
                             )
