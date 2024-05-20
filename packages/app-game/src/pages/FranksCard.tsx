@@ -33,6 +33,14 @@ const FranksCard = (props: { navigate: (path: string) => { void } }) => {
         <div className="card-footer-item">
           <BulmaButton>Send</BulmaButton>
         </div>
+        <div className="card-footer-item">
+          <div className="select is-rounded">
+            <select title="Craft ...">
+              <option>Craft ...</option>
+              <option>Element A</option>
+            </select>
+          </div>
+        </div>
       </footer>
     </div>
   );
