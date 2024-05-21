@@ -1,6 +1,5 @@
 import { BulmaButton } from "../components/BulmaButton";
 import { CanvasImage } from "../components/CanvasImage";
-import { CSSProperties, ReactNode } from "react";
 import { EmojioneMonotonePistol } from "../components/EmojioneMonotonePistol";
 import { EmojioneMonotoneDollarBanknote } from "../components/EmojioneMonotoneDollarBanknote";
 import { EmojioneMonotoneAirplane } from "../components/EmojioneMonotoneAirplane";
@@ -23,40 +22,45 @@ const FranksCard = (props: { navigate: (path: string) => { void } }) => {
             glows. That happens when you get bidden by spider. I swear.{" "}
           </i>
         </p>
+        <br />
         <p>
-          You have <code>5</code> Monkeys
+          Artists: <code>Mark</code>
+        </p>
+        <p>
+          Tier: <code>1</code>
+        </p>
+        <p>
+          Dependened Art: <code>5</code>
+        </p>
+        <p>
+          Total Mint: <code>523</code>
+        </p>
+        <p>
+          Owned by you: <code>5</code>
         </p>
       </div>
-      <footer className="card-footer">
-        <div className="card-footer-item">
-          <div className="select is-rounded">
-            <select className="letterspacing-2">
-              <option disabled selected value="">
-                Craft
-              </option>
-              <option>Element B</option>
-              <option>Element A</option>
-            </select>
-          </div>
+      <div className="column">
+        <div className="select is-rounded is-large is-fullwidth">
+          <select className="letterspacing-2">
+            <option disabled selected value="">
+              Craft
+            </option>
+            <option>Element B</option>
+            <option>Element A</option>
+          </select>
         </div>
-        <div className="card-footer-item">
-          <BulmaButton className="letterspacing-2">
-            <EmojioneMonotoneDollarBanknote className="mr-2" />
-            Gain
-          </BulmaButton>
-        </div>
-        <div className="card-footer-item">
-          <BulmaButton className="letterspacing-2">
-            <EmojioneMonotonePistol className="mr-2" /> Sacrifice
-          </BulmaButton>
-        </div>
-        <div className="card-footer-item">
-          <BulmaButton className="letterspacing-2">
-            <EmojioneMonotoneAirplane className="mr-2" />
-            Transfer
-          </BulmaButton>
-        </div>
-      </footer>
+        <BulmaButton className="letterspacing-2 is-large is-fullwidth">
+          <EmojioneMonotoneDollarBanknote className="mr-2" />
+          Gain
+        </BulmaButton>
+        <BulmaButton className="letterspacing-2 is-large is-fullwidth">
+          <EmojioneMonotonePistol className="mr-2" /> Sacrifice
+        </BulmaButton>
+        <BulmaButton className="letterspacing-2 is-large is-fullwidth">
+          <EmojioneMonotoneAirplane className="mr-2 " />
+          Transfer
+        </BulmaButton>
+      </div>
     </div>
   );
 };
