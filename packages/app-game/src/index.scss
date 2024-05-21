@@ -45,3 +45,8 @@ body,
   font-weight: 700; /* Choose weight */
   letter-spacing: 4px;
 }
+
+.custom-table td,
+.custom-table th {
+  padding: 10px; /* Change this value according to your needs */
+}

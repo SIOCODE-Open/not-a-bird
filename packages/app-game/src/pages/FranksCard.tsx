@@ -15,29 +15,61 @@ const FranksCard = (props: { navigate: (path: string) => { void } }) => {
         />
       </div>
       <div className="card-content">
-        <h1 className="title">Monkey</h1>
+        <h1 className="title">Monkey </h1>
         <p>
           <i>
-            A monekey living in the desert. Got bidden by a Spider. Now he
-            glows. That happens when you get bidden by spider. I swear.{" "}
+            This is monkey. Monkey is his name. When he was a little, monkey he
+            had an awfull expirience. He got bidden by spider. A radioactive
+            spider. Since then, he is glowing and shining in the dark. Other
+            Monkeys excluded him. That just made him stronger. Now he fights for
+            Anarchy in the forest of his being. Get appreciated from all other
+            monkeys. He never steps back, because he is THE glowing monkey.
           </i>
         </p>
+        {/*-------------------TABLE-------------*/}
+
         <br />
-        <p>
-          Artists: <code>Mark</code>
-        </p>
-        <p>
-          Tier: <code>1</code>
-        </p>
-        <p>
-          Dependened Art: <code>5</code>
-        </p>
-        <p>
-          Total Mint: <code>523</code>
-        </p>
-        <p>
-          Owned by you: <code>5</code>
-        </p>
+
+        <details>
+          <summary>More Information</summary>
+          <div className="column is-4">
+            <table className="table is-fullwidth">
+              <tbody>
+                <tr>
+                  <th>Artist</th>
+                  <td>
+                    <code>Frank</code>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Tier</th>
+                  <td>
+                    <code>1</code>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Dependened Art</th>
+                  <td>
+                    <code>5</code>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Total Mint</th>
+                  <td>
+                    <code>523</code>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Owned by you</th>
+                  <td>
+                    <code>8</code>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+        {/*-------------------TABLE-------------*/}
       </div>
       <div className="column">
         <div className="select is-rounded is-large is-fullwidth">
@@ -51,7 +83,7 @@ const FranksCard = (props: { navigate: (path: string) => { void } }) => {
         </div>
         <BulmaButton className="letterspacing-2 is-large is-fullwidth">
           <EmojioneMonotoneDollarBanknote className="mr-2" />
-          Gain
+          Mint
         </BulmaButton>
         <BulmaButton className="letterspacing-2 is-large is-fullwidth">
           <EmojioneMonotonePistol className="mr-2" /> Sacrifice
