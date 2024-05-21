@@ -103,6 +103,566 @@
         {
             "name": "HyperMarmalade",
             "description": "PSP-22 compatible game smart contract for element 'HyperMarmalade'"
+        },
+        {
+            "name": "Water",
+            "description": "PSP-22 compatible game smart contract for element 'Water'"
+        },
+        {
+            "name": "Fire",
+            "description": "PSP-22 compatible game smart contract for element 'Fire'"
+        },
+        {
+            "name": "Steam",
+            "description": "PSP-22 compatible game smart contract for element 'Steam'"
+        },
+        {
+            "name": "Earth",
+            "description": "PSP-22 compatible game smart contract for element 'Earth'"
+        },
+        {
+            "name": "Mud",
+            "description": "PSP-22 compatible game smart contract for element 'Mud'"
+        },
+        {
+            "name": "Lava",
+            "description": "PSP-22 compatible game smart contract for element 'Lava'"
+        },
+        {
+            "name": "Wind",
+            "description": "PSP-22 compatible game smart contract for element 'Wind'"
+        },
+        {
+            "name": "Dust",
+            "description": "PSP-22 compatible game smart contract for element 'Dust'"
+        },
+        {
+            "name": "Rain",
+            "description": "PSP-22 compatible game smart contract for element 'Rain'"
+        },
+        {
+            "name": "Smoke",
+            "description": "PSP-22 compatible game smart contract for element 'Smoke'"
+        },
+        {
+            "name": "Geyser",
+            "description": "PSP-22 compatible game smart contract for element 'Geyser'"
+        },
+        {
+            "name": "Clay",
+            "description": "PSP-22 compatible game smart contract for element 'Clay'"
+        },
+        {
+            "name": "Sand",
+            "description": "PSP-22 compatible game smart contract for element 'Sand'"
+        },
+        {
+            "name": "Plant",
+            "description": "PSP-22 compatible game smart contract for element 'Plant'"
+        },
+        {
+            "name": "Rainbow",
+            "description": "PSP-22 compatible game smart contract for element 'Rainbow'"
+        },
+        {
+            "name": "Storm",
+            "description": "PSP-22 compatible game smart contract for element 'Storm'"
+        },
+        {
+            "name": "Obsidian",
+            "description": "PSP-22 compatible game smart contract for element 'Obsidian'"
+        },
+        {
+            "name": "Ash",
+            "description": "PSP-22 compatible game smart contract for element 'Ash'"
+        },
+        {
+            "name": "Volcano",
+            "description": "PSP-22 compatible game smart contract for element 'Volcano'"
+        },
+        {
+            "name": "Sandstorm",
+            "description": "PSP-22 compatible game smart contract for element 'Sandstorm'"
+        },
+        {
+            "name": "Cloud",
+            "description": "PSP-22 compatible game smart contract for element 'Cloud'"
+        },
+        {
+            "name": "Fog",
+            "description": "PSP-22 compatible game smart contract for element 'Fog'"
+        },
+        {
+            "name": "Tree",
+            "description": "PSP-22 compatible game smart contract for element 'Tree'"
+        },
+        {
+            "name": "Forest",
+            "description": "PSP-22 compatible game smart contract for element 'Forest'"
+        },
+        {
+            "name": "Seeds",
+            "description": "PSP-22 compatible game smart contract for element 'Seeds'"
+        },
+        {
+            "name": "Pottery",
+            "description": "PSP-22 compatible game smart contract for element 'Pottery'"
+        },
+        {
+            "name": "Brick",
+            "description": "PSP-22 compatible game smart contract for element 'Brick'"
+        },
+        {
+            "name": "Quicksand",
+            "description": "PSP-22 compatible game smart contract for element 'Quicksand'"
+        },
+        {
+            "name": "Glass",
+            "description": "PSP-22 compatible game smart contract for element 'Glass'"
+        },
+        {
+            "name": "Dune",
+            "description": "PSP-22 compatible game smart contract for element 'Dune'"
+        },
+        {
+            "name": "Charcoal",
+            "description": "PSP-22 compatible game smart contract for element 'Charcoal'"
+        },
+        {
+            "name": "Leaves",
+            "description": "PSP-22 compatible game smart contract for element 'Leaves'"
+        },
+        {
+            "name": "Wildfire",
+            "description": "PSP-22 compatible game smart contract for element 'Wildfire'"
+        },
+        {
+            "name": "Jungle",
+            "description": "PSP-22 compatible game smart contract for element 'Jungle'"
+        },
+        {
+            "name": "Frosted",
+            "description": "PSP-22 compatible game smart contract for element 'Frosted'"
+        },
+        {
+            "name": "Crystal",
+            "description": "PSP-22 compatible game smart contract for element 'Crystal'"
+        },
+        {
+            "name": "Magma",
+            "description": "PSP-22 compatible game smart contract for element 'Magma'"
+        },
+        {
+            "name": "Rock",
+            "description": "PSP-22 compatible game smart contract for element 'Rock'"
+        },
+        {
+            "name": "Shard",
+            "description": "PSP-22 compatible game smart contract for element 'Shard'"
+        },
+        {
+            "name": "Pebble",
+            "description": "PSP-22 compatible game smart contract for element 'Pebble'"
+        },
+        {
+            "name": "Mountain",
+            "description": "PSP-22 compatible game smart contract for element 'Mountain'"
+        },
+        {
+            "name": "Fertilizer",
+            "description": "PSP-22 compatible game smart contract for element 'Fertilizer'"
+        },
+        {
+            "name": "Soot",
+            "description": "PSP-22 compatible game smart contract for element 'Soot'"
+        },
+        {
+            "name": "Lightning",
+            "description": "PSP-22 compatible game smart contract for element 'Lightning'"
+        },
+        {
+            "name": "Mist",
+            "description": "PSP-22 compatible game smart contract for element 'Mist'"
+        },
+        {
+            "name": "Haze",
+            "description": "PSP-22 compatible game smart contract for element 'Haze'"
+        },
+        {
+            "name": "Flood",
+            "description": "PSP-22 compatible game smart contract for element 'Flood'"
+        },
+        {
+            "name": "Landslide",
+            "description": "PSP-22 compatible game smart contract for element 'Landslide'"
+        },
+        {
+            "name": "Thunder",
+            "description": "PSP-22 compatible game smart contract for element 'Thunder'"
+        },
+        {
+            "name": "Tornado",
+            "description": "PSP-22 compatible game smart contract for element 'Tornado'"
+        },
+        {
+            "name": "Garden",
+            "description": "PSP-22 compatible game smart contract for element 'Garden'"
+        },
+        {
+            "name": "Ember",
+            "description": "PSP-22 compatible game smart contract for element 'Ember'"
+        },
+        {
+            "name": "Kiln",
+            "description": "PSP-22 compatible game smart contract for element 'Kiln'"
+        },
+        {
+            "name": "Pollination",
+            "description": "PSP-22 compatible game smart contract for element 'Pollination'"
+        },
+        {
+            "name": "Sinkhole",
+            "description": "PSP-22 compatible game smart contract for element 'Sinkhole'"
+        },
+        {
+            "name": "Beach",
+            "description": "PSP-22 compatible game smart contract for element 'Beach'"
+        },
+        {
+            "name": "Wetstone",
+            "description": "PSP-22 compatible game smart contract for element 'Wetstone'"
+        },
+        {
+            "name": "Erosion",
+            "description": "PSP-22 compatible game smart contract for element 'Erosion'"
+        },
+        {
+            "name": "Basalt",
+            "description": "PSP-22 compatible game smart contract for element 'Basalt'"
+        },
+        {
+            "name": "Breeze",
+            "description": "PSP-22 compatible game smart contract for element 'Breeze'"
+        },
+        {
+            "name": "Warm",
+            "description": "PSP-22 compatible game smart contract for element 'Warm'"
+        },
+        {
+            "name": "Soil",
+            "description": "PSP-22 compatible game smart contract for element 'Soil'"
+        },
+        {
+            "name": "Canyon",
+            "description": "PSP-22 compatible game smart contract for element 'Canyon'"
+        },
+        {
+            "name": "Windmill",
+            "description": "PSP-22 compatible game smart contract for element 'Windmill'"
+        },
+        {
+            "name": "Adobe",
+            "description": "PSP-22 compatible game smart contract for element 'Adobe'"
+        },
+        {
+            "name": "Wall",
+            "description": "PSP-22 compatible game smart contract for element 'Wall'"
+        },
+        {
+            "name": "Pumice",
+            "description": "PSP-22 compatible game smart contract for element 'Pumice'"
+        },
+        {
+            "name": "Barbecue",
+            "description": "PSP-22 compatible game smart contract for element 'Barbecue'"
+        },
+        {
+            "name": "Farm",
+            "description": "PSP-22 compatible game smart contract for element 'Farm'"
+        },
+        {
+            "name": "Shards",
+            "description": "PSP-22 compatible game smart contract for element 'Shards'"
+        },
+        {
+            "name": "Molten",
+            "description": "PSP-22 compatible game smart contract for element 'Molten'"
+        },
+        {
+            "name": "Prism",
+            "description": "PSP-22 compatible game smart contract for element 'Prism'"
+        },
+        {
+            "name": "Sparkle",
+            "description": "PSP-22 compatible game smart contract for element 'Sparkle'"
+        },
+        {
+            "name": "Desert",
+            "description": "PSP-22 compatible game smart contract for element 'Desert'"
+        },
+        {
+            "name": "Oasis",
+            "description": "PSP-22 compatible game smart contract for element 'Oasis'"
+        },
+        {
+            "name": "Mirage",
+            "description": "PSP-22 compatible game smart contract for element 'Mirage'"
+        },
+        {
+            "name": "Dam",
+            "description": "PSP-22 compatible game smart contract for element 'Dam'"
+        },
+        {
+            "name": "Firewall",
+            "description": "PSP-22 compatible game smart contract for element 'Firewall'"
+        },
+        {
+            "name": "Barricade",
+            "description": "PSP-22 compatible game smart contract for element 'Barricade'"
+        },
+        {
+            "name": "Plateau",
+            "description": "PSP-22 compatible game smart contract for element 'Plateau'"
+        },
+        {
+            "name": "Pond",
+            "description": "PSP-22 compatible game smart contract for element 'Pond'"
+        },
+        {
+            "name": "Aromas",
+            "description": "PSP-22 compatible game smart contract for element 'Aromas'"
+        },
+        {
+            "name": "Flower",
+            "description": "PSP-22 compatible game smart contract for element 'Flower'"
+        },
+        {
+            "name": "Spore",
+            "description": "PSP-22 compatible game smart contract for element 'Spore'"
+        },
+        {
+            "name": "Spread",
+            "description": "PSP-22 compatible game smart contract for element 'Spread'"
+        },
+        {
+            "name": "Fertile",
+            "description": "PSP-22 compatible game smart contract for element 'Fertile'"
+        },
+        {
+            "name": "Wetland",
+            "description": "PSP-22 compatible game smart contract for element 'Wetland'"
+        },
+        {
+            "name": "Peat",
+            "description": "PSP-22 compatible game smart contract for element 'Peat'"
+        },
+        {
+            "name": "Reeds",
+            "description": "PSP-22 compatible game smart contract for element 'Reeds'"
+        },
+        {
+            "name": "Valley",
+            "description": "PSP-22 compatible game smart contract for element 'Valley'"
+        },
+        {
+            "name": "River",
+            "description": "PSP-22 compatible game smart contract for element 'River'"
+        },
+        {
+            "name": "Scorched",
+            "description": "PSP-22 compatible game smart contract for element 'Scorched'"
+        },
+        {
+            "name": "Delta",
+            "description": "PSP-22 compatible game smart contract for element 'Delta'"
+        },
+        {
+            "name": "Estuary",
+            "description": "PSP-22 compatible game smart contract for element 'Estuary'"
+        },
+        {
+            "name": "Riverbank",
+            "description": "PSP-22 compatible game smart contract for element 'Riverbank'"
+        },
+        {
+            "name": "Ravine",
+            "description": "PSP-22 compatible game smart contract for element 'Ravine'"
+        },
+        {
+            "name": "Gorge",
+            "description": "PSP-22 compatible game smart contract for element 'Gorge'"
+        },
+        {
+            "name": "Charred",
+            "description": "PSP-22 compatible game smart contract for element 'Charred'"
+        },
+        {
+            "name": "Echo",
+            "description": "PSP-22 compatible game smart contract for element 'Echo'"
+        },
+        {
+            "name": "Cave",
+            "description": "PSP-22 compatible game smart contract for element 'Cave'"
+        },
+        {
+            "name": "Underground",
+            "description": "PSP-22 compatible game smart contract for element 'Underground'"
+        },
+        {
+            "name": "Whispering",
+            "description": "PSP-22 compatible game smart contract for element 'Whispering'"
+        },
+        {
+            "name": "Spring",
+            "description": "PSP-22 compatible game smart contract for element 'Spring'"
+        },
+        {
+            "name": "Fountain",
+            "description": "PSP-22 compatible game smart contract for element 'Fountain'"
+        },
+        {
+            "name": "Cool",
+            "description": "PSP-22 compatible game smart contract for element 'Cool'"
+        },
+        {
+            "name": "Monument",
+            "description": "PSP-22 compatible game smart contract for element 'Monument'"
+        },
+        {
+            "name": "Waterfall",
+            "description": "PSP-22 compatible game smart contract for element 'Waterfall'"
+        },
+        {
+            "name": "Eternal",
+            "description": "PSP-22 compatible game smart contract for element 'Eternal'"
+        },
+        {
+            "name": "Pillar",
+            "description": "PSP-22 compatible game smart contract for element 'Pillar'"
+        },
+        {
+            "name": "Stream",
+            "description": "PSP-22 compatible game smart contract for element 'Stream'"
+        },
+        {
+            "name": "Zephyr",
+            "description": "PSP-22 compatible game smart contract for element 'Zephyr'"
+        },
+        {
+            "name": "Creek",
+            "description": "PSP-22 compatible game smart contract for element 'Creek'"
+        },
+        {
+            "name": "Brook",
+            "description": "PSP-22 compatible game smart contract for element 'Brook'"
+        },
+        {
+            "name": "Whisper",
+            "description": "PSP-22 compatible game smart contract for element 'Whisper'"
+        },
+        {
+            "name": "Rivulet",
+            "description": "PSP-22 compatible game smart contract for element 'Rivulet'"
+        },
+        {
+            "name": "Tributary",
+            "description": "PSP-22 compatible game smart contract for element 'Tributary'"
+        },
+        {
+            "name": "Murmur",
+            "description": "PSP-22 compatible game smart contract for element 'Murmur'"
+        },
+        {
+            "name": "Watershed",
+            "description": "PSP-22 compatible game smart contract for element 'Watershed'"
+        },
+        {
+            "name": "Aquifer",
+            "description": "PSP-22 compatible game smart contract for element 'Aquifer'"
+        },
+        {
+            "name": "Parched",
+            "description": "PSP-22 compatible game smart contract for element 'Parched'"
+        },
+        {
+            "name": "Fresh",
+            "description": "PSP-22 compatible game smart contract for element 'Fresh'"
+        },
+        {
+            "name": "Groundwater",
+            "description": "PSP-22 compatible game smart contract for element 'Groundwater'"
+        },
+        {
+            "name": "Reservoir",
+            "description": "PSP-22 compatible game smart contract for element 'Reservoir'"
+        },
+        {
+            "name": "Geothermal",
+            "description": "PSP-22 compatible game smart contract for element 'Geothermal'"
+        },
+        {
+            "name": "Artesian",
+            "description": "PSP-22 compatible game smart contract for element 'Artesian'"
+        },
+        {
+            "name": "Basin",
+            "description": "PSP-22 compatible game smart contract for element 'Basin'"
+        },
+        {
+            "name": "Lake",
+            "description": "PSP-22 compatible game smart contract for element 'Lake'"
+        },
+        {
+            "name": "Dry",
+            "description": "PSP-22 compatible game smart contract for element 'Dry'"
+        },
+        {
+            "name": "Depression",
+            "description": "PSP-22 compatible game smart contract for element 'Depression'"
+        },
+        {
+            "name": "Island",
+            "description": "PSP-22 compatible game smart contract for element 'Island'"
+        },
+        {
+            "name": "Lagoon",
+            "description": "PSP-22 compatible game smart contract for element 'Lagoon'"
+        },
+        {
+            "name": "Wave",
+            "description": "PSP-22 compatible game smart contract for element 'Wave'"
+        },
+        {
+            "name": "Reef",
+            "description": "PSP-22 compatible game smart contract for element 'Reef'"
+        },
+        {
+            "name": "Coral",
+            "description": "PSP-22 compatible game smart contract for element 'Coral'"
+        },
+        {
+            "name": "Whirl",
+            "description": "PSP-22 compatible game smart contract for element 'Whirl'"
+        },
+        {
+            "name": "Limestone",
+            "description": "PSP-22 compatible game smart contract for element 'Limestone'"
+        },
+        {
+            "name": "Karst",
+            "description": "PSP-22 compatible game smart contract for element 'Karst'"
+        },
+        {
+            "name": "Quicklime",
+            "description": "PSP-22 compatible game smart contract for element 'Quicklime'"
+        },
+        {
+            "name": "Blowhole",
+            "description": "PSP-22 compatible game smart contract for element 'Blowhole'"
+        },
+        {
+            "name": "Hot",
+            "description": "PSP-22 compatible game smart contract for element 'Hot'"
         }
     ]
 }

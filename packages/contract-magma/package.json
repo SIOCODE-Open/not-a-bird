@@ -1,0 +1,10 @@
+{
+    "name": "@not-a-bird/contract-magma",
+    "description": "PSP-22 compatible game smart contract for element 'Magma'",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {},
+    "scripts": {
+        "build": "cargo contract build --target wasm --release --manifest-path src/Cargo.toml"
+    }
+}

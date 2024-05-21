@@ -78,3 +78,423 @@ objects:
   - description: We need a description here
     name: HyperMarmalade
     tier: 2
+  - name: Water
+    description: We need a description here
+    tier: 1
+  - name: Fire
+    description: We need a description here
+    tier: 1
+  - name: Steam
+    description: We need a description here
+    tier: 1
+  - name: Earth
+    description: We need a description here
+    tier: 1
+  - name: Mud
+    description: We need a description here
+    tier: 1
+  - name: Lava
+    description: We need a description here
+    tier: 1
+  - name: Wind
+    description: We need a description here
+    tier: 1
+  - name: Dust
+    description: We need a description here
+    tier: 1
+  - name: Rain
+    description: We need a description here
+    tier: 1
+  - name: Smoke
+    description: We need a description here
+    tier: 1
+  - name: Geyser
+    description: We need a description here
+    tier: 1
+  - name: Clay
+    description: We need a description here
+    tier: 1
+  - name: Sand
+    description: We need a description here
+    tier: 1
+  - name: Plant
+    description: We need a description here
+    tier: 1
+  - name: Rainbow
+    description: We need a description here
+    tier: 1
+  - name: Storm
+    description: We need a description here
+    tier: 1
+  - name: Obsidian
+    description: We need a description here
+    tier: 1
+  - name: Ash
+    description: We need a description here
+    tier: 1
+  - name: Volcano
+    description: We need a description here
+    tier: 1
+  - name: Sandstorm
+    description: We need a description here
+    tier: 1
+  - name: Cloud
+    description: We need a description here
+    tier: 1
+  - name: Fog
+    description: We need a description here
+    tier: 1
+  - name: Tree
+    description: We need a description here
+    tier: 1
+  - name: Forest
+    description: We need a description here
+    tier: 1
+  - name: Seeds
+    description: We need a description here
+    tier: 1
+  - name: Pottery
+    description: We need a description here
+    tier: 1
+  - name: Brick
+    description: We need a description here
+    tier: 1
+  - name: Quicksand
+    description: We need a description here
+    tier: 1
+  - name: Glass
+    description: We need a description here
+    tier: 1
+  - name: Dune
+    description: We need a description here
+    tier: 1
+  - name: Charcoal
+    description: We need a description here
+    tier: 1
+  - name: Leaves
+    description: We need a description here
+    tier: 1
+  - name: Wildfire
+    description: We need a description here
+    tier: 1
+  - name: Jungle
+    description: We need a description here
+    tier: 1
+  - name: Frosted
+    description: We need a description here
+    tier: 1
+  - name: Crystal
+    description: We need a description here
+    tier: 1
+  - name: Magma
+    description: We need a description here
+    tier: 1
+  - name: Rock
+    description: We need a description here
+    tier: 1
+  - name: Shard
+    description: We need a description here
+    tier: 1
+  - name: Pebble
+    description: We need a description here
+    tier: 1
+  - name: Mountain
+    description: We need a description here
+    tier: 1
+  - name: Fertilizer
+    description: We need a description here
+    tier: 1
+  - name: Soot
+    description: We need a description here
+    tier: 1
+  - name: Lightning
+    description: We need a description here
+    tier: 1
+  - name: Mist
+    description: We need a description here
+    tier: 1
+  - name: Haze
+    description: We need a description here
+    tier: 1
+  - name: Flood
+    description: We need a description here
+    tier: 1
+  - name: Landslide
+    description: We need a description here
+    tier: 1
+  - name: Thunder
+    description: We need a description here
+    tier: 1
+  - name: Tornado
+    description: We need a description here
+    tier: 1
+  - name: Garden
+    description: We need a description here
+    tier: 1
+  - name: Ember
+    description: We need a description here
+    tier: 1
+  - name: Kiln
+    description: We need a description here
+    tier: 1
+  - name: Pollination
+    description: We need a description here
+    tier: 1
+  - name: Sinkhole
+    description: We need a description here
+    tier: 1
+  - name: Beach
+    description: We need a description here
+    tier: 1
+  - name: Wetstone
+    description: We need a description here
+    tier: 1
+  - name: Erosion
+    description: We need a description here
+    tier: 1
+  - name: Basalt
+    description: We need a description here
+    tier: 1
+  - name: Breeze
+    description: We need a description here
+    tier: 1
+  - name: Warm
+    description: We need a description here
+    tier: 1
+  - name: Soil
+    description: We need a description here
+    tier: 1
+  - name: Canyon
+    description: We need a description here
+    tier: 1
+  - name: Windmill
+    description: We need a description here
+    tier: 1
+  - name: Adobe
+    description: We need a description here
+    tier: 1
+  - name: Wall
+    description: We need a description here
+    tier: 1
+  - name: Pumice
+    description: We need a description here
+    tier: 1
+  - name: Barbecue
+    description: We need a description here
+    tier: 1
+  - name: Farm
+    description: We need a description here
+    tier: 1
+  - name: Shards
+    description: We need a description here
+    tier: 1
+  - name: Molten
+    description: We need a description here
+    tier: 1
+  - name: Prism
+    description: We need a description here
+    tier: 1
+  - name: Sparkle
+    description: We need a description here
+    tier: 1
+  - name: Desert
+    description: We need a description here
+    tier: 1
+  - name: Oasis
+    description: We need a description here
+    tier: 1
+  - name: Mirage
+    description: We need a description here
+    tier: 1
+  - name: Dam
+    description: We need a description here
+    tier: 1
+  - name: Firewall
+    description: We need a description here
+    tier: 1
+  - name: Barricade
+    description: We need a description here
+    tier: 1
+  - name: Plateau
+    description: We need a description here
+    tier: 1
+  - name: Pond
+    description: We need a description here
+    tier: 1
+  - name: Aromas
+    description: We need a description here
+    tier: 1
+  - name: Flower
+    description: We need a description here
+    tier: 1
+  - name: Spore
+    description: We need a description here
+    tier: 1
+  - name: Spread
+    description: We need a description here
+    tier: 1
+  - name: Fertile
+    description: We need a description here
+    tier: 1
+  - name: Wetland
+    description: We need a description here
+    tier: 1
+  - name: Peat
+    description: We need a description here
+    tier: 1
+  - name: Reeds
+    description: We need a description here
+    tier: 1
+  - name: Valley
+    description: We need a description here
+    tier: 1
+  - name: River
+    description: We need a description here
+    tier: 1
+  - name: Scorched
+    description: We need a description here
+    tier: 1
+  - name: Delta
+    description: We need a description here
+    tier: 1
+  - name: Estuary
+    description: We need a description here
+    tier: 1
+  - name: Riverbank
+    description: We need a description here
+    tier: 1
+  - name: Ravine
+    description: We need a description here
+    tier: 1
+  - name: Gorge
+    description: We need a description here
+    tier: 1
+  - name: Charred
+    description: We need a description here
+    tier: 1
+  - name: Echo
+    description: We need a description here
+    tier: 1
+  - name: Cave
+    description: We need a description here
+    tier: 1
+  - name: Underground
+    description: We need a description here
+    tier: 1
+  - name: Whispering
+    description: We need a description here
+    tier: 1
+  - name: Spring
+    description: We need a description here
+    tier: 1
+  - name: Fountain
+    description: We need a description here
+    tier: 1
+  - name: Cool
+    description: We need a description here
+    tier: 1
+  - name: Monument
+    description: We need a description here
+    tier: 1
+  - name: Waterfall
+    description: We need a description here
+    tier: 1
+  - name: Eternal
+    description: We need a description here
+    tier: 1
+  - name: Pillar
+    description: We need a description here
+    tier: 1
+  - name: Stream
+    description: We need a description here
+    tier: 1
+  - name: Zephyr
+    description: We need a description here
+    tier: 1
+  - name: Creek
+    description: We need a description here
+    tier: 1
+  - name: Brook
+    description: We need a description here
+    tier: 1
+  - name: Whisper
+    description: We need a description here
+    tier: 1
+  - name: Rivulet
+    description: We need a description here
+    tier: 1
+  - name: Tributary
+    description: We need a description here
+    tier: 1
+  - name: Murmur
+    description: We need a description here
+    tier: 1
+  - name: Watershed
+    description: We need a description here
+    tier: 1
+  - name: Aquifer
+    description: We need a description here
+    tier: 1
+  - name: Parched
+    description: We need a description here
+    tier: 1
+  - name: Fresh
+    description: We need a description here
+    tier: 1
+  - name: Groundwater
+    description: We need a description here
+    tier: 1
+  - name: Reservoir
+    description: We need a description here
+    tier: 1
+  - name: Geothermal
+    description: We need a description here
+    tier: 1
+  - name: Artesian
+    description: We need a description here
+    tier: 1
+  - name: Basin
+    description: We need a description here
+    tier: 1
+  - name: Lake
+    description: We need a description here
+    tier: 1
+  - name: Dry
+    description: We need a description here
+    tier: 1
+  - name: Depression
+    description: We need a description here
+    tier: 1
+  - name: Island
+    description: We need a description here
+    tier: 1
+  - name: Lagoon
+    description: We need a description here
+    tier: 1
+  - name: Wave
+    description: We need a description here
+    tier: 1
+  - name: Reef
+    description: We need a description here
+    tier: 1
+  - name: Coral
+    description: We need a description here
+    tier: 1
+  - name: Whirl
+    description: We need a description here
+    tier: 1
+  - name: Limestone
+    description: We need a description here
+    tier: 1
+  - name: Karst
+    description: We need a description here
+    tier: 1
+  - name: Quicklime
+    description: We need a description here
+    tier: 1
+  - name: Blowhole
+    description: We need a description here
+    tier: 1
+  - name: Hot
+    description: We need a description here
+    tier: 1
