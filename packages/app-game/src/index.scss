@@ -1,14 +1,14 @@
 @use "../../../node_modules/bulma/bulma";
-@use "style/flex";
-@use "style/utils";
-@use "style/button";
-@use "style/tutorial";
-@use "style/spacing";
-@use "style/typography";
-@use "style/stacked";
-@use "style/horizontal";
-@use "style/mergeCard";
-@use "style/draganddrop";
+// @use "style/flex";
+// @use "style/utils";
+// @use "style/button";
+// @use "style/tutorial";
+// @use "style/spacing";
+// @use "style/typography";
+// @use "style/stacked";
+// @use "style/horizontal";
+// @use "style/mergeCard";
+// @use "style/draganddrop";
 
 html,
 body {
@@ -22,4 +22,25 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Londrina+Outline&display=swap");
+html,
+body,
+:root {
+  --bulma-heading-family: "Londrina Outline", sans-serif;
+  --bulma-family-primary: "Barlow", sans-serif;
+  --bulma-radius-small: 0rem;
+  --bulma-radius: 0rem;
+  --bulma-radius-medium: 0em;
+  --bulma-radius-large: 0rem;
+  --bulma-title-family: "Londrina Outline", sans-serif;
+}
+.letterspacing-2 {
+  letter-spacing: 2px;
+}
+.title {
+  font-family: "Londrina Outline", sans-serif;
+  font-weight: 700; /* Choose weight */
+  letter-spacing: 4px;
 }
