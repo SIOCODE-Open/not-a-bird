@@ -1,4 +1,6 @@
 import { IItem } from './IItem';
+import { IRecipe } from './IRecipe';
+import { IGameContent } from './IGameContent';
 
 export const ITEM_MONKEY: IItem = {
     id: 0,
@@ -177,4 +179,127 @@ export const ALL_ITEMS: IItem[] = [
     ITEM_MARMALADE,
     ITEM_SUPER_MARMALADE,
     ITEM_HYPER_MARMALADE,
+];
+
+export const RECIPE_MAKE_SWARM: IRecipe = {
+    id: 0,
+    a: ITEM_BEE,
+    b: ITEM_BEE,
+    result: ITEM_SWARM,
+};
+export const RECIPE_MAKE_HYDRA: IRecipe = {
+    id: 1,
+    a: ITEM_GIRAFFE,
+    b: ITEM_GIRAFFE,
+    result: ITEM_HYDRA,
+};
+export const RECIPE_MAKE_MONKEYBRANCH: IRecipe = {
+    id: 2,
+    a: ITEM_MONKEY,
+    b: ITEM_HYDRA,
+    result: ITEM_MONKEY_BRANCH,
+};
+export const RECIPE_MAKE_BRIDGE: IRecipe = {
+    id: 3,
+    a: ITEM_MONKEY_BRANCH,
+    b: ITEM_MONKEY_BRANCH,
+    result: ITEM_BRIDGE,
+};
+export const RECIPE_MAKE_GOLDENGATE: IRecipe = {
+    id: 4,
+    a: ITEM_COIN,
+    b: ITEM_BRIDGE,
+    result: ITEM_GOLDEN_GATE,
+};
+export const RECIPE_MAKE_CARDANO: IRecipe = {
+    id: 5,
+    a: ITEM_BLOCKCHAIN,
+    b: ITEM_PEER_REVIEW,
+    result: ITEM_CARDANO,
+};
+export const RECIPE_MAKE_BEER: IRecipe = {
+    id: 6,
+    a: ITEM_BEE,
+    b: ITEM_BEAR,
+    result: ITEM_BEER,
+};
+export const RECIPE_MAKE_LOCK: IRecipe = {
+    id: 7,
+    a: ITEM_SILVER,
+    b: ITEM_SILVER,
+    result: ITEM_LOCK,
+};
+export const RECIPE_MAKE_SUPERMARMALADE: IRecipe = {
+    id: 8,
+    a: ITEM_MARMALADE,
+    b: ITEM_MARMALADE,
+    result: ITEM_SUPER_MARMALADE,
+};
+export const RECIPE_MAKE_HYPERMARMALADE: IRecipe = {
+    id: 9,
+    a: ITEM_SUPER_MARMALADE,
+    b: ITEM_SUPER_MARMALADE,
+    result: ITEM_HYPER_MARMALADE,
+};
+
+export const ALL_RECIPES: IRecipe[] = [
+    RECIPE_MAKE_SWARM,
+    RECIPE_MAKE_HYDRA,
+    RECIPE_MAKE_MONKEYBRANCH,
+    RECIPE_MAKE_BRIDGE,
+    RECIPE_MAKE_GOLDENGATE,
+    RECIPE_MAKE_CARDANO,
+    RECIPE_MAKE_BEER,
+    RECIPE_MAKE_LOCK,
+    RECIPE_MAKE_SUPERMARMALADE,
+    RECIPE_MAKE_HYPERMARMALADE,
+];
+
+export const GAME_UNIFIERS_ITEMS: Array<IItem> = [
+    ITEM_MONKEY,
+    ITEM_GIRAFFE,
+    ITEM_BEE,
+    ITEM_COIN,
+    ITEM_SWARM,
+    ITEM_HYDRA,
+    ITEM_MONKEY_BRANCH,
+    ITEM_BRIDGE,
+    ITEM_GOLDEN_GATE,
+    ITEM_GOLD,
+    ITEM_SILVER,
+    ITEM_RHODIUM,
+    ITEM_HIVE,
+    ITEM_TRANSACTION,
+    ITEM_BLOCK,
+    ITEM_BLOCKCHAIN,
+    ITEM_POLKADOT,
+    ITEM_PEER_REVIEW,
+    ITEM_CARDANO,
+    ITEM_BEAR,
+    ITEM_BEER,
+    ITEM_LOCK,
+    ITEM_MARMALADE,
+    ITEM_SUPER_MARMALADE,
+    ITEM_HYPER_MARMALADE,
+];
+export const GAME_UNIFIERS_RECIPES: Array<IRecipe> = [
+    RECIPE_MAKE_SWARM,
+    RECIPE_MAKE_HYDRA,
+    RECIPE_MAKE_MONKEYBRANCH,
+    RECIPE_MAKE_BRIDGE,
+    RECIPE_MAKE_GOLDENGATE,
+    RECIPE_MAKE_CARDANO,
+    RECIPE_MAKE_BEER,
+    RECIPE_MAKE_LOCK,
+    RECIPE_MAKE_SUPERMARMALADE,
+    RECIPE_MAKE_HYPERMARMALADE,
+];
+export const GAME_UNIFIERS: IGameContent = {
+    name: "Unifiers",
+    description: "A game created with the help of the Unifiers group",
+    items: GAME_UNIFIERS_ITEMS,
+    recipes: GAME_UNIFIERS_RECIPES,
+};
+export const ALL_GAMES: Array<IGameContent> = [
+    GAME_UNIFIERS,
 ];

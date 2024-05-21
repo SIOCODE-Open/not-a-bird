@@ -1,0 +1,44 @@
+id: games
+name: Games
+description: The games that are in this repository
+schema: s/Game
+objects:
+  - name: unifiers
+    description: A game created with the help of the Unifiers group
+    items:
+      - items#Monkey
+      - items#Giraffe
+      - items#Bee
+      - items#Coin
+      - items#SWARM
+      - items#Hydra
+      - items#MonkeyBranch
+      - items#Bridge
+      - items#GoldenGate
+      - items#Gold
+      - items#Silver
+      - items#Rhodium
+      - items#Hive
+      - items#Transaction
+      - items#Block
+      - items#Blockchain
+      - items#Polkadot
+      - items#PeerReview
+      - items#Cardano
+      - items#Bear
+      - items#Beer
+      - items#Lock
+      - items#Marmalade
+      - items#SuperMarmalade
+      - items#HyperMarmalade
+    recipes:
+      - recipes#make_swarm
+      - recipes#make_hydra
+      - recipes#make_monkeybranch
+      - recipes#make_bridge
+      - recipes#make_goldengate
+      - recipes#make_cardano
+      - recipes#make_beer
+      - recipes#make_lock
+      - recipes#make_supermarmalade
+      - recipes#make_hypermarmalade

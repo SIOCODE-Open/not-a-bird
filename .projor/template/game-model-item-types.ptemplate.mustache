@@ -1,11 +1,15 @@
 {
     "map": {
-        "items": "items"
+        "items": "items",
+        "recipes": "recipes",
+        "games": "games"
     },
     "filename": "packages/model/src/items.ts"
 }
 ---
 import { IItem } from './IItem';
+import { IRecipe } from './IRecipe';
+import { IGameContent } from './IGameContent';
 
 {{#each items}}
 export const ITEM_{{constantCase name}}: IItem = {
@@ -19,5 +23,44 @@ export const ITEM_{{constantCase name}}: IItem = {
 export const ALL_ITEMS: IItem[] = [
     {{#each items}}
     ITEM_{{constantCase name}},
+    {{/each}}
+];
+
+{{#each recipes}}
+export const RECIPE_{{constantCase name}}: IRecipe = {
+    id: {{@index}},
+    a: ITEM_{{constantCase a.name}},
+    b: ITEM_{{constantCase b.name}},
+    result: ITEM_{{constantCase c.name}},
+};
+{{/each}}
+
+export const ALL_RECIPES: IRecipe[] = [
+    {{#each recipes}}
+    RECIPE_{{constantCase name}},
+    {{/each}}
+];
+
+{{#each games}}
+export const GAME_{{constantCase name}}_ITEMS: Array<IItem> = [
+    {{#each items}}
+    ITEM_{{constantCase name}},
+    {{/each}}
+];
+export const GAME_{{constantCase name}}_RECIPES: Array<IRecipe> = [
+    {{#each recipes}}
+    RECIPE_{{constantCase name}},
+    {{/each}}
+];
+export const GAME_{{constantCase name}}: IGameContent = {
+    name: "{{capitalCase name}}",
+    description: "{{{description}}}",
+    items: GAME_{{constantCase name}}_ITEMS,
+    recipes: GAME_{{constantCase name}}_RECIPES,
+};
+{{/each}}
+export const ALL_GAMES: Array<IGameContent> = [
+    {{#each games}}
+    GAME_{{constantCase name}},
     {{/each}}
 ];

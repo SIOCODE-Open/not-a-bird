@@ -1,6 +1,7 @@
 {
     "map": {
-      "itemcontracts": "item-psp22-contracts"
+      "itemcontracts": "item-psp22-contracts",
+      "games": "games"
     },
     "filename": "Cargo.toml"
 }
@@ -13,6 +14,9 @@ members = [
   "packages/contract-{{kebabCase name}}/src",
   {{/each}}
   "packages/contract-game/src",
+  {{#each games}}
+  "packages/contract-{{kebabCase name}}/src",
+  {{/each}}
 ]
 exclude = [
   ".cargo",

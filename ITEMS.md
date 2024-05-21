@@ -40,11 +40,11 @@ For starters, each **item** has a **tier**. The item tier is a **positive intege
 
 * **Make Swarm** (`1 + 1 -> 2`) - **Bee** + **Bee** -> **Swarm**: 
 * **Make Hydra** (`1 + 1 -> 2`) - **Giraffe** + **Giraffe** -> **Hydra**: 
-* **Make Monkey Branch** (`1 + 2 -> 2`) - **Monkey** + **Hydra** -> **Monkey Branch**: 
+* **Make Monkeybranch** (`1 + 2 -> 2`) - **Monkey** + **Hydra** -> **Monkey Branch**: 
 * **Make Bridge** (`2 + 2 -> 2`) - **Monkey Branch** + **Monkey Branch** -> **Bridge**: 
-* **Make Golden Gate** (`1 + 2 -> 2`) - **Coin** + **Bridge** -> **Golden Gate**: 
+* **Make Goldengate** (`1 + 2 -> 2`) - **Coin** + **Bridge** -> **Golden Gate**: 
 * **Make Cardano** (`1 + 1 -> 2`) - **Blockchain** + **Peer Review** -> **Cardano**: 
 * **Make Beer** (`1 + 1 -> 2`) - **Bee** + **Bear** -> **Beer**: 
 * **Make Lock** (`1 + 1 -> 2`) - **Silver** + **Silver** -> **Lock**: 
-* **Make Super Marmalade** (`1 + 1 -> 2`) - **Marmalade** + **Marmalade** -> **Super Marmalade**: 
-* **Make Hyper Marmalade** (`2 + 2 -> 2`) - **Super Marmalade** + **Super Marmalade** -> **Hyper Marmalade**: 
+* **Make Supermarmalade** (`1 + 1 -> 2`) - **Marmalade** + **Marmalade** -> **Super Marmalade**: 
+* **Make Hypermarmalade** (`2 + 2 -> 2`) - **Super Marmalade** + **Super Marmalade** -> **Hyper Marmalade**: 

@@ -6,40 +6,40 @@ objects:
   - a: indexed-items#Bee
     b: indexed-items#Bee
     c: indexed-items#SWARM
-    name: Make SWARM
+    name: make_swarm
   - a: indexed-items#Giraffe
     b: indexed-items#Giraffe
     c: indexed-items#Hydra
-    name: Make Hydra
+    name: make_hydra
   - a: indexed-items#Monkey
     b: indexed-items#Hydra
     c: indexed-items#MonkeyBranch
-    name: Make MonkeyBranch
+    name: make_monkeybranch
   - a: indexed-items#MonkeyBranch
     b: indexed-items#MonkeyBranch
     c: indexed-items#Bridge
-    name: Make Bridge
+    name: make_bridge
   - a: indexed-items#Coin
     b: indexed-items#Bridge
     c: indexed-items#GoldenGate
-    name: Make GoldenGate
+    name: make_goldengate
   - a: indexed-items#Blockchain
     b: indexed-items#PeerReview
     c: indexed-items#Cardano
-    name: Make Cardano
+    name: make_cardano
   - a: indexed-items#Bee
     b: indexed-items#Bear
     c: indexed-items#Beer
-    name: Make Beer
+    name: make_beer
   - a: indexed-items#Silver
     b: indexed-items#Silver
     c: indexed-items#Lock
-    name: Make Lock
+    name: make_lock
   - a: indexed-items#Marmalade
     b: indexed-items#Marmalade
     c: indexed-items#SuperMarmalade
-    name: Make SuperMarmalade
+    name: make_supermarmalade
   - a: indexed-items#SuperMarmalade
     b: indexed-items#SuperMarmalade
     c: indexed-items#HyperMarmalade
-    name: Make HyperMarmalade
+    name: make_hypermarmalade

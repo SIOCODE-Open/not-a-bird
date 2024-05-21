@@ -6,7 +6,6 @@
     "@not-a-bird/assets": "*",
     "@not-a-bird/model": "*",
     "@not-a-bird/on-chain-game": "*",
-    "@not-a-bird/content": "*",
     "@polkadot/api": "*",
     "@polkadot/api-contract": "*",
     "leva": "*",

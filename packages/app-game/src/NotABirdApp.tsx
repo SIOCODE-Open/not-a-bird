@@ -13,6 +13,7 @@ import { LandingPageV2 } from "./pages/LandingPageV2";
 import { LearnPage } from "./pages/LearnPage";
 import { ParticleImage } from "./pages/Plaground2";
 import { FranksCard } from "./pages/FranksCard";
+import { ModalContainer } from "./modals/ModalContainer";
 
 const pages: Array<{ path: string; component: any }> = [
   { path: "/landing-page", component: LandingPage },
@@ -52,6 +53,7 @@ export function NotABirdApp() {
   return (
     <>
       <currentCompRef.current navigate={navigate} />
+      <ModalContainer navigate={navigate} />
     </>
   );
 }

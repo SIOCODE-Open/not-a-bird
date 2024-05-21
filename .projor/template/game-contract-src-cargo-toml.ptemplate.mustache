@@ -1,0 +1,21 @@
+{
+    "forEach": "games",
+    "filename": "packages/contract-{{kebabCase ./name}}/src/Cargo.toml"
+}
+---
+[package]
+name = "{{snakeCase name}}"
+version = "0.0.1"
+authors = ["SIOCODE Llc. <info@siocode.hu>"]
+edition = "2021"
+
+[dependencies]
+ink = { workspace = true }
+
+[lib]
+path = "lib.rs"
+
+[features]
+default = ["std"]
+std = ["ink/std"]
+ink-as-dependency = []

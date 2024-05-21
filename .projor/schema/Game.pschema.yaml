@@ -1,0 +1,14 @@
+id: s/Game
+name: Game
+description: A game is a set of items and recipes that make up a user experience as a whole.
+fields:
+  - name: items
+    description: The items that are in the game
+    type: reference
+    references: s/Item
+    multiple: true
+  - name: recipes
+    description: The recipes that are in the game
+    type: reference
+    references: s/Recipe
+    multiple: true

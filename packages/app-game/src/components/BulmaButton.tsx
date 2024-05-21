@@ -6,7 +6,7 @@ export function BulmaButton(
         style?: CSSProperties,
         onClick?: () => void,
         children?: ReactNode,
-        color?: "primary" | "secondary" | "danger" | "success" | "link" | "info",
+        color?: "primary" | "secondary" | "danger" | "success" | "link" | "info" | "text" | "ghost" | "white" | "dark" | "light" | "black",
         outlined?: boolean,
         inverted?: boolean,
         rounded?: boolean,

@@ -217,7 +217,7 @@ const RECIPE_MAKE_HYDRA: Recipe = Recipe {
     b: 1,
     c: 5,
 };
-const RECIPE_MAKE_MONKEY_BRANCH: Recipe = Recipe {
+const RECIPE_MAKE_MONKEYBRANCH: Recipe = Recipe {
     id: 2,
     a: 0,
     b: 5,
@@ -229,7 +229,7 @@ const RECIPE_MAKE_BRIDGE: Recipe = Recipe {
     b: 6,
     c: 7,
 };
-const RECIPE_MAKE_GOLDEN_GATE: Recipe = Recipe {
+const RECIPE_MAKE_GOLDENGATE: Recipe = Recipe {
     id: 4,
     a: 3,
     b: 7,
@@ -253,13 +253,13 @@ const RECIPE_MAKE_LOCK: Recipe = Recipe {
     b: 10,
     c: 21,
 };
-const RECIPE_MAKE_SUPER_MARMALADE: Recipe = Recipe {
+const RECIPE_MAKE_SUPERMARMALADE: Recipe = Recipe {
     id: 8,
     a: 22,
     b: 22,
     c: 23,
 };
-const RECIPE_MAKE_HYPER_MARMALADE: Recipe = Recipe {
+const RECIPE_MAKE_HYPERMARMALADE: Recipe = Recipe {
     id: 9,
     a: 23,
     b: 23,
@@ -353,13 +353,13 @@ fn find_recipe(index: u32) -> Option<Recipe> {
         return Some(RECIPE_MAKE_HYDRA);
     }
     if index == 2 {
-        return Some(RECIPE_MAKE_MONKEY_BRANCH);
+        return Some(RECIPE_MAKE_MONKEYBRANCH);
     }
     if index == 3 {
         return Some(RECIPE_MAKE_BRIDGE);
     }
     if index == 4 {
-        return Some(RECIPE_MAKE_GOLDEN_GATE);
+        return Some(RECIPE_MAKE_GOLDENGATE);
     }
     if index == 5 {
         return Some(RECIPE_MAKE_CARDANO);
@@ -371,10 +371,10 @@ fn find_recipe(index: u32) -> Option<Recipe> {
         return Some(RECIPE_MAKE_LOCK);
     }
     if index == 8 {
-        return Some(RECIPE_MAKE_SUPER_MARMALADE);
+        return Some(RECIPE_MAKE_SUPERMARMALADE);
     }
     if index == 9 {
-        return Some(RECIPE_MAKE_HYPER_MARMALADE);
+        return Some(RECIPE_MAKE_HYPERMARMALADE);
     }
     None
 }/** End game contract items generated code */

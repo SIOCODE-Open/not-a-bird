@@ -28,6 +28,7 @@ members = [
   "packages/contract-super-marmalade/src",
   "packages/contract-hyper-marmalade/src",
   "packages/contract-game/src",
+  "packages/contract-unifiers/src",
 ]
 exclude = [
   ".cargo",

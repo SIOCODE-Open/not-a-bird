@@ -5,6 +5,10 @@ import { IRecipe } from "./IRecipe";
 import { IWorld } from "./IWorld";
 import { IGameWallet } from "./IGameWallet";
 import { IPool } from "./IPool";
+import { IChainDeployment } from "./IChainDeployment";
+import { IContractDeployment } from "./IContractDeployment";
+import { IOnChainGame } from "./IOnChainGame";
+import { IGameContent } from "./IGameContent";
 
 export {
     IAsset,
@@ -14,7 +18,10 @@ export {
     IWorld,
     IGameWallet,
     IPool,
+    IChainDeployment,
+    IContractDeployment,
+    IOnChainGame,
+    IGameContent,
 }
 
 export * from "./items";
-export * from "./recipes";

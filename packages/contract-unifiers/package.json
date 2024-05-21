@@ -1,0 +1,10 @@
+{
+    "name": "@not-a-bird/contract-unifiers",
+    "description": "The Game Contract of the game Unifiers",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {},
+    "scripts": {
+        "build": "cargo contract build --target wasm --release --manifest-path src/Cargo.toml"
+    }
+}
