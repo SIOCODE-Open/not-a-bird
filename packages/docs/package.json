@@ -1,0 +1,17 @@
+{
+    "name": "@not-a-bird/docs",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "markdown-it-task-lists": "*",
+        "markdown-it-textual-uml": "*"
+    },
+    "devDependencies": {
+        "vitepress": "*"
+    },
+    "scripts": {
+        "dev": "vitepress dev",
+        "build": "vitepress build",
+        "preview": "vitepress preview"
+    }
+}
