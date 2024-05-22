@@ -1,14 +1,32 @@
 {
-    "forEach": "games",
-    "filename": "packages/deployer/src/{{kebabCase name}}.game.ts"
+    "map": {
+        "games": "games",
+        "items": "items"
+    },
+    "filename": "packages/deployer/src/game.ts"
 }
 ---
+{{#each games}}
 import {{constantCase name}}_CONTRACT from "../../../contracts.v1/artifacts/{{snakeCase name}}.contract.json";
+{{/each}}
 {{#each items}}
 import ELEMENT_{{constantCase name}}_CONTRACT from "../../../contracts.v1/artifacts/{{snakeCase name}}.contract.json";
 {{/each}}
 import { IDeployableGame } from "./IDeployableGame";
+import { IDeployableElement } from "./IDeployableElement";
 
+export const DEPLOYABLE_ELEMENTS: Array<IDeployableElement> = [
+{{#each items}}
+    {
+        name: "{{capitalCase name}}",
+        description: "{{{description}}}",
+        contract: ELEMENT_{{constantCase name}}_CONTRACT,
+        id: {{@index}},
+    },
+{{/each}}
+];
+
+{{#each games}}
 const {{constantCase name}}_ELEMENT_CONTRACTS: Record<number, any> = {
     {{#each items}}
     [{{@index}}]: ELEMENT_{{constantCase name}}_CONTRACT,
@@ -21,3 +39,9 @@ export const DEPLOYABLE_{{constantCase name}}: IDeployableGame = {
     gameContract: {{constantCase name}}_CONTRACT,
     elementContracts: {{constantCase name}}_ELEMENT_CONTRACTS,
 };
+{{/each}}
+export const DEPLOYABLE_GAMES: Array<IDeployableGame> = [
+{{#each games}}
+    DEPLOYABLE_{{constantCase name}},
+{{/each}}
+];

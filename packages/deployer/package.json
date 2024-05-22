@@ -12,7 +12,8 @@
         "@polkadot/api": "*",
         "@polkadot/api-contract": "*",
         "@not-a-bird/model": "*",
-        "listr2": "*"
+        "listr2": "*",
+        "yaml": "*"
     },
     "devDependencies": {
         "esbuild": "*",
