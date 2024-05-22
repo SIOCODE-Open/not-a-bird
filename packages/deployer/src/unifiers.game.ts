@@ -5,9 +5,9 @@ import ELEMENT_BEE_CONTRACT from "../../../contracts.v1/artifacts/bee.contract.j
 import ELEMENT_COIN_CONTRACT from "../../../contracts.v1/artifacts/coin.contract.json";
 import ELEMENT_SWARM_CONTRACT from "../../../contracts.v1/artifacts/swarm.contract.json";
 import ELEMENT_HYDRA_CONTRACT from "../../../contracts.v1/artifacts/hydra.contract.json";
-import ELEMENT_MONKEY_BRANCH_CONTRACT from "../../../contracts.v1/artifacts/monkey-branch.contract.json";
+import ELEMENT_MONKEY_BRANCH_CONTRACT from "../../../contracts.v1/artifacts/monkey_branch.contract.json";
 import ELEMENT_BRIDGE_CONTRACT from "../../../contracts.v1/artifacts/bridge.contract.json";
-import ELEMENT_GOLDEN_GATE_CONTRACT from "../../../contracts.v1/artifacts/golden-gate.contract.json";
+import ELEMENT_GOLDEN_GATE_CONTRACT from "../../../contracts.v1/artifacts/golden_gate.contract.json";
 import ELEMENT_GOLD_CONTRACT from "../../../contracts.v1/artifacts/gold.contract.json";
 import ELEMENT_SILVER_CONTRACT from "../../../contracts.v1/artifacts/silver.contract.json";
 import ELEMENT_RHODIUM_CONTRACT from "../../../contracts.v1/artifacts/rhodium.contract.json";
@@ -16,14 +16,14 @@ import ELEMENT_TRANSACTION_CONTRACT from "../../../contracts.v1/artifacts/transa
 import ELEMENT_BLOCK_CONTRACT from "../../../contracts.v1/artifacts/block.contract.json";
 import ELEMENT_BLOCKCHAIN_CONTRACT from "../../../contracts.v1/artifacts/blockchain.contract.json";
 import ELEMENT_POLKADOT_CONTRACT from "../../../contracts.v1/artifacts/polkadot.contract.json";
-import ELEMENT_PEER_REVIEW_CONTRACT from "../../../contracts.v1/artifacts/peer-review.contract.json";
+import ELEMENT_PEER_REVIEW_CONTRACT from "../../../contracts.v1/artifacts/peer_review.contract.json";
 import ELEMENT_CARDANO_CONTRACT from "../../../contracts.v1/artifacts/cardano.contract.json";
 import ELEMENT_BEAR_CONTRACT from "../../../contracts.v1/artifacts/bear.contract.json";
 import ELEMENT_BEER_CONTRACT from "../../../contracts.v1/artifacts/beer.contract.json";
 import ELEMENT_LOCK_CONTRACT from "../../../contracts.v1/artifacts/lock.contract.json";
 import ELEMENT_MARMALADE_CONTRACT from "../../../contracts.v1/artifacts/marmalade.contract.json";
-import ELEMENT_SUPER_MARMALADE_CONTRACT from "../../../contracts.v1/artifacts/super-marmalade.contract.json";
-import ELEMENT_HYPER_MARMALADE_CONTRACT from "../../../contracts.v1/artifacts/hyper-marmalade.contract.json";
+import ELEMENT_SUPER_MARMALADE_CONTRACT from "../../../contracts.v1/artifacts/super_marmalade.contract.json";
+import ELEMENT_HYPER_MARMALADE_CONTRACT from "../../../contracts.v1/artifacts/hyper_marmalade.contract.json";
 import { IDeployableGame } from "./IDeployableGame";
 
 const UNIFIERS_ELEMENT_CONTRACTS: Record<number, any> = {

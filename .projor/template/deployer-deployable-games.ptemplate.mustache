@@ -3,9 +3,9 @@
     "filename": "packages/deployer/src/{{kebabCase name}}.game.ts"
 }
 ---
-import {{constantCase name}}_CONTRACT from "../../../contracts.v1/artifacts/{{kebabCase name}}.contract.json";
+import {{constantCase name}}_CONTRACT from "../../../contracts.v1/artifacts/{{snakeCase name}}.contract.json";
 {{#each items}}
-import ELEMENT_{{constantCase name}}_CONTRACT from "../../../contracts.v1/artifacts/{{kebabCase name}}.contract.json";
+import ELEMENT_{{constantCase name}}_CONTRACT from "../../../contracts.v1/artifacts/{{snakeCase name}}.contract.json";
 {{/each}}
 import { IDeployableGame } from "./IDeployableGame";
 
