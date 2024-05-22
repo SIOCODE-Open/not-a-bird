@@ -33,9 +33,9 @@ const itemBeePath = path.join(targetInkDir, 'bee/bee.contract');
 const itemCoinPath = path.join(targetInkDir, 'coin/coin.contract');
 const itemSwarmPath = path.join(targetInkDir, 'swarm/swarm.contract');
 const itemHydraPath = path.join(targetInkDir, 'hydra/hydra.contract');
-const itemMonkeyBranchPath = path.join(targetInkDir, 'monkey-branch/monkey-branch.contract');
+const itemMonkeyBranchPath = path.join(targetInkDir, 'monkey_branch/monkey_branch.contract');
 const itemBridgePath = path.join(targetInkDir, 'bridge/bridge.contract');
-const itemGoldenGatePath = path.join(targetInkDir, 'golden-gate/golden-gate.contract');
+const itemGoldenGatePath = path.join(targetInkDir, 'golden_gate/golden_gate.contract');
 const itemGoldPath = path.join(targetInkDir, 'gold/gold.contract');
 const itemSilverPath = path.join(targetInkDir, 'silver/silver.contract');
 const itemRhodiumPath = path.join(targetInkDir, 'rhodium/rhodium.contract');
@@ -44,14 +44,14 @@ const itemTransactionPath = path.join(targetInkDir, 'transaction/transaction.con
 const itemBlockPath = path.join(targetInkDir, 'block/block.contract');
 const itemBlockchainPath = path.join(targetInkDir, 'blockchain/blockchain.contract');
 const itemPolkadotPath = path.join(targetInkDir, 'polkadot/polkadot.contract');
-const itemPeerReviewPath = path.join(targetInkDir, 'peer-review/peer-review.contract');
+const itemPeerReviewPath = path.join(targetInkDir, 'peer_review/peer_review.contract');
 const itemCardanoPath = path.join(targetInkDir, 'cardano/cardano.contract');
 const itemBearPath = path.join(targetInkDir, 'bear/bear.contract');
 const itemBeerPath = path.join(targetInkDir, 'beer/beer.contract');
 const itemLockPath = path.join(targetInkDir, 'lock/lock.contract');
 const itemMarmaladePath = path.join(targetInkDir, 'marmalade/marmalade.contract');
-const itemSuperMarmaladePath = path.join(targetInkDir, 'super-marmalade/super-marmalade.contract');
-const itemHyperMarmaladePath = path.join(targetInkDir, 'hyper-marmalade/hyper-marmalade.contract');
+const itemSuperMarmaladePath = path.join(targetInkDir, 'super_marmalade/super_marmalade.contract');
+const itemHyperMarmaladePath = path.join(targetInkDir, 'hyper_marmalade/hyper_marmalade.contract');
 const itemWaterPath = path.join(targetInkDir, 'water/water.contract');
 const itemFirePath = path.join(targetInkDir, 'fire/fire.contract');
 const itemSteamPath = path.join(targetInkDir, 'steam/steam.contract');
@@ -86,7 +86,7 @@ const itemCharcoalPath = path.join(targetInkDir, 'charcoal/charcoal.contract');
 const itemLeavesPath = path.join(targetInkDir, 'leaves/leaves.contract');
 const itemWildfirePath = path.join(targetInkDir, 'wildfire/wildfire.contract');
 const itemJunglePath = path.join(targetInkDir, 'jungle/jungle.contract');
-const itemFrostedGlassPath = path.join(targetInkDir, 'frosted-glass/frosted-glass.contract');
+const itemFrostedGlassPath = path.join(targetInkDir, 'frosted_glass/frosted_glass.contract');
 const itemCrystalPath = path.join(targetInkDir, 'crystal/crystal.contract');
 const itemMagmaPath = path.join(targetInkDir, 'magma/magma.contract');
 const itemRockPath = path.join(targetInkDir, 'rock/rock.contract');
@@ -111,9 +111,9 @@ const itemBeachPath = path.join(targetInkDir, 'beach/beach.contract');
 const itemWetstonePath = path.join(targetInkDir, 'wetstone/wetstone.contract');
 const itemErosionPath = path.join(targetInkDir, 'erosion/erosion.contract');
 const itemBasaltPath = path.join(targetInkDir, 'basalt/basalt.contract');
-const itemMagmaChamberPath = path.join(targetInkDir, 'magma-chamber/magma-chamber.contract');
+const itemMagmaChamberPath = path.join(targetInkDir, 'magma_chamber/magma_chamber.contract');
 const itemBreezePath = path.join(targetInkDir, 'breeze/breeze.contract');
-const itemWarmBreezePath = path.join(targetInkDir, 'warm-breeze/warm-breeze.contract');
+const itemWarmBreezePath = path.join(targetInkDir, 'warm_breeze/warm_breeze.contract');
 const itemSoilPath = path.join(targetInkDir, 'soil/soil.contract');
 const itemCanyonPath = path.join(targetInkDir, 'canyon/canyon.contract');
 const itemWindmillPath = path.join(targetInkDir, 'windmill/windmill.contract');
@@ -123,13 +123,13 @@ const itemPumicePath = path.join(targetInkDir, 'pumice/pumice.contract');
 const itemBarbecuePath = path.join(targetInkDir, 'barbecue/barbecue.contract');
 const itemFarmPath = path.join(targetInkDir, 'farm/farm.contract');
 const itemShardsPath = path.join(targetInkDir, 'shards/shards.contract');
-const itemMoltenGlassPath = path.join(targetInkDir, 'molten-glass/molten-glass.contract');
+const itemMoltenGlassPath = path.join(targetInkDir, 'molten_glass/molten_glass.contract');
 const itemPrismPath = path.join(targetInkDir, 'prism/prism.contract');
 const itemSparklePath = path.join(targetInkDir, 'sparkle/sparkle.contract');
 const itemDesertPath = path.join(targetInkDir, 'desert/desert.contract');
 const itemOasisPath = path.join(targetInkDir, 'oasis/oasis.contract');
 const itemMiragePath = path.join(targetInkDir, 'mirage/mirage.contract');
-const itemSandDunePath = path.join(targetInkDir, 'sand-dune/sand-dune.contract');
+const itemSandDunePath = path.join(targetInkDir, 'sand_dune/sand_dune.contract');
 const itemDamPath = path.join(targetInkDir, 'dam/dam.contract');
 const itemFirewallPath = path.join(targetInkDir, 'firewall/firewall.contract');
 const itemBarricadePath = path.join(targetInkDir, 'barricade/barricade.contract');
@@ -139,36 +139,36 @@ const itemAromasPath = path.join(targetInkDir, 'aromas/aromas.contract');
 const itemFlowerPath = path.join(targetInkDir, 'flower/flower.contract');
 const itemSporePath = path.join(targetInkDir, 'spore/spore.contract');
 const itemSpreadPath = path.join(targetInkDir, 'spread/spread.contract');
-const itemFertileLandPath = path.join(targetInkDir, 'fertile-land/fertile-land.contract');
+const itemFertileLandPath = path.join(targetInkDir, 'fertile_land/fertile_land.contract');
 const itemWetlandPath = path.join(targetInkDir, 'wetland/wetland.contract');
 const itemPeatPath = path.join(targetInkDir, 'peat/peat.contract');
 const itemReedsPath = path.join(targetInkDir, 'reeds/reeds.contract');
 const itemValleyPath = path.join(targetInkDir, 'valley/valley.contract');
 const itemRiverPath = path.join(targetInkDir, 'river/river.contract');
-const itemScorchedEarthPath = path.join(targetInkDir, 'scorched-earth/scorched-earth.contract');
+const itemScorchedEarthPath = path.join(targetInkDir, 'scorched_earth/scorched_earth.contract');
 const itemDeltaPath = path.join(targetInkDir, 'delta/delta.contract');
 const itemEstuaryPath = path.join(targetInkDir, 'estuary/estuary.contract');
-const itemFireSwampPath = path.join(targetInkDir, 'fire-swamp/fire-swamp.contract');
+const itemFireSwampPath = path.join(targetInkDir, 'fire_swamp/fire_swamp.contract');
 const itemRiverbankPath = path.join(targetInkDir, 'riverbank/riverbank.contract');
 const itemRavinePath = path.join(targetInkDir, 'ravine/ravine.contract');
 const itemGorgePath = path.join(targetInkDir, 'gorge/gorge.contract');
-const itemCharredRavinePath = path.join(targetInkDir, 'charred-ravine/charred-ravine.contract');
+const itemCharredRavinePath = path.join(targetInkDir, 'charred_ravine/charred_ravine.contract');
 const itemEchoPath = path.join(targetInkDir, 'echo/echo.contract');
 const itemCavePath = path.join(targetInkDir, 'cave/cave.contract');
-const itemUndergroundLakePath = path.join(targetInkDir, 'underground-lake/underground-lake.contract');
-const itemLavaCavePath = path.join(targetInkDir, 'lava-cave/lava-cave.contract');
-const itemWhisperingCavePath = path.join(targetInkDir, 'whispering-cave/whispering-cave.contract');
-const itemSubterraneanPoolPath = path.join(targetInkDir, 'subterranean-pool/subterranean-pool.contract');
+const itemUndergroundLakePath = path.join(targetInkDir, 'underground_lake/underground_lake.contract');
+const itemLavaCavePath = path.join(targetInkDir, 'lava_cave/lava_cave.contract');
+const itemWhisperingCavePath = path.join(targetInkDir, 'whispering_cave/whispering_cave.contract');
+const itemSubterraneanPoolPath = path.join(targetInkDir, 'subterranean_pool/subterranean_pool.contract');
 const itemSpringPath = path.join(targetInkDir, 'spring/spring.contract');
-const itemHotSpringPath = path.join(targetInkDir, 'hot-spring/hot-spring.contract');
+const itemHotSpringPath = path.join(targetInkDir, 'hot_spring/hot_spring.contract');
 const itemGrottoPath = path.join(targetInkDir, 'grotto/grotto.contract');
 const itemFountainPath = path.join(targetInkDir, 'fountain/fountain.contract');
-const itemSteamVentPath = path.join(targetInkDir, 'steam-vent/steam-vent.contract');
-const itemCoolBreezePath = path.join(targetInkDir, 'cool-breeze/cool-breeze.contract');
+const itemSteamVentPath = path.join(targetInkDir, 'steam_vent/steam_vent.contract');
+const itemCoolBreezePath = path.join(targetInkDir, 'cool_breeze/cool_breeze.contract');
 const itemMonumentPath = path.join(targetInkDir, 'monument/monument.contract');
 const itemWaterfallPath = path.join(targetInkDir, 'waterfall/waterfall.contract');
-const itemEternalFlamePath = path.join(targetInkDir, 'eternal-flame/eternal-flame.contract');
-const itemPillarOfWindPath = path.join(targetInkDir, 'pillar-of-wind/pillar-of-wind.contract');
+const itemEternalFlamePath = path.join(targetInkDir, 'eternal_flame/eternal_flame.contract');
+const itemPillarOfWindPath = path.join(targetInkDir, 'pillar_of_wind/pillar_of_wind.contract');
 const itemStreamPath = path.join(targetInkDir, 'stream/stream.contract');
 const itemZephyrPath = path.join(targetInkDir, 'zephyr/zephyr.contract');
 const itemCreekPath = path.join(targetInkDir, 'creek/creek.contract');
@@ -179,15 +179,15 @@ const itemTributaryPath = path.join(targetInkDir, 'tributary/tributary.contract'
 const itemMurmurPath = path.join(targetInkDir, 'murmur/murmur.contract');
 const itemWatershedPath = path.join(targetInkDir, 'watershed/watershed.contract');
 const itemAquiferPath = path.join(targetInkDir, 'aquifer/aquifer.contract');
-const itemParchedEarthPath = path.join(targetInkDir, 'parched-earth/parched-earth.contract');
-const itemFreshBreezePath = path.join(targetInkDir, 'fresh-breeze/fresh-breeze.contract');
+const itemParchedEarthPath = path.join(targetInkDir, 'parched_earth/parched_earth.contract');
+const itemFreshBreezePath = path.join(targetInkDir, 'fresh_breeze/fresh_breeze.contract');
 const itemGroundwaterPath = path.join(targetInkDir, 'groundwater/groundwater.contract');
 const itemReservoirPath = path.join(targetInkDir, 'reservoir/reservoir.contract');
-const itemGeothermalSpringPath = path.join(targetInkDir, 'geothermal-spring/geothermal-spring.contract');
-const itemArtesianWellPath = path.join(targetInkDir, 'artesian-well/artesian-well.contract');
+const itemGeothermalSpringPath = path.join(targetInkDir, 'geothermal_spring/geothermal_spring.contract');
+const itemArtesianWellPath = path.join(targetInkDir, 'artesian_well/artesian_well.contract');
 const itemBasinPath = path.join(targetInkDir, 'basin/basin.contract');
 const itemLakePath = path.join(targetInkDir, 'lake/lake.contract');
-const itemDryBasinPath = path.join(targetInkDir, 'dry-basin/dry-basin.contract');
+const itemDryBasinPath = path.join(targetInkDir, 'dry_basin/dry_basin.contract');
 const itemDepressionPath = path.join(targetInkDir, 'depression/depression.contract');
 const itemIslandPath = path.join(targetInkDir, 'island/island.contract');
 const itemLagoonPath = path.join(targetInkDir, 'lagoon/lagoon.contract');
@@ -238,10 +238,10 @@ if(fs.existsSync(itemHydraPath)) {
     console.log(`hydra not found`);
 }
 if(fs.existsSync(itemMonkeyBranchPath)) {
-    console.log(`Copying monkey-branch ...`);
-    fs.copyFileSync(itemMonkeyBranchPath, path.join(contractsV1Dir, 'monkey-branch.contract.json'));
+    console.log(`Copying monkey_branch ...`);
+    fs.copyFileSync(itemMonkeyBranchPath, path.join(contractsV1Dir, 'monkey_branch.contract.json'));
 } else {
-    console.log(`monkey-branch not found`);
+    console.log(`monkey_branch not found`);
 }
 if(fs.existsSync(itemBridgePath)) {
     console.log(`Copying bridge ...`);
@@ -250,10 +250,10 @@ if(fs.existsSync(itemBridgePath)) {
     console.log(`bridge not found`);
 }
 if(fs.existsSync(itemGoldenGatePath)) {
-    console.log(`Copying golden-gate ...`);
-    fs.copyFileSync(itemGoldenGatePath, path.join(contractsV1Dir, 'golden-gate.contract.json'));
+    console.log(`Copying golden_gate ...`);
+    fs.copyFileSync(itemGoldenGatePath, path.join(contractsV1Dir, 'golden_gate.contract.json'));
 } else {
-    console.log(`golden-gate not found`);
+    console.log(`golden_gate not found`);
 }
 if(fs.existsSync(itemGoldPath)) {
     console.log(`Copying gold ...`);
@@ -304,10 +304,10 @@ if(fs.existsSync(itemPolkadotPath)) {
     console.log(`polkadot not found`);
 }
 if(fs.existsSync(itemPeerReviewPath)) {
-    console.log(`Copying peer-review ...`);
-    fs.copyFileSync(itemPeerReviewPath, path.join(contractsV1Dir, 'peer-review.contract.json'));
+    console.log(`Copying peer_review ...`);
+    fs.copyFileSync(itemPeerReviewPath, path.join(contractsV1Dir, 'peer_review.contract.json'));
 } else {
-    console.log(`peer-review not found`);
+    console.log(`peer_review not found`);
 }
 if(fs.existsSync(itemCardanoPath)) {
     console.log(`Copying cardano ...`);
@@ -340,16 +340,16 @@ if(fs.existsSync(itemMarmaladePath)) {
     console.log(`marmalade not found`);
 }
 if(fs.existsSync(itemSuperMarmaladePath)) {
-    console.log(`Copying super-marmalade ...`);
-    fs.copyFileSync(itemSuperMarmaladePath, path.join(contractsV1Dir, 'super-marmalade.contract.json'));
+    console.log(`Copying super_marmalade ...`);
+    fs.copyFileSync(itemSuperMarmaladePath, path.join(contractsV1Dir, 'super_marmalade.contract.json'));
 } else {
-    console.log(`super-marmalade not found`);
+    console.log(`super_marmalade not found`);
 }
 if(fs.existsSync(itemHyperMarmaladePath)) {
-    console.log(`Copying hyper-marmalade ...`);
-    fs.copyFileSync(itemHyperMarmaladePath, path.join(contractsV1Dir, 'hyper-marmalade.contract.json'));
+    console.log(`Copying hyper_marmalade ...`);
+    fs.copyFileSync(itemHyperMarmaladePath, path.join(contractsV1Dir, 'hyper_marmalade.contract.json'));
 } else {
-    console.log(`hyper-marmalade not found`);
+    console.log(`hyper_marmalade not found`);
 }
 if(fs.existsSync(itemWaterPath)) {
     console.log(`Copying water ...`);
@@ -556,10 +556,10 @@ if(fs.existsSync(itemJunglePath)) {
     console.log(`jungle not found`);
 }
 if(fs.existsSync(itemFrostedGlassPath)) {
-    console.log(`Copying frosted-glass ...`);
-    fs.copyFileSync(itemFrostedGlassPath, path.join(contractsV1Dir, 'frosted-glass.contract.json'));
+    console.log(`Copying frosted_glass ...`);
+    fs.copyFileSync(itemFrostedGlassPath, path.join(contractsV1Dir, 'frosted_glass.contract.json'));
 } else {
-    console.log(`frosted-glass not found`);
+    console.log(`frosted_glass not found`);
 }
 if(fs.existsSync(itemCrystalPath)) {
     console.log(`Copying crystal ...`);
@@ -706,10 +706,10 @@ if(fs.existsSync(itemBasaltPath)) {
     console.log(`basalt not found`);
 }
 if(fs.existsSync(itemMagmaChamberPath)) {
-    console.log(`Copying magma-chamber ...`);
-    fs.copyFileSync(itemMagmaChamberPath, path.join(contractsV1Dir, 'magma-chamber.contract.json'));
+    console.log(`Copying magma_chamber ...`);
+    fs.copyFileSync(itemMagmaChamberPath, path.join(contractsV1Dir, 'magma_chamber.contract.json'));
 } else {
-    console.log(`magma-chamber not found`);
+    console.log(`magma_chamber not found`);
 }
 if(fs.existsSync(itemBreezePath)) {
     console.log(`Copying breeze ...`);
@@ -718,10 +718,10 @@ if(fs.existsSync(itemBreezePath)) {
     console.log(`breeze not found`);
 }
 if(fs.existsSync(itemWarmBreezePath)) {
-    console.log(`Copying warm-breeze ...`);
-    fs.copyFileSync(itemWarmBreezePath, path.join(contractsV1Dir, 'warm-breeze.contract.json'));
+    console.log(`Copying warm_breeze ...`);
+    fs.copyFileSync(itemWarmBreezePath, path.join(contractsV1Dir, 'warm_breeze.contract.json'));
 } else {
-    console.log(`warm-breeze not found`);
+    console.log(`warm_breeze not found`);
 }
 if(fs.existsSync(itemSoilPath)) {
     console.log(`Copying soil ...`);
@@ -778,10 +778,10 @@ if(fs.existsSync(itemShardsPath)) {
     console.log(`shards not found`);
 }
 if(fs.existsSync(itemMoltenGlassPath)) {
-    console.log(`Copying molten-glass ...`);
-    fs.copyFileSync(itemMoltenGlassPath, path.join(contractsV1Dir, 'molten-glass.contract.json'));
+    console.log(`Copying molten_glass ...`);
+    fs.copyFileSync(itemMoltenGlassPath, path.join(contractsV1Dir, 'molten_glass.contract.json'));
 } else {
-    console.log(`molten-glass not found`);
+    console.log(`molten_glass not found`);
 }
 if(fs.existsSync(itemPrismPath)) {
     console.log(`Copying prism ...`);
@@ -814,10 +814,10 @@ if(fs.existsSync(itemMiragePath)) {
     console.log(`mirage not found`);
 }
 if(fs.existsSync(itemSandDunePath)) {
-    console.log(`Copying sand-dune ...`);
-    fs.copyFileSync(itemSandDunePath, path.join(contractsV1Dir, 'sand-dune.contract.json'));
+    console.log(`Copying sand_dune ...`);
+    fs.copyFileSync(itemSandDunePath, path.join(contractsV1Dir, 'sand_dune.contract.json'));
 } else {
-    console.log(`sand-dune not found`);
+    console.log(`sand_dune not found`);
 }
 if(fs.existsSync(itemDamPath)) {
     console.log(`Copying dam ...`);
@@ -874,10 +874,10 @@ if(fs.existsSync(itemSpreadPath)) {
     console.log(`spread not found`);
 }
 if(fs.existsSync(itemFertileLandPath)) {
-    console.log(`Copying fertile-land ...`);
-    fs.copyFileSync(itemFertileLandPath, path.join(contractsV1Dir, 'fertile-land.contract.json'));
+    console.log(`Copying fertile_land ...`);
+    fs.copyFileSync(itemFertileLandPath, path.join(contractsV1Dir, 'fertile_land.contract.json'));
 } else {
-    console.log(`fertile-land not found`);
+    console.log(`fertile_land not found`);
 }
 if(fs.existsSync(itemWetlandPath)) {
     console.log(`Copying wetland ...`);
@@ -910,10 +910,10 @@ if(fs.existsSync(itemRiverPath)) {
     console.log(`river not found`);
 }
 if(fs.existsSync(itemScorchedEarthPath)) {
-    console.log(`Copying scorched-earth ...`);
-    fs.copyFileSync(itemScorchedEarthPath, path.join(contractsV1Dir, 'scorched-earth.contract.json'));
+    console.log(`Copying scorched_earth ...`);
+    fs.copyFileSync(itemScorchedEarthPath, path.join(contractsV1Dir, 'scorched_earth.contract.json'));
 } else {
-    console.log(`scorched-earth not found`);
+    console.log(`scorched_earth not found`);
 }
 if(fs.existsSync(itemDeltaPath)) {
     console.log(`Copying delta ...`);
@@ -928,10 +928,10 @@ if(fs.existsSync(itemEstuaryPath)) {
     console.log(`estuary not found`);
 }
 if(fs.existsSync(itemFireSwampPath)) {
-    console.log(`Copying fire-swamp ...`);
-    fs.copyFileSync(itemFireSwampPath, path.join(contractsV1Dir, 'fire-swamp.contract.json'));
+    console.log(`Copying fire_swamp ...`);
+    fs.copyFileSync(itemFireSwampPath, path.join(contractsV1Dir, 'fire_swamp.contract.json'));
 } else {
-    console.log(`fire-swamp not found`);
+    console.log(`fire_swamp not found`);
 }
 if(fs.existsSync(itemRiverbankPath)) {
     console.log(`Copying riverbank ...`);
@@ -952,10 +952,10 @@ if(fs.existsSync(itemGorgePath)) {
     console.log(`gorge not found`);
 }
 if(fs.existsSync(itemCharredRavinePath)) {
-    console.log(`Copying charred-ravine ...`);
-    fs.copyFileSync(itemCharredRavinePath, path.join(contractsV1Dir, 'charred-ravine.contract.json'));
+    console.log(`Copying charred_ravine ...`);
+    fs.copyFileSync(itemCharredRavinePath, path.join(contractsV1Dir, 'charred_ravine.contract.json'));
 } else {
-    console.log(`charred-ravine not found`);
+    console.log(`charred_ravine not found`);
 }
 if(fs.existsSync(itemEchoPath)) {
     console.log(`Copying echo ...`);
@@ -970,28 +970,28 @@ if(fs.existsSync(itemCavePath)) {
     console.log(`cave not found`);
 }
 if(fs.existsSync(itemUndergroundLakePath)) {
-    console.log(`Copying underground-lake ...`);
-    fs.copyFileSync(itemUndergroundLakePath, path.join(contractsV1Dir, 'underground-lake.contract.json'));
+    console.log(`Copying underground_lake ...`);
+    fs.copyFileSync(itemUndergroundLakePath, path.join(contractsV1Dir, 'underground_lake.contract.json'));
 } else {
-    console.log(`underground-lake not found`);
+    console.log(`underground_lake not found`);
 }
 if(fs.existsSync(itemLavaCavePath)) {
-    console.log(`Copying lava-cave ...`);
-    fs.copyFileSync(itemLavaCavePath, path.join(contractsV1Dir, 'lava-cave.contract.json'));
+    console.log(`Copying lava_cave ...`);
+    fs.copyFileSync(itemLavaCavePath, path.join(contractsV1Dir, 'lava_cave.contract.json'));
 } else {
-    console.log(`lava-cave not found`);
+    console.log(`lava_cave not found`);
 }
 if(fs.existsSync(itemWhisperingCavePath)) {
-    console.log(`Copying whispering-cave ...`);
-    fs.copyFileSync(itemWhisperingCavePath, path.join(contractsV1Dir, 'whispering-cave.contract.json'));
+    console.log(`Copying whispering_cave ...`);
+    fs.copyFileSync(itemWhisperingCavePath, path.join(contractsV1Dir, 'whispering_cave.contract.json'));
 } else {
-    console.log(`whispering-cave not found`);
+    console.log(`whispering_cave not found`);
 }
 if(fs.existsSync(itemSubterraneanPoolPath)) {
-    console.log(`Copying subterranean-pool ...`);
-    fs.copyFileSync(itemSubterraneanPoolPath, path.join(contractsV1Dir, 'subterranean-pool.contract.json'));
+    console.log(`Copying subterranean_pool ...`);
+    fs.copyFileSync(itemSubterraneanPoolPath, path.join(contractsV1Dir, 'subterranean_pool.contract.json'));
 } else {
-    console.log(`subterranean-pool not found`);
+    console.log(`subterranean_pool not found`);
 }
 if(fs.existsSync(itemSpringPath)) {
     console.log(`Copying spring ...`);
@@ -1000,10 +1000,10 @@ if(fs.existsSync(itemSpringPath)) {
     console.log(`spring not found`);
 }
 if(fs.existsSync(itemHotSpringPath)) {
-    console.log(`Copying hot-spring ...`);
-    fs.copyFileSync(itemHotSpringPath, path.join(contractsV1Dir, 'hot-spring.contract.json'));
+    console.log(`Copying hot_spring ...`);
+    fs.copyFileSync(itemHotSpringPath, path.join(contractsV1Dir, 'hot_spring.contract.json'));
 } else {
-    console.log(`hot-spring not found`);
+    console.log(`hot_spring not found`);
 }
 if(fs.existsSync(itemGrottoPath)) {
     console.log(`Copying grotto ...`);
@@ -1018,16 +1018,16 @@ if(fs.existsSync(itemFountainPath)) {
     console.log(`fountain not found`);
 }
 if(fs.existsSync(itemSteamVentPath)) {
-    console.log(`Copying steam-vent ...`);
-    fs.copyFileSync(itemSteamVentPath, path.join(contractsV1Dir, 'steam-vent.contract.json'));
+    console.log(`Copying steam_vent ...`);
+    fs.copyFileSync(itemSteamVentPath, path.join(contractsV1Dir, 'steam_vent.contract.json'));
 } else {
-    console.log(`steam-vent not found`);
+    console.log(`steam_vent not found`);
 }
 if(fs.existsSync(itemCoolBreezePath)) {
-    console.log(`Copying cool-breeze ...`);
-    fs.copyFileSync(itemCoolBreezePath, path.join(contractsV1Dir, 'cool-breeze.contract.json'));
+    console.log(`Copying cool_breeze ...`);
+    fs.copyFileSync(itemCoolBreezePath, path.join(contractsV1Dir, 'cool_breeze.contract.json'));
 } else {
-    console.log(`cool-breeze not found`);
+    console.log(`cool_breeze not found`);
 }
 if(fs.existsSync(itemMonumentPath)) {
     console.log(`Copying monument ...`);
@@ -1042,16 +1042,16 @@ if(fs.existsSync(itemWaterfallPath)) {
     console.log(`waterfall not found`);
 }
 if(fs.existsSync(itemEternalFlamePath)) {
-    console.log(`Copying eternal-flame ...`);
-    fs.copyFileSync(itemEternalFlamePath, path.join(contractsV1Dir, 'eternal-flame.contract.json'));
+    console.log(`Copying eternal_flame ...`);
+    fs.copyFileSync(itemEternalFlamePath, path.join(contractsV1Dir, 'eternal_flame.contract.json'));
 } else {
-    console.log(`eternal-flame not found`);
+    console.log(`eternal_flame not found`);
 }
 if(fs.existsSync(itemPillarOfWindPath)) {
-    console.log(`Copying pillar-of-wind ...`);
-    fs.copyFileSync(itemPillarOfWindPath, path.join(contractsV1Dir, 'pillar-of-wind.contract.json'));
+    console.log(`Copying pillar_of_wind ...`);
+    fs.copyFileSync(itemPillarOfWindPath, path.join(contractsV1Dir, 'pillar_of_wind.contract.json'));
 } else {
-    console.log(`pillar-of-wind not found`);
+    console.log(`pillar_of_wind not found`);
 }
 if(fs.existsSync(itemStreamPath)) {
     console.log(`Copying stream ...`);
@@ -1114,16 +1114,16 @@ if(fs.existsSync(itemAquiferPath)) {
     console.log(`aquifer not found`);
 }
 if(fs.existsSync(itemParchedEarthPath)) {
-    console.log(`Copying parched-earth ...`);
-    fs.copyFileSync(itemParchedEarthPath, path.join(contractsV1Dir, 'parched-earth.contract.json'));
+    console.log(`Copying parched_earth ...`);
+    fs.copyFileSync(itemParchedEarthPath, path.join(contractsV1Dir, 'parched_earth.contract.json'));
 } else {
-    console.log(`parched-earth not found`);
+    console.log(`parched_earth not found`);
 }
 if(fs.existsSync(itemFreshBreezePath)) {
-    console.log(`Copying fresh-breeze ...`);
-    fs.copyFileSync(itemFreshBreezePath, path.join(contractsV1Dir, 'fresh-breeze.contract.json'));
+    console.log(`Copying fresh_breeze ...`);
+    fs.copyFileSync(itemFreshBreezePath, path.join(contractsV1Dir, 'fresh_breeze.contract.json'));
 } else {
-    console.log(`fresh-breeze not found`);
+    console.log(`fresh_breeze not found`);
 }
 if(fs.existsSync(itemGroundwaterPath)) {
     console.log(`Copying groundwater ...`);
@@ -1138,16 +1138,16 @@ if(fs.existsSync(itemReservoirPath)) {
     console.log(`reservoir not found`);
 }
 if(fs.existsSync(itemGeothermalSpringPath)) {
-    console.log(`Copying geothermal-spring ...`);
-    fs.copyFileSync(itemGeothermalSpringPath, path.join(contractsV1Dir, 'geothermal-spring.contract.json'));
+    console.log(`Copying geothermal_spring ...`);
+    fs.copyFileSync(itemGeothermalSpringPath, path.join(contractsV1Dir, 'geothermal_spring.contract.json'));
 } else {
-    console.log(`geothermal-spring not found`);
+    console.log(`geothermal_spring not found`);
 }
 if(fs.existsSync(itemArtesianWellPath)) {
-    console.log(`Copying artesian-well ...`);
-    fs.copyFileSync(itemArtesianWellPath, path.join(contractsV1Dir, 'artesian-well.contract.json'));
+    console.log(`Copying artesian_well ...`);
+    fs.copyFileSync(itemArtesianWellPath, path.join(contractsV1Dir, 'artesian_well.contract.json'));
 } else {
-    console.log(`artesian-well not found`);
+    console.log(`artesian_well not found`);
 }
 if(fs.existsSync(itemBasinPath)) {
     console.log(`Copying basin ...`);
@@ -1162,10 +1162,10 @@ if(fs.existsSync(itemLakePath)) {
     console.log(`lake not found`);
 }
 if(fs.existsSync(itemDryBasinPath)) {
-    console.log(`Copying dry-basin ...`);
-    fs.copyFileSync(itemDryBasinPath, path.join(contractsV1Dir, 'dry-basin.contract.json'));
+    console.log(`Copying dry_basin ...`);
+    fs.copyFileSync(itemDryBasinPath, path.join(contractsV1Dir, 'dry_basin.contract.json'));
 } else {
-    console.log(`dry-basin not found`);
+    console.log(`dry_basin not found`);
 }
 if(fs.existsSync(itemDepressionPath)) {
     console.log(`Copying depression ...`);

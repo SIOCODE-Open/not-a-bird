@@ -36,26 +36,26 @@ if(!fs.existsSync(contractsV1Dir)) {
 }
 
 {{#each items}}
-const item{{pascalCase name}}Path = path.join(targetInkDir, '{{kebabCase name}}/{{kebabCase name}}.contract');
+const item{{pascalCase name}}Path = path.join(targetInkDir, '{{snakeCase name}}/{{snakeCase name}}.contract');
 {{/each}}
 {{#each games}}
-const game{{pascalCase name}}Path = path.join(targetInkDir, '{{kebabCase name}}/{{kebabCase name}}.contract');
+const game{{pascalCase name}}Path = path.join(targetInkDir, '{{snakeCase name}}/{{snakeCase name}}.contract');
 {{/each}}
 
 {{#each items}}
 if(fs.existsSync(item{{pascalCase name}}Path)) {
-    console.log(`Copying {{kebabCase name}} ...`);
-    fs.copyFileSync(item{{pascalCase name}}Path, path.join(contractsV1Dir, '{{kebabCase name}}.contract.json'));
+    console.log(`Copying {{snakeCase name}} ...`);
+    fs.copyFileSync(item{{pascalCase name}}Path, path.join(contractsV1Dir, '{{snakeCase name}}.contract.json'));
 } else {
-    console.log(`{{kebabCase name}} not found`);
+    console.log(`{{snakeCase name}} not found`);
 }
 {{/each}}
 
 {{#each games}}
 if(fs.existsSync(game{{pascalCase name}}Path)) {
-    console.log(`Copying {{kebabCase name}} ...`);
-    fs.copyFileSync(game{{pascalCase name}}Path, path.join(contractsV1Dir, '{{kebabCase name}}.contract.json'));
+    console.log(`Copying {{snakeCase name}} ...`);
+    fs.copyFileSync(game{{pascalCase name}}Path, path.join(contractsV1Dir, '{{snakeCase name}}.contract.json'));
 } else {
-    console.log(`{{kebabCase name}} not found`);
+    console.log(`{{snakeCase name}} not found`);
 }
 {{/each}}
