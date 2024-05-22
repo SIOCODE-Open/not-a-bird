@@ -359,9 +359,9 @@
             "index": 58
         },
         {
-            "name": "Frosted",
+            "name": "Frosted Glass",
             "description": "We need a description here",
-            "item": "items#Frosted",
+            "item": "items#Frosted Glass",
             "index": 59
         },
         {
@@ -509,490 +509,532 @@
             "index": 83
         },
         {
-            "name": "Breeze",
+            "name": "Magma Chamber",
             "description": "We need a description here",
-            "item": "items#Breeze",
+            "item": "items#Magma Chamber",
             "index": 84
         },
         {
-            "name": "Warm",
+            "name": "Breeze",
             "description": "We need a description here",
-            "item": "items#Warm",
+            "item": "items#Breeze",
             "index": 85
+        },
+        {
+            "name": "Warm Breeze",
+            "description": "We need a description here",
+            "item": "items#Warm Breeze",
+            "index": 86
         },
         {
             "name": "Soil",
             "description": "We need a description here",
             "item": "items#Soil",
-            "index": 86
+            "index": 87
         },
         {
             "name": "Canyon",
             "description": "We need a description here",
             "item": "items#Canyon",
-            "index": 87
+            "index": 88
         },
         {
             "name": "Windmill",
             "description": "We need a description here",
             "item": "items#Windmill",
-            "index": 88
+            "index": 89
         },
         {
             "name": "Adobe",
             "description": "We need a description here",
             "item": "items#Adobe",
-            "index": 89
+            "index": 90
         },
         {
             "name": "Wall",
             "description": "We need a description here",
             "item": "items#Wall",
-            "index": 90
+            "index": 91
         },
         {
             "name": "Pumice",
             "description": "We need a description here",
             "item": "items#Pumice",
-            "index": 91
+            "index": 92
         },
         {
             "name": "Barbecue",
             "description": "We need a description here",
             "item": "items#Barbecue",
-            "index": 92
+            "index": 93
         },
         {
             "name": "Farm",
             "description": "We need a description here",
             "item": "items#Farm",
-            "index": 93
+            "index": 94
         },
         {
             "name": "Shards",
             "description": "We need a description here",
             "item": "items#Shards",
-            "index": 94
+            "index": 95
         },
         {
-            "name": "Molten",
+            "name": "Molten Glass",
             "description": "We need a description here",
-            "item": "items#Molten",
-            "index": 95
+            "item": "items#Molten Glass",
+            "index": 96
         },
         {
             "name": "Prism",
             "description": "We need a description here",
             "item": "items#Prism",
-            "index": 96
+            "index": 97
         },
         {
             "name": "Sparkle",
             "description": "We need a description here",
             "item": "items#Sparkle",
-            "index": 97
+            "index": 98
         },
         {
             "name": "Desert",
             "description": "We need a description here",
             "item": "items#Desert",
-            "index": 98
+            "index": 99
         },
         {
             "name": "Oasis",
             "description": "We need a description here",
             "item": "items#Oasis",
-            "index": 99
+            "index": 100
         },
         {
             "name": "Mirage",
             "description": "We need a description here",
             "item": "items#Mirage",
-            "index": 100
+            "index": 101
+        },
+        {
+            "name": "Sand Dune",
+            "description": "We need a description here",
+            "item": "items#Sand Dune",
+            "index": 102
         },
         {
             "name": "Dam",
             "description": "We need a description here",
             "item": "items#Dam",
-            "index": 101
+            "index": 103
         },
         {
             "name": "Firewall",
             "description": "We need a description here",
             "item": "items#Firewall",
-            "index": 102
+            "index": 104
         },
         {
             "name": "Barricade",
             "description": "We need a description here",
             "item": "items#Barricade",
-            "index": 103
+            "index": 105
         },
         {
             "name": "Plateau",
             "description": "We need a description here",
             "item": "items#Plateau",
-            "index": 104
+            "index": 106
         },
         {
             "name": "Pond",
             "description": "We need a description here",
             "item": "items#Pond",
-            "index": 105
+            "index": 107
         },
         {
             "name": "Aromas",
             "description": "We need a description here",
             "item": "items#Aromas",
-            "index": 106
+            "index": 108
         },
         {
             "name": "Flower",
             "description": "We need a description here",
             "item": "items#Flower",
-            "index": 107
+            "index": 109
         },
         {
             "name": "Spore",
             "description": "We need a description here",
             "item": "items#Spore",
-            "index": 108
+            "index": 110
         },
         {
             "name": "Spread",
             "description": "We need a description here",
             "item": "items#Spread",
-            "index": 109
+            "index": 111
         },
         {
-            "name": "Fertile",
+            "name": "Fertile Land",
             "description": "We need a description here",
-            "item": "items#Fertile",
-            "index": 110
+            "item": "items#Fertile Land",
+            "index": 112
         },
         {
             "name": "Wetland",
             "description": "We need a description here",
             "item": "items#Wetland",
-            "index": 111
+            "index": 113
         },
         {
             "name": "Peat",
             "description": "We need a description here",
             "item": "items#Peat",
-            "index": 112
+            "index": 114
         },
         {
             "name": "Reeds",
             "description": "We need a description here",
             "item": "items#Reeds",
-            "index": 113
+            "index": 115
         },
         {
             "name": "Valley",
             "description": "We need a description here",
             "item": "items#Valley",
-            "index": 114
+            "index": 116
         },
         {
             "name": "River",
             "description": "We need a description here",
             "item": "items#River",
-            "index": 115
+            "index": 117
         },
         {
-            "name": "Scorched",
+            "name": "Scorched Earth",
             "description": "We need a description here",
-            "item": "items#Scorched",
-            "index": 116
+            "item": "items#Scorched Earth",
+            "index": 118
         },
         {
             "name": "Delta",
             "description": "We need a description here",
             "item": "items#Delta",
-            "index": 117
+            "index": 119
         },
         {
             "name": "Estuary",
             "description": "We need a description here",
             "item": "items#Estuary",
-            "index": 118
+            "index": 120
+        },
+        {
+            "name": "Fire Swamp",
+            "description": "We need a description here",
+            "item": "items#Fire Swamp",
+            "index": 121
         },
         {
             "name": "Riverbank",
             "description": "We need a description here",
             "item": "items#Riverbank",
-            "index": 119
+            "index": 122
         },
         {
             "name": "Ravine",
             "description": "We need a description here",
             "item": "items#Ravine",
-            "index": 120
+            "index": 123
         },
         {
             "name": "Gorge",
             "description": "We need a description here",
             "item": "items#Gorge",
-            "index": 121
+            "index": 124
         },
         {
-            "name": "Charred",
+            "name": "Charred Ravine",
             "description": "We need a description here",
-            "item": "items#Charred",
-            "index": 122
+            "item": "items#Charred Ravine",
+            "index": 125
         },
         {
             "name": "Echo",
             "description": "We need a description here",
             "item": "items#Echo",
-            "index": 123
+            "index": 126
         },
         {
             "name": "Cave",
             "description": "We need a description here",
             "item": "items#Cave",
-            "index": 124
+            "index": 127
         },
         {
-            "name": "Underground",
+            "name": "Underground Lake",
             "description": "We need a description here",
-            "item": "items#Underground",
-            "index": 125
+            "item": "items#Underground Lake",
+            "index": 128
         },
         {
-            "name": "Whispering",
+            "name": "Lava Cave",
             "description": "We need a description here",
-            "item": "items#Whispering",
-            "index": 126
+            "item": "items#Lava Cave",
+            "index": 129
+        },
+        {
+            "name": "Whispering Cave",
+            "description": "We need a description here",
+            "item": "items#Whispering Cave",
+            "index": 130
+        },
+        {
+            "name": "Subterranean Pool",
+            "description": "We need a description here",
+            "item": "items#Subterranean Pool",
+            "index": 131
         },
         {
             "name": "Spring",
             "description": "We need a description here",
             "item": "items#Spring",
-            "index": 127
+            "index": 132
+        },
+        {
+            "name": "Hot Spring",
+            "description": "We need a description here",
+            "item": "items#Hot Spring",
+            "index": 133
+        },
+        {
+            "name": "Grotto",
+            "description": "We need a description here",
+            "item": "items#Grotto",
+            "index": 134
         },
         {
             "name": "Fountain",
             "description": "We need a description here",
             "item": "items#Fountain",
-            "index": 128
+            "index": 135
         },
         {
-            "name": "Cool",
+            "name": "Steam Vent",
             "description": "We need a description here",
-            "item": "items#Cool",
-            "index": 129
+            "item": "items#Steam Vent",
+            "index": 136
+        },
+        {
+            "name": "Cool Breeze",
+            "description": "We need a description here",
+            "item": "items#Cool Breeze",
+            "index": 137
         },
         {
             "name": "Monument",
             "description": "We need a description here",
             "item": "items#Monument",
-            "index": 130
+            "index": 138
         },
         {
             "name": "Waterfall",
             "description": "We need a description here",
             "item": "items#Waterfall",
-            "index": 131
+            "index": 139
         },
         {
-            "name": "Eternal",
+            "name": "Eternal Flame",
             "description": "We need a description here",
-            "item": "items#Eternal",
-            "index": 132
+            "item": "items#Eternal Flame",
+            "index": 140
         },
         {
-            "name": "Pillar",
+            "name": "Pillar of Wind",
             "description": "We need a description here",
-            "item": "items#Pillar",
-            "index": 133
+            "item": "items#Pillar of Wind",
+            "index": 141
         },
         {
             "name": "Stream",
             "description": "We need a description here",
             "item": "items#Stream",
-            "index": 134
+            "index": 142
         },
         {
             "name": "Zephyr",
             "description": "We need a description here",
             "item": "items#Zephyr",
-            "index": 135
+            "index": 143
         },
         {
             "name": "Creek",
             "description": "We need a description here",
             "item": "items#Creek",
-            "index": 136
+            "index": 144
         },
         {
             "name": "Brook",
             "description": "We need a description here",
             "item": "items#Brook",
-            "index": 137
+            "index": 145
         },
         {
             "name": "Whisper",
             "description": "We need a description here",
             "item": "items#Whisper",
-            "index": 138
+            "index": 146
         },
         {
             "name": "Rivulet",
             "description": "We need a description here",
             "item": "items#Rivulet",
-            "index": 139
+            "index": 147
         },
         {
             "name": "Tributary",
             "description": "We need a description here",
             "item": "items#Tributary",
-            "index": 140
+            "index": 148
         },
         {
             "name": "Murmur",
             "description": "We need a description here",
             "item": "items#Murmur",
-            "index": 141
+            "index": 149
         },
         {
             "name": "Watershed",
             "description": "We need a description here",
             "item": "items#Watershed",
-            "index": 142
+            "index": 150
         },
         {
             "name": "Aquifer",
             "description": "We need a description here",
             "item": "items#Aquifer",
-            "index": 143
+            "index": 151
         },
         {
-            "name": "Parched",
+            "name": "Parched Earth",
             "description": "We need a description here",
-            "item": "items#Parched",
-            "index": 144
+            "item": "items#Parched Earth",
+            "index": 152
         },
         {
-            "name": "Fresh",
+            "name": "Fresh Breeze",
             "description": "We need a description here",
-            "item": "items#Fresh",
-            "index": 145
+            "item": "items#Fresh Breeze",
+            "index": 153
         },
         {
             "name": "Groundwater",
             "description": "We need a description here",
             "item": "items#Groundwater",
-            "index": 146
+            "index": 154
         },
         {
             "name": "Reservoir",
             "description": "We need a description here",
             "item": "items#Reservoir",
-            "index": 147
+            "index": 155
         },
         {
-            "name": "Geothermal",
+            "name": "Geothermal Spring",
             "description": "We need a description here",
-            "item": "items#Geothermal",
-            "index": 148
+            "item": "items#Geothermal Spring",
+            "index": 156
         },
         {
-            "name": "Artesian",
+            "name": "Artesian Well",
             "description": "We need a description here",
-            "item": "items#Artesian",
-            "index": 149
+            "item": "items#Artesian Well",
+            "index": 157
         },
         {
             "name": "Basin",
             "description": "We need a description here",
             "item": "items#Basin",
-            "index": 150
+            "index": 158
         },
         {
             "name": "Lake",
             "description": "We need a description here",
             "item": "items#Lake",
-            "index": 151
+            "index": 159
         },
         {
-            "name": "Dry",
+            "name": "Dry Basin",
             "description": "We need a description here",
-            "item": "items#Dry",
-            "index": 152
+            "item": "items#Dry Basin",
+            "index": 160
         },
         {
             "name": "Depression",
             "description": "We need a description here",
             "item": "items#Depression",
-            "index": 153
+            "index": 161
         },
         {
             "name": "Island",
             "description": "We need a description here",
             "item": "items#Island",
-            "index": 154
+            "index": 162
         },
         {
             "name": "Lagoon",
             "description": "We need a description here",
             "item": "items#Lagoon",
-            "index": 155
+            "index": 163
         },
         {
             "name": "Wave",
             "description": "We need a description here",
             "item": "items#Wave",
-            "index": 156
+            "index": 164
         },
         {
             "name": "Reef",
             "description": "We need a description here",
             "item": "items#Reef",
-            "index": 157
+            "index": 165
         },
         {
             "name": "Coral",
             "description": "We need a description here",
             "item": "items#Coral",
-            "index": 158
+            "index": 166
         },
         {
             "name": "Whirl",
             "description": "We need a description here",
             "item": "items#Whirl",
-            "index": 159
+            "index": 167
         },
         {
             "name": "Limestone",
             "description": "We need a description here",
             "item": "items#Limestone",
-            "index": 160
+            "index": 168
         },
         {
             "name": "Karst",
             "description": "We need a description here",
             "item": "items#Karst",
-            "index": 161
+            "index": 169
         },
         {
             "name": "Quicklime",
             "description": "We need a description here",
             "item": "items#Quicklime",
-            "index": 162
+            "index": 170
         },
         {
             "name": "Blowhole",
             "description": "We need a description here",
             "item": "items#Blowhole",
-            "index": 163
-        },
-        {
-            "name": "Hot",
-            "description": "We need a description here",
-            "item": "items#Hot",
-            "index": 164
+            "index": 171
         }
     ]
 }

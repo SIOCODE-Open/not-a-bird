@@ -1,0 +1,17 @@
+[package]
+name = "fertile_land"
+version = "0.0.1"
+authors = ["SIOCODE Llc. <info@siocode.hu>"]
+edition = "2021"
+
+[dependencies]
+ink = { workspace = true }
+
+
+[lib]
+path = "lib.rs"
+
+[features]
+default = ["std"]
+std = ["ink/std"]
+ink-as-dependency = []

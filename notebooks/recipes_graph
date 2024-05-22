@@ -155,7 +155,7 @@ digraph {
 	Recipe39 [shape=box]
 	Glass -> Recipe39
 	Water -> Recipe39
-	Recipe39 -> Frosted
+	Recipe39 -> "Frosted Glass"
 	Recipe40 [shape=box]
 	Glass -> Recipe40
 	Earth -> Recipe40
@@ -315,7 +315,7 @@ digraph {
 	Recipe79 [shape=box]
 	Earth -> Recipe79
 	Lava -> Recipe79
-	Recipe79 -> Magma
+	Recipe79 -> "Magma Chamber"
 	Recipe80 [shape=box]
 	Wind -> Recipe80
 	Dust -> Recipe80
@@ -323,7 +323,7 @@ digraph {
 	Recipe81 [shape=box]
 	Fire -> Recipe81
 	Breeze -> Recipe81
-	Recipe81 -> Warm
+	Recipe81 -> "Warm Breeze"
 	Recipe82 [shape=box]
 	Earth -> Recipe82
 	Plant -> Recipe82
@@ -387,7 +387,7 @@ digraph {
 	Recipe97 [shape=box]
 	Fire -> Recipe97
 	Crystal -> Recipe97
-	Recipe97 -> Molten
+	Recipe97 -> "Molten Glass"
 	Recipe98 [shape=box]
 	Water -> Recipe98
 	Crystal -> Recipe98
@@ -411,7 +411,7 @@ digraph {
 	Recipe103 [shape=box]
 	Wind -> Recipe103
 	Desert -> Recipe103
-	Recipe103 -> Sand
+	Recipe103 -> "Sand Dune"
 	Recipe104 [shape=box]
 	Water -> Recipe104
 	Wall -> Recipe104
@@ -459,325 +459,345 @@ digraph {
 	Recipe115 [shape=box]
 	Earth -> Recipe115
 	Soil -> Recipe115
-	Recipe115 -> Fertile
+	Recipe115 -> "Fertile Land"
 	Recipe116 [shape=box]
-	Fire -> Recipe116
-	Wetland -> Recipe116
-	Recipe116 -> Peat
+	Water -> Recipe116
+	"Fertile Land" -> Recipe116
+	Recipe116 -> Wetland
 	Recipe117 [shape=box]
-	Wind -> Recipe117
+	Fire -> Recipe117
 	Wetland -> Recipe117
-	Recipe117 -> Reeds
+	Recipe117 -> Peat
 	Recipe118 [shape=box]
-	Earth -> Recipe118
-	Canyon -> Recipe118
-	Recipe118 -> Valley
+	Wind -> Recipe118
+	Wetland -> Recipe118
+	Recipe118 -> Reeds
 	Recipe119 [shape=box]
-	Water -> Recipe119
-	Valley -> Recipe119
-	Recipe119 -> River
+	Earth -> Recipe119
+	Canyon -> Recipe119
+	Recipe119 -> Valley
 	Recipe120 [shape=box]
-	Fire -> Recipe120
+	Water -> Recipe120
 	Valley -> Recipe120
-	Recipe120 -> Scorched
+	Recipe120 -> River
 	Recipe121 [shape=box]
-	Wind -> Recipe121
+	Fire -> Recipe121
 	Valley -> Recipe121
-	Recipe121 -> Breeze
+	Recipe121 -> "Scorched Earth"
 	Recipe122 [shape=box]
-	Earth -> Recipe122
-	River -> Recipe122
-	Recipe122 -> Delta
+	Wind -> Recipe122
+	Valley -> Recipe122
+	Recipe122 -> Breeze
 	Recipe123 [shape=box]
-	Water -> Recipe123
-	Delta -> Recipe123
-	Recipe123 -> Estuary
+	Earth -> Recipe123
+	River -> Recipe123
+	Recipe123 -> Delta
 	Recipe124 [shape=box]
-	Fire -> Recipe124
+	Water -> Recipe124
 	Delta -> Recipe124
-	Recipe124 -> Fire
+	Recipe124 -> Estuary
 	Recipe125 [shape=box]
-	Wind -> Recipe125
+	Fire -> Recipe125
 	Delta -> Recipe125
-	Recipe125 -> Riverbank
+	Recipe125 -> "Fire Swamp"
 	Recipe126 [shape=box]
-	Earth -> Recipe126
-	Erosion -> Recipe126
-	Recipe126 -> Ravine
+	Wind -> Recipe126
+	Delta -> Recipe126
+	Recipe126 -> Riverbank
 	Recipe127 [shape=box]
-	Water -> Recipe127
-	Ravine -> Recipe127
-	Recipe127 -> Gorge
+	Earth -> Recipe127
+	Erosion -> Recipe127
+	Recipe127 -> Ravine
 	Recipe128 [shape=box]
-	Fire -> Recipe128
+	Water -> Recipe128
 	Ravine -> Recipe128
-	Recipe128 -> Charred
+	Recipe128 -> Gorge
 	Recipe129 [shape=box]
-	Wind -> Recipe129
+	Fire -> Recipe129
 	Ravine -> Recipe129
-	Recipe129 -> Echo
+	Recipe129 -> "Charred Ravine"
 	Recipe130 [shape=box]
-	Earth -> Recipe130
-	Echo -> Recipe130
-	Recipe130 -> Cave
+	Wind -> Recipe130
+	Ravine -> Recipe130
+	Recipe130 -> Echo
 	Recipe131 [shape=box]
-	Water -> Recipe131
-	Cave -> Recipe131
-	Recipe131 -> Underground
+	Earth -> Recipe131
+	Echo -> Recipe131
+	Recipe131 -> Cave
 	Recipe132 [shape=box]
-	Fire -> Recipe132
+	Water -> Recipe132
 	Cave -> Recipe132
-	Recipe132 -> Lava
+	Recipe132 -> "Underground Lake"
 	Recipe133 [shape=box]
-	Wind -> Recipe133
+	Fire -> Recipe133
 	Cave -> Recipe133
-	Recipe133 -> Whispering
+	Recipe133 -> "Lava Cave"
 	Recipe134 [shape=box]
-	Earth -> Recipe134
-	Spring -> Recipe134
-	Recipe134 -> Oasis
+	Wind -> Recipe134
+	Cave -> Recipe134
+	Recipe134 -> "Whispering Cave"
 	Recipe135 [shape=box]
-	Water -> Recipe135
-	Spring -> Recipe135
-	Recipe135 -> Fountain
+	Earth -> Recipe135
+	"Underground Lake" -> Recipe135
+	Recipe135 -> "Subterranean Pool"
 	Recipe136 [shape=box]
-	Fire -> Recipe136
-	Spring -> Recipe136
-	Recipe136 -> Steam
+	Water -> Recipe136
+	"Subterranean Pool" -> Recipe136
+	Recipe136 -> Spring
 	Recipe137 [shape=box]
-	Wind -> Recipe137
-	Spring -> Recipe137
-	Recipe137 -> Cool
+	Fire -> Recipe137
+	"Subterranean Pool" -> Recipe137
+	Recipe137 -> "Hot Spring"
 	Recipe138 [shape=box]
-	Earth -> Recipe138
-	Fountain -> Recipe138
-	Recipe138 -> Monument
+	Wind -> Recipe138
+	"Subterranean Pool" -> Recipe138
+	Recipe138 -> Grotto
 	Recipe139 [shape=box]
-	Water -> Recipe139
-	Monument -> Recipe139
-	Recipe139 -> Waterfall
+	Earth -> Recipe139
+	Spring -> Recipe139
+	Recipe139 -> Oasis
 	Recipe140 [shape=box]
-	Fire -> Recipe140
-	Monument -> Recipe140
-	Recipe140 -> Eternal
+	Water -> Recipe140
+	Spring -> Recipe140
+	Recipe140 -> Fountain
 	Recipe141 [shape=box]
-	Wind -> Recipe141
-	Monument -> Recipe141
-	Recipe141 -> Pillar
+	Fire -> Recipe141
+	Spring -> Recipe141
+	Recipe141 -> "Steam Vent"
 	Recipe142 [shape=box]
-	Earth -> Recipe142
-	Waterfall -> Recipe142
-	Recipe142 -> River
+	Wind -> Recipe142
+	Spring -> Recipe142
+	Recipe142 -> "Cool Breeze"
 	Recipe143 [shape=box]
-	Water -> Recipe143
-	River -> Recipe143
-	Recipe143 -> Stream
+	Earth -> Recipe143
+	Fountain -> Recipe143
+	Recipe143 -> Monument
 	Recipe144 [shape=box]
-	Fire -> Recipe144
-	River -> Recipe144
-	Recipe144 -> Steam
+	Water -> Recipe144
+	Monument -> Recipe144
+	Recipe144 -> Waterfall
 	Recipe145 [shape=box]
-	Wind -> Recipe145
-	River -> Recipe145
-	Recipe145 -> Zephyr
+	Fire -> Recipe145
+	Monument -> Recipe145
+	Recipe145 -> "Eternal Flame"
 	Recipe146 [shape=box]
-	Earth -> Recipe146
-	Stream -> Recipe146
-	Recipe146 -> Creek
+	Wind -> Recipe146
+	Monument -> Recipe146
+	Recipe146 -> "Pillar of Wind"
 	Recipe147 [shape=box]
-	Water -> Recipe147
-	Creek -> Recipe147
-	Recipe147 -> Brook
+	Earth -> Recipe147
+	Waterfall -> Recipe147
+	Recipe147 -> River
 	Recipe148 [shape=box]
-	Fire -> Recipe148
-	Creek -> Recipe148
-	Recipe148 -> Steam
+	Water -> Recipe148
+	River -> Recipe148
+	Recipe148 -> Stream
 	Recipe149 [shape=box]
-	Wind -> Recipe149
-	Creek -> Recipe149
-	Recipe149 -> Whisper
+	Fire -> Recipe149
+	River -> Recipe149
+	Recipe149 -> Steam
 	Recipe150 [shape=box]
-	Earth -> Recipe150
-	Brook -> Recipe150
-	Recipe150 -> Rivulet
+	Wind -> Recipe150
+	River -> Recipe150
+	Recipe150 -> Zephyr
 	Recipe151 [shape=box]
-	Water -> Recipe151
-	Rivulet -> Recipe151
-	Recipe151 -> Tributary
+	Earth -> Recipe151
+	Stream -> Recipe151
+	Recipe151 -> Creek
 	Recipe152 [shape=box]
-	Fire -> Recipe152
-	Rivulet -> Recipe152
-	Recipe152 -> Steam
+	Water -> Recipe152
+	Creek -> Recipe152
+	Recipe152 -> Brook
 	Recipe153 [shape=box]
-	Wind -> Recipe153
-	Rivulet -> Recipe153
-	Recipe153 -> Murmur
+	Fire -> Recipe153
+	Creek -> Recipe153
+	Recipe153 -> Steam
 	Recipe154 [shape=box]
-	Earth -> Recipe154
-	Tributary -> Recipe154
-	Recipe154 -> Watershed
+	Wind -> Recipe154
+	Creek -> Recipe154
+	Recipe154 -> Whisper
 	Recipe155 [shape=box]
-	Water -> Recipe155
-	Watershed -> Recipe155
-	Recipe155 -> Aquifer
+	Earth -> Recipe155
+	Brook -> Recipe155
+	Recipe155 -> Rivulet
 	Recipe156 [shape=box]
-	Fire -> Recipe156
-	Watershed -> Recipe156
-	Recipe156 -> Parched
+	Water -> Recipe156
+	Rivulet -> Recipe156
+	Recipe156 -> Tributary
 	Recipe157 [shape=box]
-	Wind -> Recipe157
-	Watershed -> Recipe157
-	Recipe157 -> Fresh
+	Fire -> Recipe157
+	Rivulet -> Recipe157
+	Recipe157 -> Steam
 	Recipe158 [shape=box]
-	Earth -> Recipe158
-	Aquifer -> Recipe158
-	Recipe158 -> Groundwater
+	Wind -> Recipe158
+	Rivulet -> Recipe158
+	Recipe158 -> Murmur
 	Recipe159 [shape=box]
-	Water -> Recipe159
-	Groundwater -> Recipe159
-	Recipe159 -> Reservoir
+	Earth -> Recipe159
+	Tributary -> Recipe159
+	Recipe159 -> Watershed
 	Recipe160 [shape=box]
-	Fire -> Recipe160
-	Groundwater -> Recipe160
-	Recipe160 -> Geothermal
+	Water -> Recipe160
+	Watershed -> Recipe160
+	Recipe160 -> Aquifer
 	Recipe161 [shape=box]
-	Wind -> Recipe161
-	Groundwater -> Recipe161
-	Recipe161 -> Artesian
+	Fire -> Recipe161
+	Watershed -> Recipe161
+	Recipe161 -> "Parched Earth"
 	Recipe162 [shape=box]
-	Earth -> Recipe162
-	Reservoir -> Recipe162
-	Recipe162 -> Basin
+	Wind -> Recipe162
+	Watershed -> Recipe162
+	Recipe162 -> "Fresh Breeze"
 	Recipe163 [shape=box]
-	Water -> Recipe163
-	Basin -> Recipe163
-	Recipe163 -> Lake
+	Earth -> Recipe163
+	Aquifer -> Recipe163
+	Recipe163 -> Groundwater
 	Recipe164 [shape=box]
-	Fire -> Recipe164
-	Basin -> Recipe164
-	Recipe164 -> Dry
+	Water -> Recipe164
+	Groundwater -> Recipe164
+	Recipe164 -> Reservoir
 	Recipe165 [shape=box]
-	Wind -> Recipe165
-	Basin -> Recipe165
-	Recipe165 -> Depression
+	Fire -> Recipe165
+	Groundwater -> Recipe165
+	Recipe165 -> "Geothermal Spring"
 	Recipe166 [shape=box]
-	Earth -> Recipe166
-	Lake -> Recipe166
-	Recipe166 -> Island
+	Wind -> Recipe166
+	Groundwater -> Recipe166
+	Recipe166 -> "Artesian Well"
 	Recipe167 [shape=box]
-	Water -> Recipe167
-	Lake -> Recipe167
-	Recipe167 -> Lagoon
+	Earth -> Recipe167
+	Reservoir -> Recipe167
+	Recipe167 -> Basin
 	Recipe168 [shape=box]
-	Fire -> Recipe168
-	Lake -> Recipe168
-	Recipe168 -> Steam
+	Water -> Recipe168
+	Basin -> Recipe168
+	Recipe168 -> Lake
 	Recipe169 [shape=box]
-	Wind -> Recipe169
-	Lake -> Recipe169
-	Recipe169 -> Wave
+	Fire -> Recipe169
+	Basin -> Recipe169
+	Recipe169 -> "Dry Basin"
 	Recipe170 [shape=box]
-	Earth -> Recipe170
-	Lagoon -> Recipe170
-	Recipe170 -> Reef
+	Wind -> Recipe170
+	Basin -> Recipe170
+	Recipe170 -> Depression
 	Recipe171 [shape=box]
-	Water -> Recipe171
-	Reef -> Recipe171
-	Recipe171 -> Coral
+	Earth -> Recipe171
+	Lake -> Recipe171
+	Recipe171 -> Island
 	Recipe172 [shape=box]
-	Fire -> Recipe172
-	Reef -> Recipe172
-	Recipe172 -> Ash
+	Water -> Recipe172
+	Lake -> Recipe172
+	Recipe172 -> Lagoon
 	Recipe173 [shape=box]
-	Wind -> Recipe173
-	Reef -> Recipe173
-	Recipe173 -> Whirl
+	Fire -> Recipe173
+	Lake -> Recipe173
+	Recipe173 -> Steam
 	Recipe174 [shape=box]
-	Earth -> Recipe174
-	Coral -> Recipe174
-	Recipe174 -> Limestone
+	Wind -> Recipe174
+	Lake -> Recipe174
+	Recipe174 -> Wave
 	Recipe175 [shape=box]
-	Water -> Recipe175
-	Limestone -> Recipe175
-	Recipe175 -> Karst
+	Earth -> Recipe175
+	Lagoon -> Recipe175
+	Recipe175 -> Reef
 	Recipe176 [shape=box]
-	Fire -> Recipe176
-	Limestone -> Recipe176
-	Recipe176 -> Quicklime
+	Water -> Recipe176
+	Reef -> Recipe176
+	Recipe176 -> Coral
 	Recipe177 [shape=box]
-	Wind -> Recipe177
-	Limestone -> Recipe177
-	Recipe177 -> Dust
+	Fire -> Recipe177
+	Reef -> Recipe177
+	Recipe177 -> Ash
 	Recipe178 [shape=box]
-	Earth -> Recipe178
-	Karst -> Recipe178
-	Recipe178 -> Cave
+	Wind -> Recipe178
+	Reef -> Recipe178
+	Recipe178 -> Whirl
 	Recipe179 [shape=box]
-	Water -> Recipe179
-	Karst -> Recipe179
-	Recipe179 -> Geyser
+	Earth -> Recipe179
+	Coral -> Recipe179
+	Recipe179 -> Limestone
 	Recipe180 [shape=box]
-	Fire -> Recipe180
-	Karst -> Recipe180
-	Recipe180 -> Magma
+	Water -> Recipe180
+	Limestone -> Recipe180
+	Recipe180 -> Karst
 	Recipe181 [shape=box]
-	Wind -> Recipe181
-	Karst -> Recipe181
-	Recipe181 -> Blowhole
+	Fire -> Recipe181
+	Limestone -> Recipe181
+	Recipe181 -> Quicklime
 	Recipe182 [shape=box]
-	Earth -> Recipe182
-	Geyser -> Recipe182
-	Recipe182 -> Hot
+	Wind -> Recipe182
+	Limestone -> Recipe182
+	Recipe182 -> Dust
 	Recipe183 [shape=box]
-	Water -> Recipe183
-	Geyser -> Recipe183
-	Recipe183 -> Fountain
+	Earth -> Recipe183
+	Karst -> Recipe183
+	Recipe183 -> Cave
 	Recipe184 [shape=box]
-	Fire -> Recipe184
-	Geyser -> Recipe184
-	Recipe184 -> Steam
+	Water -> Recipe184
+	Karst -> Recipe184
+	Recipe184 -> Geyser
 	Recipe185 [shape=box]
-	Wind -> Recipe185
-	Geyser -> Recipe185
-	Recipe185 -> Mist
+	Fire -> Recipe185
+	Karst -> Recipe185
+	Recipe185 -> "Magma Chamber"
 	Recipe186 [shape=box]
-	Earth -> Recipe186
-	Spring -> Recipe186
-	Recipe186 -> Oasis
+	Wind -> Recipe186
+	Karst -> Recipe186
+	Recipe186 -> Blowhole
 	Recipe187 [shape=box]
-	Water -> Recipe187
-	Spring -> Recipe187
-	Recipe187 -> Fountain
+	Earth -> Recipe187
+	Geyser -> Recipe187
+	Recipe187 -> "Hot Spring"
 	Recipe188 [shape=box]
-	Fire -> Recipe188
-	Spring -> Recipe188
-	Recipe188 -> Steam
+	Water -> Recipe188
+	Geyser -> Recipe188
+	Recipe188 -> Fountain
 	Recipe189 [shape=box]
-	Wind -> Recipe189
-	Spring -> Recipe189
-	Recipe189 -> Cool
+	Fire -> Recipe189
+	Geyser -> Recipe189
+	Recipe189 -> "Steam Vent"
 	Recipe190 [shape=box]
-	Earth -> Recipe190
-	Fountain -> Recipe190
-	Recipe190 -> Monument
+	Wind -> Recipe190
+	Geyser -> Recipe190
+	Recipe190 -> Mist
 	Recipe191 [shape=box]
-	Water -> Recipe191
-	Monument -> Recipe191
-	Recipe191 -> Waterfall
+	Earth -> Recipe191
+	Spring -> Recipe191
+	Recipe191 -> Oasis
 	Recipe192 [shape=box]
-	Fire -> Recipe192
-	Monument -> Recipe192
-	Recipe192 -> Eternal
+	Water -> Recipe192
+	Spring -> Recipe192
+	Recipe192 -> Fountain
 	Recipe193 [shape=box]
-	Wind -> Recipe193
-	Monument -> Recipe193
-	Recipe193 -> Pillar
+	Fire -> Recipe193
+	Spring -> Recipe193
+	Recipe193 -> "Steam Vent"
 	Recipe194 [shape=box]
-	Earth -> Recipe194
-	Waterfall -> Recipe194
-	Recipe194 -> River
+	Wind -> Recipe194
+	Spring -> Recipe194
+	Recipe194 -> "Cool Breeze"
 	Recipe195 [shape=box]
-	Water -> Recipe195
-	River -> Recipe195
-	Recipe195 -> Stream
+	Earth -> Recipe195
+	Fountain -> Recipe195
+	Recipe195 -> Monument
+	Recipe196 [shape=box]
+	Water -> Recipe196
+	Monument -> Recipe196
+	Recipe196 -> Waterfall
+	Recipe197 [shape=box]
+	Fire -> Recipe197
+	Monument -> Recipe197
+	Recipe197 -> "Eternal Flame"
+	Recipe198 [shape=box]
+	Wind -> Recipe198
+	Monument -> Recipe198
+	Recipe198 -> "Pillar of Wind"
+	Recipe199 [shape=box]
+	Earth -> Recipe199
+	Waterfall -> Recipe199
+	Recipe199 -> River
+	Recipe200 [shape=box]
+	Water -> Recipe200
+	River -> Recipe200
+	Recipe200 -> Stream
 }

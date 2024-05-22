@@ -180,7 +180,7 @@ objects:
   - name: Jungle
     description: We need a description here
     tier: 1
-  - name: Frosted
+  - name: Frosted Glass
     description: We need a description here
     tier: 1
   - name: Crystal
@@ -255,10 +255,13 @@ objects:
   - name: Basalt
     description: We need a description here
     tier: 1
+  - name: Magma Chamber
+    description: We need a description here
+    tier: 1
   - name: Breeze
     description: We need a description here
     tier: 1
-  - name: Warm
+  - name: Warm Breeze
     description: We need a description here
     tier: 1
   - name: Soil
@@ -288,7 +291,7 @@ objects:
   - name: Shards
     description: We need a description here
     tier: 1
-  - name: Molten
+  - name: Molten Glass
     description: We need a description here
     tier: 1
   - name: Prism
@@ -304,6 +307,9 @@ objects:
     description: We need a description here
     tier: 1
   - name: Mirage
+    description: We need a description here
+    tier: 1
+  - name: Sand Dune
     description: We need a description here
     tier: 1
   - name: Dam
@@ -333,7 +339,7 @@ objects:
   - name: Spread
     description: We need a description here
     tier: 1
-  - name: Fertile
+  - name: Fertile Land
     description: We need a description here
     tier: 1
   - name: Wetland
@@ -351,13 +357,16 @@ objects:
   - name: River
     description: We need a description here
     tier: 1
-  - name: Scorched
+  - name: Scorched Earth
     description: We need a description here
     tier: 1
   - name: Delta
     description: We need a description here
     tier: 1
   - name: Estuary
+    description: We need a description here
+    tier: 1
+  - name: Fire Swamp
     description: We need a description here
     tier: 1
   - name: Riverbank
@@ -369,7 +378,7 @@ objects:
   - name: Gorge
     description: We need a description here
     tier: 1
-  - name: Charred
+  - name: Charred Ravine
     description: We need a description here
     tier: 1
   - name: Echo
@@ -378,19 +387,34 @@ objects:
   - name: Cave
     description: We need a description here
     tier: 1
-  - name: Underground
+  - name: Underground Lake
     description: We need a description here
     tier: 1
-  - name: Whispering
+  - name: Lava Cave
+    description: We need a description here
+    tier: 1
+  - name: Whispering Cave
+    description: We need a description here
+    tier: 1
+  - name: Subterranean Pool
     description: We need a description here
     tier: 1
   - name: Spring
     description: We need a description here
     tier: 1
+  - name: Hot Spring
+    description: We need a description here
+    tier: 1
+  - name: Grotto
+    description: We need a description here
+    tier: 1
   - name: Fountain
     description: We need a description here
     tier: 1
-  - name: Cool
+  - name: Steam Vent
+    description: We need a description here
+    tier: 1
+  - name: Cool Breeze
     description: We need a description here
     tier: 1
   - name: Monument
@@ -399,10 +423,10 @@ objects:
   - name: Waterfall
     description: We need a description here
     tier: 1
-  - name: Eternal
+  - name: Eternal Flame
     description: We need a description here
     tier: 1
-  - name: Pillar
+  - name: Pillar of Wind
     description: We need a description here
     tier: 1
   - name: Stream
@@ -435,10 +459,10 @@ objects:
   - name: Aquifer
     description: We need a description here
     tier: 1
-  - name: Parched
+  - name: Parched Earth
     description: We need a description here
     tier: 1
-  - name: Fresh
+  - name: Fresh Breeze
     description: We need a description here
     tier: 1
   - name: Groundwater
@@ -447,10 +471,10 @@ objects:
   - name: Reservoir
     description: We need a description here
     tier: 1
-  - name: Geothermal
+  - name: Geothermal Spring
     description: We need a description here
     tier: 1
-  - name: Artesian
+  - name: Artesian Well
     description: We need a description here
     tier: 1
   - name: Basin
@@ -459,7 +483,7 @@ objects:
   - name: Lake
     description: We need a description here
     tier: 1
-  - name: Dry
+  - name: Dry Basin
     description: We need a description here
     tier: 1
   - name: Depression
@@ -493,8 +517,5 @@ objects:
     description: We need a description here
     tier: 1
   - name: Blowhole
-    description: We need a description here
-    tier: 1
-  - name: Hot
     description: We need a description here
     tier: 1
