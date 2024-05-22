@@ -1,156 +1,88 @@
-<div align="center">
-<img src="https://imgs.search.brave.com/so-uD4sAXbEI46Uod2_37kJfXyvugWVtHiCyfBWNVHw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2Lzg2LzQzLzYy/LzM2MF9GXzY4NjQz/NjI5OV9sN3lzbXcz/R0ROYnV5V0h5Q2FT/UHAzcHB3UFZGUE1Z/Si5qcGc" alt="logo" width="120" height="120" />
-</div>
+# Not a Bird
 
-<h3 align="center">Magican by not a Bird</h3>
-  <p align="center">
-  <br />
-    <a href="https://magican.surge.sh/">Demo v0.0.1</a>
-    ·
-    <a href="https://youtu.be/XkQCJIe48-M?si=Dn65WveHu1yoclYP">Youtube</a>
-    ·
-    <a href="https://github.com/SIOCODE-Open/not-a-bird.git">Repo</a>
-  </p>
-</div>
+📖 [Click here to read the old readme](./README.old.md)
 
-Welcome to our submission for the _Polkadot Hackathon Global Series: North America Edition 2024_, **Magican**!
+🚀 Welcome to **Not a Bird**! This repository contains our submission for the _Polkadot Global 2024: North America Edition_.
 
-```md
-### Hola 👋,
+🔗 _Not a Bird_ is a _blockchain game_, which involved _crafting_, _trading_ and _collectively working towards a goal_ so that players are _rewarded_. This readme contains technical information about the game, such as _how to build it_, and explanation of _some parts of the code_.
 
-We are Botond, Marcel and Frank.  
-Botond and Frank are running validators together.  
-Marcel and Frank grew up together, literally 50 meters away.  
-Botond is a Game Developer by heart and a Software Architect by profession.  
-Marcel is a Designer by heart and a Frontend Developer by Profession.  
-Frank is a 3D Artist by heart and a Fullstack Developer by Profession.  
-**We are Not a bird.**
+👨‍🎓 If you just want to learn about the game, [look at the game documentation here](https://polkadot-global-na-2024-not-a-bird-docs.surge.sh/).
 
-Nice to have you here.  
-We build on this Hack, a Game.  
-**The Game is Magican.**
+🕹️ If you just want to start playing the game, [click here to open it](https://polkadot-global-na-2024-not-a-bird-docs.surge.sh/).
 
-### Cheers 🌤️
+📽️ To see our presentation (pitched live at _Polkadot Social_ in _Austin, Texas, USA_), [go to this page](https://hackmd.io/@bokovhu/SkNAIVjm0)
+
+# Dependencies
+
+To build and run the game, you need to have the following dependencies installed:
+
+* Node.JS 20 and npm
+* Rust
+* `substrate-contracts-node`
+* `cargo contract`
+
+Here is a quick script, which has been tested on `Ubuntu 22.04`, and sets up the necessary tools for building:
+
+```bash
+#!/bin/bash
+sudo apt update
+sudo apt install build-essential make automake pkg-config curl git unzip zip
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+. "$HOME/.cargo/env"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+rustup component add rust-src
+cargo install --force --locked cargo-contract
+nvm install 20
 ```
 
-First play the inspiration, then read further. [Play Infinite Craft](https://neal.fun/infinite-craft/) or [Play Alchemy](https://littlealchemy.com/)
+_Note: you still have to download or build `substrate-contracts-code`, you can get it [from here](https://github.com/paritytech/substrate-contracts-node)_
 
-We introduce ownership to this game mechanic.  
-You are owning fire. You are owning earth. You are owning a merged vulcano.
+# Building
 
-From a market side, we are approaching it an unusual way.
-The User Story would be the following:
+Now you can start building the game.
 
-<details>
-  <summary>Click here to read more</summary>
-There is Discord.  
-Discord has Channels.  
-Every Channels has their hidden jokes/sketches/art/... .  
-We Gather information from Community.  
-Generate the game out of the given information.   
-Let people play.
+* First you have to clone the source
 
-An example:
-You install a Discord bot, it ask the community.
-
-1. What are the core elementt?
-2. What are other Elements?
-3. What are the rules to get these other Elements?
-
-Now we are in Discord.
-Discord Channel - Primegean Discord.
-The Elements are `Vim`, `Rust`, `Cows`.
-If you combine `Vim` and `Cows`, you gets `Matrix Cow`.
-`Matrix Cow` and `Rust`, creates `crappy cow`.
-`crappy cow` and `vim`, gives you `donkey with rollerblades`.
-If you combine, combine and combine, then you get `Stinky Feets`.
-🤯 🐾 🥳
-`Stinky Feet` is THE trophy, because that's what the community appreciates the most.
-
-That's a **fun** example, which illustrates the whole point.
-
-</details>
-
-## Screenshots
-
-![Screenshot](https://i.ibb.co/TYNDW8X/image.png)
-
-## Information
-
-**Track:** Smart Contracts
-
-**Tech Stack:**
-
-- Frontend: Javascript (React, PolkadotJS, UniqueSdk)
-- SmartContract: Rust (ink!)
-
-**Challenges:**
-
-- Unique Network
-
-### Encountered Challenges
-
-I forgot the most. We struggled with rust and we had vivid memory on code_hash migration. (still not solved, yet^^)
-
-```
-$ git log --oneline --reverse | frankFiltering.sh
-
-  **Utilize AI to generate A bunch of Assets. Property Software, based on a big .toml file. Software is written and owned by Botond.**
-  -- f5547b7 Initialized a bunch of stuff, added AI generated assets
-
-  **Getting a Frist Figma Draft out for communication purposes**
-  -- 6a7ef01 :zap: (uiux) add design sketch
-
-  **Encountering issues recongized till refSize and proofSize changed**
-  -- b3c601c :zap: (contracts) add write_call.js
-
-  **No Issue but Autodeploy scripts are sweet.**
-  -- 889fe99 :zap: (app-game) add ink_frank.sh, an auto deploy script
-
-  **Struggleing to get the trait definition right.**
-  -- 36a1e1d :zap: (contracts) etablish mod franks_interfaces
-
-  **Getting the ink-example to work. It say migrate. We still don't know how to call it.**
-  -- a0318cf :zap: (./TODO.md) setCodeHash check, setCodeHashMigration w.i.p, delegate_code endgoal
-
-  **Here we were super happy. We have an array of contracts. We can switch contracts and delegate mint and burn.**
-  -- 26ec1f3 :zap: (contracts) add index to mint && make mint resizable
-
-  **Too Less time for slick frontend**
-  -- c0ddb1e :zap: (app-game) intialise MergicanPage
+```bash
+git clone https://github.com/SIOCODE-Open/not-a-bird
 ```
 
-## Quickstart
+* Enter the repository, and run the following command to install Node.JS dependencies:
 
-- `cd ~ `
-- `git clone https://github.com/SIOCODE-Open/not-a-bird.git `
-- `cd not-a-bird`
+```bash
+npm install
+```
 
-**Contracts**
+* Now you can build the _backend_ of the game (contracts):
 
-- `substrate-contracts-node --dev`
-- `./packages/contracts/version_3/deploy_version_3.sh`
-- Select option 2
-- `cat ./packages/contracts/version_3//deploy_version_3.sh`
-- `cat ./packages/contracts/version_3/element_store/lib.rs`
-- `cat ./packages/contracts/version_3/element_a/lib.rs`
-- `cat ./packages/contracts/version_3/contracts_info.log`
+```bash
+npm run build:contracts
+```
 
-**Frontend**
+* Now you should start `substrate-contracts-node` locally, so that you can _deploy the contracts_, and _generate the contract data in the contract client libraries_:
 
-- `npm i`
-- `npm run serve`
-- Go to `http://localhost:5000 `
+```bash
+npm run deploy:contracts
+```
 
-## Contacts
+* Now you can build the game
+
+```bash
+npm run build
+```
+
+The game will be ready as a _single-page application_ in the `packages/app-game/dist` directory.
+
+You can also run `npm run serve`, which will start the build pipeline in watch mode, and serves the game locally.
+
+# Credits
+
+This submission was created by the following people:
 
 | Name   | Telegram  | Discord   |
 | :----- | :-------- | :-------- |
 | Botond | -         | tthe1871  |
 | Marcel | -         | fishmac   |
 | Frank  | frankbevr | frankbevr |
-
-# Botond Notes
-
-* Use the following command to build app contracts: `npm run build:contracts`
-* [Read the items "wiki"](./ITEMS.md)
