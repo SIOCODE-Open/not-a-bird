@@ -8,7 +8,7 @@
 
 👨‍🎓 If you just want to learn about the game, [look at the game documentation here](https://polkadot-global-na-2024-not-a-bird-docs.surge.sh/).
 
-🕹️ If you just want to start playing the game, [click here to open it](https://polkadot-global-na-2024-not-a-bird-docs.surge.sh/).
+🕹️ If you just want to start playing the game, [click here to open it](https://polkadot-global-na-2024-not-a-bird-game.surge.sh/).
 
 📽️ To see our presentation (pitched live at _Polkadot Social_ in _Austin, Texas, USA_), [go to this page](https://hackmd.io/@bokovhu/SkNAIVjm0)
 
