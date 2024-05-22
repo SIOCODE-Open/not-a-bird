@@ -9,8 +9,11 @@ hero:
     alt: NotABirdLogo
   actions:
     - theme: brand
-      text: Read here
+      text: Learn more
       link: /learn/index.md
+    - theme: alt
+      text: Play
+      link: https://polkadot-global-na-2024-not-a-bird-game.surge.sh
     - theme: alt
       text: Video (TODO)
       link: https://www.youtube.com/

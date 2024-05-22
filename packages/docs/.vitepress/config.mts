@@ -17,6 +17,7 @@ export default defineConfig({
         nav: [
             { text: 'Learn', link: '/learn/index' },
             { text: 'Wiki', link: '/wiki/index' },
+            { text: 'Play', link: 'https://polkadot-global-na-2024-not-a-bird-game.surge.sh' }
         ],
         logo: "https://placehold.it/120x80",
         sidebar: [
@@ -33,6 +34,12 @@ export default defineConfig({
                     { text: 'Games', link: '/wiki/games' },
                     { text: 'Elements', link: '/wiki/elements' },
                     { text: 'Recipes', link: '/wiki/recipes' },
+                ]
+            },
+            {
+                text: 'Play',
+                items: [
+                    { text: 'Play the game', link: 'https://polkadot-global-na-2024-not-a-bird-game.surge.sh' }
                 ]
             }
         ],
