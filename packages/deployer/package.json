@@ -6,7 +6,8 @@
     "scripts": {
         "copy": "node copy-contracts.js",
         "build": "esbuild --platform=node --bundle --minify --outfile=index.bundle.js src/index.ts",
-        "start": "node index.bundle.js"
+        "start": "node index.bundle.js",
+        "extract": "node extract-metadata.js"
     },
     "dependencies": {
         "@polkadot/api": "*",

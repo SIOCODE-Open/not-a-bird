@@ -9,6 +9,26 @@ import { CodePromise, ContractPromise } from "@polkadot/api-contract";
 import YAML from "yaml";
 import * as path from "path";
 import * as fs from "fs";
+import { program } from "commander";
+
+program.option('-n, --node-url <nodeUrl>', 'Node URL to connect to', 'ws://127.0.0.1:9944');
+program.option('-s, --suri <suri>', 'SURI to use for keyring', '//Alice');
+program.option('-o, --output <output>', 'Output directory', 'output');
+program.option('-f, --format <format>', 'Output format (json, yaml)', 'json');
+program.option('-e, --env <env>', 'Environment variables to pass to the script', 'dev');
+program.option('--dev', 'Use development environment variables', false);
+program.parse(process.argv);
+
+const progOpts = program.opts();
+
+if(progOpts.dev) {
+    console.log('FORCING DEV ENV VALUES');
+    progOpts.nodeUrl = 'ws://127.0.0.1:9944';
+    progOpts.suri = '//Alice';
+    progOpts.output = '../on-chain-game/src';
+    progOpts.format = 'json';
+    progOpts.env = 'dev';
+}
 
 async function connectToChain(nodeUrl: string) {
     const wsProvider = new WsProvider(nodeUrl);
@@ -232,8 +252,9 @@ const createGameTasks = (game: IDeployableGame) => {
 const writeOutput = {
     title: 'Write output',
     task: async (ctx: any, task: any) => {
-        const outputFilename = path.resolve(ctx.output);
-        const outputDir = path.dirname(outputFilename);
+        const outputDir = path.resolve(ctx.output);
+        const jsonFilename = path.join(outputDir, 'contracts.' + ctx.env + (ctx.format ? ('.' + ctx.format) : '.json'));
+        const tsFilename = path.join(outputDir, 'contracts.' + ctx.env + '.ts');
         if (!fs.existsSync(outputDir)) {
             fs.mkdirSync(outputDir, { recursive: true });
         }
@@ -251,12 +272,15 @@ const writeOutput = {
             });
         }
         if (!ctx.format || ctx.format.toLowerCase() === 'json') {
-            fs.writeFileSync(outputFilename, JSON.stringify(output, null, 4));
+            fs.writeFileSync(jsonFilename, JSON.stringify(output, null, 4));
         } else if (ctx.format.toLowerCase() === 'yaml') {
-            fs.writeFileSync(outputFilename, YAML.stringify(output));
+            fs.writeFileSync(jsonFilename, YAML.stringify(output));
         } else {
             throw new Error(`Unsupported output format: ${ctx.format}`);
         }
+
+        const tsCode = `import ENV_DATA from './contracts.${ctx.env}.json';\n\nexport default ENV_DATA;\n`;
+        fs.writeFileSync(tsFilename, tsCode);
     }
 }
 
@@ -276,11 +300,11 @@ async function main() {
         }
     };
     const context = {
-        nodeUrl: "ws://127.0.0.1:9944",
-        suri: '//Alice',
-        env: 'dev',
-        output: 'output/contracts.json',
-        format: 'json'
+        nodeUrl: progOpts.nodeUrl,
+        suri: progOpts.suri,
+        env: progOpts.env,
+        output: progOpts.output,
+        format: progOpts.format
     };
 
     const listr = new Listr(tasks, options);

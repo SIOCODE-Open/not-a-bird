@@ -1,0 +1,69 @@
+{
+    "map": {
+        "items": "items",
+        "games": "games"
+    },
+    "filename": "packages/deployer/extract-metadata.js"
+}
+---
+const fs = require('fs');
+const path = require('path');
+
+const POSSIBLE_CONTRACTS_V1_README_MD_FILES = [
+    "../../contracts.v1/README.md",
+    "../../../contracts.v1/README.md",
+    "contracts.v1/README.md",
+]
+
+const realContractsV1ReadmeMdIndex = POSSIBLE_CONTRACTS_V1_README_MD_FILES.findIndex((file) => fs.existsSync(file));
+const contractsV1ReadmeMd = POSSIBLE_CONTRACTS_V1_README_MD_FILES[realContractsV1ReadmeMdIndex];
+const contractsV1Dir = path.join(path.dirname(contractsV1ReadmeMd), "artifacts");
+const contractInterfacesV1Dir = path.join(path.dirname(contractsV1ReadmeMd), "interfaces");
+
+console.log(`Loading contracts from ${contractsV1Dir} ...`);
+
+if (!fs.existsSync(contractsV1Dir)) {
+    throw new Error(`Contracts not found at ${contractsV1Dir}`);
+}
+
+if (!fs.existsSync(contractInterfacesV1Dir)) {
+    fs.mkdirSync(contractInterfacesV1Dir, { recursive: true });
+}
+
+{{#each items}}
+const {{camelCase name}}Path = path.join(contractsV1Dir, "{{snakeCase name}}.contract.json");
+const {{camelCase name}}InterfacePath = path.join(contractInterfacesV1Dir, "{{snakeCase name}}.interface.json");
+if(fs.existsSync({{camelCase name}}Path)) {
+    const {{camelCase name}}Data = JSON.parse(
+        fs.readFileSync({{camelCase name}}Path, { encoding: 'utf-8' })
+    );
+    if(!{{camelCase name}}Data.source) {
+        console.log(`No source found for {{name}} at ${ {{camelCase name}}Path }`)
+        return;
+    }
+    delete {{camelCase name}}Data.source.wasm;
+    fs.writeFileSync({{camelCase name}}InterfacePath, JSON.stringify({{camelCase name}}Data, null, 4));
+    console.log(`Extracted metadata for {{name}} to ${ {{camelCase name}}InterfacePath }`)
+} else {
+    console.log(`No metadata found for {{name}} at ${ {{camelCase name}}Path }`)
+}
+{{/each}}
+
+{{#each games}}
+const {{camelCase name}}Path = path.join(contractsV1Dir, "{{snakeCase name}}.contract.json");
+const {{camelCase name}}InterfacePath = path.join(contractInterfacesV1Dir, "{{snakeCase name}}.interface.json");
+if(fs.existsSync({{camelCase name}}Path)) {
+    const {{camelCase name}}Data = JSON.parse(
+        fs.readFileSync({{camelCase name}}Path, { encoding: 'utf-8' })
+    );
+    if(!{{camelCase name}}Data.source) {
+        console.log(`No source found for {{name}} at ${ {{camelCase name}}Path }`)
+        return;
+    }
+    delete {{camelCase name}}Data.source.wasm;
+    fs.writeFileSync({{camelCase name}}InterfacePath, JSON.stringify({{camelCase name}}Data, null, 4));
+    console.log(`Extracted metadata for {{name}} to ${ {{camelCase name}}InterfacePath }`)
+} else {
+    console.log(`No metadata found for {{name}} at ${ {{camelCase name}}Path }`)
+}
+{{/each}}
