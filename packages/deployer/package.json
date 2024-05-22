@@ -5,7 +5,7 @@
     "main": "index.bundle.js",
     "scripts": {
         "copy": "node copy-contracts.js",
-        "build": "esbuild --platform=node --bundle --minify --sourcemap --outfile=index.bundle.js src/index.ts",
+        "build": "esbuild --platform=node --bundle --minify --outfile=index.bundle.js src/index.ts",
         "start": "node index.bundle.js"
     },
     "dependencies": {
