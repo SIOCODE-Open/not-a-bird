@@ -16,9 +16,25 @@ export default defineConfig({
     themeConfig: {
         nav: [
             { text: 'Learn', link: '/learn/index' },
+            { text: 'Wiki', link: '/wiki/index' },
         ],
         logo: "https://placehold.it/120x80",
         sidebar: [
+            {
+                text: 'Learn',
+                items: [
+                    { text: 'Learn about the game', link: '/learn/index' },
+                ]
+            },
+            {
+                text: 'Wiki',
+                items: [
+                    { text: 'Wiki', link: '/wiki/index' },
+                    { text: 'Games', link: '/wiki/games' },
+                    { text: 'Elements', link: '/wiki/elements' },
+                    { text: 'Recipes', link: '/wiki/recipes' },
+                ]
+            }
         ],
         socialLinks: [
             { icon: 'github', link: 'https://github.com/SIOCODE-Open/not-a-bird' }

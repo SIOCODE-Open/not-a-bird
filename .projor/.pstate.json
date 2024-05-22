@@ -5221,6 +5221,1122 @@
       "noWriteIfExists": false
     },
     {
+      "filename": "packages/docs/wiki/elements.md",
+      "content": "# Elements\n\nIn _Not a Bird_ players own **elements**. Elements are full-fledged [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency). They are created via _Smart Contracts_ deployed to a blockchain, and they support the [PSP-22 interface](https://github.com/w3f/PSPs/blob/master/PSPs/psp-22.md).\n\n## Tier number\n\nEach element has a **tier number**.\n\nThe _tier number_ is used when calculating the _buy price_ of elements. The game contract defines a so-called _buy offer_, which looks like this:\n\n```json\n{\n    \"nativeTokens\": \"1234.12345678\",\n    \"rewardTierPoints\": \"100\"\n}\n```\n\nThis means, that for `1234.12345678` of the _native token_ (the cryptocurrency you use to play the game), you can buy `100` _tier points_. You can convert these tier points in the buy transaction to _any element_.\n\nWhen you buy from the game contract, you will receive `floor(bought_tier_points / element_tier)` elements of the chosen element.\n\nYou must always pay an _integer multiple_ of the `nativeTokens` in the _buy offer_, because you will only get `floor(paid_tier_points / buy_offer_native_tokens) * buy_offer_reward_tier_points` tier points.\n\nElements, that cannot be crafted are \"_base elements_\", so we assign the _tier number_ `1` to them. Every other element has a tier number of `A + B + C`, where `A` and `B` are the tier numbers of the elements required to craft it, and `C` is a constant greater than zero.\n\n## List of elements\n\n* [Monkey](/wiki/elements/monkey)\n* [Giraffe](/wiki/elements/giraffe)\n* [Bee](/wiki/elements/bee)\n* [Coin](/wiki/elements/coin)\n* [Swarm](/wiki/elements/swarm)\n* [Hydra](/wiki/elements/hydra)\n* [Monkey Branch](/wiki/elements/monkey-branch)\n* [Bridge](/wiki/elements/bridge)\n* [Golden Gate](/wiki/elements/golden-gate)\n* [Gold](/wiki/elements/gold)\n* [Silver](/wiki/elements/silver)\n* [Rhodium](/wiki/elements/rhodium)\n* [Hive](/wiki/elements/hive)\n* [Transaction](/wiki/elements/transaction)\n* [Block](/wiki/elements/block)\n* [Blockchain](/wiki/elements/blockchain)\n* [Polkadot](/wiki/elements/polkadot)\n* [Peer Review](/wiki/elements/peer-review)\n* [Cardano](/wiki/elements/cardano)\n* [Bear](/wiki/elements/bear)\n* [Beer](/wiki/elements/beer)\n* [Lock](/wiki/elements/lock)\n* [Marmalade](/wiki/elements/marmalade)\n* [Super Marmalade](/wiki/elements/super-marmalade)\n* [Hyper Marmalade](/wiki/elements/hyper-marmalade)\n* [Water](/wiki/elements/water)\n* [Fire](/wiki/elements/fire)\n* [Steam](/wiki/elements/steam)\n* [Earth](/wiki/elements/earth)\n* [Mud](/wiki/elements/mud)\n* [Lava](/wiki/elements/lava)\n* [Wind](/wiki/elements/wind)\n* [Dust](/wiki/elements/dust)\n* [Rain](/wiki/elements/rain)\n* [Smoke](/wiki/elements/smoke)\n* [Geyser](/wiki/elements/geyser)\n* [Clay](/wiki/elements/clay)\n* [Sand](/wiki/elements/sand)\n* [Plant](/wiki/elements/plant)\n* [Rainbow](/wiki/elements/rainbow)\n* [Storm](/wiki/elements/storm)\n* [Obsidian](/wiki/elements/obsidian)\n* [Ash](/wiki/elements/ash)\n* [Volcano](/wiki/elements/volcano)\n* [Sandstorm](/wiki/elements/sandstorm)\n* [Cloud](/wiki/elements/cloud)\n* [Fog](/wiki/elements/fog)\n* [Tree](/wiki/elements/tree)\n* [Forest](/wiki/elements/forest)\n* [Seeds](/wiki/elements/seeds)\n* [Pottery](/wiki/elements/pottery)\n* [Brick](/wiki/elements/brick)\n* [Quicksand](/wiki/elements/quicksand)\n* [Glass](/wiki/elements/glass)\n* [Dune](/wiki/elements/dune)\n* [Charcoal](/wiki/elements/charcoal)\n* [Leaves](/wiki/elements/leaves)\n* [Wildfire](/wiki/elements/wildfire)\n* [Jungle](/wiki/elements/jungle)\n* [Frosted Glass](/wiki/elements/frosted-glass)\n* [Crystal](/wiki/elements/crystal)\n* [Magma](/wiki/elements/magma)\n* [Rock](/wiki/elements/rock)\n* [Shard](/wiki/elements/shard)\n* [Pebble](/wiki/elements/pebble)\n* [Mountain](/wiki/elements/mountain)\n* [Fertilizer](/wiki/elements/fertilizer)\n* [Soot](/wiki/elements/soot)\n* [Lightning](/wiki/elements/lightning)\n* [Mist](/wiki/elements/mist)\n* [Haze](/wiki/elements/haze)\n* [Flood](/wiki/elements/flood)\n* [Landslide](/wiki/elements/landslide)\n* [Thunder](/wiki/elements/thunder)\n* [Tornado](/wiki/elements/tornado)\n* [Garden](/wiki/elements/garden)\n* [Ember](/wiki/elements/ember)\n* [Kiln](/wiki/elements/kiln)\n* [Pollination](/wiki/elements/pollination)\n* [Sinkhole](/wiki/elements/sinkhole)\n* [Beach](/wiki/elements/beach)\n* [Wetstone](/wiki/elements/wetstone)\n* [Erosion](/wiki/elements/erosion)\n* [Basalt](/wiki/elements/basalt)\n* [Magma Chamber](/wiki/elements/magma-chamber)\n* [Breeze](/wiki/elements/breeze)\n* [Warm Breeze](/wiki/elements/warm-breeze)\n* [Soil](/wiki/elements/soil)\n* [Canyon](/wiki/elements/canyon)\n* [Windmill](/wiki/elements/windmill)\n* [Adobe](/wiki/elements/adobe)\n* [Wall](/wiki/elements/wall)\n* [Pumice](/wiki/elements/pumice)\n* [Barbecue](/wiki/elements/barbecue)\n* [Farm](/wiki/elements/farm)\n* [Shards](/wiki/elements/shards)\n* [Molten Glass](/wiki/elements/molten-glass)\n* [Prism](/wiki/elements/prism)\n* [Sparkle](/wiki/elements/sparkle)\n* [Desert](/wiki/elements/desert)\n* [Oasis](/wiki/elements/oasis)\n* [Mirage](/wiki/elements/mirage)\n* [Sand Dune](/wiki/elements/sand-dune)\n* [Dam](/wiki/elements/dam)\n* [Firewall](/wiki/elements/firewall)\n* [Barricade](/wiki/elements/barricade)\n* [Plateau](/wiki/elements/plateau)\n* [Pond](/wiki/elements/pond)\n* [Aromas](/wiki/elements/aromas)\n* [Flower](/wiki/elements/flower)\n* [Spore](/wiki/elements/spore)\n* [Spread](/wiki/elements/spread)\n* [Fertile Land](/wiki/elements/fertile-land)\n* [Wetland](/wiki/elements/wetland)\n* [Peat](/wiki/elements/peat)\n* [Reeds](/wiki/elements/reeds)\n* [Valley](/wiki/elements/valley)\n* [River](/wiki/elements/river)\n* [Scorched Earth](/wiki/elements/scorched-earth)\n* [Delta](/wiki/elements/delta)\n* [Estuary](/wiki/elements/estuary)\n* [Fire Swamp](/wiki/elements/fire-swamp)\n* [Riverbank](/wiki/elements/riverbank)\n* [Ravine](/wiki/elements/ravine)\n* [Gorge](/wiki/elements/gorge)\n* [Charred Ravine](/wiki/elements/charred-ravine)\n* [Echo](/wiki/elements/echo)\n* [Cave](/wiki/elements/cave)\n* [Underground Lake](/wiki/elements/underground-lake)\n* [Lava Cave](/wiki/elements/lava-cave)\n* [Whispering Cave](/wiki/elements/whispering-cave)\n* [Subterranean Pool](/wiki/elements/subterranean-pool)\n* [Spring](/wiki/elements/spring)\n* [Hot Spring](/wiki/elements/hot-spring)\n* [Grotto](/wiki/elements/grotto)\n* [Fountain](/wiki/elements/fountain)\n* [Steam Vent](/wiki/elements/steam-vent)\n* [Cool Breeze](/wiki/elements/cool-breeze)\n* [Monument](/wiki/elements/monument)\n* [Waterfall](/wiki/elements/waterfall)\n* [Eternal Flame](/wiki/elements/eternal-flame)\n* [Pillar Of Wind](/wiki/elements/pillar-of-wind)\n* [Stream](/wiki/elements/stream)\n* [Zephyr](/wiki/elements/zephyr)\n* [Creek](/wiki/elements/creek)\n* [Brook](/wiki/elements/brook)\n* [Whisper](/wiki/elements/whisper)\n* [Rivulet](/wiki/elements/rivulet)\n* [Tributary](/wiki/elements/tributary)\n* [Murmur](/wiki/elements/murmur)\n* [Watershed](/wiki/elements/watershed)\n* [Aquifer](/wiki/elements/aquifer)\n* [Parched Earth](/wiki/elements/parched-earth)\n* [Fresh Breeze](/wiki/elements/fresh-breeze)\n* [Groundwater](/wiki/elements/groundwater)\n* [Reservoir](/wiki/elements/reservoir)\n* [Geothermal Spring](/wiki/elements/geothermal-spring)\n* [Artesian Well](/wiki/elements/artesian-well)\n* [Basin](/wiki/elements/basin)\n* [Lake](/wiki/elements/lake)\n* [Dry Basin](/wiki/elements/dry-basin)\n* [Depression](/wiki/elements/depression)\n* [Island](/wiki/elements/island)\n* [Lagoon](/wiki/elements/lagoon)\n* [Wave](/wiki/elements/wave)\n* [Reef](/wiki/elements/reef)\n* [Coral](/wiki/elements/coral)\n* [Whirl](/wiki/elements/whirl)\n* [Limestone](/wiki/elements/limestone)\n* [Karst](/wiki/elements/karst)\n* [Quicklime](/wiki/elements/quicklime)\n* [Blowhole](/wiki/elements/blowhole)\n\nSee also:\n\n* [Games](/wiki/games)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "5f95db7dea0979ea718ab54d7476797914c8d8a6af4a281daefb6b6fb86a3a3d",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/adobe.md",
+      "content": "# Adobe\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "322bf9581ed83ef5b101958bee2554ae903be5b5aedee32b87aec757d80208bc",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/aquifer.md",
+      "content": "# Aquifer\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7f2cbf95eb86f9671caa5d7b480a857238522cb5fdbdc7fcebb6e3911e92de94",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/aromas.md",
+      "content": "# Aromas\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "14b73f5bbc95649411c1a30c5bae445ea1dd441066ea63234fc6bc6184f05cf5",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/artesian-well.md",
+      "content": "# Artesian Well\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a013821890fedbc13a0997d3fdb7845fd71ff4f608208c2c932d330c006c7213",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/ash.md",
+      "content": "# Ash\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "76957240e6dfefb4fc6b301b1b44c2efda1fa5a714f867b11986a47416e4993d",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/barbecue.md",
+      "content": "# Barbecue\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "ad18171a6e0c3c4eff730cf64555f6cebb6042371bb750ccbed7497a57d7f764",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/barricade.md",
+      "content": "# Barricade\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "2e0d9d637cbe3ddf5ab0064610c7fdab70c16d96d053e9d55e2b36e3b466310b",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/basalt.md",
+      "content": "# Basalt\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "735ef985ef46796dca5e1d05e52f6a5ddfc7add0ddbedb137349a2d2db8a1843",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/basin.md",
+      "content": "# Basin\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "149b6ecd0ed218b6062d19341c9678f085dee658418efd88b898dfb6406449a9",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/beach.md",
+      "content": "# Beach\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "8783ae398fbe71e35642cf3ea304ad5a6d7696359d5f8f31419c99b3a214ade0",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/bear.md",
+      "content": "# Bear\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "fe85213617bb23e91ef75ce2e9eadd100248ab6da041b070ff582e49bf2c34b4",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/bee.md",
+      "content": "# Bee\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e47bd854ca3e985e1a9c20105a3ce04217cef78227c3b8f876f07a4d475d6b1f",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/beer.md",
+      "content": "# Beer\n\n**Tier**: 2\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a199b85100a319b72829139bd085741e3379fdb6583e2d22596be15b3cbf0ce7",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/block.md",
+      "content": "# Block\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "b00ce34a2ef9fb492849cd59b6a3d11b144b0416c9a9d0da8352b9622423bbe7",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/blockchain.md",
+      "content": "# Blockchain\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "6a403f64f336eccb4f88acb49d4dde455513ba57e9fce435a328e815d79eda60",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/blowhole.md",
+      "content": "# Blowhole\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "c5da4b904e4b3e478d6250224adf10124b8d98bc72de707d368fa2d85cae5df1",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/breeze.md",
+      "content": "# Breeze\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "cf7fd858aa94480ca66869dda10795d1feb26e9057d5e5672851385471f88dbd",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/brick.md",
+      "content": "# Brick\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "c8380894bd60f4727c55b08f9121adc3d2d48bd13073bab5a87a3f53348b0199",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/bridge.md",
+      "content": "# Bridge\n\n**Tier**: 2\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "43961578c1427cba7817c963b9b980f50203d81dd17f7fb9a2eeb2d1d784b922",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/brook.md",
+      "content": "# Brook\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0b660003539b89b6d67869a413900d7c506d1cefebcd2c1d46bfc11ba39aca2f",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/canyon.md",
+      "content": "# Canyon\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "70bb41d170e9fcffd0b67dd4be67139c7c22dab9d1fd75bde30bb22dc9d6c559",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/cardano.md",
+      "content": "# Cardano\n\n**Tier**: 2\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "9c66ce56a76e63e6a510b55f1102899fbb02db26542709969c502e9d345cb085",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/cave.md",
+      "content": "# Cave\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "930a1cbaf70b75d0a763a61a6b3e2ad0d5b67dbe10d30cb7b453f6dba8e35034",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/charcoal.md",
+      "content": "# Charcoal\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "fad8d9d22c1d566a8ac3752ae27cac67822632417a3d93b549e4e1c9c423c401",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/charred-ravine.md",
+      "content": "# Charred Ravine\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "73e0d37428ba07f95e9d92c8c69e608ddc0c157f4025e3722fc13349ce650c2a",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/clay.md",
+      "content": "# Clay\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7d71b6ec1a0da89daa608953b9e076f9621773b2c3325b48433388859af5ddfe",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/cloud.md",
+      "content": "# Cloud\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7a5aa46c38b19aeec67b0c964170895fb6ed62b50444d4dbee27820c851ec16a",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/coin.md",
+      "content": "# Coin\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "f9f4cc17124735132c4c64d179f7ffeec9d5a3403909069ca8bbc886d1ac8956",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/cool-breeze.md",
+      "content": "# Cool Breeze\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "74b5145d61fe690b921c8e3d3be1147ffa1838aae6ff1a5c7dd08f3165ae4d6c",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/coral.md",
+      "content": "# Coral\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "8f84bf21f1288e2eeeb8790eb5f29c9eb70e0d009719eddbd76118c1bc48dffb",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/creek.md",
+      "content": "# Creek\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "54d3f40da4a57f317b38853ce08d1c86afccf0e396355bf0abb9ecc6c8b65040",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/crystal.md",
+      "content": "# Crystal\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "aa58483089ea4f884f0dc4c4f9947f3aae7cdf259cdc2f49cae205ca7da89d59",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/dam.md",
+      "content": "# Dam\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "cd063e5d9c312aa119fdc1936a9ff166837e9a80da4146802cd27735968d56fb",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/delta.md",
+      "content": "# Delta\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "f91dd7ad6a73acb172f0486a774bcf743ed1ef13889956eb28eb4860f33e53db",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/depression.md",
+      "content": "# Depression\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3be7fd5b1733e81d8946238c74530c7464d0ab4149971baa0d4fe3df0887ce42",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/desert.md",
+      "content": "# Desert\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "cd1a5ff7f9557bc55ee48ea29593f1b3ec6a27aae898ae24500f3e9189695ace",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/dry-basin.md",
+      "content": "# Dry Basin\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "28309b0331de7a9bae0c5566f907a58c0b7d0004db055c4cb3b644eb5fddf65c",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/dune.md",
+      "content": "# Dune\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "888f71989e62a06fa1ea92d5d84428a7fad8c7514336239f71983cb38fc727f9",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/dust.md",
+      "content": "# Dust\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "9db888afe46b7e401d1d8f3de0bd7d4bde336cddde45333013f5fb0ebad6afb4",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/earth.md",
+      "content": "# Earth\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "d055b693f12ae1a66c984946bde860feb686f8fa2d7f11c10f79857888565737",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/echo.md",
+      "content": "# Echo\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "08e3eba9a95bacb6d5209c2a1dbeaaa765df8249d66df9335544fc704a8f2e2f",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/ember.md",
+      "content": "# Ember\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "cb23bf7f61f760d5826fd5d6a8ca84939d8f94964ba3f5611032ef32c23e897c",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/erosion.md",
+      "content": "# Erosion\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "ab70d14d3e2c8e548080e01cd052fb009fafa5803938b891dc7eb239ee9b2ccc",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/estuary.md",
+      "content": "# Estuary\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0c29dc0cbf4cd5b2e18737ac030b4e50284dd8bd471a6ba867a7cd736a08bf94",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/eternal-flame.md",
+      "content": "# Eternal Flame\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "620271af2517b84a57093575de63451182b5841f6eec96fcfa9dd72222bcfcac",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/farm.md",
+      "content": "# Farm\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "b9b59e735619f16962db71fb4d4407c2b263550e266e8ff3a4e7e6dde2af4dfb",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/fertile-land.md",
+      "content": "# Fertile Land\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "b3a5b76e16461e8a59c7a6c17f23915c496340152b20de999cb4b83679a9b8b4",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/fertilizer.md",
+      "content": "# Fertilizer\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "ffa31f00fe4e88edea600cf008d5304a143ba9bf3b369709d61184b03ee46a50",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/fire-swamp.md",
+      "content": "# Fire Swamp\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3db95903b17c8cd38ae23784bb13e8460c5243298a0ebe1c8fd17dbbc7d6d855",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/fire.md",
+      "content": "# Fire\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "ff6042b6f6ee58f41dcffe63a3420637a34f89366a3fecd5fecf3791040035a2",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/firewall.md",
+      "content": "# Firewall\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "c24c8cdd62fa390b53ebc9ad606b9693b0b1c62250a15803bb496d1ef4d46ca0",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/flood.md",
+      "content": "# Flood\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "673d0c0512b9c4cb0ca0a465ba773ed5c8eb19388d2065e0ef6cfe1aac9497ab",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/flower.md",
+      "content": "# Flower\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "db2bb38a8ea774022f5291ffbfab6f2a27e42c470e4cac92f3cda600758b4516",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/fog.md",
+      "content": "# Fog\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7c1c62c41a3f40f700d27cd3492d5de52e6c6afaee805615362209d9f38c16cd",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/forest.md",
+      "content": "# Forest\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7d96a69c5c92517ef5c3a95007d0f0f62af5bc4b59c5404450716f0a3d57d3a6",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/fountain.md",
+      "content": "# Fountain\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e65b06a05bf674659d42a8dac0295f5c59767d43e140cacc283404ceab4deafa",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/fresh-breeze.md",
+      "content": "# Fresh Breeze\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1edee0f0a9842c0fd799eb2cdb88318cb4a9dde8f24461691759de0098a291e7",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/frosted-glass.md",
+      "content": "# Frosted Glass\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "34e59f74b7b3967bd1de2dd8ab651ba1f4df3bc09492203ac65e9314d5e7af16",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/garden.md",
+      "content": "# Garden\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e84b94ff5ad6db9373c7cd25987566b8c24ad02709d8c9c4c4c3aeceed3a403a",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/geothermal-spring.md",
+      "content": "# Geothermal Spring\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "ee246397bf41f5c126d6bc0c7bdba70c201ac927c2648d27d563985c09c3202f",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/geyser.md",
+      "content": "# Geyser\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "688bf27d5ec0648890b32f009c2a9973b77487cc31a68887f93a4d847e8e5ee8",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/giraffe.md",
+      "content": "# Giraffe\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e04d1b017a426202a1edb53ba708645d40c92dac6a01d4b1d35aff0a5d427d29",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/glass.md",
+      "content": "# Glass\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3786c7c2eae3ca4057d5df7ceb7466b2061edd61001ea0d99790d2b41225ffd4",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/gold.md",
+      "content": "# Gold\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a2126eaf6d71d71c4ea70eec0ae08ad32c129eb005fadf615e16c4613dca31c9",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/golden-gate.md",
+      "content": "# Golden Gate\n\n**Tier**: 2\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "32af756bcb5fad04e24df210be68663016523909167c5ad83cb61fc9c6868dac",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/gorge.md",
+      "content": "# Gorge\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e3d03bb5cf57bb823a4d9f9dc5ecdc1dc7efc01da582080bca73335e3cbd0d2a",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/grotto.md",
+      "content": "# Grotto\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "b87cfbb68d177f11563d5deb582f1c024c2635b1540eade7c3ee4ec8535fbcd2",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/groundwater.md",
+      "content": "# Groundwater\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e3cf0063b5130584e820ab6dfc1289c1735e1d587d16b5df224c80f9c6081122",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/haze.md",
+      "content": "# Haze\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "99e13b755a59922f677638b7926a40812512cd7cb0379ad7806835a3199ffce3",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/hive.md",
+      "content": "# Hive\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3f45d3e3c0c592ada84181487c536f9b2c7c517e94249a3ca96271e2d204186b",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/hot-spring.md",
+      "content": "# Hot Spring\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0742e186e1d6446217ef73bde38141c9f341fae033d00f669778d007359bb694",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/hydra.md",
+      "content": "# Hydra\n\n**Tier**: 2\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "9a1e13604b57456479aa14884a50af2f75ee8c9f873e08e319b83f74fede9205",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/hyper-marmalade.md",
+      "content": "# Hyper Marmalade\n\n**Tier**: 2\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "c68c829408a2fd31a53eabc7a8033107f6a1b4fb9f39e49677ae4ba0b58ba5db",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/island.md",
+      "content": "# Island\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "6d2c28f7c026af1399c0b13b8a18bdb36d5fcb31f644e8c13e2198f9b9902e68",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/jungle.md",
+      "content": "# Jungle\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3ddf7280a2849ddfbef8d9e9f379d320e71ff3bcdb4a8dec65051f10e09b13d6",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/karst.md",
+      "content": "# Karst\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e7ff789b3129ff23cf1766cdfbbd37793f6d857373219436527f74ac2ad68bbd",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/kiln.md",
+      "content": "# Kiln\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7f0531dc5016ccf77bffa3dd92c3a7dd338ceee2acf3dc54ce6e597925edc9e6",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/lagoon.md",
+      "content": "# Lagoon\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7289f77e4874be903cd6dc1c4bfd39fdaeeda48c321fbc1364c75efd01db619e",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/lake.md",
+      "content": "# Lake\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "60edd978ff7ef9a97b90b9af78c566dab33962d8cce42da524e1ad0b49899885",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/landslide.md",
+      "content": "# Landslide\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "99886ea420b27ac027fa844b3208fe00ab5c7fe780a8d982ee823e35a677a96e",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/lava-cave.md",
+      "content": "# Lava Cave\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4007625adb930382d759a5a1b95508d15770c9254b59d6004deae7bde7274106",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/lava.md",
+      "content": "# Lava\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "c9ad36fd4d38551615786078cc5b0848b69cddeccc9dbe37a9c8cb8fda0b2617",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/leaves.md",
+      "content": "# Leaves\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "09ea730743b9056d78642f5368033a232afd6e0c36ef2dd73f3f277706f06f92",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/lightning.md",
+      "content": "# Lightning\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "8ef3f9c229187533e8c6eb9745fa2f52637ee2157a97e7a74d7ccdac67ca6056",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/limestone.md",
+      "content": "# Limestone\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "c913ee7cfb04c0d94b547dafa00cbb29eca2591875c1aa63e489d17a283311bc",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/lock.md",
+      "content": "# Lock\n\n**Tier**: 2\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "04cd697ecdd68945ce61231c38b36af3171d40e42905c6e87a5a99e2a6c651b2",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/magma-chamber.md",
+      "content": "# Magma Chamber\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "c3588f908ab2e05f68d2b2d1f4c08635522316c90992aec6a17b0dd19d4a966c",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/magma.md",
+      "content": "# Magma\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "d7f18fafaa01b6f90c338fb36279ef525da1fec19d133a7f71070551c6829d88",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/marmalade.md",
+      "content": "# Marmalade\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "42388abc33cfd35dc32d6ee22ba4fc99ca502a1066e8f2569addd386964f1048",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/mirage.md",
+      "content": "# Mirage\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0835a96997593368b14132aad3909d7acdb6f4998b65c46a8c155cb2dd7527b6",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/mist.md",
+      "content": "# Mist\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "40715eba4cdddc4bf7eea7f82bcc61b268fc657974120cc0b7db5ab09e184130",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/molten-glass.md",
+      "content": "# Molten Glass\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4412ba481ab36512b7c5e05b9e58476c1cd4d241c793c78bac1dd0a8ca1400a0",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/monkey-branch.md",
+      "content": "# Monkey Branch\n\n**Tier**: 2\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "553741cee4735dc9b3dee47c435058c0b9471f89e052c30df211e4cb04f97313",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/monkey.md",
+      "content": "# Monkey\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "451fd384bbb60bc27c936517e0526c25688c839aee3bd5dba45de1cd3d97475a",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/monument.md",
+      "content": "# Monument\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "ffdbce4e21a7b7c680811afbe32223256f9a75a28b4e794dc8a6663405d3df76",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/mountain.md",
+      "content": "# Mountain\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "5abcf960f01410ef6cf42ea75e8fdd9df33cf368f63cf94044819950a93d645a",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/mud.md",
+      "content": "# Mud\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1d2c2da21d54b8f1be048500952602f3f407e320e20b4a5e74de72dad978cc3c",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/murmur.md",
+      "content": "# Murmur\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "6551fbad3819d52b81e0ee52f27dba54989b5c21bca1f7df5d45119e96084152",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/oasis.md",
+      "content": "# Oasis\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7e971a40cab8be807c2eba34398ed54db5cad33309120f3f8a898d46fc8c461d",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/obsidian.md",
+      "content": "# Obsidian\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "dca0f23ebea6d077083a55f9d1a428007610e965d1244f05208ab67762e3798e",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/parched-earth.md",
+      "content": "# Parched Earth\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "b8d1c4f4aa3b70f52c7d89c482096fb5a7c9c3705e4fbea83a5aaaf76877ca3d",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/peat.md",
+      "content": "# Peat\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "341ee288cd2a2c00e63f882b2b31824511104770e09ce94b0af26b02eefd36e6",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/pebble.md",
+      "content": "# Pebble\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7f54ef4b8c3c2aeece2085f9dd62676a6238593a61d5ad2ea07eedc3ccf2d112",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/peer-review.md",
+      "content": "# Peer Review\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4a7583b4904a53fb128ae03015e8576cb84d8c5261115b6fdd59df12f2643855",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/pillar-of-wind.md",
+      "content": "# Pillar Of Wind\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "21e43d19e80e0829167c587202c52e2c5b27cac68e9dd3caeb65310919dd8a31",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/plant.md",
+      "content": "# Plant\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "2ca424d4b67efbe512cc9dad94633419b90e0f37addb9e50659189f9cd6c7de5",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/plateau.md",
+      "content": "# Plateau\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "59275f30eb1a1acad198e3aa122c529d98d1b48d8ec931698555e6d06e2165d2",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/polkadot.md",
+      "content": "# Polkadot\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0b41b25d2c86bb67584bbec587907c84edea7a3a287421f5f2dc4c33b897973c",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/pollination.md",
+      "content": "# Pollination\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "f07480043ad4d19ac10844b7db3849d7b37128c053c3564a68961854bbc649c5",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/pond.md",
+      "content": "# Pond\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "73729953dfdc1154f8aae935a53302e15498d0ca784016763f9b4c1ae3e28eb5",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/pottery.md",
+      "content": "# Pottery\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "cae4169f3987119d4dd0b984fc7ec1ff7eddffba6267bb3662c30519ab6ec98b",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/prism.md",
+      "content": "# Prism\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "531b41676b4e749f1ec9aa36ce1c0dad103a27158bcdc4cdb75fbb376a046a02",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/pumice.md",
+      "content": "# Pumice\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "f7ea112dd03d2754dc11a418a263fe4daf5254306cb932cdb7703fc3e10fd082",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/quicklime.md",
+      "content": "# Quicklime\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7815ce578823032ea2e1821dc7ac8b4e0531a34ece0a92be16154f5030ec6b6f",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/quicksand.md",
+      "content": "# Quicksand\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "22421328491211fa97eb256f9d76659b904da69c232516f7302cf99cc718bb14",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/rain.md",
+      "content": "# Rain\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "fb7b144f1e64f5e04147055439c3ea6932cfef24a0b51f42f68a6c33644fb14f",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/rainbow.md",
+      "content": "# Rainbow\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3a46822c619bbdd9073b28d1fb3cb601f016ca3c229ec6f16dbb4d9c45e928b1",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/ravine.md",
+      "content": "# Ravine\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4575f67ded36e67157fb8c6128f447a32854bf57800e8ce0e688ac4c352aa756",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/reeds.md",
+      "content": "# Reeds\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "ff955e00357f6611062c6d76c1bfaec5fa03ddcfc27adb760b87ce7fb266a059",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/reef.md",
+      "content": "# Reef\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7f6fb795d81d9dbd0e78f91cae32413138dc3ff6b4df081c43acad1ae9e7054b",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/reservoir.md",
+      "content": "# Reservoir\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1d321b3a79e359c4d06dab9e4a3386841d0b88b48709527ff4ff3a79f6eccdac",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/rhodium.md",
+      "content": "# Rhodium\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "fce3d9b7303b63c474a9eb48f5c7ee39d3683ee186c80e6dc4e8fd6fe60a9af3",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/river.md",
+      "content": "# River\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "b1a01d7f8c1b88a898f9ee7a0e98bf460ad001a449fe9f7c4a3c18c65ca96af6",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/riverbank.md",
+      "content": "# Riverbank\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "dcc36451c6f877eee36ce3d795fab37febcabf2ecab570f8925410051988b26d",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/rivulet.md",
+      "content": "# Rivulet\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "5a5286ed0ce072731c016eead282538a44ea53fb4a8e8ffc4a1e11c15e2a8c8b",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/rock.md",
+      "content": "# Rock\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "d9e16d33d53611a014eb1bf30d67af08d4566fc4f00036ce6313a644bdcbab29",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/sand-dune.md",
+      "content": "# Sand Dune\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "2456e2517fb96be84451adfa4ef69dc1e87f49dbbe9871027aaf67222c0cff7e",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/sand.md",
+      "content": "# Sand\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3c6c1ab798cd9c85fa192eedba51e624337a42084663a0fe57d7d1989c41953c",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/sandstorm.md",
+      "content": "# Sandstorm\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "73f1a743eb9e01f95b89daf2cde3574ce3b43b1ce0996dbaaf98e43ee294cd1b",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/scorched-earth.md",
+      "content": "# Scorched Earth\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4558a6be3f848e271ca78385abdeff2373689c269b3693b0f7cd891a25020508",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/seeds.md",
+      "content": "# Seeds\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "c639421fe6cd62696873bb5afe985f6a2088d95c90d4b35301cb4f5d20e3dcdc",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/shard.md",
+      "content": "# Shard\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "70e5b70bc7cd00272457f7c724ead75ddf09834acf0964171aa26e7dd2f541e8",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/shards.md",
+      "content": "# Shards\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "365d2ebe67a30d7fef3bddbb9406eb8de589b454856d29253e73b50b5fb8ce39",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/silver.md",
+      "content": "# Silver\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "15842b22a2149655dd9a45dfbb483e4ee065de8b9563ca68808d7e9b5d0ae207",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/sinkhole.md",
+      "content": "# Sinkhole\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1a505c03b819e9d4b94332b9d70ff796ee2473b7203cae874d19e5ac8a9ca458",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/smoke.md",
+      "content": "# Smoke\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "24655e59d727456a545195aa1b540b1a615e845bc1debac7cb29fdb21e513bb4",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/soil.md",
+      "content": "# Soil\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "306cfe17d1ae572fc7e0a23a256e56797dce14c9adac90ac359b55a75c5dd419",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/soot.md",
+      "content": "# Soot\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "fe7ed1a601a60b9061e443ea93694a13d737cda16137cf530e212ce820280309",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/sparkle.md",
+      "content": "# Sparkle\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4cf691022b5e37dca3690d0827cbe7e049305aaa2779591a609671874bc786e5",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/spore.md",
+      "content": "# Spore\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "884253e67090507a4a6c33c4e27f1c6db7c3d4e9b5072e22097799237b6acc2c",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/spread.md",
+      "content": "# Spread\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0c2378d01682ce578d63956ec60119da1dadb01bb70dbf47bb487da814f0a261",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/spring.md",
+      "content": "# Spring\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "bdbe941ddf1f11e3cddebd8c870f8106c14d9cf3f6667cd2b5d6e242587228bb",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/steam-vent.md",
+      "content": "# Steam Vent\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "796c6a934f487d2e3dfdd5c1176f3a80725575083a040fb4a8f47462f7c0cbe6",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/steam.md",
+      "content": "# Steam\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "ea5c3489d66ee0197b6ccedb24b5d1fc62141b82560f0d739493b2949c3c2c6e",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/storm.md",
+      "content": "# Storm\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "82e3fa43eb65a90f3d8fb6d3277a32cc3f9eab76b5bf1c5b584c54912b962dca",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/stream.md",
+      "content": "# Stream\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "6c89f9b0745e2cb2adaac2b89dc7b5d7099236c6d2f79cb15fbab1e5e4335d15",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/subterranean-pool.md",
+      "content": "# Subterranean Pool\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e888ccab34a9e18315c3c11e31540b4a2b7af555a63e2260e3dcaf1f669ed93c",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/super-marmalade.md",
+      "content": "# Super Marmalade\n\n**Tier**: 2\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "2fd2c25adb7cd781772d13e476fcef316d91c4e73145bdfc9d8657946bba727e",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/swarm.md",
+      "content": "# Swarm\n\n**Tier**: 2\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1a8fc1a038bef00e32539d35b6c208aeefeea64428ab98885907a3b02324d900",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/thunder.md",
+      "content": "# Thunder\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "5c0049e47631f7e0497a234ca24f13c437a42a9bd7479836f024741f5bad27cf",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/tornado.md",
+      "content": "# Tornado\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "33db7963d0c7e91a49ba0258d86e2ed93f4efd5e091f8ada690317b093ee7d04",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/transaction.md",
+      "content": "# Transaction\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "b25a70da6566ee8115a756379152d7b76aa9cb32b31aea5b3feb882d78985820",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/tree.md",
+      "content": "# Tree\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "5bd179e9bd5f2d002f409e337c7efcb9eba4a919b6fd1e865324108acd3ba2bd",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/tributary.md",
+      "content": "# Tributary\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "c3321e629a79a0f8fddbc2d179216c05a1cfdd6c7ee47da209c37ed301a51d7e",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/underground-lake.md",
+      "content": "# Underground Lake\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "fb270b360aca0d0ce88efc94389b3a8d6161b7514b678c762c9eea0a013f405e",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/valley.md",
+      "content": "# Valley\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "552e8f58096f5c2662a30be3c7a4264e4fa9a2c1381498e7d53c6f1a2f7ad49f",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/volcano.md",
+      "content": "# Volcano\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "41525fbaca3a36d6bfeaa5312495b4ce74846a459297fccfab96c1f2838e5457",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/wall.md",
+      "content": "# Wall\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "af56644885a81e9925ab89087cb7cfd11372a63a45d322ac515f4c0d3f8970d3",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/warm-breeze.md",
+      "content": "# Warm Breeze\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "da3ddc0de2313737b2c865bff2d846cd64e151b5db379642e7787336d4da3e31",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/water.md",
+      "content": "# Water\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "19b10125b33a0d8b1b4541e4317c78106755d711d48c3e3a3782e29c97ebd77f",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/waterfall.md",
+      "content": "# Waterfall\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "6c637d6f8c423632716202bee1b67ee273e185166d2724f44f3521cb7bd4e085",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/watershed.md",
+      "content": "# Watershed\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "8299d8e80b91c2803f85dac83206172c3ca43f1b8d695376aa68a8bf94d11514",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/wave.md",
+      "content": "# Wave\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e6e3e14fdab8824547465f521755d965f1ee9e18a90f31d1f169cd823152d02c",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/wetland.md",
+      "content": "# Wetland\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "653df05a34fe333a040682f5354b7594d5421a1272613439e98c1dac788550c4",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/wetstone.md",
+      "content": "# Wetstone\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "f56d069841ead82b48cb5f1ea8576354171dd32bf99305d7ad61c378f284a9c1",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/whirl.md",
+      "content": "# Whirl\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "93a9bbe933f7e08a15e111cfe1454a5b66e9c149303966b242e518498ca80a99",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/whisper.md",
+      "content": "# Whisper\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "2c1b8aa3fae5137c913aa0be334ad2c7898136576210286a586a2c806df2bc96",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/whispering-cave.md",
+      "content": "# Whispering Cave\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "cbfe660f6c1f65dd9eda80e8e027414b1f95ab08085b291222cf8919b6283ca8",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/wildfire.md",
+      "content": "# Wildfire\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "2073fd37c2d86938e7d8fbfe04dece03f00f5e5eae98f47fb2b270cb90602f11",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/wind.md",
+      "content": "# Wind\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "6e9903068cc9f528a6a78957bb3e687264443eb20709655161c612cc4176d151",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/windmill.md",
+      "content": "# Windmill\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "439f057fb568f79633a4c7e45c55a5914493e9237cd3044c3d1928cbd312f39d",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/elements/zephyr.md",
+      "content": "# Zephyr\n\n**Tier**: 1\n\nWe need a description here\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a793666b19f1c1223bedc09c606fee2f7b9d6e1dddedd74d0ff0022899a281c6",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/games.md",
+      "content": "# Games\n\n_Not a bird_ contains multiple **games**. Each game is a set of [elements](/wiki/elements) and [recipes](/wiki/recipes).\n\n## List of games\n\n* [Unifiers](/wiki/games/unifiers)\n\nSee also:\n\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "ddccf475d108f4b2f6ece9f1611778580fbdeb37babe66625ba8389610ef8d5b",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/games/unifiers.md",
+      "content": "# Unifiers\n\nA game created with the help of the Unifiers group\n\n## Elements\n\n**Unifiers** has the following elements:\n\n* [Monkey](/wiki/elements/monkey)\n* [Giraffe](/wiki/elements/giraffe)\n* [Bee](/wiki/elements/bee)\n* [Coin](/wiki/elements/coin)\n* [Swarm](/wiki/elements/swarm)\n* [Hydra](/wiki/elements/hydra)\n* [Monkey Branch](/wiki/elements/monkey-branch)\n* [Bridge](/wiki/elements/bridge)\n* [Golden Gate](/wiki/elements/golden-gate)\n* [Gold](/wiki/elements/gold)\n* [Silver](/wiki/elements/silver)\n* [Rhodium](/wiki/elements/rhodium)\n* [Hive](/wiki/elements/hive)\n* [Transaction](/wiki/elements/transaction)\n* [Block](/wiki/elements/block)\n* [Blockchain](/wiki/elements/blockchain)\n* [Polkadot](/wiki/elements/polkadot)\n* [Peer Review](/wiki/elements/peer-review)\n* [Cardano](/wiki/elements/cardano)\n* [Bear](/wiki/elements/bear)\n* [Beer](/wiki/elements/beer)\n* [Lock](/wiki/elements/lock)\n* [Marmalade](/wiki/elements/marmalade)\n* [Super Marmalade](/wiki/elements/super-marmalade)\n* [Hyper Marmalade](/wiki/elements/hyper-marmalade)\n\n## Recipes\n\n**Unifiers** has the following recipes:\n\n* [Make Swarm](/wiki/recipes/make-swarm)\n* [Make Hydra](/wiki/recipes/make-hydra)\n* [Make Monkeybranch](/wiki/recipes/make-monkeybranch)\n* [Make Bridge](/wiki/recipes/make-bridge)\n* [Make Goldengate](/wiki/recipes/make-goldengate)\n* [Make Cardano](/wiki/recipes/make-cardano)\n* [Make Beer](/wiki/recipes/make-beer)\n* [Make Lock](/wiki/recipes/make-lock)\n* [Make Supermarmalade](/wiki/recipes/make-supermarmalade)\n* [Make Hypermarmalade](/wiki/recipes/make-hypermarmalade)\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "cc4eb2d42aeabb851eeebe3e697313a8eadf53c7722a123b6697d6c9d6fd5831",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/recipes.md",
+      "content": "# Recipes\n\nIn _Not a Bird_ players can combine [elements](/wiki/elements) via **recipes**. Each recipe has a format of `A + B = C`, where `A`, `B` and `C` are elements.\n\n## List of recipes\n\n* [Make Swarm](/wiki/recipes/make-swarm)\n* [Make Hydra](/wiki/recipes/make-hydra)\n* [Make Monkeybranch](/wiki/recipes/make-monkeybranch)\n* [Make Bridge](/wiki/recipes/make-bridge)\n* [Make Goldengate](/wiki/recipes/make-goldengate)\n* [Make Cardano](/wiki/recipes/make-cardano)\n* [Make Beer](/wiki/recipes/make-beer)\n* [Make Lock](/wiki/recipes/make-lock)\n* [Make Supermarmalade](/wiki/recipes/make-supermarmalade)\n* [Make Hypermarmalade](/wiki/recipes/make-hypermarmalade)\n\nSee also:\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0250eadc74b426af35f3483f0bd63d3aa75f041f8b9be952df3424c810e33721",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/recipes/make-beer.md",
+      "content": "# Make Beer\n\n\n\n## Ingredients\n\n* [Bee](/wiki/elements/bee)\n* [Bear](/wiki/elements/bear)\n\n## Result\n\n* [Beer](/wiki/elements/beer)\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0073cfd7a4f82313eb7298401386a13f7cba0deb2c9d83a39ea33da10976a2bd",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/recipes/make-bridge.md",
+      "content": "# Make Bridge\n\n\n\n## Ingredients\n\n* [Monkey Branch](/wiki/elements/monkey-branch)\n* [Monkey Branch](/wiki/elements/monkey-branch)\n\n## Result\n\n* [Bridge](/wiki/elements/bridge)\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3631d6fc9dc6e5ce2bc35aa223fcad862a0cbb409b61c69ce7d6068c19508d18",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/recipes/make-cardano.md",
+      "content": "# Make Cardano\n\n\n\n## Ingredients\n\n* [Blockchain](/wiki/elements/blockchain)\n* [Peer Review](/wiki/elements/peer-review)\n\n## Result\n\n* [Cardano](/wiki/elements/cardano)\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "77ce6bb64a53bc4c0f627182a00b94e621b236f761867e8adf2581c4f50b14b1",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/recipes/make-goldengate.md",
+      "content": "# Make Goldengate\n\n\n\n## Ingredients\n\n* [Coin](/wiki/elements/coin)\n* [Bridge](/wiki/elements/bridge)\n\n## Result\n\n* [Golden Gate](/wiki/elements/golden-gate)\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "c8ea6e047cab9eb554e18ce6a31180891898b16d17d351619fa80de04e61729f",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/recipes/make-hydra.md",
+      "content": "# Make Hydra\n\n\n\n## Ingredients\n\n* [Giraffe](/wiki/elements/giraffe)\n* [Giraffe](/wiki/elements/giraffe)\n\n## Result\n\n* [Hydra](/wiki/elements/hydra)\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7c232238ded8534d56238a76696943ec8ed573690021445333042bed2b42ca00",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/recipes/make-hypermarmalade.md",
+      "content": "# Make Hypermarmalade\n\n\n\n## Ingredients\n\n* [Super Marmalade](/wiki/elements/super-marmalade)\n* [Super Marmalade](/wiki/elements/super-marmalade)\n\n## Result\n\n* [Hyper Marmalade](/wiki/elements/hyper-marmalade)\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1c8bb95ff34bdf70a4106e3c66b7aee323e6a8a59cd2cdfaf40ccecb97e3bc2e",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/recipes/make-lock.md",
+      "content": "# Make Lock\n\n\n\n## Ingredients\n\n* [Silver](/wiki/elements/silver)\n* [Silver](/wiki/elements/silver)\n\n## Result\n\n* [Lock](/wiki/elements/lock)\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "119d12f030ed5fc31ed9f3fe5fa10c08bc75e39ac3ee1597e122e712a6d74db0",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/recipes/make-monkeybranch.md",
+      "content": "# Make Monkeybranch\n\n\n\n## Ingredients\n\n* [Monkey](/wiki/elements/monkey)\n* [Hydra](/wiki/elements/hydra)\n\n## Result\n\n* [Monkey Branch](/wiki/elements/monkey-branch)\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "99dad9c62f0423aa70d9a2f77b9c370bce2cd4e4ac32b3fbeb2a002de5309b38",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/recipes/make-supermarmalade.md",
+      "content": "# Make Supermarmalade\n\n\n\n## Ingredients\n\n* [Marmalade](/wiki/elements/marmalade)\n* [Marmalade](/wiki/elements/marmalade)\n\n## Result\n\n* [Super Marmalade](/wiki/elements/super-marmalade)\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "eda916c07bc22c78f1aba1937e9c5ddeb94d916130395ce0f9f0ecac3b51f897",
+      "noWriteIfExists": false
+    },
+    {
+      "filename": "packages/docs/wiki/recipes/make-swarm.md",
+      "content": "# Make Swarm\n\n\n\n## Ingredients\n\n* [Bee](/wiki/elements/bee)\n* [Bee](/wiki/elements/bee)\n\n## Result\n\n* [Swarm](/wiki/elements/swarm)\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "36c83f13de262a9a1e3f18158717e789bc30591b47bf9af5e41c48b41b17b9c3",
+      "noWriteIfExists": false
+    },
+    {
       "filename": "packages/model/src/items.ts",
       "content": "import { IItem } from './IItem';\nimport { IRecipe } from './IRecipe';\nimport { IGameContent } from './IGameContent';\n\nexport const ITEM_MONKEY: IItem = {\n    id: 0,\n    name: 'Monkey',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_GIRAFFE: IItem = {\n    id: 1,\n    name: 'Giraffe',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_BEE: IItem = {\n    id: 2,\n    name: 'Bee',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_COIN: IItem = {\n    id: 3,\n    name: 'Coin',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SWARM: IItem = {\n    id: 4,\n    name: 'Swarm',\n    description: 'We need a description here',\n    tier: 2,\n};\nexport const ITEM_HYDRA: IItem = {\n    id: 5,\n    name: 'Hydra',\n    description: 'We need a description here',\n    tier: 2,\n};\nexport const ITEM_MONKEY_BRANCH: IItem = {\n    id: 6,\n    name: 'Monkey Branch',\n    description: 'We need a description here',\n    tier: 2,\n};\nexport const ITEM_BRIDGE: IItem = {\n    id: 7,\n    name: 'Bridge',\n    description: 'We need a description here',\n    tier: 2,\n};\nexport const ITEM_GOLDEN_GATE: IItem = {\n    id: 8,\n    name: 'Golden Gate',\n    description: 'We need a description here',\n    tier: 2,\n};\nexport const ITEM_GOLD: IItem = {\n    id: 9,\n    name: 'Gold',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SILVER: IItem = {\n    id: 10,\n    name: 'Silver',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_RHODIUM: IItem = {\n    id: 11,\n    name: 'Rhodium',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_HIVE: IItem = {\n    id: 12,\n    name: 'Hive',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_TRANSACTION: IItem = {\n    id: 13,\n    name: 'Transaction',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_BLOCK: IItem = {\n    id: 14,\n    name: 'Block',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_BLOCKCHAIN: IItem = {\n    id: 15,\n    name: 'Blockchain',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_POLKADOT: IItem = {\n    id: 16,\n    name: 'Polkadot',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_PEER_REVIEW: IItem = {\n    id: 17,\n    name: 'Peer Review',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_CARDANO: IItem = {\n    id: 18,\n    name: 'Cardano',\n    description: 'We need a description here',\n    tier: 2,\n};\nexport const ITEM_BEAR: IItem = {\n    id: 19,\n    name: 'Bear',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_BEER: IItem = {\n    id: 20,\n    name: 'Beer',\n    description: 'We need a description here',\n    tier: 2,\n};\nexport const ITEM_LOCK: IItem = {\n    id: 21,\n    name: 'Lock',\n    description: 'We need a description here',\n    tier: 2,\n};\nexport const ITEM_MARMALADE: IItem = {\n    id: 22,\n    name: 'Marmalade',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SUPER_MARMALADE: IItem = {\n    id: 23,\n    name: 'Super Marmalade',\n    description: 'We need a description here',\n    tier: 2,\n};\nexport const ITEM_HYPER_MARMALADE: IItem = {\n    id: 24,\n    name: 'Hyper Marmalade',\n    description: 'We need a description here',\n    tier: 2,\n};\nexport const ITEM_WATER: IItem = {\n    id: 25,\n    name: 'Water',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_FIRE: IItem = {\n    id: 26,\n    name: 'Fire',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_STEAM: IItem = {\n    id: 27,\n    name: 'Steam',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_EARTH: IItem = {\n    id: 28,\n    name: 'Earth',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_MUD: IItem = {\n    id: 29,\n    name: 'Mud',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_LAVA: IItem = {\n    id: 30,\n    name: 'Lava',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_WIND: IItem = {\n    id: 31,\n    name: 'Wind',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_DUST: IItem = {\n    id: 32,\n    name: 'Dust',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_RAIN: IItem = {\n    id: 33,\n    name: 'Rain',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SMOKE: IItem = {\n    id: 34,\n    name: 'Smoke',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_GEYSER: IItem = {\n    id: 35,\n    name: 'Geyser',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_CLAY: IItem = {\n    id: 36,\n    name: 'Clay',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SAND: IItem = {\n    id: 37,\n    name: 'Sand',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_PLANT: IItem = {\n    id: 38,\n    name: 'Plant',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_RAINBOW: IItem = {\n    id: 39,\n    name: 'Rainbow',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_STORM: IItem = {\n    id: 40,\n    name: 'Storm',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_OBSIDIAN: IItem = {\n    id: 41,\n    name: 'Obsidian',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_ASH: IItem = {\n    id: 42,\n    name: 'Ash',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_VOLCANO: IItem = {\n    id: 43,\n    name: 'Volcano',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SANDSTORM: IItem = {\n    id: 44,\n    name: 'Sandstorm',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_CLOUD: IItem = {\n    id: 45,\n    name: 'Cloud',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_FOG: IItem = {\n    id: 46,\n    name: 'Fog',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_TREE: IItem = {\n    id: 47,\n    name: 'Tree',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_FOREST: IItem = {\n    id: 48,\n    name: 'Forest',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SEEDS: IItem = {\n    id: 49,\n    name: 'Seeds',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_POTTERY: IItem = {\n    id: 50,\n    name: 'Pottery',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_BRICK: IItem = {\n    id: 51,\n    name: 'Brick',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_QUICKSAND: IItem = {\n    id: 52,\n    name: 'Quicksand',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_GLASS: IItem = {\n    id: 53,\n    name: 'Glass',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_DUNE: IItem = {\n    id: 54,\n    name: 'Dune',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_CHARCOAL: IItem = {\n    id: 55,\n    name: 'Charcoal',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_LEAVES: IItem = {\n    id: 56,\n    name: 'Leaves',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_WILDFIRE: IItem = {\n    id: 57,\n    name: 'Wildfire',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_JUNGLE: IItem = {\n    id: 58,\n    name: 'Jungle',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_FROSTED_GLASS: IItem = {\n    id: 59,\n    name: 'Frosted Glass',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_CRYSTAL: IItem = {\n    id: 60,\n    name: 'Crystal',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_MAGMA: IItem = {\n    id: 61,\n    name: 'Magma',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_ROCK: IItem = {\n    id: 62,\n    name: 'Rock',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SHARD: IItem = {\n    id: 63,\n    name: 'Shard',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_PEBBLE: IItem = {\n    id: 64,\n    name: 'Pebble',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_MOUNTAIN: IItem = {\n    id: 65,\n    name: 'Mountain',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_FERTILIZER: IItem = {\n    id: 66,\n    name: 'Fertilizer',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SOOT: IItem = {\n    id: 67,\n    name: 'Soot',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_LIGHTNING: IItem = {\n    id: 68,\n    name: 'Lightning',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_MIST: IItem = {\n    id: 69,\n    name: 'Mist',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_HAZE: IItem = {\n    id: 70,\n    name: 'Haze',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_FLOOD: IItem = {\n    id: 71,\n    name: 'Flood',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_LANDSLIDE: IItem = {\n    id: 72,\n    name: 'Landslide',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_THUNDER: IItem = {\n    id: 73,\n    name: 'Thunder',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_TORNADO: IItem = {\n    id: 74,\n    name: 'Tornado',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_GARDEN: IItem = {\n    id: 75,\n    name: 'Garden',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_EMBER: IItem = {\n    id: 76,\n    name: 'Ember',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_KILN: IItem = {\n    id: 77,\n    name: 'Kiln',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_POLLINATION: IItem = {\n    id: 78,\n    name: 'Pollination',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SINKHOLE: IItem = {\n    id: 79,\n    name: 'Sinkhole',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_BEACH: IItem = {\n    id: 80,\n    name: 'Beach',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_WETSTONE: IItem = {\n    id: 81,\n    name: 'Wetstone',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_EROSION: IItem = {\n    id: 82,\n    name: 'Erosion',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_BASALT: IItem = {\n    id: 83,\n    name: 'Basalt',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_MAGMA_CHAMBER: IItem = {\n    id: 84,\n    name: 'Magma Chamber',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_BREEZE: IItem = {\n    id: 85,\n    name: 'Breeze',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_WARM_BREEZE: IItem = {\n    id: 86,\n    name: 'Warm Breeze',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SOIL: IItem = {\n    id: 87,\n    name: 'Soil',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_CANYON: IItem = {\n    id: 88,\n    name: 'Canyon',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_WINDMILL: IItem = {\n    id: 89,\n    name: 'Windmill',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_ADOBE: IItem = {\n    id: 90,\n    name: 'Adobe',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_WALL: IItem = {\n    id: 91,\n    name: 'Wall',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_PUMICE: IItem = {\n    id: 92,\n    name: 'Pumice',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_BARBECUE: IItem = {\n    id: 93,\n    name: 'Barbecue',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_FARM: IItem = {\n    id: 94,\n    name: 'Farm',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SHARDS: IItem = {\n    id: 95,\n    name: 'Shards',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_MOLTEN_GLASS: IItem = {\n    id: 96,\n    name: 'Molten Glass',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_PRISM: IItem = {\n    id: 97,\n    name: 'Prism',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SPARKLE: IItem = {\n    id: 98,\n    name: 'Sparkle',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_DESERT: IItem = {\n    id: 99,\n    name: 'Desert',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_OASIS: IItem = {\n    id: 100,\n    name: 'Oasis',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_MIRAGE: IItem = {\n    id: 101,\n    name: 'Mirage',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SAND_DUNE: IItem = {\n    id: 102,\n    name: 'Sand Dune',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_DAM: IItem = {\n    id: 103,\n    name: 'Dam',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_FIREWALL: IItem = {\n    id: 104,\n    name: 'Firewall',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_BARRICADE: IItem = {\n    id: 105,\n    name: 'Barricade',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_PLATEAU: IItem = {\n    id: 106,\n    name: 'Plateau',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_POND: IItem = {\n    id: 107,\n    name: 'Pond',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_AROMAS: IItem = {\n    id: 108,\n    name: 'Aromas',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_FLOWER: IItem = {\n    id: 109,\n    name: 'Flower',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SPORE: IItem = {\n    id: 110,\n    name: 'Spore',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SPREAD: IItem = {\n    id: 111,\n    name: 'Spread',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_FERTILE_LAND: IItem = {\n    id: 112,\n    name: 'Fertile Land',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_WETLAND: IItem = {\n    id: 113,\n    name: 'Wetland',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_PEAT: IItem = {\n    id: 114,\n    name: 'Peat',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_REEDS: IItem = {\n    id: 115,\n    name: 'Reeds',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_VALLEY: IItem = {\n    id: 116,\n    name: 'Valley',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_RIVER: IItem = {\n    id: 117,\n    name: 'River',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SCORCHED_EARTH: IItem = {\n    id: 118,\n    name: 'Scorched Earth',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_DELTA: IItem = {\n    id: 119,\n    name: 'Delta',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_ESTUARY: IItem = {\n    id: 120,\n    name: 'Estuary',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_FIRE_SWAMP: IItem = {\n    id: 121,\n    name: 'Fire Swamp',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_RIVERBANK: IItem = {\n    id: 122,\n    name: 'Riverbank',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_RAVINE: IItem = {\n    id: 123,\n    name: 'Ravine',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_GORGE: IItem = {\n    id: 124,\n    name: 'Gorge',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_CHARRED_RAVINE: IItem = {\n    id: 125,\n    name: 'Charred Ravine',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_ECHO: IItem = {\n    id: 126,\n    name: 'Echo',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_CAVE: IItem = {\n    id: 127,\n    name: 'Cave',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_UNDERGROUND_LAKE: IItem = {\n    id: 128,\n    name: 'Underground Lake',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_LAVA_CAVE: IItem = {\n    id: 129,\n    name: 'Lava Cave',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_WHISPERING_CAVE: IItem = {\n    id: 130,\n    name: 'Whispering Cave',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SUBTERRANEAN_POOL: IItem = {\n    id: 131,\n    name: 'Subterranean Pool',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_SPRING: IItem = {\n    id: 132,\n    name: 'Spring',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_HOT_SPRING: IItem = {\n    id: 133,\n    name: 'Hot Spring',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_GROTTO: IItem = {\n    id: 134,\n    name: 'Grotto',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_FOUNTAIN: IItem = {\n    id: 135,\n    name: 'Fountain',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_STEAM_VENT: IItem = {\n    id: 136,\n    name: 'Steam Vent',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_COOL_BREEZE: IItem = {\n    id: 137,\n    name: 'Cool Breeze',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_MONUMENT: IItem = {\n    id: 138,\n    name: 'Monument',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_WATERFALL: IItem = {\n    id: 139,\n    name: 'Waterfall',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_ETERNAL_FLAME: IItem = {\n    id: 140,\n    name: 'Eternal Flame',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_PILLAR_OF_WIND: IItem = {\n    id: 141,\n    name: 'Pillar Of Wind',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_STREAM: IItem = {\n    id: 142,\n    name: 'Stream',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_ZEPHYR: IItem = {\n    id: 143,\n    name: 'Zephyr',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_CREEK: IItem = {\n    id: 144,\n    name: 'Creek',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_BROOK: IItem = {\n    id: 145,\n    name: 'Brook',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_WHISPER: IItem = {\n    id: 146,\n    name: 'Whisper',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_RIVULET: IItem = {\n    id: 147,\n    name: 'Rivulet',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_TRIBUTARY: IItem = {\n    id: 148,\n    name: 'Tributary',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_MURMUR: IItem = {\n    id: 149,\n    name: 'Murmur',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_WATERSHED: IItem = {\n    id: 150,\n    name: 'Watershed',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_AQUIFER: IItem = {\n    id: 151,\n    name: 'Aquifer',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_PARCHED_EARTH: IItem = {\n    id: 152,\n    name: 'Parched Earth',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_FRESH_BREEZE: IItem = {\n    id: 153,\n    name: 'Fresh Breeze',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_GROUNDWATER: IItem = {\n    id: 154,\n    name: 'Groundwater',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_RESERVOIR: IItem = {\n    id: 155,\n    name: 'Reservoir',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_GEOTHERMAL_SPRING: IItem = {\n    id: 156,\n    name: 'Geothermal Spring',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_ARTESIAN_WELL: IItem = {\n    id: 157,\n    name: 'Artesian Well',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_BASIN: IItem = {\n    id: 158,\n    name: 'Basin',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_LAKE: IItem = {\n    id: 159,\n    name: 'Lake',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_DRY_BASIN: IItem = {\n    id: 160,\n    name: 'Dry Basin',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_DEPRESSION: IItem = {\n    id: 161,\n    name: 'Depression',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_ISLAND: IItem = {\n    id: 162,\n    name: 'Island',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_LAGOON: IItem = {\n    id: 163,\n    name: 'Lagoon',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_WAVE: IItem = {\n    id: 164,\n    name: 'Wave',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_REEF: IItem = {\n    id: 165,\n    name: 'Reef',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_CORAL: IItem = {\n    id: 166,\n    name: 'Coral',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_WHIRL: IItem = {\n    id: 167,\n    name: 'Whirl',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_LIMESTONE: IItem = {\n    id: 168,\n    name: 'Limestone',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_KARST: IItem = {\n    id: 169,\n    name: 'Karst',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_QUICKLIME: IItem = {\n    id: 170,\n    name: 'Quicklime',\n    description: 'We need a description here',\n    tier: 1,\n};\nexport const ITEM_BLOWHOLE: IItem = {\n    id: 171,\n    name: 'Blowhole',\n    description: 'We need a description here',\n    tier: 1,\n};\n\nexport const ALL_ITEMS: IItem[] = [\n    ITEM_MONKEY,\n    ITEM_GIRAFFE,\n    ITEM_BEE,\n    ITEM_COIN,\n    ITEM_SWARM,\n    ITEM_HYDRA,\n    ITEM_MONKEY_BRANCH,\n    ITEM_BRIDGE,\n    ITEM_GOLDEN_GATE,\n    ITEM_GOLD,\n    ITEM_SILVER,\n    ITEM_RHODIUM,\n    ITEM_HIVE,\n    ITEM_TRANSACTION,\n    ITEM_BLOCK,\n    ITEM_BLOCKCHAIN,\n    ITEM_POLKADOT,\n    ITEM_PEER_REVIEW,\n    ITEM_CARDANO,\n    ITEM_BEAR,\n    ITEM_BEER,\n    ITEM_LOCK,\n    ITEM_MARMALADE,\n    ITEM_SUPER_MARMALADE,\n    ITEM_HYPER_MARMALADE,\n    ITEM_WATER,\n    ITEM_FIRE,\n    ITEM_STEAM,\n    ITEM_EARTH,\n    ITEM_MUD,\n    ITEM_LAVA,\n    ITEM_WIND,\n    ITEM_DUST,\n    ITEM_RAIN,\n    ITEM_SMOKE,\n    ITEM_GEYSER,\n    ITEM_CLAY,\n    ITEM_SAND,\n    ITEM_PLANT,\n    ITEM_RAINBOW,\n    ITEM_STORM,\n    ITEM_OBSIDIAN,\n    ITEM_ASH,\n    ITEM_VOLCANO,\n    ITEM_SANDSTORM,\n    ITEM_CLOUD,\n    ITEM_FOG,\n    ITEM_TREE,\n    ITEM_FOREST,\n    ITEM_SEEDS,\n    ITEM_POTTERY,\n    ITEM_BRICK,\n    ITEM_QUICKSAND,\n    ITEM_GLASS,\n    ITEM_DUNE,\n    ITEM_CHARCOAL,\n    ITEM_LEAVES,\n    ITEM_WILDFIRE,\n    ITEM_JUNGLE,\n    ITEM_FROSTED_GLASS,\n    ITEM_CRYSTAL,\n    ITEM_MAGMA,\n    ITEM_ROCK,\n    ITEM_SHARD,\n    ITEM_PEBBLE,\n    ITEM_MOUNTAIN,\n    ITEM_FERTILIZER,\n    ITEM_SOOT,\n    ITEM_LIGHTNING,\n    ITEM_MIST,\n    ITEM_HAZE,\n    ITEM_FLOOD,\n    ITEM_LANDSLIDE,\n    ITEM_THUNDER,\n    ITEM_TORNADO,\n    ITEM_GARDEN,\n    ITEM_EMBER,\n    ITEM_KILN,\n    ITEM_POLLINATION,\n    ITEM_SINKHOLE,\n    ITEM_BEACH,\n    ITEM_WETSTONE,\n    ITEM_EROSION,\n    ITEM_BASALT,\n    ITEM_MAGMA_CHAMBER,\n    ITEM_BREEZE,\n    ITEM_WARM_BREEZE,\n    ITEM_SOIL,\n    ITEM_CANYON,\n    ITEM_WINDMILL,\n    ITEM_ADOBE,\n    ITEM_WALL,\n    ITEM_PUMICE,\n    ITEM_BARBECUE,\n    ITEM_FARM,\n    ITEM_SHARDS,\n    ITEM_MOLTEN_GLASS,\n    ITEM_PRISM,\n    ITEM_SPARKLE,\n    ITEM_DESERT,\n    ITEM_OASIS,\n    ITEM_MIRAGE,\n    ITEM_SAND_DUNE,\n    ITEM_DAM,\n    ITEM_FIREWALL,\n    ITEM_BARRICADE,\n    ITEM_PLATEAU,\n    ITEM_POND,\n    ITEM_AROMAS,\n    ITEM_FLOWER,\n    ITEM_SPORE,\n    ITEM_SPREAD,\n    ITEM_FERTILE_LAND,\n    ITEM_WETLAND,\n    ITEM_PEAT,\n    ITEM_REEDS,\n    ITEM_VALLEY,\n    ITEM_RIVER,\n    ITEM_SCORCHED_EARTH,\n    ITEM_DELTA,\n    ITEM_ESTUARY,\n    ITEM_FIRE_SWAMP,\n    ITEM_RIVERBANK,\n    ITEM_RAVINE,\n    ITEM_GORGE,\n    ITEM_CHARRED_RAVINE,\n    ITEM_ECHO,\n    ITEM_CAVE,\n    ITEM_UNDERGROUND_LAKE,\n    ITEM_LAVA_CAVE,\n    ITEM_WHISPERING_CAVE,\n    ITEM_SUBTERRANEAN_POOL,\n    ITEM_SPRING,\n    ITEM_HOT_SPRING,\n    ITEM_GROTTO,\n    ITEM_FOUNTAIN,\n    ITEM_STEAM_VENT,\n    ITEM_COOL_BREEZE,\n    ITEM_MONUMENT,\n    ITEM_WATERFALL,\n    ITEM_ETERNAL_FLAME,\n    ITEM_PILLAR_OF_WIND,\n    ITEM_STREAM,\n    ITEM_ZEPHYR,\n    ITEM_CREEK,\n    ITEM_BROOK,\n    ITEM_WHISPER,\n    ITEM_RIVULET,\n    ITEM_TRIBUTARY,\n    ITEM_MURMUR,\n    ITEM_WATERSHED,\n    ITEM_AQUIFER,\n    ITEM_PARCHED_EARTH,\n    ITEM_FRESH_BREEZE,\n    ITEM_GROUNDWATER,\n    ITEM_RESERVOIR,\n    ITEM_GEOTHERMAL_SPRING,\n    ITEM_ARTESIAN_WELL,\n    ITEM_BASIN,\n    ITEM_LAKE,\n    ITEM_DRY_BASIN,\n    ITEM_DEPRESSION,\n    ITEM_ISLAND,\n    ITEM_LAGOON,\n    ITEM_WAVE,\n    ITEM_REEF,\n    ITEM_CORAL,\n    ITEM_WHIRL,\n    ITEM_LIMESTONE,\n    ITEM_KARST,\n    ITEM_QUICKLIME,\n    ITEM_BLOWHOLE,\n];\n\nexport const RECIPE_MAKE_SWARM: IRecipe = {\n    id: 0,\n    a: ITEM_BEE,\n    b: ITEM_BEE,\n    result: ITEM_SWARM,\n};\nexport const RECIPE_MAKE_HYDRA: IRecipe = {\n    id: 1,\n    a: ITEM_GIRAFFE,\n    b: ITEM_GIRAFFE,\n    result: ITEM_HYDRA,\n};\nexport const RECIPE_MAKE_MONKEYBRANCH: IRecipe = {\n    id: 2,\n    a: ITEM_MONKEY,\n    b: ITEM_HYDRA,\n    result: ITEM_MONKEY_BRANCH,\n};\nexport const RECIPE_MAKE_BRIDGE: IRecipe = {\n    id: 3,\n    a: ITEM_MONKEY_BRANCH,\n    b: ITEM_MONKEY_BRANCH,\n    result: ITEM_BRIDGE,\n};\nexport const RECIPE_MAKE_GOLDENGATE: IRecipe = {\n    id: 4,\n    a: ITEM_COIN,\n    b: ITEM_BRIDGE,\n    result: ITEM_GOLDEN_GATE,\n};\nexport const RECIPE_MAKE_CARDANO: IRecipe = {\n    id: 5,\n    a: ITEM_BLOCKCHAIN,\n    b: ITEM_PEER_REVIEW,\n    result: ITEM_CARDANO,\n};\nexport const RECIPE_MAKE_BEER: IRecipe = {\n    id: 6,\n    a: ITEM_BEE,\n    b: ITEM_BEAR,\n    result: ITEM_BEER,\n};\nexport const RECIPE_MAKE_LOCK: IRecipe = {\n    id: 7,\n    a: ITEM_SILVER,\n    b: ITEM_SILVER,\n    result: ITEM_LOCK,\n};\nexport const RECIPE_MAKE_SUPERMARMALADE: IRecipe = {\n    id: 8,\n    a: ITEM_MARMALADE,\n    b: ITEM_MARMALADE,\n    result: ITEM_SUPER_MARMALADE,\n};\nexport const RECIPE_MAKE_HYPERMARMALADE: IRecipe = {\n    id: 9,\n    a: ITEM_SUPER_MARMALADE,\n    b: ITEM_SUPER_MARMALADE,\n    result: ITEM_HYPER_MARMALADE,\n};\n\nexport const ALL_RECIPES: IRecipe[] = [\n    RECIPE_MAKE_SWARM,\n    RECIPE_MAKE_HYDRA,\n    RECIPE_MAKE_MONKEYBRANCH,\n    RECIPE_MAKE_BRIDGE,\n    RECIPE_MAKE_GOLDENGATE,\n    RECIPE_MAKE_CARDANO,\n    RECIPE_MAKE_BEER,\n    RECIPE_MAKE_LOCK,\n    RECIPE_MAKE_SUPERMARMALADE,\n    RECIPE_MAKE_HYPERMARMALADE,\n];\n\nexport const GAME_UNIFIERS_ITEMS: Array<IItem> = [\n    ITEM_MONKEY,\n    ITEM_GIRAFFE,\n    ITEM_BEE,\n    ITEM_COIN,\n    ITEM_SWARM,\n    ITEM_HYDRA,\n    ITEM_MONKEY_BRANCH,\n    ITEM_BRIDGE,\n    ITEM_GOLDEN_GATE,\n    ITEM_GOLD,\n    ITEM_SILVER,\n    ITEM_RHODIUM,\n    ITEM_HIVE,\n    ITEM_TRANSACTION,\n    ITEM_BLOCK,\n    ITEM_BLOCKCHAIN,\n    ITEM_POLKADOT,\n    ITEM_PEER_REVIEW,\n    ITEM_CARDANO,\n    ITEM_BEAR,\n    ITEM_BEER,\n    ITEM_LOCK,\n    ITEM_MARMALADE,\n    ITEM_SUPER_MARMALADE,\n    ITEM_HYPER_MARMALADE,\n];\nexport const GAME_UNIFIERS_RECIPES: Array<IRecipe> = [\n    RECIPE_MAKE_SWARM,\n    RECIPE_MAKE_HYDRA,\n    RECIPE_MAKE_MONKEYBRANCH,\n    RECIPE_MAKE_BRIDGE,\n    RECIPE_MAKE_GOLDENGATE,\n    RECIPE_MAKE_CARDANO,\n    RECIPE_MAKE_BEER,\n    RECIPE_MAKE_LOCK,\n    RECIPE_MAKE_SUPERMARMALADE,\n    RECIPE_MAKE_HYPERMARMALADE,\n];\nexport const GAME_UNIFIERS: IGameContent = {\n    name: \"Unifiers\",\n    description: \"A game created with the help of the Unifiers group\",\n    items: GAME_UNIFIERS_ITEMS,\n    recipes: GAME_UNIFIERS_RECIPES,\n};\nexport const ALL_GAMES: Array<IGameContent> = [\n    GAME_UNIFIERS,\n];",
       "contentHash": "a9f2c6ccbd1790c345f5a3eb4a710c966abc8228412f412ca12daddbc41a1046",

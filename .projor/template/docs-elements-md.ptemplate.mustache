@@ -1,0 +1,44 @@
+{
+    "map": {
+        "items": "items"
+    },
+    "filename": "packages/docs/wiki/elements.md"
+}
+---
+# Elements
+
+In _Not a Bird_ players own **elements**. Elements are full-fledged [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency). They are created via _Smart Contracts_ deployed to a blockchain, and they support the [PSP-22 interface](https://github.com/w3f/PSPs/blob/master/PSPs/psp-22.md).
+
+## Tier number
+
+Each element has a **tier number**.
+
+The _tier number_ is used when calculating the _buy price_ of elements. The game contract defines a so-called _buy offer_, which looks like this:
+
+```json
+{
+    "nativeTokens": "1234.12345678",
+    "rewardTierPoints": "100"
+}
+```
+
+This means, that for `1234.12345678` of the _native token_ (the cryptocurrency you use to play the game), you can buy `100` _tier points_. You can convert these tier points in the buy transaction to _any element_.
+
+When you buy from the game contract, you will receive `floor(bought_tier_points / element_tier)` elements of the chosen element.
+
+You must always pay an _integer multiple_ of the `nativeTokens` in the _buy offer_, because you will only get `floor(paid_tier_points / buy_offer_native_tokens) * buy_offer_reward_tier_points` tier points.
+
+Elements, that cannot be crafted are "_base elements_", so we assign the _tier number_ `1` to them. Every other element has a tier number of `A + B + C`, where `A` and `B` are the tier numbers of the elements required to craft it, and `C` is a constant greater than zero.
+
+## List of elements
+
+{{#each items}}
+* [{{capitalCase name}}](/wiki/elements/{{kebabCase name}})
+{{/each}}
+
+See also:
+
+* [Games](/wiki/games)
+* [Recipes](/wiki/recipes)
+* [Wiki](/wiki/index)
+* [Learn](/learn/index)
