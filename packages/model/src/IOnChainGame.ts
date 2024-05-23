@@ -1,6 +1,7 @@
 import { IGameWallet } from "./IGameWallet";
 import { IWorld } from "./IWorld";
 import { IPool } from "./IPool";
+import { Observable } from "rxjs";
 
 /** Client interface for interacting with the on-chain game.
  * 
@@ -37,4 +38,13 @@ export interface IOnChainGame {
 
     /** Retrieves the "pool" from the game contract */
     pool(): Promise<IPool>;
+
+    /** Observable to subscribe to world updates */
+    readonly worldUpdates: Observable<IWorld>;
+
+    /** Observable to subscribe to wallet updates */
+    readonly walletUpdates: Observable<IGameWallet>;
+
+    /** Observable to subscribe to pool updates */
+    readonly poolUpdates: Observable<IPool>;
 }

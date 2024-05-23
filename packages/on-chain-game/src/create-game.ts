@@ -1,9 +1,11 @@
+import { Observable, Subject } from "rxjs";
 import { IBlockchain } from "./IBlockchain";
 import { IElementContract } from "./contracts/IElementContract";
 import { IGameContract } from "./contracts/IGameContract";
 import { createElementContract } from "./create-element-contract";
 import { createGameContract } from "./create-game-contract";
 import { ALL_ITEMS, ALL_RECIPES, GAME_UNIFIERS, IChainDeployment, IGameContent, IGameWallet, IOnChainGame, IPool, IRecipe, IWorld } from "@not-a-bird/model";
+import { PolkadotJSChain } from "./chains/PolkadotJSChain";
 
 export class SinglePlayerGame implements IOnChainGame {
     private _world: IWorld;
@@ -16,13 +18,29 @@ export class SinglePlayerGame implements IOnChainGame {
     private _poolPoints = 0;
     private _totalSpentNativeTokens = 0;
 
+    private _worldUpdates: Subject<IWorld> = new Subject();
+    private _walletUpdates: Subject<IGameWallet> = new Subject();
+    private _poolUpdates: Subject<IPool> = new Subject();
+
     constructor(
         private _gameContent?: IGameContent
     ) {
         if (!this._gameContent) {
             this._gameContent = GAME_UNIFIERS;
         }
-        this._world = MockedOnChainGame.initialWorld(this._gameContent);
+        this._world = SinglePlayerGame.initialWorld(this._gameContent);
+    }
+
+    public get worldUpdates() {
+        return this._worldUpdates.asObservable();
+    }
+
+    public get walletUpdates() {
+        return this._walletUpdates.asObservable();
+    }
+
+    public get poolUpdates() {
+        return this._poolUpdates.asObservable();
     }
 
     private async _checkPoolSaturation() {
@@ -122,6 +140,10 @@ export class SinglePlayerGame implements IOnChainGame {
 
         this._nativeTokens -= cost;
         this._totalSpentNativeTokens += cost;
+
+        this._worldUpdates.next(this._world);
+        const newWallet = await this.wallet();
+        this._walletUpdates.next(newWallet);
     }
 
     async craft(a: number, b: number): Promise<void> {
@@ -173,6 +195,8 @@ export class SinglePlayerGame implements IOnChainGame {
             } else {
                 this._world.inventory.balances[foundRecipe.result.id] = 1;
             }
+
+            this._worldUpdates.next(this._world);
         }
     }
 
@@ -182,6 +206,10 @@ export class SinglePlayerGame implements IOnChainGame {
                 this._world.inventory.balances[itemId] -= 1;
                 this._poolPoints += GAME_UNIFIERS.items.find((item) => item.id === itemId)?.tier || 1;
                 await this._checkPoolSaturation();
+
+                this._worldUpdates.next(this._world);
+                const newPool = await this.pool();
+                this._poolUpdates.next(newPool);
             }
         }
     }
@@ -205,6 +233,8 @@ export class SinglePlayerGame implements IOnChainGame {
         if (itemId in this._world.inventory.balances) {
             if (this._world.inventory.balances[itemId] >= amount) {
                 this._world.inventory.balances[itemId] -= amount;
+
+                this._worldUpdates.next(this._world);
             }
         }
     }
@@ -255,11 +285,27 @@ class NonDeployedOnChainGameImpl implements IOnChainGame {
     get description(): string {
         return "This game is not deployed on-chain.";
     }
+
+    get worldUpdates(): Observable<IWorld> {
+        throw new Error("This game is not deployed on-chain.");
+    }
+
+    get walletUpdates(): Observable<IGameWallet> {
+        throw new Error("This game is not deployed on-chain.");
+    }
+
+    get poolUpdates(): Observable<IPool> {
+        throw new Error("This game is not deployed on-chain.");
+    }
 }
 
 class OnChainGameImpl implements IOnChainGame {
     private _gameContract: IGameContract;
     private _elementContracts: Record<number, IElementContract> = {};
+
+    private _worldUpdates: Subject<IWorld> = new Subject();
+    private _walletUpdates: Subject<IGameWallet> = new Subject();
+    private _poolUpdates: Subject<IPool> = new Subject();
 
     constructor(
         private _deployment: IChainDeployment,
@@ -338,14 +384,42 @@ class OnChainGameImpl implements IOnChainGame {
     get description(): string {
         return this._content.description;
     }
+
+    get worldUpdates(): Observable<IWorld> {
+        return this._worldUpdates.asObservable();
+    }
+
+    get walletUpdates(): Observable<IGameWallet> {
+        return this._walletUpdates.asObservable();
+    }
+
+    get poolUpdates(): Observable<IPool> {
+        return this._poolUpdates.asObservable();
+    }
 }
 
-export function createGame(
+export function createDeployedGame(
     deployment: IChainDeployment,
     content: IGameContent,
     chain: IBlockchain
 ): IOnChainGame {
     return new OnChainGameImpl(
+        deployment,
+        content,
+        chain
+    );
+}
+
+export function createPolkadotJSGame(
+    deployment: IChainDeployment,
+    content: IGameContent,
+    suri: string,
+): IOnChainGame {
+    const chain = new PolkadotJSChain(
+        deployment.rpcUrl,
+        suri
+    );
+    return createDeployedGame(
         deployment,
         content,
         chain

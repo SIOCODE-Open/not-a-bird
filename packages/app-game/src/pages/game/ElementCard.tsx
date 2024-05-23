@@ -15,7 +15,6 @@ export function ElementCard(
         onExecuteCraft?: (a: number, b: number) => any
     }
 ) {
-    const [isBeingDragged, setIsBeingDragged] = useState(false);
     const craftSelectRef = useRef<HTMLSelectElement>(null);
 
     const elementItem = props.world.items.find((item) => item.id === props.elementId);
@@ -28,40 +27,14 @@ export function ElementCard(
 
     const onBuyElement = async () => {
         await props.onChainGame.buy(props.elementId, 1);
-        await props.onPopulateWorld();
     };
 
     const onSacrificeElement = async () => {
         await props.onChainGame.sacrifice(props.elementId);
-        await props.onPopulateWorld();
     };
 
     const onSendElement = async () => {
         alert("Not implemented");
-    };
-
-    const onStartDraggingElement = (ev: React.DragEvent<HTMLDivElement>) => {
-        // ev.preventDefault();
-        console.log("Dragging element: ", props.elementId);
-        setIsBeingDragged(true);
-        ev.dataTransfer.setData("elementId", props.elementId.toString());
-        props.onBeginCrafting?.();
-    };
-
-    const onEndDraggingElement = (ev: React.DragEvent<HTMLDivElement>) => {
-        // ev.preventDefault();
-        console.log("Ended dragging of element: ", props.elementId);
-        setIsBeingDragged(false);
-    };
-
-    const onDropElement = (ev: React.DragEvent<HTMLDivElement>) => {
-        // ev.preventDefault();
-        console.log("Dropped element: ", ev.dataTransfer.getData("elementId"));
-        props.onExecuteCraft?.(parseInt(ev.dataTransfer.getData("elementId")), props.elementId);
-    };
-
-    const onCraftElement = () => {
-        props.onBeginCrafting?.();
     };
 
     const foundRecipes = props.world.recipes.filter(

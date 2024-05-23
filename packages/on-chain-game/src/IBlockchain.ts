@@ -4,7 +4,7 @@ import { ContractPromise } from "@polkadot/api-contract";
 export interface IBlockchain {
     readonly rpcUrl: string;
     readonly ready: Promise<void>;
-    
+
     getApi(): ApiPromise;
     getContract(
         opts: {
@@ -19,5 +19,7 @@ export interface IBlockchain {
         }
     ): Promise<ContractPromise>;
     signAndSend(tx: any): Promise<any>;
+    getAddress(): Promise<string>;
+    getNativeTokenBalance(): Promise<number>;
 
 }

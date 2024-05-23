@@ -8,5 +8,10 @@ import {
 
 registerUsableGame(
     'unifiers.singleplayer',
+    {
+        name: 'Unifiers Singleplayer',
+        description: 'A game created with the help of the Unifiers group',
+        chainInfo: 'Singleplayer, no chain'
+    },
     createSinglePlayerGame(GAME_UNIFIERS)
 );

@@ -1242,6 +1242,13 @@ export const DEPLOYABLE_UNIFIERS: IDeployableGame = {
     description: "A game created with the help of the Unifiers group",
     gameContract: UNIFIERS_CONTRACT,
     elementContracts: UNIFIERS_ELEMENT_CONTRACTS,
+    otherNames: {
+        camelCase: "unifiers",
+        snakeCase: "unifiers",
+        kebabCase: "unifiers",
+        pascalCase: "Unifiers",
+        constantCase: "UNIFIERS",
+    }
 };
 export const DEPLOYABLE_GAMES: Array<IDeployableGame> = [
     DEPLOYABLE_UNIFIERS,

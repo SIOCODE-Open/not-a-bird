@@ -16,18 +16,66 @@ program.option('-s, --suri <suri>', 'SURI to use for keyring', '//Alice');
 program.option('-o, --output <output>', 'Output directory', 'output');
 program.option('-f, --format <format>', 'Output format (json, yaml)', 'json');
 program.option('-e, --env <env>', 'Environment variables to pass to the script', 'dev');
+program.option('-c, --code <code>', 'Code to generate (on-chain-game | json-export)', 'json-export');
 program.option('--dev', 'Use development environment variables', false);
 program.parse(process.argv);
 
 const progOpts = program.opts();
 
-if(progOpts.dev) {
+if (progOpts.dev) {
     console.log('FORCING DEV ENV VALUES');
     progOpts.nodeUrl = 'ws://127.0.0.1:9944';
     progOpts.suri = '//Alice';
     progOpts.output = '../on-chain-game/src';
     progOpts.format = 'json';
     progOpts.env = 'dev';
+    progOpts.code = 'on-chain-game';
+}
+
+function generateOnChainGameCode(game: IDeployableGame, ctx: any) {
+    const chainDeploymentCode = `const ${game.otherNames.constantCase}_CHAIN_DEPLOYMENT: IChainDeployment = {
+    rpcUrl: "${progOpts.nodeUrl}",
+    gameContract: {
+        address: "${ctx[game.name]}"
+    },
+    elementContracts: {
+        ${Object.keys(game.elementContracts).map(elementId => {
+    return `${elementId}: {
+                address: "${ctx[`element_${elementId}`]}"
+            }`;
+}).join(',\n')}
+    },
+    content: GAME_${game.otherNames.constantCase}
+}`;
+    let code = `import { IChainDeployment, GAME_${game.otherNames.constantCase} } from '@not-a-bird/model';
+import {
+    registerLazyGame
+} from './use-game';
+import {
+    createPolkadotJSGame
+} from './create-game';
+
+${chainDeploymentCode}
+
+registerLazyGame(
+    '${game.otherNames.kebabCase}.polkadotjs.${ctx.env}',
+    {
+        name: '${game.name}',
+        description: '${game.description}',
+        chainInfo: 'Deployed to ${ctx.env}',
+    },
+    async () => {
+        // FIXME
+        const suri = "//Alice";
+        return createPolkadotJSGame(
+            ${game.otherNames.constantCase}_CHAIN_DEPLOYMENT,
+            GAME_${game.otherNames.constantCase},
+            suri
+        );
+    }
+);`;
+
+    return code;
 }
 
 async function connectToChain(nodeUrl: string) {
@@ -271,16 +319,24 @@ const writeOutput = {
                 address: ctx[game.name]
             });
         }
-        if (!ctx.format || ctx.format.toLowerCase() === 'json') {
-            fs.writeFileSync(jsonFilename, JSON.stringify(output, null, 4));
-        } else if (ctx.format.toLowerCase() === 'yaml') {
-            fs.writeFileSync(jsonFilename, YAML.stringify(output));
-        } else {
-            throw new Error(`Unsupported output format: ${ctx.format}`);
-        }
+        if (ctx.code === 'json-export') {
+            if (!ctx.format || ctx.format.toLowerCase() === 'json') {
+                fs.writeFileSync(jsonFilename, JSON.stringify(output, null, 4));
+            } else if (ctx.format.toLowerCase() === 'yaml') {
+                fs.writeFileSync(jsonFilename, YAML.stringify(output));
+            } else {
+                throw new Error(`Unsupported output format: ${ctx.format}`);
+            }
 
-        const tsCode = `import ENV_DATA from './contracts.${ctx.env}.json';\n\nexport default ENV_DATA;\n`;
-        fs.writeFileSync(tsFilename, tsCode);
+            const tsCode = `import ENV_DATA from './contracts.${ctx.env}.json';\n\nexport default ENV_DATA;\n`;
+            fs.writeFileSync(tsFilename, tsCode);
+        } else {
+            for (let game of DEPLOYABLE_GAMES) {
+                const code = generateOnChainGameCode(game, ctx);
+                const filename = path.join(outputDir, `${game.otherNames.kebabCase}.${ctx.env}.ts`);
+                fs.writeFileSync(filename, code);
+            }
+        }
     }
 }
 

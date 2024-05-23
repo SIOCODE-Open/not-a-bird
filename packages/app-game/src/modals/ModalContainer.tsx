@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { IModal } from "./IModal";
 import { $modals, Modals } from "../service/Modals";
+import { IModalContext } from "./IModalContext";
 
 function ModalComponent(
     props: {
@@ -9,6 +10,13 @@ function ModalComponent(
         onClose: () => void;
     }
 ) {
+    const ctx: IModalContext = {
+        navigate: props.navigate,
+        closeModal: props.onClose
+    };
+    const content = props.modal.content
+        ? props.modal.content(ctx)
+        : null;
     return <div className="modal is-active">
         <div className="modal-background" onClick={() => props.onClose()}></div>
         <div className="modal-card">
@@ -16,9 +24,9 @@ function ModalComponent(
                 <p className="modal-card-title">{props.modal.title ?? ""}</p>
             </header>
 
-            {props.modal.content && (
+            {content && (
                 <section className="modal-card-body">
-                    {props.modal.content}
+                    {content}
                 </section>
             )}
 
@@ -29,7 +37,7 @@ function ModalComponent(
                         props.modal.actions.map(
                             (action, index) => (
                                 <div key={index}>
-                                    <button className="button is-primary" onClick={() => action.onAction({ navigate: props.navigate, closeModal: props.onClose })}>
+                                    <button className="button is-primary" onClick={() => action.onAction(ctx)}>
                                         {action.label}
                                     </button>
                                 </div>

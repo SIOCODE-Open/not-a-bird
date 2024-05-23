@@ -38,6 +38,13 @@ export const DEPLOYABLE_{{constantCase name}}: IDeployableGame = {
     description: "{{{description}}}",
     gameContract: {{constantCase name}}_CONTRACT,
     elementContracts: {{constantCase name}}_ELEMENT_CONTRACTS,
+    otherNames: {
+        camelCase: "{{camelCase name}}",
+        snakeCase: "{{snakeCase name}}",
+        kebabCase: "{{kebabCase name}}",
+        pascalCase: "{{pascalCase name}}",
+        constantCase: "{{constantCase name}}",
+    }
 };
 {{/each}}
 export const DEPLOYABLE_GAMES: Array<IDeployableGame> = [

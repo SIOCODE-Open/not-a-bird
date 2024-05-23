@@ -9,15 +9,32 @@ import {
 import { BulmaButton } from "../../components/BulmaButton";
 import { $modals } from "../../service/Modals";
 import { EmojioneMonotoneFire } from "../../components/EmojioneMonotoneFire.tsx";
+import { ILoadableGame } from "@not-a-bird/on-chain-game";
+import { IModalContext } from "../../modals/IModalContext";
+import { $gameService } from "../../service/GameService";
 
 async function showGameChangeDialog(
-  selectableGames: Array<IGameContent>,
-): Promise<IGameContent | null> {
-  const gameNames = selectableGames.map((game) => game.name);
-  const selectedGame = await new Promise((resolve, reject) => {
+  selectableGames: Array<ILoadableGame>,
+): Promise<ILoadableGame | null> {
+  const playGame = (ctx: IModalContext, game: ILoadableGame) => {
+    ctx.closeModal();
+    $gameService.loadGame(game.id);
+  };
+  const selectedGame = await new Promise<ILoadableGame>((resolve, reject) => {
     $modals.openModal({
       title: "Select game",
       message: "Select the game you want to play",
+      content: (ctx: IModalContext) => {
+        const gameButtons = selectableGames.map((game) => (<>
+          <BulmaButton color="ghost" onClick={() => { ctx.closeModal(); resolve(game) }}>
+            {game.metadata.name} <span className="tag is-info">{game.metadata.chainInfo}</span>
+          </BulmaButton>
+        </>
+        ));
+        return (<>
+          {gameButtons}
+        </>);
+      },
       actions: [
         {
           label: "Cancel",
@@ -29,10 +46,7 @@ async function showGameChangeDialog(
       ],
     });
   });
-  if (!selectedGame) {
-    return null;
-  }
-  return selectableGames.find((game) => game.name === selectedGame) || null;
+  return selectedGame;
 }
 
 export function GameHeader(props: {
@@ -40,12 +54,14 @@ export function GameHeader(props: {
   wallet: IGameWallet;
   pool: IPool;
   onChainGame: IOnChainGame;
-  onChangeGame?: (newContent: IGameContent) => any;
+  availableGames?: Array<ILoadableGame>;
 }) {
   const onStartChangeGame = async () => {
-    const newGame = await showGameChangeDialog(ALL_GAMES);
+    const newGame = await showGameChangeDialog(
+      props.availableGames || [],
+    );
     if (newGame) {
-      props.onChangeGame?.(newGame);
+      await $gameService.loadGame(newGame.id);
     }
   };
 

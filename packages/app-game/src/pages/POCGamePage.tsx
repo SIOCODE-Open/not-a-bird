@@ -1,44 +1,37 @@
 import { useEffect, useRef, useState } from "react";
 import { ALL_GAMES, IGameContent, IGameWallet, IOnChainGame, IPool, IWorld } from "@not-a-bird/model";
 import { BulmaButton } from "../components/BulmaButton";
-import { MockedOnChainGame, createMockedOnChainGame } from "../service/MockedOnChainGame";
+import { $gameService } from "../service/GameService";
 import { ElementCard } from "./game/ElementCard";
 import { GameHeader } from "./game/GameHeader";
-import {FranksCard} from './FranksCard.tsx'
+import { FranksCard } from './FranksCard.tsx'
+import { ILoadableGame, SinglePlayerGame, createSinglePlayerGame } from "@not-a-bird/on-chain-game";
 
-interface SelectableGameContent {
-    name: string;
-    gameContent: IGameContent;
-}
 
 export function POCGamePage(props: { navigate: (path: string) => void }) {
-    const [selectableGames, setSelectableGames] = useState<SelectableGameContent[]>(
-        ALL_GAMES.map(
-            game => ({
-                name: game.name,
-                gameContent: game
-            })
-        )
-    );
+    const [isLoadingGame, setIsLoadingGame] = useState(false);
     const selectedGameRef = useRef<IGameContent | null>(ALL_GAMES[0]);
     const [selectedGameName, setSelectedGameName] = useState<string>(ALL_GAMES[0].name);
+    const [availableGames, setAvailableGames] = useState<Array<ILoadableGame>>([]);
     const [world, setWorld] = useState<IWorld>(
-        MockedOnChainGame.initialWorld()
+        SinglePlayerGame.initialWorld()
     );
     const [wallet, setWallet] = useState<IGameWallet>(
-        MockedOnChainGame.initialWallet()
+        SinglePlayerGame.initialWallet()
     );
     const [pool, setPool] = useState<IPool>(
-        MockedOnChainGame.initialPool()
+        SinglePlayerGame.initialPool()
     );
     const [isInitialLoading, setIsInitialLoading] = useState(true);
     const [initialLoadingError, setInitialLoadingError] = useState<Error | string | null>(null);
     const onChainGameRef = useRef<IOnChainGame>(
-        createMockedOnChainGame(selectedGameRef.current || ALL_GAMES[0])
+        createSinglePlayerGame(selectedGameRef.current || ALL_GAMES[0])
     );
 
     /// Reloads the world from the on-chain game
     const populateWorld = async () => {
+        if (!onChainGameRef.current) return;
+
         const newWorld = await onChainGameRef.current.world();
         const newWallet = await onChainGameRef.current.wallet();
         const newPool = await onChainGameRef.current.pool();
@@ -46,6 +39,57 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
         setWallet(newWallet);
         setPool(newPool);
     };
+
+    /// Subscribes to $gameService changes
+    useEffect(
+        () => {
+            const isLoadingSub = $gameService.isLoading.subscribe(
+                (l) => setIsLoadingGame(l)
+            );
+            const availableGamesSub = $gameService.availableGames.subscribe(
+                (g) => setAvailableGames(g)
+            );
+            let worldUpdatesSub = null;
+            let walletUpdatesSub = null;
+            let poolUpdatesSub = null;
+            const currentGameSub = $gameService.currentGame.subscribe(
+                async (g) => {
+                    onChainGameRef.current = g;
+                    if (worldUpdatesSub) worldUpdatesSub.unsubscribe();
+                    if (walletUpdatesSub) walletUpdatesSub.unsubscribe();
+                    if (poolUpdatesSub) poolUpdatesSub.unsubscribe();
+                    worldUpdatesSub = g.worldUpdates.subscribe(
+                        (w) => setWorld(w)
+                    );
+                    walletUpdatesSub = g.walletUpdates.subscribe(
+                        (w) => setWallet(w)
+                    );
+                    poolUpdatesSub = g.poolUpdates.subscribe(
+                        (p) => setPool(p)
+                    );
+                    await populateWorld();
+                }
+            );
+            return () => {
+                isLoadingSub.unsubscribe();
+                availableGamesSub.unsubscribe();
+                currentGameSub.unsubscribe();
+                if (worldUpdatesSub) worldUpdatesSub.unsubscribe();
+                if (walletUpdatesSub) walletUpdatesSub.unsubscribe();
+                if (poolUpdatesSub) poolUpdatesSub.unsubscribe();
+            };
+        },
+        []
+    );
+
+    // Loads the unifiers single player game initially
+    useEffect(
+        () => {
+            $gameService.loadGame("unifiers.singleplayer");
+            setIsInitialLoading(false);
+        },
+        []
+    );
 
     /// Finds elements that can be crafted with the given element
     const onBeginCrafting = (elementId: number) => {
@@ -55,22 +99,8 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
     /// Executes the crafting of two elements
     const onExecuteCraft = async (a: number, b: number) => {
         await onChainGameRef.current.craft(a, b);
-        await populateWorld();
         console.log("Crafted elements: ", a, b);
     };
-
-    /// Populates the world on first render
-    useEffect(
-        () => {
-            populateWorld()
-                .then(() => setIsInitialLoading(false))
-                .catch((error) => {
-                    setInitialLoadingError(error);
-                    setIsInitialLoading(false);
-                });
-        },
-        []
-    );
 
     if (isInitialLoading) {
         /// Displays a loading message with a back button to the landing page
@@ -84,23 +114,27 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
             <BulmaButton color="primary" outlined onClick={() => props.navigate("/landing-page")}>Back</BulmaButton>
             <BulmaButton color="link" outlined onClick={() => location.reload()}>Refresh</BulmaButton>
         </>;
+    } else if (isLoadingGame) {
+        return <>
+            <p>Loading game ...</p>
+        </>;
     } else {
 
         const elementCards = Object.keys(world.inventory.balances).map(
             (k: string) => (
-            <FranksCard/>
-                // <ElementCard key={k}
-                //     world={world}
-                //     wallet={wallet}
-                //     elementId={parseInt(k)}
-                //     onChainGame={onChainGameRef.current}
-                //     onPopulateWorld={populateWorld}
-                //     isActiveDropTarget={false}
-                //     onBeginCrafting={() => {
-                //         onBeginCrafting(parseInt(k));
-                //     }}
-                //     onExecuteCraft={onExecuteCraft}
-                // />
+                // <FranksCard />
+                <ElementCard key={k}
+                    world={world}
+                    wallet={wallet}
+                    elementId={parseInt(k)}
+                    onChainGame={onChainGameRef.current}
+                    onPopulateWorld={populateWorld}
+                    isActiveDropTarget={false}
+                    onBeginCrafting={() => {
+                        onBeginCrafting(parseInt(k));
+                    }}
+                    onExecuteCraft={onExecuteCraft}
+                />
             )
         );
 
@@ -111,6 +145,7 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
                     wallet={wallet}
                     pool={pool}
                     onChainGame={onChainGameRef.current}
+                    availableGames={availableGames}
                 />
                 <hr />
                 <div className="columns is-multiline">
