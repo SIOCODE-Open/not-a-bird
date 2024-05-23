@@ -4,6 +4,7 @@ import { BulmaButton } from "../components/BulmaButton";
 import { MockedOnChainGame, createMockedOnChainGame } from "../service/MockedOnChainGame";
 import { ElementCard } from "./game/ElementCard";
 import { GameHeader } from "./game/GameHeader";
+import {FranksCard} from './FranksCard.tsx'
 
 interface SelectableGameContent {
     name: string;
@@ -87,18 +88,19 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
 
         const elementCards = Object.keys(world.inventory.balances).map(
             (k: string) => (
-                <ElementCard key={k}
-                    world={world}
-                    wallet={wallet}
-                    elementId={parseInt(k)}
-                    onChainGame={onChainGameRef.current}
-                    onPopulateWorld={populateWorld}
-                    isActiveDropTarget={false}
-                    onBeginCrafting={() => {
-                        onBeginCrafting(parseInt(k));
-                    }}
-                    onExecuteCraft={onExecuteCraft}
-                />
+            <FranksCard/>
+                // <ElementCard key={k}
+                //     world={world}
+                //     wallet={wallet}
+                //     elementId={parseInt(k)}
+                //     onChainGame={onChainGameRef.current}
+                //     onPopulateWorld={populateWorld}
+                //     isActiveDropTarget={false}
+                //     onBeginCrafting={() => {
+                //         onBeginCrafting(parseInt(k));
+                //     }}
+                //     onExecuteCraft={onExecuteCraft}
+                // />
             )
         );
 

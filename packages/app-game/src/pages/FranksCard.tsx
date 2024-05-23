@@ -9,9 +9,9 @@ const FranksCard = (props: { navigate: (path: string) => { void } }) => {
     <div className="card">
       <div className="card-image">
         <CanvasImage
-          width={window.innerWidth}
-          height={window.innerWidth}
-          /*imagePath=""*/
+          width={200}
+          height={200}
+        /*imagePath=""*/
         />
       </div>
       <div className="card-content">
@@ -26,10 +26,9 @@ const FranksCard = (props: { navigate: (path: string) => { void } }) => {
             monkeys. He never steps back, because he is THE glowing monkey.
           </i>
         </p>
-        {/*-------------------TABLE-------------*/}
-
         <br />
 
+        {/*-------------------TABLE-------------*/}
         <details>
           <summary>More Information</summary>
           <div className="column is-4">
