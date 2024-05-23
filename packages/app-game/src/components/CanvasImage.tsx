@@ -20,7 +20,7 @@ const CanvasImage: React.FC<CanvasImageProps> = ({
     canvas.height = height;
 
     let particlesArray = [];
-    const numberOfParticles = 5000;
+    const numberOfParticles = 100;
     const detail = 1;
 
     const image = new Image();
