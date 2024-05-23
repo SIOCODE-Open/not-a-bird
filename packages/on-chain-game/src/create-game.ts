@@ -86,7 +86,7 @@ export class SinglePlayerGame implements IOnChainGame {
             gameContent = GAME_UNIFIERS;
         }
         return {
-            balance: 0,
+            balance: BigInt(0),
             address: "0x000000000000000000000000000000000000",
             token: {
                 name: "Game Money",
@@ -216,7 +216,7 @@ export class SinglePlayerGame implements IOnChainGame {
 
     async wallet(): Promise<IGameWallet> {
         return {
-            balance: this._nativeTokens,
+            balance: BigInt(this._nativeTokens),
             address: "0x000000000000000000000000000000000000",
             token: {
                 name: "Game Money",
@@ -318,7 +318,11 @@ class OnChainGameImpl implements IOnChainGame {
             _chain
         );
         for (let i in _deployment.elementContracts) {
-            this._elementContracts[i] = createElementContract(_deployment.elementContracts[i]);
+            this._elementContracts[i] = createElementContract(
+                _deployment.elementContracts[i],
+                _content.items[i],
+                _chain
+            );
         }
     }
 
@@ -344,16 +348,12 @@ class OnChainGameImpl implements IOnChainGame {
             recipes: []
         };
 
-        for (let itemType of ALL_ITEMS) {
-            /*
-            // FIXME: This is not working, because the blockchain API is not passed, and caller user cannot be determined
+        for (let itemType of this._content.items) {
+            console.log("OnChainGameImpl.world: ", itemType.id, this._elementContracts[itemType.id])
             _world.inventory.balances[itemType.id] = await this._elementContracts[itemType.id].balanceOf(
-                // TODO: Here we need to pass the address of the current user
+                await this._chain.getAddress()
             );
-            */
             _world.items.push(itemType);
-            // FIXME: Remove this code when the above is fixed
-            _world.inventory.balances[itemType.id] = 0;
         }
 
         // TODO: Create assets from inventory, take into consideration previous position of each nth token
@@ -365,16 +365,29 @@ class OnChainGameImpl implements IOnChainGame {
         return _world;
     }
 
-    async wallet(): Promise<any> {
-        throw new Error("Method not implemented.");
+    async wallet(): Promise<IGameWallet> {
+        return {
+            address: await this._chain.getAddress(),
+            balance: await this._chain.getNativeTokenBalance(),
+            token: {
+                name: "UNKNOWN",
+                symbol: "???",
+                decimals: 12
+            }
+        }
     }
 
     async send(itemId: number, to: string, amount: number): Promise<any> {
         throw new Error("Method not implemented.");
     }
 
-    async pool(): Promise<any> {
-        throw new Error("Method not implemented.");
+    async pool(): Promise<IPool> {
+        return {
+            participants: 0,
+            target: 100000,
+            total: 0,
+            value: 0,
+        }
     }
 
     get name(): string {

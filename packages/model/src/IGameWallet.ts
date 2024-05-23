@@ -1,6 +1,6 @@
 export interface IGameWallet {
     address: string;
-    balance: number;
+    balance: bigint;
     token: {
         name: string;
         symbol: string;

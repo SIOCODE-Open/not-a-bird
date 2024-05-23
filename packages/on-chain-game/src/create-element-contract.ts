@@ -1,10 +1,20 @@
-import { IContractDeployment } from "./IContractDeployment";
+import { IItem, IContractDeployment } from "@not-a-bird/model";
 import { IElementContract } from "./contracts/IElementContract";
+import { IBlockchain } from "./IBlockchain";
+import { BN } from "@polkadot/util";
 
 class ElementContractImpl implements IElementContract {
     constructor(
-        private _deployment: IContractDeployment
-    ) { }
+        private _deployment: IContractDeployment,
+        private _element: IItem,
+        private _chain: IBlockchain
+    ) {
+        this._chain.loadContract({
+            address: this._deployment.address,
+            name: "element_" + this._element.id,
+            abi: this._element.contractAbi!
+        });
+    }
 
     allowance(owner: string, spender: string): Promise<number> {
         throw new Error("Method not implemented.");
@@ -14,8 +24,25 @@ class ElementContractImpl implements IElementContract {
         throw new Error("Method not implemented.");
     }
 
-    balanceOf(owner: string): Promise<number> {
-        throw new Error("Method not implemented.");
+    async balanceOf(owner: string): Promise<number> {
+        const contractApi = await this._chain.getContract({ name: "element_" + this._element.id });
+        const api = await this._chain.getApi();
+        const gasLimit = api.registry.createType("WeightV2", {
+            refTime: new BN("2000000000"),
+            proofSize: new BN("200000"),
+        });
+        const { output } = (await contractApi.query.balanceOf(
+            await this._chain.getAddress(),
+            { gasLimit },
+            owner
+        ));
+        const outputJson = output?.toJSON() as any;
+        if (!outputJson || outputJson["ok"] === undefined) {
+            throw new Error("Invalid output: " + JSON.stringify(outputJson));
+        }
+        console.log("ElementContractImpl.balanceOf", outputJson);
+        return outputJson.ok;
+
     }
 
     claimOwnership(): Promise<void> {
@@ -60,7 +87,9 @@ class ElementContractImpl implements IElementContract {
 }
 
 export function createElementContract(
-    deployment: IContractDeployment
+    deployment: IContractDeployment,
+    element: IItem,
+    chain: IBlockchain
 ): IElementContract {
-    return new ElementContractImpl(deployment);
+    return new ElementContractImpl(deployment, element, chain);
 }

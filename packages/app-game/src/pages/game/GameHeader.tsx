@@ -102,7 +102,7 @@ export function GameHeader(props: {
           <div className="title">
             <span className="has-text-primary">
               {(
-                props.wallet.balance / Math.pow(10, props.wallet.token.decimals)
+                parseInt(props.wallet.balance.toString()) / Math.pow(10, props.wallet.token.decimals)
               ).toFixed(4)}
             </span>{" "}
             {props.wallet.token.symbol}

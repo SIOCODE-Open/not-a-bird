@@ -71,10 +71,10 @@ export class PolkadotJSChain implements IBlockchain {
         return this._keyPair.address;
     }
 
-    async getNativeTokenBalance(): Promise<number> {
+    async getNativeTokenBalance(): Promise<BigInt> {
         await this._ready;
         const { data: { free: balance } } = (await this._api.query.system.account(this._keyPair.address)) as any;
-        return balance.toNumber();
+        return BigInt(balance.toString());
     }
 
     get ready(): Promise<void> {

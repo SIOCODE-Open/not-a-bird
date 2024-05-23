@@ -20,6 +20,6 @@ export interface IBlockchain {
     ): Promise<ContractPromise>;
     signAndSend(tx: any): Promise<any>;
     getAddress(): Promise<string>;
-    getNativeTokenBalance(): Promise<number>;
+    getNativeTokenBalance(): Promise<BigInt>;
 
 }
