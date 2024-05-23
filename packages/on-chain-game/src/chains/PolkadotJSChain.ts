@@ -61,8 +61,23 @@ export class PolkadotJSChain implements IBlockchain {
 
     async signAndSend(tx: any): Promise<any> {
         await this._ready;
-        return await tx.signAndSend(
-            this._keyPair,
+        return await new Promise<any>(
+            async (resolve, reject) => {
+                try {
+                    await tx.signAndSend(
+                        this._keyPair,
+                        (result) => {
+                            if (result.status.isInBlock) {
+                                resolve(result);
+                            } else if (result.status.isError) {
+                                reject(result);
+                            }
+                        }
+                    );
+                } catch (err) {
+                    reject(err);
+                }
+            }
         );
     }
 

@@ -328,10 +328,13 @@ class OnChainGameImpl implements IOnChainGame {
 
     async buy(itemId: number, N: number): Promise<void> {
         await this._gameContract.buy(itemId, N);
+        await this._updateWorld();
+        await this._updateWallet();
     }
 
     async craft(a: number, b: number): Promise<void> {
         await this._gameContract.craft(a, b);
+        await this._updateWorld();
     }
 
     async sacrifice(itemId: number): Promise<void> {
@@ -368,7 +371,7 @@ class OnChainGameImpl implements IOnChainGame {
     async wallet(): Promise<IGameWallet> {
         return {
             address: await this._chain.getAddress(),
-            balance: await this._chain.getNativeTokenBalance(),
+            balance: await this._chain.getNativeTokenBalance() as bigint,
             token: {
                 name: "UNKNOWN",
                 symbol: "???",
@@ -378,7 +381,9 @@ class OnChainGameImpl implements IOnChainGame {
     }
 
     async send(itemId: number, to: string, amount: number): Promise<any> {
-        throw new Error("Method not implemented.");
+        const elementContract = this._elementContracts[itemId];
+        await elementContract.transfer(to, amount, "");
+        await this._updateWorld();
     }
 
     async pool(): Promise<IPool> {
@@ -409,6 +414,22 @@ class OnChainGameImpl implements IOnChainGame {
     get poolUpdates(): Observable<IPool> {
         return this._poolUpdates.asObservable();
     }
+
+    private async _updateWorld() {
+        const newWorld = await this.world();
+        this._worldUpdates.next(newWorld);
+    }
+
+    private async _updateWallet() {
+        const newWallet = await this.wallet();
+        this._walletUpdates.next(newWallet);
+    }
+
+    private async _updatePool() {
+        const newPool = await this.pool();
+        this._poolUpdates.next(newPool);
+    }
+
 }
 
 export function createDeployedGame(

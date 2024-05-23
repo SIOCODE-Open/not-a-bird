@@ -97,7 +97,7 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
         () => {
             intervalWorldUpdateRef.current = setInterval(
                 populateWorld,
-                2000
+                10000
             );
             return () => {
                 clearInterval(intervalWorldUpdateRef.current);

@@ -11,6 +11,8 @@ export function BulmaButton(
         inverted?: boolean,
         rounded?: boolean,
         size?: "small" | "medium" | "large",
+        loading?: boolean,
+        disabled?: boolean
     }
 ) {
     let finalClasses = ["button"];
@@ -26,6 +28,9 @@ export function BulmaButton(
     if (props.rounded) {
         finalClasses.push("is-rounded");
     }
+    if (props.loading) {
+        finalClasses.push("is-loading");
+    }
     if (props.size && props.size !== 'medium') {
         finalClasses.push("is-" + props.size);
     }
@@ -33,7 +38,7 @@ export function BulmaButton(
         finalClasses.push(props.className);
     }
     return (
-        <button className={finalClasses.join(" ")} style={props.style} onClick={props.onClick}>
+        <button className={finalClasses.join(" ")} disabled={props.disabled || props.loading} style={props.style} onClick={props.onClick}>
             {props.children}
         </button>
     );

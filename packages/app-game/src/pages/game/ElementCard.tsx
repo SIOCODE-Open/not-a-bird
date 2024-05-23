@@ -12,10 +12,14 @@ export function ElementCard(
         onPopulateWorld: () => any,
         isActiveDropTarget?: boolean,
         onBeginCrafting?: () => any,
-        onExecuteCraft?: (a: number, b: number) => any
+        onExecuteCraft?: (a: number, b: number) => any | Promise<any>
     }
 ) {
     const craftSelectRef = useRef<HTMLSelectElement>(null);
+    const [isLoadingBuy, setIsLoadingBuy] = useState(false);
+    const [isLoadingSacrifice, setIsLoadingSacrifice] = useState(false);
+    const [isLoadingSend, setIsLoadingSend] = useState(false);
+    const [isLoadingCraft, setIsLoadingCraft] = useState(false);
 
     const elementItem = props.world.items.find((item) => item.id === props.elementId);
 
@@ -26,15 +30,21 @@ export function ElementCard(
     }
 
     const onBuyElement = async () => {
+        setIsLoadingBuy(true);
         await props.onChainGame.buy(props.elementId, 1);
+        setIsLoadingBuy(false);
     };
 
     const onSacrificeElement = async () => {
+        setIsLoadingSacrifice(true);
         await props.onChainGame.sacrifice(props.elementId);
+        setIsLoadingSacrifice(false);
     };
 
     const onSendElement = async () => {
+        setIsLoadingSend(true);
         alert("Not implemented");
+        setIsLoadingSend(false);
     };
 
     const foundRecipes = props.world.recipes.filter(
@@ -56,40 +66,51 @@ export function ElementCard(
         (item) => activeElementIdsSet.has(item.id) && props.world.inventory.balances[item.id] > 0
     );
 
-    const onSelectChanged = (ev: React.ChangeEvent<HTMLSelectElement>) => {
+    const onSelectChanged = async (ev: React.ChangeEvent<HTMLSelectElement>) => {
+        setIsLoadingCraft(true);
         const selectedId = parseInt(ev.target.value);
         console.log("Selected: ", selectedId);
         if (selectedId < 0) {
             return;
         }
-        props.onExecuteCraft?.(props.elementId, selectedId);
+        await props.onExecuteCraft?.(props.elementId, selectedId);
         ev.target.options[0].selected = true;
+        setIsLoadingCraft(false);
     }
 
     return <BulmaCard footer={[
-        <BulmaButton onClick={onBuyElement}>
+        <BulmaButton onClick={onBuyElement} loading={isLoadingBuy}>
             Buy
         </BulmaButton>,
-        <BulmaButton onClick={onSacrificeElement}>
+        <BulmaButton onClick={onSacrificeElement} loading={isLoadingSacrifice}>
             Sacrifice
         </BulmaButton>,
-        <BulmaButton onClick={onSendElement}>
+        <BulmaButton onClick={onSendElement} loading={isLoadingSend}>
             Send
         </BulmaButton>,
-        <div className="select is-rounded">
-            <select title="Craft ..." ref={craftSelectRef} onChange={onSelectChanged}>
-                <option value={-1}>Craft ...</option>
-                {
-                    craftableWith.map(
-                        (item) => (
-                            <option value={item.id}>
-                                {item.name}
-                            </option>
-                        )
-                    )
-                }
-            </select>
-        </div>
+        (<>
+            {
+                isLoadingCraft ? <>
+                    <p>Loading...</p>
+                </> : <>
+                    <div className="select is-rounded">
+                        <select title="Craft ..." ref={craftSelectRef} onChange={onSelectChanged}>
+                            <option value={-1}>Craft ...</option>
+                            {
+                                craftableWith.map(
+                                    (item) => (
+                                        <option value={item.id}>
+                                            {item.name}
+                                        </option>
+                                    )
+                                )
+                            }
+                        </select>
+                    </div>
+                </>
+            }
+        </>)
+
     ]}>
         <h1>
             {elementItem.name}

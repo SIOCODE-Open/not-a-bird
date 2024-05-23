@@ -65,7 +65,7 @@ export function GameHeader(props: {
     }
   };
 
-  return (
+  return (<>
     <div className="level">
       <div className="level-item has-text-centered">
         <div>
@@ -111,15 +111,6 @@ export function GameHeader(props: {
       </div>
       <div className="level-item has-text-centered">
         <div>
-          <div className="heading">Pool</div>
-          <div className="title">
-            <span className="has-text-primary">{props.pool.total}</span> /{" "}
-            {props.pool.target}
-          </div>
-        </div>
-      </div>
-      <div className="level-item has-text-centered">
-        <div>
           <div className="heading">Prize</div>
           <div className="title">
             <span className="has-text-primary">
@@ -132,5 +123,6 @@ export function GameHeader(props: {
         </div>
       </div>
     </div>
-  );
+    <progress className="progress" value={props.pool.total} max={props.pool.target}></progress>
+  </>);
 }
