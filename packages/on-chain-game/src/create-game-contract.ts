@@ -1,5 +1,5 @@
 import { IBlockchain } from "./IBlockchain";
-import { IContractDeployment, IGameContent } from "@not-a-bird/model";
+import { IContractDeployment, IGameContent, IRecipe } from "@not-a-bird/model";
 import { IGameContract } from "./contracts/IGameContract";
 import { BN } from "@polkadot/util";
 
@@ -21,19 +21,49 @@ class GameContractImpl implements IGameContract {
         const contractApi = await this._chain.getContract({ name: "game" });
         const api = await this._chain.getApi();
         const gasLimit = api.registry.createType("WeightV2", {
-            refTime: new BN("2000000000"),
+            refTime: new BN("20000000000"),
             proofSize: new BN("200000"),
         });
-        await this._chain.signAndSend(
+        const transferValue = N * buyOffer[0];
+        console.log("GameContractImpl.buy", itemId, N, buyOffer, transferValue);
+        const callResult = await this._chain.signAndSend(
             contractApi.tx.buy(
-                { gasLimit, storageDepositLimit: null, value: (new BN(N)).mul(new BN(buyOffer[0])) },
+                { gasLimit, storageDepositLimit: null, value: `1000000000000` },
                 itemId,
             )
         );
+        console.log("GameContractImpl.buy", callResult);
     }
 
-    craft(a: number, b: number): Promise<void> {
-        throw new Error("Method not implemented.");
+    async craft(a: number, b: number): Promise<void> {
+        let foundRecipe: IRecipe | undefined = undefined;
+        for (let recipe of this._content.recipes) {
+            if (recipe.a.id === a && recipe.b.id === b) {
+                foundRecipe = recipe;
+                break;
+            }
+            if (recipe.a.id === b && recipe.b.id === a) {
+                foundRecipe = recipe;
+                break;
+            }
+        }
+
+        console.log("GameContractImpl.craft", a, b, foundRecipe);
+
+        if (foundRecipe) {
+            const contractApi = await this._chain.getContract({ name: "game" });
+            const api = await this._chain.getApi();
+            const gasLimit = api.registry.createType("WeightV2", {
+                refTime: new BN("200000000000"),
+                proofSize: new BN("2000000"),
+            });
+            await this._chain.signAndSend(
+                contractApi.tx.craft(
+                    { gasLimit, storageDepositLimit: null },
+                    foundRecipe.id,
+                )
+            );
+        }
     }
 
     async numElements(): Promise<number> {
@@ -59,6 +89,7 @@ class GameContractImpl implements IGameContract {
         if (!outputJson || outputJson["ok"] === undefined) {
             throw new Error("Invalid output");
         }
+        console.log("GameContractImpl.buyOffer", outputJson);
         return outputJson.ok.ok;
     }
 
@@ -66,16 +97,50 @@ class GameContractImpl implements IGameContract {
         throw new Error("Method not implemented.");
     }
 
-    claimOwnership(): Promise<void> {
-        throw new Error("Method not implemented.");
+    async claimOwnership(): Promise<void> {
+        const contractApi = await this._chain.getContract({ name: "game" });
+        const api = await this._chain.getApi();
+        const gasLimit = api.registry.createType("WeightV2", {
+            refTime: new BN("2000000000"),
+            proofSize: new BN("200000"),
+        });
+        await this._chain.signAndSend(
+            contractApi.tx.claimOwnership(
+                { gasLimit, storageDepositLimit: null },
+            )
+        );
     }
 
-    lockElementContract(itemId: number, elementContract: string): Promise<void> {
-        throw new Error("Method not implemented.");
+    async lockElementContract(itemId: number, elementContract: string): Promise<void> {
+        const contractApi = await this._chain.getContract({ name: "game" });
+        const api = await this._chain.getApi();
+        const gasLimit = api.registry.createType("WeightV2", {
+            refTime: new BN("2000000000"),
+            proofSize: new BN("200000"),
+        });
+        await this._chain.signAndSend(
+            contractApi.tx.lockElementContract(
+                { gasLimit, storageDepositLimit: null },
+                itemId,
+                elementContract
+            )
+        );
     }
 
-    setBuyOffer(nativeTokens: number, rewardTierPoints: number): Promise<void> {
-        throw new Error("Method not implemented.");
+    async setBuyOffer(nativeTokens: number, rewardTierPoints: number): Promise<void> {
+        const contractApi = await this._chain.getContract({ name: "game" });
+        const api = await this._chain.getApi();
+        const gasLimit = api.registry.createType("WeightV2", {
+            refTime: new BN("2000000000"),
+            proofSize: new BN("200000"),
+        });
+        await this._chain.signAndSend(
+            contractApi.tx.setBuyOffer(
+                { gasLimit, storageDepositLimit: null },
+                nativeTokens,
+                rewardTierPoints
+            )
+        );
     }
 }
 

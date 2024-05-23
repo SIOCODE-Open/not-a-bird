@@ -40,10 +40,10 @@ function generateOnChainGameCode(game: IDeployableGame, ctx: any) {
     },
     elementContracts: {
         ${Object.keys(game.elementContracts).map(elementId => {
-    return `${elementId}: {
+        return `${elementId}: {
                 address: "${ctx[`element_${elementId}`]}"
             }`;
-}).join(',\n')}
+    }).join(',\n')}
     },
     content: GAME_${game.otherNames.constantCase}
 }`;
@@ -176,7 +176,7 @@ const claimOwnershipTask = (opts: {
             const user = ctx.keyring.pairs.find(pair => pair.meta.name === "user");
             await contractApi.tx.claimOwnership(
                 { gasLimit, storageDepositLimit },
-            );
+            ).signAndSend(user as any);
             opts.completed?.();
         }
     }

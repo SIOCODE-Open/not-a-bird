@@ -27,6 +27,7 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
     const onChainGameRef = useRef<IOnChainGame>(
         createSinglePlayerGame(selectedGameRef.current || ALL_GAMES[0])
     );
+    const intervalWorldUpdateRef = useRef<any>(null);
 
     /// Reloads the world from the on-chain game
     const populateWorld = async () => {
@@ -87,6 +88,20 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
         () => {
             $gameService.loadGame("unifiers.singleplayer");
             setIsInitialLoading(false);
+        },
+        []
+    );
+
+    /// Start the world update interval
+    useEffect(
+        () => {
+            intervalWorldUpdateRef.current = setInterval(
+                populateWorld,
+                2000
+            );
+            return () => {
+                clearInterval(intervalWorldUpdateRef.current);
+            };
         },
         []
     );
