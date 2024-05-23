@@ -1,10 +1,19 @@
-import { IContractDeployment } from "./IContractDeployment";
+import { IBlockchain } from "./IBlockchain";
+import { IContractDeployment, IGameContent } from "@not-a-bird/model";
 import { IGameContract } from "./contracts/IGameContract";
 
 class GameContractImpl implements IGameContract {
     constructor(
-        private _deployment: IContractDeployment
-    ) { }
+        private _deployment: IContractDeployment,
+        private _content: IGameContent,
+        private _chain: IBlockchain
+    ) {
+        this._chain.loadContract({
+            address: this._deployment.address,
+            name: "game",
+            abi: this._content.contractAbi!
+        });
+    }
 
     buy(itemId: number, N: number): Promise<void> {
         throw new Error("Method not implemented.");
@@ -44,7 +53,9 @@ class GameContractImpl implements IGameContract {
 }
 
 export function createGameContract(
-    deployment: IContractDeployment
+    deployment: IContractDeployment,
+    content: IGameContent,
+    chain: IBlockchain
 ): IGameContract {
-    return new GameContractImpl(deployment);
+    return new GameContractImpl(deployment, content, chain);
 }

@@ -12,11 +12,20 @@ import { IRecipe } from './IRecipe';
 import { IGameContent } from './IGameContent';
 
 {{#each items}}
+import ITEM_{{constantCase name}}_CONTRACT_ABI from "../../../contracts.v1/interfaces/{{snakeCase name}}.interface.json";
+{{/each}}
+
+{{#each games}}
+import GAME_{{constantCase name}}_CONTRACT_ABI from "../../../contracts.v1/interfaces/{{snakeCase name}}.interface.json";
+{{/each}}
+
+{{#each items}}
 export const ITEM_{{constantCase name}}: IItem = {
     id: {{@index}},
     name: '{{capitalCase name}}',
     description: '{{{description}}}',
     tier: {{tier}},
+    contractAbi: ITEM_{{constantCase name}}_CONTRACT_ABI,
 };
 {{/each}}
 
@@ -57,6 +66,7 @@ export const GAME_{{constantCase name}}: IGameContent = {
     description: "{{{description}}}",
     items: GAME_{{constantCase name}}_ITEMS,
     recipes: GAME_{{constantCase name}}_RECIPES,
+    contractAbi: GAME_{{constantCase name}}_CONTRACT_ABI,
 };
 {{/each}}
 export const ALL_GAMES: Array<IGameContent> = [

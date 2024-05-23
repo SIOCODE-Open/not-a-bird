@@ -6,4 +6,5 @@ export interface IGameContent {
     description: string;
     items: Array<IItem>;
     recipes: Array<IRecipe>;
+    contractAbi?: any;
 }

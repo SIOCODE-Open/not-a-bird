@@ -3,4 +3,5 @@ export interface IItem {
     readonly name: string;
     readonly description: string;
     readonly tier: number;
+    readonly contractAbi?: any;
 }

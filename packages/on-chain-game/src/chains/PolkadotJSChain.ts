@@ -1,4 +1,4 @@
-import { ApiPromise, WsProvider } from "@polkadot/api";
+import { ApiPromise, WsProvider, Keyring } from "@polkadot/api";
 import { IBlockchain } from "../IBlockchain";
 import { ContractPromise } from "@polkadot/api-contract";
 
@@ -7,11 +7,15 @@ export class PolkadotJSChain implements IBlockchain {
     private _wsProvider: WsProvider;
     private _api: ApiPromise;
     private _contracts: Record<string, ContractPromise> = {};
+    private _keyring: Keyring;
+    private _keyPair: any;
 
     constructor(
         private _rpcUrl: string,
         private _suri: string = "//Alice",
     ) {
+        this._keyring = new Keyring({ type: "sr25519" });
+        this._keyPair = this._keyring.addFromUri(this._suri, { name: "player" });
         this._wsProvider = new WsProvider(this._rpcUrl);
         this._api = new ApiPromise({ provider: this._wsProvider });
         this._ready = this._connectToChain();
@@ -55,8 +59,16 @@ export class PolkadotJSChain implements IBlockchain {
 
     async signAndSend(tx: any): Promise<any> {
         await this._ready;
-        return tx.signAndSend(
+        return await tx.signAndSend(
+            this._keyPair,
+        );
+    }
 
-        )
+    get ready(): Promise<void> {
+        return this._ready;
+    }
+
+    get rpcUrl(): string {
+        return this._rpcUrl;
     }
 }
