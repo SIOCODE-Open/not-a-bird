@@ -1,0 +1,1023 @@
+{
+    "source": {
+        "hash": "0x82855bd773d057f7c14204f6a5bd511b8428c51845e1a9a1d604aaebc4d1ef48",
+        "language": "ink! 5.0.0",
+        "compiler": "rustc 1.78.0",
+        "build_info": {
+            "build_mode": "Debug",
+            "cargo_contract_version": "4.1.1",
+            "rust_toolchain": "stable-x86_64-unknown-linux-gnu",
+            "wasm_opt_settings": {
+                "keep_debug_symbols": false,
+                "optimization_passes": "Zero"
+            }
+        }
+    },
+    "contract": {
+        "name": "elementy",
+        "version": "0.0.1",
+        "authors": [
+            "SIOCODE Llc. <info@siocode.hu>"
+        ]
+    },
+    "image": null,
+    "spec": {
+        "constructors": [
+            {
+                "args": [],
+                "default": false,
+                "docs": [
+                    "Creates a new PSP-22 compatible Lava Element contract"
+                ],
+                "label": "new",
+                "payable": false,
+                "returnType": {
+                    "displayName": [
+                        "ink_primitives",
+                        "ConstructorResult"
+                    ],
+                    "type": 12
+                },
+                "selector": "0x9bae9d5e"
+            }
+        ],
+        "docs": [
+            " A game in which you combine elements to create new ones."
+        ],
+        "environment": {
+            "accountId": {
+                "displayName": [
+                    "AccountId"
+                ],
+                "type": 0
+            },
+            "balance": {
+                "displayName": [
+                    "Balance"
+                ],
+                "type": 10
+            },
+            "blockNumber": {
+                "displayName": [
+                    "BlockNumber"
+                ],
+                "type": 5
+            },
+            "chainExtension": {
+                "displayName": [
+                    "ChainExtension"
+                ],
+                "type": 25
+            },
+            "hash": {
+                "displayName": [
+                    "Hash"
+                ],
+                "type": 23
+            },
+            "maxEventTopics": 4,
+            "staticBufferSize": 16384,
+            "timestamp": {
+                "displayName": [
+                    "Timestamp"
+                ],
+                "type": 24
+            }
+        },
+        "events": [],
+        "lang_error": {
+            "displayName": [
+                "ink",
+                "LangError"
+            ],
+            "type": 13
+        },
+        "messages": [
+            {
+                "args": [],
+                "default": false,
+                "docs": [
+                    " Sets the owner of the contract"
+                ],
+                "label": "claim_ownership",
+                "mutates": true,
+                "payable": false,
+                "returnType": {
+                    "displayName": [
+                        "ink",
+                        "MessageResult"
+                    ],
+                    "type": 14
+                },
+                "selector": "0x21b1ad4f"
+            },
+            {
+                "args": [
+                    {
+                        "label": "element_id",
+                        "type": {
+                            "displayName": [
+                                "u32"
+                            ],
+                            "type": 5
+                        }
+                    },
+                    {
+                        "label": "element_contract_id",
+                        "type": {
+                            "displayName": [
+                                "AccountId"
+                            ],
+                            "type": 0
+                        }
+                    }
+                ],
+                "default": false,
+                "docs": [
+                    " Locks the contract id of an element"
+                ],
+                "label": "lock_element_contract",
+                "mutates": true,
+                "payable": false,
+                "returnType": {
+                    "displayName": [
+                        "ink",
+                        "MessageResult"
+                    ],
+                    "type": 14
+                },
+                "selector": "0x1e328f21"
+            },
+            {
+                "args": [
+                    {
+                        "label": "element_id",
+                        "type": {
+                            "displayName": [
+                                "u32"
+                            ],
+                            "type": 5
+                        }
+                    }
+                ],
+                "default": false,
+                "docs": [],
+                "label": "balance_of_element",
+                "mutates": false,
+                "payable": false,
+                "returnType": {
+                    "displayName": [
+                        "ink",
+                        "MessageResult"
+                    ],
+                    "type": 18
+                },
+                "selector": "0x11af5775"
+            },
+            {
+                "args": [
+                    {
+                        "label": "price",
+                        "type": {
+                            "displayName": [
+                                "u128"
+                            ],
+                            "type": 10
+                        }
+                    },
+                    {
+                        "label": "reward_tier_points",
+                        "type": {
+                            "displayName": [
+                                "u128"
+                            ],
+                            "type": 10
+                        }
+                    }
+                ],
+                "default": false,
+                "docs": [],
+                "label": "set_buy_offer",
+                "mutates": true,
+                "payable": false,
+                "returnType": {
+                    "displayName": [
+                        "ink",
+                        "MessageResult"
+                    ],
+                    "type": 14
+                },
+                "selector": "0x9196796d"
+            },
+            {
+                "args": [],
+                "default": false,
+                "docs": [],
+                "label": "buy_offer",
+                "mutates": false,
+                "payable": false,
+                "returnType": {
+                    "displayName": [
+                        "ink",
+                        "MessageResult"
+                    ],
+                    "type": 20
+                },
+                "selector": "0xac2232df"
+            },
+            {
+                "args": [
+                    {
+                        "label": "element_id",
+                        "type": {
+                            "displayName": [
+                                "u32"
+                            ],
+                            "type": 5
+                        }
+                    }
+                ],
+                "default": false,
+                "docs": [],
+                "label": "buy",
+                "mutates": true,
+                "payable": true,
+                "returnType": {
+                    "displayName": [
+                        "ink",
+                        "MessageResult"
+                    ],
+                    "type": 14
+                },
+                "selector": "0x15d62801"
+            },
+            {
+                "args": [
+                    {
+                        "label": "recipe_id",
+                        "type": {
+                            "displayName": [
+                                "u32"
+                            ],
+                            "type": 5
+                        }
+                    }
+                ],
+                "default": false,
+                "docs": [],
+                "label": "craft",
+                "mutates": true,
+                "payable": false,
+                "returnType": {
+                    "displayName": [
+                        "ink",
+                        "MessageResult"
+                    ],
+                    "type": 14
+                },
+                "selector": "0x7457b450"
+            }
+        ]
+    },
+    "storage": {
+        "root": {
+            "layout": {
+                "struct": {
+                    "fields": [
+                        {
+                            "layout": {
+                                "leaf": {
+                                    "key": "0x00000000",
+                                    "ty": 0
+                                }
+                            },
+                            "name": "owner_account_id"
+                        },
+                        {
+                            "layout": {
+                                "leaf": {
+                                    "key": "0x00000000",
+                                    "ty": 3
+                                }
+                            },
+                            "name": "owner_is_set"
+                        },
+                        {
+                            "layout": {
+                                "root": {
+                                    "layout": {
+                                        "leaf": {
+                                            "key": "0xf6077df9",
+                                            "ty": 0
+                                        }
+                                    },
+                                    "root_key": "0xf6077df9",
+                                    "ty": 4
+                                }
+                            },
+                            "name": "element_contract_ids"
+                        },
+                        {
+                            "layout": {
+                                "leaf": {
+                                    "key": "0x00000000",
+                                    "ty": 10
+                                }
+                            },
+                            "name": "buy_offer_price_native_tokens"
+                        },
+                        {
+                            "layout": {
+                                "leaf": {
+                                    "key": "0x00000000",
+                                    "ty": 10
+                                }
+                            },
+                            "name": "buy_offer_reward_tier_points"
+                        },
+                        {
+                            "layout": {
+                                "leaf": {
+                                    "key": "0x00000000",
+                                    "ty": 3
+                                }
+                            },
+                            "name": "buy_offer_is_set"
+                        }
+                    ],
+                    "name": "GameContract"
+                }
+            },
+            "root_key": "0x00000000",
+            "ty": 11
+        }
+    },
+    "types": [
+        {
+            "id": 0,
+            "type": {
+                "def": {
+                    "composite": {
+                        "fields": [
+                            {
+                                "type": 1,
+                                "typeName": "[u8; 32]"
+                            }
+                        ]
+                    }
+                },
+                "path": [
+                    "ink_primitives",
+                    "types",
+                    "AccountId"
+                ]
+            }
+        },
+        {
+            "id": 1,
+            "type": {
+                "def": {
+                    "array": {
+                        "len": 32,
+                        "type": 2
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "type": {
+                "def": {
+                    "primitive": "u8"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "type": {
+                "def": {
+                    "primitive": "bool"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "type": {
+                "def": {
+                    "composite": {}
+                },
+                "params": [
+                    {
+                        "name": "K",
+                        "type": 5
+                    },
+                    {
+                        "name": "V",
+                        "type": 0
+                    },
+                    {
+                        "name": "KeyType",
+                        "type": 6
+                    }
+                ],
+                "path": [
+                    "ink_storage",
+                    "lazy",
+                    "mapping",
+                    "Mapping"
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "type": {
+                "def": {
+                    "primitive": "u32"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "type": {
+                "def": {
+                    "composite": {}
+                },
+                "params": [
+                    {
+                        "name": "L",
+                        "type": 7
+                    },
+                    {
+                        "name": "R",
+                        "type": 8
+                    }
+                ],
+                "path": [
+                    "ink_storage_traits",
+                    "impls",
+                    "ResolverKey"
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "type": {
+                "def": {
+                    "composite": {}
+                },
+                "path": [
+                    "ink_storage_traits",
+                    "impls",
+                    "AutoKey"
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "type": {
+                "def": {
+                    "composite": {}
+                },
+                "params": [
+                    {
+                        "name": "ParentKey",
+                        "type": 9
+                    }
+                ],
+                "path": [
+                    "ink_storage_traits",
+                    "impls",
+                    "ManualKey"
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "type": {
+                "def": {
+                    "tuple": []
+                }
+            }
+        },
+        {
+            "id": 10,
+            "type": {
+                "def": {
+                    "primitive": "u128"
+                }
+            }
+        },
+        {
+            "id": 11,
+            "type": {
+                "def": {
+                    "composite": {
+                        "fields": [
+                            {
+                                "name": "owner_account_id",
+                                "type": 0,
+                                "typeName": "<AccountId as::ink::storage::traits::AutoStorableHint<::ink::\nstorage::traits::ManualKey<3454652462u32, ()>,>>::Type"
+                            },
+                            {
+                                "name": "owner_is_set",
+                                "type": 3,
+                                "typeName": "<bool as::ink::storage::traits::AutoStorableHint<::ink::storage\n::traits::ManualKey<3897413125u32, ()>,>>::Type"
+                            },
+                            {
+                                "name": "element_contract_ids",
+                                "type": 4,
+                                "typeName": "<Mapping<u32, AccountId> as::ink::storage::traits::\nAutoStorableHint<::ink::storage::traits::ManualKey<4185720822u32,\n()>,>>::Type"
+                            },
+                            {
+                                "name": "buy_offer_price_native_tokens",
+                                "type": 10,
+                                "typeName": "<u128 as::ink::storage::traits::AutoStorableHint<::ink::storage\n::traits::ManualKey<3964698297u32, ()>,>>::Type"
+                            },
+                            {
+                                "name": "buy_offer_reward_tier_points",
+                                "type": 10,
+                                "typeName": "<u128 as::ink::storage::traits::AutoStorableHint<::ink::storage\n::traits::ManualKey<1296607022u32, ()>,>>::Type"
+                            },
+                            {
+                                "name": "buy_offer_is_set",
+                                "type": 3,
+                                "typeName": "<bool as::ink::storage::traits::AutoStorableHint<::ink::storage\n::traits::ManualKey<3170080913u32, ()>,>>::Type"
+                            }
+                        ]
+                    }
+                },
+                "path": [
+                    "elementy",
+                    "elementy",
+                    "GameContract"
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "type": {
+                "def": {
+                    "variant": {
+                        "variants": [
+                            {
+                                "fields": [
+                                    {
+                                        "type": 9
+                                    }
+                                ],
+                                "index": 0,
+                                "name": "Ok"
+                            },
+                            {
+                                "fields": [
+                                    {
+                                        "type": 13
+                                    }
+                                ],
+                                "index": 1,
+                                "name": "Err"
+                            }
+                        ]
+                    }
+                },
+                "params": [
+                    {
+                        "name": "T",
+                        "type": 9
+                    },
+                    {
+                        "name": "E",
+                        "type": 13
+                    }
+                ],
+                "path": [
+                    "Result"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "type": {
+                "def": {
+                    "variant": {
+                        "variants": [
+                            {
+                                "index": 1,
+                                "name": "CouldNotReadInput"
+                            }
+                        ]
+                    }
+                },
+                "path": [
+                    "ink_primitives",
+                    "LangError"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "type": {
+                "def": {
+                    "variant": {
+                        "variants": [
+                            {
+                                "fields": [
+                                    {
+                                        "type": 15
+                                    }
+                                ],
+                                "index": 0,
+                                "name": "Ok"
+                            },
+                            {
+                                "fields": [
+                                    {
+                                        "type": 13
+                                    }
+                                ],
+                                "index": 1,
+                                "name": "Err"
+                            }
+                        ]
+                    }
+                },
+                "params": [
+                    {
+                        "name": "T",
+                        "type": 15
+                    },
+                    {
+                        "name": "E",
+                        "type": 13
+                    }
+                ],
+                "path": [
+                    "Result"
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "type": {
+                "def": {
+                    "variant": {
+                        "variants": [
+                            {
+                                "fields": [
+                                    {
+                                        "type": 9
+                                    }
+                                ],
+                                "index": 0,
+                                "name": "Ok"
+                            },
+                            {
+                                "fields": [
+                                    {
+                                        "type": 16
+                                    }
+                                ],
+                                "index": 1,
+                                "name": "Err"
+                            }
+                        ]
+                    }
+                },
+                "params": [
+                    {
+                        "name": "T",
+                        "type": 9
+                    },
+                    {
+                        "name": "E",
+                        "type": 16
+                    }
+                ],
+                "path": [
+                    "Result"
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "type": {
+                "def": {
+                    "variant": {
+                        "variants": [
+                            {
+                                "fields": [
+                                    {
+                                        "type": 17,
+                                        "typeName": "String"
+                                    }
+                                ],
+                                "index": 0,
+                                "name": "Custom"
+                            },
+                            {
+                                "fields": [
+                                    {
+                                        "type": 17,
+                                        "typeName": "String"
+                                    }
+                                ],
+                                "index": 1,
+                                "name": "ElementContractError"
+                            },
+                            {
+                                "fields": [
+                                    {
+                                        "type": 13,
+                                        "typeName": "ink::primitives::LangError"
+                                    }
+                                ],
+                                "index": 2,
+                                "name": "InkError"
+                            },
+                            {
+                                "fields": [
+                                    {
+                                        "type": 17,
+                                        "typeName": "String"
+                                    }
+                                ],
+                                "index": 3,
+                                "name": "FatalError"
+                            },
+                            {
+                                "index": 4,
+                                "name": "ElementContractIsNotLocked"
+                            },
+                            {
+                                "index": 5,
+                                "name": "ElementContractAlreadyLocked"
+                            },
+                            {
+                                "index": 6,
+                                "name": "NotTheOwner"
+                            },
+                            {
+                                "index": 7,
+                                "name": "OwnerAlreadySet"
+                            },
+                            {
+                                "index": 8,
+                                "name": "BuyOfferIsNotSet"
+                            },
+                            {
+                                "index": 9,
+                                "name": "InsufficientBuyTransferredValue"
+                            },
+                            {
+                                "index": 10,
+                                "name": "InvalidRecipe"
+                            },
+                            {
+                                "index": 11,
+                                "name": "NotEnoughElements"
+                            },
+                            {
+                                "index": 12,
+                                "name": "InvalidElement"
+                            }
+                        ]
+                    }
+                },
+                "path": [
+                    "elementy",
+                    "elementy",
+                    "Error"
+                ]
+            }
+        },
+        {
+            "id": 17,
+            "type": {
+                "def": {
+                    "primitive": "str"
+                }
+            }
+        },
+        {
+            "id": 18,
+            "type": {
+                "def": {
+                    "variant": {
+                        "variants": [
+                            {
+                                "fields": [
+                                    {
+                                        "type": 19
+                                    }
+                                ],
+                                "index": 0,
+                                "name": "Ok"
+                            },
+                            {
+                                "fields": [
+                                    {
+                                        "type": 13
+                                    }
+                                ],
+                                "index": 1,
+                                "name": "Err"
+                            }
+                        ]
+                    }
+                },
+                "params": [
+                    {
+                        "name": "T",
+                        "type": 19
+                    },
+                    {
+                        "name": "E",
+                        "type": 13
+                    }
+                ],
+                "path": [
+                    "Result"
+                ]
+            }
+        },
+        {
+            "id": 19,
+            "type": {
+                "def": {
+                    "variant": {
+                        "variants": [
+                            {
+                                "fields": [
+                                    {
+                                        "type": 10
+                                    }
+                                ],
+                                "index": 0,
+                                "name": "Ok"
+                            },
+                            {
+                                "fields": [
+                                    {
+                                        "type": 16
+                                    }
+                                ],
+                                "index": 1,
+                                "name": "Err"
+                            }
+                        ]
+                    }
+                },
+                "params": [
+                    {
+                        "name": "T",
+                        "type": 10
+                    },
+                    {
+                        "name": "E",
+                        "type": 16
+                    }
+                ],
+                "path": [
+                    "Result"
+                ]
+            }
+        },
+        {
+            "id": 20,
+            "type": {
+                "def": {
+                    "variant": {
+                        "variants": [
+                            {
+                                "fields": [
+                                    {
+                                        "type": 21
+                                    }
+                                ],
+                                "index": 0,
+                                "name": "Ok"
+                            },
+                            {
+                                "fields": [
+                                    {
+                                        "type": 13
+                                    }
+                                ],
+                                "index": 1,
+                                "name": "Err"
+                            }
+                        ]
+                    }
+                },
+                "params": [
+                    {
+                        "name": "T",
+                        "type": 21
+                    },
+                    {
+                        "name": "E",
+                        "type": 13
+                    }
+                ],
+                "path": [
+                    "Result"
+                ]
+            }
+        },
+        {
+            "id": 21,
+            "type": {
+                "def": {
+                    "variant": {
+                        "variants": [
+                            {
+                                "fields": [
+                                    {
+                                        "type": 22
+                                    }
+                                ],
+                                "index": 0,
+                                "name": "Ok"
+                            },
+                            {
+                                "fields": [
+                                    {
+                                        "type": 16
+                                    }
+                                ],
+                                "index": 1,
+                                "name": "Err"
+                            }
+                        ]
+                    }
+                },
+                "params": [
+                    {
+                        "name": "T",
+                        "type": 22
+                    },
+                    {
+                        "name": "E",
+                        "type": 16
+                    }
+                ],
+                "path": [
+                    "Result"
+                ]
+            }
+        },
+        {
+            "id": 22,
+            "type": {
+                "def": {
+                    "tuple": [
+                        10,
+                        10
+                    ]
+                }
+            }
+        },
+        {
+            "id": 23,
+            "type": {
+                "def": {
+                    "composite": {
+                        "fields": [
+                            {
+                                "type": 1,
+                                "typeName": "[u8; 32]"
+                            }
+                        ]
+                    }
+                },
+                "path": [
+                    "ink_primitives",
+                    "types",
+                    "Hash"
+                ]
+            }
+        },
+        {
+            "id": 24,
+            "type": {
+                "def": {
+                    "primitive": "u64"
+                }
+            }
+        },
+        {
+            "id": 25,
+            "type": {
+                "def": {
+                    "variant": {}
+                },
+                "path": [
+                    "ink_env",
+                    "types",
+                    "NoChainExtension"
+                ]
+            }
+        }
+    ],
+    "version": 5
+}
