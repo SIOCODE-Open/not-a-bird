@@ -1,6 +1,6 @@
-# HyperMarmalade - Contract
+# Hyper Marmalade - Contract
 
-This is a HyperMarmalade contract.
+This is a Hyper Marmalade contract.
 
 ### Quickstart
 

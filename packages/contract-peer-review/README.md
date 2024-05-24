@@ -1,6 +1,6 @@
-# PeerReview - Contract
+# Peer Review - Contract
 
-This is a PeerReview contract.
+This is a Peer Review contract.
 
 ### Quickstart
 

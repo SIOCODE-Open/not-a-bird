@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-warm-breeze",
-    "description": "PSP-22 compatible game smart contract for element 'Warm Breeze'",
+    "description": "PSP-22 compatible game smart contract for element 'WarmBreeze'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

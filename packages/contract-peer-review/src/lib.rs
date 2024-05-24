@@ -33,7 +33,7 @@ pub mod peer_review {
     }
     // End borrowed code: https://github.com/Cardinal-Cryptography/PSP22/blob/main/events.rs
 
-    /** Error type for PSP-22 compatible contract for element 'PeerReview' */
+    /** Error type for PSP-22 compatible contract for element 'Peer Review' */
     #[derive(Debug, PartialEq, Eq)]
     #[ink::scale_derive(Encode, Decode, TypeInfo)]
     pub enum Error {

@@ -33,7 +33,7 @@ pub mod super_marmalade {
     }
     // End borrowed code: https://github.com/Cardinal-Cryptography/PSP22/blob/main/events.rs
 
-    /** Error type for PSP-22 compatible contract for element 'SuperMarmalade' */
+    /** Error type for PSP-22 compatible contract for element 'Super Marmalade' */
     #[derive(Debug, PartialEq, Eq)]
     #[ink::scale_derive(Encode, Decode, TypeInfo)]
     pub enum Error {

@@ -33,7 +33,7 @@ pub mod pillar_of_wind {
     }
     // End borrowed code: https://github.com/Cardinal-Cryptography/PSP22/blob/main/events.rs
 
-    /** Error type for PSP-22 compatible contract for element 'Pillar of Wind' */
+    /** Error type for PSP-22 compatible contract for element 'Pillar Of Wind' */
     #[derive(Debug, PartialEq, Eq)]
     #[ink::scale_derive(Encode, Decode, TypeInfo)]
     pub enum Error {

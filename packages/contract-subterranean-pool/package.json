@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-subterranean-pool",
-    "description": "PSP-22 compatible game smart contract for element 'Subterranean Pool'",
+    "description": "PSP-22 compatible game smart contract for element 'SubterraneanPool'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

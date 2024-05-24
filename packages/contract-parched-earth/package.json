@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-parched-earth",
-    "description": "PSP-22 compatible game smart contract for element 'Parched Earth'",
+    "description": "PSP-22 compatible game smart contract for element 'ParchedEarth'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

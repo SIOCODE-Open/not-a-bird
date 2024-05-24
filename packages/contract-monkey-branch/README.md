@@ -1,6 +1,6 @@
-# MonkeyBranch - Contract
+# Monkey Branch - Contract
 
-This is a MonkeyBranch contract.
+This is a Monkey Branch contract.
 
 ### Quickstart
 

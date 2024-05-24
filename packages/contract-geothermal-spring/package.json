@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-geothermal-spring",
-    "description": "PSP-22 compatible game smart contract for element 'Geothermal Spring'",
+    "description": "PSP-22 compatible game smart contract for element 'GeothermalSpring'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

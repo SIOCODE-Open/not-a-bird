@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-steam-vent",
-    "description": "PSP-22 compatible game smart contract for element 'Steam Vent'",
+    "description": "PSP-22 compatible game smart contract for element 'SteamVent'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

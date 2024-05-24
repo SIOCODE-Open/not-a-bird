@@ -359,9 +359,9 @@
             "index": 58
         },
         {
-            "name": "Frosted Glass",
+            "name": "FrostedGlass",
             "description": "We need a description here",
-            "item": "items#Frosted Glass",
+            "item": "items#FrostedGlass",
             "index": 59
         },
         {
@@ -509,9 +509,9 @@
             "index": 83
         },
         {
-            "name": "Magma Chamber",
+            "name": "MagmaChamber",
             "description": "We need a description here",
-            "item": "items#Magma Chamber",
+            "item": "items#MagmaChamber",
             "index": 84
         },
         {
@@ -521,9 +521,9 @@
             "index": 85
         },
         {
-            "name": "Warm Breeze",
+            "name": "WarmBreeze",
             "description": "We need a description here",
-            "item": "items#Warm Breeze",
+            "item": "items#WarmBreeze",
             "index": 86
         },
         {
@@ -581,9 +581,9 @@
             "index": 95
         },
         {
-            "name": "Molten Glass",
+            "name": "MoltenGlass",
             "description": "We need a description here",
-            "item": "items#Molten Glass",
+            "item": "items#MoltenGlass",
             "index": 96
         },
         {
@@ -617,9 +617,9 @@
             "index": 101
         },
         {
-            "name": "Sand Dune",
+            "name": "SandDune",
             "description": "We need a description here",
-            "item": "items#Sand Dune",
+            "item": "items#SandDune",
             "index": 102
         },
         {
@@ -677,9 +677,9 @@
             "index": 111
         },
         {
-            "name": "Fertile Land",
+            "name": "FertileLand",
             "description": "We need a description here",
-            "item": "items#Fertile Land",
+            "item": "items#FertileLand",
             "index": 112
         },
         {
@@ -713,9 +713,9 @@
             "index": 117
         },
         {
-            "name": "Scorched Earth",
+            "name": "ScorchedEarth",
             "description": "We need a description here",
-            "item": "items#Scorched Earth",
+            "item": "items#ScorchedEarth",
             "index": 118
         },
         {
@@ -731,9 +731,9 @@
             "index": 120
         },
         {
-            "name": "Fire Swamp",
+            "name": "FireSwamp",
             "description": "We need a description here",
-            "item": "items#Fire Swamp",
+            "item": "items#FireSwamp",
             "index": 121
         },
         {
@@ -755,9 +755,9 @@
             "index": 124
         },
         {
-            "name": "Charred Ravine",
+            "name": "CharredRavine",
             "description": "We need a description here",
-            "item": "items#Charred Ravine",
+            "item": "items#CharredRavine",
             "index": 125
         },
         {
@@ -773,27 +773,27 @@
             "index": 127
         },
         {
-            "name": "Underground Lake",
+            "name": "UndergroundLake",
             "description": "We need a description here",
-            "item": "items#Underground Lake",
+            "item": "items#UndergroundLake",
             "index": 128
         },
         {
-            "name": "Lava Cave",
+            "name": "LavaCave",
             "description": "We need a description here",
-            "item": "items#Lava Cave",
+            "item": "items#LavaCave",
             "index": 129
         },
         {
-            "name": "Whispering Cave",
+            "name": "WhisperingCave",
             "description": "We need a description here",
-            "item": "items#Whispering Cave",
+            "item": "items#WhisperingCave",
             "index": 130
         },
         {
-            "name": "Subterranean Pool",
+            "name": "SubterraneanPool",
             "description": "We need a description here",
-            "item": "items#Subterranean Pool",
+            "item": "items#SubterraneanPool",
             "index": 131
         },
         {
@@ -803,9 +803,9 @@
             "index": 132
         },
         {
-            "name": "Hot Spring",
+            "name": "HotSpring",
             "description": "We need a description here",
-            "item": "items#Hot Spring",
+            "item": "items#HotSpring",
             "index": 133
         },
         {
@@ -821,15 +821,15 @@
             "index": 135
         },
         {
-            "name": "Steam Vent",
+            "name": "SteamVent",
             "description": "We need a description here",
-            "item": "items#Steam Vent",
+            "item": "items#SteamVent",
             "index": 136
         },
         {
-            "name": "Cool Breeze",
+            "name": "CoolBreeze",
             "description": "We need a description here",
-            "item": "items#Cool Breeze",
+            "item": "items#CoolBreeze",
             "index": 137
         },
         {
@@ -845,15 +845,15 @@
             "index": 139
         },
         {
-            "name": "Eternal Flame",
+            "name": "EternalFlame",
             "description": "We need a description here",
-            "item": "items#Eternal Flame",
+            "item": "items#EternalFlame",
             "index": 140
         },
         {
-            "name": "Pillar of Wind",
+            "name": "PillarOfWind",
             "description": "We need a description here",
-            "item": "items#Pillar of Wind",
+            "item": "items#PillarOfWind",
             "index": 141
         },
         {
@@ -917,15 +917,15 @@
             "index": 151
         },
         {
-            "name": "Parched Earth",
+            "name": "ParchedEarth",
             "description": "We need a description here",
-            "item": "items#Parched Earth",
+            "item": "items#ParchedEarth",
             "index": 152
         },
         {
-            "name": "Fresh Breeze",
+            "name": "FreshBreeze",
             "description": "We need a description here",
-            "item": "items#Fresh Breeze",
+            "item": "items#FreshBreeze",
             "index": 153
         },
         {
@@ -941,15 +941,15 @@
             "index": 155
         },
         {
-            "name": "Geothermal Spring",
+            "name": "GeothermalSpring",
             "description": "We need a description here",
-            "item": "items#Geothermal Spring",
+            "item": "items#GeothermalSpring",
             "index": 156
         },
         {
-            "name": "Artesian Well",
+            "name": "ArtesianWell",
             "description": "We need a description here",
-            "item": "items#Artesian Well",
+            "item": "items#ArtesianWell",
             "index": 157
         },
         {
@@ -965,9 +965,9 @@
             "index": 159
         },
         {
-            "name": "Dry Basin",
+            "name": "DryBasin",
             "description": "We need a description here",
-            "item": "items#Dry Basin",
+            "item": "items#DryBasin",
             "index": 160
         },
         {

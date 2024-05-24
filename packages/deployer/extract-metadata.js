@@ -973,14 +973,14 @@ if(fs.existsSync(frostedGlassPath)) {
         fs.readFileSync(frostedGlassPath, { encoding: 'utf-8' })
     );
     if(!frostedGlassData.source) {
-        console.log(`No source found for Frosted Glass at ${ frostedGlassPath }`)
+        console.log(`No source found for FrostedGlass at ${ frostedGlassPath }`)
         return;
     }
     delete frostedGlassData.source.wasm;
     fs.writeFileSync(frostedGlassInterfacePath, JSON.stringify(frostedGlassData, null, 4));
-    console.log(`Extracted metadata for Frosted Glass to ${ frostedGlassInterfacePath }`)
+    console.log(`Extracted metadata for FrostedGlass to ${ frostedGlassInterfacePath }`)
 } else {
-    console.log(`No metadata found for Frosted Glass at ${ frostedGlassPath }`)
+    console.log(`No metadata found for FrostedGlass at ${ frostedGlassPath }`)
 }
 const crystalPath = path.join(contractsV1Dir, "crystal.contract.json");
 const crystalInterfacePath = path.join(contractInterfacesV1Dir, "crystal.interface.json");
@@ -1373,14 +1373,14 @@ if(fs.existsSync(magmaChamberPath)) {
         fs.readFileSync(magmaChamberPath, { encoding: 'utf-8' })
     );
     if(!magmaChamberData.source) {
-        console.log(`No source found for Magma Chamber at ${ magmaChamberPath }`)
+        console.log(`No source found for MagmaChamber at ${ magmaChamberPath }`)
         return;
     }
     delete magmaChamberData.source.wasm;
     fs.writeFileSync(magmaChamberInterfacePath, JSON.stringify(magmaChamberData, null, 4));
-    console.log(`Extracted metadata for Magma Chamber to ${ magmaChamberInterfacePath }`)
+    console.log(`Extracted metadata for MagmaChamber to ${ magmaChamberInterfacePath }`)
 } else {
-    console.log(`No metadata found for Magma Chamber at ${ magmaChamberPath }`)
+    console.log(`No metadata found for MagmaChamber at ${ magmaChamberPath }`)
 }
 const breezePath = path.join(contractsV1Dir, "breeze.contract.json");
 const breezeInterfacePath = path.join(contractInterfacesV1Dir, "breeze.interface.json");
@@ -1405,14 +1405,14 @@ if(fs.existsSync(warmBreezePath)) {
         fs.readFileSync(warmBreezePath, { encoding: 'utf-8' })
     );
     if(!warmBreezeData.source) {
-        console.log(`No source found for Warm Breeze at ${ warmBreezePath }`)
+        console.log(`No source found for WarmBreeze at ${ warmBreezePath }`)
         return;
     }
     delete warmBreezeData.source.wasm;
     fs.writeFileSync(warmBreezeInterfacePath, JSON.stringify(warmBreezeData, null, 4));
-    console.log(`Extracted metadata for Warm Breeze to ${ warmBreezeInterfacePath }`)
+    console.log(`Extracted metadata for WarmBreeze to ${ warmBreezeInterfacePath }`)
 } else {
-    console.log(`No metadata found for Warm Breeze at ${ warmBreezePath }`)
+    console.log(`No metadata found for WarmBreeze at ${ warmBreezePath }`)
 }
 const soilPath = path.join(contractsV1Dir, "soil.contract.json");
 const soilInterfacePath = path.join(contractInterfacesV1Dir, "soil.interface.json");
@@ -1565,14 +1565,14 @@ if(fs.existsSync(moltenGlassPath)) {
         fs.readFileSync(moltenGlassPath, { encoding: 'utf-8' })
     );
     if(!moltenGlassData.source) {
-        console.log(`No source found for Molten Glass at ${ moltenGlassPath }`)
+        console.log(`No source found for MoltenGlass at ${ moltenGlassPath }`)
         return;
     }
     delete moltenGlassData.source.wasm;
     fs.writeFileSync(moltenGlassInterfacePath, JSON.stringify(moltenGlassData, null, 4));
-    console.log(`Extracted metadata for Molten Glass to ${ moltenGlassInterfacePath }`)
+    console.log(`Extracted metadata for MoltenGlass to ${ moltenGlassInterfacePath }`)
 } else {
-    console.log(`No metadata found for Molten Glass at ${ moltenGlassPath }`)
+    console.log(`No metadata found for MoltenGlass at ${ moltenGlassPath }`)
 }
 const prismPath = path.join(contractsV1Dir, "prism.contract.json");
 const prismInterfacePath = path.join(contractInterfacesV1Dir, "prism.interface.json");
@@ -1661,14 +1661,14 @@ if(fs.existsSync(sandDunePath)) {
         fs.readFileSync(sandDunePath, { encoding: 'utf-8' })
     );
     if(!sandDuneData.source) {
-        console.log(`No source found for Sand Dune at ${ sandDunePath }`)
+        console.log(`No source found for SandDune at ${ sandDunePath }`)
         return;
     }
     delete sandDuneData.source.wasm;
     fs.writeFileSync(sandDuneInterfacePath, JSON.stringify(sandDuneData, null, 4));
-    console.log(`Extracted metadata for Sand Dune to ${ sandDuneInterfacePath }`)
+    console.log(`Extracted metadata for SandDune to ${ sandDuneInterfacePath }`)
 } else {
-    console.log(`No metadata found for Sand Dune at ${ sandDunePath }`)
+    console.log(`No metadata found for SandDune at ${ sandDunePath }`)
 }
 const damPath = path.join(contractsV1Dir, "dam.contract.json");
 const damInterfacePath = path.join(contractInterfacesV1Dir, "dam.interface.json");
@@ -1821,14 +1821,14 @@ if(fs.existsSync(fertileLandPath)) {
         fs.readFileSync(fertileLandPath, { encoding: 'utf-8' })
     );
     if(!fertileLandData.source) {
-        console.log(`No source found for Fertile Land at ${ fertileLandPath }`)
+        console.log(`No source found for FertileLand at ${ fertileLandPath }`)
         return;
     }
     delete fertileLandData.source.wasm;
     fs.writeFileSync(fertileLandInterfacePath, JSON.stringify(fertileLandData, null, 4));
-    console.log(`Extracted metadata for Fertile Land to ${ fertileLandInterfacePath }`)
+    console.log(`Extracted metadata for FertileLand to ${ fertileLandInterfacePath }`)
 } else {
-    console.log(`No metadata found for Fertile Land at ${ fertileLandPath }`)
+    console.log(`No metadata found for FertileLand at ${ fertileLandPath }`)
 }
 const wetlandPath = path.join(contractsV1Dir, "wetland.contract.json");
 const wetlandInterfacePath = path.join(contractInterfacesV1Dir, "wetland.interface.json");
@@ -1917,14 +1917,14 @@ if(fs.existsSync(scorchedEarthPath)) {
         fs.readFileSync(scorchedEarthPath, { encoding: 'utf-8' })
     );
     if(!scorchedEarthData.source) {
-        console.log(`No source found for Scorched Earth at ${ scorchedEarthPath }`)
+        console.log(`No source found for ScorchedEarth at ${ scorchedEarthPath }`)
         return;
     }
     delete scorchedEarthData.source.wasm;
     fs.writeFileSync(scorchedEarthInterfacePath, JSON.stringify(scorchedEarthData, null, 4));
-    console.log(`Extracted metadata for Scorched Earth to ${ scorchedEarthInterfacePath }`)
+    console.log(`Extracted metadata for ScorchedEarth to ${ scorchedEarthInterfacePath }`)
 } else {
-    console.log(`No metadata found for Scorched Earth at ${ scorchedEarthPath }`)
+    console.log(`No metadata found for ScorchedEarth at ${ scorchedEarthPath }`)
 }
 const deltaPath = path.join(contractsV1Dir, "delta.contract.json");
 const deltaInterfacePath = path.join(contractInterfacesV1Dir, "delta.interface.json");
@@ -1965,14 +1965,14 @@ if(fs.existsSync(fireSwampPath)) {
         fs.readFileSync(fireSwampPath, { encoding: 'utf-8' })
     );
     if(!fireSwampData.source) {
-        console.log(`No source found for Fire Swamp at ${ fireSwampPath }`)
+        console.log(`No source found for FireSwamp at ${ fireSwampPath }`)
         return;
     }
     delete fireSwampData.source.wasm;
     fs.writeFileSync(fireSwampInterfacePath, JSON.stringify(fireSwampData, null, 4));
-    console.log(`Extracted metadata for Fire Swamp to ${ fireSwampInterfacePath }`)
+    console.log(`Extracted metadata for FireSwamp to ${ fireSwampInterfacePath }`)
 } else {
-    console.log(`No metadata found for Fire Swamp at ${ fireSwampPath }`)
+    console.log(`No metadata found for FireSwamp at ${ fireSwampPath }`)
 }
 const riverbankPath = path.join(contractsV1Dir, "riverbank.contract.json");
 const riverbankInterfacePath = path.join(contractInterfacesV1Dir, "riverbank.interface.json");
@@ -2029,14 +2029,14 @@ if(fs.existsSync(charredRavinePath)) {
         fs.readFileSync(charredRavinePath, { encoding: 'utf-8' })
     );
     if(!charredRavineData.source) {
-        console.log(`No source found for Charred Ravine at ${ charredRavinePath }`)
+        console.log(`No source found for CharredRavine at ${ charredRavinePath }`)
         return;
     }
     delete charredRavineData.source.wasm;
     fs.writeFileSync(charredRavineInterfacePath, JSON.stringify(charredRavineData, null, 4));
-    console.log(`Extracted metadata for Charred Ravine to ${ charredRavineInterfacePath }`)
+    console.log(`Extracted metadata for CharredRavine to ${ charredRavineInterfacePath }`)
 } else {
-    console.log(`No metadata found for Charred Ravine at ${ charredRavinePath }`)
+    console.log(`No metadata found for CharredRavine at ${ charredRavinePath }`)
 }
 const echoPath = path.join(contractsV1Dir, "echo.contract.json");
 const echoInterfacePath = path.join(contractInterfacesV1Dir, "echo.interface.json");
@@ -2077,14 +2077,14 @@ if(fs.existsSync(undergroundLakePath)) {
         fs.readFileSync(undergroundLakePath, { encoding: 'utf-8' })
     );
     if(!undergroundLakeData.source) {
-        console.log(`No source found for Underground Lake at ${ undergroundLakePath }`)
+        console.log(`No source found for UndergroundLake at ${ undergroundLakePath }`)
         return;
     }
     delete undergroundLakeData.source.wasm;
     fs.writeFileSync(undergroundLakeInterfacePath, JSON.stringify(undergroundLakeData, null, 4));
-    console.log(`Extracted metadata for Underground Lake to ${ undergroundLakeInterfacePath }`)
+    console.log(`Extracted metadata for UndergroundLake to ${ undergroundLakeInterfacePath }`)
 } else {
-    console.log(`No metadata found for Underground Lake at ${ undergroundLakePath }`)
+    console.log(`No metadata found for UndergroundLake at ${ undergroundLakePath }`)
 }
 const lavaCavePath = path.join(contractsV1Dir, "lava_cave.contract.json");
 const lavaCaveInterfacePath = path.join(contractInterfacesV1Dir, "lava_cave.interface.json");
@@ -2093,14 +2093,14 @@ if(fs.existsSync(lavaCavePath)) {
         fs.readFileSync(lavaCavePath, { encoding: 'utf-8' })
     );
     if(!lavaCaveData.source) {
-        console.log(`No source found for Lava Cave at ${ lavaCavePath }`)
+        console.log(`No source found for LavaCave at ${ lavaCavePath }`)
         return;
     }
     delete lavaCaveData.source.wasm;
     fs.writeFileSync(lavaCaveInterfacePath, JSON.stringify(lavaCaveData, null, 4));
-    console.log(`Extracted metadata for Lava Cave to ${ lavaCaveInterfacePath }`)
+    console.log(`Extracted metadata for LavaCave to ${ lavaCaveInterfacePath }`)
 } else {
-    console.log(`No metadata found for Lava Cave at ${ lavaCavePath }`)
+    console.log(`No metadata found for LavaCave at ${ lavaCavePath }`)
 }
 const whisperingCavePath = path.join(contractsV1Dir, "whispering_cave.contract.json");
 const whisperingCaveInterfacePath = path.join(contractInterfacesV1Dir, "whispering_cave.interface.json");
@@ -2109,14 +2109,14 @@ if(fs.existsSync(whisperingCavePath)) {
         fs.readFileSync(whisperingCavePath, { encoding: 'utf-8' })
     );
     if(!whisperingCaveData.source) {
-        console.log(`No source found for Whispering Cave at ${ whisperingCavePath }`)
+        console.log(`No source found for WhisperingCave at ${ whisperingCavePath }`)
         return;
     }
     delete whisperingCaveData.source.wasm;
     fs.writeFileSync(whisperingCaveInterfacePath, JSON.stringify(whisperingCaveData, null, 4));
-    console.log(`Extracted metadata for Whispering Cave to ${ whisperingCaveInterfacePath }`)
+    console.log(`Extracted metadata for WhisperingCave to ${ whisperingCaveInterfacePath }`)
 } else {
-    console.log(`No metadata found for Whispering Cave at ${ whisperingCavePath }`)
+    console.log(`No metadata found for WhisperingCave at ${ whisperingCavePath }`)
 }
 const subterraneanPoolPath = path.join(contractsV1Dir, "subterranean_pool.contract.json");
 const subterraneanPoolInterfacePath = path.join(contractInterfacesV1Dir, "subterranean_pool.interface.json");
@@ -2125,14 +2125,14 @@ if(fs.existsSync(subterraneanPoolPath)) {
         fs.readFileSync(subterraneanPoolPath, { encoding: 'utf-8' })
     );
     if(!subterraneanPoolData.source) {
-        console.log(`No source found for Subterranean Pool at ${ subterraneanPoolPath }`)
+        console.log(`No source found for SubterraneanPool at ${ subterraneanPoolPath }`)
         return;
     }
     delete subterraneanPoolData.source.wasm;
     fs.writeFileSync(subterraneanPoolInterfacePath, JSON.stringify(subterraneanPoolData, null, 4));
-    console.log(`Extracted metadata for Subterranean Pool to ${ subterraneanPoolInterfacePath }`)
+    console.log(`Extracted metadata for SubterraneanPool to ${ subterraneanPoolInterfacePath }`)
 } else {
-    console.log(`No metadata found for Subterranean Pool at ${ subterraneanPoolPath }`)
+    console.log(`No metadata found for SubterraneanPool at ${ subterraneanPoolPath }`)
 }
 const springPath = path.join(contractsV1Dir, "spring.contract.json");
 const springInterfacePath = path.join(contractInterfacesV1Dir, "spring.interface.json");
@@ -2157,14 +2157,14 @@ if(fs.existsSync(hotSpringPath)) {
         fs.readFileSync(hotSpringPath, { encoding: 'utf-8' })
     );
     if(!hotSpringData.source) {
-        console.log(`No source found for Hot Spring at ${ hotSpringPath }`)
+        console.log(`No source found for HotSpring at ${ hotSpringPath }`)
         return;
     }
     delete hotSpringData.source.wasm;
     fs.writeFileSync(hotSpringInterfacePath, JSON.stringify(hotSpringData, null, 4));
-    console.log(`Extracted metadata for Hot Spring to ${ hotSpringInterfacePath }`)
+    console.log(`Extracted metadata for HotSpring to ${ hotSpringInterfacePath }`)
 } else {
-    console.log(`No metadata found for Hot Spring at ${ hotSpringPath }`)
+    console.log(`No metadata found for HotSpring at ${ hotSpringPath }`)
 }
 const grottoPath = path.join(contractsV1Dir, "grotto.contract.json");
 const grottoInterfacePath = path.join(contractInterfacesV1Dir, "grotto.interface.json");
@@ -2205,14 +2205,14 @@ if(fs.existsSync(steamVentPath)) {
         fs.readFileSync(steamVentPath, { encoding: 'utf-8' })
     );
     if(!steamVentData.source) {
-        console.log(`No source found for Steam Vent at ${ steamVentPath }`)
+        console.log(`No source found for SteamVent at ${ steamVentPath }`)
         return;
     }
     delete steamVentData.source.wasm;
     fs.writeFileSync(steamVentInterfacePath, JSON.stringify(steamVentData, null, 4));
-    console.log(`Extracted metadata for Steam Vent to ${ steamVentInterfacePath }`)
+    console.log(`Extracted metadata for SteamVent to ${ steamVentInterfacePath }`)
 } else {
-    console.log(`No metadata found for Steam Vent at ${ steamVentPath }`)
+    console.log(`No metadata found for SteamVent at ${ steamVentPath }`)
 }
 const coolBreezePath = path.join(contractsV1Dir, "cool_breeze.contract.json");
 const coolBreezeInterfacePath = path.join(contractInterfacesV1Dir, "cool_breeze.interface.json");
@@ -2221,14 +2221,14 @@ if(fs.existsSync(coolBreezePath)) {
         fs.readFileSync(coolBreezePath, { encoding: 'utf-8' })
     );
     if(!coolBreezeData.source) {
-        console.log(`No source found for Cool Breeze at ${ coolBreezePath }`)
+        console.log(`No source found for CoolBreeze at ${ coolBreezePath }`)
         return;
     }
     delete coolBreezeData.source.wasm;
     fs.writeFileSync(coolBreezeInterfacePath, JSON.stringify(coolBreezeData, null, 4));
-    console.log(`Extracted metadata for Cool Breeze to ${ coolBreezeInterfacePath }`)
+    console.log(`Extracted metadata for CoolBreeze to ${ coolBreezeInterfacePath }`)
 } else {
-    console.log(`No metadata found for Cool Breeze at ${ coolBreezePath }`)
+    console.log(`No metadata found for CoolBreeze at ${ coolBreezePath }`)
 }
 const monumentPath = path.join(contractsV1Dir, "monument.contract.json");
 const monumentInterfacePath = path.join(contractInterfacesV1Dir, "monument.interface.json");
@@ -2269,14 +2269,14 @@ if(fs.existsSync(eternalFlamePath)) {
         fs.readFileSync(eternalFlamePath, { encoding: 'utf-8' })
     );
     if(!eternalFlameData.source) {
-        console.log(`No source found for Eternal Flame at ${ eternalFlamePath }`)
+        console.log(`No source found for EternalFlame at ${ eternalFlamePath }`)
         return;
     }
     delete eternalFlameData.source.wasm;
     fs.writeFileSync(eternalFlameInterfacePath, JSON.stringify(eternalFlameData, null, 4));
-    console.log(`Extracted metadata for Eternal Flame to ${ eternalFlameInterfacePath }`)
+    console.log(`Extracted metadata for EternalFlame to ${ eternalFlameInterfacePath }`)
 } else {
-    console.log(`No metadata found for Eternal Flame at ${ eternalFlamePath }`)
+    console.log(`No metadata found for EternalFlame at ${ eternalFlamePath }`)
 }
 const pillarOfWindPath = path.join(contractsV1Dir, "pillar_of_wind.contract.json");
 const pillarOfWindInterfacePath = path.join(contractInterfacesV1Dir, "pillar_of_wind.interface.json");
@@ -2285,14 +2285,14 @@ if(fs.existsSync(pillarOfWindPath)) {
         fs.readFileSync(pillarOfWindPath, { encoding: 'utf-8' })
     );
     if(!pillarOfWindData.source) {
-        console.log(`No source found for Pillar of Wind at ${ pillarOfWindPath }`)
+        console.log(`No source found for PillarOfWind at ${ pillarOfWindPath }`)
         return;
     }
     delete pillarOfWindData.source.wasm;
     fs.writeFileSync(pillarOfWindInterfacePath, JSON.stringify(pillarOfWindData, null, 4));
-    console.log(`Extracted metadata for Pillar of Wind to ${ pillarOfWindInterfacePath }`)
+    console.log(`Extracted metadata for PillarOfWind to ${ pillarOfWindInterfacePath }`)
 } else {
-    console.log(`No metadata found for Pillar of Wind at ${ pillarOfWindPath }`)
+    console.log(`No metadata found for PillarOfWind at ${ pillarOfWindPath }`)
 }
 const streamPath = path.join(contractsV1Dir, "stream.contract.json");
 const streamInterfacePath = path.join(contractInterfacesV1Dir, "stream.interface.json");
@@ -2461,14 +2461,14 @@ if(fs.existsSync(parchedEarthPath)) {
         fs.readFileSync(parchedEarthPath, { encoding: 'utf-8' })
     );
     if(!parchedEarthData.source) {
-        console.log(`No source found for Parched Earth at ${ parchedEarthPath }`)
+        console.log(`No source found for ParchedEarth at ${ parchedEarthPath }`)
         return;
     }
     delete parchedEarthData.source.wasm;
     fs.writeFileSync(parchedEarthInterfacePath, JSON.stringify(parchedEarthData, null, 4));
-    console.log(`Extracted metadata for Parched Earth to ${ parchedEarthInterfacePath }`)
+    console.log(`Extracted metadata for ParchedEarth to ${ parchedEarthInterfacePath }`)
 } else {
-    console.log(`No metadata found for Parched Earth at ${ parchedEarthPath }`)
+    console.log(`No metadata found for ParchedEarth at ${ parchedEarthPath }`)
 }
 const freshBreezePath = path.join(contractsV1Dir, "fresh_breeze.contract.json");
 const freshBreezeInterfacePath = path.join(contractInterfacesV1Dir, "fresh_breeze.interface.json");
@@ -2477,14 +2477,14 @@ if(fs.existsSync(freshBreezePath)) {
         fs.readFileSync(freshBreezePath, { encoding: 'utf-8' })
     );
     if(!freshBreezeData.source) {
-        console.log(`No source found for Fresh Breeze at ${ freshBreezePath }`)
+        console.log(`No source found for FreshBreeze at ${ freshBreezePath }`)
         return;
     }
     delete freshBreezeData.source.wasm;
     fs.writeFileSync(freshBreezeInterfacePath, JSON.stringify(freshBreezeData, null, 4));
-    console.log(`Extracted metadata for Fresh Breeze to ${ freshBreezeInterfacePath }`)
+    console.log(`Extracted metadata for FreshBreeze to ${ freshBreezeInterfacePath }`)
 } else {
-    console.log(`No metadata found for Fresh Breeze at ${ freshBreezePath }`)
+    console.log(`No metadata found for FreshBreeze at ${ freshBreezePath }`)
 }
 const groundwaterPath = path.join(contractsV1Dir, "groundwater.contract.json");
 const groundwaterInterfacePath = path.join(contractInterfacesV1Dir, "groundwater.interface.json");
@@ -2525,14 +2525,14 @@ if(fs.existsSync(geothermalSpringPath)) {
         fs.readFileSync(geothermalSpringPath, { encoding: 'utf-8' })
     );
     if(!geothermalSpringData.source) {
-        console.log(`No source found for Geothermal Spring at ${ geothermalSpringPath }`)
+        console.log(`No source found for GeothermalSpring at ${ geothermalSpringPath }`)
         return;
     }
     delete geothermalSpringData.source.wasm;
     fs.writeFileSync(geothermalSpringInterfacePath, JSON.stringify(geothermalSpringData, null, 4));
-    console.log(`Extracted metadata for Geothermal Spring to ${ geothermalSpringInterfacePath }`)
+    console.log(`Extracted metadata for GeothermalSpring to ${ geothermalSpringInterfacePath }`)
 } else {
-    console.log(`No metadata found for Geothermal Spring at ${ geothermalSpringPath }`)
+    console.log(`No metadata found for GeothermalSpring at ${ geothermalSpringPath }`)
 }
 const artesianWellPath = path.join(contractsV1Dir, "artesian_well.contract.json");
 const artesianWellInterfacePath = path.join(contractInterfacesV1Dir, "artesian_well.interface.json");
@@ -2541,14 +2541,14 @@ if(fs.existsSync(artesianWellPath)) {
         fs.readFileSync(artesianWellPath, { encoding: 'utf-8' })
     );
     if(!artesianWellData.source) {
-        console.log(`No source found for Artesian Well at ${ artesianWellPath }`)
+        console.log(`No source found for ArtesianWell at ${ artesianWellPath }`)
         return;
     }
     delete artesianWellData.source.wasm;
     fs.writeFileSync(artesianWellInterfacePath, JSON.stringify(artesianWellData, null, 4));
-    console.log(`Extracted metadata for Artesian Well to ${ artesianWellInterfacePath }`)
+    console.log(`Extracted metadata for ArtesianWell to ${ artesianWellInterfacePath }`)
 } else {
-    console.log(`No metadata found for Artesian Well at ${ artesianWellPath }`)
+    console.log(`No metadata found for ArtesianWell at ${ artesianWellPath }`)
 }
 const basinPath = path.join(contractsV1Dir, "basin.contract.json");
 const basinInterfacePath = path.join(contractInterfacesV1Dir, "basin.interface.json");
@@ -2589,14 +2589,14 @@ if(fs.existsSync(dryBasinPath)) {
         fs.readFileSync(dryBasinPath, { encoding: 'utf-8' })
     );
     if(!dryBasinData.source) {
-        console.log(`No source found for Dry Basin at ${ dryBasinPath }`)
+        console.log(`No source found for DryBasin at ${ dryBasinPath }`)
         return;
     }
     delete dryBasinData.source.wasm;
     fs.writeFileSync(dryBasinInterfacePath, JSON.stringify(dryBasinData, null, 4));
-    console.log(`Extracted metadata for Dry Basin to ${ dryBasinInterfacePath }`)
+    console.log(`Extracted metadata for DryBasin to ${ dryBasinInterfacePath }`)
 } else {
-    console.log(`No metadata found for Dry Basin at ${ dryBasinPath }`)
+    console.log(`No metadata found for DryBasin at ${ dryBasinPath }`)
 }
 const depressionPath = path.join(contractsV1Dir, "depression.contract.json");
 const depressionInterfacePath = path.join(contractInterfacesV1Dir, "depression.interface.json");

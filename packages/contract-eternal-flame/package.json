@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-eternal-flame",
-    "description": "PSP-22 compatible game smart contract for element 'Eternal Flame'",
+    "description": "PSP-22 compatible game smart contract for element 'EternalFlame'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

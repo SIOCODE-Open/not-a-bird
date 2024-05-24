@@ -411,7 +411,7 @@ const ELEMENT_JUNGLE: Element = Element {
 };
 const ELEMENT_FROSTED_GLASS: Element = Element {
     id: 59,
-    name: "Frosted Glass",
+    name: "FrostedGlass",
     description: "We need a description here",
     tier: 1,
 };
@@ -561,7 +561,7 @@ const ELEMENT_BASALT: Element = Element {
 };
 const ELEMENT_MAGMA_CHAMBER: Element = Element {
     id: 84,
-    name: "Magma Chamber",
+    name: "MagmaChamber",
     description: "We need a description here",
     tier: 1,
 };
@@ -573,7 +573,7 @@ const ELEMENT_BREEZE: Element = Element {
 };
 const ELEMENT_WARM_BREEZE: Element = Element {
     id: 86,
-    name: "Warm Breeze",
+    name: "WarmBreeze",
     description: "We need a description here",
     tier: 1,
 };
@@ -633,7 +633,7 @@ const ELEMENT_SHARDS: Element = Element {
 };
 const ELEMENT_MOLTEN_GLASS: Element = Element {
     id: 96,
-    name: "Molten Glass",
+    name: "MoltenGlass",
     description: "We need a description here",
     tier: 1,
 };
@@ -669,7 +669,7 @@ const ELEMENT_MIRAGE: Element = Element {
 };
 const ELEMENT_SAND_DUNE: Element = Element {
     id: 102,
-    name: "Sand Dune",
+    name: "SandDune",
     description: "We need a description here",
     tier: 1,
 };
@@ -729,7 +729,7 @@ const ELEMENT_SPREAD: Element = Element {
 };
 const ELEMENT_FERTILE_LAND: Element = Element {
     id: 112,
-    name: "Fertile Land",
+    name: "FertileLand",
     description: "We need a description here",
     tier: 1,
 };
@@ -765,7 +765,7 @@ const ELEMENT_RIVER: Element = Element {
 };
 const ELEMENT_SCORCHED_EARTH: Element = Element {
     id: 118,
-    name: "Scorched Earth",
+    name: "ScorchedEarth",
     description: "We need a description here",
     tier: 1,
 };
@@ -783,7 +783,7 @@ const ELEMENT_ESTUARY: Element = Element {
 };
 const ELEMENT_FIRE_SWAMP: Element = Element {
     id: 121,
-    name: "Fire Swamp",
+    name: "FireSwamp",
     description: "We need a description here",
     tier: 1,
 };
@@ -807,7 +807,7 @@ const ELEMENT_GORGE: Element = Element {
 };
 const ELEMENT_CHARRED_RAVINE: Element = Element {
     id: 125,
-    name: "Charred Ravine",
+    name: "CharredRavine",
     description: "We need a description here",
     tier: 1,
 };
@@ -825,25 +825,25 @@ const ELEMENT_CAVE: Element = Element {
 };
 const ELEMENT_UNDERGROUND_LAKE: Element = Element {
     id: 128,
-    name: "Underground Lake",
+    name: "UndergroundLake",
     description: "We need a description here",
     tier: 1,
 };
 const ELEMENT_LAVA_CAVE: Element = Element {
     id: 129,
-    name: "Lava Cave",
+    name: "LavaCave",
     description: "We need a description here",
     tier: 1,
 };
 const ELEMENT_WHISPERING_CAVE: Element = Element {
     id: 130,
-    name: "Whispering Cave",
+    name: "WhisperingCave",
     description: "We need a description here",
     tier: 1,
 };
 const ELEMENT_SUBTERRANEAN_POOL: Element = Element {
     id: 131,
-    name: "Subterranean Pool",
+    name: "SubterraneanPool",
     description: "We need a description here",
     tier: 1,
 };
@@ -855,7 +855,7 @@ const ELEMENT_SPRING: Element = Element {
 };
 const ELEMENT_HOT_SPRING: Element = Element {
     id: 133,
-    name: "Hot Spring",
+    name: "HotSpring",
     description: "We need a description here",
     tier: 1,
 };
@@ -873,13 +873,13 @@ const ELEMENT_FOUNTAIN: Element = Element {
 };
 const ELEMENT_STEAM_VENT: Element = Element {
     id: 136,
-    name: "Steam Vent",
+    name: "SteamVent",
     description: "We need a description here",
     tier: 1,
 };
 const ELEMENT_COOL_BREEZE: Element = Element {
     id: 137,
-    name: "Cool Breeze",
+    name: "CoolBreeze",
     description: "We need a description here",
     tier: 1,
 };
@@ -897,13 +897,13 @@ const ELEMENT_WATERFALL: Element = Element {
 };
 const ELEMENT_ETERNAL_FLAME: Element = Element {
     id: 140,
-    name: "Eternal Flame",
+    name: "EternalFlame",
     description: "We need a description here",
     tier: 1,
 };
 const ELEMENT_PILLAR_OF_WIND: Element = Element {
     id: 141,
-    name: "Pillar of Wind",
+    name: "PillarOfWind",
     description: "We need a description here",
     tier: 1,
 };
@@ -969,13 +969,13 @@ const ELEMENT_AQUIFER: Element = Element {
 };
 const ELEMENT_PARCHED_EARTH: Element = Element {
     id: 152,
-    name: "Parched Earth",
+    name: "ParchedEarth",
     description: "We need a description here",
     tier: 1,
 };
 const ELEMENT_FRESH_BREEZE: Element = Element {
     id: 153,
-    name: "Fresh Breeze",
+    name: "FreshBreeze",
     description: "We need a description here",
     tier: 1,
 };
@@ -993,13 +993,13 @@ const ELEMENT_RESERVOIR: Element = Element {
 };
 const ELEMENT_GEOTHERMAL_SPRING: Element = Element {
     id: 156,
-    name: "Geothermal Spring",
+    name: "GeothermalSpring",
     description: "We need a description here",
     tier: 1,
 };
 const ELEMENT_ARTESIAN_WELL: Element = Element {
     id: 157,
-    name: "Artesian Well",
+    name: "ArtesianWell",
     description: "We need a description here",
     tier: 1,
 };
@@ -1017,7 +1017,7 @@ const ELEMENT_LAKE: Element = Element {
 };
 const ELEMENT_DRY_BASIN: Element = Element {
     id: 160,
-    name: "Dry Basin",
+    name: "DryBasin",
     description: "We need a description here",
     tier: 1,
 };

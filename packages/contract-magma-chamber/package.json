@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-magma-chamber",
-    "description": "PSP-22 compatible game smart contract for element 'Magma Chamber'",
+    "description": "PSP-22 compatible game smart contract for element 'MagmaChamber'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

@@ -1,4 +1,4 @@
 import { IElementContract } from "./IElementContract";
-/** PSP-22 compatible game smart contract for element 'Hot Spring' */
+/** PSP-22 compatible game smart contract for element 'HotSpring' */
 export interface IHotSpringContract extends IElementContract {
 }

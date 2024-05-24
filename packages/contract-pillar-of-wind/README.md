@@ -1,6 +1,6 @@
-# Pillar of Wind - Contract
+# Pillar Of Wind - Contract
 
-This is a Pillar of Wind contract.
+This is a Pillar Of Wind contract.
 
 ### Quickstart
 

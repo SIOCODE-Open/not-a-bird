@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-molten-glass",
-    "description": "PSP-22 compatible game smart contract for element 'Molten Glass'",
+    "description": "PSP-22 compatible game smart contract for element 'MoltenGlass'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

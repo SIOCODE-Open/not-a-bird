@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-charred-ravine",
-    "description": "PSP-22 compatible game smart contract for element 'Charred Ravine'",
+    "description": "PSP-22 compatible game smart contract for element 'CharredRavine'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

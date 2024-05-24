@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-hot-spring",
-    "description": "PSP-22 compatible game smart contract for element 'Hot Spring'",
+    "description": "PSP-22 compatible game smart contract for element 'HotSpring'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

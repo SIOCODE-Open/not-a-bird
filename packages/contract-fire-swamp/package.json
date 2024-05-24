@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-fire-swamp",
-    "description": "PSP-22 compatible game smart contract for element 'Fire Swamp'",
+    "description": "PSP-22 compatible game smart contract for element 'FireSwamp'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

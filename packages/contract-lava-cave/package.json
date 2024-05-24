@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-lava-cave",
-    "description": "PSP-22 compatible game smart contract for element 'Lava Cave'",
+    "description": "PSP-22 compatible game smart contract for element 'LavaCave'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

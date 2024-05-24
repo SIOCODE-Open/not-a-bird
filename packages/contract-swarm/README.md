@@ -1,6 +1,6 @@
-# SWARM - Contract
+# Swarm - Contract
 
-This is a SWARM contract.
+This is a Swarm contract.
 
 ### Quickstart
 

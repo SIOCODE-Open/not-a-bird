@@ -6,31 +6,31 @@ objects:
   - name: unifiers
     description: A game created with the help of the Unifiers group
     items:
-      - items#Monkey
-      - items#Giraffe
-      - items#Bee
-      - items#Coin
-      - items#SWARM
-      - items#Hydra
-      - items#MonkeyBranch
-      - items#Bridge
-      - items#GoldenGate
-      - items#Gold
-      - items#Silver
-      - items#Rhodium
-      - items#Hive
-      - items#Transaction
-      - items#Block
-      - items#Blockchain
-      - items#Polkadot
-      - items#PeerReview
-      - items#Cardano
-      - items#Bear
-      - items#Beer
-      - items#Lock
-      - items#Marmalade
-      - items#SuperMarmalade
-      - items#HyperMarmalade
+      - indexed-items#Monkey
+      - indexed-items#Giraffe
+      - indexed-items#Bee
+      - indexed-items#Coin
+      - indexed-items#SWARM
+      - indexed-items#Hydra
+      - indexed-items#MonkeyBranch
+      - indexed-items#Bridge
+      - indexed-items#GoldenGate
+      - indexed-items#Gold
+      - indexed-items#Silver
+      - indexed-items#Rhodium
+      - indexed-items#Hive
+      - indexed-items#Transaction
+      - indexed-items#Block
+      - indexed-items#Blockchain
+      - indexed-items#Polkadot
+      - indexed-items#PeerReview
+      - indexed-items#Cardano
+      - indexed-items#Bear
+      - indexed-items#Beer
+      - indexed-items#Lock
+      - indexed-items#Marmalade
+      - indexed-items#SuperMarmalade
+      - indexed-items#HyperMarmalade
     recipes:
       - recipes#make_swarm
       - recipes#make_hydra

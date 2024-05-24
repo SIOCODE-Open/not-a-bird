@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-pillar-of-wind",
-    "description": "PSP-22 compatible game smart contract for element 'Pillar of Wind'",
+    "description": "PSP-22 compatible game smart contract for element 'PillarOfWind'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

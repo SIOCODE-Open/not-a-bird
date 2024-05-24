@@ -1,6 +1,6 @@
-# SuperMarmalade - Contract
+# Super Marmalade - Contract
 
-This is a SuperMarmalade contract.
+This is a Super Marmalade contract.
 
 ### Quickstart
 

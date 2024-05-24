@@ -1,6 +1,6 @@
-# GoldenGate - Contract
+# Golden Gate - Contract
 
-This is a GoldenGate contract.
+This is a Golden Gate contract.
 
 ### Quickstart
 

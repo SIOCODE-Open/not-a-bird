@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-dry-basin",
-    "description": "PSP-22 compatible game smart contract for element 'Dry Basin'",
+    "description": "PSP-22 compatible game smart contract for element 'DryBasin'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},

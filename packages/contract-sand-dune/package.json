@@ -1,6 +1,6 @@
 {
     "name": "@not-a-bird/contract-sand-dune",
-    "description": "PSP-22 compatible game smart contract for element 'Sand Dune'",
+    "description": "PSP-22 compatible game smart contract for element 'SandDune'",
     "version": "0.0.1",
     "private": true,
     "dependencies": {},
