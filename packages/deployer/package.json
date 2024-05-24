@@ -7,7 +7,10 @@
         "copy": "node copy-contracts.js",
         "build": "esbuild --platform=node --bundle --minify --outfile=index.bundle.js src/index.ts",
         "start": "node index.bundle.js",
-        "extract": "node extract-metadata.js"
+        "extract": "node extract-metadata.js",
+        "debug:build": "esbuild --platform=node --bundle --minify --outfile=debug.bundle.js src/debug.ts",
+        "debug:start": "node debug.bundle.js",
+        "debug-deploy": "npm run debug:build && npm run debug:start"
     },
     "dependencies": {
         "@polkadot/api": "*",

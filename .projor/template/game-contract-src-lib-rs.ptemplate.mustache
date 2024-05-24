@@ -63,10 +63,10 @@ pub mod {{snakeCase name}} {
 
     {{#each items}}
     const ELEMENT_{{constantCase name}}: Element = Element {
-        id: {{@index}},
-        name: "{{name}}",
-        description: "{{description}}",
-        tier: {{tier}},
+        id: {index}},
+        name: "{{item.name}}",
+        description: "{{item.description}}",
+        tier: {{item.tier}},
     };
     {{/each}}
     {{#each recipes}}
@@ -80,8 +80,8 @@ pub mod {{snakeCase name}} {
 
     fn find_item(index: u32) -> Option<Element> {
         {{#each items}}
-        if index == {{@index}} {
-            return Some(ELEMENT_{{constantCase name}});
+        if index == {{index}} {
+            return Some(ELEMENT_{{constantCase item.name}});
         }
         {{/each}}
         None

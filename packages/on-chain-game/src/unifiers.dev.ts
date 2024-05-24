@@ -5,6 +5,7 @@ import {
 import {
     createPolkadotJSGame
 } from './create-game';
+import { loadGameChainWallet, createRandomGameChainWallet } from '@not-a-bird/game-chain-wallet';
 
 const UNIFIERS_CHAIN_DEPLOYMENT: IChainDeployment = {
     rpcUrl: "ws://127.0.0.1:9944",
@@ -99,8 +100,11 @@ registerLazyGame(
         chainInfo: 'Deployed to dev',
     },
     async () => {
-        // FIXME
-        const suri = "//Alice";
+        let chainWallet = await loadGameChainWallet();
+        if(!chainWallet) {
+            chainWallet = await createRandomGameChainWallet();
+        }
+        const suri = chainWallet.suri;
         return createPolkadotJSGame(
             UNIFIERS_CHAIN_DEPLOYMENT,
             GAME_UNIFIERS,

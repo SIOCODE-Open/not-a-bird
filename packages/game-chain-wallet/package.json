@@ -1,0 +1,10 @@
+{
+    "name": "@not-a-bird/game-chain-wallet",
+    "version": "0.0.1",
+    "private": true,
+    "main": "src/index.ts",
+    "dependencies": {
+        "@polkadot/api": "*",
+        "@polkadot/api-contract": "*"
+    }
+}

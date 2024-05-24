@@ -57,151 +57,151 @@ pub mod unifiers {
     }
 
     const ELEMENT_MONKEY: Element = Element {
-        id: 0,
+        id: {index}},
         name: "Monkey",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_GIRAFFE: Element = Element {
-        id: 1,
+        id: {index}},
         name: "Giraffe",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_BEE: Element = Element {
-        id: 2,
+        id: {index}},
         name: "Bee",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_COIN: Element = Element {
-        id: 3,
+        id: {index}},
         name: "Coin",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SWARM: Element = Element {
-        id: 4,
+        id: {index}},
         name: "SWARM",
         description: "We need a description here",
         tier: 2,
     };
     const ELEMENT_HYDRA: Element = Element {
-        id: 5,
+        id: {index}},
         name: "Hydra",
         description: "We need a description here",
         tier: 2,
     };
     const ELEMENT_MONKEY_BRANCH: Element = Element {
-        id: 6,
+        id: {index}},
         name: "MonkeyBranch",
         description: "We need a description here",
         tier: 2,
     };
     const ELEMENT_BRIDGE: Element = Element {
-        id: 7,
+        id: {index}},
         name: "Bridge",
         description: "We need a description here",
         tier: 2,
     };
     const ELEMENT_GOLDEN_GATE: Element = Element {
-        id: 8,
+        id: {index}},
         name: "GoldenGate",
         description: "We need a description here",
         tier: 2,
     };
     const ELEMENT_GOLD: Element = Element {
-        id: 9,
+        id: {index}},
         name: "Gold",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SILVER: Element = Element {
-        id: 10,
+        id: {index}},
         name: "Silver",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_RHODIUM: Element = Element {
-        id: 11,
+        id: {index}},
         name: "Rhodium",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_HIVE: Element = Element {
-        id: 12,
+        id: {index}},
         name: "Hive",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_TRANSACTION: Element = Element {
-        id: 13,
+        id: {index}},
         name: "Transaction",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_BLOCK: Element = Element {
-        id: 14,
+        id: {index}},
         name: "Block",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_BLOCKCHAIN: Element = Element {
-        id: 15,
+        id: {index}},
         name: "Blockchain",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_POLKADOT: Element = Element {
-        id: 16,
+        id: {index}},
         name: "Polkadot",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_PEER_REVIEW: Element = Element {
-        id: 17,
+        id: {index}},
         name: "PeerReview",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_CARDANO: Element = Element {
-        id: 18,
+        id: {index}},
         name: "Cardano",
         description: "We need a description here",
         tier: 2,
     };
     const ELEMENT_BEAR: Element = Element {
-        id: 19,
+        id: {index}},
         name: "Bear",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_BEER: Element = Element {
-        id: 20,
+        id: {index}},
         name: "Beer",
         description: "We need a description here",
         tier: 2,
     };
     const ELEMENT_LOCK: Element = Element {
-        id: 21,
+        id: {index}},
         name: "Lock",
         description: "We need a description here",
         tier: 2,
     };
     const ELEMENT_MARMALADE: Element = Element {
-        id: 22,
+        id: {index}},
         name: "Marmalade",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SUPER_MARMALADE: Element = Element {
-        id: 23,
+        id: {index}},
         name: "SuperMarmalade",
         description: "We need a description here",
         tier: 2,
     };
     const ELEMENT_HYPER_MARMALADE: Element = Element {
-        id: 24,
+        id: {index}},
         name: "HyperMarmalade",
         description: "We need a description here",
         tier: 2,

@@ -18,6 +18,8 @@ program.option('-f, --format <format>', 'Output format (json, yaml)', 'json');
 program.option('-e, --env <env>', 'Environment variables to pass to the script', 'dev');
 program.option('-c, --code <code>', 'Code to generate (on-chain-game | json-export)', 'json-export');
 program.option('--dev', 'Use development environment variables', false);
+program.option('--aleph-zero-testnet', 'Use Aleph Zero Testnet environment variables', false);
+program.option('--sionet', 'Use SIONET by SIOCODE environment variables', false);
 program.parse(process.argv);
 
 const progOpts = program.opts();
@@ -29,6 +31,25 @@ if (progOpts.dev) {
     progOpts.output = '../on-chain-game/src';
     progOpts.format = 'json';
     progOpts.env = 'dev';
+    progOpts.code = 'on-chain-game';
+}
+
+if (progOpts.alephZeroTestnet) {
+    console.log('FORCING ALEPH ZERO TESTNET ENV VALUES');
+    progOpts.nodeUrl = 'wss://ws.test.azero.dev';
+    progOpts.output = '../on-chain-game/src';
+    progOpts.format = 'json';
+    progOpts.env = 'aleph-zero-testnet';
+    progOpts.code = 'on-chain-game';
+}
+
+if (progOpts.sionet) {
+    console.log('FORCING SIONET BY SIOCODE ENV VALUES');
+    progOpts.nodeUrl = 'wss://sionet.siocode.hu';
+    progOpts.suri = '//Alice';
+    progOpts.output = '../on-chain-game/src';
+    progOpts.format = 'json';
+    progOpts.env = 'sionet';
     progOpts.code = 'on-chain-game';
 }
 
@@ -54,6 +75,7 @@ import {
 import {
     createPolkadotJSGame
 } from './create-game';
+import { loadGameChainWallet, createRandomGameChainWallet } from '@not-a-bird/game-chain-wallet';
 
 ${chainDeploymentCode}
 
@@ -65,8 +87,11 @@ registerLazyGame(
         chainInfo: 'Deployed to ${ctx.env}',
     },
     async () => {
-        // FIXME
-        const suri = "//Alice";
+        let chainWallet = await loadGameChainWallet();
+        if(!chainWallet) {
+            chainWallet = await createRandomGameChainWallet();
+        }
+        const suri = chainWallet.suri;
         return createPolkadotJSGame(
             ${game.otherNames.constantCase}_CHAIN_DEPLOYMENT,
             GAME_${game.otherNames.constantCase},
@@ -108,6 +133,30 @@ const createKeyringTask = {
     }
 };
 
+async function signAndSendTx(
+    tx: any,
+    user: any,
+) {
+    return await new Promise(
+        async (resolve, reject) => {
+            try {
+                await tx.signAndSend(
+                    user,
+                    (result: any) => {
+                        if (result.status.isInBlock) {
+                            resolve(result);
+                        } else if (result.status.isError) {
+                            reject(result);
+                        }
+                    }
+                )
+            } catch (e) {
+                reject(e);
+            }
+        }
+    );
+}
+
 const deployContractTask = (
     opts: {
         contractName: string;
@@ -119,7 +168,8 @@ const deployContractTask = (
         title: `Deploy ${opts.contractName}`,
         task: async (ctx: any, task: any) => {
             const gasLimit = ctx.api.registry.createType("WeightV2", {
-                refTime: new BN("2000000000"),
+                refTime: new BN("20000000000"),
+                //               1820669018
                 proofSize: new BN("200000"),
             });
             const storageDepositLimit = null;
@@ -132,21 +182,34 @@ const deployContractTask = (
             const newCodeTx = codeObject.tx.new(
                 { gasLimit, storageDepositLimit },
             );
-            const contractAddress = await new Promise<string>(async (resolve, reject) => {
-                const unsub = await newCodeTx.signAndSend(
-                    user as any,
-                    ({ contract, status }: any) => {
-                        if (status.isInBlock) {
-                            unsub();
-                            resolve(contract?.address!.toString());
-                        } else if (status.isFinalized) {
-                        } else if (status.isDropped || status.isInvalid || status.isUsurped) {
-                            unsub();
-                            reject();
-                        }
-                    }
-                );
-            });
+            let contractAddress: string | null = null;
+            let deployRetries = 0;
+            while (contractAddress === null) {
+                try {
+                    contractAddress = await new Promise<string>(async (resolve, reject) => {
+                        const unsub = await newCodeTx.signAndSend(
+                            user as any,
+                            ({ contract, status }: any) => {
+                                if (status.isInBlock) {
+                                    unsub();
+                                    resolve(contract?.address!.toString());
+                                } else if (status.isFinalized) {
+                                } else if (status.isDropped || status.isInvalid || status.isUsurped) {
+                                    unsub();
+                                    reject();
+                                }
+                            }
+                        );
+                    });
+                } catch (e) {
+                    contractAddress = null;
+                    deployRetries++;
+                }
+
+                if (deployRetries > 50) {
+                    throw new Error(`Failed to deploy contract ${opts.contractName}`);
+                }
+            }
             const contractApi = new ContractPromise(
                 ctx.api,
                 opts.contractData,
@@ -169,14 +232,19 @@ const claimOwnershipTask = (opts: {
             const contractAddress = ctx[opts.contractName];
             const contractApi = ctx[`${opts.contractName}_api`];
             const gasLimit = ctx.api.registry.createType("WeightV2", {
-                refTime: new BN("2000000000"),
+                refTime: new BN("20000000000"),
+                //               1981949786
                 proofSize: new BN("200000"),
+                //                 60507
             });
             const storageDepositLimit = null;
             const user = ctx.keyring.pairs.find(pair => pair.meta.name === "user");
-            await contractApi.tx.claimOwnership(
-                { gasLimit, storageDepositLimit },
-            ).signAndSend(user as any);
+            await signAndSendTx(
+                contractApi.tx.claimOwnership(
+                    { gasLimit, storageDepositLimit },
+                ),
+                user as any
+            );
             opts.completed?.();
         }
     }
@@ -196,16 +264,19 @@ const lockElementContractTask = (opts: {
             const gameContractApi = ctx[`${opts.gameContractName}_api`];
             const elementContractApi = ctx[`${opts.elementContractName}_api`];
             const gasLimit = ctx.api.registry.createType("WeightV2", {
-                refTime: new BN("2000000000"),
+                refTime: new BN("20000000000"),
                 proofSize: new BN("200000"),
             });
             const storageDepositLimit = null;
             const user = ctx.keyring.pairs.find(pair => pair.meta.name === "user");
-            await gameContractApi.tx.lockElementContract(
-                { gasLimit, storageDepositLimit },
-                opts.elementIndex,
-                elementContractAddress
-            ).signAndSend(user as any);
+            await signAndSendTx(
+                gameContractApi.tx.lockElementContract(
+                    { gasLimit, storageDepositLimit },
+                    opts.elementIndex,
+                    elementContractAddress
+                ),
+                user as any
+            );
             opts.completed?.();
         }
     }

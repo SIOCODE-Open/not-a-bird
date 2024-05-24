@@ -20,7 +20,7 @@ class ElementContractImpl implements IElementContract {
         const contractApi = await this._chain.getContract({ name: "element_" + this._element.id });
         const api = await this._chain.getApi();
         const gasLimit = api.registry.createType("WeightV2", {
-            refTime: new BN("2000000000"),
+            refTime: new BN("20000000000"),
             proofSize: new BN("200000"),
         });
         const { output } = (await contractApi.query.allowance(
@@ -41,7 +41,7 @@ class ElementContractImpl implements IElementContract {
         const contractApi = await this._chain.getContract({ name: "element_" + this._element.id });
         const api = await this._chain.getApi();
         const gasLimit = api.registry.createType("WeightV2", {
-            refTime: new BN("2000000000"),
+            refTime: new BN("20000000000"),
             proofSize: new BN("200000"),
         });
         const callResult = await this._chain.signAndSend(
@@ -58,7 +58,7 @@ class ElementContractImpl implements IElementContract {
         const contractApi = await this._chain.getContract({ name: "element_" + this._element.id });
         const api = await this._chain.getApi();
         const gasLimit = api.registry.createType("WeightV2", {
-            refTime: new BN("2000000000"),
+            refTime: new BN("20000000000"),
             proofSize: new BN("200000"),
         });
         const { output } = (await contractApi.query.balanceOf(
@@ -79,7 +79,7 @@ class ElementContractImpl implements IElementContract {
         const contractApi = await this._chain.getContract({ name: "element_" + this._element.id });
         const api = await this._chain.getApi();
         const gasLimit = api.registry.createType("WeightV2", {
-            refTime: new BN("2000000000"),
+            refTime: new BN("20000000000"),
             proofSize: new BN("200000"),
         });
         await this._chain.signAndSend(
@@ -105,7 +105,7 @@ class ElementContractImpl implements IElementContract {
         const contractApi = await this._chain.getContract({ name: "element_" + this._element.id });
         const api = await this._chain.getApi();
         const gasLimit = api.registry.createType("WeightV2", {
-            refTime: new BN("2000000000"),
+            refTime: new BN("20000000000"),
             proofSize: new BN("200000"),
         });
         const { output } = (await contractApi.query.totalSupply(
@@ -132,7 +132,7 @@ class ElementContractImpl implements IElementContract {
         const contractApi = await this._chain.getContract({ name: "element_" + this._element.id });
         const api = await this._chain.getApi();
         const gasLimit = api.registry.createType("WeightV2", {
-            refTime: new BN("2000000000"),
+            refTime: new BN("20000000000"),
             proofSize: new BN("200000"),
         });
         const { output } = (await contractApi.query.tokenDecimals(
@@ -151,7 +151,7 @@ class ElementContractImpl implements IElementContract {
         const contractApi = await this._chain.getContract({ name: "element_" + this._element.id });
         const api = await this._chain.getApi();
         const gasLimit = api.registry.createType("WeightV2", {
-            refTime: new BN("2000000000"),
+            refTime: new BN("20000000000"),
             proofSize: new BN("200000"),
         });
         const { output } = (await contractApi.query.tokenName(
@@ -170,7 +170,7 @@ class ElementContractImpl implements IElementContract {
         const contractApi = await this._chain.getContract({ name: "element_" + this._element.id });
         const api = await this._chain.getApi();
         const gasLimit = api.registry.createType("WeightV2", {
-            refTime: new BN("2000000000"),
+            refTime: new BN("20000000000"),
             proofSize: new BN("200000"),
         });
         const { output } = (await contractApi.query.tokenSymbol(

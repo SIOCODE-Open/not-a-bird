@@ -29,7 +29,7 @@ export const DEPLOYABLE_ELEMENTS: Array<IDeployableElement> = [
 {{#each games}}
 const {{constantCase name}}_ELEMENT_CONTRACTS: Record<number, any> = {
     {{#each items}}
-    [{{@index}}]: ELEMENT_{{constantCase name}}_CONTRACT,
+    [{{index}}]: ELEMENT_{{constantCase name}}_CONTRACT,
     {{/each}}
 };
 

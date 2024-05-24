@@ -78,7 +78,7 @@ class GameContractImpl implements IGameContract {
         const contractApi = await this._chain.getContract({ name: "game" });
         const api = await this._chain.getApi();
         const gasLimit = api.registry.createType("WeightV2", {
-            refTime: new BN("2000000000"),
+            refTime: new BN("20000000000"),
             proofSize: new BN("200000"),
         });
         const { result, output } = (await contractApi.query.buyOffer(
@@ -101,7 +101,7 @@ class GameContractImpl implements IGameContract {
         const contractApi = await this._chain.getContract({ name: "game" });
         const api = await this._chain.getApi();
         const gasLimit = api.registry.createType("WeightV2", {
-            refTime: new BN("2000000000"),
+            refTime: new BN("20000000000"),
             proofSize: new BN("200000"),
         });
         await this._chain.signAndSend(
@@ -115,7 +115,7 @@ class GameContractImpl implements IGameContract {
         const contractApi = await this._chain.getContract({ name: "game" });
         const api = await this._chain.getApi();
         const gasLimit = api.registry.createType("WeightV2", {
-            refTime: new BN("2000000000"),
+            refTime: new BN("20000000000"),
             proofSize: new BN("200000"),
         });
         await this._chain.signAndSend(
@@ -131,7 +131,7 @@ class GameContractImpl implements IGameContract {
         const contractApi = await this._chain.getContract({ name: "game" });
         const api = await this._chain.getApi();
         const gasLimit = api.registry.createType("WeightV2", {
-            refTime: new BN("2000000000"),
+            refTime: new BN("20000000000"),
             proofSize: new BN("200000"),
         });
         await this._chain.signAndSend(

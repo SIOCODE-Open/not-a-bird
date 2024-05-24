@@ -10,6 +10,7 @@ import { BulmaButton } from "../../components/BulmaButton";
 import { $modals } from "../../service/Modals";
 import { EmojioneMonotoneFire } from "../../components/EmojioneMonotoneFire.tsx";
 import { ILoadableGame } from "@not-a-bird/on-chain-game";
+import { loadGameChainWallet } from "@not-a-bird/game-chain-wallet";
 import { IModalContext } from "../../modals/IModalContext";
 import { $gameService } from "../../service/GameService";
 
@@ -23,7 +24,6 @@ async function showGameChangeDialog(
   const selectedGame = await new Promise<ILoadableGame>((resolve, reject) => {
     $modals.openModal({
       title: "Select game",
-      message: "Select the game you want to play",
       content: (ctx: IModalContext) => {
         const gameButtons = selectableGames.map((game) => (<>
           <BulmaButton color="ghost" onClick={() => { ctx.closeModal(); resolve(game) }}>
@@ -32,6 +32,9 @@ async function showGameChangeDialog(
         </>
         ));
         return (<>
+          <p>
+            Select the game you want to play
+          </p>
           {gameButtons}
         </>);
       },
@@ -47,6 +50,44 @@ async function showGameChangeDialog(
     });
   });
   return selectedGame;
+}
+
+async function showBalanceDialog(
+  wallet: IGameWallet
+) {
+  const chainWallet = await loadGameChainWallet();
+  await new Promise<void>((resolve, reject) => {
+    $modals.openModal({
+      title: "Wallet",
+      message: "",
+      content: (ctx: IModalContext) => {
+        return <>
+          <p>
+            <b>Address: </b><span>{wallet.address}</span>
+          </p>
+          <p>
+            <b>SURI: </b><span>{chainWallet?.suri || 'UNKNOWN'}</span>
+          </p>
+          <p>
+            <b>Balance: </b><span>
+              {(
+                parseInt(wallet.balance.toString()) / Math.pow(10, wallet.token.decimals)
+              ).toFixed(4)}
+            </span>
+          </p>
+        </>
+      },
+      actions: [
+        {
+          label: "Close",
+          onAction: ({ closeModal }) => {
+            closeModal();
+            resolve();
+          },
+        },
+      ],
+    })
+  });
 }
 
 export function GameHeader(props: {
@@ -98,7 +139,11 @@ export function GameHeader(props: {
       </div>
       <div className="level-item has-text-centered">
         <div>
-          <div className="heading">Balance</div>
+          <div className="heading">
+            <BulmaButton color="ghost" onClick={() => showBalanceDialog(props.wallet)}>
+              Wallet
+            </BulmaButton>
+          </div>
           <div className="title">
             <span className="has-text-primary">
               {(
