@@ -43,3 +43,1003 @@ objects:
     b: indexed-items#SuperMarmalade
     c: indexed-items#HyperMarmalade
     name: make_hypermarmalade
+  - name: MakeSteam
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Fire
+    c: indexed-items#Steam
+  - name: MakeMud
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Earth
+    c: indexed-items#Mud
+  - name: MakeLava
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Earth
+    c: indexed-items#Lava
+  - name: MakeDust
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Earth
+    c: indexed-items#Dust
+  - name: MakeRain
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Wind
+    c: indexed-items#Rain
+  - name: MakeSmoke
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Wind
+    c: indexed-items#Smoke
+  - name: MakeGeyser
+    description: We need a description here
+    a: indexed-items#Steam
+    b: indexed-items#Earth
+    c: indexed-items#Geyser
+  - name: MakeClay
+    description: We need a description here
+    a: indexed-items#Mud
+    b: indexed-items#Fire
+    c: indexed-items#Clay
+  - name: MakeSand
+    description: We need a description here
+    a: indexed-items#Mud
+    b: indexed-items#Wind
+    c: indexed-items#Sand
+  - name: MakePlant
+    description: We need a description here
+    a: indexed-items#Rain
+    b: indexed-items#Earth
+    c: indexed-items#Plant
+  - name: MakeRainbow
+    description: We need a description here
+    a: indexed-items#Rain
+    b: indexed-items#Fire
+    c: indexed-items#Rainbow
+  - name: MakeStorm
+    description: We need a description here
+    a: indexed-items#Rain
+    b: indexed-items#Wind
+    c: indexed-items#Storm
+  - name: MakeObsidian
+    description: We need a description here
+    a: indexed-items#Lava
+    b: indexed-items#Water
+    c: indexed-items#Obsidian
+  - name: MakeAsh
+    description: We need a description here
+    a: indexed-items#Lava
+    b: indexed-items#Wind
+    c: indexed-items#Ash
+  - name: MakeVolcano
+    description: We need a description here
+    a: indexed-items#Lava
+    b: indexed-items#Earth
+    c: indexed-items#Volcano
+  - name: MakeMud
+    description: We need a description here
+    a: indexed-items#Dust
+    b: indexed-items#Water
+    c: indexed-items#Mud
+  - name: MakeAsh
+    description: We need a description here
+    a: indexed-items#Dust
+    b: indexed-items#Fire
+    c: indexed-items#Ash
+  - name: MakeSandstorm
+    description: We need a description here
+    a: indexed-items#Dust
+    b: indexed-items#Wind
+    c: indexed-items#Sandstorm
+  - name: MakeCloud
+    description: We need a description here
+    a: indexed-items#Smoke
+    b: indexed-items#Water
+    c: indexed-items#Cloud
+  - name: MakeAsh
+    description: We need a description here
+    a: indexed-items#Smoke
+    b: indexed-items#Earth
+    c: indexed-items#Ash
+  - name: MakeFog
+    description: We need a description here
+    a: indexed-items#Smoke
+    b: indexed-items#Wind
+    c: indexed-items#Fog
+  - name: MakeTree
+    description: We need a description here
+    a: indexed-items#Plant
+    b: indexed-items#Water
+    c: indexed-items#Tree
+  - name: MakeAsh
+    description: We need a description here
+    a: indexed-items#Plant
+    b: indexed-items#Fire
+    c: indexed-items#Ash
+  - name: MakeForest
+    description: We need a description here
+    a: indexed-items#Plant
+    b: indexed-items#Earth
+    c: indexed-items#Forest
+  - name: MakeSeeds
+    description: We need a description here
+    a: indexed-items#Plant
+    b: indexed-items#Wind
+    c: indexed-items#Seeds
+  - name: MakePottery
+    description: We need a description here
+    a: indexed-items#Clay
+    b: indexed-items#Fire
+    c: indexed-items#Pottery
+  - name: MakeSand
+    description: We need a description here
+    a: indexed-items#Clay
+    b: indexed-items#Wind
+    c: indexed-items#Sand
+  - name: MakeBrick
+    description: We need a description here
+    a: indexed-items#Clay
+    b: indexed-items#Earth
+    c: indexed-items#Brick
+  - name: MakeQuicksand
+    description: We need a description here
+    a: indexed-items#Sand
+    b: indexed-items#Water
+    c: indexed-items#Quicksand
+  - name: MakeGlass
+    description: We need a description here
+    a: indexed-items#Sand
+    b: indexed-items#Fire
+    c: indexed-items#Glass
+  - name: MakeDune
+    description: We need a description here
+    a: indexed-items#Sand
+    b: indexed-items#Wind
+    c: indexed-items#Dune
+  - name: MakeForest
+    description: We need a description here
+    a: indexed-items#Tree
+    b: indexed-items#Water
+    c: indexed-items#Forest
+  - name: MakeCharcoal
+    description: We need a description here
+    a: indexed-items#Tree
+    b: indexed-items#Fire
+    c: indexed-items#Charcoal
+  - name: MakeForest
+    description: We need a description here
+    a: indexed-items#Tree
+    b: indexed-items#Earth
+    c: indexed-items#Forest
+  - name: MakeLeaves
+    description: We need a description here
+    a: indexed-items#Tree
+    b: indexed-items#Wind
+    c: indexed-items#Leaves
+  - name: MakeWildfire
+    description: We need a description here
+    a: indexed-items#Forest
+    b: indexed-items#Fire
+    c: indexed-items#Wildfire
+  - name: MakeLeaves
+    description: We need a description here
+    a: indexed-items#Forest
+    b: indexed-items#Wind
+    c: indexed-items#Leaves
+  - name: MakeJungle
+    description: We need a description here
+    a: indexed-items#Forest
+    b: indexed-items#Earth
+    c: indexed-items#Jungle
+  - name: MakeFrostedGlass
+    description: We need a description here
+    a: indexed-items#Glass
+    b: indexed-items#Water
+    c: indexed-items#FrostedGlass
+  - name: MakeCrystal
+    description: We need a description here
+    a: indexed-items#Glass
+    b: indexed-items#Earth
+    c: indexed-items#Crystal
+  - name: MakeSandstorm
+    description: We need a description here
+    a: indexed-items#Glass
+    b: indexed-items#Wind
+    c: indexed-items#Sandstorm
+  - name: MakeMagma
+    description: We need a description here
+    a: indexed-items#Obsidian
+    b: indexed-items#Fire
+    c: indexed-items#Magma
+  - name: MakeRock
+    description: We need a description here
+    a: indexed-items#Obsidian
+    b: indexed-items#Earth
+    c: indexed-items#Rock
+  - name: MakeShard
+    description: We need a description here
+    a: indexed-items#Obsidian
+    b: indexed-items#Wind
+    c: indexed-items#Shard
+  - name: MakePebble
+    description: We need a description here
+    a: indexed-items#Rock
+    b: indexed-items#Water
+    c: indexed-items#Pebble
+  - name: MakeLava
+    description: We need a description here
+    a: indexed-items#Rock
+    b: indexed-items#Fire
+    c: indexed-items#Lava
+  - name: MakeMountain
+    description: We need a description here
+    a: indexed-items#Rock
+    b: indexed-items#Earth
+    c: indexed-items#Mountain
+  - name: MakeSand
+    description: We need a description here
+    a: indexed-items#Rock
+    b: indexed-items#Wind
+    c: indexed-items#Sand
+  - name: MakeMud
+    description: We need a description here
+    a: indexed-items#Ash
+    b: indexed-items#Water
+    c: indexed-items#Mud
+  - name: MakeFertilizer
+    description: We need a description here
+    a: indexed-items#Ash
+    b: indexed-items#Earth
+    c: indexed-items#Fertilizer
+  - name: MakeSoot
+    description: We need a description here
+    a: indexed-items#Ash
+    b: indexed-items#Wind
+    c: indexed-items#Soot
+  - name: MakeLightning
+    description: We need a description here
+    a: indexed-items#Cloud
+    b: indexed-items#Fire
+    c: indexed-items#Lightning
+  - name: MakeFog
+    description: We need a description here
+    a: indexed-items#Cloud
+    b: indexed-items#Earth
+    c: indexed-items#Fog
+  - name: MakeStorm
+    description: We need a description here
+    a: indexed-items#Cloud
+    b: indexed-items#Wind
+    c: indexed-items#Storm
+  - name: MakeCloud
+    description: We need a description here
+    a: indexed-items#Fog
+    b: indexed-items#Water
+    c: indexed-items#Cloud
+  - name: MakeSteam
+    description: We need a description here
+    a: indexed-items#Fog
+    b: indexed-items#Fire
+    c: indexed-items#Steam
+  - name: MakeMist
+    description: We need a description here
+    a: indexed-items#Fog
+    b: indexed-items#Earth
+    c: indexed-items#Mist
+  - name: MakeHaze
+    description: We need a description here
+    a: indexed-items#Fog
+    b: indexed-items#Wind
+    c: indexed-items#Haze
+  - name: MakeFlood
+    description: We need a description here
+    a: indexed-items#Storm
+    b: indexed-items#Water
+    c: indexed-items#Flood
+  - name: MakeLandslide
+    description: We need a description here
+    a: indexed-items#Storm
+    b: indexed-items#Earth
+    c: indexed-items#Landslide
+  - name: MakeThunder
+    description: We need a description here
+    a: indexed-items#Storm
+    b: indexed-items#Fire
+    c: indexed-items#Thunder
+  - name: MakeTornado
+    description: We need a description here
+    a: indexed-items#Storm
+    b: indexed-items#Wind
+    c: indexed-items#Tornado
+  - name: MakeAsh
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Dust
+    c: indexed-items#Ash
+  - name: MakeRain
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Cloud
+    c: indexed-items#Rain
+  - name: MakeCloud
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Fog
+    c: indexed-items#Cloud
+  - name: MakeGarden
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Plant
+    c: indexed-items#Garden
+  - name: MakeForest
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Tree
+    c: indexed-items#Forest
+  - name: MakeEmber
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Ash
+    c: indexed-items#Ember
+  - name: MakeKiln
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Pottery
+    c: indexed-items#Kiln
+  - name: MakePollination
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Plant
+    c: indexed-items#Pollination
+  - name: MakeHaze
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Smoke
+    c: indexed-items#Haze
+  - name: MakeSinkhole
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Quicksand
+    c: indexed-items#Sinkhole
+  - name: MakeBeach
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Sand
+    c: indexed-items#Beach
+  - name: MakeWetstone
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Obsidian
+    c: indexed-items#Wetstone
+  - name: MakeMagma
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Rock
+    c: indexed-items#Magma
+  - name: MakeErosion
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Rock
+    c: indexed-items#Erosion
+  - name: MakeBasalt
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Lava
+    c: indexed-items#Basalt
+  - name: MakeObsidian
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Magma
+    c: indexed-items#Obsidian
+  - name: MakeMagmaChamber
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Lava
+    c: indexed-items#MagmaChamber
+  - name: MakeBreeze
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Dust
+    c: indexed-items#Breeze
+  - name: MakeWarmBreeze
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Breeze
+    c: indexed-items#WarmBreeze
+  - name: MakeSoil
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Plant
+    c: indexed-items#Soil
+  - name: MakeMud
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Soil
+    c: indexed-items#Mud
+  - name: MakeCanyon
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Erosion
+    c: indexed-items#Canyon
+  - name: MakeCharcoal
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Plant
+    c: indexed-items#Charcoal
+  - name: MakeWindmill
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Plant
+    c: indexed-items#Windmill
+  - name: MakeAdobe
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Clay
+    c: indexed-items#Adobe
+  - name: MakeGlass
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Quicksand
+    c: indexed-items#Glass
+  - name: MakeWall
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Brick
+    c: indexed-items#Wall
+  - name: MakeSandstorm
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Erosion
+    c: indexed-items#Sandstorm
+  - name: MakePumice
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Ash
+    c: indexed-items#Pumice
+  - name: MakeBarbecue
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Charcoal
+    c: indexed-items#Barbecue
+  - name: MakeFarm
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Seeds
+    c: indexed-items#Farm
+  - name: MakeSteam
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Kiln
+    c: indexed-items#Steam
+  - name: MakeShards
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Obsidian
+    c: indexed-items#Shards
+  - name: MakeCrystal
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Obsidian
+    c: indexed-items#Crystal
+  - name: MakeMoltenGlass
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Crystal
+    c: indexed-items#MoltenGlass
+  - name: MakePrism
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Crystal
+    c: indexed-items#Prism
+  - name: MakeSparkle
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Crystal
+    c: indexed-items#Sparkle
+  - name: MakeDesert
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Beach
+    c: indexed-items#Desert
+  - name: MakeOasis
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Desert
+    c: indexed-items#Oasis
+  - name: MakeMirage
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Desert
+    c: indexed-items#Mirage
+  - name: MakeSandDune
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Desert
+    c: indexed-items#SandDune
+  - name: MakeDam
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Wall
+    c: indexed-items#Dam
+  - name: MakeFirewall
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Wall
+    c: indexed-items#Firewall
+  - name: MakeBarricade
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Wall
+    c: indexed-items#Barricade
+  - name: MakePlateau
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Canyon
+    c: indexed-items#Plateau
+  - name: MakePond
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Garden
+    c: indexed-items#Pond
+  - name: MakeWildfire
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Garden
+    c: indexed-items#Wildfire
+  - name: MakeAromas
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Garden
+    c: indexed-items#Aromas
+  - name: MakeOasis
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Pond
+    c: indexed-items#Oasis
+  - name: MakeFlower
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Pollination
+    c: indexed-items#Flower
+  - name: MakeSpore
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Pollination
+    c: indexed-items#Spore
+  - name: MakeSpread
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Pollination
+    c: indexed-items#Spread
+  - name: MakeFertileLand
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Soil
+    c: indexed-items#FertileLand
+  - name: MakeWetland
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#FertileLand
+    c: indexed-items#Wetland
+  - name: MakePeat
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Wetland
+    c: indexed-items#Peat
+  - name: MakeReeds
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Wetland
+    c: indexed-items#Reeds
+  - name: MakeValley
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Canyon
+    c: indexed-items#Valley
+  - name: MakeRiver
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Valley
+    c: indexed-items#River
+  - name: MakeScorchedEarth
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Valley
+    c: indexed-items#ScorchedEarth
+  - name: MakeBreeze
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Valley
+    c: indexed-items#Breeze
+  - name: MakeDelta
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#River
+    c: indexed-items#Delta
+  - name: MakeEstuary
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Delta
+    c: indexed-items#Estuary
+  - name: MakeFireSwamp
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Delta
+    c: indexed-items#FireSwamp
+  - name: MakeRiverbank
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Delta
+    c: indexed-items#Riverbank
+  - name: MakeRavine
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Erosion
+    c: indexed-items#Ravine
+  - name: MakeGorge
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Ravine
+    c: indexed-items#Gorge
+  - name: MakeCharredRavine
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Ravine
+    c: indexed-items#CharredRavine
+  - name: MakeEcho
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Ravine
+    c: indexed-items#Echo
+  - name: MakeCave
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Echo
+    c: indexed-items#Cave
+  - name: MakeUndergroundLake
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Cave
+    c: indexed-items#UndergroundLake
+  - name: MakeLavaCave
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Cave
+    c: indexed-items#LavaCave
+  - name: MakeWhisperingCave
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Cave
+    c: indexed-items#WhisperingCave
+  - name: MakeSubterraneanPool
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#UndergroundLake
+    c: indexed-items#SubterraneanPool
+  - name: MakeSpring
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#SubterraneanPool
+    c: indexed-items#Spring
+  - name: MakeHotSpring
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#SubterraneanPool
+    c: indexed-items#HotSpring
+  - name: MakeGrotto
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#SubterraneanPool
+    c: indexed-items#Grotto
+  - name: MakeOasis
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Spring
+    c: indexed-items#Oasis
+  - name: MakeFountain
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Spring
+    c: indexed-items#Fountain
+  - name: MakeSteamVent
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Spring
+    c: indexed-items#SteamVent
+  - name: MakeCoolBreeze
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Spring
+    c: indexed-items#CoolBreeze
+  - name: MakeMonument
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Fountain
+    c: indexed-items#Monument
+  - name: MakeWaterfall
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Monument
+    c: indexed-items#Waterfall
+  - name: MakeEternalFlame
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Monument
+    c: indexed-items#EternalFlame
+  - name: MakePillarOfWind
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Monument
+    c: indexed-items#PillarOfWind
+  - name: MakeRiver
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Waterfall
+    c: indexed-items#River
+  - name: MakeStream
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#River
+    c: indexed-items#Stream
+  - name: MakeSteam
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#River
+    c: indexed-items#Steam
+  - name: MakeZephyr
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#River
+    c: indexed-items#Zephyr
+  - name: MakeCreek
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Stream
+    c: indexed-items#Creek
+  - name: MakeBrook
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Creek
+    c: indexed-items#Brook
+  - name: MakeSteam
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Creek
+    c: indexed-items#Steam
+  - name: MakeWhisper
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Creek
+    c: indexed-items#Whisper
+  - name: MakeRivulet
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Brook
+    c: indexed-items#Rivulet
+  - name: MakeTributary
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Rivulet
+    c: indexed-items#Tributary
+  - name: MakeSteam
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Rivulet
+    c: indexed-items#Steam
+  - name: MakeMurmur
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Rivulet
+    c: indexed-items#Murmur
+  - name: MakeWatershed
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Tributary
+    c: indexed-items#Watershed
+  - name: MakeAquifer
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Watershed
+    c: indexed-items#Aquifer
+  - name: MakeParchedEarth
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Watershed
+    c: indexed-items#ParchedEarth
+  - name: MakeFreshBreeze
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Watershed
+    c: indexed-items#FreshBreeze
+  - name: MakeGroundwater
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Aquifer
+    c: indexed-items#Groundwater
+  - name: MakeReservoir
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Groundwater
+    c: indexed-items#Reservoir
+  - name: MakeGeothermalSpring
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Groundwater
+    c: indexed-items#GeothermalSpring
+  - name: MakeArtesianWell
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Groundwater
+    c: indexed-items#ArtesianWell
+  - name: MakeBasin
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Reservoir
+    c: indexed-items#Basin
+  - name: MakeLake
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Basin
+    c: indexed-items#Lake
+  - name: MakeDryBasin
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Basin
+    c: indexed-items#DryBasin
+  - name: MakeDepression
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Basin
+    c: indexed-items#Depression
+  - name: MakeIsland
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Lake
+    c: indexed-items#Island
+  - name: MakeLagoon
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Lake
+    c: indexed-items#Lagoon
+  - name: MakeSteam
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Lake
+    c: indexed-items#Steam
+  - name: MakeWave
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Lake
+    c: indexed-items#Wave
+  - name: MakeReef
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Lagoon
+    c: indexed-items#Reef
+  - name: MakeCoral
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Reef
+    c: indexed-items#Coral
+  - name: MakeAsh
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Reef
+    c: indexed-items#Ash
+  - name: MakeWhirl
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Reef
+    c: indexed-items#Whirl
+  - name: MakeLimestone
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Coral
+    c: indexed-items#Limestone
+  - name: MakeKarst
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Limestone
+    c: indexed-items#Karst
+  - name: MakeQuicklime
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Limestone
+    c: indexed-items#Quicklime
+  - name: MakeDust
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Limestone
+    c: indexed-items#Dust
+  - name: MakeCave
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Karst
+    c: indexed-items#Cave
+  - name: MakeGeyser
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Karst
+    c: indexed-items#Geyser
+  - name: MakeMagmaChamber
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Karst
+    c: indexed-items#MagmaChamber
+  - name: MakeBlowhole
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Karst
+    c: indexed-items#Blowhole
+  - name: MakeHotSpring
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Geyser
+    c: indexed-items#HotSpring
+  - name: MakeFountain
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Geyser
+    c: indexed-items#Fountain
+  - name: MakeSteamVent
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Geyser
+    c: indexed-items#SteamVent
+  - name: MakeMist
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Geyser
+    c: indexed-items#Mist
+  - name: MakeOasis
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Spring
+    c: indexed-items#Oasis
+  - name: MakeFountain
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Spring
+    c: indexed-items#Fountain
+  - name: MakeSteamVent
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Spring
+    c: indexed-items#SteamVent
+  - name: MakeCoolBreeze
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Spring
+    c: indexed-items#CoolBreeze
+  - name: MakeMonument
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Fountain
+    c: indexed-items#Monument
+  - name: MakeWaterfall
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#Monument
+    c: indexed-items#Waterfall
+  - name: MakeEternalFlame
+    description: We need a description here
+    a: indexed-items#Fire
+    b: indexed-items#Monument
+    c: indexed-items#EternalFlame
+  - name: MakePillarOfWind
+    description: We need a description here
+    a: indexed-items#Wind
+    b: indexed-items#Monument
+    c: indexed-items#PillarOfWind
+  - name: MakeRiver
+    description: We need a description here
+    a: indexed-items#Earth
+    b: indexed-items#Waterfall
+    c: indexed-items#River
+  - name: MakeStream
+    description: We need a description here
+    a: indexed-items#Water
+    b: indexed-items#River
+    c: indexed-items#Stream

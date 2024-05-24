@@ -1147,6 +1147,1206 @@ const RECIPE_MAKE_HYPERMARMALADE: Recipe = Recipe {
     b: 23,
     c: 24,
 };
+const RECIPE_MAKE_STEAM: Recipe = Recipe {
+    id: 10,
+    a: 25,
+    b: 26,
+    c: 27,
+};
+const RECIPE_MAKE_MUD: Recipe = Recipe {
+    id: 11,
+    a: 25,
+    b: 28,
+    c: 29,
+};
+const RECIPE_MAKE_LAVA: Recipe = Recipe {
+    id: 12,
+    a: 26,
+    b: 28,
+    c: 30,
+};
+const RECIPE_MAKE_DUST: Recipe = Recipe {
+    id: 13,
+    a: 31,
+    b: 28,
+    c: 32,
+};
+const RECIPE_MAKE_RAIN: Recipe = Recipe {
+    id: 14,
+    a: 25,
+    b: 31,
+    c: 33,
+};
+const RECIPE_MAKE_SMOKE: Recipe = Recipe {
+    id: 15,
+    a: 26,
+    b: 31,
+    c: 34,
+};
+const RECIPE_MAKE_GEYSER: Recipe = Recipe {
+    id: 16,
+    a: 27,
+    b: 28,
+    c: 35,
+};
+const RECIPE_MAKE_CLAY: Recipe = Recipe {
+    id: 17,
+    a: 29,
+    b: 26,
+    c: 36,
+};
+const RECIPE_MAKE_SAND: Recipe = Recipe {
+    id: 18,
+    a: 29,
+    b: 31,
+    c: 37,
+};
+const RECIPE_MAKE_PLANT: Recipe = Recipe {
+    id: 19,
+    a: 33,
+    b: 28,
+    c: 38,
+};
+const RECIPE_MAKE_RAINBOW: Recipe = Recipe {
+    id: 20,
+    a: 33,
+    b: 26,
+    c: 39,
+};
+const RECIPE_MAKE_STORM: Recipe = Recipe {
+    id: 21,
+    a: 33,
+    b: 31,
+    c: 40,
+};
+const RECIPE_MAKE_OBSIDIAN: Recipe = Recipe {
+    id: 22,
+    a: 30,
+    b: 25,
+    c: 41,
+};
+const RECIPE_MAKE_ASH: Recipe = Recipe {
+    id: 23,
+    a: 30,
+    b: 31,
+    c: 42,
+};
+const RECIPE_MAKE_VOLCANO: Recipe = Recipe {
+    id: 24,
+    a: 30,
+    b: 28,
+    c: 43,
+};
+const RECIPE_MAKE_MUD: Recipe = Recipe {
+    id: 25,
+    a: 32,
+    b: 25,
+    c: 29,
+};
+const RECIPE_MAKE_ASH: Recipe = Recipe {
+    id: 26,
+    a: 32,
+    b: 26,
+    c: 42,
+};
+const RECIPE_MAKE_SANDSTORM: Recipe = Recipe {
+    id: 27,
+    a: 32,
+    b: 31,
+    c: 44,
+};
+const RECIPE_MAKE_CLOUD: Recipe = Recipe {
+    id: 28,
+    a: 34,
+    b: 25,
+    c: 45,
+};
+const RECIPE_MAKE_ASH: Recipe = Recipe {
+    id: 29,
+    a: 34,
+    b: 28,
+    c: 42,
+};
+const RECIPE_MAKE_FOG: Recipe = Recipe {
+    id: 30,
+    a: 34,
+    b: 31,
+    c: 46,
+};
+const RECIPE_MAKE_TREE: Recipe = Recipe {
+    id: 31,
+    a: 38,
+    b: 25,
+    c: 47,
+};
+const RECIPE_MAKE_ASH: Recipe = Recipe {
+    id: 32,
+    a: 38,
+    b: 26,
+    c: 42,
+};
+const RECIPE_MAKE_FOREST: Recipe = Recipe {
+    id: 33,
+    a: 38,
+    b: 28,
+    c: 48,
+};
+const RECIPE_MAKE_SEEDS: Recipe = Recipe {
+    id: 34,
+    a: 38,
+    b: 31,
+    c: 49,
+};
+const RECIPE_MAKE_POTTERY: Recipe = Recipe {
+    id: 35,
+    a: 36,
+    b: 26,
+    c: 50,
+};
+const RECIPE_MAKE_SAND: Recipe = Recipe {
+    id: 36,
+    a: 36,
+    b: 31,
+    c: 37,
+};
+const RECIPE_MAKE_BRICK: Recipe = Recipe {
+    id: 37,
+    a: 36,
+    b: 28,
+    c: 51,
+};
+const RECIPE_MAKE_QUICKSAND: Recipe = Recipe {
+    id: 38,
+    a: 37,
+    b: 25,
+    c: 52,
+};
+const RECIPE_MAKE_GLASS: Recipe = Recipe {
+    id: 39,
+    a: 37,
+    b: 26,
+    c: 53,
+};
+const RECIPE_MAKE_DUNE: Recipe = Recipe {
+    id: 40,
+    a: 37,
+    b: 31,
+    c: 54,
+};
+const RECIPE_MAKE_FOREST: Recipe = Recipe {
+    id: 41,
+    a: 47,
+    b: 25,
+    c: 48,
+};
+const RECIPE_MAKE_CHARCOAL: Recipe = Recipe {
+    id: 42,
+    a: 47,
+    b: 26,
+    c: 55,
+};
+const RECIPE_MAKE_FOREST: Recipe = Recipe {
+    id: 43,
+    a: 47,
+    b: 28,
+    c: 48,
+};
+const RECIPE_MAKE_LEAVES: Recipe = Recipe {
+    id: 44,
+    a: 47,
+    b: 31,
+    c: 56,
+};
+const RECIPE_MAKE_WILDFIRE: Recipe = Recipe {
+    id: 45,
+    a: 48,
+    b: 26,
+    c: 57,
+};
+const RECIPE_MAKE_LEAVES: Recipe = Recipe {
+    id: 46,
+    a: 48,
+    b: 31,
+    c: 56,
+};
+const RECIPE_MAKE_JUNGLE: Recipe = Recipe {
+    id: 47,
+    a: 48,
+    b: 28,
+    c: 58,
+};
+const RECIPE_MAKE_FROSTED_GLASS: Recipe = Recipe {
+    id: 48,
+    a: 53,
+    b: 25,
+    c: 59,
+};
+const RECIPE_MAKE_CRYSTAL: Recipe = Recipe {
+    id: 49,
+    a: 53,
+    b: 28,
+    c: 60,
+};
+const RECIPE_MAKE_SANDSTORM: Recipe = Recipe {
+    id: 50,
+    a: 53,
+    b: 31,
+    c: 44,
+};
+const RECIPE_MAKE_MAGMA: Recipe = Recipe {
+    id: 51,
+    a: 41,
+    b: 26,
+    c: 61,
+};
+const RECIPE_MAKE_ROCK: Recipe = Recipe {
+    id: 52,
+    a: 41,
+    b: 28,
+    c: 62,
+};
+const RECIPE_MAKE_SHARD: Recipe = Recipe {
+    id: 53,
+    a: 41,
+    b: 31,
+    c: 63,
+};
+const RECIPE_MAKE_PEBBLE: Recipe = Recipe {
+    id: 54,
+    a: 62,
+    b: 25,
+    c: 64,
+};
+const RECIPE_MAKE_LAVA: Recipe = Recipe {
+    id: 55,
+    a: 62,
+    b: 26,
+    c: 30,
+};
+const RECIPE_MAKE_MOUNTAIN: Recipe = Recipe {
+    id: 56,
+    a: 62,
+    b: 28,
+    c: 65,
+};
+const RECIPE_MAKE_SAND: Recipe = Recipe {
+    id: 57,
+    a: 62,
+    b: 31,
+    c: 37,
+};
+const RECIPE_MAKE_MUD: Recipe = Recipe {
+    id: 58,
+    a: 42,
+    b: 25,
+    c: 29,
+};
+const RECIPE_MAKE_FERTILIZER: Recipe = Recipe {
+    id: 59,
+    a: 42,
+    b: 28,
+    c: 66,
+};
+const RECIPE_MAKE_SOOT: Recipe = Recipe {
+    id: 60,
+    a: 42,
+    b: 31,
+    c: 67,
+};
+const RECIPE_MAKE_LIGHTNING: Recipe = Recipe {
+    id: 61,
+    a: 45,
+    b: 26,
+    c: 68,
+};
+const RECIPE_MAKE_FOG: Recipe = Recipe {
+    id: 62,
+    a: 45,
+    b: 28,
+    c: 46,
+};
+const RECIPE_MAKE_STORM: Recipe = Recipe {
+    id: 63,
+    a: 45,
+    b: 31,
+    c: 40,
+};
+const RECIPE_MAKE_CLOUD: Recipe = Recipe {
+    id: 64,
+    a: 46,
+    b: 25,
+    c: 45,
+};
+const RECIPE_MAKE_STEAM: Recipe = Recipe {
+    id: 65,
+    a: 46,
+    b: 26,
+    c: 27,
+};
+const RECIPE_MAKE_MIST: Recipe = Recipe {
+    id: 66,
+    a: 46,
+    b: 28,
+    c: 69,
+};
+const RECIPE_MAKE_HAZE: Recipe = Recipe {
+    id: 67,
+    a: 46,
+    b: 31,
+    c: 70,
+};
+const RECIPE_MAKE_FLOOD: Recipe = Recipe {
+    id: 68,
+    a: 40,
+    b: 25,
+    c: 71,
+};
+const RECIPE_MAKE_LANDSLIDE: Recipe = Recipe {
+    id: 69,
+    a: 40,
+    b: 28,
+    c: 72,
+};
+const RECIPE_MAKE_THUNDER: Recipe = Recipe {
+    id: 70,
+    a: 40,
+    b: 26,
+    c: 73,
+};
+const RECIPE_MAKE_TORNADO: Recipe = Recipe {
+    id: 71,
+    a: 40,
+    b: 31,
+    c: 74,
+};
+const RECIPE_MAKE_ASH: Recipe = Recipe {
+    id: 72,
+    a: 26,
+    b: 32,
+    c: 42,
+};
+const RECIPE_MAKE_RAIN: Recipe = Recipe {
+    id: 73,
+    a: 25,
+    b: 45,
+    c: 33,
+};
+const RECIPE_MAKE_CLOUD: Recipe = Recipe {
+    id: 74,
+    a: 25,
+    b: 46,
+    c: 45,
+};
+const RECIPE_MAKE_GARDEN: Recipe = Recipe {
+    id: 75,
+    a: 28,
+    b: 38,
+    c: 75,
+};
+const RECIPE_MAKE_FOREST: Recipe = Recipe {
+    id: 76,
+    a: 28,
+    b: 47,
+    c: 48,
+};
+const RECIPE_MAKE_EMBER: Recipe = Recipe {
+    id: 77,
+    a: 26,
+    b: 42,
+    c: 76,
+};
+const RECIPE_MAKE_KILN: Recipe = Recipe {
+    id: 78,
+    a: 26,
+    b: 50,
+    c: 77,
+};
+const RECIPE_MAKE_POLLINATION: Recipe = Recipe {
+    id: 79,
+    a: 31,
+    b: 38,
+    c: 78,
+};
+const RECIPE_MAKE_HAZE: Recipe = Recipe {
+    id: 80,
+    a: 31,
+    b: 34,
+    c: 70,
+};
+const RECIPE_MAKE_SINKHOLE: Recipe = Recipe {
+    id: 81,
+    a: 28,
+    b: 52,
+    c: 79,
+};
+const RECIPE_MAKE_BEACH: Recipe = Recipe {
+    id: 82,
+    a: 25,
+    b: 37,
+    c: 80,
+};
+const RECIPE_MAKE_WETSTONE: Recipe = Recipe {
+    id: 83,
+    a: 25,
+    b: 41,
+    c: 81,
+};
+const RECIPE_MAKE_MAGMA: Recipe = Recipe {
+    id: 84,
+    a: 26,
+    b: 62,
+    c: 61,
+};
+const RECIPE_MAKE_EROSION: Recipe = Recipe {
+    id: 85,
+    a: 31,
+    b: 62,
+    c: 82,
+};
+const RECIPE_MAKE_BASALT: Recipe = Recipe {
+    id: 86,
+    a: 25,
+    b: 30,
+    c: 83,
+};
+const RECIPE_MAKE_OBSIDIAN: Recipe = Recipe {
+    id: 87,
+    a: 25,
+    b: 61,
+    c: 41,
+};
+const RECIPE_MAKE_MAGMA_CHAMBER: Recipe = Recipe {
+    id: 88,
+    a: 28,
+    b: 30,
+    c: 84,
+};
+const RECIPE_MAKE_BREEZE: Recipe = Recipe {
+    id: 89,
+    a: 31,
+    b: 32,
+    c: 85,
+};
+const RECIPE_MAKE_WARM_BREEZE: Recipe = Recipe {
+    id: 90,
+    a: 26,
+    b: 85,
+    c: 86,
+};
+const RECIPE_MAKE_SOIL: Recipe = Recipe {
+    id: 91,
+    a: 28,
+    b: 38,
+    c: 87,
+};
+const RECIPE_MAKE_MUD: Recipe = Recipe {
+    id: 92,
+    a: 25,
+    b: 87,
+    c: 29,
+};
+const RECIPE_MAKE_CANYON: Recipe = Recipe {
+    id: 93,
+    a: 25,
+    b: 82,
+    c: 88,
+};
+const RECIPE_MAKE_CHARCOAL: Recipe = Recipe {
+    id: 94,
+    a: 26,
+    b: 38,
+    c: 55,
+};
+const RECIPE_MAKE_WINDMILL: Recipe = Recipe {
+    id: 95,
+    a: 31,
+    b: 38,
+    c: 89,
+};
+const RECIPE_MAKE_ADOBE: Recipe = Recipe {
+    id: 96,
+    a: 28,
+    b: 36,
+    c: 90,
+};
+const RECIPE_MAKE_GLASS: Recipe = Recipe {
+    id: 97,
+    a: 26,
+    b: 52,
+    c: 53,
+};
+const RECIPE_MAKE_WALL: Recipe = Recipe {
+    id: 98,
+    a: 28,
+    b: 51,
+    c: 91,
+};
+const RECIPE_MAKE_SANDSTORM: Recipe = Recipe {
+    id: 99,
+    a: 31,
+    b: 82,
+    c: 44,
+};
+const RECIPE_MAKE_PUMICE: Recipe = Recipe {
+    id: 100,
+    a: 25,
+    b: 42,
+    c: 92,
+};
+const RECIPE_MAKE_BARBECUE: Recipe = Recipe {
+    id: 101,
+    a: 26,
+    b: 55,
+    c: 93,
+};
+const RECIPE_MAKE_FARM: Recipe = Recipe {
+    id: 102,
+    a: 28,
+    b: 49,
+    c: 94,
+};
+const RECIPE_MAKE_STEAM: Recipe = Recipe {
+    id: 103,
+    a: 25,
+    b: 77,
+    c: 27,
+};
+const RECIPE_MAKE_SHARDS: Recipe = Recipe {
+    id: 104,
+    a: 31,
+    b: 41,
+    c: 95,
+};
+const RECIPE_MAKE_CRYSTAL: Recipe = Recipe {
+    id: 105,
+    a: 28,
+    b: 41,
+    c: 60,
+};
+const RECIPE_MAKE_MOLTEN_GLASS: Recipe = Recipe {
+    id: 106,
+    a: 26,
+    b: 60,
+    c: 96,
+};
+const RECIPE_MAKE_PRISM: Recipe = Recipe {
+    id: 107,
+    a: 25,
+    b: 60,
+    c: 97,
+};
+const RECIPE_MAKE_SPARKLE: Recipe = Recipe {
+    id: 108,
+    a: 31,
+    b: 60,
+    c: 98,
+};
+const RECIPE_MAKE_DESERT: Recipe = Recipe {
+    id: 109,
+    a: 28,
+    b: 80,
+    c: 99,
+};
+const RECIPE_MAKE_OASIS: Recipe = Recipe {
+    id: 110,
+    a: 25,
+    b: 99,
+    c: 100,
+};
+const RECIPE_MAKE_MIRAGE: Recipe = Recipe {
+    id: 111,
+    a: 26,
+    b: 99,
+    c: 101,
+};
+const RECIPE_MAKE_SAND_DUNE: Recipe = Recipe {
+    id: 112,
+    a: 31,
+    b: 99,
+    c: 102,
+};
+const RECIPE_MAKE_DAM: Recipe = Recipe {
+    id: 113,
+    a: 25,
+    b: 91,
+    c: 103,
+};
+const RECIPE_MAKE_FIREWALL: Recipe = Recipe {
+    id: 114,
+    a: 26,
+    b: 91,
+    c: 104,
+};
+const RECIPE_MAKE_BARRICADE: Recipe = Recipe {
+    id: 115,
+    a: 31,
+    b: 91,
+    c: 105,
+};
+const RECIPE_MAKE_PLATEAU: Recipe = Recipe {
+    id: 116,
+    a: 28,
+    b: 88,
+    c: 106,
+};
+const RECIPE_MAKE_POND: Recipe = Recipe {
+    id: 117,
+    a: 25,
+    b: 75,
+    c: 107,
+};
+const RECIPE_MAKE_WILDFIRE: Recipe = Recipe {
+    id: 118,
+    a: 26,
+    b: 75,
+    c: 57,
+};
+const RECIPE_MAKE_AROMAS: Recipe = Recipe {
+    id: 119,
+    a: 31,
+    b: 75,
+    c: 108,
+};
+const RECIPE_MAKE_OASIS: Recipe = Recipe {
+    id: 120,
+    a: 28,
+    b: 107,
+    c: 100,
+};
+const RECIPE_MAKE_FLOWER: Recipe = Recipe {
+    id: 121,
+    a: 25,
+    b: 78,
+    c: 109,
+};
+const RECIPE_MAKE_SPORE: Recipe = Recipe {
+    id: 122,
+    a: 26,
+    b: 78,
+    c: 110,
+};
+const RECIPE_MAKE_SPREAD: Recipe = Recipe {
+    id: 123,
+    a: 31,
+    b: 78,
+    c: 111,
+};
+const RECIPE_MAKE_FERTILE_LAND: Recipe = Recipe {
+    id: 124,
+    a: 28,
+    b: 87,
+    c: 112,
+};
+const RECIPE_MAKE_WETLAND: Recipe = Recipe {
+    id: 125,
+    a: 25,
+    b: 112,
+    c: 113,
+};
+const RECIPE_MAKE_PEAT: Recipe = Recipe {
+    id: 126,
+    a: 26,
+    b: 113,
+    c: 114,
+};
+const RECIPE_MAKE_REEDS: Recipe = Recipe {
+    id: 127,
+    a: 31,
+    b: 113,
+    c: 115,
+};
+const RECIPE_MAKE_VALLEY: Recipe = Recipe {
+    id: 128,
+    a: 28,
+    b: 88,
+    c: 116,
+};
+const RECIPE_MAKE_RIVER: Recipe = Recipe {
+    id: 129,
+    a: 25,
+    b: 116,
+    c: 117,
+};
+const RECIPE_MAKE_SCORCHED_EARTH: Recipe = Recipe {
+    id: 130,
+    a: 26,
+    b: 116,
+    c: 118,
+};
+const RECIPE_MAKE_BREEZE: Recipe = Recipe {
+    id: 131,
+    a: 31,
+    b: 116,
+    c: 85,
+};
+const RECIPE_MAKE_DELTA: Recipe = Recipe {
+    id: 132,
+    a: 28,
+    b: 117,
+    c: 119,
+};
+const RECIPE_MAKE_ESTUARY: Recipe = Recipe {
+    id: 133,
+    a: 25,
+    b: 119,
+    c: 120,
+};
+const RECIPE_MAKE_FIRE_SWAMP: Recipe = Recipe {
+    id: 134,
+    a: 26,
+    b: 119,
+    c: 121,
+};
+const RECIPE_MAKE_RIVERBANK: Recipe = Recipe {
+    id: 135,
+    a: 31,
+    b: 119,
+    c: 122,
+};
+const RECIPE_MAKE_RAVINE: Recipe = Recipe {
+    id: 136,
+    a: 28,
+    b: 82,
+    c: 123,
+};
+const RECIPE_MAKE_GORGE: Recipe = Recipe {
+    id: 137,
+    a: 25,
+    b: 123,
+    c: 124,
+};
+const RECIPE_MAKE_CHARRED_RAVINE: Recipe = Recipe {
+    id: 138,
+    a: 26,
+    b: 123,
+    c: 125,
+};
+const RECIPE_MAKE_ECHO: Recipe = Recipe {
+    id: 139,
+    a: 31,
+    b: 123,
+    c: 126,
+};
+const RECIPE_MAKE_CAVE: Recipe = Recipe {
+    id: 140,
+    a: 28,
+    b: 126,
+    c: 127,
+};
+const RECIPE_MAKE_UNDERGROUND_LAKE: Recipe = Recipe {
+    id: 141,
+    a: 25,
+    b: 127,
+    c: 128,
+};
+const RECIPE_MAKE_LAVA_CAVE: Recipe = Recipe {
+    id: 142,
+    a: 26,
+    b: 127,
+    c: 129,
+};
+const RECIPE_MAKE_WHISPERING_CAVE: Recipe = Recipe {
+    id: 143,
+    a: 31,
+    b: 127,
+    c: 130,
+};
+const RECIPE_MAKE_SUBTERRANEAN_POOL: Recipe = Recipe {
+    id: 144,
+    a: 28,
+    b: 128,
+    c: 131,
+};
+const RECIPE_MAKE_SPRING: Recipe = Recipe {
+    id: 145,
+    a: 25,
+    b: 131,
+    c: 132,
+};
+const RECIPE_MAKE_HOT_SPRING: Recipe = Recipe {
+    id: 146,
+    a: 26,
+    b: 131,
+    c: 133,
+};
+const RECIPE_MAKE_GROTTO: Recipe = Recipe {
+    id: 147,
+    a: 31,
+    b: 131,
+    c: 134,
+};
+const RECIPE_MAKE_OASIS: Recipe = Recipe {
+    id: 148,
+    a: 28,
+    b: 132,
+    c: 100,
+};
+const RECIPE_MAKE_FOUNTAIN: Recipe = Recipe {
+    id: 149,
+    a: 25,
+    b: 132,
+    c: 135,
+};
+const RECIPE_MAKE_STEAM_VENT: Recipe = Recipe {
+    id: 150,
+    a: 26,
+    b: 132,
+    c: 136,
+};
+const RECIPE_MAKE_COOL_BREEZE: Recipe = Recipe {
+    id: 151,
+    a: 31,
+    b: 132,
+    c: 137,
+};
+const RECIPE_MAKE_MONUMENT: Recipe = Recipe {
+    id: 152,
+    a: 28,
+    b: 135,
+    c: 138,
+};
+const RECIPE_MAKE_WATERFALL: Recipe = Recipe {
+    id: 153,
+    a: 25,
+    b: 138,
+    c: 139,
+};
+const RECIPE_MAKE_ETERNAL_FLAME: Recipe = Recipe {
+    id: 154,
+    a: 26,
+    b: 138,
+    c: 140,
+};
+const RECIPE_MAKE_PILLAR_OF_WIND: Recipe = Recipe {
+    id: 155,
+    a: 31,
+    b: 138,
+    c: 141,
+};
+const RECIPE_MAKE_RIVER: Recipe = Recipe {
+    id: 156,
+    a: 28,
+    b: 139,
+    c: 117,
+};
+const RECIPE_MAKE_STREAM: Recipe = Recipe {
+    id: 157,
+    a: 25,
+    b: 117,
+    c: 142,
+};
+const RECIPE_MAKE_STEAM: Recipe = Recipe {
+    id: 158,
+    a: 26,
+    b: 117,
+    c: 27,
+};
+const RECIPE_MAKE_ZEPHYR: Recipe = Recipe {
+    id: 159,
+    a: 31,
+    b: 117,
+    c: 143,
+};
+const RECIPE_MAKE_CREEK: Recipe = Recipe {
+    id: 160,
+    a: 28,
+    b: 142,
+    c: 144,
+};
+const RECIPE_MAKE_BROOK: Recipe = Recipe {
+    id: 161,
+    a: 25,
+    b: 144,
+    c: 145,
+};
+const RECIPE_MAKE_STEAM: Recipe = Recipe {
+    id: 162,
+    a: 26,
+    b: 144,
+    c: 27,
+};
+const RECIPE_MAKE_WHISPER: Recipe = Recipe {
+    id: 163,
+    a: 31,
+    b: 144,
+    c: 146,
+};
+const RECIPE_MAKE_RIVULET: Recipe = Recipe {
+    id: 164,
+    a: 28,
+    b: 145,
+    c: 147,
+};
+const RECIPE_MAKE_TRIBUTARY: Recipe = Recipe {
+    id: 165,
+    a: 25,
+    b: 147,
+    c: 148,
+};
+const RECIPE_MAKE_STEAM: Recipe = Recipe {
+    id: 166,
+    a: 26,
+    b: 147,
+    c: 27,
+};
+const RECIPE_MAKE_MURMUR: Recipe = Recipe {
+    id: 167,
+    a: 31,
+    b: 147,
+    c: 149,
+};
+const RECIPE_MAKE_WATERSHED: Recipe = Recipe {
+    id: 168,
+    a: 28,
+    b: 148,
+    c: 150,
+};
+const RECIPE_MAKE_AQUIFER: Recipe = Recipe {
+    id: 169,
+    a: 25,
+    b: 150,
+    c: 151,
+};
+const RECIPE_MAKE_PARCHED_EARTH: Recipe = Recipe {
+    id: 170,
+    a: 26,
+    b: 150,
+    c: 152,
+};
+const RECIPE_MAKE_FRESH_BREEZE: Recipe = Recipe {
+    id: 171,
+    a: 31,
+    b: 150,
+    c: 153,
+};
+const RECIPE_MAKE_GROUNDWATER: Recipe = Recipe {
+    id: 172,
+    a: 28,
+    b: 151,
+    c: 154,
+};
+const RECIPE_MAKE_RESERVOIR: Recipe = Recipe {
+    id: 173,
+    a: 25,
+    b: 154,
+    c: 155,
+};
+const RECIPE_MAKE_GEOTHERMAL_SPRING: Recipe = Recipe {
+    id: 174,
+    a: 26,
+    b: 154,
+    c: 156,
+};
+const RECIPE_MAKE_ARTESIAN_WELL: Recipe = Recipe {
+    id: 175,
+    a: 31,
+    b: 154,
+    c: 157,
+};
+const RECIPE_MAKE_BASIN: Recipe = Recipe {
+    id: 176,
+    a: 28,
+    b: 155,
+    c: 158,
+};
+const RECIPE_MAKE_LAKE: Recipe = Recipe {
+    id: 177,
+    a: 25,
+    b: 158,
+    c: 159,
+};
+const RECIPE_MAKE_DRY_BASIN: Recipe = Recipe {
+    id: 178,
+    a: 26,
+    b: 158,
+    c: 160,
+};
+const RECIPE_MAKE_DEPRESSION: Recipe = Recipe {
+    id: 179,
+    a: 31,
+    b: 158,
+    c: 161,
+};
+const RECIPE_MAKE_ISLAND: Recipe = Recipe {
+    id: 180,
+    a: 28,
+    b: 159,
+    c: 162,
+};
+const RECIPE_MAKE_LAGOON: Recipe = Recipe {
+    id: 181,
+    a: 25,
+    b: 159,
+    c: 163,
+};
+const RECIPE_MAKE_STEAM: Recipe = Recipe {
+    id: 182,
+    a: 26,
+    b: 159,
+    c: 27,
+};
+const RECIPE_MAKE_WAVE: Recipe = Recipe {
+    id: 183,
+    a: 31,
+    b: 159,
+    c: 164,
+};
+const RECIPE_MAKE_REEF: Recipe = Recipe {
+    id: 184,
+    a: 28,
+    b: 163,
+    c: 165,
+};
+const RECIPE_MAKE_CORAL: Recipe = Recipe {
+    id: 185,
+    a: 25,
+    b: 165,
+    c: 166,
+};
+const RECIPE_MAKE_ASH: Recipe = Recipe {
+    id: 186,
+    a: 26,
+    b: 165,
+    c: 42,
+};
+const RECIPE_MAKE_WHIRL: Recipe = Recipe {
+    id: 187,
+    a: 31,
+    b: 165,
+    c: 167,
+};
+const RECIPE_MAKE_LIMESTONE: Recipe = Recipe {
+    id: 188,
+    a: 28,
+    b: 166,
+    c: 168,
+};
+const RECIPE_MAKE_KARST: Recipe = Recipe {
+    id: 189,
+    a: 25,
+    b: 168,
+    c: 169,
+};
+const RECIPE_MAKE_QUICKLIME: Recipe = Recipe {
+    id: 190,
+    a: 26,
+    b: 168,
+    c: 170,
+};
+const RECIPE_MAKE_DUST: Recipe = Recipe {
+    id: 191,
+    a: 31,
+    b: 168,
+    c: 32,
+};
+const RECIPE_MAKE_CAVE: Recipe = Recipe {
+    id: 192,
+    a: 28,
+    b: 169,
+    c: 127,
+};
+const RECIPE_MAKE_GEYSER: Recipe = Recipe {
+    id: 193,
+    a: 25,
+    b: 169,
+    c: 35,
+};
+const RECIPE_MAKE_MAGMA_CHAMBER: Recipe = Recipe {
+    id: 194,
+    a: 26,
+    b: 169,
+    c: 84,
+};
+const RECIPE_MAKE_BLOWHOLE: Recipe = Recipe {
+    id: 195,
+    a: 31,
+    b: 169,
+    c: 171,
+};
+const RECIPE_MAKE_HOT_SPRING: Recipe = Recipe {
+    id: 196,
+    a: 28,
+    b: 35,
+    c: 133,
+};
+const RECIPE_MAKE_FOUNTAIN: Recipe = Recipe {
+    id: 197,
+    a: 25,
+    b: 35,
+    c: 135,
+};
+const RECIPE_MAKE_STEAM_VENT: Recipe = Recipe {
+    id: 198,
+    a: 26,
+    b: 35,
+    c: 136,
+};
+const RECIPE_MAKE_MIST: Recipe = Recipe {
+    id: 199,
+    a: 31,
+    b: 35,
+    c: 69,
+};
+const RECIPE_MAKE_OASIS: Recipe = Recipe {
+    id: 200,
+    a: 28,
+    b: 132,
+    c: 100,
+};
+const RECIPE_MAKE_FOUNTAIN: Recipe = Recipe {
+    id: 201,
+    a: 25,
+    b: 132,
+    c: 135,
+};
+const RECIPE_MAKE_STEAM_VENT: Recipe = Recipe {
+    id: 202,
+    a: 26,
+    b: 132,
+    c: 136,
+};
+const RECIPE_MAKE_COOL_BREEZE: Recipe = Recipe {
+    id: 203,
+    a: 31,
+    b: 132,
+    c: 137,
+};
+const RECIPE_MAKE_MONUMENT: Recipe = Recipe {
+    id: 204,
+    a: 28,
+    b: 135,
+    c: 138,
+};
+const RECIPE_MAKE_WATERFALL: Recipe = Recipe {
+    id: 205,
+    a: 25,
+    b: 138,
+    c: 139,
+};
+const RECIPE_MAKE_ETERNAL_FLAME: Recipe = Recipe {
+    id: 206,
+    a: 26,
+    b: 138,
+    c: 140,
+};
+const RECIPE_MAKE_PILLAR_OF_WIND: Recipe = Recipe {
+    id: 207,
+    a: 31,
+    b: 138,
+    c: 141,
+};
+const RECIPE_MAKE_RIVER: Recipe = Recipe {
+    id: 208,
+    a: 28,
+    b: 139,
+    c: 117,
+};
+const RECIPE_MAKE_STREAM: Recipe = Recipe {
+    id: 209,
+    a: 25,
+    b: 117,
+    c: 142,
+};
 
 fn find_item(index: u32) -> Option<Element> {
     if index == 0 {
@@ -1698,6 +2898,606 @@ fn find_recipe(index: u32) -> Option<Recipe> {
     }
     if index == 9 {
         return Some(RECIPE_MAKE_HYPERMARMALADE);
+    }
+    if index == 10 {
+        return Some(RECIPE_MAKE_STEAM);
+    }
+    if index == 11 {
+        return Some(RECIPE_MAKE_MUD);
+    }
+    if index == 12 {
+        return Some(RECIPE_MAKE_LAVA);
+    }
+    if index == 13 {
+        return Some(RECIPE_MAKE_DUST);
+    }
+    if index == 14 {
+        return Some(RECIPE_MAKE_RAIN);
+    }
+    if index == 15 {
+        return Some(RECIPE_MAKE_SMOKE);
+    }
+    if index == 16 {
+        return Some(RECIPE_MAKE_GEYSER);
+    }
+    if index == 17 {
+        return Some(RECIPE_MAKE_CLAY);
+    }
+    if index == 18 {
+        return Some(RECIPE_MAKE_SAND);
+    }
+    if index == 19 {
+        return Some(RECIPE_MAKE_PLANT);
+    }
+    if index == 20 {
+        return Some(RECIPE_MAKE_RAINBOW);
+    }
+    if index == 21 {
+        return Some(RECIPE_MAKE_STORM);
+    }
+    if index == 22 {
+        return Some(RECIPE_MAKE_OBSIDIAN);
+    }
+    if index == 23 {
+        return Some(RECIPE_MAKE_ASH);
+    }
+    if index == 24 {
+        return Some(RECIPE_MAKE_VOLCANO);
+    }
+    if index == 25 {
+        return Some(RECIPE_MAKE_MUD);
+    }
+    if index == 26 {
+        return Some(RECIPE_MAKE_ASH);
+    }
+    if index == 27 {
+        return Some(RECIPE_MAKE_SANDSTORM);
+    }
+    if index == 28 {
+        return Some(RECIPE_MAKE_CLOUD);
+    }
+    if index == 29 {
+        return Some(RECIPE_MAKE_ASH);
+    }
+    if index == 30 {
+        return Some(RECIPE_MAKE_FOG);
+    }
+    if index == 31 {
+        return Some(RECIPE_MAKE_TREE);
+    }
+    if index == 32 {
+        return Some(RECIPE_MAKE_ASH);
+    }
+    if index == 33 {
+        return Some(RECIPE_MAKE_FOREST);
+    }
+    if index == 34 {
+        return Some(RECIPE_MAKE_SEEDS);
+    }
+    if index == 35 {
+        return Some(RECIPE_MAKE_POTTERY);
+    }
+    if index == 36 {
+        return Some(RECIPE_MAKE_SAND);
+    }
+    if index == 37 {
+        return Some(RECIPE_MAKE_BRICK);
+    }
+    if index == 38 {
+        return Some(RECIPE_MAKE_QUICKSAND);
+    }
+    if index == 39 {
+        return Some(RECIPE_MAKE_GLASS);
+    }
+    if index == 40 {
+        return Some(RECIPE_MAKE_DUNE);
+    }
+    if index == 41 {
+        return Some(RECIPE_MAKE_FOREST);
+    }
+    if index == 42 {
+        return Some(RECIPE_MAKE_CHARCOAL);
+    }
+    if index == 43 {
+        return Some(RECIPE_MAKE_FOREST);
+    }
+    if index == 44 {
+        return Some(RECIPE_MAKE_LEAVES);
+    }
+    if index == 45 {
+        return Some(RECIPE_MAKE_WILDFIRE);
+    }
+    if index == 46 {
+        return Some(RECIPE_MAKE_LEAVES);
+    }
+    if index == 47 {
+        return Some(RECIPE_MAKE_JUNGLE);
+    }
+    if index == 48 {
+        return Some(RECIPE_MAKE_FROSTED_GLASS);
+    }
+    if index == 49 {
+        return Some(RECIPE_MAKE_CRYSTAL);
+    }
+    if index == 50 {
+        return Some(RECIPE_MAKE_SANDSTORM);
+    }
+    if index == 51 {
+        return Some(RECIPE_MAKE_MAGMA);
+    }
+    if index == 52 {
+        return Some(RECIPE_MAKE_ROCK);
+    }
+    if index == 53 {
+        return Some(RECIPE_MAKE_SHARD);
+    }
+    if index == 54 {
+        return Some(RECIPE_MAKE_PEBBLE);
+    }
+    if index == 55 {
+        return Some(RECIPE_MAKE_LAVA);
+    }
+    if index == 56 {
+        return Some(RECIPE_MAKE_MOUNTAIN);
+    }
+    if index == 57 {
+        return Some(RECIPE_MAKE_SAND);
+    }
+    if index == 58 {
+        return Some(RECIPE_MAKE_MUD);
+    }
+    if index == 59 {
+        return Some(RECIPE_MAKE_FERTILIZER);
+    }
+    if index == 60 {
+        return Some(RECIPE_MAKE_SOOT);
+    }
+    if index == 61 {
+        return Some(RECIPE_MAKE_LIGHTNING);
+    }
+    if index == 62 {
+        return Some(RECIPE_MAKE_FOG);
+    }
+    if index == 63 {
+        return Some(RECIPE_MAKE_STORM);
+    }
+    if index == 64 {
+        return Some(RECIPE_MAKE_CLOUD);
+    }
+    if index == 65 {
+        return Some(RECIPE_MAKE_STEAM);
+    }
+    if index == 66 {
+        return Some(RECIPE_MAKE_MIST);
+    }
+    if index == 67 {
+        return Some(RECIPE_MAKE_HAZE);
+    }
+    if index == 68 {
+        return Some(RECIPE_MAKE_FLOOD);
+    }
+    if index == 69 {
+        return Some(RECIPE_MAKE_LANDSLIDE);
+    }
+    if index == 70 {
+        return Some(RECIPE_MAKE_THUNDER);
+    }
+    if index == 71 {
+        return Some(RECIPE_MAKE_TORNADO);
+    }
+    if index == 72 {
+        return Some(RECIPE_MAKE_ASH);
+    }
+    if index == 73 {
+        return Some(RECIPE_MAKE_RAIN);
+    }
+    if index == 74 {
+        return Some(RECIPE_MAKE_CLOUD);
+    }
+    if index == 75 {
+        return Some(RECIPE_MAKE_GARDEN);
+    }
+    if index == 76 {
+        return Some(RECIPE_MAKE_FOREST);
+    }
+    if index == 77 {
+        return Some(RECIPE_MAKE_EMBER);
+    }
+    if index == 78 {
+        return Some(RECIPE_MAKE_KILN);
+    }
+    if index == 79 {
+        return Some(RECIPE_MAKE_POLLINATION);
+    }
+    if index == 80 {
+        return Some(RECIPE_MAKE_HAZE);
+    }
+    if index == 81 {
+        return Some(RECIPE_MAKE_SINKHOLE);
+    }
+    if index == 82 {
+        return Some(RECIPE_MAKE_BEACH);
+    }
+    if index == 83 {
+        return Some(RECIPE_MAKE_WETSTONE);
+    }
+    if index == 84 {
+        return Some(RECIPE_MAKE_MAGMA);
+    }
+    if index == 85 {
+        return Some(RECIPE_MAKE_EROSION);
+    }
+    if index == 86 {
+        return Some(RECIPE_MAKE_BASALT);
+    }
+    if index == 87 {
+        return Some(RECIPE_MAKE_OBSIDIAN);
+    }
+    if index == 88 {
+        return Some(RECIPE_MAKE_MAGMA_CHAMBER);
+    }
+    if index == 89 {
+        return Some(RECIPE_MAKE_BREEZE);
+    }
+    if index == 90 {
+        return Some(RECIPE_MAKE_WARM_BREEZE);
+    }
+    if index == 91 {
+        return Some(RECIPE_MAKE_SOIL);
+    }
+    if index == 92 {
+        return Some(RECIPE_MAKE_MUD);
+    }
+    if index == 93 {
+        return Some(RECIPE_MAKE_CANYON);
+    }
+    if index == 94 {
+        return Some(RECIPE_MAKE_CHARCOAL);
+    }
+    if index == 95 {
+        return Some(RECIPE_MAKE_WINDMILL);
+    }
+    if index == 96 {
+        return Some(RECIPE_MAKE_ADOBE);
+    }
+    if index == 97 {
+        return Some(RECIPE_MAKE_GLASS);
+    }
+    if index == 98 {
+        return Some(RECIPE_MAKE_WALL);
+    }
+    if index == 99 {
+        return Some(RECIPE_MAKE_SANDSTORM);
+    }
+    if index == 100 {
+        return Some(RECIPE_MAKE_PUMICE);
+    }
+    if index == 101 {
+        return Some(RECIPE_MAKE_BARBECUE);
+    }
+    if index == 102 {
+        return Some(RECIPE_MAKE_FARM);
+    }
+    if index == 103 {
+        return Some(RECIPE_MAKE_STEAM);
+    }
+    if index == 104 {
+        return Some(RECIPE_MAKE_SHARDS);
+    }
+    if index == 105 {
+        return Some(RECIPE_MAKE_CRYSTAL);
+    }
+    if index == 106 {
+        return Some(RECIPE_MAKE_MOLTEN_GLASS);
+    }
+    if index == 107 {
+        return Some(RECIPE_MAKE_PRISM);
+    }
+    if index == 108 {
+        return Some(RECIPE_MAKE_SPARKLE);
+    }
+    if index == 109 {
+        return Some(RECIPE_MAKE_DESERT);
+    }
+    if index == 110 {
+        return Some(RECIPE_MAKE_OASIS);
+    }
+    if index == 111 {
+        return Some(RECIPE_MAKE_MIRAGE);
+    }
+    if index == 112 {
+        return Some(RECIPE_MAKE_SAND_DUNE);
+    }
+    if index == 113 {
+        return Some(RECIPE_MAKE_DAM);
+    }
+    if index == 114 {
+        return Some(RECIPE_MAKE_FIREWALL);
+    }
+    if index == 115 {
+        return Some(RECIPE_MAKE_BARRICADE);
+    }
+    if index == 116 {
+        return Some(RECIPE_MAKE_PLATEAU);
+    }
+    if index == 117 {
+        return Some(RECIPE_MAKE_POND);
+    }
+    if index == 118 {
+        return Some(RECIPE_MAKE_WILDFIRE);
+    }
+    if index == 119 {
+        return Some(RECIPE_MAKE_AROMAS);
+    }
+    if index == 120 {
+        return Some(RECIPE_MAKE_OASIS);
+    }
+    if index == 121 {
+        return Some(RECIPE_MAKE_FLOWER);
+    }
+    if index == 122 {
+        return Some(RECIPE_MAKE_SPORE);
+    }
+    if index == 123 {
+        return Some(RECIPE_MAKE_SPREAD);
+    }
+    if index == 124 {
+        return Some(RECIPE_MAKE_FERTILE_LAND);
+    }
+    if index == 125 {
+        return Some(RECIPE_MAKE_WETLAND);
+    }
+    if index == 126 {
+        return Some(RECIPE_MAKE_PEAT);
+    }
+    if index == 127 {
+        return Some(RECIPE_MAKE_REEDS);
+    }
+    if index == 128 {
+        return Some(RECIPE_MAKE_VALLEY);
+    }
+    if index == 129 {
+        return Some(RECIPE_MAKE_RIVER);
+    }
+    if index == 130 {
+        return Some(RECIPE_MAKE_SCORCHED_EARTH);
+    }
+    if index == 131 {
+        return Some(RECIPE_MAKE_BREEZE);
+    }
+    if index == 132 {
+        return Some(RECIPE_MAKE_DELTA);
+    }
+    if index == 133 {
+        return Some(RECIPE_MAKE_ESTUARY);
+    }
+    if index == 134 {
+        return Some(RECIPE_MAKE_FIRE_SWAMP);
+    }
+    if index == 135 {
+        return Some(RECIPE_MAKE_RIVERBANK);
+    }
+    if index == 136 {
+        return Some(RECIPE_MAKE_RAVINE);
+    }
+    if index == 137 {
+        return Some(RECIPE_MAKE_GORGE);
+    }
+    if index == 138 {
+        return Some(RECIPE_MAKE_CHARRED_RAVINE);
+    }
+    if index == 139 {
+        return Some(RECIPE_MAKE_ECHO);
+    }
+    if index == 140 {
+        return Some(RECIPE_MAKE_CAVE);
+    }
+    if index == 141 {
+        return Some(RECIPE_MAKE_UNDERGROUND_LAKE);
+    }
+    if index == 142 {
+        return Some(RECIPE_MAKE_LAVA_CAVE);
+    }
+    if index == 143 {
+        return Some(RECIPE_MAKE_WHISPERING_CAVE);
+    }
+    if index == 144 {
+        return Some(RECIPE_MAKE_SUBTERRANEAN_POOL);
+    }
+    if index == 145 {
+        return Some(RECIPE_MAKE_SPRING);
+    }
+    if index == 146 {
+        return Some(RECIPE_MAKE_HOT_SPRING);
+    }
+    if index == 147 {
+        return Some(RECIPE_MAKE_GROTTO);
+    }
+    if index == 148 {
+        return Some(RECIPE_MAKE_OASIS);
+    }
+    if index == 149 {
+        return Some(RECIPE_MAKE_FOUNTAIN);
+    }
+    if index == 150 {
+        return Some(RECIPE_MAKE_STEAM_VENT);
+    }
+    if index == 151 {
+        return Some(RECIPE_MAKE_COOL_BREEZE);
+    }
+    if index == 152 {
+        return Some(RECIPE_MAKE_MONUMENT);
+    }
+    if index == 153 {
+        return Some(RECIPE_MAKE_WATERFALL);
+    }
+    if index == 154 {
+        return Some(RECIPE_MAKE_ETERNAL_FLAME);
+    }
+    if index == 155 {
+        return Some(RECIPE_MAKE_PILLAR_OF_WIND);
+    }
+    if index == 156 {
+        return Some(RECIPE_MAKE_RIVER);
+    }
+    if index == 157 {
+        return Some(RECIPE_MAKE_STREAM);
+    }
+    if index == 158 {
+        return Some(RECIPE_MAKE_STEAM);
+    }
+    if index == 159 {
+        return Some(RECIPE_MAKE_ZEPHYR);
+    }
+    if index == 160 {
+        return Some(RECIPE_MAKE_CREEK);
+    }
+    if index == 161 {
+        return Some(RECIPE_MAKE_BROOK);
+    }
+    if index == 162 {
+        return Some(RECIPE_MAKE_STEAM);
+    }
+    if index == 163 {
+        return Some(RECIPE_MAKE_WHISPER);
+    }
+    if index == 164 {
+        return Some(RECIPE_MAKE_RIVULET);
+    }
+    if index == 165 {
+        return Some(RECIPE_MAKE_TRIBUTARY);
+    }
+    if index == 166 {
+        return Some(RECIPE_MAKE_STEAM);
+    }
+    if index == 167 {
+        return Some(RECIPE_MAKE_MURMUR);
+    }
+    if index == 168 {
+        return Some(RECIPE_MAKE_WATERSHED);
+    }
+    if index == 169 {
+        return Some(RECIPE_MAKE_AQUIFER);
+    }
+    if index == 170 {
+        return Some(RECIPE_MAKE_PARCHED_EARTH);
+    }
+    if index == 171 {
+        return Some(RECIPE_MAKE_FRESH_BREEZE);
+    }
+    if index == 172 {
+        return Some(RECIPE_MAKE_GROUNDWATER);
+    }
+    if index == 173 {
+        return Some(RECIPE_MAKE_RESERVOIR);
+    }
+    if index == 174 {
+        return Some(RECIPE_MAKE_GEOTHERMAL_SPRING);
+    }
+    if index == 175 {
+        return Some(RECIPE_MAKE_ARTESIAN_WELL);
+    }
+    if index == 176 {
+        return Some(RECIPE_MAKE_BASIN);
+    }
+    if index == 177 {
+        return Some(RECIPE_MAKE_LAKE);
+    }
+    if index == 178 {
+        return Some(RECIPE_MAKE_DRY_BASIN);
+    }
+    if index == 179 {
+        return Some(RECIPE_MAKE_DEPRESSION);
+    }
+    if index == 180 {
+        return Some(RECIPE_MAKE_ISLAND);
+    }
+    if index == 181 {
+        return Some(RECIPE_MAKE_LAGOON);
+    }
+    if index == 182 {
+        return Some(RECIPE_MAKE_STEAM);
+    }
+    if index == 183 {
+        return Some(RECIPE_MAKE_WAVE);
+    }
+    if index == 184 {
+        return Some(RECIPE_MAKE_REEF);
+    }
+    if index == 185 {
+        return Some(RECIPE_MAKE_CORAL);
+    }
+    if index == 186 {
+        return Some(RECIPE_MAKE_ASH);
+    }
+    if index == 187 {
+        return Some(RECIPE_MAKE_WHIRL);
+    }
+    if index == 188 {
+        return Some(RECIPE_MAKE_LIMESTONE);
+    }
+    if index == 189 {
+        return Some(RECIPE_MAKE_KARST);
+    }
+    if index == 190 {
+        return Some(RECIPE_MAKE_QUICKLIME);
+    }
+    if index == 191 {
+        return Some(RECIPE_MAKE_DUST);
+    }
+    if index == 192 {
+        return Some(RECIPE_MAKE_CAVE);
+    }
+    if index == 193 {
+        return Some(RECIPE_MAKE_GEYSER);
+    }
+    if index == 194 {
+        return Some(RECIPE_MAKE_MAGMA_CHAMBER);
+    }
+    if index == 195 {
+        return Some(RECIPE_MAKE_BLOWHOLE);
+    }
+    if index == 196 {
+        return Some(RECIPE_MAKE_HOT_SPRING);
+    }
+    if index == 197 {
+        return Some(RECIPE_MAKE_FOUNTAIN);
+    }
+    if index == 198 {
+        return Some(RECIPE_MAKE_STEAM_VENT);
+    }
+    if index == 199 {
+        return Some(RECIPE_MAKE_MIST);
+    }
+    if index == 200 {
+        return Some(RECIPE_MAKE_OASIS);
+    }
+    if index == 201 {
+        return Some(RECIPE_MAKE_FOUNTAIN);
+    }
+    if index == 202 {
+        return Some(RECIPE_MAKE_STEAM_VENT);
+    }
+    if index == 203 {
+        return Some(RECIPE_MAKE_COOL_BREEZE);
+    }
+    if index == 204 {
+        return Some(RECIPE_MAKE_MONUMENT);
+    }
+    if index == 205 {
+        return Some(RECIPE_MAKE_WATERFALL);
+    }
+    if index == 206 {
+        return Some(RECIPE_MAKE_ETERNAL_FLAME);
+    }
+    if index == 207 {
+        return Some(RECIPE_MAKE_PILLAR_OF_WIND);
+    }
+    if index == 208 {
+        return Some(RECIPE_MAKE_RIVER);
+    }
+    if index == 209 {
+        return Some(RECIPE_MAKE_STREAM);
     }
     None
 }/** End game contract items generated code */

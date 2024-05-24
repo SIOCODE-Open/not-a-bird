@@ -1617,6 +1617,1206 @@ export const RECIPE_MAKE_HYPERMARMALADE: IRecipe = {
     b: ITEM_SUPER_MARMALADE,
     result: ITEM_HYPER_MARMALADE,
 };
+export const RECIPE_MAKE_STEAM: IRecipe = {
+    id: 10,
+    a: ITEM_WATER,
+    b: ITEM_FIRE,
+    result: ITEM_STEAM,
+};
+export const RECIPE_MAKE_MUD: IRecipe = {
+    id: 11,
+    a: ITEM_WATER,
+    b: ITEM_EARTH,
+    result: ITEM_MUD,
+};
+export const RECIPE_MAKE_LAVA: IRecipe = {
+    id: 12,
+    a: ITEM_FIRE,
+    b: ITEM_EARTH,
+    result: ITEM_LAVA,
+};
+export const RECIPE_MAKE_DUST: IRecipe = {
+    id: 13,
+    a: ITEM_WIND,
+    b: ITEM_EARTH,
+    result: ITEM_DUST,
+};
+export const RECIPE_MAKE_RAIN: IRecipe = {
+    id: 14,
+    a: ITEM_WATER,
+    b: ITEM_WIND,
+    result: ITEM_RAIN,
+};
+export const RECIPE_MAKE_SMOKE: IRecipe = {
+    id: 15,
+    a: ITEM_FIRE,
+    b: ITEM_WIND,
+    result: ITEM_SMOKE,
+};
+export const RECIPE_MAKE_GEYSER: IRecipe = {
+    id: 16,
+    a: ITEM_STEAM,
+    b: ITEM_EARTH,
+    result: ITEM_GEYSER,
+};
+export const RECIPE_MAKE_CLAY: IRecipe = {
+    id: 17,
+    a: ITEM_MUD,
+    b: ITEM_FIRE,
+    result: ITEM_CLAY,
+};
+export const RECIPE_MAKE_SAND: IRecipe = {
+    id: 18,
+    a: ITEM_MUD,
+    b: ITEM_WIND,
+    result: ITEM_SAND,
+};
+export const RECIPE_MAKE_PLANT: IRecipe = {
+    id: 19,
+    a: ITEM_RAIN,
+    b: ITEM_EARTH,
+    result: ITEM_PLANT,
+};
+export const RECIPE_MAKE_RAINBOW: IRecipe = {
+    id: 20,
+    a: ITEM_RAIN,
+    b: ITEM_FIRE,
+    result: ITEM_RAINBOW,
+};
+export const RECIPE_MAKE_STORM: IRecipe = {
+    id: 21,
+    a: ITEM_RAIN,
+    b: ITEM_WIND,
+    result: ITEM_STORM,
+};
+export const RECIPE_MAKE_OBSIDIAN: IRecipe = {
+    id: 22,
+    a: ITEM_LAVA,
+    b: ITEM_WATER,
+    result: ITEM_OBSIDIAN,
+};
+export const RECIPE_MAKE_ASH: IRecipe = {
+    id: 23,
+    a: ITEM_LAVA,
+    b: ITEM_WIND,
+    result: ITEM_ASH,
+};
+export const RECIPE_MAKE_VOLCANO: IRecipe = {
+    id: 24,
+    a: ITEM_LAVA,
+    b: ITEM_EARTH,
+    result: ITEM_VOLCANO,
+};
+export const RECIPE_MAKE_MUD: IRecipe = {
+    id: 25,
+    a: ITEM_DUST,
+    b: ITEM_WATER,
+    result: ITEM_MUD,
+};
+export const RECIPE_MAKE_ASH: IRecipe = {
+    id: 26,
+    a: ITEM_DUST,
+    b: ITEM_FIRE,
+    result: ITEM_ASH,
+};
+export const RECIPE_MAKE_SANDSTORM: IRecipe = {
+    id: 27,
+    a: ITEM_DUST,
+    b: ITEM_WIND,
+    result: ITEM_SANDSTORM,
+};
+export const RECIPE_MAKE_CLOUD: IRecipe = {
+    id: 28,
+    a: ITEM_SMOKE,
+    b: ITEM_WATER,
+    result: ITEM_CLOUD,
+};
+export const RECIPE_MAKE_ASH: IRecipe = {
+    id: 29,
+    a: ITEM_SMOKE,
+    b: ITEM_EARTH,
+    result: ITEM_ASH,
+};
+export const RECIPE_MAKE_FOG: IRecipe = {
+    id: 30,
+    a: ITEM_SMOKE,
+    b: ITEM_WIND,
+    result: ITEM_FOG,
+};
+export const RECIPE_MAKE_TREE: IRecipe = {
+    id: 31,
+    a: ITEM_PLANT,
+    b: ITEM_WATER,
+    result: ITEM_TREE,
+};
+export const RECIPE_MAKE_ASH: IRecipe = {
+    id: 32,
+    a: ITEM_PLANT,
+    b: ITEM_FIRE,
+    result: ITEM_ASH,
+};
+export const RECIPE_MAKE_FOREST: IRecipe = {
+    id: 33,
+    a: ITEM_PLANT,
+    b: ITEM_EARTH,
+    result: ITEM_FOREST,
+};
+export const RECIPE_MAKE_SEEDS: IRecipe = {
+    id: 34,
+    a: ITEM_PLANT,
+    b: ITEM_WIND,
+    result: ITEM_SEEDS,
+};
+export const RECIPE_MAKE_POTTERY: IRecipe = {
+    id: 35,
+    a: ITEM_CLAY,
+    b: ITEM_FIRE,
+    result: ITEM_POTTERY,
+};
+export const RECIPE_MAKE_SAND: IRecipe = {
+    id: 36,
+    a: ITEM_CLAY,
+    b: ITEM_WIND,
+    result: ITEM_SAND,
+};
+export const RECIPE_MAKE_BRICK: IRecipe = {
+    id: 37,
+    a: ITEM_CLAY,
+    b: ITEM_EARTH,
+    result: ITEM_BRICK,
+};
+export const RECIPE_MAKE_QUICKSAND: IRecipe = {
+    id: 38,
+    a: ITEM_SAND,
+    b: ITEM_WATER,
+    result: ITEM_QUICKSAND,
+};
+export const RECIPE_MAKE_GLASS: IRecipe = {
+    id: 39,
+    a: ITEM_SAND,
+    b: ITEM_FIRE,
+    result: ITEM_GLASS,
+};
+export const RECIPE_MAKE_DUNE: IRecipe = {
+    id: 40,
+    a: ITEM_SAND,
+    b: ITEM_WIND,
+    result: ITEM_DUNE,
+};
+export const RECIPE_MAKE_FOREST: IRecipe = {
+    id: 41,
+    a: ITEM_TREE,
+    b: ITEM_WATER,
+    result: ITEM_FOREST,
+};
+export const RECIPE_MAKE_CHARCOAL: IRecipe = {
+    id: 42,
+    a: ITEM_TREE,
+    b: ITEM_FIRE,
+    result: ITEM_CHARCOAL,
+};
+export const RECIPE_MAKE_FOREST: IRecipe = {
+    id: 43,
+    a: ITEM_TREE,
+    b: ITEM_EARTH,
+    result: ITEM_FOREST,
+};
+export const RECIPE_MAKE_LEAVES: IRecipe = {
+    id: 44,
+    a: ITEM_TREE,
+    b: ITEM_WIND,
+    result: ITEM_LEAVES,
+};
+export const RECIPE_MAKE_WILDFIRE: IRecipe = {
+    id: 45,
+    a: ITEM_FOREST,
+    b: ITEM_FIRE,
+    result: ITEM_WILDFIRE,
+};
+export const RECIPE_MAKE_LEAVES: IRecipe = {
+    id: 46,
+    a: ITEM_FOREST,
+    b: ITEM_WIND,
+    result: ITEM_LEAVES,
+};
+export const RECIPE_MAKE_JUNGLE: IRecipe = {
+    id: 47,
+    a: ITEM_FOREST,
+    b: ITEM_EARTH,
+    result: ITEM_JUNGLE,
+};
+export const RECIPE_MAKE_FROSTED_GLASS: IRecipe = {
+    id: 48,
+    a: ITEM_GLASS,
+    b: ITEM_WATER,
+    result: ITEM_FROSTED_GLASS,
+};
+export const RECIPE_MAKE_CRYSTAL: IRecipe = {
+    id: 49,
+    a: ITEM_GLASS,
+    b: ITEM_EARTH,
+    result: ITEM_CRYSTAL,
+};
+export const RECIPE_MAKE_SANDSTORM: IRecipe = {
+    id: 50,
+    a: ITEM_GLASS,
+    b: ITEM_WIND,
+    result: ITEM_SANDSTORM,
+};
+export const RECIPE_MAKE_MAGMA: IRecipe = {
+    id: 51,
+    a: ITEM_OBSIDIAN,
+    b: ITEM_FIRE,
+    result: ITEM_MAGMA,
+};
+export const RECIPE_MAKE_ROCK: IRecipe = {
+    id: 52,
+    a: ITEM_OBSIDIAN,
+    b: ITEM_EARTH,
+    result: ITEM_ROCK,
+};
+export const RECIPE_MAKE_SHARD: IRecipe = {
+    id: 53,
+    a: ITEM_OBSIDIAN,
+    b: ITEM_WIND,
+    result: ITEM_SHARD,
+};
+export const RECIPE_MAKE_PEBBLE: IRecipe = {
+    id: 54,
+    a: ITEM_ROCK,
+    b: ITEM_WATER,
+    result: ITEM_PEBBLE,
+};
+export const RECIPE_MAKE_LAVA: IRecipe = {
+    id: 55,
+    a: ITEM_ROCK,
+    b: ITEM_FIRE,
+    result: ITEM_LAVA,
+};
+export const RECIPE_MAKE_MOUNTAIN: IRecipe = {
+    id: 56,
+    a: ITEM_ROCK,
+    b: ITEM_EARTH,
+    result: ITEM_MOUNTAIN,
+};
+export const RECIPE_MAKE_SAND: IRecipe = {
+    id: 57,
+    a: ITEM_ROCK,
+    b: ITEM_WIND,
+    result: ITEM_SAND,
+};
+export const RECIPE_MAKE_MUD: IRecipe = {
+    id: 58,
+    a: ITEM_ASH,
+    b: ITEM_WATER,
+    result: ITEM_MUD,
+};
+export const RECIPE_MAKE_FERTILIZER: IRecipe = {
+    id: 59,
+    a: ITEM_ASH,
+    b: ITEM_EARTH,
+    result: ITEM_FERTILIZER,
+};
+export const RECIPE_MAKE_SOOT: IRecipe = {
+    id: 60,
+    a: ITEM_ASH,
+    b: ITEM_WIND,
+    result: ITEM_SOOT,
+};
+export const RECIPE_MAKE_LIGHTNING: IRecipe = {
+    id: 61,
+    a: ITEM_CLOUD,
+    b: ITEM_FIRE,
+    result: ITEM_LIGHTNING,
+};
+export const RECIPE_MAKE_FOG: IRecipe = {
+    id: 62,
+    a: ITEM_CLOUD,
+    b: ITEM_EARTH,
+    result: ITEM_FOG,
+};
+export const RECIPE_MAKE_STORM: IRecipe = {
+    id: 63,
+    a: ITEM_CLOUD,
+    b: ITEM_WIND,
+    result: ITEM_STORM,
+};
+export const RECIPE_MAKE_CLOUD: IRecipe = {
+    id: 64,
+    a: ITEM_FOG,
+    b: ITEM_WATER,
+    result: ITEM_CLOUD,
+};
+export const RECIPE_MAKE_STEAM: IRecipe = {
+    id: 65,
+    a: ITEM_FOG,
+    b: ITEM_FIRE,
+    result: ITEM_STEAM,
+};
+export const RECIPE_MAKE_MIST: IRecipe = {
+    id: 66,
+    a: ITEM_FOG,
+    b: ITEM_EARTH,
+    result: ITEM_MIST,
+};
+export const RECIPE_MAKE_HAZE: IRecipe = {
+    id: 67,
+    a: ITEM_FOG,
+    b: ITEM_WIND,
+    result: ITEM_HAZE,
+};
+export const RECIPE_MAKE_FLOOD: IRecipe = {
+    id: 68,
+    a: ITEM_STORM,
+    b: ITEM_WATER,
+    result: ITEM_FLOOD,
+};
+export const RECIPE_MAKE_LANDSLIDE: IRecipe = {
+    id: 69,
+    a: ITEM_STORM,
+    b: ITEM_EARTH,
+    result: ITEM_LANDSLIDE,
+};
+export const RECIPE_MAKE_THUNDER: IRecipe = {
+    id: 70,
+    a: ITEM_STORM,
+    b: ITEM_FIRE,
+    result: ITEM_THUNDER,
+};
+export const RECIPE_MAKE_TORNADO: IRecipe = {
+    id: 71,
+    a: ITEM_STORM,
+    b: ITEM_WIND,
+    result: ITEM_TORNADO,
+};
+export const RECIPE_MAKE_ASH: IRecipe = {
+    id: 72,
+    a: ITEM_FIRE,
+    b: ITEM_DUST,
+    result: ITEM_ASH,
+};
+export const RECIPE_MAKE_RAIN: IRecipe = {
+    id: 73,
+    a: ITEM_WATER,
+    b: ITEM_CLOUD,
+    result: ITEM_RAIN,
+};
+export const RECIPE_MAKE_CLOUD: IRecipe = {
+    id: 74,
+    a: ITEM_WATER,
+    b: ITEM_FOG,
+    result: ITEM_CLOUD,
+};
+export const RECIPE_MAKE_GARDEN: IRecipe = {
+    id: 75,
+    a: ITEM_EARTH,
+    b: ITEM_PLANT,
+    result: ITEM_GARDEN,
+};
+export const RECIPE_MAKE_FOREST: IRecipe = {
+    id: 76,
+    a: ITEM_EARTH,
+    b: ITEM_TREE,
+    result: ITEM_FOREST,
+};
+export const RECIPE_MAKE_EMBER: IRecipe = {
+    id: 77,
+    a: ITEM_FIRE,
+    b: ITEM_ASH,
+    result: ITEM_EMBER,
+};
+export const RECIPE_MAKE_KILN: IRecipe = {
+    id: 78,
+    a: ITEM_FIRE,
+    b: ITEM_POTTERY,
+    result: ITEM_KILN,
+};
+export const RECIPE_MAKE_POLLINATION: IRecipe = {
+    id: 79,
+    a: ITEM_WIND,
+    b: ITEM_PLANT,
+    result: ITEM_POLLINATION,
+};
+export const RECIPE_MAKE_HAZE: IRecipe = {
+    id: 80,
+    a: ITEM_WIND,
+    b: ITEM_SMOKE,
+    result: ITEM_HAZE,
+};
+export const RECIPE_MAKE_SINKHOLE: IRecipe = {
+    id: 81,
+    a: ITEM_EARTH,
+    b: ITEM_QUICKSAND,
+    result: ITEM_SINKHOLE,
+};
+export const RECIPE_MAKE_BEACH: IRecipe = {
+    id: 82,
+    a: ITEM_WATER,
+    b: ITEM_SAND,
+    result: ITEM_BEACH,
+};
+export const RECIPE_MAKE_WETSTONE: IRecipe = {
+    id: 83,
+    a: ITEM_WATER,
+    b: ITEM_OBSIDIAN,
+    result: ITEM_WETSTONE,
+};
+export const RECIPE_MAKE_MAGMA: IRecipe = {
+    id: 84,
+    a: ITEM_FIRE,
+    b: ITEM_ROCK,
+    result: ITEM_MAGMA,
+};
+export const RECIPE_MAKE_EROSION: IRecipe = {
+    id: 85,
+    a: ITEM_WIND,
+    b: ITEM_ROCK,
+    result: ITEM_EROSION,
+};
+export const RECIPE_MAKE_BASALT: IRecipe = {
+    id: 86,
+    a: ITEM_WATER,
+    b: ITEM_LAVA,
+    result: ITEM_BASALT,
+};
+export const RECIPE_MAKE_OBSIDIAN: IRecipe = {
+    id: 87,
+    a: ITEM_WATER,
+    b: ITEM_MAGMA,
+    result: ITEM_OBSIDIAN,
+};
+export const RECIPE_MAKE_MAGMA_CHAMBER: IRecipe = {
+    id: 88,
+    a: ITEM_EARTH,
+    b: ITEM_LAVA,
+    result: ITEM_MAGMA_CHAMBER,
+};
+export const RECIPE_MAKE_BREEZE: IRecipe = {
+    id: 89,
+    a: ITEM_WIND,
+    b: ITEM_DUST,
+    result: ITEM_BREEZE,
+};
+export const RECIPE_MAKE_WARM_BREEZE: IRecipe = {
+    id: 90,
+    a: ITEM_FIRE,
+    b: ITEM_BREEZE,
+    result: ITEM_WARM_BREEZE,
+};
+export const RECIPE_MAKE_SOIL: IRecipe = {
+    id: 91,
+    a: ITEM_EARTH,
+    b: ITEM_PLANT,
+    result: ITEM_SOIL,
+};
+export const RECIPE_MAKE_MUD: IRecipe = {
+    id: 92,
+    a: ITEM_WATER,
+    b: ITEM_SOIL,
+    result: ITEM_MUD,
+};
+export const RECIPE_MAKE_CANYON: IRecipe = {
+    id: 93,
+    a: ITEM_WATER,
+    b: ITEM_EROSION,
+    result: ITEM_CANYON,
+};
+export const RECIPE_MAKE_CHARCOAL: IRecipe = {
+    id: 94,
+    a: ITEM_FIRE,
+    b: ITEM_PLANT,
+    result: ITEM_CHARCOAL,
+};
+export const RECIPE_MAKE_WINDMILL: IRecipe = {
+    id: 95,
+    a: ITEM_WIND,
+    b: ITEM_PLANT,
+    result: ITEM_WINDMILL,
+};
+export const RECIPE_MAKE_ADOBE: IRecipe = {
+    id: 96,
+    a: ITEM_EARTH,
+    b: ITEM_CLAY,
+    result: ITEM_ADOBE,
+};
+export const RECIPE_MAKE_GLASS: IRecipe = {
+    id: 97,
+    a: ITEM_FIRE,
+    b: ITEM_QUICKSAND,
+    result: ITEM_GLASS,
+};
+export const RECIPE_MAKE_WALL: IRecipe = {
+    id: 98,
+    a: ITEM_EARTH,
+    b: ITEM_BRICK,
+    result: ITEM_WALL,
+};
+export const RECIPE_MAKE_SANDSTORM: IRecipe = {
+    id: 99,
+    a: ITEM_WIND,
+    b: ITEM_EROSION,
+    result: ITEM_SANDSTORM,
+};
+export const RECIPE_MAKE_PUMICE: IRecipe = {
+    id: 100,
+    a: ITEM_WATER,
+    b: ITEM_ASH,
+    result: ITEM_PUMICE,
+};
+export const RECIPE_MAKE_BARBECUE: IRecipe = {
+    id: 101,
+    a: ITEM_FIRE,
+    b: ITEM_CHARCOAL,
+    result: ITEM_BARBECUE,
+};
+export const RECIPE_MAKE_FARM: IRecipe = {
+    id: 102,
+    a: ITEM_EARTH,
+    b: ITEM_SEEDS,
+    result: ITEM_FARM,
+};
+export const RECIPE_MAKE_STEAM: IRecipe = {
+    id: 103,
+    a: ITEM_WATER,
+    b: ITEM_KILN,
+    result: ITEM_STEAM,
+};
+export const RECIPE_MAKE_SHARDS: IRecipe = {
+    id: 104,
+    a: ITEM_WIND,
+    b: ITEM_OBSIDIAN,
+    result: ITEM_SHARDS,
+};
+export const RECIPE_MAKE_CRYSTAL: IRecipe = {
+    id: 105,
+    a: ITEM_EARTH,
+    b: ITEM_OBSIDIAN,
+    result: ITEM_CRYSTAL,
+};
+export const RECIPE_MAKE_MOLTEN_GLASS: IRecipe = {
+    id: 106,
+    a: ITEM_FIRE,
+    b: ITEM_CRYSTAL,
+    result: ITEM_MOLTEN_GLASS,
+};
+export const RECIPE_MAKE_PRISM: IRecipe = {
+    id: 107,
+    a: ITEM_WATER,
+    b: ITEM_CRYSTAL,
+    result: ITEM_PRISM,
+};
+export const RECIPE_MAKE_SPARKLE: IRecipe = {
+    id: 108,
+    a: ITEM_WIND,
+    b: ITEM_CRYSTAL,
+    result: ITEM_SPARKLE,
+};
+export const RECIPE_MAKE_DESERT: IRecipe = {
+    id: 109,
+    a: ITEM_EARTH,
+    b: ITEM_BEACH,
+    result: ITEM_DESERT,
+};
+export const RECIPE_MAKE_OASIS: IRecipe = {
+    id: 110,
+    a: ITEM_WATER,
+    b: ITEM_DESERT,
+    result: ITEM_OASIS,
+};
+export const RECIPE_MAKE_MIRAGE: IRecipe = {
+    id: 111,
+    a: ITEM_FIRE,
+    b: ITEM_DESERT,
+    result: ITEM_MIRAGE,
+};
+export const RECIPE_MAKE_SAND_DUNE: IRecipe = {
+    id: 112,
+    a: ITEM_WIND,
+    b: ITEM_DESERT,
+    result: ITEM_SAND_DUNE,
+};
+export const RECIPE_MAKE_DAM: IRecipe = {
+    id: 113,
+    a: ITEM_WATER,
+    b: ITEM_WALL,
+    result: ITEM_DAM,
+};
+export const RECIPE_MAKE_FIREWALL: IRecipe = {
+    id: 114,
+    a: ITEM_FIRE,
+    b: ITEM_WALL,
+    result: ITEM_FIREWALL,
+};
+export const RECIPE_MAKE_BARRICADE: IRecipe = {
+    id: 115,
+    a: ITEM_WIND,
+    b: ITEM_WALL,
+    result: ITEM_BARRICADE,
+};
+export const RECIPE_MAKE_PLATEAU: IRecipe = {
+    id: 116,
+    a: ITEM_EARTH,
+    b: ITEM_CANYON,
+    result: ITEM_PLATEAU,
+};
+export const RECIPE_MAKE_POND: IRecipe = {
+    id: 117,
+    a: ITEM_WATER,
+    b: ITEM_GARDEN,
+    result: ITEM_POND,
+};
+export const RECIPE_MAKE_WILDFIRE: IRecipe = {
+    id: 118,
+    a: ITEM_FIRE,
+    b: ITEM_GARDEN,
+    result: ITEM_WILDFIRE,
+};
+export const RECIPE_MAKE_AROMAS: IRecipe = {
+    id: 119,
+    a: ITEM_WIND,
+    b: ITEM_GARDEN,
+    result: ITEM_AROMAS,
+};
+export const RECIPE_MAKE_OASIS: IRecipe = {
+    id: 120,
+    a: ITEM_EARTH,
+    b: ITEM_POND,
+    result: ITEM_OASIS,
+};
+export const RECIPE_MAKE_FLOWER: IRecipe = {
+    id: 121,
+    a: ITEM_WATER,
+    b: ITEM_POLLINATION,
+    result: ITEM_FLOWER,
+};
+export const RECIPE_MAKE_SPORE: IRecipe = {
+    id: 122,
+    a: ITEM_FIRE,
+    b: ITEM_POLLINATION,
+    result: ITEM_SPORE,
+};
+export const RECIPE_MAKE_SPREAD: IRecipe = {
+    id: 123,
+    a: ITEM_WIND,
+    b: ITEM_POLLINATION,
+    result: ITEM_SPREAD,
+};
+export const RECIPE_MAKE_FERTILE_LAND: IRecipe = {
+    id: 124,
+    a: ITEM_EARTH,
+    b: ITEM_SOIL,
+    result: ITEM_FERTILE_LAND,
+};
+export const RECIPE_MAKE_WETLAND: IRecipe = {
+    id: 125,
+    a: ITEM_WATER,
+    b: ITEM_FERTILE_LAND,
+    result: ITEM_WETLAND,
+};
+export const RECIPE_MAKE_PEAT: IRecipe = {
+    id: 126,
+    a: ITEM_FIRE,
+    b: ITEM_WETLAND,
+    result: ITEM_PEAT,
+};
+export const RECIPE_MAKE_REEDS: IRecipe = {
+    id: 127,
+    a: ITEM_WIND,
+    b: ITEM_WETLAND,
+    result: ITEM_REEDS,
+};
+export const RECIPE_MAKE_VALLEY: IRecipe = {
+    id: 128,
+    a: ITEM_EARTH,
+    b: ITEM_CANYON,
+    result: ITEM_VALLEY,
+};
+export const RECIPE_MAKE_RIVER: IRecipe = {
+    id: 129,
+    a: ITEM_WATER,
+    b: ITEM_VALLEY,
+    result: ITEM_RIVER,
+};
+export const RECIPE_MAKE_SCORCHED_EARTH: IRecipe = {
+    id: 130,
+    a: ITEM_FIRE,
+    b: ITEM_VALLEY,
+    result: ITEM_SCORCHED_EARTH,
+};
+export const RECIPE_MAKE_BREEZE: IRecipe = {
+    id: 131,
+    a: ITEM_WIND,
+    b: ITEM_VALLEY,
+    result: ITEM_BREEZE,
+};
+export const RECIPE_MAKE_DELTA: IRecipe = {
+    id: 132,
+    a: ITEM_EARTH,
+    b: ITEM_RIVER,
+    result: ITEM_DELTA,
+};
+export const RECIPE_MAKE_ESTUARY: IRecipe = {
+    id: 133,
+    a: ITEM_WATER,
+    b: ITEM_DELTA,
+    result: ITEM_ESTUARY,
+};
+export const RECIPE_MAKE_FIRE_SWAMP: IRecipe = {
+    id: 134,
+    a: ITEM_FIRE,
+    b: ITEM_DELTA,
+    result: ITEM_FIRE_SWAMP,
+};
+export const RECIPE_MAKE_RIVERBANK: IRecipe = {
+    id: 135,
+    a: ITEM_WIND,
+    b: ITEM_DELTA,
+    result: ITEM_RIVERBANK,
+};
+export const RECIPE_MAKE_RAVINE: IRecipe = {
+    id: 136,
+    a: ITEM_EARTH,
+    b: ITEM_EROSION,
+    result: ITEM_RAVINE,
+};
+export const RECIPE_MAKE_GORGE: IRecipe = {
+    id: 137,
+    a: ITEM_WATER,
+    b: ITEM_RAVINE,
+    result: ITEM_GORGE,
+};
+export const RECIPE_MAKE_CHARRED_RAVINE: IRecipe = {
+    id: 138,
+    a: ITEM_FIRE,
+    b: ITEM_RAVINE,
+    result: ITEM_CHARRED_RAVINE,
+};
+export const RECIPE_MAKE_ECHO: IRecipe = {
+    id: 139,
+    a: ITEM_WIND,
+    b: ITEM_RAVINE,
+    result: ITEM_ECHO,
+};
+export const RECIPE_MAKE_CAVE: IRecipe = {
+    id: 140,
+    a: ITEM_EARTH,
+    b: ITEM_ECHO,
+    result: ITEM_CAVE,
+};
+export const RECIPE_MAKE_UNDERGROUND_LAKE: IRecipe = {
+    id: 141,
+    a: ITEM_WATER,
+    b: ITEM_CAVE,
+    result: ITEM_UNDERGROUND_LAKE,
+};
+export const RECIPE_MAKE_LAVA_CAVE: IRecipe = {
+    id: 142,
+    a: ITEM_FIRE,
+    b: ITEM_CAVE,
+    result: ITEM_LAVA_CAVE,
+};
+export const RECIPE_MAKE_WHISPERING_CAVE: IRecipe = {
+    id: 143,
+    a: ITEM_WIND,
+    b: ITEM_CAVE,
+    result: ITEM_WHISPERING_CAVE,
+};
+export const RECIPE_MAKE_SUBTERRANEAN_POOL: IRecipe = {
+    id: 144,
+    a: ITEM_EARTH,
+    b: ITEM_UNDERGROUND_LAKE,
+    result: ITEM_SUBTERRANEAN_POOL,
+};
+export const RECIPE_MAKE_SPRING: IRecipe = {
+    id: 145,
+    a: ITEM_WATER,
+    b: ITEM_SUBTERRANEAN_POOL,
+    result: ITEM_SPRING,
+};
+export const RECIPE_MAKE_HOT_SPRING: IRecipe = {
+    id: 146,
+    a: ITEM_FIRE,
+    b: ITEM_SUBTERRANEAN_POOL,
+    result: ITEM_HOT_SPRING,
+};
+export const RECIPE_MAKE_GROTTO: IRecipe = {
+    id: 147,
+    a: ITEM_WIND,
+    b: ITEM_SUBTERRANEAN_POOL,
+    result: ITEM_GROTTO,
+};
+export const RECIPE_MAKE_OASIS: IRecipe = {
+    id: 148,
+    a: ITEM_EARTH,
+    b: ITEM_SPRING,
+    result: ITEM_OASIS,
+};
+export const RECIPE_MAKE_FOUNTAIN: IRecipe = {
+    id: 149,
+    a: ITEM_WATER,
+    b: ITEM_SPRING,
+    result: ITEM_FOUNTAIN,
+};
+export const RECIPE_MAKE_STEAM_VENT: IRecipe = {
+    id: 150,
+    a: ITEM_FIRE,
+    b: ITEM_SPRING,
+    result: ITEM_STEAM_VENT,
+};
+export const RECIPE_MAKE_COOL_BREEZE: IRecipe = {
+    id: 151,
+    a: ITEM_WIND,
+    b: ITEM_SPRING,
+    result: ITEM_COOL_BREEZE,
+};
+export const RECIPE_MAKE_MONUMENT: IRecipe = {
+    id: 152,
+    a: ITEM_EARTH,
+    b: ITEM_FOUNTAIN,
+    result: ITEM_MONUMENT,
+};
+export const RECIPE_MAKE_WATERFALL: IRecipe = {
+    id: 153,
+    a: ITEM_WATER,
+    b: ITEM_MONUMENT,
+    result: ITEM_WATERFALL,
+};
+export const RECIPE_MAKE_ETERNAL_FLAME: IRecipe = {
+    id: 154,
+    a: ITEM_FIRE,
+    b: ITEM_MONUMENT,
+    result: ITEM_ETERNAL_FLAME,
+};
+export const RECIPE_MAKE_PILLAR_OF_WIND: IRecipe = {
+    id: 155,
+    a: ITEM_WIND,
+    b: ITEM_MONUMENT,
+    result: ITEM_PILLAR_OF_WIND,
+};
+export const RECIPE_MAKE_RIVER: IRecipe = {
+    id: 156,
+    a: ITEM_EARTH,
+    b: ITEM_WATERFALL,
+    result: ITEM_RIVER,
+};
+export const RECIPE_MAKE_STREAM: IRecipe = {
+    id: 157,
+    a: ITEM_WATER,
+    b: ITEM_RIVER,
+    result: ITEM_STREAM,
+};
+export const RECIPE_MAKE_STEAM: IRecipe = {
+    id: 158,
+    a: ITEM_FIRE,
+    b: ITEM_RIVER,
+    result: ITEM_STEAM,
+};
+export const RECIPE_MAKE_ZEPHYR: IRecipe = {
+    id: 159,
+    a: ITEM_WIND,
+    b: ITEM_RIVER,
+    result: ITEM_ZEPHYR,
+};
+export const RECIPE_MAKE_CREEK: IRecipe = {
+    id: 160,
+    a: ITEM_EARTH,
+    b: ITEM_STREAM,
+    result: ITEM_CREEK,
+};
+export const RECIPE_MAKE_BROOK: IRecipe = {
+    id: 161,
+    a: ITEM_WATER,
+    b: ITEM_CREEK,
+    result: ITEM_BROOK,
+};
+export const RECIPE_MAKE_STEAM: IRecipe = {
+    id: 162,
+    a: ITEM_FIRE,
+    b: ITEM_CREEK,
+    result: ITEM_STEAM,
+};
+export const RECIPE_MAKE_WHISPER: IRecipe = {
+    id: 163,
+    a: ITEM_WIND,
+    b: ITEM_CREEK,
+    result: ITEM_WHISPER,
+};
+export const RECIPE_MAKE_RIVULET: IRecipe = {
+    id: 164,
+    a: ITEM_EARTH,
+    b: ITEM_BROOK,
+    result: ITEM_RIVULET,
+};
+export const RECIPE_MAKE_TRIBUTARY: IRecipe = {
+    id: 165,
+    a: ITEM_WATER,
+    b: ITEM_RIVULET,
+    result: ITEM_TRIBUTARY,
+};
+export const RECIPE_MAKE_STEAM: IRecipe = {
+    id: 166,
+    a: ITEM_FIRE,
+    b: ITEM_RIVULET,
+    result: ITEM_STEAM,
+};
+export const RECIPE_MAKE_MURMUR: IRecipe = {
+    id: 167,
+    a: ITEM_WIND,
+    b: ITEM_RIVULET,
+    result: ITEM_MURMUR,
+};
+export const RECIPE_MAKE_WATERSHED: IRecipe = {
+    id: 168,
+    a: ITEM_EARTH,
+    b: ITEM_TRIBUTARY,
+    result: ITEM_WATERSHED,
+};
+export const RECIPE_MAKE_AQUIFER: IRecipe = {
+    id: 169,
+    a: ITEM_WATER,
+    b: ITEM_WATERSHED,
+    result: ITEM_AQUIFER,
+};
+export const RECIPE_MAKE_PARCHED_EARTH: IRecipe = {
+    id: 170,
+    a: ITEM_FIRE,
+    b: ITEM_WATERSHED,
+    result: ITEM_PARCHED_EARTH,
+};
+export const RECIPE_MAKE_FRESH_BREEZE: IRecipe = {
+    id: 171,
+    a: ITEM_WIND,
+    b: ITEM_WATERSHED,
+    result: ITEM_FRESH_BREEZE,
+};
+export const RECIPE_MAKE_GROUNDWATER: IRecipe = {
+    id: 172,
+    a: ITEM_EARTH,
+    b: ITEM_AQUIFER,
+    result: ITEM_GROUNDWATER,
+};
+export const RECIPE_MAKE_RESERVOIR: IRecipe = {
+    id: 173,
+    a: ITEM_WATER,
+    b: ITEM_GROUNDWATER,
+    result: ITEM_RESERVOIR,
+};
+export const RECIPE_MAKE_GEOTHERMAL_SPRING: IRecipe = {
+    id: 174,
+    a: ITEM_FIRE,
+    b: ITEM_GROUNDWATER,
+    result: ITEM_GEOTHERMAL_SPRING,
+};
+export const RECIPE_MAKE_ARTESIAN_WELL: IRecipe = {
+    id: 175,
+    a: ITEM_WIND,
+    b: ITEM_GROUNDWATER,
+    result: ITEM_ARTESIAN_WELL,
+};
+export const RECIPE_MAKE_BASIN: IRecipe = {
+    id: 176,
+    a: ITEM_EARTH,
+    b: ITEM_RESERVOIR,
+    result: ITEM_BASIN,
+};
+export const RECIPE_MAKE_LAKE: IRecipe = {
+    id: 177,
+    a: ITEM_WATER,
+    b: ITEM_BASIN,
+    result: ITEM_LAKE,
+};
+export const RECIPE_MAKE_DRY_BASIN: IRecipe = {
+    id: 178,
+    a: ITEM_FIRE,
+    b: ITEM_BASIN,
+    result: ITEM_DRY_BASIN,
+};
+export const RECIPE_MAKE_DEPRESSION: IRecipe = {
+    id: 179,
+    a: ITEM_WIND,
+    b: ITEM_BASIN,
+    result: ITEM_DEPRESSION,
+};
+export const RECIPE_MAKE_ISLAND: IRecipe = {
+    id: 180,
+    a: ITEM_EARTH,
+    b: ITEM_LAKE,
+    result: ITEM_ISLAND,
+};
+export const RECIPE_MAKE_LAGOON: IRecipe = {
+    id: 181,
+    a: ITEM_WATER,
+    b: ITEM_LAKE,
+    result: ITEM_LAGOON,
+};
+export const RECIPE_MAKE_STEAM: IRecipe = {
+    id: 182,
+    a: ITEM_FIRE,
+    b: ITEM_LAKE,
+    result: ITEM_STEAM,
+};
+export const RECIPE_MAKE_WAVE: IRecipe = {
+    id: 183,
+    a: ITEM_WIND,
+    b: ITEM_LAKE,
+    result: ITEM_WAVE,
+};
+export const RECIPE_MAKE_REEF: IRecipe = {
+    id: 184,
+    a: ITEM_EARTH,
+    b: ITEM_LAGOON,
+    result: ITEM_REEF,
+};
+export const RECIPE_MAKE_CORAL: IRecipe = {
+    id: 185,
+    a: ITEM_WATER,
+    b: ITEM_REEF,
+    result: ITEM_CORAL,
+};
+export const RECIPE_MAKE_ASH: IRecipe = {
+    id: 186,
+    a: ITEM_FIRE,
+    b: ITEM_REEF,
+    result: ITEM_ASH,
+};
+export const RECIPE_MAKE_WHIRL: IRecipe = {
+    id: 187,
+    a: ITEM_WIND,
+    b: ITEM_REEF,
+    result: ITEM_WHIRL,
+};
+export const RECIPE_MAKE_LIMESTONE: IRecipe = {
+    id: 188,
+    a: ITEM_EARTH,
+    b: ITEM_CORAL,
+    result: ITEM_LIMESTONE,
+};
+export const RECIPE_MAKE_KARST: IRecipe = {
+    id: 189,
+    a: ITEM_WATER,
+    b: ITEM_LIMESTONE,
+    result: ITEM_KARST,
+};
+export const RECIPE_MAKE_QUICKLIME: IRecipe = {
+    id: 190,
+    a: ITEM_FIRE,
+    b: ITEM_LIMESTONE,
+    result: ITEM_QUICKLIME,
+};
+export const RECIPE_MAKE_DUST: IRecipe = {
+    id: 191,
+    a: ITEM_WIND,
+    b: ITEM_LIMESTONE,
+    result: ITEM_DUST,
+};
+export const RECIPE_MAKE_CAVE: IRecipe = {
+    id: 192,
+    a: ITEM_EARTH,
+    b: ITEM_KARST,
+    result: ITEM_CAVE,
+};
+export const RECIPE_MAKE_GEYSER: IRecipe = {
+    id: 193,
+    a: ITEM_WATER,
+    b: ITEM_KARST,
+    result: ITEM_GEYSER,
+};
+export const RECIPE_MAKE_MAGMA_CHAMBER: IRecipe = {
+    id: 194,
+    a: ITEM_FIRE,
+    b: ITEM_KARST,
+    result: ITEM_MAGMA_CHAMBER,
+};
+export const RECIPE_MAKE_BLOWHOLE: IRecipe = {
+    id: 195,
+    a: ITEM_WIND,
+    b: ITEM_KARST,
+    result: ITEM_BLOWHOLE,
+};
+export const RECIPE_MAKE_HOT_SPRING: IRecipe = {
+    id: 196,
+    a: ITEM_EARTH,
+    b: ITEM_GEYSER,
+    result: ITEM_HOT_SPRING,
+};
+export const RECIPE_MAKE_FOUNTAIN: IRecipe = {
+    id: 197,
+    a: ITEM_WATER,
+    b: ITEM_GEYSER,
+    result: ITEM_FOUNTAIN,
+};
+export const RECIPE_MAKE_STEAM_VENT: IRecipe = {
+    id: 198,
+    a: ITEM_FIRE,
+    b: ITEM_GEYSER,
+    result: ITEM_STEAM_VENT,
+};
+export const RECIPE_MAKE_MIST: IRecipe = {
+    id: 199,
+    a: ITEM_WIND,
+    b: ITEM_GEYSER,
+    result: ITEM_MIST,
+};
+export const RECIPE_MAKE_OASIS: IRecipe = {
+    id: 200,
+    a: ITEM_EARTH,
+    b: ITEM_SPRING,
+    result: ITEM_OASIS,
+};
+export const RECIPE_MAKE_FOUNTAIN: IRecipe = {
+    id: 201,
+    a: ITEM_WATER,
+    b: ITEM_SPRING,
+    result: ITEM_FOUNTAIN,
+};
+export const RECIPE_MAKE_STEAM_VENT: IRecipe = {
+    id: 202,
+    a: ITEM_FIRE,
+    b: ITEM_SPRING,
+    result: ITEM_STEAM_VENT,
+};
+export const RECIPE_MAKE_COOL_BREEZE: IRecipe = {
+    id: 203,
+    a: ITEM_WIND,
+    b: ITEM_SPRING,
+    result: ITEM_COOL_BREEZE,
+};
+export const RECIPE_MAKE_MONUMENT: IRecipe = {
+    id: 204,
+    a: ITEM_EARTH,
+    b: ITEM_FOUNTAIN,
+    result: ITEM_MONUMENT,
+};
+export const RECIPE_MAKE_WATERFALL: IRecipe = {
+    id: 205,
+    a: ITEM_WATER,
+    b: ITEM_MONUMENT,
+    result: ITEM_WATERFALL,
+};
+export const RECIPE_MAKE_ETERNAL_FLAME: IRecipe = {
+    id: 206,
+    a: ITEM_FIRE,
+    b: ITEM_MONUMENT,
+    result: ITEM_ETERNAL_FLAME,
+};
+export const RECIPE_MAKE_PILLAR_OF_WIND: IRecipe = {
+    id: 207,
+    a: ITEM_WIND,
+    b: ITEM_MONUMENT,
+    result: ITEM_PILLAR_OF_WIND,
+};
+export const RECIPE_MAKE_RIVER: IRecipe = {
+    id: 208,
+    a: ITEM_EARTH,
+    b: ITEM_WATERFALL,
+    result: ITEM_RIVER,
+};
+export const RECIPE_MAKE_STREAM: IRecipe = {
+    id: 209,
+    a: ITEM_WATER,
+    b: ITEM_RIVER,
+    result: ITEM_STREAM,
+};
 
 export const ALL_RECIPES: IRecipe[] = [
     RECIPE_MAKE_SWARM,
@@ -1629,6 +2829,206 @@ export const ALL_RECIPES: IRecipe[] = [
     RECIPE_MAKE_LOCK,
     RECIPE_MAKE_SUPERMARMALADE,
     RECIPE_MAKE_HYPERMARMALADE,
+    RECIPE_MAKE_STEAM,
+    RECIPE_MAKE_MUD,
+    RECIPE_MAKE_LAVA,
+    RECIPE_MAKE_DUST,
+    RECIPE_MAKE_RAIN,
+    RECIPE_MAKE_SMOKE,
+    RECIPE_MAKE_GEYSER,
+    RECIPE_MAKE_CLAY,
+    RECIPE_MAKE_SAND,
+    RECIPE_MAKE_PLANT,
+    RECIPE_MAKE_RAINBOW,
+    RECIPE_MAKE_STORM,
+    RECIPE_MAKE_OBSIDIAN,
+    RECIPE_MAKE_ASH,
+    RECIPE_MAKE_VOLCANO,
+    RECIPE_MAKE_MUD,
+    RECIPE_MAKE_ASH,
+    RECIPE_MAKE_SANDSTORM,
+    RECIPE_MAKE_CLOUD,
+    RECIPE_MAKE_ASH,
+    RECIPE_MAKE_FOG,
+    RECIPE_MAKE_TREE,
+    RECIPE_MAKE_ASH,
+    RECIPE_MAKE_FOREST,
+    RECIPE_MAKE_SEEDS,
+    RECIPE_MAKE_POTTERY,
+    RECIPE_MAKE_SAND,
+    RECIPE_MAKE_BRICK,
+    RECIPE_MAKE_QUICKSAND,
+    RECIPE_MAKE_GLASS,
+    RECIPE_MAKE_DUNE,
+    RECIPE_MAKE_FOREST,
+    RECIPE_MAKE_CHARCOAL,
+    RECIPE_MAKE_FOREST,
+    RECIPE_MAKE_LEAVES,
+    RECIPE_MAKE_WILDFIRE,
+    RECIPE_MAKE_LEAVES,
+    RECIPE_MAKE_JUNGLE,
+    RECIPE_MAKE_FROSTED_GLASS,
+    RECIPE_MAKE_CRYSTAL,
+    RECIPE_MAKE_SANDSTORM,
+    RECIPE_MAKE_MAGMA,
+    RECIPE_MAKE_ROCK,
+    RECIPE_MAKE_SHARD,
+    RECIPE_MAKE_PEBBLE,
+    RECIPE_MAKE_LAVA,
+    RECIPE_MAKE_MOUNTAIN,
+    RECIPE_MAKE_SAND,
+    RECIPE_MAKE_MUD,
+    RECIPE_MAKE_FERTILIZER,
+    RECIPE_MAKE_SOOT,
+    RECIPE_MAKE_LIGHTNING,
+    RECIPE_MAKE_FOG,
+    RECIPE_MAKE_STORM,
+    RECIPE_MAKE_CLOUD,
+    RECIPE_MAKE_STEAM,
+    RECIPE_MAKE_MIST,
+    RECIPE_MAKE_HAZE,
+    RECIPE_MAKE_FLOOD,
+    RECIPE_MAKE_LANDSLIDE,
+    RECIPE_MAKE_THUNDER,
+    RECIPE_MAKE_TORNADO,
+    RECIPE_MAKE_ASH,
+    RECIPE_MAKE_RAIN,
+    RECIPE_MAKE_CLOUD,
+    RECIPE_MAKE_GARDEN,
+    RECIPE_MAKE_FOREST,
+    RECIPE_MAKE_EMBER,
+    RECIPE_MAKE_KILN,
+    RECIPE_MAKE_POLLINATION,
+    RECIPE_MAKE_HAZE,
+    RECIPE_MAKE_SINKHOLE,
+    RECIPE_MAKE_BEACH,
+    RECIPE_MAKE_WETSTONE,
+    RECIPE_MAKE_MAGMA,
+    RECIPE_MAKE_EROSION,
+    RECIPE_MAKE_BASALT,
+    RECIPE_MAKE_OBSIDIAN,
+    RECIPE_MAKE_MAGMA_CHAMBER,
+    RECIPE_MAKE_BREEZE,
+    RECIPE_MAKE_WARM_BREEZE,
+    RECIPE_MAKE_SOIL,
+    RECIPE_MAKE_MUD,
+    RECIPE_MAKE_CANYON,
+    RECIPE_MAKE_CHARCOAL,
+    RECIPE_MAKE_WINDMILL,
+    RECIPE_MAKE_ADOBE,
+    RECIPE_MAKE_GLASS,
+    RECIPE_MAKE_WALL,
+    RECIPE_MAKE_SANDSTORM,
+    RECIPE_MAKE_PUMICE,
+    RECIPE_MAKE_BARBECUE,
+    RECIPE_MAKE_FARM,
+    RECIPE_MAKE_STEAM,
+    RECIPE_MAKE_SHARDS,
+    RECIPE_MAKE_CRYSTAL,
+    RECIPE_MAKE_MOLTEN_GLASS,
+    RECIPE_MAKE_PRISM,
+    RECIPE_MAKE_SPARKLE,
+    RECIPE_MAKE_DESERT,
+    RECIPE_MAKE_OASIS,
+    RECIPE_MAKE_MIRAGE,
+    RECIPE_MAKE_SAND_DUNE,
+    RECIPE_MAKE_DAM,
+    RECIPE_MAKE_FIREWALL,
+    RECIPE_MAKE_BARRICADE,
+    RECIPE_MAKE_PLATEAU,
+    RECIPE_MAKE_POND,
+    RECIPE_MAKE_WILDFIRE,
+    RECIPE_MAKE_AROMAS,
+    RECIPE_MAKE_OASIS,
+    RECIPE_MAKE_FLOWER,
+    RECIPE_MAKE_SPORE,
+    RECIPE_MAKE_SPREAD,
+    RECIPE_MAKE_FERTILE_LAND,
+    RECIPE_MAKE_WETLAND,
+    RECIPE_MAKE_PEAT,
+    RECIPE_MAKE_REEDS,
+    RECIPE_MAKE_VALLEY,
+    RECIPE_MAKE_RIVER,
+    RECIPE_MAKE_SCORCHED_EARTH,
+    RECIPE_MAKE_BREEZE,
+    RECIPE_MAKE_DELTA,
+    RECIPE_MAKE_ESTUARY,
+    RECIPE_MAKE_FIRE_SWAMP,
+    RECIPE_MAKE_RIVERBANK,
+    RECIPE_MAKE_RAVINE,
+    RECIPE_MAKE_GORGE,
+    RECIPE_MAKE_CHARRED_RAVINE,
+    RECIPE_MAKE_ECHO,
+    RECIPE_MAKE_CAVE,
+    RECIPE_MAKE_UNDERGROUND_LAKE,
+    RECIPE_MAKE_LAVA_CAVE,
+    RECIPE_MAKE_WHISPERING_CAVE,
+    RECIPE_MAKE_SUBTERRANEAN_POOL,
+    RECIPE_MAKE_SPRING,
+    RECIPE_MAKE_HOT_SPRING,
+    RECIPE_MAKE_GROTTO,
+    RECIPE_MAKE_OASIS,
+    RECIPE_MAKE_FOUNTAIN,
+    RECIPE_MAKE_STEAM_VENT,
+    RECIPE_MAKE_COOL_BREEZE,
+    RECIPE_MAKE_MONUMENT,
+    RECIPE_MAKE_WATERFALL,
+    RECIPE_MAKE_ETERNAL_FLAME,
+    RECIPE_MAKE_PILLAR_OF_WIND,
+    RECIPE_MAKE_RIVER,
+    RECIPE_MAKE_STREAM,
+    RECIPE_MAKE_STEAM,
+    RECIPE_MAKE_ZEPHYR,
+    RECIPE_MAKE_CREEK,
+    RECIPE_MAKE_BROOK,
+    RECIPE_MAKE_STEAM,
+    RECIPE_MAKE_WHISPER,
+    RECIPE_MAKE_RIVULET,
+    RECIPE_MAKE_TRIBUTARY,
+    RECIPE_MAKE_STEAM,
+    RECIPE_MAKE_MURMUR,
+    RECIPE_MAKE_WATERSHED,
+    RECIPE_MAKE_AQUIFER,
+    RECIPE_MAKE_PARCHED_EARTH,
+    RECIPE_MAKE_FRESH_BREEZE,
+    RECIPE_MAKE_GROUNDWATER,
+    RECIPE_MAKE_RESERVOIR,
+    RECIPE_MAKE_GEOTHERMAL_SPRING,
+    RECIPE_MAKE_ARTESIAN_WELL,
+    RECIPE_MAKE_BASIN,
+    RECIPE_MAKE_LAKE,
+    RECIPE_MAKE_DRY_BASIN,
+    RECIPE_MAKE_DEPRESSION,
+    RECIPE_MAKE_ISLAND,
+    RECIPE_MAKE_LAGOON,
+    RECIPE_MAKE_STEAM,
+    RECIPE_MAKE_WAVE,
+    RECIPE_MAKE_REEF,
+    RECIPE_MAKE_CORAL,
+    RECIPE_MAKE_ASH,
+    RECIPE_MAKE_WHIRL,
+    RECIPE_MAKE_LIMESTONE,
+    RECIPE_MAKE_KARST,
+    RECIPE_MAKE_QUICKLIME,
+    RECIPE_MAKE_DUST,
+    RECIPE_MAKE_CAVE,
+    RECIPE_MAKE_GEYSER,
+    RECIPE_MAKE_MAGMA_CHAMBER,
+    RECIPE_MAKE_BLOWHOLE,
+    RECIPE_MAKE_HOT_SPRING,
+    RECIPE_MAKE_FOUNTAIN,
+    RECIPE_MAKE_STEAM_VENT,
+    RECIPE_MAKE_MIST,
+    RECIPE_MAKE_OASIS,
+    RECIPE_MAKE_FOUNTAIN,
+    RECIPE_MAKE_STEAM_VENT,
+    RECIPE_MAKE_COOL_BREEZE,
+    RECIPE_MAKE_MONUMENT,
+    RECIPE_MAKE_WATERFALL,
+    RECIPE_MAKE_ETERNAL_FLAME,
+    RECIPE_MAKE_PILLAR_OF_WIND,
+    RECIPE_MAKE_RIVER,
+    RECIPE_MAKE_STREAM,
 ];
 
 export const GAME_UNIFIERS_ITEMS: Array<IItem> = [
