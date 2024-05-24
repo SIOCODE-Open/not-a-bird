@@ -40,6 +40,9 @@ pub mod elementy {
         buy_offer_price_native_tokens: u128,
         buy_offer_reward_tier_points: u128,
         buy_offer_is_set: bool,
+        pool_round: u128,
+        pool_target: u128,
+        pool_value: u128,
     }
 
     struct Element {
@@ -2243,433 +2246,433 @@ pub mod elementy {
     }
 
     fn find_recipe(index: u32) -> Option<Recipe> {
-        if index == 0 {
+        if index == 10 {
             return Some(RECIPE_MAKE_STEAM);
         }
-        if index == 1 {
+        if index == 11 {
             return Some(RECIPE_MAKE_MUD);
         }
-        if index == 2 {
+        if index == 12 {
             return Some(RECIPE_MAKE_LAVA);
         }
-        if index == 3 {
+        if index == 13 {
             return Some(RECIPE_MAKE_DUST);
         }
-        if index == 4 {
+        if index == 14 {
             return Some(RECIPE_MAKE_RAIN);
         }
-        if index == 5 {
+        if index == 15 {
             return Some(RECIPE_MAKE_SMOKE);
         }
-        if index == 6 {
+        if index == 16 {
             return Some(RECIPE_MAKE_GEYSER);
         }
-        if index == 7 {
+        if index == 17 {
             return Some(RECIPE_MAKE_CLAY);
         }
-        if index == 8 {
+        if index == 18 {
             return Some(RECIPE_MAKE_SAND);
         }
-        if index == 9 {
+        if index == 19 {
             return Some(RECIPE_MAKE_PLANT);
         }
-        if index == 10 {
+        if index == 20 {
             return Some(RECIPE_MAKE_RAINBOW);
         }
-        if index == 11 {
+        if index == 21 {
             return Some(RECIPE_MAKE_STORM);
         }
-        if index == 12 {
+        if index == 22 {
             return Some(RECIPE_MAKE_OBSIDIAN);
         }
-        if index == 13 {
+        if index == 23 {
             return Some(RECIPE_MAKE_ASH);
         }
-        if index == 14 {
+        if index == 24 {
             return Some(RECIPE_MAKE_VOLCANO);
         }
-        if index == 15 {
+        if index == 25 {
             return Some(RECIPE_MAKE_SANDSTORM);
         }
-        if index == 16 {
+        if index == 26 {
             return Some(RECIPE_MAKE_CLOUD);
         }
-        if index == 17 {
+        if index == 27 {
             return Some(RECIPE_MAKE_FOG);
         }
-        if index == 18 {
+        if index == 28 {
             return Some(RECIPE_MAKE_TREE);
         }
-        if index == 19 {
+        if index == 29 {
             return Some(RECIPE_MAKE_FOREST);
         }
-        if index == 20 {
+        if index == 30 {
             return Some(RECIPE_MAKE_SEEDS);
         }
-        if index == 21 {
+        if index == 31 {
             return Some(RECIPE_MAKE_POTTERY);
         }
-        if index == 22 {
+        if index == 32 {
             return Some(RECIPE_MAKE_BRICK);
         }
-        if index == 23 {
+        if index == 33 {
             return Some(RECIPE_MAKE_QUICKSAND);
         }
-        if index == 24 {
+        if index == 34 {
             return Some(RECIPE_MAKE_GLASS);
         }
-        if index == 25 {
+        if index == 35 {
             return Some(RECIPE_MAKE_DUNE);
         }
-        if index == 26 {
+        if index == 36 {
             return Some(RECIPE_MAKE_CHARCOAL);
         }
-        if index == 27 {
+        if index == 37 {
             return Some(RECIPE_MAKE_LEAVES);
         }
-        if index == 28 {
+        if index == 38 {
             return Some(RECIPE_MAKE_WILDFIRE);
         }
-        if index == 29 {
+        if index == 39 {
             return Some(RECIPE_MAKE_JUNGLE);
         }
-        if index == 30 {
+        if index == 40 {
             return Some(RECIPE_MAKE_FROSTED_GLASS);
         }
-        if index == 31 {
+        if index == 41 {
             return Some(RECIPE_MAKE_CRYSTAL);
         }
-        if index == 32 {
+        if index == 42 {
             return Some(RECIPE_MAKE_MAGMA);
         }
-        if index == 33 {
+        if index == 43 {
             return Some(RECIPE_MAKE_ROCK);
         }
-        if index == 34 {
+        if index == 44 {
             return Some(RECIPE_MAKE_SHARD);
         }
-        if index == 35 {
+        if index == 45 {
             return Some(RECIPE_MAKE_PEBBLE);
         }
-        if index == 36 {
+        if index == 46 {
             return Some(RECIPE_MAKE_MOUNTAIN);
         }
-        if index == 37 {
+        if index == 47 {
             return Some(RECIPE_MAKE_FERTILIZER);
         }
-        if index == 38 {
+        if index == 48 {
             return Some(RECIPE_MAKE_SOOT);
         }
-        if index == 39 {
+        if index == 49 {
             return Some(RECIPE_MAKE_LIGHTNING);
         }
-        if index == 40 {
+        if index == 50 {
             return Some(RECIPE_MAKE_MIST);
         }
-        if index == 41 {
+        if index == 51 {
             return Some(RECIPE_MAKE_HAZE);
         }
-        if index == 42 {
+        if index == 52 {
             return Some(RECIPE_MAKE_FLOOD);
         }
-        if index == 43 {
+        if index == 53 {
             return Some(RECIPE_MAKE_LANDSLIDE);
         }
-        if index == 44 {
+        if index == 54 {
             return Some(RECIPE_MAKE_THUNDER);
         }
-        if index == 45 {
+        if index == 55 {
             return Some(RECIPE_MAKE_TORNADO);
         }
-        if index == 46 {
+        if index == 56 {
             return Some(RECIPE_MAKE_GARDEN);
         }
-        if index == 47 {
+        if index == 57 {
             return Some(RECIPE_MAKE_EMBER);
         }
-        if index == 48 {
+        if index == 58 {
             return Some(RECIPE_MAKE_KILN);
         }
-        if index == 49 {
+        if index == 59 {
             return Some(RECIPE_MAKE_POLLINATION);
         }
-        if index == 50 {
+        if index == 60 {
             return Some(RECIPE_MAKE_SINKHOLE);
         }
-        if index == 51 {
+        if index == 61 {
             return Some(RECIPE_MAKE_BEACH);
         }
-        if index == 52 {
+        if index == 62 {
             return Some(RECIPE_MAKE_WETSTONE);
         }
-        if index == 53 {
+        if index == 63 {
             return Some(RECIPE_MAKE_EROSION);
         }
-        if index == 54 {
+        if index == 64 {
             return Some(RECIPE_MAKE_BASALT);
         }
-        if index == 55 {
+        if index == 65 {
             return Some(RECIPE_MAKE_MAGMA_CHAMBER);
         }
-        if index == 56 {
+        if index == 66 {
             return Some(RECIPE_MAKE_BREEZE);
         }
-        if index == 57 {
+        if index == 67 {
             return Some(RECIPE_MAKE_WARM_BREEZE);
         }
-        if index == 58 {
+        if index == 68 {
             return Some(RECIPE_MAKE_SOIL);
         }
-        if index == 59 {
+        if index == 69 {
             return Some(RECIPE_MAKE_CANYON);
         }
-        if index == 60 {
+        if index == 70 {
             return Some(RECIPE_MAKE_WINDMILL);
         }
-        if index == 61 {
+        if index == 71 {
             return Some(RECIPE_MAKE_ADOBE);
         }
-        if index == 62 {
+        if index == 72 {
             return Some(RECIPE_MAKE_WALL);
         }
-        if index == 63 {
+        if index == 73 {
             return Some(RECIPE_MAKE_PUMICE);
         }
-        if index == 64 {
+        if index == 74 {
             return Some(RECIPE_MAKE_BARBECUE);
         }
-        if index == 65 {
+        if index == 75 {
             return Some(RECIPE_MAKE_FARM);
         }
-        if index == 66 {
+        if index == 76 {
             return Some(RECIPE_MAKE_SHARDS);
         }
-        if index == 67 {
+        if index == 77 {
             return Some(RECIPE_MAKE_MOLTEN_GLASS);
         }
-        if index == 68 {
+        if index == 78 {
             return Some(RECIPE_MAKE_PRISM);
         }
-        if index == 69 {
+        if index == 79 {
             return Some(RECIPE_MAKE_SPARKLE);
         }
-        if index == 70 {
+        if index == 80 {
             return Some(RECIPE_MAKE_DESERT);
         }
-        if index == 71 {
+        if index == 81 {
             return Some(RECIPE_MAKE_OASIS);
         }
-        if index == 72 {
+        if index == 82 {
             return Some(RECIPE_MAKE_MIRAGE);
         }
-        if index == 73 {
+        if index == 83 {
             return Some(RECIPE_MAKE_SAND_DUNE);
         }
-        if index == 74 {
+        if index == 84 {
             return Some(RECIPE_MAKE_DAM);
         }
-        if index == 75 {
+        if index == 85 {
             return Some(RECIPE_MAKE_FIREWALL);
         }
-        if index == 76 {
+        if index == 86 {
             return Some(RECIPE_MAKE_BARRICADE);
         }
-        if index == 77 {
+        if index == 87 {
             return Some(RECIPE_MAKE_PLATEAU);
         }
-        if index == 78 {
+        if index == 88 {
             return Some(RECIPE_MAKE_POND);
         }
-        if index == 79 {
+        if index == 89 {
             return Some(RECIPE_MAKE_AROMAS);
         }
-        if index == 80 {
+        if index == 90 {
             return Some(RECIPE_MAKE_FLOWER);
         }
-        if index == 81 {
+        if index == 91 {
             return Some(RECIPE_MAKE_SPORE);
         }
-        if index == 82 {
+        if index == 92 {
             return Some(RECIPE_MAKE_SPREAD);
         }
-        if index == 83 {
+        if index == 93 {
             return Some(RECIPE_MAKE_FERTILE_LAND);
         }
-        if index == 84 {
+        if index == 94 {
             return Some(RECIPE_MAKE_WETLAND);
         }
-        if index == 85 {
+        if index == 95 {
             return Some(RECIPE_MAKE_PEAT);
         }
-        if index == 86 {
+        if index == 96 {
             return Some(RECIPE_MAKE_REEDS);
         }
-        if index == 87 {
+        if index == 97 {
             return Some(RECIPE_MAKE_VALLEY);
         }
-        if index == 88 {
+        if index == 98 {
             return Some(RECIPE_MAKE_RIVER);
         }
-        if index == 89 {
+        if index == 99 {
             return Some(RECIPE_MAKE_SCORCHED_EARTH);
         }
-        if index == 90 {
+        if index == 100 {
             return Some(RECIPE_MAKE_DELTA);
         }
-        if index == 91 {
+        if index == 101 {
             return Some(RECIPE_MAKE_ESTUARY);
         }
-        if index == 92 {
+        if index == 102 {
             return Some(RECIPE_MAKE_FIRE_SWAMP);
         }
-        if index == 93 {
+        if index == 103 {
             return Some(RECIPE_MAKE_RIVERBANK);
         }
-        if index == 94 {
+        if index == 104 {
             return Some(RECIPE_MAKE_RAVINE);
         }
-        if index == 95 {
+        if index == 105 {
             return Some(RECIPE_MAKE_GORGE);
         }
-        if index == 96 {
+        if index == 106 {
             return Some(RECIPE_MAKE_CHARRED_RAVINE);
         }
-        if index == 97 {
+        if index == 107 {
             return Some(RECIPE_MAKE_ECHO);
         }
-        if index == 98 {
+        if index == 108 {
             return Some(RECIPE_MAKE_CAVE);
         }
-        if index == 99 {
+        if index == 109 {
             return Some(RECIPE_MAKE_UNDERGROUND_LAKE);
         }
-        if index == 100 {
+        if index == 110 {
             return Some(RECIPE_MAKE_LAVA_CAVE);
         }
-        if index == 101 {
+        if index == 111 {
             return Some(RECIPE_MAKE_WHISPERING_CAVE);
         }
-        if index == 102 {
+        if index == 112 {
             return Some(RECIPE_MAKE_SUBTERRANEAN_POOL);
         }
-        if index == 103 {
+        if index == 113 {
             return Some(RECIPE_MAKE_SPRING);
         }
-        if index == 104 {
+        if index == 114 {
             return Some(RECIPE_MAKE_HOT_SPRING);
         }
-        if index == 105 {
+        if index == 115 {
             return Some(RECIPE_MAKE_GROTTO);
         }
-        if index == 106 {
+        if index == 116 {
             return Some(RECIPE_MAKE_FOUNTAIN);
         }
-        if index == 107 {
+        if index == 117 {
             return Some(RECIPE_MAKE_STEAM_VENT);
         }
-        if index == 108 {
+        if index == 118 {
             return Some(RECIPE_MAKE_COOL_BREEZE);
         }
-        if index == 109 {
+        if index == 119 {
             return Some(RECIPE_MAKE_MONUMENT);
         }
-        if index == 110 {
+        if index == 120 {
             return Some(RECIPE_MAKE_WATERFALL);
         }
-        if index == 111 {
+        if index == 121 {
             return Some(RECIPE_MAKE_ETERNAL_FLAME);
         }
-        if index == 112 {
+        if index == 122 {
             return Some(RECIPE_MAKE_PILLAR_OF_WIND);
         }
-        if index == 113 {
+        if index == 123 {
             return Some(RECIPE_MAKE_STREAM);
         }
-        if index == 114 {
+        if index == 124 {
             return Some(RECIPE_MAKE_ZEPHYR);
         }
-        if index == 115 {
+        if index == 125 {
             return Some(RECIPE_MAKE_CREEK);
         }
-        if index == 116 {
+        if index == 126 {
             return Some(RECIPE_MAKE_BROOK);
         }
-        if index == 117 {
+        if index == 127 {
             return Some(RECIPE_MAKE_WHISPER);
         }
-        if index == 118 {
+        if index == 128 {
             return Some(RECIPE_MAKE_RIVULET);
         }
-        if index == 119 {
+        if index == 129 {
             return Some(RECIPE_MAKE_TRIBUTARY);
         }
-        if index == 120 {
+        if index == 130 {
             return Some(RECIPE_MAKE_MURMUR);
         }
-        if index == 121 {
+        if index == 131 {
             return Some(RECIPE_MAKE_WATERSHED);
         }
-        if index == 122 {
+        if index == 132 {
             return Some(RECIPE_MAKE_AQUIFER);
         }
-        if index == 123 {
+        if index == 133 {
             return Some(RECIPE_MAKE_PARCHED_EARTH);
         }
-        if index == 124 {
+        if index == 134 {
             return Some(RECIPE_MAKE_FRESH_BREEZE);
         }
-        if index == 125 {
+        if index == 135 {
             return Some(RECIPE_MAKE_GROUNDWATER);
         }
-        if index == 126 {
+        if index == 136 {
             return Some(RECIPE_MAKE_RESERVOIR);
         }
-        if index == 127 {
+        if index == 137 {
             return Some(RECIPE_MAKE_GEOTHERMAL_SPRING);
         }
-        if index == 128 {
+        if index == 138 {
             return Some(RECIPE_MAKE_ARTESIAN_WELL);
         }
-        if index == 129 {
+        if index == 139 {
             return Some(RECIPE_MAKE_BASIN);
         }
-        if index == 130 {
+        if index == 140 {
             return Some(RECIPE_MAKE_LAKE);
         }
-        if index == 131 {
+        if index == 141 {
             return Some(RECIPE_MAKE_DRY_BASIN);
         }
-        if index == 132 {
+        if index == 142 {
             return Some(RECIPE_MAKE_DEPRESSION);
         }
-        if index == 133 {
+        if index == 143 {
             return Some(RECIPE_MAKE_ISLAND);
         }
-        if index == 134 {
+        if index == 144 {
             return Some(RECIPE_MAKE_LAGOON);
         }
-        if index == 135 {
+        if index == 145 {
             return Some(RECIPE_MAKE_WAVE);
         }
-        if index == 136 {
+        if index == 146 {
             return Some(RECIPE_MAKE_REEF);
         }
-        if index == 137 {
+        if index == 147 {
             return Some(RECIPE_MAKE_CORAL);
         }
-        if index == 138 {
+        if index == 148 {
             return Some(RECIPE_MAKE_WHIRL);
         }
-        if index == 139 {
+        if index == 149 {
             return Some(RECIPE_MAKE_LIMESTONE);
         }
-        if index == 140 {
+        if index == 150 {
             return Some(RECIPE_MAKE_KARST);
         }
-        if index == 141 {
+        if index == 151 {
             return Some(RECIPE_MAKE_QUICKLIME);
         }
-        if index == 142 {
+        if index == 152 {
             return Some(RECIPE_MAKE_BLOWHOLE);
         }
         None
@@ -2686,6 +2689,9 @@ pub mod elementy {
                 buy_offer_price_native_tokens: 0,
                 buy_offer_reward_tier_points: 0,
                 buy_offer_is_set: false,
+                pool_round: 1,
+                pool_target: 10,
+                pool_value: 0,
             }
         }
     }
@@ -2761,6 +2767,64 @@ pub mod elementy {
         #[ink(message)]
         pub fn buy_offer(&self) -> Result<(u128, u128), Error> {
             Ok((self.buy_offer_price_native_tokens, self.buy_offer_reward_tier_points))
+        }
+
+        #[ink(message)]
+        pub fn pool(&self) -> Result<(u128, u128, u128), Error> {
+            Ok((self.pool_round, self.pool_target, self.pool_value))
+        }
+
+        #[ink(message)]
+        pub fn sacrifice(&mut self, element_id: u32) -> Result<(), Error> {
+            let found_item = find_item(element_id);
+
+            if found_item.is_none() {
+                return Err(Error::InvalidElement);
+            }
+
+            let balance_of = self.balance_of_element(element_id).unwrap_or(0);
+            if balance_of == 0 {
+                return Err(Error::NotEnoughElements);
+            }
+
+            let element_contract_id = self.element_contract_ids.get(element_id).unwrap_or(AccountId::from([0xFF; 32]));
+
+            if element_contract_id == AccountId::from([0xFF; 32]) {
+                return Err(Error::ElementContractIsNotLocked);
+            }
+
+            let call_result = build_call::<DefaultEnvironment>()
+                .call(element_contract_id)
+                .call_flags(CallFlags::ALLOW_REENTRY)
+                .exec_input(
+                    ExecutionInput::new(Selector::new(
+                            // Selector of ElementContract::burn -> 0x100fa9ca
+                            [0x10, 0x0f, 0xa9, 0xca]
+                        ))
+                        .push_arg::<AccountId>(self.env().caller()) // owner: AccountId parameter
+                        .push_arg::<u128>(1) // value: u128 parameter
+                )
+                .returns::<Result<(), Error>>()
+                .try_invoke();
+            
+            match call_result {
+                Ok(okresult) => match okresult {
+                    Ok(_) => {
+                        self.pool_value = self.pool_value.checked_add(found_item.unwrap().tier.into()).unwrap_or(0);
+                        if self.pool_value >= self.pool_target {
+                            self.pool_round = self.pool_round.checked_add(1).unwrap_or(0);
+                            self.pool_value = 0;
+                            // Transfer contract value to caller
+                            self.env().transfer(self.env().caller(), self.env().balance());
+                            // Next target is last target + 10 * round
+                            self.pool_target = self.pool_target.checked_add(self.pool_round.checked_mul(10).unwrap_or(0)).unwrap_or(0);
+                        }
+                        Ok(())
+                    },
+                    Err(reserr) => Err(Error::InkError(reserr))
+                },
+                Err(fatalerr) => Err(Error::FatalError(format!("Error invoking ElementContract::burn: {:?}", fatalerr)))
+            }
         }
 
         #[ink(message, payable)]

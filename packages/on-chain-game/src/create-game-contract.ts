@@ -93,8 +93,21 @@ class GameContractImpl implements IGameContract {
         return outputJson.ok.ok;
     }
 
-    sacrifice(itemId: number, N: number): Promise<void> {
-        throw new Error("Method not implemented.");
+    async sacrifice(itemId: number, N: number): Promise<void> {
+        const contractApi = await this._chain.getContract({ name: "game" });
+        const api = await this._chain.getApi();
+        const gasLimit = api.registry.createType("WeightV2", {
+            refTime: new BN("20000000000"),
+            proofSize: new BN("200000"),
+        });
+        for (let i = 0; i < N; i++) {
+            await this._chain.signAndSend(
+                contractApi.tx.sacrifice(
+                    { gasLimit, storageDepositLimit: null },
+                    itemId,
+                )
+            );
+        }
     }
 
     async claimOwnership(): Promise<void> {
@@ -141,6 +154,26 @@ class GameContractImpl implements IGameContract {
                 rewardTierPoints
             )
         );
+    }
+
+    async pool(): Promise<[number, number, number]> {
+        const contractApi = await this._chain.getContract({ name: "game" });
+        const api = await this._chain.getApi();
+        const gasLimit = api.registry.createType("WeightV2", {
+            refTime: new BN("20000000000"),
+            proofSize: new BN("200000"),
+        });
+        const { result, output } = (await contractApi.query.pool(
+            await this._chain.getAddress(),
+            { gasLimit, storageDepositLimit: null }
+        ));
+        const outputJson = output?.toJSON() as any;
+        if (!outputJson || outputJson["ok"] === undefined) {
+            console.log("GameContractImpl.pool ***", outputJson);
+            throw new Error("Invalid output");
+        }
+        console.log("GameContractImpl.pool", outputJson);
+        return outputJson.ok.ok;
     }
 }
 

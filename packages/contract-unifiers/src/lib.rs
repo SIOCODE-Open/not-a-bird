@@ -40,6 +40,9 @@ pub mod unifiers {
         buy_offer_price_native_tokens: u128,
         buy_offer_reward_tier_points: u128,
         buy_offer_is_set: bool,
+        pool_round: u128,
+        pool_target: u128,
+        pool_value: u128,
     }
 
     struct Element {
@@ -391,6 +394,9 @@ pub mod unifiers {
                 buy_offer_price_native_tokens: 0,
                 buy_offer_reward_tier_points: 0,
                 buy_offer_is_set: false,
+                pool_round: 1,
+                pool_target: 10,
+                pool_value: 0,
             }
         }
     }
@@ -466,6 +472,64 @@ pub mod unifiers {
         #[ink(message)]
         pub fn buy_offer(&self) -> Result<(u128, u128), Error> {
             Ok((self.buy_offer_price_native_tokens, self.buy_offer_reward_tier_points))
+        }
+
+        #[ink(message)]
+        pub fn pool(&self) -> Result<(u128, u128, u128), Error> {
+            Ok((self.pool_round, self.pool_target, self.pool_value))
+        }
+
+        #[ink(message)]
+        pub fn sacrifice(&mut self, element_id: u32) -> Result<(), Error> {
+            let found_item = find_item(element_id);
+
+            if found_item.is_none() {
+                return Err(Error::InvalidElement);
+            }
+
+            let balance_of = self.balance_of_element(element_id).unwrap_or(0);
+            if balance_of == 0 {
+                return Err(Error::NotEnoughElements);
+            }
+
+            let element_contract_id = self.element_contract_ids.get(element_id).unwrap_or(AccountId::from([0xFF; 32]));
+
+            if element_contract_id == AccountId::from([0xFF; 32]) {
+                return Err(Error::ElementContractIsNotLocked);
+            }
+
+            let call_result = build_call::<DefaultEnvironment>()
+                .call(element_contract_id)
+                .call_flags(CallFlags::ALLOW_REENTRY)
+                .exec_input(
+                    ExecutionInput::new(Selector::new(
+                            // Selector of ElementContract::burn -> 0x100fa9ca
+                            [0x10, 0x0f, 0xa9, 0xca]
+                        ))
+                        .push_arg::<AccountId>(self.env().caller()) // owner: AccountId parameter
+                        .push_arg::<u128>(1) // value: u128 parameter
+                )
+                .returns::<Result<(), Error>>()
+                .try_invoke();
+            
+            match call_result {
+                Ok(okresult) => match okresult {
+                    Ok(_) => {
+                        self.pool_value = self.pool_value.checked_add(found_item.unwrap().tier.into()).unwrap_or(0);
+                        if self.pool_value >= self.pool_target {
+                            self.pool_round = self.pool_round.checked_add(1).unwrap_or(0);
+                            self.pool_value = 0;
+                            // Transfer contract value to caller
+                            self.env().transfer(self.env().caller(), self.env().balance());
+                            // Next target is last target + 10 * round
+                            self.pool_target = self.pool_target.checked_add(self.pool_round.checked_mul(10).unwrap_or(0)).unwrap_or(0);
+                        }
+                        Ok(())
+                    },
+                    Err(reserr) => Err(Error::InkError(reserr))
+                },
+                Err(fatalerr) => Err(Error::FatalError(format!("Error invoking ElementContract::burn: {:?}", fatalerr)))
+            }
         }
 
         #[ink(message, payable)]

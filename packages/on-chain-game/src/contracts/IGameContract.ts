@@ -26,4 +26,7 @@ export interface IGameContract {
 
     /** Game Contract set_buy_offer method */
     setBuyOffer(nativeTokens: number, rewardTierPoints: number): Promise<void>;
+
+    /** Pool data */
+    pool(): Promise<[number, number, number]>;
 }

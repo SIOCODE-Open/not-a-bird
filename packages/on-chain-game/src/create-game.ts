@@ -347,7 +347,9 @@ class OnChainGameImpl implements IOnChainGame {
     }
 
     async sacrifice(itemId: number): Promise<void> {
-        throw new Error("Method not implemented.");
+        await this._gameContract.sacrifice(itemId, 1);
+        await this._updateWorld();
+        await this._updatePool();
     }
 
     async world(): Promise<IWorld> {
@@ -396,10 +398,11 @@ class OnChainGameImpl implements IOnChainGame {
     }
 
     async pool(): Promise<IPool> {
+        const chainPool = await this._gameContract.pool();
         return {
             participants: 0,
-            target: 100000,
-            total: 0,
+            target: chainPool[1],
+            total: chainPool[2],
             value: 0,
         }
     }
