@@ -57,883 +57,883 @@ pub mod elementy {
     }
 
     const ELEMENT_WATER: Element = Element {
-        id: {index}},
+        id: 25,
         name: "Water",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_FIRE: Element = Element {
-        id: {index}},
+        id: 26,
         name: "Fire",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_STEAM: Element = Element {
-        id: {index}},
+        id: 27,
         name: "Steam",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_EARTH: Element = Element {
-        id: {index}},
+        id: 28,
         name: "Earth",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_MUD: Element = Element {
-        id: {index}},
+        id: 29,
         name: "Mud",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_LAVA: Element = Element {
-        id: {index}},
+        id: 30,
         name: "Lava",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_WIND: Element = Element {
-        id: {index}},
+        id: 31,
         name: "Wind",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_DUST: Element = Element {
-        id: {index}},
+        id: 32,
         name: "Dust",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_RAIN: Element = Element {
-        id: {index}},
+        id: 33,
         name: "Rain",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SMOKE: Element = Element {
-        id: {index}},
+        id: 34,
         name: "Smoke",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_GEYSER: Element = Element {
-        id: {index}},
+        id: 35,
         name: "Geyser",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_CLAY: Element = Element {
-        id: {index}},
+        id: 36,
         name: "Clay",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SAND: Element = Element {
-        id: {index}},
+        id: 37,
         name: "Sand",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_PLANT: Element = Element {
-        id: {index}},
+        id: 38,
         name: "Plant",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_RAINBOW: Element = Element {
-        id: {index}},
+        id: 39,
         name: "Rainbow",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_STORM: Element = Element {
-        id: {index}},
+        id: 40,
         name: "Storm",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_OBSIDIAN: Element = Element {
-        id: {index}},
+        id: 41,
         name: "Obsidian",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_ASH: Element = Element {
-        id: {index}},
+        id: 42,
         name: "Ash",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_VOLCANO: Element = Element {
-        id: {index}},
+        id: 43,
         name: "Volcano",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SANDSTORM: Element = Element {
-        id: {index}},
+        id: 44,
         name: "Sandstorm",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_CLOUD: Element = Element {
-        id: {index}},
+        id: 45,
         name: "Cloud",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_FOG: Element = Element {
-        id: {index}},
+        id: 46,
         name: "Fog",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_TREE: Element = Element {
-        id: {index}},
+        id: 47,
         name: "Tree",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_FOREST: Element = Element {
-        id: {index}},
+        id: 48,
         name: "Forest",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SEEDS: Element = Element {
-        id: {index}},
+        id: 49,
         name: "Seeds",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_POTTERY: Element = Element {
-        id: {index}},
+        id: 50,
         name: "Pottery",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_BRICK: Element = Element {
-        id: {index}},
+        id: 51,
         name: "Brick",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_QUICKSAND: Element = Element {
-        id: {index}},
+        id: 52,
         name: "Quicksand",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_GLASS: Element = Element {
-        id: {index}},
+        id: 53,
         name: "Glass",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_DUNE: Element = Element {
-        id: {index}},
+        id: 54,
         name: "Dune",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_CHARCOAL: Element = Element {
-        id: {index}},
+        id: 55,
         name: "Charcoal",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_LEAVES: Element = Element {
-        id: {index}},
+        id: 56,
         name: "Leaves",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_WILDFIRE: Element = Element {
-        id: {index}},
+        id: 57,
         name: "Wildfire",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_JUNGLE: Element = Element {
-        id: {index}},
+        id: 58,
         name: "Jungle",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_FROSTED_GLASS: Element = Element {
-        id: {index}},
+        id: 59,
         name: "FrostedGlass",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_CRYSTAL: Element = Element {
-        id: {index}},
+        id: 60,
         name: "Crystal",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_MAGMA: Element = Element {
-        id: {index}},
+        id: 61,
         name: "Magma",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_ROCK: Element = Element {
-        id: {index}},
+        id: 62,
         name: "Rock",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SHARD: Element = Element {
-        id: {index}},
+        id: 63,
         name: "Shard",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_PEBBLE: Element = Element {
-        id: {index}},
+        id: 64,
         name: "Pebble",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_MOUNTAIN: Element = Element {
-        id: {index}},
+        id: 65,
         name: "Mountain",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_FERTILIZER: Element = Element {
-        id: {index}},
+        id: 66,
         name: "Fertilizer",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SOOT: Element = Element {
-        id: {index}},
+        id: 67,
         name: "Soot",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_LIGHTNING: Element = Element {
-        id: {index}},
+        id: 68,
         name: "Lightning",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_MIST: Element = Element {
-        id: {index}},
+        id: 69,
         name: "Mist",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_HAZE: Element = Element {
-        id: {index}},
+        id: 70,
         name: "Haze",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_FLOOD: Element = Element {
-        id: {index}},
+        id: 71,
         name: "Flood",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_LANDSLIDE: Element = Element {
-        id: {index}},
+        id: 72,
         name: "Landslide",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_THUNDER: Element = Element {
-        id: {index}},
+        id: 73,
         name: "Thunder",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_TORNADO: Element = Element {
-        id: {index}},
+        id: 74,
         name: "Tornado",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_GARDEN: Element = Element {
-        id: {index}},
+        id: 75,
         name: "Garden",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_EMBER: Element = Element {
-        id: {index}},
+        id: 76,
         name: "Ember",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_KILN: Element = Element {
-        id: {index}},
+        id: 77,
         name: "Kiln",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_POLLINATION: Element = Element {
-        id: {index}},
+        id: 78,
         name: "Pollination",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SINKHOLE: Element = Element {
-        id: {index}},
+        id: 79,
         name: "Sinkhole",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_BEACH: Element = Element {
-        id: {index}},
+        id: 80,
         name: "Beach",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_WETSTONE: Element = Element {
-        id: {index}},
+        id: 81,
         name: "Wetstone",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_EROSION: Element = Element {
-        id: {index}},
+        id: 82,
         name: "Erosion",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_BASALT: Element = Element {
-        id: {index}},
+        id: 83,
         name: "Basalt",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_MAGMA_CHAMBER: Element = Element {
-        id: {index}},
+        id: 84,
         name: "MagmaChamber",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_BREEZE: Element = Element {
-        id: {index}},
+        id: 85,
         name: "Breeze",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_WARM_BREEZE: Element = Element {
-        id: {index}},
+        id: 86,
         name: "WarmBreeze",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SOIL: Element = Element {
-        id: {index}},
+        id: 87,
         name: "Soil",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_CANYON: Element = Element {
-        id: {index}},
+        id: 88,
         name: "Canyon",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_WINDMILL: Element = Element {
-        id: {index}},
+        id: 89,
         name: "Windmill",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_ADOBE: Element = Element {
-        id: {index}},
+        id: 90,
         name: "Adobe",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_WALL: Element = Element {
-        id: {index}},
+        id: 91,
         name: "Wall",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_PUMICE: Element = Element {
-        id: {index}},
+        id: 92,
         name: "Pumice",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_BARBECUE: Element = Element {
-        id: {index}},
+        id: 93,
         name: "Barbecue",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_FARM: Element = Element {
-        id: {index}},
+        id: 94,
         name: "Farm",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SHARDS: Element = Element {
-        id: {index}},
+        id: 95,
         name: "Shards",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_MOLTEN_GLASS: Element = Element {
-        id: {index}},
+        id: 96,
         name: "MoltenGlass",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_PRISM: Element = Element {
-        id: {index}},
+        id: 97,
         name: "Prism",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SPARKLE: Element = Element {
-        id: {index}},
+        id: 98,
         name: "Sparkle",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_DESERT: Element = Element {
-        id: {index}},
+        id: 99,
         name: "Desert",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_OASIS: Element = Element {
-        id: {index}},
+        id: 100,
         name: "Oasis",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_MIRAGE: Element = Element {
-        id: {index}},
+        id: 101,
         name: "Mirage",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SAND_DUNE: Element = Element {
-        id: {index}},
+        id: 102,
         name: "SandDune",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_DAM: Element = Element {
-        id: {index}},
+        id: 103,
         name: "Dam",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_FIREWALL: Element = Element {
-        id: {index}},
+        id: 104,
         name: "Firewall",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_BARRICADE: Element = Element {
-        id: {index}},
+        id: 105,
         name: "Barricade",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_PLATEAU: Element = Element {
-        id: {index}},
+        id: 106,
         name: "Plateau",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_POND: Element = Element {
-        id: {index}},
+        id: 107,
         name: "Pond",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_AROMAS: Element = Element {
-        id: {index}},
+        id: 108,
         name: "Aromas",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_FLOWER: Element = Element {
-        id: {index}},
+        id: 109,
         name: "Flower",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SPORE: Element = Element {
-        id: {index}},
+        id: 110,
         name: "Spore",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SPREAD: Element = Element {
-        id: {index}},
+        id: 111,
         name: "Spread",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_FERTILE_LAND: Element = Element {
-        id: {index}},
+        id: 112,
         name: "FertileLand",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_WETLAND: Element = Element {
-        id: {index}},
+        id: 113,
         name: "Wetland",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_PEAT: Element = Element {
-        id: {index}},
+        id: 114,
         name: "Peat",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_REEDS: Element = Element {
-        id: {index}},
+        id: 115,
         name: "Reeds",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_VALLEY: Element = Element {
-        id: {index}},
+        id: 116,
         name: "Valley",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_RIVER: Element = Element {
-        id: {index}},
+        id: 117,
         name: "River",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SCORCHED_EARTH: Element = Element {
-        id: {index}},
+        id: 118,
         name: "ScorchedEarth",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_DELTA: Element = Element {
-        id: {index}},
+        id: 119,
         name: "Delta",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_ESTUARY: Element = Element {
-        id: {index}},
+        id: 120,
         name: "Estuary",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_FIRE_SWAMP: Element = Element {
-        id: {index}},
+        id: 121,
         name: "FireSwamp",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_RIVERBANK: Element = Element {
-        id: {index}},
+        id: 122,
         name: "Riverbank",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_RAVINE: Element = Element {
-        id: {index}},
+        id: 123,
         name: "Ravine",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_GORGE: Element = Element {
-        id: {index}},
+        id: 124,
         name: "Gorge",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_CHARRED_RAVINE: Element = Element {
-        id: {index}},
+        id: 125,
         name: "CharredRavine",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_ECHO: Element = Element {
-        id: {index}},
+        id: 126,
         name: "Echo",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_CAVE: Element = Element {
-        id: {index}},
+        id: 127,
         name: "Cave",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_UNDERGROUND_LAKE: Element = Element {
-        id: {index}},
+        id: 128,
         name: "UndergroundLake",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_LAVA_CAVE: Element = Element {
-        id: {index}},
+        id: 129,
         name: "LavaCave",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_WHISPERING_CAVE: Element = Element {
-        id: {index}},
+        id: 130,
         name: "WhisperingCave",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SUBTERRANEAN_POOL: Element = Element {
-        id: {index}},
+        id: 131,
         name: "SubterraneanPool",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_SPRING: Element = Element {
-        id: {index}},
+        id: 132,
         name: "Spring",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_HOT_SPRING: Element = Element {
-        id: {index}},
+        id: 133,
         name: "HotSpring",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_GROTTO: Element = Element {
-        id: {index}},
+        id: 134,
         name: "Grotto",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_FOUNTAIN: Element = Element {
-        id: {index}},
+        id: 135,
         name: "Fountain",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_STEAM_VENT: Element = Element {
-        id: {index}},
+        id: 136,
         name: "SteamVent",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_COOL_BREEZE: Element = Element {
-        id: {index}},
+        id: 137,
         name: "CoolBreeze",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_MONUMENT: Element = Element {
-        id: {index}},
+        id: 138,
         name: "Monument",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_WATERFALL: Element = Element {
-        id: {index}},
+        id: 139,
         name: "Waterfall",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_ETERNAL_FLAME: Element = Element {
-        id: {index}},
+        id: 140,
         name: "EternalFlame",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_PILLAR_OF_WIND: Element = Element {
-        id: {index}},
+        id: 141,
         name: "PillarOfWind",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_STREAM: Element = Element {
-        id: {index}},
+        id: 142,
         name: "Stream",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_ZEPHYR: Element = Element {
-        id: {index}},
+        id: 143,
         name: "Zephyr",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_CREEK: Element = Element {
-        id: {index}},
+        id: 144,
         name: "Creek",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_BROOK: Element = Element {
-        id: {index}},
+        id: 145,
         name: "Brook",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_WHISPER: Element = Element {
-        id: {index}},
+        id: 146,
         name: "Whisper",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_RIVULET: Element = Element {
-        id: {index}},
+        id: 147,
         name: "Rivulet",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_TRIBUTARY: Element = Element {
-        id: {index}},
+        id: 148,
         name: "Tributary",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_MURMUR: Element = Element {
-        id: {index}},
+        id: 149,
         name: "Murmur",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_WATERSHED: Element = Element {
-        id: {index}},
+        id: 150,
         name: "Watershed",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_AQUIFER: Element = Element {
-        id: {index}},
+        id: 151,
         name: "Aquifer",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_PARCHED_EARTH: Element = Element {
-        id: {index}},
+        id: 152,
         name: "ParchedEarth",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_FRESH_BREEZE: Element = Element {
-        id: {index}},
+        id: 153,
         name: "FreshBreeze",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_GROUNDWATER: Element = Element {
-        id: {index}},
+        id: 154,
         name: "Groundwater",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_RESERVOIR: Element = Element {
-        id: {index}},
+        id: 155,
         name: "Reservoir",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_GEOTHERMAL_SPRING: Element = Element {
-        id: {index}},
+        id: 156,
         name: "GeothermalSpring",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_ARTESIAN_WELL: Element = Element {
-        id: {index}},
+        id: 157,
         name: "ArtesianWell",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_BASIN: Element = Element {
-        id: {index}},
+        id: 158,
         name: "Basin",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_LAKE: Element = Element {
-        id: {index}},
+        id: 159,
         name: "Lake",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_DRY_BASIN: Element = Element {
-        id: {index}},
+        id: 160,
         name: "DryBasin",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_DEPRESSION: Element = Element {
-        id: {index}},
+        id: 161,
         name: "Depression",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_ISLAND: Element = Element {
-        id: {index}},
+        id: 162,
         name: "Island",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_LAGOON: Element = Element {
-        id: {index}},
+        id: 163,
         name: "Lagoon",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_WAVE: Element = Element {
-        id: {index}},
+        id: 164,
         name: "Wave",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_REEF: Element = Element {
-        id: {index}},
+        id: 165,
         name: "Reef",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_CORAL: Element = Element {
-        id: {index}},
+        id: 166,
         name: "Coral",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_WHIRL: Element = Element {
-        id: {index}},
+        id: 167,
         name: "Whirl",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_LIMESTONE: Element = Element {
-        id: {index}},
+        id: 168,
         name: "Limestone",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_KARST: Element = Element {
-        id: {index}},
+        id: 169,
         name: "Karst",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_QUICKLIME: Element = Element {
-        id: {index}},
+        id: 170,
         name: "Quicklime",
         description: "We need a description here",
         tier: 1,
     };
     const ELEMENT_BLOWHOLE: Element = Element {
-        id: {index}},
+        id: 171,
         name: "Blowhole",
         description: "We need a description here",
         tier: 1,
@@ -1028,1115 +1028,773 @@ pub mod elementy {
         b: 28,
         c: 43,
     };
-    const RECIPE_MAKE_MUD: Recipe = Recipe {
-        id: 15,
-        a: 25,
-        b: 28,
-        c: 29,
-    };
-    const RECIPE_MAKE_ASH: Recipe = Recipe {
-        id: 16,
-        a: 30,
-        b: 31,
-        c: 42,
-    };
     const RECIPE_MAKE_SANDSTORM: Recipe = Recipe {
-        id: 17,
+        id: 15,
         a: 32,
         b: 31,
         c: 44,
     };
     const RECIPE_MAKE_CLOUD: Recipe = Recipe {
-        id: 18,
+        id: 16,
         a: 34,
         b: 25,
         c: 45,
     };
-    const RECIPE_MAKE_ASH: Recipe = Recipe {
-        id: 19,
-        a: 30,
-        b: 31,
-        c: 42,
-    };
     const RECIPE_MAKE_FOG: Recipe = Recipe {
-        id: 20,
+        id: 17,
         a: 34,
         b: 31,
         c: 46,
     };
     const RECIPE_MAKE_TREE: Recipe = Recipe {
-        id: 21,
+        id: 18,
         a: 38,
         b: 25,
         c: 47,
     };
-    const RECIPE_MAKE_ASH: Recipe = Recipe {
-        id: 22,
-        a: 30,
-        b: 31,
-        c: 42,
-    };
     const RECIPE_MAKE_FOREST: Recipe = Recipe {
-        id: 23,
+        id: 19,
         a: 38,
         b: 28,
         c: 48,
     };
     const RECIPE_MAKE_SEEDS: Recipe = Recipe {
-        id: 24,
+        id: 20,
         a: 38,
         b: 31,
         c: 49,
     };
     const RECIPE_MAKE_POTTERY: Recipe = Recipe {
-        id: 25,
+        id: 21,
         a: 36,
         b: 26,
         c: 50,
     };
-    const RECIPE_MAKE_SAND: Recipe = Recipe {
-        id: 26,
-        a: 29,
-        b: 31,
-        c: 37,
-    };
     const RECIPE_MAKE_BRICK: Recipe = Recipe {
-        id: 27,
+        id: 22,
         a: 36,
         b: 28,
         c: 51,
     };
     const RECIPE_MAKE_QUICKSAND: Recipe = Recipe {
-        id: 28,
+        id: 23,
         a: 37,
         b: 25,
         c: 52,
     };
     const RECIPE_MAKE_GLASS: Recipe = Recipe {
-        id: 29,
+        id: 24,
         a: 37,
         b: 26,
         c: 53,
     };
     const RECIPE_MAKE_DUNE: Recipe = Recipe {
-        id: 30,
+        id: 25,
         a: 37,
         b: 31,
         c: 54,
     };
-    const RECIPE_MAKE_FOREST: Recipe = Recipe {
-        id: 31,
-        a: 38,
-        b: 28,
-        c: 48,
-    };
     const RECIPE_MAKE_CHARCOAL: Recipe = Recipe {
-        id: 32,
+        id: 26,
         a: 47,
         b: 26,
         c: 55,
     };
-    const RECIPE_MAKE_FOREST: Recipe = Recipe {
-        id: 33,
-        a: 38,
-        b: 28,
-        c: 48,
-    };
     const RECIPE_MAKE_LEAVES: Recipe = Recipe {
-        id: 34,
+        id: 27,
         a: 47,
         b: 31,
         c: 56,
     };
     const RECIPE_MAKE_WILDFIRE: Recipe = Recipe {
-        id: 35,
+        id: 28,
         a: 48,
         b: 26,
         c: 57,
     };
-    const RECIPE_MAKE_LEAVES: Recipe = Recipe {
-        id: 36,
-        a: 47,
-        b: 31,
-        c: 56,
-    };
     const RECIPE_MAKE_JUNGLE: Recipe = Recipe {
-        id: 37,
+        id: 29,
         a: 48,
         b: 28,
         c: 58,
     };
     const RECIPE_MAKE_FROSTED_GLASS: Recipe = Recipe {
-        id: 38,
+        id: 30,
         a: 53,
         b: 25,
         c: 59,
     };
     const RECIPE_MAKE_CRYSTAL: Recipe = Recipe {
-        id: 39,
+        id: 31,
         a: 53,
         b: 28,
         c: 60,
     };
-    const RECIPE_MAKE_SANDSTORM: Recipe = Recipe {
-        id: 40,
-        a: 32,
-        b: 31,
-        c: 44,
-    };
     const RECIPE_MAKE_MAGMA: Recipe = Recipe {
-        id: 41,
+        id: 32,
         a: 41,
         b: 26,
         c: 61,
     };
     const RECIPE_MAKE_ROCK: Recipe = Recipe {
-        id: 42,
+        id: 33,
         a: 41,
         b: 28,
         c: 62,
     };
     const RECIPE_MAKE_SHARD: Recipe = Recipe {
-        id: 43,
+        id: 34,
         a: 41,
         b: 31,
         c: 63,
     };
     const RECIPE_MAKE_PEBBLE: Recipe = Recipe {
-        id: 44,
+        id: 35,
         a: 62,
         b: 25,
         c: 64,
     };
-    const RECIPE_MAKE_LAVA: Recipe = Recipe {
-        id: 45,
-        a: 26,
-        b: 28,
-        c: 30,
-    };
     const RECIPE_MAKE_MOUNTAIN: Recipe = Recipe {
-        id: 46,
+        id: 36,
         a: 62,
         b: 28,
         c: 65,
     };
-    const RECIPE_MAKE_SAND: Recipe = Recipe {
-        id: 47,
-        a: 29,
-        b: 31,
-        c: 37,
-    };
-    const RECIPE_MAKE_MUD: Recipe = Recipe {
-        id: 48,
-        a: 25,
-        b: 28,
-        c: 29,
-    };
     const RECIPE_MAKE_FERTILIZER: Recipe = Recipe {
-        id: 49,
+        id: 37,
         a: 42,
         b: 28,
         c: 66,
     };
     const RECIPE_MAKE_SOOT: Recipe = Recipe {
-        id: 50,
+        id: 38,
         a: 42,
         b: 31,
         c: 67,
     };
     const RECIPE_MAKE_LIGHTNING: Recipe = Recipe {
-        id: 51,
+        id: 39,
         a: 45,
         b: 26,
         c: 68,
     };
-    const RECIPE_MAKE_FOG: Recipe = Recipe {
-        id: 52,
-        a: 34,
-        b: 31,
-        c: 46,
-    };
-    const RECIPE_MAKE_STORM: Recipe = Recipe {
-        id: 53,
-        a: 33,
-        b: 31,
-        c: 40,
-    };
-    const RECIPE_MAKE_CLOUD: Recipe = Recipe {
-        id: 54,
-        a: 34,
-        b: 25,
-        c: 45,
-    };
-    const RECIPE_MAKE_STEAM: Recipe = Recipe {
-        id: 55,
-        a: 25,
-        b: 26,
-        c: 27,
-    };
     const RECIPE_MAKE_MIST: Recipe = Recipe {
-        id: 56,
+        id: 40,
         a: 46,
         b: 28,
         c: 69,
     };
     const RECIPE_MAKE_HAZE: Recipe = Recipe {
-        id: 57,
+        id: 41,
         a: 46,
         b: 31,
         c: 70,
     };
     const RECIPE_MAKE_FLOOD: Recipe = Recipe {
-        id: 58,
+        id: 42,
         a: 40,
         b: 25,
         c: 71,
     };
     const RECIPE_MAKE_LANDSLIDE: Recipe = Recipe {
-        id: 59,
+        id: 43,
         a: 40,
         b: 28,
         c: 72,
     };
     const RECIPE_MAKE_THUNDER: Recipe = Recipe {
-        id: 60,
+        id: 44,
         a: 40,
         b: 26,
         c: 73,
     };
     const RECIPE_MAKE_TORNADO: Recipe = Recipe {
-        id: 61,
+        id: 45,
         a: 40,
         b: 31,
         c: 74,
     };
-    const RECIPE_MAKE_ASH: Recipe = Recipe {
-        id: 62,
-        a: 30,
-        b: 31,
-        c: 42,
-    };
-    const RECIPE_MAKE_RAIN: Recipe = Recipe {
-        id: 63,
-        a: 25,
-        b: 31,
-        c: 33,
-    };
-    const RECIPE_MAKE_CLOUD: Recipe = Recipe {
-        id: 64,
-        a: 34,
-        b: 25,
-        c: 45,
-    };
     const RECIPE_MAKE_GARDEN: Recipe = Recipe {
-        id: 65,
+        id: 46,
         a: 28,
         b: 38,
         c: 75,
     };
-    const RECIPE_MAKE_FOREST: Recipe = Recipe {
-        id: 66,
-        a: 38,
-        b: 28,
-        c: 48,
-    };
     const RECIPE_MAKE_EMBER: Recipe = Recipe {
-        id: 67,
+        id: 47,
         a: 26,
         b: 42,
         c: 76,
     };
     const RECIPE_MAKE_KILN: Recipe = Recipe {
-        id: 68,
+        id: 48,
         a: 26,
         b: 50,
         c: 77,
     };
     const RECIPE_MAKE_POLLINATION: Recipe = Recipe {
-        id: 69,
+        id: 49,
         a: 31,
         b: 38,
         c: 78,
     };
-    const RECIPE_MAKE_HAZE: Recipe = Recipe {
-        id: 70,
-        a: 46,
-        b: 31,
-        c: 70,
-    };
     const RECIPE_MAKE_SINKHOLE: Recipe = Recipe {
-        id: 71,
+        id: 50,
         a: 28,
         b: 52,
         c: 79,
     };
     const RECIPE_MAKE_BEACH: Recipe = Recipe {
-        id: 72,
+        id: 51,
         a: 25,
         b: 37,
         c: 80,
     };
     const RECIPE_MAKE_WETSTONE: Recipe = Recipe {
-        id: 73,
+        id: 52,
         a: 25,
         b: 41,
         c: 81,
     };
-    const RECIPE_MAKE_MAGMA: Recipe = Recipe {
-        id: 74,
-        a: 41,
-        b: 26,
-        c: 61,
-    };
     const RECIPE_MAKE_EROSION: Recipe = Recipe {
-        id: 75,
+        id: 53,
         a: 31,
         b: 62,
         c: 82,
     };
     const RECIPE_MAKE_BASALT: Recipe = Recipe {
-        id: 76,
+        id: 54,
         a: 25,
         b: 30,
         c: 83,
     };
-    const RECIPE_MAKE_OBSIDIAN: Recipe = Recipe {
-        id: 77,
-        a: 30,
-        b: 25,
-        c: 41,
-    };
     const RECIPE_MAKE_MAGMA_CHAMBER: Recipe = Recipe {
-        id: 78,
+        id: 55,
         a: 28,
         b: 30,
         c: 84,
     };
     const RECIPE_MAKE_BREEZE: Recipe = Recipe {
-        id: 79,
+        id: 56,
         a: 31,
         b: 32,
         c: 85,
     };
     const RECIPE_MAKE_WARM_BREEZE: Recipe = Recipe {
-        id: 80,
+        id: 57,
         a: 26,
         b: 85,
         c: 86,
     };
     const RECIPE_MAKE_SOIL: Recipe = Recipe {
-        id: 81,
+        id: 58,
         a: 28,
         b: 38,
         c: 87,
     };
-    const RECIPE_MAKE_MUD: Recipe = Recipe {
-        id: 82,
-        a: 25,
-        b: 28,
-        c: 29,
-    };
     const RECIPE_MAKE_CANYON: Recipe = Recipe {
-        id: 83,
+        id: 59,
         a: 25,
         b: 82,
         c: 88,
     };
-    const RECIPE_MAKE_CHARCOAL: Recipe = Recipe {
-        id: 84,
-        a: 47,
-        b: 26,
-        c: 55,
-    };
     const RECIPE_MAKE_WINDMILL: Recipe = Recipe {
-        id: 85,
+        id: 60,
         a: 31,
         b: 38,
         c: 89,
     };
     const RECIPE_MAKE_ADOBE: Recipe = Recipe {
-        id: 86,
+        id: 61,
         a: 28,
         b: 36,
         c: 90,
     };
-    const RECIPE_MAKE_GLASS: Recipe = Recipe {
-        id: 87,
-        a: 37,
-        b: 26,
-        c: 53,
-    };
     const RECIPE_MAKE_WALL: Recipe = Recipe {
-        id: 88,
+        id: 62,
         a: 28,
         b: 51,
         c: 91,
     };
-    const RECIPE_MAKE_SANDSTORM: Recipe = Recipe {
-        id: 89,
-        a: 32,
-        b: 31,
-        c: 44,
-    };
     const RECIPE_MAKE_PUMICE: Recipe = Recipe {
-        id: 90,
+        id: 63,
         a: 25,
         b: 42,
         c: 92,
     };
     const RECIPE_MAKE_BARBECUE: Recipe = Recipe {
-        id: 91,
+        id: 64,
         a: 26,
         b: 55,
         c: 93,
     };
     const RECIPE_MAKE_FARM: Recipe = Recipe {
-        id: 92,
+        id: 65,
         a: 28,
         b: 49,
         c: 94,
     };
-    const RECIPE_MAKE_STEAM: Recipe = Recipe {
-        id: 93,
-        a: 25,
-        b: 26,
-        c: 27,
-    };
     const RECIPE_MAKE_SHARDS: Recipe = Recipe {
-        id: 94,
+        id: 66,
         a: 31,
         b: 41,
         c: 95,
     };
-    const RECIPE_MAKE_CRYSTAL: Recipe = Recipe {
-        id: 95,
-        a: 53,
-        b: 28,
-        c: 60,
-    };
     const RECIPE_MAKE_MOLTEN_GLASS: Recipe = Recipe {
-        id: 96,
+        id: 67,
         a: 26,
         b: 60,
         c: 96,
     };
     const RECIPE_MAKE_PRISM: Recipe = Recipe {
-        id: 97,
+        id: 68,
         a: 25,
         b: 60,
         c: 97,
     };
     const RECIPE_MAKE_SPARKLE: Recipe = Recipe {
-        id: 98,
+        id: 69,
         a: 31,
         b: 60,
         c: 98,
     };
     const RECIPE_MAKE_DESERT: Recipe = Recipe {
-        id: 99,
+        id: 70,
         a: 28,
         b: 80,
         c: 99,
     };
     const RECIPE_MAKE_OASIS: Recipe = Recipe {
-        id: 100,
+        id: 71,
         a: 25,
         b: 99,
         c: 100,
     };
     const RECIPE_MAKE_MIRAGE: Recipe = Recipe {
-        id: 101,
+        id: 72,
         a: 26,
         b: 99,
         c: 101,
     };
     const RECIPE_MAKE_SAND_DUNE: Recipe = Recipe {
-        id: 102,
+        id: 73,
         a: 31,
         b: 99,
         c: 102,
     };
     const RECIPE_MAKE_DAM: Recipe = Recipe {
-        id: 103,
+        id: 74,
         a: 25,
         b: 91,
         c: 103,
     };
     const RECIPE_MAKE_FIREWALL: Recipe = Recipe {
-        id: 104,
+        id: 75,
         a: 26,
         b: 91,
         c: 104,
     };
     const RECIPE_MAKE_BARRICADE: Recipe = Recipe {
-        id: 105,
+        id: 76,
         a: 31,
         b: 91,
         c: 105,
     };
     const RECIPE_MAKE_PLATEAU: Recipe = Recipe {
-        id: 106,
+        id: 77,
         a: 28,
         b: 88,
         c: 106,
     };
     const RECIPE_MAKE_POND: Recipe = Recipe {
-        id: 107,
+        id: 78,
         a: 25,
         b: 75,
         c: 107,
     };
-    const RECIPE_MAKE_WILDFIRE: Recipe = Recipe {
-        id: 108,
-        a: 48,
-        b: 26,
-        c: 57,
-    };
     const RECIPE_MAKE_AROMAS: Recipe = Recipe {
-        id: 109,
+        id: 79,
         a: 31,
         b: 75,
         c: 108,
     };
-    const RECIPE_MAKE_OASIS: Recipe = Recipe {
-        id: 110,
-        a: 25,
-        b: 99,
-        c: 100,
-    };
     const RECIPE_MAKE_FLOWER: Recipe = Recipe {
-        id: 111,
+        id: 80,
         a: 25,
         b: 78,
         c: 109,
     };
     const RECIPE_MAKE_SPORE: Recipe = Recipe {
-        id: 112,
+        id: 81,
         a: 26,
         b: 78,
         c: 110,
     };
     const RECIPE_MAKE_SPREAD: Recipe = Recipe {
-        id: 113,
+        id: 82,
         a: 31,
         b: 78,
         c: 111,
     };
     const RECIPE_MAKE_FERTILE_LAND: Recipe = Recipe {
-        id: 114,
+        id: 83,
         a: 28,
         b: 87,
         c: 112,
     };
     const RECIPE_MAKE_WETLAND: Recipe = Recipe {
-        id: 115,
+        id: 84,
         a: 25,
         b: 112,
         c: 113,
     };
     const RECIPE_MAKE_PEAT: Recipe = Recipe {
-        id: 116,
+        id: 85,
         a: 26,
         b: 113,
         c: 114,
     };
     const RECIPE_MAKE_REEDS: Recipe = Recipe {
-        id: 117,
+        id: 86,
         a: 31,
         b: 113,
         c: 115,
     };
     const RECIPE_MAKE_VALLEY: Recipe = Recipe {
-        id: 118,
+        id: 87,
         a: 28,
         b: 88,
         c: 116,
     };
     const RECIPE_MAKE_RIVER: Recipe = Recipe {
-        id: 119,
+        id: 88,
         a: 25,
         b: 116,
         c: 117,
     };
     const RECIPE_MAKE_SCORCHED_EARTH: Recipe = Recipe {
-        id: 120,
+        id: 89,
         a: 26,
         b: 116,
         c: 118,
     };
-    const RECIPE_MAKE_BREEZE: Recipe = Recipe {
-        id: 121,
-        a: 31,
-        b: 32,
-        c: 85,
-    };
     const RECIPE_MAKE_DELTA: Recipe = Recipe {
-        id: 122,
+        id: 90,
         a: 28,
         b: 117,
         c: 119,
     };
     const RECIPE_MAKE_ESTUARY: Recipe = Recipe {
-        id: 123,
+        id: 91,
         a: 25,
         b: 119,
         c: 120,
     };
     const RECIPE_MAKE_FIRE_SWAMP: Recipe = Recipe {
-        id: 124,
+        id: 92,
         a: 26,
         b: 119,
         c: 121,
     };
     const RECIPE_MAKE_RIVERBANK: Recipe = Recipe {
-        id: 125,
+        id: 93,
         a: 31,
         b: 119,
         c: 122,
     };
     const RECIPE_MAKE_RAVINE: Recipe = Recipe {
-        id: 126,
+        id: 94,
         a: 28,
         b: 82,
         c: 123,
     };
     const RECIPE_MAKE_GORGE: Recipe = Recipe {
-        id: 127,
+        id: 95,
         a: 25,
         b: 123,
         c: 124,
     };
     const RECIPE_MAKE_CHARRED_RAVINE: Recipe = Recipe {
-        id: 128,
+        id: 96,
         a: 26,
         b: 123,
         c: 125,
     };
     const RECIPE_MAKE_ECHO: Recipe = Recipe {
-        id: 129,
+        id: 97,
         a: 31,
         b: 123,
         c: 126,
     };
     const RECIPE_MAKE_CAVE: Recipe = Recipe {
-        id: 130,
+        id: 98,
         a: 28,
         b: 126,
         c: 127,
     };
     const RECIPE_MAKE_UNDERGROUND_LAKE: Recipe = Recipe {
-        id: 131,
+        id: 99,
         a: 25,
         b: 127,
         c: 128,
     };
     const RECIPE_MAKE_LAVA_CAVE: Recipe = Recipe {
-        id: 132,
+        id: 100,
         a: 26,
         b: 127,
         c: 129,
     };
     const RECIPE_MAKE_WHISPERING_CAVE: Recipe = Recipe {
-        id: 133,
+        id: 101,
         a: 31,
         b: 127,
         c: 130,
     };
     const RECIPE_MAKE_SUBTERRANEAN_POOL: Recipe = Recipe {
-        id: 134,
+        id: 102,
         a: 28,
         b: 128,
         c: 131,
     };
     const RECIPE_MAKE_SPRING: Recipe = Recipe {
-        id: 135,
+        id: 103,
         a: 25,
         b: 131,
         c: 132,
     };
     const RECIPE_MAKE_HOT_SPRING: Recipe = Recipe {
-        id: 136,
+        id: 104,
         a: 26,
         b: 131,
         c: 133,
     };
     const RECIPE_MAKE_GROTTO: Recipe = Recipe {
-        id: 137,
+        id: 105,
         a: 31,
         b: 131,
         c: 134,
     };
-    const RECIPE_MAKE_OASIS: Recipe = Recipe {
-        id: 138,
-        a: 25,
-        b: 99,
-        c: 100,
-    };
     const RECIPE_MAKE_FOUNTAIN: Recipe = Recipe {
-        id: 139,
+        id: 106,
         a: 25,
         b: 132,
         c: 135,
     };
     const RECIPE_MAKE_STEAM_VENT: Recipe = Recipe {
-        id: 140,
+        id: 107,
         a: 26,
         b: 132,
         c: 136,
     };
     const RECIPE_MAKE_COOL_BREEZE: Recipe = Recipe {
-        id: 141,
+        id: 108,
         a: 31,
         b: 132,
         c: 137,
     };
     const RECIPE_MAKE_MONUMENT: Recipe = Recipe {
-        id: 142,
+        id: 109,
         a: 28,
         b: 135,
         c: 138,
     };
     const RECIPE_MAKE_WATERFALL: Recipe = Recipe {
-        id: 143,
+        id: 110,
         a: 25,
         b: 138,
         c: 139,
     };
     const RECIPE_MAKE_ETERNAL_FLAME: Recipe = Recipe {
-        id: 144,
+        id: 111,
         a: 26,
         b: 138,
         c: 140,
     };
     const RECIPE_MAKE_PILLAR_OF_WIND: Recipe = Recipe {
-        id: 145,
+        id: 112,
         a: 31,
         b: 138,
         c: 141,
     };
-    const RECIPE_MAKE_RIVER: Recipe = Recipe {
-        id: 146,
-        a: 25,
-        b: 116,
-        c: 117,
-    };
     const RECIPE_MAKE_STREAM: Recipe = Recipe {
-        id: 147,
+        id: 113,
         a: 25,
         b: 117,
         c: 142,
     };
-    const RECIPE_MAKE_STEAM: Recipe = Recipe {
-        id: 148,
-        a: 25,
-        b: 26,
-        c: 27,
-    };
     const RECIPE_MAKE_ZEPHYR: Recipe = Recipe {
-        id: 149,
+        id: 114,
         a: 31,
         b: 117,
         c: 143,
     };
     const RECIPE_MAKE_CREEK: Recipe = Recipe {
-        id: 150,
+        id: 115,
         a: 28,
         b: 142,
         c: 144,
     };
     const RECIPE_MAKE_BROOK: Recipe = Recipe {
-        id: 151,
+        id: 116,
         a: 25,
         b: 144,
         c: 145,
     };
-    const RECIPE_MAKE_STEAM: Recipe = Recipe {
-        id: 152,
-        a: 25,
-        b: 26,
-        c: 27,
-    };
     const RECIPE_MAKE_WHISPER: Recipe = Recipe {
-        id: 153,
+        id: 117,
         a: 31,
         b: 144,
         c: 146,
     };
     const RECIPE_MAKE_RIVULET: Recipe = Recipe {
-        id: 154,
+        id: 118,
         a: 28,
         b: 145,
         c: 147,
     };
     const RECIPE_MAKE_TRIBUTARY: Recipe = Recipe {
-        id: 155,
+        id: 119,
         a: 25,
         b: 147,
         c: 148,
     };
-    const RECIPE_MAKE_STEAM: Recipe = Recipe {
-        id: 156,
-        a: 25,
-        b: 26,
-        c: 27,
-    };
     const RECIPE_MAKE_MURMUR: Recipe = Recipe {
-        id: 157,
+        id: 120,
         a: 31,
         b: 147,
         c: 149,
     };
     const RECIPE_MAKE_WATERSHED: Recipe = Recipe {
-        id: 158,
+        id: 121,
         a: 28,
         b: 148,
         c: 150,
     };
     const RECIPE_MAKE_AQUIFER: Recipe = Recipe {
-        id: 159,
+        id: 122,
         a: 25,
         b: 150,
         c: 151,
     };
     const RECIPE_MAKE_PARCHED_EARTH: Recipe = Recipe {
-        id: 160,
+        id: 123,
         a: 26,
         b: 150,
         c: 152,
     };
     const RECIPE_MAKE_FRESH_BREEZE: Recipe = Recipe {
-        id: 161,
+        id: 124,
         a: 31,
         b: 150,
         c: 153,
     };
     const RECIPE_MAKE_GROUNDWATER: Recipe = Recipe {
-        id: 162,
+        id: 125,
         a: 28,
         b: 151,
         c: 154,
     };
     const RECIPE_MAKE_RESERVOIR: Recipe = Recipe {
-        id: 163,
+        id: 126,
         a: 25,
         b: 154,
         c: 155,
     };
     const RECIPE_MAKE_GEOTHERMAL_SPRING: Recipe = Recipe {
-        id: 164,
+        id: 127,
         a: 26,
         b: 154,
         c: 156,
     };
     const RECIPE_MAKE_ARTESIAN_WELL: Recipe = Recipe {
-        id: 165,
+        id: 128,
         a: 31,
         b: 154,
         c: 157,
     };
     const RECIPE_MAKE_BASIN: Recipe = Recipe {
-        id: 166,
+        id: 129,
         a: 28,
         b: 155,
         c: 158,
     };
     const RECIPE_MAKE_LAKE: Recipe = Recipe {
-        id: 167,
+        id: 130,
         a: 25,
         b: 158,
         c: 159,
     };
     const RECIPE_MAKE_DRY_BASIN: Recipe = Recipe {
-        id: 168,
+        id: 131,
         a: 26,
         b: 158,
         c: 160,
     };
     const RECIPE_MAKE_DEPRESSION: Recipe = Recipe {
-        id: 169,
+        id: 132,
         a: 31,
         b: 158,
         c: 161,
     };
     const RECIPE_MAKE_ISLAND: Recipe = Recipe {
-        id: 170,
+        id: 133,
         a: 28,
         b: 159,
         c: 162,
     };
     const RECIPE_MAKE_LAGOON: Recipe = Recipe {
-        id: 171,
+        id: 134,
         a: 25,
         b: 159,
         c: 163,
     };
-    const RECIPE_MAKE_STEAM: Recipe = Recipe {
-        id: 172,
-        a: 25,
-        b: 26,
-        c: 27,
-    };
     const RECIPE_MAKE_WAVE: Recipe = Recipe {
-        id: 173,
+        id: 135,
         a: 31,
         b: 159,
         c: 164,
     };
     const RECIPE_MAKE_REEF: Recipe = Recipe {
-        id: 174,
+        id: 136,
         a: 28,
         b: 163,
         c: 165,
     };
     const RECIPE_MAKE_CORAL: Recipe = Recipe {
-        id: 175,
+        id: 137,
         a: 25,
         b: 165,
         c: 166,
     };
-    const RECIPE_MAKE_ASH: Recipe = Recipe {
-        id: 176,
-        a: 30,
-        b: 31,
-        c: 42,
-    };
     const RECIPE_MAKE_WHIRL: Recipe = Recipe {
-        id: 177,
+        id: 138,
         a: 31,
         b: 165,
         c: 167,
     };
     const RECIPE_MAKE_LIMESTONE: Recipe = Recipe {
-        id: 178,
+        id: 139,
         a: 28,
         b: 166,
         c: 168,
     };
     const RECIPE_MAKE_KARST: Recipe = Recipe {
-        id: 179,
+        id: 140,
         a: 25,
         b: 168,
         c: 169,
     };
     const RECIPE_MAKE_QUICKLIME: Recipe = Recipe {
-        id: 180,
+        id: 141,
         a: 26,
         b: 168,
         c: 170,
     };
-    const RECIPE_MAKE_DUST: Recipe = Recipe {
-        id: 181,
-        a: 31,
-        b: 28,
-        c: 32,
-    };
-    const RECIPE_MAKE_CAVE: Recipe = Recipe {
-        id: 182,
-        a: 28,
-        b: 126,
-        c: 127,
-    };
-    const RECIPE_MAKE_GEYSER: Recipe = Recipe {
-        id: 183,
-        a: 27,
-        b: 28,
-        c: 35,
-    };
-    const RECIPE_MAKE_MAGMA_CHAMBER: Recipe = Recipe {
-        id: 184,
-        a: 28,
-        b: 30,
-        c: 84,
-    };
     const RECIPE_MAKE_BLOWHOLE: Recipe = Recipe {
-        id: 185,
+        id: 142,
         a: 31,
         b: 169,
         c: 171,
-    };
-    const RECIPE_MAKE_HOT_SPRING: Recipe = Recipe {
-        id: 186,
-        a: 26,
-        b: 131,
-        c: 133,
-    };
-    const RECIPE_MAKE_FOUNTAIN: Recipe = Recipe {
-        id: 187,
-        a: 25,
-        b: 132,
-        c: 135,
-    };
-    const RECIPE_MAKE_STEAM_VENT: Recipe = Recipe {
-        id: 188,
-        a: 26,
-        b: 132,
-        c: 136,
-    };
-    const RECIPE_MAKE_MIST: Recipe = Recipe {
-        id: 189,
-        a: 46,
-        b: 28,
-        c: 69,
-    };
-    const RECIPE_MAKE_OASIS: Recipe = Recipe {
-        id: 190,
-        a: 25,
-        b: 99,
-        c: 100,
-    };
-    const RECIPE_MAKE_FOUNTAIN: Recipe = Recipe {
-        id: 191,
-        a: 25,
-        b: 132,
-        c: 135,
-    };
-    const RECIPE_MAKE_STEAM_VENT: Recipe = Recipe {
-        id: 192,
-        a: 26,
-        b: 132,
-        c: 136,
-    };
-    const RECIPE_MAKE_COOL_BREEZE: Recipe = Recipe {
-        id: 193,
-        a: 31,
-        b: 132,
-        c: 137,
-    };
-    const RECIPE_MAKE_MONUMENT: Recipe = Recipe {
-        id: 194,
-        a: 28,
-        b: 135,
-        c: 138,
-    };
-    const RECIPE_MAKE_WATERFALL: Recipe = Recipe {
-        id: 195,
-        a: 25,
-        b: 138,
-        c: 139,
-    };
-    const RECIPE_MAKE_ETERNAL_FLAME: Recipe = Recipe {
-        id: 196,
-        a: 26,
-        b: 138,
-        c: 140,
-    };
-    const RECIPE_MAKE_PILLAR_OF_WIND: Recipe = Recipe {
-        id: 197,
-        a: 31,
-        b: 138,
-        c: 141,
-    };
-    const RECIPE_MAKE_RIVER: Recipe = Recipe {
-        id: 198,
-        a: 25,
-        b: 116,
-        c: 117,
-    };
-    const RECIPE_MAKE_STREAM: Recipe = Recipe {
-        id: 199,
-        a: 25,
-        b: 117,
-        c: 142,
     };
 
     fn find_item(index: u32) -> Option<Element> {
@@ -2631,559 +2289,388 @@ pub mod elementy {
             return Some(RECIPE_MAKE_VOLCANO);
         }
         if index == 15 {
-            return Some(RECIPE_MAKE_MUD);
+            return Some(RECIPE_MAKE_SANDSTORM);
         }
         if index == 16 {
-            return Some(RECIPE_MAKE_ASH);
+            return Some(RECIPE_MAKE_CLOUD);
         }
         if index == 17 {
-            return Some(RECIPE_MAKE_SANDSTORM);
+            return Some(RECIPE_MAKE_FOG);
         }
         if index == 18 {
-            return Some(RECIPE_MAKE_CLOUD);
-        }
-        if index == 19 {
-            return Some(RECIPE_MAKE_ASH);
-        }
-        if index == 20 {
-            return Some(RECIPE_MAKE_FOG);
-        }
-        if index == 21 {
             return Some(RECIPE_MAKE_TREE);
         }
-        if index == 22 {
-            return Some(RECIPE_MAKE_ASH);
-        }
-        if index == 23 {
+        if index == 19 {
             return Some(RECIPE_MAKE_FOREST);
         }
-        if index == 24 {
+        if index == 20 {
             return Some(RECIPE_MAKE_SEEDS);
         }
-        if index == 25 {
+        if index == 21 {
             return Some(RECIPE_MAKE_POTTERY);
         }
-        if index == 26 {
-            return Some(RECIPE_MAKE_SAND);
-        }
-        if index == 27 {
+        if index == 22 {
             return Some(RECIPE_MAKE_BRICK);
         }
-        if index == 28 {
+        if index == 23 {
             return Some(RECIPE_MAKE_QUICKSAND);
         }
-        if index == 29 {
+        if index == 24 {
             return Some(RECIPE_MAKE_GLASS);
         }
-        if index == 30 {
+        if index == 25 {
             return Some(RECIPE_MAKE_DUNE);
         }
-        if index == 31 {
-            return Some(RECIPE_MAKE_FOREST);
-        }
-        if index == 32 {
+        if index == 26 {
             return Some(RECIPE_MAKE_CHARCOAL);
         }
-        if index == 33 {
-            return Some(RECIPE_MAKE_FOREST);
-        }
-        if index == 34 {
+        if index == 27 {
             return Some(RECIPE_MAKE_LEAVES);
         }
-        if index == 35 {
+        if index == 28 {
             return Some(RECIPE_MAKE_WILDFIRE);
         }
-        if index == 36 {
-            return Some(RECIPE_MAKE_LEAVES);
-        }
-        if index == 37 {
+        if index == 29 {
             return Some(RECIPE_MAKE_JUNGLE);
         }
-        if index == 38 {
+        if index == 30 {
             return Some(RECIPE_MAKE_FROSTED_GLASS);
         }
-        if index == 39 {
+        if index == 31 {
             return Some(RECIPE_MAKE_CRYSTAL);
         }
-        if index == 40 {
-            return Some(RECIPE_MAKE_SANDSTORM);
-        }
-        if index == 41 {
+        if index == 32 {
             return Some(RECIPE_MAKE_MAGMA);
         }
-        if index == 42 {
+        if index == 33 {
             return Some(RECIPE_MAKE_ROCK);
         }
-        if index == 43 {
+        if index == 34 {
             return Some(RECIPE_MAKE_SHARD);
         }
-        if index == 44 {
+        if index == 35 {
             return Some(RECIPE_MAKE_PEBBLE);
         }
-        if index == 45 {
-            return Some(RECIPE_MAKE_LAVA);
-        }
-        if index == 46 {
+        if index == 36 {
             return Some(RECIPE_MAKE_MOUNTAIN);
         }
-        if index == 47 {
-            return Some(RECIPE_MAKE_SAND);
-        }
-        if index == 48 {
-            return Some(RECIPE_MAKE_MUD);
-        }
-        if index == 49 {
+        if index == 37 {
             return Some(RECIPE_MAKE_FERTILIZER);
         }
-        if index == 50 {
+        if index == 38 {
             return Some(RECIPE_MAKE_SOOT);
         }
-        if index == 51 {
+        if index == 39 {
             return Some(RECIPE_MAKE_LIGHTNING);
         }
-        if index == 52 {
-            return Some(RECIPE_MAKE_FOG);
-        }
-        if index == 53 {
-            return Some(RECIPE_MAKE_STORM);
-        }
-        if index == 54 {
-            return Some(RECIPE_MAKE_CLOUD);
-        }
-        if index == 55 {
-            return Some(RECIPE_MAKE_STEAM);
-        }
-        if index == 56 {
+        if index == 40 {
             return Some(RECIPE_MAKE_MIST);
         }
-        if index == 57 {
+        if index == 41 {
             return Some(RECIPE_MAKE_HAZE);
         }
-        if index == 58 {
+        if index == 42 {
             return Some(RECIPE_MAKE_FLOOD);
         }
-        if index == 59 {
+        if index == 43 {
             return Some(RECIPE_MAKE_LANDSLIDE);
         }
-        if index == 60 {
+        if index == 44 {
             return Some(RECIPE_MAKE_THUNDER);
         }
-        if index == 61 {
+        if index == 45 {
             return Some(RECIPE_MAKE_TORNADO);
         }
-        if index == 62 {
-            return Some(RECIPE_MAKE_ASH);
-        }
-        if index == 63 {
-            return Some(RECIPE_MAKE_RAIN);
-        }
-        if index == 64 {
-            return Some(RECIPE_MAKE_CLOUD);
-        }
-        if index == 65 {
+        if index == 46 {
             return Some(RECIPE_MAKE_GARDEN);
         }
-        if index == 66 {
-            return Some(RECIPE_MAKE_FOREST);
-        }
-        if index == 67 {
+        if index == 47 {
             return Some(RECIPE_MAKE_EMBER);
         }
-        if index == 68 {
+        if index == 48 {
             return Some(RECIPE_MAKE_KILN);
         }
-        if index == 69 {
+        if index == 49 {
             return Some(RECIPE_MAKE_POLLINATION);
         }
-        if index == 70 {
-            return Some(RECIPE_MAKE_HAZE);
-        }
-        if index == 71 {
+        if index == 50 {
             return Some(RECIPE_MAKE_SINKHOLE);
         }
-        if index == 72 {
+        if index == 51 {
             return Some(RECIPE_MAKE_BEACH);
         }
-        if index == 73 {
+        if index == 52 {
             return Some(RECIPE_MAKE_WETSTONE);
         }
-        if index == 74 {
-            return Some(RECIPE_MAKE_MAGMA);
-        }
-        if index == 75 {
+        if index == 53 {
             return Some(RECIPE_MAKE_EROSION);
         }
-        if index == 76 {
+        if index == 54 {
             return Some(RECIPE_MAKE_BASALT);
         }
-        if index == 77 {
-            return Some(RECIPE_MAKE_OBSIDIAN);
-        }
-        if index == 78 {
+        if index == 55 {
             return Some(RECIPE_MAKE_MAGMA_CHAMBER);
         }
-        if index == 79 {
+        if index == 56 {
             return Some(RECIPE_MAKE_BREEZE);
         }
-        if index == 80 {
+        if index == 57 {
             return Some(RECIPE_MAKE_WARM_BREEZE);
         }
-        if index == 81 {
+        if index == 58 {
             return Some(RECIPE_MAKE_SOIL);
         }
-        if index == 82 {
-            return Some(RECIPE_MAKE_MUD);
-        }
-        if index == 83 {
+        if index == 59 {
             return Some(RECIPE_MAKE_CANYON);
         }
-        if index == 84 {
-            return Some(RECIPE_MAKE_CHARCOAL);
-        }
-        if index == 85 {
+        if index == 60 {
             return Some(RECIPE_MAKE_WINDMILL);
         }
-        if index == 86 {
+        if index == 61 {
             return Some(RECIPE_MAKE_ADOBE);
         }
-        if index == 87 {
-            return Some(RECIPE_MAKE_GLASS);
-        }
-        if index == 88 {
+        if index == 62 {
             return Some(RECIPE_MAKE_WALL);
         }
-        if index == 89 {
-            return Some(RECIPE_MAKE_SANDSTORM);
-        }
-        if index == 90 {
+        if index == 63 {
             return Some(RECIPE_MAKE_PUMICE);
         }
-        if index == 91 {
+        if index == 64 {
             return Some(RECIPE_MAKE_BARBECUE);
         }
-        if index == 92 {
+        if index == 65 {
             return Some(RECIPE_MAKE_FARM);
         }
-        if index == 93 {
-            return Some(RECIPE_MAKE_STEAM);
-        }
-        if index == 94 {
+        if index == 66 {
             return Some(RECIPE_MAKE_SHARDS);
         }
-        if index == 95 {
-            return Some(RECIPE_MAKE_CRYSTAL);
-        }
-        if index == 96 {
+        if index == 67 {
             return Some(RECIPE_MAKE_MOLTEN_GLASS);
         }
-        if index == 97 {
+        if index == 68 {
             return Some(RECIPE_MAKE_PRISM);
         }
-        if index == 98 {
+        if index == 69 {
             return Some(RECIPE_MAKE_SPARKLE);
         }
-        if index == 99 {
+        if index == 70 {
             return Some(RECIPE_MAKE_DESERT);
         }
-        if index == 100 {
+        if index == 71 {
             return Some(RECIPE_MAKE_OASIS);
         }
-        if index == 101 {
+        if index == 72 {
             return Some(RECIPE_MAKE_MIRAGE);
         }
-        if index == 102 {
+        if index == 73 {
             return Some(RECIPE_MAKE_SAND_DUNE);
         }
-        if index == 103 {
+        if index == 74 {
             return Some(RECIPE_MAKE_DAM);
         }
-        if index == 104 {
+        if index == 75 {
             return Some(RECIPE_MAKE_FIREWALL);
         }
-        if index == 105 {
+        if index == 76 {
             return Some(RECIPE_MAKE_BARRICADE);
         }
-        if index == 106 {
+        if index == 77 {
             return Some(RECIPE_MAKE_PLATEAU);
         }
-        if index == 107 {
+        if index == 78 {
             return Some(RECIPE_MAKE_POND);
         }
-        if index == 108 {
-            return Some(RECIPE_MAKE_WILDFIRE);
-        }
-        if index == 109 {
+        if index == 79 {
             return Some(RECIPE_MAKE_AROMAS);
         }
-        if index == 110 {
-            return Some(RECIPE_MAKE_OASIS);
-        }
-        if index == 111 {
+        if index == 80 {
             return Some(RECIPE_MAKE_FLOWER);
         }
-        if index == 112 {
+        if index == 81 {
             return Some(RECIPE_MAKE_SPORE);
         }
-        if index == 113 {
+        if index == 82 {
             return Some(RECIPE_MAKE_SPREAD);
         }
-        if index == 114 {
+        if index == 83 {
             return Some(RECIPE_MAKE_FERTILE_LAND);
         }
-        if index == 115 {
+        if index == 84 {
             return Some(RECIPE_MAKE_WETLAND);
         }
-        if index == 116 {
+        if index == 85 {
             return Some(RECIPE_MAKE_PEAT);
         }
-        if index == 117 {
+        if index == 86 {
             return Some(RECIPE_MAKE_REEDS);
         }
-        if index == 118 {
+        if index == 87 {
             return Some(RECIPE_MAKE_VALLEY);
         }
-        if index == 119 {
+        if index == 88 {
             return Some(RECIPE_MAKE_RIVER);
         }
-        if index == 120 {
+        if index == 89 {
             return Some(RECIPE_MAKE_SCORCHED_EARTH);
         }
-        if index == 121 {
-            return Some(RECIPE_MAKE_BREEZE);
-        }
-        if index == 122 {
+        if index == 90 {
             return Some(RECIPE_MAKE_DELTA);
         }
-        if index == 123 {
+        if index == 91 {
             return Some(RECIPE_MAKE_ESTUARY);
         }
-        if index == 124 {
+        if index == 92 {
             return Some(RECIPE_MAKE_FIRE_SWAMP);
         }
-        if index == 125 {
+        if index == 93 {
             return Some(RECIPE_MAKE_RIVERBANK);
         }
-        if index == 126 {
+        if index == 94 {
             return Some(RECIPE_MAKE_RAVINE);
         }
-        if index == 127 {
+        if index == 95 {
             return Some(RECIPE_MAKE_GORGE);
         }
-        if index == 128 {
+        if index == 96 {
             return Some(RECIPE_MAKE_CHARRED_RAVINE);
         }
-        if index == 129 {
+        if index == 97 {
             return Some(RECIPE_MAKE_ECHO);
         }
-        if index == 130 {
+        if index == 98 {
             return Some(RECIPE_MAKE_CAVE);
         }
-        if index == 131 {
+        if index == 99 {
             return Some(RECIPE_MAKE_UNDERGROUND_LAKE);
         }
-        if index == 132 {
+        if index == 100 {
             return Some(RECIPE_MAKE_LAVA_CAVE);
         }
-        if index == 133 {
+        if index == 101 {
             return Some(RECIPE_MAKE_WHISPERING_CAVE);
         }
-        if index == 134 {
+        if index == 102 {
             return Some(RECIPE_MAKE_SUBTERRANEAN_POOL);
         }
-        if index == 135 {
+        if index == 103 {
             return Some(RECIPE_MAKE_SPRING);
         }
-        if index == 136 {
+        if index == 104 {
             return Some(RECIPE_MAKE_HOT_SPRING);
         }
-        if index == 137 {
+        if index == 105 {
             return Some(RECIPE_MAKE_GROTTO);
         }
-        if index == 138 {
-            return Some(RECIPE_MAKE_OASIS);
-        }
-        if index == 139 {
+        if index == 106 {
             return Some(RECIPE_MAKE_FOUNTAIN);
         }
-        if index == 140 {
+        if index == 107 {
             return Some(RECIPE_MAKE_STEAM_VENT);
         }
-        if index == 141 {
+        if index == 108 {
             return Some(RECIPE_MAKE_COOL_BREEZE);
         }
-        if index == 142 {
+        if index == 109 {
             return Some(RECIPE_MAKE_MONUMENT);
         }
-        if index == 143 {
+        if index == 110 {
             return Some(RECIPE_MAKE_WATERFALL);
         }
-        if index == 144 {
+        if index == 111 {
             return Some(RECIPE_MAKE_ETERNAL_FLAME);
         }
-        if index == 145 {
+        if index == 112 {
             return Some(RECIPE_MAKE_PILLAR_OF_WIND);
         }
-        if index == 146 {
-            return Some(RECIPE_MAKE_RIVER);
-        }
-        if index == 147 {
+        if index == 113 {
             return Some(RECIPE_MAKE_STREAM);
         }
-        if index == 148 {
-            return Some(RECIPE_MAKE_STEAM);
-        }
-        if index == 149 {
+        if index == 114 {
             return Some(RECIPE_MAKE_ZEPHYR);
         }
-        if index == 150 {
+        if index == 115 {
             return Some(RECIPE_MAKE_CREEK);
         }
-        if index == 151 {
+        if index == 116 {
             return Some(RECIPE_MAKE_BROOK);
         }
-        if index == 152 {
-            return Some(RECIPE_MAKE_STEAM);
-        }
-        if index == 153 {
+        if index == 117 {
             return Some(RECIPE_MAKE_WHISPER);
         }
-        if index == 154 {
+        if index == 118 {
             return Some(RECIPE_MAKE_RIVULET);
         }
-        if index == 155 {
+        if index == 119 {
             return Some(RECIPE_MAKE_TRIBUTARY);
         }
-        if index == 156 {
-            return Some(RECIPE_MAKE_STEAM);
-        }
-        if index == 157 {
+        if index == 120 {
             return Some(RECIPE_MAKE_MURMUR);
         }
-        if index == 158 {
+        if index == 121 {
             return Some(RECIPE_MAKE_WATERSHED);
         }
-        if index == 159 {
+        if index == 122 {
             return Some(RECIPE_MAKE_AQUIFER);
         }
-        if index == 160 {
+        if index == 123 {
             return Some(RECIPE_MAKE_PARCHED_EARTH);
         }
-        if index == 161 {
+        if index == 124 {
             return Some(RECIPE_MAKE_FRESH_BREEZE);
         }
-        if index == 162 {
+        if index == 125 {
             return Some(RECIPE_MAKE_GROUNDWATER);
         }
-        if index == 163 {
+        if index == 126 {
             return Some(RECIPE_MAKE_RESERVOIR);
         }
-        if index == 164 {
+        if index == 127 {
             return Some(RECIPE_MAKE_GEOTHERMAL_SPRING);
         }
-        if index == 165 {
+        if index == 128 {
             return Some(RECIPE_MAKE_ARTESIAN_WELL);
         }
-        if index == 166 {
+        if index == 129 {
             return Some(RECIPE_MAKE_BASIN);
         }
-        if index == 167 {
+        if index == 130 {
             return Some(RECIPE_MAKE_LAKE);
         }
-        if index == 168 {
+        if index == 131 {
             return Some(RECIPE_MAKE_DRY_BASIN);
         }
-        if index == 169 {
+        if index == 132 {
             return Some(RECIPE_MAKE_DEPRESSION);
         }
-        if index == 170 {
+        if index == 133 {
             return Some(RECIPE_MAKE_ISLAND);
         }
-        if index == 171 {
+        if index == 134 {
             return Some(RECIPE_MAKE_LAGOON);
         }
-        if index == 172 {
-            return Some(RECIPE_MAKE_STEAM);
-        }
-        if index == 173 {
+        if index == 135 {
             return Some(RECIPE_MAKE_WAVE);
         }
-        if index == 174 {
+        if index == 136 {
             return Some(RECIPE_MAKE_REEF);
         }
-        if index == 175 {
+        if index == 137 {
             return Some(RECIPE_MAKE_CORAL);
         }
-        if index == 176 {
-            return Some(RECIPE_MAKE_ASH);
-        }
-        if index == 177 {
+        if index == 138 {
             return Some(RECIPE_MAKE_WHIRL);
         }
-        if index == 178 {
+        if index == 139 {
             return Some(RECIPE_MAKE_LIMESTONE);
         }
-        if index == 179 {
+        if index == 140 {
             return Some(RECIPE_MAKE_KARST);
         }
-        if index == 180 {
+        if index == 141 {
             return Some(RECIPE_MAKE_QUICKLIME);
         }
-        if index == 181 {
-            return Some(RECIPE_MAKE_DUST);
-        }
-        if index == 182 {
-            return Some(RECIPE_MAKE_CAVE);
-        }
-        if index == 183 {
-            return Some(RECIPE_MAKE_GEYSER);
-        }
-        if index == 184 {
-            return Some(RECIPE_MAKE_MAGMA_CHAMBER);
-        }
-        if index == 185 {
+        if index == 142 {
             return Some(RECIPE_MAKE_BLOWHOLE);
-        }
-        if index == 186 {
-            return Some(RECIPE_MAKE_HOT_SPRING);
-        }
-        if index == 187 {
-            return Some(RECIPE_MAKE_FOUNTAIN);
-        }
-        if index == 188 {
-            return Some(RECIPE_MAKE_STEAM_VENT);
-        }
-        if index == 189 {
-            return Some(RECIPE_MAKE_MIST);
-        }
-        if index == 190 {
-            return Some(RECIPE_MAKE_OASIS);
-        }
-        if index == 191 {
-            return Some(RECIPE_MAKE_FOUNTAIN);
-        }
-        if index == 192 {
-            return Some(RECIPE_MAKE_STEAM_VENT);
-        }
-        if index == 193 {
-            return Some(RECIPE_MAKE_COOL_BREEZE);
-        }
-        if index == 194 {
-            return Some(RECIPE_MAKE_MONUMENT);
-        }
-        if index == 195 {
-            return Some(RECIPE_MAKE_WATERFALL);
-        }
-        if index == 196 {
-            return Some(RECIPE_MAKE_ETERNAL_FLAME);
-        }
-        if index == 197 {
-            return Some(RECIPE_MAKE_PILLAR_OF_WIND);
-        }
-        if index == 198 {
-            return Some(RECIPE_MAKE_RIVER);
-        }
-        if index == 199 {
-            return Some(RECIPE_MAKE_STREAM);
         }
         None
     }

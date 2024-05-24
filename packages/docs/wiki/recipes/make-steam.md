@@ -4,8 +4,8 @@ We need a description here
 
 ## Ingredients
 
+* [Water](/wiki/elements/water)
 * [Fire](/wiki/elements/fire)
-* [Lake](/wiki/elements/lake)
 
 ## Result
 

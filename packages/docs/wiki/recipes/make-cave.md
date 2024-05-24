@@ -5,7 +5,7 @@ We need a description here
 ## Ingredients
 
 * [Earth](/wiki/elements/earth)
-* [Karst](/wiki/elements/karst)
+* [Echo](/wiki/elements/echo)
 
 ## Result
 

@@ -4,8 +4,8 @@ We need a description here
 
 ## Ingredients
 
-* [Earth](/wiki/elements/earth)
-* [Spring](/wiki/elements/spring)
+* [Water](/wiki/elements/water)
+* [Desert](/wiki/elements/desert)
 
 ## Result
 

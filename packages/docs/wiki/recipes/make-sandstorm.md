@@ -4,8 +4,8 @@ We need a description here
 
 ## Ingredients
 
+* [Dust](/wiki/elements/dust)
 * [Wind](/wiki/elements/wind)
-* [Erosion](/wiki/elements/erosion)
 
 ## Result
 

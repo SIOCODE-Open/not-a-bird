@@ -4,8 +4,8 @@ We need a description here
 
 ## Ingredients
 
+* [Obsidian](/wiki/elements/obsidian)
 * [Fire](/wiki/elements/fire)
-* [Rock](/wiki/elements/rock)
 
 ## Result
 

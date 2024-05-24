@@ -5,7 +5,7 @@ We need a description here
 ## Ingredients
 
 * [Wind](/wiki/elements/wind)
-* [Limestone](/wiki/elements/limestone)
+* [Earth](/wiki/elements/earth)
 
 ## Result
 

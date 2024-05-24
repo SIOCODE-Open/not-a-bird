@@ -5,7 +5,7 @@ We need a description here
 ## Ingredients
 
 * [Wind](/wiki/elements/wind)
-* [Valley](/wiki/elements/valley)
+* [Dust](/wiki/elements/dust)
 
 ## Result
 

@@ -4,8 +4,8 @@ We need a description here
 
 ## Ingredients
 
+* [Sand](/wiki/elements/sand)
 * [Fire](/wiki/elements/fire)
-* [Quicksand](/wiki/elements/quicksand)
 
 ## Result
 

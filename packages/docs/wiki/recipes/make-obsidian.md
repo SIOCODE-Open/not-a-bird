@@ -4,8 +4,8 @@ We need a description here
 
 ## Ingredients
 
+* [Lava](/wiki/elements/lava)
 * [Water](/wiki/elements/water)
-* [Magma](/wiki/elements/magma)
 
 ## Result
 

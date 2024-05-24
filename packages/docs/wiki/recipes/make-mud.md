@@ -5,7 +5,7 @@ We need a description here
 ## Ingredients
 
 * [Water](/wiki/elements/water)
-* [Soil](/wiki/elements/soil)
+* [Earth](/wiki/elements/earth)
 
 ## Result
 

@@ -4,7 +4,7 @@ We need a description here
 
 ## Ingredients
 
-* [Forest](/wiki/elements/forest)
+* [Tree](/wiki/elements/tree)
 * [Wind](/wiki/elements/wind)
 
 ## Result

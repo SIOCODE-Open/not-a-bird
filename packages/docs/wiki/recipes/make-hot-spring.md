@@ -4,8 +4,8 @@ We need a description here
 
 ## Ingredients
 
-* [Earth](/wiki/elements/earth)
-* [Geyser](/wiki/elements/geyser)
+* [Fire](/wiki/elements/fire)
+* [Subterranean Pool](/wiki/elements/subterranean-pool)
 
 ## Result
 

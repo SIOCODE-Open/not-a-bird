@@ -4,7 +4,7 @@ We need a description here
 
 ## Ingredients
 
-* [Cloud](/wiki/elements/cloud)
+* [Rain](/wiki/elements/rain)
 * [Wind](/wiki/elements/wind)
 
 ## Result

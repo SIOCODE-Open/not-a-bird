@@ -4,7 +4,7 @@ We need a description here
 
 ## Ingredients
 
-* [Rock](/wiki/elements/rock)
+* [Mud](/wiki/elements/mud)
 * [Wind](/wiki/elements/wind)
 
 ## Result

@@ -4,8 +4,8 @@ We need a description here
 
 ## Ingredients
 
-* [Earth](/wiki/elements/earth)
-* [Waterfall](/wiki/elements/waterfall)
+* [Water](/wiki/elements/water)
+* [Valley](/wiki/elements/valley)
 
 ## Result
 

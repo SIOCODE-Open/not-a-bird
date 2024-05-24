@@ -4,8 +4,8 @@ We need a description here
 
 ## Ingredients
 
-* [Cloud](/wiki/elements/cloud)
-* [Earth](/wiki/elements/earth)
+* [Smoke](/wiki/elements/smoke)
+* [Wind](/wiki/elements/wind)
 
 ## Result
 

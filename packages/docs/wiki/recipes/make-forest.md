@@ -4,8 +4,8 @@ We need a description here
 
 ## Ingredients
 
+* [Plant](/wiki/elements/plant)
 * [Earth](/wiki/elements/earth)
-* [Tree](/wiki/elements/tree)
 
 ## Result
 

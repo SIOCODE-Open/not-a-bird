@@ -4,8 +4,8 @@ We need a description here
 
 ## Ingredients
 
-* [Water](/wiki/elements/water)
-* [Karst](/wiki/elements/karst)
+* [Steam](/wiki/elements/steam)
+* [Earth](/wiki/elements/earth)
 
 ## Result
 

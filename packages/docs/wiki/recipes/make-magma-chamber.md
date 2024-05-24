@@ -4,8 +4,8 @@ We need a description here
 
 ## Ingredients
 
-* [Fire](/wiki/elements/fire)
-* [Karst](/wiki/elements/karst)
+* [Earth](/wiki/elements/earth)
+* [Lava](/wiki/elements/lava)
 
 ## Result
 

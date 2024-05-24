@@ -63,7 +63,7 @@ pub mod {{snakeCase name}} {
 
     {{#each items}}
     const ELEMENT_{{constantCase name}}: Element = Element {
-        id: {index}},
+        id: {{index}},
         name: "{{item.name}}",
         description: "{{item.description}}",
         tier: {{item.tier}},

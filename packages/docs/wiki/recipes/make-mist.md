@@ -4,8 +4,8 @@ We need a description here
 
 ## Ingredients
 
-* [Wind](/wiki/elements/wind)
-* [Geyser](/wiki/elements/geyser)
+* [Fog](/wiki/elements/fog)
+* [Earth](/wiki/elements/earth)
 
 ## Result
 
