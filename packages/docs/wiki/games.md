@@ -5,6 +5,7 @@ _Not a bird_ contains multiple **games**. Each game is a set of [elements](/wiki
 ## List of games
 
 * [Unifiers](/wiki/games/unifiers)
+* [Elementy](/wiki/games/elementy)
 
 See also:
 

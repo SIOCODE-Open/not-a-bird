@@ -176,6 +176,7 @@ members = [
   "packages/contract-blowhole/src",
   "packages/contract-game/src",
   "packages/contract-unifiers/src",
+  "packages/contract-elementy/src",
 ]
 exclude = [
   ".cargo",

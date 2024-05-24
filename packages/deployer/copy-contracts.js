@@ -200,6 +200,7 @@ const itemKarstPath = path.join(targetInkDir, 'karst/karst.contract');
 const itemQuicklimePath = path.join(targetInkDir, 'quicklime/quicklime.contract');
 const itemBlowholePath = path.join(targetInkDir, 'blowhole/blowhole.contract');
 const gameUnifiersPath = path.join(targetInkDir, 'unifiers/unifiers.contract');
+const gameElementyPath = path.join(targetInkDir, 'elementy/elementy.contract');
 
 if(fs.existsSync(itemMonkeyPath)) {
     console.log(`Copying monkey ...`);
@@ -1239,4 +1240,10 @@ if(fs.existsSync(gameUnifiersPath)) {
     fs.copyFileSync(gameUnifiersPath, path.join(contractsV1Dir, 'unifiers.contract.json'));
 } else {
     console.log(`unifiers not found`);
+}
+if(fs.existsSync(gameElementyPath)) {
+    console.log(`Copying elementy ...`);
+    fs.copyFileSync(gameElementyPath, path.join(contractsV1Dir, 'elementy.contract.json'));
+} else {
+    console.log(`elementy not found`);
 }

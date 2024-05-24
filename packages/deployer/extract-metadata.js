@@ -2791,3 +2791,19 @@ if(fs.existsSync(unifiersPath)) {
 } else {
     console.log(`No metadata found for unifiers at ${ unifiersPath }`)
 }
+const elementyPath = path.join(contractsV1Dir, "elementy.contract.json");
+const elementyInterfacePath = path.join(contractInterfacesV1Dir, "elementy.interface.json");
+if(fs.existsSync(elementyPath)) {
+    const elementyData = JSON.parse(
+        fs.readFileSync(elementyPath, { encoding: 'utf-8' })
+    );
+    if(!elementyData.source) {
+        console.log(`No source found for elementy at ${ elementyPath }`)
+        return;
+    }
+    delete elementyData.source.wasm;
+    fs.writeFileSync(elementyInterfacePath, JSON.stringify(elementyData, null, 4));
+    console.log(`Extracted metadata for elementy to ${ elementyInterfacePath }`)
+} else {
+    console.log(`No metadata found for elementy at ${ elementyPath }`)
+}
