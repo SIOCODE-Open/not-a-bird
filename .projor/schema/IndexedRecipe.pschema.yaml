@@ -5,7 +5,7 @@ fields:
   - name: index
     type: integer
     description: The index of the recipe
-  - name: item
+  - name: recipe
     type: reference
     description: The recipe
     references: s/Recipe

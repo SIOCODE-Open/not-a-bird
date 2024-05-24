@@ -7,7 +7,7 @@ const queryResult = recipes.map(
     (item, itemindex) => ({
         name: item.name,
         description: item.description,
-        item: `recipes#${item.name}`,
+        recipe: `recipes#${item.name}`,
         index: itemindex,
     })
 );

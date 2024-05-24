@@ -940,861 +940,861 @@ pub mod elementy {
     };
     const RECIPE_MAKE_STEAM: Recipe = Recipe {
         id: 10,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 26,
+        c: 27,
     };
     const RECIPE_MAKE_MUD: Recipe = Recipe {
         id: 11,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 28,
+        c: 29,
     };
     const RECIPE_MAKE_LAVA: Recipe = Recipe {
         id: 12,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 28,
+        c: 30,
     };
     const RECIPE_MAKE_DUST: Recipe = Recipe {
         id: 13,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 28,
+        c: 32,
     };
     const RECIPE_MAKE_RAIN: Recipe = Recipe {
         id: 14,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 31,
+        c: 33,
     };
     const RECIPE_MAKE_SMOKE: Recipe = Recipe {
         id: 15,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 31,
+        c: 34,
     };
     const RECIPE_MAKE_GEYSER: Recipe = Recipe {
         id: 16,
-        a: ,
-        b: ,
-        c: ,
+        a: 27,
+        b: 28,
+        c: 35,
     };
     const RECIPE_MAKE_CLAY: Recipe = Recipe {
         id: 17,
-        a: ,
-        b: ,
-        c: ,
+        a: 29,
+        b: 26,
+        c: 36,
     };
     const RECIPE_MAKE_SAND: Recipe = Recipe {
         id: 18,
-        a: ,
-        b: ,
-        c: ,
+        a: 29,
+        b: 31,
+        c: 37,
     };
     const RECIPE_MAKE_PLANT: Recipe = Recipe {
         id: 19,
-        a: ,
-        b: ,
-        c: ,
+        a: 33,
+        b: 28,
+        c: 38,
     };
     const RECIPE_MAKE_RAINBOW: Recipe = Recipe {
         id: 20,
-        a: ,
-        b: ,
-        c: ,
+        a: 33,
+        b: 26,
+        c: 39,
     };
     const RECIPE_MAKE_STORM: Recipe = Recipe {
         id: 21,
-        a: ,
-        b: ,
-        c: ,
+        a: 33,
+        b: 31,
+        c: 40,
     };
     const RECIPE_MAKE_OBSIDIAN: Recipe = Recipe {
         id: 22,
-        a: ,
-        b: ,
-        c: ,
+        a: 30,
+        b: 25,
+        c: 41,
     };
     const RECIPE_MAKE_ASH: Recipe = Recipe {
         id: 23,
-        a: ,
-        b: ,
-        c: ,
+        a: 30,
+        b: 31,
+        c: 42,
     };
     const RECIPE_MAKE_VOLCANO: Recipe = Recipe {
         id: 24,
-        a: ,
-        b: ,
-        c: ,
+        a: 30,
+        b: 28,
+        c: 43,
     };
     const RECIPE_MAKE_SANDSTORM: Recipe = Recipe {
         id: 25,
-        a: ,
-        b: ,
-        c: ,
+        a: 32,
+        b: 31,
+        c: 44,
     };
     const RECIPE_MAKE_CLOUD: Recipe = Recipe {
         id: 26,
-        a: ,
-        b: ,
-        c: ,
+        a: 34,
+        b: 25,
+        c: 45,
     };
     const RECIPE_MAKE_FOG: Recipe = Recipe {
         id: 27,
-        a: ,
-        b: ,
-        c: ,
+        a: 34,
+        b: 31,
+        c: 46,
     };
     const RECIPE_MAKE_TREE: Recipe = Recipe {
         id: 28,
-        a: ,
-        b: ,
-        c: ,
+        a: 38,
+        b: 25,
+        c: 47,
     };
     const RECIPE_MAKE_FOREST: Recipe = Recipe {
         id: 29,
-        a: ,
-        b: ,
-        c: ,
+        a: 38,
+        b: 28,
+        c: 48,
     };
     const RECIPE_MAKE_SEEDS: Recipe = Recipe {
         id: 30,
-        a: ,
-        b: ,
-        c: ,
+        a: 38,
+        b: 31,
+        c: 49,
     };
     const RECIPE_MAKE_POTTERY: Recipe = Recipe {
         id: 31,
-        a: ,
-        b: ,
-        c: ,
+        a: 36,
+        b: 26,
+        c: 50,
     };
     const RECIPE_MAKE_BRICK: Recipe = Recipe {
         id: 32,
-        a: ,
-        b: ,
-        c: ,
+        a: 36,
+        b: 28,
+        c: 51,
     };
     const RECIPE_MAKE_QUICKSAND: Recipe = Recipe {
         id: 33,
-        a: ,
-        b: ,
-        c: ,
+        a: 37,
+        b: 25,
+        c: 52,
     };
     const RECIPE_MAKE_GLASS: Recipe = Recipe {
         id: 34,
-        a: ,
-        b: ,
-        c: ,
+        a: 37,
+        b: 26,
+        c: 53,
     };
     const RECIPE_MAKE_DUNE: Recipe = Recipe {
         id: 35,
-        a: ,
-        b: ,
-        c: ,
+        a: 37,
+        b: 31,
+        c: 54,
     };
     const RECIPE_MAKE_CHARCOAL: Recipe = Recipe {
         id: 36,
-        a: ,
-        b: ,
-        c: ,
+        a: 47,
+        b: 26,
+        c: 55,
     };
     const RECIPE_MAKE_LEAVES: Recipe = Recipe {
         id: 37,
-        a: ,
-        b: ,
-        c: ,
+        a: 47,
+        b: 31,
+        c: 56,
     };
     const RECIPE_MAKE_WILDFIRE: Recipe = Recipe {
         id: 38,
-        a: ,
-        b: ,
-        c: ,
+        a: 48,
+        b: 26,
+        c: 57,
     };
     const RECIPE_MAKE_JUNGLE: Recipe = Recipe {
         id: 39,
-        a: ,
-        b: ,
-        c: ,
+        a: 48,
+        b: 28,
+        c: 58,
     };
     const RECIPE_MAKE_FROSTED_GLASS: Recipe = Recipe {
         id: 40,
-        a: ,
-        b: ,
-        c: ,
+        a: 53,
+        b: 25,
+        c: 59,
     };
     const RECIPE_MAKE_CRYSTAL: Recipe = Recipe {
         id: 41,
-        a: ,
-        b: ,
-        c: ,
+        a: 53,
+        b: 28,
+        c: 60,
     };
     const RECIPE_MAKE_MAGMA: Recipe = Recipe {
         id: 42,
-        a: ,
-        b: ,
-        c: ,
+        a: 41,
+        b: 26,
+        c: 61,
     };
     const RECIPE_MAKE_ROCK: Recipe = Recipe {
         id: 43,
-        a: ,
-        b: ,
-        c: ,
+        a: 41,
+        b: 28,
+        c: 62,
     };
     const RECIPE_MAKE_SHARD: Recipe = Recipe {
         id: 44,
-        a: ,
-        b: ,
-        c: ,
+        a: 41,
+        b: 31,
+        c: 63,
     };
     const RECIPE_MAKE_PEBBLE: Recipe = Recipe {
         id: 45,
-        a: ,
-        b: ,
-        c: ,
+        a: 62,
+        b: 25,
+        c: 64,
     };
     const RECIPE_MAKE_MOUNTAIN: Recipe = Recipe {
         id: 46,
-        a: ,
-        b: ,
-        c: ,
+        a: 62,
+        b: 28,
+        c: 65,
     };
     const RECIPE_MAKE_FERTILIZER: Recipe = Recipe {
         id: 47,
-        a: ,
-        b: ,
-        c: ,
+        a: 42,
+        b: 28,
+        c: 66,
     };
     const RECIPE_MAKE_SOOT: Recipe = Recipe {
         id: 48,
-        a: ,
-        b: ,
-        c: ,
+        a: 42,
+        b: 31,
+        c: 67,
     };
     const RECIPE_MAKE_LIGHTNING: Recipe = Recipe {
         id: 49,
-        a: ,
-        b: ,
-        c: ,
+        a: 45,
+        b: 26,
+        c: 68,
     };
     const RECIPE_MAKE_MIST: Recipe = Recipe {
         id: 50,
-        a: ,
-        b: ,
-        c: ,
+        a: 46,
+        b: 28,
+        c: 69,
     };
     const RECIPE_MAKE_HAZE: Recipe = Recipe {
         id: 51,
-        a: ,
-        b: ,
-        c: ,
+        a: 46,
+        b: 31,
+        c: 70,
     };
     const RECIPE_MAKE_FLOOD: Recipe = Recipe {
         id: 52,
-        a: ,
-        b: ,
-        c: ,
+        a: 40,
+        b: 25,
+        c: 71,
     };
     const RECIPE_MAKE_LANDSLIDE: Recipe = Recipe {
         id: 53,
-        a: ,
-        b: ,
-        c: ,
+        a: 40,
+        b: 28,
+        c: 72,
     };
     const RECIPE_MAKE_THUNDER: Recipe = Recipe {
         id: 54,
-        a: ,
-        b: ,
-        c: ,
+        a: 40,
+        b: 26,
+        c: 73,
     };
     const RECIPE_MAKE_TORNADO: Recipe = Recipe {
         id: 55,
-        a: ,
-        b: ,
-        c: ,
+        a: 40,
+        b: 31,
+        c: 74,
     };
     const RECIPE_MAKE_GARDEN: Recipe = Recipe {
         id: 56,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 38,
+        c: 75,
     };
     const RECIPE_MAKE_EMBER: Recipe = Recipe {
         id: 57,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 42,
+        c: 76,
     };
     const RECIPE_MAKE_KILN: Recipe = Recipe {
         id: 58,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 50,
+        c: 77,
     };
     const RECIPE_MAKE_POLLINATION: Recipe = Recipe {
         id: 59,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 38,
+        c: 78,
     };
     const RECIPE_MAKE_SINKHOLE: Recipe = Recipe {
         id: 60,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 52,
+        c: 79,
     };
     const RECIPE_MAKE_BEACH: Recipe = Recipe {
         id: 61,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 37,
+        c: 80,
     };
     const RECIPE_MAKE_WETSTONE: Recipe = Recipe {
         id: 62,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 41,
+        c: 81,
     };
     const RECIPE_MAKE_EROSION: Recipe = Recipe {
         id: 63,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 62,
+        c: 82,
     };
     const RECIPE_MAKE_BASALT: Recipe = Recipe {
         id: 64,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 30,
+        c: 83,
     };
     const RECIPE_MAKE_MAGMA_CHAMBER: Recipe = Recipe {
         id: 65,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 30,
+        c: 84,
     };
     const RECIPE_MAKE_BREEZE: Recipe = Recipe {
         id: 66,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 32,
+        c: 85,
     };
     const RECIPE_MAKE_WARM_BREEZE: Recipe = Recipe {
         id: 67,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 85,
+        c: 86,
     };
     const RECIPE_MAKE_SOIL: Recipe = Recipe {
         id: 68,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 38,
+        c: 87,
     };
     const RECIPE_MAKE_CANYON: Recipe = Recipe {
         id: 69,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 82,
+        c: 88,
     };
     const RECIPE_MAKE_WINDMILL: Recipe = Recipe {
         id: 70,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 38,
+        c: 89,
     };
     const RECIPE_MAKE_ADOBE: Recipe = Recipe {
         id: 71,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 36,
+        c: 90,
     };
     const RECIPE_MAKE_WALL: Recipe = Recipe {
         id: 72,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 51,
+        c: 91,
     };
     const RECIPE_MAKE_PUMICE: Recipe = Recipe {
         id: 73,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 42,
+        c: 92,
     };
     const RECIPE_MAKE_BARBECUE: Recipe = Recipe {
         id: 74,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 55,
+        c: 93,
     };
     const RECIPE_MAKE_FARM: Recipe = Recipe {
         id: 75,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 49,
+        c: 94,
     };
     const RECIPE_MAKE_SHARDS: Recipe = Recipe {
         id: 76,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 41,
+        c: 95,
     };
     const RECIPE_MAKE_MOLTEN_GLASS: Recipe = Recipe {
         id: 77,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 60,
+        c: 96,
     };
     const RECIPE_MAKE_PRISM: Recipe = Recipe {
         id: 78,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 60,
+        c: 97,
     };
     const RECIPE_MAKE_SPARKLE: Recipe = Recipe {
         id: 79,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 60,
+        c: 98,
     };
     const RECIPE_MAKE_DESERT: Recipe = Recipe {
         id: 80,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 80,
+        c: 99,
     };
     const RECIPE_MAKE_OASIS: Recipe = Recipe {
         id: 81,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 99,
+        c: 100,
     };
     const RECIPE_MAKE_MIRAGE: Recipe = Recipe {
         id: 82,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 99,
+        c: 101,
     };
     const RECIPE_MAKE_SAND_DUNE: Recipe = Recipe {
         id: 83,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 99,
+        c: 102,
     };
     const RECIPE_MAKE_DAM: Recipe = Recipe {
         id: 84,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 91,
+        c: 103,
     };
     const RECIPE_MAKE_FIREWALL: Recipe = Recipe {
         id: 85,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 91,
+        c: 104,
     };
     const RECIPE_MAKE_BARRICADE: Recipe = Recipe {
         id: 86,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 91,
+        c: 105,
     };
     const RECIPE_MAKE_PLATEAU: Recipe = Recipe {
         id: 87,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 88,
+        c: 106,
     };
     const RECIPE_MAKE_POND: Recipe = Recipe {
         id: 88,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 75,
+        c: 107,
     };
     const RECIPE_MAKE_AROMAS: Recipe = Recipe {
         id: 89,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 75,
+        c: 108,
     };
     const RECIPE_MAKE_FLOWER: Recipe = Recipe {
         id: 90,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 78,
+        c: 109,
     };
     const RECIPE_MAKE_SPORE: Recipe = Recipe {
         id: 91,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 78,
+        c: 110,
     };
     const RECIPE_MAKE_SPREAD: Recipe = Recipe {
         id: 92,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 78,
+        c: 111,
     };
     const RECIPE_MAKE_FERTILE_LAND: Recipe = Recipe {
         id: 93,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 87,
+        c: 112,
     };
     const RECIPE_MAKE_WETLAND: Recipe = Recipe {
         id: 94,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 112,
+        c: 113,
     };
     const RECIPE_MAKE_PEAT: Recipe = Recipe {
         id: 95,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 113,
+        c: 114,
     };
     const RECIPE_MAKE_REEDS: Recipe = Recipe {
         id: 96,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 113,
+        c: 115,
     };
     const RECIPE_MAKE_VALLEY: Recipe = Recipe {
         id: 97,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 88,
+        c: 116,
     };
     const RECIPE_MAKE_RIVER: Recipe = Recipe {
         id: 98,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 116,
+        c: 117,
     };
     const RECIPE_MAKE_SCORCHED_EARTH: Recipe = Recipe {
         id: 99,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 116,
+        c: 118,
     };
     const RECIPE_MAKE_DELTA: Recipe = Recipe {
         id: 100,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 117,
+        c: 119,
     };
     const RECIPE_MAKE_ESTUARY: Recipe = Recipe {
         id: 101,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 119,
+        c: 120,
     };
     const RECIPE_MAKE_FIRE_SWAMP: Recipe = Recipe {
         id: 102,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 119,
+        c: 121,
     };
     const RECIPE_MAKE_RIVERBANK: Recipe = Recipe {
         id: 103,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 119,
+        c: 122,
     };
     const RECIPE_MAKE_RAVINE: Recipe = Recipe {
         id: 104,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 82,
+        c: 123,
     };
     const RECIPE_MAKE_GORGE: Recipe = Recipe {
         id: 105,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 123,
+        c: 124,
     };
     const RECIPE_MAKE_CHARRED_RAVINE: Recipe = Recipe {
         id: 106,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 123,
+        c: 125,
     };
     const RECIPE_MAKE_ECHO: Recipe = Recipe {
         id: 107,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 123,
+        c: 126,
     };
     const RECIPE_MAKE_CAVE: Recipe = Recipe {
         id: 108,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 126,
+        c: 127,
     };
     const RECIPE_MAKE_UNDERGROUND_LAKE: Recipe = Recipe {
         id: 109,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 127,
+        c: 128,
     };
     const RECIPE_MAKE_LAVA_CAVE: Recipe = Recipe {
         id: 110,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 127,
+        c: 129,
     };
     const RECIPE_MAKE_WHISPERING_CAVE: Recipe = Recipe {
         id: 111,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 127,
+        c: 130,
     };
     const RECIPE_MAKE_SUBTERRANEAN_POOL: Recipe = Recipe {
         id: 112,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 128,
+        c: 131,
     };
     const RECIPE_MAKE_SPRING: Recipe = Recipe {
         id: 113,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 131,
+        c: 132,
     };
     const RECIPE_MAKE_HOT_SPRING: Recipe = Recipe {
         id: 114,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 131,
+        c: 133,
     };
     const RECIPE_MAKE_GROTTO: Recipe = Recipe {
         id: 115,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 131,
+        c: 134,
     };
     const RECIPE_MAKE_FOUNTAIN: Recipe = Recipe {
         id: 116,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 132,
+        c: 135,
     };
     const RECIPE_MAKE_STEAM_VENT: Recipe = Recipe {
         id: 117,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 132,
+        c: 136,
     };
     const RECIPE_MAKE_COOL_BREEZE: Recipe = Recipe {
         id: 118,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 132,
+        c: 137,
     };
     const RECIPE_MAKE_MONUMENT: Recipe = Recipe {
         id: 119,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 135,
+        c: 138,
     };
     const RECIPE_MAKE_WATERFALL: Recipe = Recipe {
         id: 120,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 138,
+        c: 139,
     };
     const RECIPE_MAKE_ETERNAL_FLAME: Recipe = Recipe {
         id: 121,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 138,
+        c: 140,
     };
     const RECIPE_MAKE_PILLAR_OF_WIND: Recipe = Recipe {
         id: 122,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 138,
+        c: 141,
     };
     const RECIPE_MAKE_STREAM: Recipe = Recipe {
         id: 123,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 117,
+        c: 142,
     };
     const RECIPE_MAKE_ZEPHYR: Recipe = Recipe {
         id: 124,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 117,
+        c: 143,
     };
     const RECIPE_MAKE_CREEK: Recipe = Recipe {
         id: 125,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 142,
+        c: 144,
     };
     const RECIPE_MAKE_BROOK: Recipe = Recipe {
         id: 126,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 144,
+        c: 145,
     };
     const RECIPE_MAKE_WHISPER: Recipe = Recipe {
         id: 127,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 144,
+        c: 146,
     };
     const RECIPE_MAKE_RIVULET: Recipe = Recipe {
         id: 128,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 145,
+        c: 147,
     };
     const RECIPE_MAKE_TRIBUTARY: Recipe = Recipe {
         id: 129,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 147,
+        c: 148,
     };
     const RECIPE_MAKE_MURMUR: Recipe = Recipe {
         id: 130,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 147,
+        c: 149,
     };
     const RECIPE_MAKE_WATERSHED: Recipe = Recipe {
         id: 131,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 148,
+        c: 150,
     };
     const RECIPE_MAKE_AQUIFER: Recipe = Recipe {
         id: 132,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 150,
+        c: 151,
     };
     const RECIPE_MAKE_PARCHED_EARTH: Recipe = Recipe {
         id: 133,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 150,
+        c: 152,
     };
     const RECIPE_MAKE_FRESH_BREEZE: Recipe = Recipe {
         id: 134,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 150,
+        c: 153,
     };
     const RECIPE_MAKE_GROUNDWATER: Recipe = Recipe {
         id: 135,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 151,
+        c: 154,
     };
     const RECIPE_MAKE_RESERVOIR: Recipe = Recipe {
         id: 136,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 154,
+        c: 155,
     };
     const RECIPE_MAKE_GEOTHERMAL_SPRING: Recipe = Recipe {
         id: 137,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 154,
+        c: 156,
     };
     const RECIPE_MAKE_ARTESIAN_WELL: Recipe = Recipe {
         id: 138,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 154,
+        c: 157,
     };
     const RECIPE_MAKE_BASIN: Recipe = Recipe {
         id: 139,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 155,
+        c: 158,
     };
     const RECIPE_MAKE_LAKE: Recipe = Recipe {
         id: 140,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 158,
+        c: 159,
     };
     const RECIPE_MAKE_DRY_BASIN: Recipe = Recipe {
         id: 141,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 158,
+        c: 160,
     };
     const RECIPE_MAKE_DEPRESSION: Recipe = Recipe {
         id: 142,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 158,
+        c: 161,
     };
     const RECIPE_MAKE_ISLAND: Recipe = Recipe {
         id: 143,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 159,
+        c: 162,
     };
     const RECIPE_MAKE_LAGOON: Recipe = Recipe {
         id: 144,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 159,
+        c: 163,
     };
     const RECIPE_MAKE_WAVE: Recipe = Recipe {
         id: 145,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 159,
+        c: 164,
     };
     const RECIPE_MAKE_REEF: Recipe = Recipe {
         id: 146,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 163,
+        c: 165,
     };
     const RECIPE_MAKE_CORAL: Recipe = Recipe {
         id: 147,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 165,
+        c: 166,
     };
     const RECIPE_MAKE_WHIRL: Recipe = Recipe {
         id: 148,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 165,
+        c: 167,
     };
     const RECIPE_MAKE_LIMESTONE: Recipe = Recipe {
         id: 149,
-        a: ,
-        b: ,
-        c: ,
+        a: 28,
+        b: 166,
+        c: 168,
     };
     const RECIPE_MAKE_KARST: Recipe = Recipe {
         id: 150,
-        a: ,
-        b: ,
-        c: ,
+        a: 25,
+        b: 168,
+        c: 169,
     };
     const RECIPE_MAKE_QUICKLIME: Recipe = Recipe {
         id: 151,
-        a: ,
-        b: ,
-        c: ,
+        a: 26,
+        b: 168,
+        c: 170,
     };
     const RECIPE_MAKE_BLOWHOLE: Recipe = Recipe {
         id: 152,
-        a: ,
-        b: ,
-        c: ,
+        a: 31,
+        b: 169,
+        c: 171,
     };
 
     fn find_item(index: u32) -> Option<Element> {
