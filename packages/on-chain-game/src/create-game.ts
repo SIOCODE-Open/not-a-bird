@@ -325,10 +325,11 @@ class OnChainGameImpl implements IOnChainGame {
             _content,
             _chain
         );
-        for (let i in _deployment.elementContracts) {
+        for (let k of Object.keys(_deployment.elementContracts)) {
+            const i = parseInt(k);
             this._elementContracts[i] = createElementContract(
                 _deployment.elementContracts[i],
-                _content.items[i],
+                _content.items.find((item) => item.id === i),
                 _chain
             );
         }

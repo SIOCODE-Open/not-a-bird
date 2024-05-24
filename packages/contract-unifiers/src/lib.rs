@@ -208,63 +208,63 @@ pub mod unifiers {
     };
     const RECIPE_MAKE_SWARM: Recipe = Recipe {
         id: 0,
-        a: 2,
-        b: 2,
-        c: 4,
+        a: ,
+        b: ,
+        c: ,
     };
     const RECIPE_MAKE_HYDRA: Recipe = Recipe {
         id: 1,
-        a: 1,
-        b: 1,
-        c: 5,
+        a: ,
+        b: ,
+        c: ,
     };
     const RECIPE_MAKE_MONKEYBRANCH: Recipe = Recipe {
         id: 2,
-        a: 0,
-        b: 5,
-        c: 6,
+        a: ,
+        b: ,
+        c: ,
     };
     const RECIPE_MAKE_BRIDGE: Recipe = Recipe {
         id: 3,
-        a: 6,
-        b: 6,
-        c: 7,
+        a: ,
+        b: ,
+        c: ,
     };
     const RECIPE_MAKE_GOLDENGATE: Recipe = Recipe {
         id: 4,
-        a: 3,
-        b: 7,
-        c: 8,
+        a: ,
+        b: ,
+        c: ,
     };
     const RECIPE_MAKE_CARDANO: Recipe = Recipe {
         id: 5,
-        a: 15,
-        b: 17,
-        c: 18,
+        a: ,
+        b: ,
+        c: ,
     };
     const RECIPE_MAKE_BEER: Recipe = Recipe {
         id: 6,
-        a: 2,
-        b: 19,
-        c: 20,
+        a: ,
+        b: ,
+        c: ,
     };
     const RECIPE_MAKE_LOCK: Recipe = Recipe {
         id: 7,
-        a: 10,
-        b: 10,
-        c: 21,
+        a: ,
+        b: ,
+        c: ,
     };
     const RECIPE_MAKE_SUPERMARMALADE: Recipe = Recipe {
         id: 8,
-        a: 22,
-        b: 22,
-        c: 23,
+        a: ,
+        b: ,
+        c: ,
     };
     const RECIPE_MAKE_HYPERMARMALADE: Recipe = Recipe {
         id: 9,
-        a: 23,
-        b: 23,
-        c: 24,
+        a: ,
+        b: ,
+        c: ,
     };
 
     fn find_item(index: u32) -> Option<Element> {

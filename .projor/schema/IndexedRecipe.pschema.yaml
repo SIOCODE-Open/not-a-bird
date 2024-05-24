@@ -1,0 +1,11 @@
+id: s/IndexedRecipe
+name: IndexedRecipe
+description: A recipe and its index
+fields:
+  - name: index
+    type: integer
+    description: The index of the recipe
+  - name: item
+    type: reference
+    description: The recipe
+    references: s/Recipe

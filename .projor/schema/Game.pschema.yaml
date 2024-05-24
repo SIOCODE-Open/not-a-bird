@@ -10,5 +10,5 @@ fields:
   - name: recipes
     description: The recipes that are in the game
     type: reference
-    references: s/Recipe
+    references: s/IndexedRecipe
     multiple: true

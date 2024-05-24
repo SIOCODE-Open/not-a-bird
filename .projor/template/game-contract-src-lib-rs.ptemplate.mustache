@@ -71,10 +71,10 @@ pub mod {{snakeCase name}} {
     {{/each}}
     {{#each recipes}}
     const RECIPE_{{constantCase name}}: Recipe = Recipe {
-        id: {{@index}},
-        a: {{a.index}},
-        b: {{b.index}},
-        c: {{c.index}},
+        id: {{index}},
+        a: {{recipe.a.index}},
+        b: {{recipe.b.index}},
+        c: {{recipe.c.index}},
     };
     {{/each}}
 

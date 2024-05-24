@@ -1,6 +1,7 @@
 import './unifiers.singleplayer.game';
 import './elementy.singleplayer.game';
 import './unifiers.dev';
+import './elementy.dev';
 import './unifiers.sionet';
 
 export { useGame, getUsableGames } from "./use-game";
