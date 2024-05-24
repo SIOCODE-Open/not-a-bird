@@ -7,6 +7,13 @@ import { createGameContract } from "./create-game-contract";
 import { ALL_ITEMS, ALL_RECIPES, GAME_UNIFIERS, IChainDeployment, IGameContent, IGameWallet, IOnChainGame, IPool, IRecipe, IWorld } from "@not-a-bird/model";
 import { PolkadotJSChain } from "./chains/PolkadotJSChain";
 
+const NULL_GAME_CONTENT: IGameContent = {
+    name: "Unknown",
+    description: "Unknown",
+    items: [],
+    recipes: []
+};
+
 export class SinglePlayerGame implements IOnChainGame {
     private _world: IWorld;
     private _buyOffer = [
@@ -26,7 +33,7 @@ export class SinglePlayerGame implements IOnChainGame {
         private _gameContent?: IGameContent
     ) {
         if (!this._gameContent) {
-            this._gameContent = GAME_UNIFIERS;
+            this._gameContent = NULL_GAME_CONTENT;
         }
         this._world = SinglePlayerGame.initialWorld(this._gameContent);
     }
@@ -56,13 +63,14 @@ export class SinglePlayerGame implements IOnChainGame {
         gameContent?: IGameContent
     ): IWorld {
         if (!gameContent) {
-            gameContent = GAME_UNIFIERS;
+            gameContent = NULL_GAME_CONTENT;
         }
         const rootElements = gameContent.items.filter(
-            item => !GAME_UNIFIERS.recipes.some(
+            item => !gameContent.recipes.some(
                 recipe => recipe.result.id === item.id
             )
         );
+        console.log("SinglePlayerGame.initialWorld: ", rootElements);
         const w = {
             assets: [],
             inventory: {
