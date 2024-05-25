@@ -1,0 +1,19 @@
+{
+    "name": "@not-a-bird/dev-faucet",
+    "description": "A simple substrate testnet faucet",
+    "private": true,
+    "dependencies": {
+        "express": "*",
+        "@polkadot/api": "*",
+        "commander": "*"
+    },
+    "devDependencies": {
+        "typescript": "*",
+        "esbuild": "*",
+        "@types/node": "*"
+    },
+    "scripts": {
+        "build": "esbuild --bundle --platform=node --outfile=index.bundle.js src/index.ts",
+        "start": "node index.bundle.js"
+    }
+}

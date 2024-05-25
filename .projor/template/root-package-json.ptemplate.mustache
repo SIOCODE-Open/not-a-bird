@@ -27,7 +27,8 @@
     "markdown-it-task-lists": "^2.1.1",
     "markdown-it-textual-uml": "^0.17.1",
     "yaml": "^2.4.2",
-    "commander": "12.1.0"
+    "commander": "12.1.0",
+    "express": "4.19.2"
   },
   "devDependencies": {
     "@types/react": "18.2.79",
@@ -40,7 +41,8 @@
     "sass": "1.75.0",
     "typescript": "5.4.5",
     "prettier": "^3.2.5",
-    "vitepress": "1.2.2"
+    "vitepress": "1.2.2",
+    "@types/node": "20.12.12"
   },
   "scripts": {
     {{#each items}}
@@ -52,7 +54,9 @@
     "c:game": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-game/src/Cargo.toml",
     "build:contracts": "cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-game/src/Cargo.toml && {{#each items}}cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-{{kebabCase name}}/src/Cargo.toml && {{/each}}{{#each games}}cargo contract build --optimization-passes 0 --generate all --manifest-path packages/contract-{{kebabCase name}}/src/Cargo.toml{{#unless @last}} && {{/unless}}{{/each}}",
     "build": "npm run -w @not-a-bird/app-game build",
-    "serve": "npm run -w @not-a-bird/app-game serve",
+    "serve:game": "npm run -w @not-a-bird/app-game serve",
+    "serve:faucet": "npm run -w @not-a-bird/dev-faucet start",
+    "serve": "concurrently \"npm run serve:game\" \"npm run serve:faucet\" -n \"GAME,FAUCET\"",
     "docs:build": "npm run -w @not-a-bird/docs build",
     "docs:preview": "npm run -w @not-a-bird/docs preview",
     "docs:dev": "npm run -w @not-a-bird/docs dev",
@@ -60,6 +64,8 @@
     "deploy:copy": "npm run -w @not-a-bird/deployer copy",
     "deploy:extract": "npm run -w @not-a-bird/deployer extract",
     "deploy:build": "npm run -w @not-a-bird/deployer build",
-    "deploy:start": "npm run -w @not-a-bird/deployer start"
+    "deploy:start": "npm run -w @not-a-bird/deployer start",
+    "faucet:build": "npm run -w @not-a-bird/dev-faucet build",
+    "faucet:start": "npm run -w @not-a-bird/dev-faucet start"
   }
 }
