@@ -29,4 +29,7 @@ export interface IGameContract {
 
     /** Pool data */
     pool(): Promise<[number, number, number]>;
+
+    /** Prize (accumulated contract balance) */
+    prize(): Promise<number>;
 }

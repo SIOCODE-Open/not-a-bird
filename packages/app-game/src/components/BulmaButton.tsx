@@ -6,13 +6,14 @@ export function BulmaButton(
         style?: CSSProperties,
         onClick?: () => void,
         children?: ReactNode,
-        color?: "primary" | "secondary" | "danger" | "success" | "link" | "info" | "text" | "ghost" | "white" | "dark" | "light" | "black",
+        color?: "primary" | "secondary" | "danger" | "success" | "link" | "info" | "text" | "ghost" | "white" | "dark" | "light" | "black" | "static",
         outlined?: boolean,
         inverted?: boolean,
         rounded?: boolean,
         size?: "small" | "medium" | "large",
         loading?: boolean,
-        disabled?: boolean
+        disabled?: boolean,
+        fullWidth?: boolean
     }
 ) {
     let finalClasses = ["button"];
@@ -33,6 +34,9 @@ export function BulmaButton(
     }
     if (props.size && props.size !== 'medium') {
         finalClasses.push("is-" + props.size);
+    }
+    if (props.fullWidth) {
+        finalClasses.push("is-fullwidth");
     }
     if (props.className) {
         finalClasses.push(props.className);

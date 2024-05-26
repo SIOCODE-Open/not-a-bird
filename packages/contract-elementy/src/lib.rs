@@ -2827,6 +2827,11 @@ pub mod elementy {
             }
         }
 
+        #[ink(message)]
+        pub fn prize(&self) -> Result<u128, Error> {
+            Ok(self.env().balance())
+        }
+
         #[ink(message, payable)]
         pub fn buy(&mut self, element_id: u32) -> Result<(), Error> {
             if !self.buy_offer_is_set {

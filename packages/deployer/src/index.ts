@@ -10,6 +10,7 @@ import YAML from "yaml";
 import * as path from "path";
 import * as fs from "fs";
 import { program } from "commander";
+import chalk from "chalk";
 
 program.option('-n, --node-url <nodeUrl>', 'Node URL to connect to', 'ws://127.0.0.1:9944');
 program.option('-s, --suri <suri>', 'SURI to use for keyring', '//Alice');
@@ -17,6 +18,9 @@ program.option('-o, --output <output>', 'Output directory', 'output');
 program.option('-f, --format <format>', 'Output format (json, yaml)', 'json');
 program.option('-e, --env <env>', 'Environment variables to pass to the script', 'dev');
 program.option('-c, --code <code>', 'Code to generate (on-chain-game | json-export)', 'json-export');
+program.option('--token-name <tokenName>', 'Token name', 'UNKNOWN');
+program.option('--token-symbol <tokenSymbol>', 'Token symbol', '???');
+program.option('--token-decimals <tokenDecimals>', 'Token decimals', '12');
 program.option('--dev', 'Use development environment variables', false);
 program.option('--aleph-zero-testnet', 'Use Aleph Zero Testnet environment variables', false);
 program.option('--sionet', 'Use SIONET by SIOCODE environment variables', false);
@@ -32,6 +36,9 @@ if (progOpts.dev) {
     progOpts.format = 'json';
     progOpts.env = 'dev';
     progOpts.code = 'on-chain-game';
+    progOpts.tokenName = 'Unit';
+    progOpts.tokenSymbol = 'UNIT';
+    progOpts.tokenDecimals = '12';
 }
 
 if (progOpts.alephZeroTestnet) {
@@ -41,6 +48,9 @@ if (progOpts.alephZeroTestnet) {
     progOpts.format = 'json';
     progOpts.env = 'aleph-zero-testnet';
     progOpts.code = 'on-chain-game';
+    progOpts.tokenName = 'Aleph Zero Test Token';
+    progOpts.tokenSymbol = 'TZERO';
+    progOpts.tokenDecimals = '12';
 }
 
 if (progOpts.sionet) {
@@ -51,6 +61,9 @@ if (progOpts.sionet) {
     progOpts.format = 'json';
     progOpts.env = 'sionet';
     progOpts.code = 'on-chain-game';
+    progOpts.tokenName = 'SIOCOIN';
+    progOpts.tokenSymbol = 'SIO';
+    progOpts.tokenDecimals = '12';
 }
 
 function generateOnChainGameCode(game: IDeployableGame, ctx: any) {
@@ -79,6 +92,12 @@ import { loadGameChainWallet, createRandomGameChainWallet } from '@not-a-bird/ga
 
 ${chainDeploymentCode}
 
+const GAME_CHAIN_NATIVE_TOKEN_META = {
+    name: '${progOpts.tokenName}',
+    symbol: '${progOpts.tokenSymbol}',
+    decimals: ${progOpts.tokenDecimals}
+};
+
 registerLazyGame(
     '${game.otherNames.kebabCase}.polkadotjs.${ctx.env}',
     {
@@ -95,7 +114,8 @@ registerLazyGame(
         return createPolkadotJSGame(
             ${game.otherNames.constantCase}_CHAIN_DEPLOYMENT,
             GAME_${game.otherNames.constantCase},
-            suri
+            suri,
+            GAME_CHAIN_NATIVE_TOKEN_META
         );
     }
 );`;
@@ -112,8 +132,9 @@ async function connectToChain(nodeUrl: string) {
 
 const connectToChainTask = {
     title: 'Connect to Chain',
-    task: async (ctx: any) => {
+    task: async (ctx: any, task: any) => {
         ctx.api = await connectToChain(ctx.nodeUrl);
+        task.title = `Connect to Chain ${chalk.dim('(' + ctx.nodeUrl + ')')}`;
     }
 };
 
@@ -161,7 +182,7 @@ const deployContractTask = (
     opts: {
         contractName: string;
         contractData: any;
-        completed?: () => void;
+        completed?: (name?: string) => void;
     }
 ) => {
     return {
@@ -217,14 +238,16 @@ const deployContractTask = (
             );
             ctx[opts.contractName] = contractAddress;
             ctx[`${opts.contractName}_api`] = contractApi;
-            opts.completed?.();
+            opts.completed?.(
+                `Deployed ${chalk.bold(opts.contractName)} to ${chalk.dim(contractAddress)}`
+            );
         }
     };
 };
 
 const claimOwnershipTask = (opts: {
     contractName: string;
-    completed?: () => void;
+    completed?: (name?: string) => void;
 }) => {
     return {
         title: `Claim ownership of contract ${opts.contractName}`,
@@ -245,7 +268,9 @@ const claimOwnershipTask = (opts: {
                 ),
                 user as any
             );
-            opts.completed?.();
+            opts.completed?.(
+                `Claimed ownership of ${chalk.bold(opts.contractName)}`
+            );
         }
     }
 };
@@ -254,7 +279,7 @@ const lockElementContractTask = (opts: {
     gameContractName: string;
     elementIndex: number;
     elementContractName: string;
-    completed?: () => void;
+    completed?: (name?: string) => void;
 }) => {
     return {
         title: `Lock element ${opts.elementIndex} in game ${opts.gameContractName}`,
@@ -277,10 +302,42 @@ const lockElementContractTask = (opts: {
                 ),
                 user as any
             );
-            opts.completed?.();
+            opts.completed?.(
+                `Locked element ${chalk.bold(opts.elementIndex)} in game ${chalk.bold(opts.gameContractName)}`
+            );
         }
     }
 };
+
+const setBuyOfferTask = (opts: {
+    gameContractName: string;
+    completed?: (name?: string) => void;
+}) => {
+    return {
+        title: `Set buy offer in game ${opts.gameContractName}`,
+        task: async (ctx: any, task: any) => {
+            const gameContractAddress = ctx[opts.gameContractName];
+            const gameContractApi = ctx[`${opts.gameContractName}_api`];
+            const gasLimit = ctx.api.registry.createType("WeightV2", {
+                refTime: new BN("20000000000"),
+                proofSize: new BN("200000"),
+            });
+            const storageDepositLimit = null;
+            const user = ctx.keyring.pairs.find(pair => pair.meta.name === "user");
+            await signAndSendTx(
+                gameContractApi.tx.setBuyOffer(
+                    { gasLimit, storageDepositLimit },
+                    1_000_000_000_000,
+                    20
+                ),
+                user as any
+            );
+            opts.completed?.(
+                `Set buy offer in game ${chalk.bold(opts.gameContractName)}`
+            );
+        }
+    }
+}
 
 const deployElementsTask = {
     title: "Deploy elements",
@@ -289,9 +346,21 @@ const deployElementsTask = {
             deployed: 0,
             total: 0
         };
-        const onTaskComplete = () => {
+        const onTaskComplete = (taskName?: string) => {
             ctx.deployElementsStats.deployed++;
-            task.title = `Deploy elements (${ctx.deployElementsStats.deployed} / ${ctx.deployElementsStats.total})`;
+            if (ctx.deployElementsStats.deployed === ctx.deployElementsStats.total) {
+                task.title = `Deploy elements`;
+            } else {
+                const titleStats = chalk.dim(
+                    `(${ctx.deployElementsStats.deployed} / ${ctx.deployElementsStats.total})`
+                );
+                if (taskName) {
+                    const titleTask = chalk.italic(`[${taskName}]`);
+                    task.title = `Deploy elements ${titleStats} ${titleTask}`;
+                } else {
+                    task.title = `Deploy elements ${titleStats}`;
+                }
+            }
         };
         const elementDeployTasks: Array<any> = [];
         for (let element of DEPLOYABLE_ELEMENTS) {
@@ -328,9 +397,21 @@ const createGameTasks = (game: IDeployableGame) => {
                     deployed: 0,
                     total: 0
                 };
-                const onTaskComplete = () => {
+                const onTaskComplete = (taskName?: string) => {
                     ctx[`deploy_${game.name}_stats`].deployed++;
-                    task.title = `Deploy ${game.name} game (${ctx[`deploy_${game.name}_stats`].deployed} / ${ctx[`deploy_${game.name}_stats`].total})`;
+                    if (ctx[`deploy_${game.name}_stats`].deployed === ctx[`deploy_${game.name}_stats`].total) {
+                        task.title = `Deploy ${game.name} game`;
+                    } else {
+                        const titleStats = chalk.dim(
+                            `(${ctx[`deploy_${game.name}_stats`].deployed} / ${ctx[`deploy_${game.name}_stats`].total})`
+                        );
+                        if (taskName) {
+                            const titleTask = chalk.italic(`[${taskName}]`);
+                            task.title = `Deploy ${game.name} game ${titleStats} ${titleTask}`;
+                        } else {
+                            task.title = `Deploy ${game.name} game ${titleStats}`;
+                        }
+                    }
                 };
                 const deployTasks: Array<ListrTask> = [];
                 const claimOwnershipTasks: Array<ListrTask> = [];
@@ -360,6 +441,13 @@ const createGameTasks = (game: IDeployableGame) => {
                     );
                     ctx[`deploy_${game.name}_stats`].total++;
                 }
+                wiringTasks.push(
+                    setBuyOfferTask({
+                        gameContractName: game.name,
+                        completed: onTaskComplete
+                    })
+                );
+                ctx[`deploy_${game.name}_stats`].total++;
                 return task.newListr([...deployTasks, ...claimOwnershipTasks, ...wiringTasks], { rendererOptions: { showSubtasks: false } });
             },
             rendererOptions: { showSubtasks: false },

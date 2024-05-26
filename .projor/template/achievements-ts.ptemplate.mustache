@@ -1,0 +1,67 @@
+{
+    "map": {
+        "games": "games",
+        "items": "items",
+        "recipes": "recipes"
+    },
+    "filename": "packages/model/src/achievements.ts"
+}
+---
+import {
+    IAchievement,
+} from "./IAchievement";
+
+{{#each items}}
+export const ACHIEVEMENT_BUY_1_{{constantCase name}}: IAchievement = {
+    id: "buy:{{@index}}/1",
+    name: "Buy one {{capitalCase name}}",
+    description: "You have bought 1 {{capitalCase name}}. It's not bad for a start.",
+};
+export const ACHIEVEMENT_BUY_100_{{constantCase name}}: IAchievement = {
+    id: "buy:{{@index}}/100",
+    name: "Buy 100 {{capitalCase name}}",
+    description: "You have bought 100 {{capitalCase name}}! That's something!",
+};
+export const ACHIEVEMENT_SACRIFICE_1_{{constantCase name}}: IAchievement = {
+    id: "sacrifice:{{@index}}/1",
+    name: "Sacrifice one {{capitalCase name}}",
+    description: "You have sacrificed 1 {{capitalCase name}}. At least you've done something.",
+};
+export const ACHIEVEMENT_SACRIFICE_100_{{constantCase name}}: IAchievement = {
+    id: "sacrifice:{{@index}}/100",
+    name: "Sacrifice 100 {{capitalCase name}}",
+    description: "You have sacrificed 100 {{capitalCase name}}! Here, shake my hand!",
+};
+export const ITEM_{{constantCase name}}_ACHIEVEMENTS = [
+    ACHIEVEMENT_BUY_1_{{constantCase name}},
+    ACHIEVEMENT_BUY_100_{{constantCase name}},
+    ACHIEVEMENT_SACRIFICE_1_{{constantCase name}},
+    ACHIEVEMENT_SACRIFICE_100_{{constantCase name}},
+];
+{{/each}}
+
+{{#each recipes}}
+export const ACHIEVEMENT_CRAFT_1_{{constantCase name}}: IAchievement = {
+    id: "craft:{{@index}}/1",
+    name: "Craft '{{capitalCase name}}' once",
+    description: "You have combined {{capitalCase a.name}} and {{capitalCase b.name}} to craft {{capitalCase c.name}}. Genius.",
+};
+export const ACHIEVEMENT_CRAFT_100_{{constantCase name}}: IAchievement = {
+    id: "craft:{{@index}}/100",
+    name: "Craft '{{capitalCase name}}' 100 times",
+    description: "You have made such efforts, to combine {{capitalCase a.name}} and {{capitalCase b.name}} to craft {{capitalCase c.name}} 100 times. You are a true master.",
+};
+export const RECIPE_{{constantCase name}}_ACHIEVEMENTS = [
+    ACHIEVEMENT_CRAFT_1_{{constantCase name}},
+    ACHIEVEMENT_CRAFT_100_{{constantCase name}},
+];
+{{/each}}
+
+export const ALL_ACHIEVEMENTS = [
+    {{#each items}}
+    ...ITEM_{{constantCase name}}_ACHIEVEMENTS,
+    {{/each}}
+    {{#each recipes}}
+    ...RECIPE_{{constantCase name}}_ACHIEVEMENTS,
+    {{/each}}
+];

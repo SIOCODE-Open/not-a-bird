@@ -156,6 +156,24 @@ class GameContractImpl implements IGameContract {
         );
     }
 
+    async prize(): Promise<number> {
+        const contractApi = await this._chain.getContract({ name: "game" });
+        const api = await this._chain.getApi();
+        const gasLimit = api.registry.createType("WeightV2", {
+            refTime: new BN("20000000000"),
+            proofSize: new BN("200000"),
+        });
+        const { result, output } = (await contractApi.query.prize(
+            await this._chain.getAddress(),
+            { gasLimit, storageDepositLimit: null }
+        ));
+        const outputJson = output?.toJSON() as any;
+        if (!outputJson || outputJson["ok"] === undefined) {
+            throw new Error("Invalid output");
+        }
+        return outputJson.ok.ok;
+    }
+
     async pool(): Promise<[number, number, number]> {
         const contractApi = await this._chain.getContract({ name: "game" });
         const api = await this._chain.getApi();

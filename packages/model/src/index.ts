@@ -9,6 +9,7 @@ import { IChainDeployment } from "./IChainDeployment";
 import { IContractDeployment } from "./IContractDeployment";
 import { IOnChainGame } from "./IOnChainGame";
 import { IGameContent } from "./IGameContent";
+import { IAchievement } from "./IAchievement";
 
 export {
     IAsset,
@@ -22,6 +23,9 @@ export {
     IContractDeployment,
     IOnChainGame,
     IGameContent,
+    IAchievement,
 }
 
 export * from "./items";
+export * from "./achievements";
+export * from "./utils";

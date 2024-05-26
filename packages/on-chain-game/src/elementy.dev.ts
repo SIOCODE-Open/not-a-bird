@@ -10,453 +10,459 @@ import { loadGameChainWallet, createRandomGameChainWallet } from '@not-a-bird/ga
 const ELEMENTY_CHAIN_DEPLOYMENT: IChainDeployment = {
     rpcUrl: "ws://127.0.0.1:9944",
     gameContract: {
-        address: "5GdMpd1aqAPqFxQVFB6CmZVKbickL39aU4tgLT7SU2GLuQEU"
+        address: "5DMJ2phvivq2AS6RNjr8K81wrQahKBwy8sGHrxiJeUECPhXn"
     },
     elementContracts: {
         25: {
-                address: "5CNoNGu7n86SNfyiX4vWauWaYhv841q9eQ6Ud3j8hBFrwvmh"
+                address: "5GVyRVdtv2JPQTX5JEid9TNSpdfgwbiBPbxMmy9HvGmnaBwj"
             },
 26: {
-                address: "5FZ41WfLLDXi5iBXFA6hsWnXGn1a3UbDug7LmMYR3EBGh4Yr"
+                address: "5EgPrGnhB6a7486PP7JAriRP3oZvEUz8HQ4ZbUpjAH95939r"
             },
 27: {
-                address: "5D4tKFe9GvNimZFqKGbimXQfkv33ihLzgj3D9Q49Rq48vJWn"
+                address: "5FsDSQx1aTSvxnVvyFq7Wt3JZ7hncAPwgMmsyosKhWbfUXxF"
             },
 28: {
-                address: "5G6oMxXi54TXbWaDKUG1i4y4MwxkYRfZn38GBNZpsEnRFPn7"
+                address: "5FRMnxgirtCPCUBEziBqrSJa6T3fWgZnD6bKpAwGbH1WAQaq"
             },
 29: {
-                address: "5GXuf4bgATHk5TXgjWPR1rU6DyGVDRMmjoxKC1QJ5WGrXXcj"
+                address: "5GGWBcXeZbtiGReahchGwUGLSDXz6wKGtAQ34gvvsaQwvxNS"
             },
 30: {
-                address: "5Fgmka2FJmaK2ZcoLWUzhFxTvDnaP7sxjUd1nCCeyz45kTjX"
+                address: "5GUkV4nEF83W3zUGKzchRxZJt9TDX4NMuyeoi4veQxBmDvQ8"
             },
 31: {
-                address: "5He3vU1VznmcGKMWwN4G5FfmWDXSK76NVY1nVMPTdvwfg7B5"
+                address: "5GBBH4tysYHM4T5jKKKjT97FUjBAuPP5XadvnK2ByA4rSFvc"
             },
 32: {
-                address: "5FwdBCFH8cg7YPuS3ZRgnSWQRs81hkThJr7DhaUdKtMWS8QZ"
+                address: "5GnmHaktV5ztcXkCPe6nP1L15h7V3FhLVGwvdpecMdSiw5LB"
             },
 33: {
-                address: "5Ea3jGaze6j6zrhL9ucFDWFxie4J7eiiEtbnm2wTseaw4EqA"
+                address: "5HCPh3UBZSM7y32hio4jE7CQBZX3T6Qcc3fGYcAnoswRNm95"
             },
 34: {
-                address: "5FLqjnHkwcistp8mnLHK9dtjwRg2NwPEwnUuRTEYvZJ4nxxE"
+                address: "5CCGvtLWa2UX45auJSJYyaxJZgddXxujDjVBkBGknM2MyYty"
             },
 35: {
-                address: "5CT5N35NdGRHcz9Bnm8mabzHB6Z2edqkVw57b9MNVTKcxJ66"
+                address: "5DNm6yaqXoziDaT5nPdsg6EZBDLcGkT7gLQpsy1b1o4gtGZi"
             },
 36: {
-                address: "5GTnwNuE6eXWgzQRiw2GmQAtqFjPNh9k4t4UUbvppSQ7uRCr"
+                address: "5CJ5NYqHvNgHLnqY86dqrvGhxBRRY3opXYsoB1ARZCNQhgD6"
             },
 37: {
-                address: "5C93LJwoj7Y6DxZX152FnJK8vhJAjWTgJG5DdQ3Pz776cC9p"
+                address: "5Drx9xbQCf7oNdvhRaWeqQf5rqmbZ3saxQoB76Mr6uV3rygH"
             },
 38: {
-                address: "5GaytrSSTFtCqD7w6UgUio9A2ubBAG4LoKLG8jhxdFM1H6X3"
+                address: "5GXWmUgE2bNMndq42LausFMwDN48vmTNUfyVynqFcdqp3v3f"
             },
 39: {
-                address: "5HbZYuEFKwaQEPFmgwx8ZFB8schzA227t7QDtwD16R2G7QUo"
+                address: "5EambFX1ym72EVWddxmMAbsQsPF34mVFDrg3S9qdoq3RVWx3"
             },
 40: {
-                address: "5CGgcDYcm5oHpfX3N3ctUACJtfdH5J1HXU1opwpJbnN1Wp5L"
+                address: "5FGEhCAn4KHeVcaoWWX6qtTeCEoV3pu9vffr9XPTku3wJ4uN"
             },
 41: {
-                address: "5HWJbE7ucCkKsd1Ba8o8toSeYBui1peEp7NWU1NPQFWkSMPF"
+                address: "5DLxfiHnpeP5DiQ3dgLDwZ2g4kq6C8e7hLYoxNUGcKPYfJAm"
             },
 42: {
-                address: "5EzMutMyz4drg4DpwJsZqtdGwG26eiLwt6YK8f9ty24Mc1Sr"
+                address: "5D3WqvjXoyFrHPfP5KfASaK7T6FQ5rnmuryHx5Abr1gDBiz1"
             },
 43: {
-                address: "5CiHx4PogxLs9kC6vu9ThgYEdrRmmMbi2GwzwmDaTPDpypZr"
+                address: "5Ebw1KmXD6KECEHavHggGA586eEMGZX6D84eZrNhs4x8CDCW"
             },
 44: {
-                address: "5GHyWmWSCoQkM8wiLDTp4iTKsPBPFdLGuBmycJL5U5ufnW71"
+                address: "5DpUNVkBkymwCbjDCzM3xNEDcNxo4AkkoSjB2azewiC5unB8"
             },
 45: {
-                address: "5CKifhMh5jZABHskf31YZuFW8bgEBZa1dWBwwKqjoYvi2Nkw"
+                address: "5DrSiVBdRQmntPtAXdpMG21X2tnREwUuKAVjYD7BFYdYiaTC"
             },
 46: {
-                address: "5GVCVdws5otNdPqwhvTZ2aTnRx6VrDVuf1ScNzVtZWJHksPh"
+                address: "5HenieWQz7FDiFcXuNWEcc81MKM5EWr2wkonYpgd4UPWQfwS"
             },
 47: {
-                address: "5GiFQr4pgWAacQAQQLWTx6LcLNyws1LNtAb8yPs2hv6EQ6jy"
+                address: "5ENqyAtfFyFtxgwcWwWVoXdy33vAHM4jUpP9xE3dQQaGwFKt"
             },
 48: {
-                address: "5CQRaJ6eS9G22Z6wgyCWX4YSHtTfhmZYo57eG8GLXdssEySj"
+                address: "5GHCZSzZjNF57acUHK2Nn862yiDBiGbX2KsyAGX79sSWS2qr"
             },
 49: {
-                address: "5HZ8adpFsfEGE92r6DFc3HfyGFMWCzVaiEQX784gFUu9ti6S"
+                address: "5DtUCQd7T2R8ibccJrx1qR9tRtPDthqsV3XychbtfbgPDZSZ"
             },
 50: {
-                address: "5GAh8D1Lx8g84H6pfZnvxFFva3gNGRgsDEbFPYos9M46YB4j"
+                address: "5DQKv6quzgGxEp1q8ECjUabYGcitzffPiTG493P8mxhwFVpT"
             },
 51: {
-                address: "5GQt5jpnYqXADSpnyuBCZwJceGMK9cpuQW1MBV6JrBnGiVR5"
+                address: "5FJDpwWmbgKiEm4NeD2HvpUvnJmHEQVy7qrH1mHmDM8onKkw"
             },
 52: {
-                address: "5EMB1NjES6CY9qog61s2jBZhRbC3bNXzHvAf2jYtG1qYKyV4"
+                address: "5GgvNxw7twfVfeqDtzbPzCHzjsL64tQR84d99mVW3uPsQTkr"
             },
 53: {
-                address: "5GDuoUPW8TnkFmx37uVJa3UC3VSwv39T2PuRW7xArtXz6fn5"
+                address: "5H2Xs3tAsrdZUydhkuPGqGPeqZQrp1U9ekovXeGn7tY8b7Pf"
             },
 54: {
-                address: "5GwVAi6DWtMcHM4XeAhRtnqwzTHPp2prBqqSA8LjE9k6yvKP"
+                address: "5G5VoaMd54DDgPoBADxJP15no3yVcmQBCmpX6NRNjJgFcnDQ"
             },
 55: {
-                address: "5CfuWJ5HnBDHpmyHH7sXpjrXsRTrPAbLPBSpAW1GAzov5UMg"
+                address: "5CzijxizyVFnD23rKhJrtW5MPJvLqAneapugwBvATKjFQ47Q"
             },
 56: {
-                address: "5CdwKGYkuD7Zb1HWpAnDjZgaJQQAnEK7t4sL8gWrJrFQ7oCd"
+                address: "5CmWoYvkHCyLJLN8fzb9TcwxmuELFWTVZnu3hm2M2n41kazL"
             },
 57: {
-                address: "5EcJjLqhkpTBuzU7sCwaxAkqahDRG8TSuzCMz5H46k8kJmMc"
+                address: "5FS8EatoYu39hxTXMNdouPYRhZbYNmscNks9iZMHN68tQwnU"
             },
 58: {
-                address: "5EJZBPPq5h9yHKskz57D176Z9fhmRYw4pbRVr5r8pqxywbvJ"
+                address: "5DQmPLwEg6dY3ZWwSPMwGmCHxRq5Jc5pP7daW5e3DuJj4YX4"
             },
 59: {
-                address: "5GpucJnbvopeH42tkuwUWJfu2YHBfPRNQuLJ8fSHwZda8CEV"
+                address: "5GfTDn7YP9ExNP84PU8qtshK2muokNXM2uJd9Et4deewQEHL"
             },
 60: {
-                address: "5E2ckZhBJCeo9ptkehr1a8TKLgMYneftuKpdFULW6oyhMWeL"
+                address: "5HK8NxRLWB7BTPdMYAwBhSKJh92tjcuK7R8xSWv5VdYJvcVE"
             },
 61: {
-                address: "5G5fpzLJp1NL5fAFJy5id1xG4iw5dKC3jQzMtq4wDxw6TryD"
+                address: "5C7Ybu1M1QRhPTZnZzPVnj8KxJeWadXcF98Y8vhxBvX9qDAb"
             },
 62: {
-                address: "5FLs4o7AuLa6XJzHViUk7K6wFvjY2QyjoXHkwnDtie8EcfQy"
+                address: "5H7qT4USjcBD2jCRtsi222eKvbC6u4K4hVvxDuzDNsjC6EhG"
             },
 63: {
-                address: "5D29yEVoZsExhQJFj32EEhW1P181zNr7Le6FfYgAavcSjMyH"
+                address: "5DNdwuY9SozZeWieWYz7XkKxsPYLea8eUkmKRZe1rWjv3RmM"
             },
 64: {
-                address: "5GZWxxjQyKZdm3hAK3QV2MGzubrMwCfwTjXY257GjNfwTeHW"
+                address: "5GgjLMCUQ6r4F7QUh75G9suy3iC93iarMyKbHvzArWUDhNZT"
             },
 65: {
-                address: "5GM4ptBAnBkaU5KTNGKCwkvWBXt2nmiM1iGZErWwChEGeSGG"
+                address: "5FSQghwmsvhesSoL3i2MiZbFFHV1S58R4LUiJGSYeRTnwLxW"
             },
 66: {
-                address: "5C9C9b7HPTgZN9zBzrRxg63e1Fjvr7esZgDQRWg7z2zdKDZY"
+                address: "5D2cLEd3Fi6uYtwXdxQbMLr3TguEG8yyq6CidegmPTCYNoYE"
             },
 67: {
-                address: "5GKqjzwcv45krcDCncudT3CqacH2W2BM1tuzehQr1Qm3xxg2"
+                address: "5FgCjdNsfPUAqxAqKccJWBSYBaBe6mYXPugWBfzP9xGJTjdK"
             },
 68: {
-                address: "5HHoD1aFiQp6rS5HwJXhBCj4DEcL4SjGCP75Dpir8TLZjm3B"
+                address: "5EQkGCKmGNVDSfAHzWpSewzKCai1v1i5xYZigLMSF5ft72T9"
             },
 69: {
-                address: "5HArqYgbQSa2o75cw93LuTxENrPDjVbtY7Z37PBqDizZG2xW"
+                address: "5DRtBTbcXZK3axHASC2hCZZPaigZp5axQiYJsGzD72ECB6Xb"
             },
 70: {
-                address: "5D66KAooFi6EwTo7Y16Bnce3Sak8pfKW9H7uU5WvKzjZTfqR"
+                address: "5CMMhffcxQRUPo44QduqCw3SBxsTnvrZVHwYjU4kRS4HEihx"
             },
 71: {
-                address: "5FVtBEp5TQFQ4HvVyWTnrML3XVu7sBS1HugikY9wHaXN1Qe8"
+                address: "5DeWMoRKtKBaotqj4whwmCnnpoLfuRw4L4HLjmvPVYsmP9nT"
             },
 72: {
-                address: "5DejYVbTkXgBkMLZw6t2wHEQPGM5FFfHKTNvH1QjUVxfYnxa"
+                address: "5FjzWbPAtqwzR9WxjmzKKjvZ7F5Tdv5MAxe6jgsRz1PnrDMt"
             },
 73: {
-                address: "5H8mRJF5LznzoiD1s4FEKwJYxFBc28z1b5RmYk9SKeCD9aGF"
+                address: "5HNqBqefw7G7oSbGVbYFcRab2j3hPdBcdwCeMmknHG7PziES"
             },
 74: {
-                address: "5Fky3FfQTuTD1X6tixpuVWSEvKnsQpua9bH1NTfUuSnxwc8J"
+                address: "5FX854PHzcq5tYftMQo662aZViHY6JWPmYAnZhamgof9tK2M"
             },
 75: {
-                address: "5Cq3gKHQDZ1A8pjjjajipyhaH8B3GZjsbLX8XE2gX7GsrzrK"
+                address: "5HGgTkXgEEJw62r5AWNWwPLhKYNgu5aNVjN3qJEjTfYLi5Me"
             },
 76: {
-                address: "5Dzz5mHsPZZH7whJgoMd89gvvgCY8iNV83LsqHXZFrfsTWSQ"
+                address: "5EPWjR7s7vZNqiYSQ1dRcZ3FZCsfQdGEQ8uJuk4tTdLPiG1q"
             },
 77: {
-                address: "5DN8k6zjMmnmGp2jQqQq6aoUL3Y35PPiKQEbpGA3QhTBTEjH"
+                address: "5G7opfeverzTRDTDsJPc8zC5kLm1x14MXsQRWX2WUuj5SThH"
             },
 78: {
-                address: "5HRMicWEmGh7yto91HXfizyBboGBxLU89JJvQAvtn8xBLSio"
+                address: "5EuyAFSTgf1quztxBYbrgb6p8xJBAmYbyAZ8L6cjAfKQj4J8"
             },
 79: {
-                address: "5DpaJhpWVAV6BFKrCESw3V7Ft76RrXQ5b66fS1cSJz8UFeZX"
+                address: "5D52qopK88z13oi1VCMhj42pdZj5x9SxNQGwjGQBr3pE4tDh"
             },
 80: {
-                address: "5CM36JTNeRTFem5FquktRdHt2bDnA4kaxgBrqybLomxhEps4"
+                address: "5EemSio6Xj52mZVZt1B6y9aRrCBT5uuoBZZqvwTo7V9jmQzr"
             },
 81: {
-                address: "5DdaGCM411qUTKbZZrxJnC1pUft2ebdcuuXJyqJUQ3iT5kok"
+                address: "5C8MDqi8nrX8Cc7LsnLzwVS8unT8BY74jamEvXDCzintnLDy"
             },
 82: {
-                address: "5DB2LZip2dLTFo9VY7wkHC2c9GNz4SGkjVRTqFtahQ5Xg2of"
+                address: "5D21fqpxjcW2K9bJ2kCCSmNbGYx5AU6rWZKDQj6W6LPiP7rv"
             },
 83: {
-                address: "5CqqjPDCRYEvY8PKSMHaBM9nEs6TsUGS2GWj9rsrwzrgTrvy"
+                address: "5DnBqbHVxSvhJ5JWDaX8xctDBFUmB3dnCGQTb6o5oQx1WbCP"
             },
 84: {
-                address: "5HapXBz2eKKWdSjNvuRuaoh9737TzgSdx8BVqF6pm9dnpR9q"
+                address: "5HLnF47wDEuJR71vUg96KMaTdJ3mTT5yn2wc4kp6UBLifV4y"
             },
 85: {
-                address: "5CiCyQh4UFsGRaXuNhbw6HTNfkhQcAHBCbTvmSs2uCPsKpn6"
+                address: "5GbYp2gW7BLVe2niPTm4kiY3qwLsgodbcNCmwUxMGF9KYzQd"
             },
 86: {
-                address: "5FvC65NUr8HjQDtc4DRLkouNodJ9NY8aEY8KppVSzjfrFtXG"
+                address: "5HfLBQ5aBNFWxKk33zYyrdSapXrXZoHjcDYGJwYS36YRWLPd"
             },
 87: {
-                address: "5DfueswW2sS8Ks9YBYE4pfcvq5SyNeCFri7kgRuKXmnx26Na"
+                address: "5EssfVKUnXc8QcXNxRhtVu78HXjnLYRNNetwk9GaZ4GrfpR2"
             },
 88: {
-                address: "5HfeTbGyLdrAZr7551GSN4WxHYisVJ4ZTaF6e54R7Aap5bze"
+                address: "5E9oTbXzUQZFkevQmA48zNAsrSpRrm9BDS6t1TStGZmUxaai"
             },
 89: {
-                address: "5D7Nyw4Ep3rXFYLQ2wEL5gxv5zGJpYY3NJQFHsYnvCiUzQ2G"
+                address: "5DPYLFEV8TczjmdAWkjUQUKtLSmFW4x4qLAS8PVe4bQhL4KW"
             },
 90: {
-                address: "5HbatmxA7tw4FnybSaNtnERaVnr6m2xTdRG9Up5uBmN7PAYp"
+                address: "5CdYX9xPeRQvkTjm6eAFRmSSknVKrY5XYm58eUUEsYF7SUGo"
             },
 91: {
-                address: "5F5mJVs9S2HWggVb22oLNHGfpj6887FU6vRZ4DLiqcA45CgK"
+                address: "5EGJ99p6qRtdfQe6QLbFVKjt6Y8rpAYvfcYD9VizL9FjRZ8j"
             },
 92: {
-                address: "5Ea22Gy3kx1ngtzT9Sr8zRJwdtaokbYepJEkBNH1amgjNDMm"
+                address: "5GowAeEwek6j2K7L6WvGyNedDRdxGNACNnxBczmTxW7oaCKy"
             },
 93: {
-                address: "5FgejvFdBytwCEZX5q2d5RrQYsjwiDxndtRmGDx2byjcD53x"
+                address: "5GZotSMQGsBq8EE5cnoLL3L5oKQBbveCpfTxJtxBrzzqe7bH"
             },
 94: {
-                address: "5CbPxM4yRMJKLq8w5DGqLWTvKqJsPfkv1MR6PyANYibiWRm3"
+                address: "5Ca5t7B7kxWtCuztU8rfP1APxJbUyfnDxDGATiAxMuqqABrL"
             },
 95: {
-                address: "5GyP9j19P52e1TFQpfrbhNMw1EY8aR8wiAnuUtPTxQnfFZEb"
+                address: "5GHppJwqTURrD7DW1mhsSwM3Hu9vS3xJrFfyzaP32xuoK5T9"
             },
 96: {
-                address: "5HbkkTou119nJ2U1jESWCjfb2TGczGMGRdxzozDDaTcjC3L9"
+                address: "5C9NYM3eyyjRPQAi2Wn1xAt1jwL5Lg5zTf2PiCRAG4T1uNk7"
             },
 97: {
-                address: "5CqGVbEC9jLSTvqH1p4Qe9aPvEjy3whyXCqE1n7tVmv5aqkE"
+                address: "5FJp6rWNKsxqXRB8uvoV9WTTtiJ8iEWYCMSNPshXpLktaGt1"
             },
 98: {
-                address: "5CZcgjQfgcFUyvsKzV6GjWjRgpE6BgXHPz6xb3oBTX8pSzQY"
+                address: "5Ho6XK3MDEjP6gKiYENkJJ8DLmp9CrfxdKqDehBtT7bjuz6z"
             },
 99: {
-                address: "5Gbp356fCRRhSiQSCtDFkAk5ACjUQh11PVbx6y4SyT83eg6G"
+                address: "5DhJnYhRNTMGnqMLsDjdn8bSqyrHgDWwDKdKQiF4gXGWreho"
             },
 100: {
-                address: "5EgwoMRbJGcDapvvbrnXmsYAaaZTbbbaMS9rHkfXS1oPu8jM"
+                address: "5FG4hsjgHGZ6vRJQNT32op6cdXu67v71LZRv3cmGNqEVWhCu"
             },
 101: {
-                address: "5F39MxVqer5R5r1WggDMEUpKw5LUhpHgQn4yQmg8uzUGCrgn"
+                address: "5FNsA8WtyqKo7oXVram5c7LRgnQbRdUXGA4JzqFTFSYViTbP"
             },
 102: {
-                address: "5G9LmWrwN6dFvWD5hKu83TMchKCWAJ9ANdZbdKgJXovHmwFY"
+                address: "5GctPM9JqWKaQEHu6tiZD2hJkZFDa7GnJdQ58N1FY1S3J9VG"
             },
 103: {
-                address: "5Eqd99AyZBHyhGwJ6STmhej4Hx1GV1Mreyfeqjke55Y4QrRN"
+                address: "5EKcPY71wN24yLmQ1jAhJYCYY6nknJwNPjREXYqFhPnaPaH2"
             },
 104: {
-                address: "5FA6ugvKBBBWFE8JSbzJ9Se2wf999zNtNVbrptx7ddqExJTN"
+                address: "5Gn7HnxfDLgau36xsPbn3qFF8JEh3GySw5HJR5sYiHkPfHBQ"
             },
 105: {
-                address: "5EcSzyPUwLkwSvhYroGcU9vadwLVsaZxNYokLVLy7Xkz1oG7"
+                address: "5DwZ1uTPEVZxvfyP9FrfSJGSA4LdfezUPWjnBqqZFeUFof3d"
             },
 106: {
-                address: "5FLrQdZVPAoMFWB3XLqz2zuLPFJMkyt8iCoD4Jori49weiJm"
+                address: "5DREPFDjn1yaJegn133vCJe8s4ayEBZiDRJqQRRw6gWJeBxt"
             },
 107: {
-                address: "5H3SCAzYq6AqFwpTFuLH4eZY19kN3q9tK9VS43dXyxjPJBkW"
+                address: "5HNnZaaXaTLuZ847muSF8pUfVrH2hcjmjSKHojWWfPvc1mhJ"
             },
 108: {
-                address: "5EJ2n8ChgMRFwW6HVdwPRbaZHvHp3fQgZgoD3SzHY9z7MwgX"
+                address: "5ChRvoke7WeeEpmfqGrbpsz4ftvD4oEDB9rKzRg853NWbQHp"
             },
 109: {
-                address: "5GzPDZypzMLKhFN6f9zHSrAbWoxJx7NPH5xJDxJSuuRzuqoW"
+                address: "5F3YJZhCZqEBp8gThid7qwujf4bTMatm6KgYvfqoXHyMxkwv"
             },
 110: {
-                address: "5DMMdKebfJ8nKHReTVnPJv1ga9YfXRz3873KezNcsJVZetDk"
+                address: "5FM6Fcop2EvXzGT11buBYPB3bz2EtxPCU8cqxzxaRjFKtDeT"
             },
 111: {
-                address: "5EnxQRagSDaqdpVdLDhQSDnyxaKgQsnbVRXAuabDx6Q7qSho"
+                address: "5Hbti1mHfz7uiYoKWzyq5BUxpw3MqxWFy5hYKDpszMefN3n8"
             },
 112: {
-                address: "5G7CB6LtCJNYREeRUQR9vDbtmn58AFexcqjW3LsxDD5FcBag"
+                address: "5CZnybs9XSSJsAv7GRkasGEQtMuXnxmLscXodPrjB4GtGe2r"
             },
 113: {
-                address: "5EFy7jz6ko2SgpHMs5WDDS2Pi7xz81745psL5kuVF9USGSMD"
+                address: "5GaUQn4TAnfPybRt6KCr1NCsSG3EW3zZaWjZtE3dYwMD5AZ1"
             },
 114: {
-                address: "5GXATzYSM44VgFFNFA1meeBudZUQgwyHcNPVQmNMR6sAWbMk"
+                address: "5G1Qpxpc7ZvbbjfwJnJJPEx4VzYqeVYTsy55BstKQCQf4KZf"
             },
 115: {
-                address: "5HEXo4PZVcFyZbCNyAEJH24EWtKshT7HT3PfAu7yVYz3SgHo"
+                address: "5HUoQRJ7UMQb8Jz7L3QS6HWNEbCzMQoqPsoq1d4KBfr18qoW"
             },
 116: {
-                address: "5GtG4N3imSrkAXRCZFRmL7GFYzMhDCbgv25foMGnf1zTonMs"
+                address: "5DYcjLdakgpZeAqy9pPLwLLbhe8sMiAdfemRJdcpkEH6HehG"
             },
 117: {
-                address: "5FMY2FtPR31rdJRLCeZP7kZ149UqSozkAPx5ewrszvGVJNmF"
+                address: "5CovBtVoLrzBc2EWKwVbV68bu7aLxbtMd2DwdLswQ2gSfLPm"
             },
 118: {
-                address: "5ESuEWVbrZtwT9Gs9CPMieMgnfsP961ZTs9fvA2VSnwQ4Tcc"
+                address: "5E2q4r4Fy2CrXiw9BWdY5iMWDLfd85jkXoncZzRYBfT32nuS"
             },
 119: {
-                address: "5HcoZJxJNnzxdSF4L6zwCF1en8MdxU5C9thGhjyt14x3faKt"
+                address: "5GVRGHxtdYFWRWdRpYtvNb32btsLkCwsavMDagdFVdAwwSfd"
             },
 120: {
-                address: "5GgsHiq8475T35XhWrLLWvG56bQhSkcuoLzEsiscnG9ygUD5"
+                address: "5HS9T8DA7atVFq8S3F2brhYZn6xC4H3hStnrnfEauQVq2btt"
             },
 121: {
-                address: "5FErrruFNwpKCL2ZQpf66VsMDnkkKo7zE1mEiSwmFoibg9Af"
+                address: "5GXzLT9RxqEhALkGS2rx5s17BXgcRKwJmRzK3FTkaGbt9As9"
             },
 122: {
-                address: "5D6ZvxVRH425hSezGTPfGfK1gQKaGM2Qx3LRp86wdacJxkDg"
+                address: "5E2etZxScri8DdPwT1VyFCctgyQs54CGjKA8tXRprKn1kk6c"
             },
 123: {
-                address: "5CSZn7CVjW1s6xkRwrt9vXJRrHVWVKMW3r2AmRTLh42EMWqQ"
+                address: "5HdGVzJUyMnDVpFBj8fekL9bmjPy1ypjBRkKbsYFnTu3MBcg"
             },
 124: {
-                address: "5EcNeMSK81n6PigJSgdbFZHAZiqYbKvVgFwA2duA1FBu1tJ5"
+                address: "5DPePVGzJ8fvbAbbUUDjWaYYp8dz4kHynF2NWftZYDbP6xAY"
             },
 125: {
-                address: "5GdsJL91y3JF2vi9v5RSEJykuB3cnXceuY4iaDh8S1djNEQb"
+                address: "5GNtRmGiayUKV7oBfU749c4bwJCphucZg9Lb6p19zohSLzDi"
             },
 126: {
-                address: "5EXMZmUGqsqk8Y3XMgGQUpZnuqZmNA4SVKBfvGw5R34EHbe4"
+                address: "5HXEYdfJ4Ep5DsXc8n9eRAGnDr726TsRGRatNW2ht1nuzsdP"
             },
 127: {
-                address: "5D3Rsx7R95vQYkkHVxM5RpuxA4WQSJp6kcNiEpx66dVnKQ81"
+                address: "5FXUKNfc9Bz9E7f9rHSQV17vitH8WHAwVazFpWUQXcsMoVy9"
             },
 128: {
-                address: "5En8fK2fgHBJUbfxvqZ9Dq9GcD2nKVGoMJcyQoFWYG1H1Gku"
+                address: "5GAK7rDneE2nwnayMKKsNe7Sac1yLaC4mxGajs3c4jCWcBQK"
             },
 129: {
-                address: "5HkUQmt8rFwy7G2tAkPaviJFgmu9LSbXdyMCFqEsym8VfKzh"
+                address: "5GqBcEATZxFzTxPMUiwRkbaJN7QKNdXX9ZrHeoipDbbFUWFt"
             },
 130: {
-                address: "5DtdgmisRnEXn7xUXEzRbd6Nn4nJPfPmo1ygzPmHSY7CCEKv"
+                address: "5EGtNHLuwnFs7sn6gGVfaWX8dvLcV54W1UAjBd8mTUfaUGYT"
             },
 131: {
-                address: "5FhT8NjMJcM7oPuavi9nWYfCmJGKXK4XFBGgoXVVWsrQ1oZ8"
+                address: "5Fmo2v7NXXK9RpPjvqEZGeEpiAPkoHiBMkiSoneBLRBmZq3h"
             },
 132: {
-                address: "5HA3CBg6cfWNaL3KBPCNNcEryK5sh6whZdGh8Nf41UvuhJb1"
+                address: "5HR7Nh9hG46mAsu8PzBgbjEZJBPgHmQyYFsSspeov6rGmXfY"
             },
 133: {
-                address: "5FPk2fdooYmicGxUXQqeAQ6ib2VCFP2cyssgqCsG849zitRz"
+                address: "5GLgZzctZu9PAYdAybTSRn78T26BtJQhqA4gwihqAN46DmqG"
             },
 134: {
-                address: "5DNV62qyK3pmm8UHdDmHq5r3NJ6z6zjPMDMn48QXYw26fMiZ"
+                address: "5FQv26w33qXSkMr6NnFUUXoWkcsdeYi1g9oEBfdaxf9WiE3k"
             },
 135: {
-                address: "5HYKo9Rv7ca5cjHVAvAVnj4CAGYBdhseWMQxdAAjYueFiw35"
+                address: "5F4sNmVLFEyko78Wg6uph1yfFFtrK9FHYsjwynE3AXLpMbeC"
             },
 136: {
-                address: "5FtdVRdLPfnu6hqnFsPkjeQZ7dipehAoTHkzGaYKECfXd93d"
+                address: "5HM3HewZMnHBh8QEzmC2zKPzCgCMRXbWrTRwCMtSMidgFAEc"
             },
 137: {
-                address: "5C5r54nrYnwBmQrL6Dyd4n4q5pMpgWGxKhnVvCPspU1gok66"
+                address: "5DLTTxYURggdUuUNJe5uW1xYdJpm4nE3C8FtBq3zsdLT377Z"
             },
 138: {
-                address: "5ChrSb5wuAQyAhmCVkqqeE6cZ9HBxN7nsZhCVCGJ6pbx6N4A"
+                address: "5DDRdoRFqYvoHk4o4fYPHmjPThYn8X1RkL2d2Yq4G9t2YvbY"
             },
 139: {
-                address: "5GCGAHB2i2ByN11ugy28wih1w2tfLfeUhQyoF9UQ2Yo6REhs"
+                address: "5EDdZeRyNszdxRAC6cXtoSduDzeX46fEv8VM79ShU8jU5nPx"
             },
 140: {
-                address: "5Dqe7LwBrk9SRax8yTgsTEmfFpyPYdxvMA9LywMMEMTreQXH"
+                address: "5CrHxvhWzgKGwDTw1MCWfL2MiE9jwCXkvHcvYUhG58XWXU1s"
             },
 141: {
-                address: "5FCtJtyFor6KP1D7kP2Yj89LZibBV11FQVtb8vffPCSq3wKc"
+                address: "5Cs4kMpAgKz8wH5pvyFvC429ShghV9JrNoRoa22tjUYEEPyb"
             },
 142: {
-                address: "5DcCKpwafguwePAwDtCDh9PGWDp6cRJTppBcg1qHF3yWx8FY"
+                address: "5ChQTJPBPXBmp8XLwufRyCRWNrDFSS924QhKDvz8UzrYmgpu"
             },
 143: {
-                address: "5E4vrqkB21qEsDSaNXTiAZQnJdd9Zv4VwUbzg74udbk6BAmQ"
+                address: "5CDJz9teb9GzsgWaiH7pBHowXZRvV7orUY1e8Qh1hKarbBqm"
             },
 144: {
-                address: "5FdQuPmd2efZF2D6JWY5nnbhjAkBTQY5qHw7JXSr8FLna6Aq"
+                address: "5CdA7Xqofp8q8oZQLM4mc5doth1zXz5Ro3ye7BQ3hRsYJTva"
             },
 145: {
-                address: "5HTg5tnp7d89Kc2TAvoWppCDhqHRoLX6gSL6XdCrtezxKZEE"
+                address: "5Fnkk87wpeZdN1zC68p8kYo5J9P662dyyH6yDQ135HPcuYZn"
             },
 146: {
-                address: "5G1sFgExsjhpi2LRuecDvsafP7HuY6VQx5djMGvgfTnL6A3U"
+                address: "5ConfXtRkUj9u7rwqsj1ncivzk4Z2L4f1WZZwuVPXxbuKCzt"
             },
 147: {
-                address: "5CgkYKoYdbZ28GXAbyHsNQKxhys9b8SdPA861GPyjbZcZhCX"
+                address: "5GJTAnzN12HcDvjEQP7v76pJDWW1aQSDSDQBpqzNtYpypkgk"
             },
 148: {
-                address: "5GzAkmvLyBSSJjiQKAA6iEM7gE3SwtZV3tzfHSU1yBTMwLuB"
+                address: "5FQEhF48D8rU2fENewYLG8uaDZfbSCzB27F99wQopaQC2sJs"
             },
 149: {
-                address: "5GpgzfqVatKNquZBxEy4YStnekUchc2oPdFepRy2jsQAhMNn"
+                address: "5F3BjLHMigHr48ZbYQrPU5RohY14AMVqiwgVVmr1AZwcCsTw"
             },
 150: {
-                address: "5FfHDy7KdkQMJYtMe7jqd1HCxZ5s1SFvXURMF4QLsLJkijS5"
+                address: "5CvGxJgnQEHSvDKa7APTdMX2cvHN3M2SU9WUDrkAGrtAcVMV"
             },
 151: {
-                address: "5F4xTbZHtuqrK4Mc1XYzJepUtcRwvGT94zq2wrZFZVED9QJH"
+                address: "5DYgP3FdBjYQXVuG257pdgAorF5fVsNoTTR4EeXWVp91Kxtn"
             },
 152: {
-                address: "5CJos5JsP5PaSPvRKzuVQZNQbaeqPVXyPF5AbDbjixXS5MMR"
+                address: "5HgQL9VCSmT7TqRELgTFSdEv7dafu99srvy9WHbffCBZ4A9K"
             },
 153: {
-                address: "5FATeDDZTTeQb4YGVhPQordhkZrPcy7jGdRv9rcFy9GQUkRc"
+                address: "5C5tpfxsEQQcszeymfU6zqBpnJMWv43jcMcPV2s3s8eQ3ygY"
             },
 154: {
-                address: "5GRQMkS5SFydy8tZarp5yr8wK7YBWXAGnBoMapJUk6vWgU7r"
+                address: "5Cgt1bUgbA3kJRxjAMqMAmGzg9DaA28c5puaXjpfAgJV1HRP"
             },
 155: {
-                address: "5GD4Z15R3gWYzvChZJ19wsNbw2bSEVBZmkwRY6vUHo6pWXAu"
+                address: "5Fwka9tyKhdrnUN8NSNnraGqFrygmnf461MUgyrHpqPgi1UQ"
             },
 156: {
-                address: "5CBsSkbagZou3MM6uyJcjUTvbjQZ4pU4yU6L7TCxjWZUE9d3"
+                address: "5E6QTGTFNnZcUpfDGm64nFd13ypMFLiJPUXJxE5CPaWeVDLs"
             },
 157: {
-                address: "5GnB4dx2VMroZ2pz8ZMtgWPa93LJ9wLv357KZbGyM1UwHnsE"
+                address: "5DWo49GCixfx6yk77yxJXMDBHTz2UhH8k9wMjnHfeoZQQVYa"
             },
 158: {
-                address: "5GeeLSPMZ3YXmAmwx8Xi91vwMVLKagPUnjU5TCJ6QHKf4qW6"
+                address: "5GBtpgN12Ch6556L98yvK3VKYpmoEJ6fwMkXNiDRbqeKQXVf"
             },
 159: {
-                address: "5FLTatKtQfueNa67DWbsRS66PvQa7YVdKJEjiq8MpVB618hk"
+                address: "5EtZiB97rrVba9vFoow9tGhuzPUE5TGUTFKv95NULXVajHyo"
             },
 160: {
-                address: "5CvEFcWJx3DPpzFjxvxsEZd519C4XjsjT9HEWmivn18hhwbR"
+                address: "5DdzL6h6mPhcT7gUvGoPRmexcm7FUxZEqQC4neyrnaAtf6Em"
             },
 161: {
-                address: "5EVo1PubRKW8VMP7vba5gSBfCUUJ2aRZwKrut2JXgDPKpcnk"
+                address: "5EgqCrgKZ4GbGCvuZn2tnPApUvWoBPoGM9MJY3c7ZQJZYT5C"
             },
 162: {
-                address: "5GpY2qTmiT9DprDQ3zNcR1WhPQ6fHFBfeybMTGNqhfqf2awu"
+                address: "5DVXh8ufMqVyLMJ3jLMbLkTFMcgDpJMHeT7qPG4EWsMkXsgb"
             },
 163: {
-                address: "5FBEYsknbrdwYetTSjmnBcUVFnUPPVdSwaezf6Q3noEHKrZZ"
+                address: "5Ff5aS2g2rTWbjYpCVV3zfJts2GBqniJaBAn1mnqVSkKU9m1"
             },
 164: {
-                address: "5FKVMgXeDW1SSGe1JF4YmUYs25KLNtUVFWH1MzKPXhaTTEdC"
+                address: "5Dxekdy4QTtgxwRUtbWuVxzQAgAY5TP7S7N2ShFMSze7i2uv"
             },
 165: {
-                address: "5DUKK4SDyHFPE59RWvVSaCYc9Rp43FnfUP1e2tKMJ9NiXmw6"
+                address: "5DK8RzFgU11EvuCZEGPDxyGcXgwiFCi3kK12eumpZUtiB4hC"
             },
 166: {
-                address: "5CmwhtSbaxmifd3yzurD4AioeWtaJoHX579E3YJv9qxbnYbP"
+                address: "5F7wZmFz4xvx7hYutTUxGsqbkuQQhDMje5KLgKQnY79s35YQ"
             },
 167: {
-                address: "5DwZDwL32UzKxEHQyFDjgDTBspgBcMohTVdpnjAARxUgTmJ3"
+                address: "5DvmUkEu2LnVzH5MLew8JmrDbCzpJzZNLTWciWFb8L5GbVzA"
             },
 168: {
-                address: "5FQBEfoFyAMihnVMZeFUAzEaack6iTUt5JFzhtzzeceEscYy"
+                address: "5CzPofeAN8ZRNQXphbc9LoWRKqvagh17WBtYXjSJCng5CMEg"
             },
 169: {
-                address: "5EzwBtSktomGmSEha4babjDWeEyVxpat68XXM35jfQJLqH9n"
+                address: "5FSf13HgaNrhyLRr4UrC52BUUuSYif7TLLCF6NBWqzbhAcmC"
             },
 170: {
-                address: "5GRUxttSWW8Gt79Eooe9gXEermgtrfNog27Mj4xAAnSkjtFk"
+                address: "5DkKRwfj53dHcsWiMPnhb91ohZaDWBgBp9CWpiBMtE9W3Q2x"
             },
 171: {
-                address: "5GyDA62JiRx977m9os8YNnqYGp1xAWS5aktEttyQgof55qet"
+                address: "5CSzwdEy2cbXYMZRn2wHdHoxvTPGP9P4viKMwah3MHwcrirw"
             }
     },
     content: GAME_ELEMENTY
 }
+
+const GAME_CHAIN_NATIVE_TOKEN_META = {
+    name: 'Unit',
+    symbol: 'UNIT',
+    decimals: 12
+};
 
 registerLazyGame(
     'elementy.polkadotjs.dev',
@@ -474,7 +480,8 @@ registerLazyGame(
         return createPolkadotJSGame(
             ELEMENTY_CHAIN_DEPLOYMENT,
             GAME_ELEMENTY,
-            suri
+            suri,
+            GAME_CHAIN_NATIVE_TOKEN_META
         );
     }
 );

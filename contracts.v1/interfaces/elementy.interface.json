@@ -1,6 +1,6 @@
 {
     "source": {
-        "hash": "0xec3dae48b0b65fc5eab2cacd974e6276dd97ede2752f5f68ed035e1fe876f470",
+        "hash": "0x7ca226ab44891123ba69d4629dd20b662132804506a8178c038fa490d4f64a05",
         "language": "ink! 5.0.0",
         "compiler": "rustc 1.78.0",
         "build_info": {
@@ -266,6 +266,22 @@
                     "type": 14
                 },
                 "selector": "0x52d48320"
+            },
+            {
+                "args": [],
+                "default": false,
+                "docs": [],
+                "label": "prize",
+                "mutates": false,
+                "payable": false,
+                "returnType": {
+                    "displayName": [
+                        "ink",
+                        "MessageResult"
+                    ],
+                    "type": 18
+                },
+                "selector": "0x960452c5"
             },
             {
                 "args": [

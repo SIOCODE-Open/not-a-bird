@@ -21,5 +21,10 @@ export interface IBlockchain {
     signAndSend(tx: any): Promise<any>;
     getAddress(): Promise<string>;
     getNativeTokenBalance(): Promise<BigInt>;
+    getNativeTokenMetadata(): Promise<{
+        name: string,
+        symbol: string,
+        decimals: number
+    }>;
 
 }

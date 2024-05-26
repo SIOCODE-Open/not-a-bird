@@ -24,6 +24,12 @@ function ModalComponent(
                 <p className="modal-card-title">{props.modal.title ?? ""}</p>
             </header>
 
+            {props.modal.message && (
+                <section className="modal-card-body">
+                    <p>{props.modal.message}</p>
+                </section>
+            )}
+
             {content && (
                 <section className="modal-card-body">
                     {content}

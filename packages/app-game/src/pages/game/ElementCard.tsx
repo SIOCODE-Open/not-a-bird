@@ -2,6 +2,7 @@ import { IGameWallet, IOnChainGame, IWorld } from "@not-a-bird/model";
 import { useRef, useState } from "react";
 import { BulmaCard } from "../../components/BulmaCard";
 import { BulmaButton } from "../../components/BulmaButton";
+import { IAchievementService } from "@not-a-bird/on-chain-game";
 
 export function ElementCard(
     props: {
@@ -12,7 +13,8 @@ export function ElementCard(
         onPopulateWorld: () => any,
         isActiveDropTarget?: boolean,
         onBeginCrafting?: () => any,
-        onExecuteCraft?: (a: number, b: number) => any | Promise<any>
+        onExecuteCraft?: (a: number, b: number) => any | Promise<any>,
+        achievementsService?: IAchievementService | null
     }
 ) {
     const craftSelectRef = useRef<HTMLSelectElement>(null);
@@ -20,6 +22,11 @@ export function ElementCard(
     const [isLoadingSacrifice, setIsLoadingSacrifice] = useState(false);
     const [isLoadingSend, setIsLoadingSend] = useState(false);
     const [isLoadingCraft, setIsLoadingCraft] = useState(false);
+    const [isSendActive, setIsSendActive] = useState(false);
+    const [sendToAddress, setSendToAddress] = useState("");
+    const [sendAmount, setSendAmount] = useState(0);
+    const [isSendFinalizeLoading, setIsSendFinalizeLoading] = useState(false);
+    const resolveSendRef = useRef<any>(null);
 
     const elementItem = props.world.items.find((item) => item.id === props.elementId);
 
@@ -33,18 +40,46 @@ export function ElementCard(
         setIsLoadingBuy(true);
         await props.onChainGame.buy(props.elementId, 1);
         setIsLoadingBuy(false);
+        props.achievementsService?.onBuyElement(props.elementId, 1);
     };
 
     const onSacrificeElement = async () => {
         setIsLoadingSacrifice(true);
         await props.onChainGame.sacrifice(props.elementId);
         setIsLoadingSacrifice(false);
+        props.achievementsService?.onSacrificeElement(props.elementId, 1);
     };
 
     const onSendElement = async () => {
+        setSendToAddress("");
+        setSendAmount(0);
         setIsLoadingSend(true);
-        alert("Not implemented");
+        await new Promise<void>(
+            (resolve, reject) => {
+                resolveSendRef.current = resolve;
+                setIsSendActive(true);
+            }
+        )
         setIsLoadingSend(false);
+    };
+
+    const onFinalizeSend = async () => {
+        console.log("onFinalizeSend: ", sendToAddress, sendAmount);
+        try {
+            setIsSendFinalizeLoading(true);
+            await props.onChainGame.send(props.elementId, sendToAddress, sendAmount);
+            setIsSendActive(false);
+            resolveSendRef.current();
+        } catch (e) {
+            console.error("Error sending: ", e);
+        } finally {
+            setIsSendFinalizeLoading(false);
+        }
+    };
+
+    const onCancelSend = async () => {
+        setIsSendActive(false);
+        resolveSendRef.current();
     };
 
     const foundRecipes = props.world.recipes.filter(
@@ -79,21 +114,12 @@ export function ElementCard(
     }
 
     return <BulmaCard footer={[
-        <BulmaButton onClick={onBuyElement} loading={isLoadingBuy}>
-            Buy
-        </BulmaButton>,
-        <BulmaButton onClick={onSacrificeElement} loading={isLoadingSacrifice}>
-            Sacrifice
-        </BulmaButton>,
-        <BulmaButton onClick={onSendElement} loading={isLoadingSend}>
-            Send
-        </BulmaButton>,
         (<>
             {
                 isLoadingCraft ? <>
-                    <p>Loading...</p>
+                    <progress className="progress is-large is-primary is-indeterminate"></progress>
                 </> : <>
-                    <div className="select is-rounded">
+                    <div className="select is-rounded is-fullwidth">
                         <select title="Craft ..." ref={craftSelectRef} onChange={onSelectChanged}>
                             <option value={-1}>Craft ...</option>
                             {
@@ -112,16 +138,95 @@ export function ElementCard(
         </>)
 
     ]}>
-        <h1>
+        <h1 className="title">
             {elementItem.name}
         </h1>
-        <p>
+        <p className="block">
             <i>
                 {elementItem.description}
             </i>
         </p>
-        <p>
-            You have: {props.world.inventory.balances[props.elementId]}
+        <p className="block">
+            <div className="field is-grouped is-grouped-multiline">
+                <div className="control">
+                    <span className="tags has-addons">
+                        <span className="tag is-large is-dark">
+                            Tier
+                        </span>
+                        <span className="tag is-large is-info">
+                            {elementItem.tier}
+                        </span>
+                    </span>
+                </div>
+                <div className="control">
+                    <span className="tags has-addons">
+                        <span className="tag is-large is-dark">
+                            Balance
+                        </span>
+                        <span className="tag is-large is-success">
+                            {props.world.inventory.balances[props.elementId]}
+                        </span>
+                    </span>
+                </div>
+            </div>
         </p>
+        <p className="block">
+            <div className="field has-addons is-fullwidth is-rounded my-1">
+                <div className="control is-expanded">
+                    <BulmaButton fullWidth onClick={onBuyElement} loading={isLoadingBuy}>
+                        Buy
+                    </BulmaButton>
+                </div>
+                <div className="control is-expanded">
+                    <BulmaButton fullWidth onClick={onSacrificeElement} loading={isLoadingSacrifice}>
+                        Sacrifice
+                    </BulmaButton>
+                </div>
+                <div className="control is-expanded">
+                    <BulmaButton fullWidth onClick={onSendElement} loading={isLoadingSend}>
+                        Send
+                    </BulmaButton>
+                </div>
+            </div>
+        </p>
+        {
+            isSendActive ? (
+                <p className="block">
+                    <div className="field is-fullwidth has-addons">
+                        <div className="control is-expanded">
+                            <input className="input" type="text"
+                                placeholder="Send to address"
+                                value={sendToAddress}
+                                onChange={(ev) => setSendToAddress(ev.target.value)} />
+                        </div>
+                    </div>
+                    <div className="field is-fullwidth has-addons">
+                        <div className="control is-expanded">
+                            <input className="input" type="number"
+                                placeholder="Amount"
+                                value={sendAmount}
+                                onChange={(ev) => setSendAmount(parseFloat(ev.target.value))} />
+                        </div>
+                        <div className="control">
+                            <a className="button is-static">
+                                {elementItem.name}
+                            </a>
+                        </div>
+                    </div>
+                    <div className="field is-fullwidth has-addons">
+                        <div className="control is-expanded">
+                            <BulmaButton fullWidth onClick={onCancelSend} loading={isSendFinalizeLoading}>
+                                Cancel
+                            </BulmaButton>
+                        </div>
+                        <div className="control is-expanded">
+                            <BulmaButton fullWidth color="success" onClick={onFinalizeSend} loading={isSendFinalizeLoading}>
+                                Send
+                            </BulmaButton>
+                        </div>
+                    </div>
+                </p>
+            ) : null
+        }
     </BulmaCard>
 }

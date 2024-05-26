@@ -120,8 +120,20 @@ class ElementContractImpl implements IElementContract {
         return outputJson.ok;
     }
 
-    transfer(to: string, value: number, data: string): Promise<void> {
-        throw new Error("Method not implemented.");
+    async transfer(to: string, value: number, data: string): Promise<void> {
+        const contractApi = await this._chain.getContract({ name: "element_" + this._element.id });
+        const api = await this._chain.getApi();
+        const gasLimit = api.registry.createType("WeightV2", {
+            refTime: new BN("20000000000"),
+            proofSize: new BN("200000"),
+        });
+        await this._chain.signAndSend(
+            contractApi.tx.transfer(
+                { gasLimit, storageDepositLimit: null },
+                to,
+                value,
+            )
+        );
     }
 
     transferFrom(from: string, to: string, value: number, data: string): Promise<void> {

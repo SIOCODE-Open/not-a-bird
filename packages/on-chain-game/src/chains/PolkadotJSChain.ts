@@ -14,6 +14,11 @@ export class PolkadotJSChain implements IBlockchain {
     constructor(
         private _rpcUrl: string,
         private _suri: string = "//Alice",
+        private _nativeTokenMeta?: {
+            name: string,
+            symbol: string,
+            decimals: number
+        }
     ) {
         this._ready = this._connectToChain();
     }
@@ -98,5 +103,21 @@ export class PolkadotJSChain implements IBlockchain {
 
     get rpcUrl(): string {
         return this._rpcUrl;
+    }
+
+    async getNativeTokenMetadata(): Promise<{
+        name: string,
+        symbol: string,
+        decimals: number
+    }> {
+        await this._ready;
+        if (!this._nativeTokenMeta) {
+            return {
+                name: "UNKNOWN",
+                symbol: "???",
+                decimals: 12
+            }
+        }
+        return this._nativeTokenMeta;
     }
 }

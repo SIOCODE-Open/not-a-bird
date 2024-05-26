@@ -16,7 +16,7 @@ import { FranksCard } from "./pages/FranksCard";
 import { ModalContainer } from "./modals/ModalContainer";
 
 const pages: Array<{ path: string; component: any }> = [
-  { path: "/landing-page", component: LandingPage },
+  { path: "/landing-page-old", component: LandingPage },
   { path: "/game", component: GamePage },
   { path: "/game-over", component: GameOverPage },
   { path: "/frank", component: FrankPage },
@@ -26,7 +26,7 @@ const pages: Array<{ path: string; component: any }> = [
   { path: "/particle", component: ParticlePage },
   { path: "/imageEffect", component: ImageEffectPage },
   { path: "/pocgame", component: POCGamePage },
-  { path: "/landing-page-v2", component: LandingPageV2 },
+  { path: "/landing-page", component: LandingPageV2 },
   { path: "/learn", component: LearnPage },
   { path: "/playground", component: ParticleImage },
   { path: "/franks-card", component: FranksCard },
@@ -34,7 +34,7 @@ const pages: Array<{ path: string; component: any }> = [
 
 export function NotABirdApp() {
   const [currentPage, setCurrentPage] = useState("/landing-page");
-  const currentCompRef = useRef(LandingPage);
+  const currentCompRef = useRef(LandingPageV2);
 
   const navigate = (path: string) => {
     if (path === currentPage) {

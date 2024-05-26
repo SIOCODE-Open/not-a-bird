@@ -383,27 +383,25 @@ class OnChainGameImpl implements IOnChainGame {
         return {
             address: await this._chain.getAddress(),
             balance: await this._chain.getNativeTokenBalance() as bigint,
-            token: {
-                name: "UNKNOWN",
-                symbol: "???",
-                decimals: 12
-            }
+            token: await this._chain.getNativeTokenMetadata()
         }
     }
 
     async send(itemId: number, to: string, amount: number): Promise<any> {
         const elementContract = this._elementContracts[itemId];
+        console.log("OnChainGameImpl.send: ", itemId, to, amount, elementContract);
         await elementContract.transfer(to, amount, "");
         await this._updateWorld();
     }
 
     async pool(): Promise<IPool> {
         const chainPool = await this._gameContract.pool();
+        const prize = await this._gameContract.prize();
         return {
             participants: 0,
             target: chainPool[1],
             total: chainPool[2],
-            value: 0,
+            value: prize,
         }
     }
 
@@ -460,10 +458,16 @@ export function createPolkadotJSGame(
     deployment: IChainDeployment,
     content: IGameContent,
     suri: string,
+    nativeTokenMetadata?: {
+        name: string,
+        symbol: string,
+        decimals: number
+    }
 ): IOnChainGame {
     const chain = new PolkadotJSChain(
         deployment.rpcUrl,
-        suri
+        suri,
+        nativeTokenMetadata
     );
     return createDeployedGame(
         deployment,

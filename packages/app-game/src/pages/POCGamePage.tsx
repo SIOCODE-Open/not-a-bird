@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from "react";
-import { ALL_GAMES, IGameContent, IGameWallet, IOnChainGame, IPool, IWorld } from "@not-a-bird/model";
+import { ALL_GAMES, IGameContent, IGameWallet, IOnChainGame, IPool, IRecipe, IWorld, findRecipe } from "@not-a-bird/model";
 import { BulmaButton } from "../components/BulmaButton";
 import { $gameService } from "../service/GameService";
 import { ElementCard } from "./game/ElementCard";
 import { GameHeader } from "./game/GameHeader";
 import { FranksCard } from './FranksCard.tsx'
-import { ILoadableGame, SinglePlayerGame, createSinglePlayerGame } from "@not-a-bird/on-chain-game";
+import { IAchievementService, ILoadableGame, SinglePlayerGame, createSinglePlayerGame, useAchievementService } from "@not-a-bird/on-chain-game";
+import { showAchievementAwardedDialog } from "../modals/achievement-awarded.dialog";
 
 
 export function POCGamePage(props: { navigate: (path: string) => void }) {
@@ -24,9 +25,11 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
     );
     const [isInitialLoading, setIsInitialLoading] = useState(true);
     const [initialLoadingError, setInitialLoadingError] = useState<Error | string | null>(null);
+    const [populateAfterChangeLoading, setPopulateAfterChangeLoading] = useState(false);
     const onChainGameRef = useRef<IOnChainGame>(
         createSinglePlayerGame(selectedGameRef.current || ALL_GAMES[0])
     );
+    const achievementsServiceRef = useRef<IAchievementService | null>(null);
     const intervalWorldUpdateRef = useRef<any>(null);
 
     /// Reloads the world from the on-chain game
@@ -68,7 +71,9 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
                     poolUpdatesSub = g.poolUpdates.subscribe(
                         (p) => setPool(p)
                     );
+                    setPopulateAfterChangeLoading(true);
                     await populateWorld();
+                    setPopulateAfterChangeLoading(false);
                 }
             );
             return () => {
@@ -106,6 +111,31 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
         []
     );
 
+    /// Create achievements service (and hendle cleanup)
+    useEffect(
+        () => {
+            let awardsSub = null;
+            let mintsSub = null;
+            const initializer = async () => {
+                achievementsServiceRef.current = await useAchievementService();
+                awardsSub = achievementsServiceRef.current.awards.subscribe(
+                    async (awardedAchievement) => {
+                        await showAchievementAwardedDialog(awardedAchievement);
+                    }
+                );
+                console.log("Achievements service initialized");
+            };
+            initializer();
+            return () => {
+                if (achievementsServiceRef.current) {
+                    achievementsServiceRef.current.destroy();
+                }
+                if (awardsSub) awardsSub.unsubscribe();
+            }
+        },
+        []
+    );
+
     /// Finds elements that can be crafted with the given element
     const onBeginCrafting = (elementId: number) => {
         console.log("onBeginCrafting: ", elementId);
@@ -114,7 +144,11 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
     /// Executes the crafting of two elements
     const onExecuteCraft = async (a: number, b: number) => {
         await onChainGameRef.current.craft(a, b);
-        console.log("Crafted elements: ", a, b);
+        const recipe = findRecipe(a, b);
+        console.log("Crafted elements: ", a, b, recipe);
+        if (recipe) {
+            await achievementsServiceRef.current?.onCraftRecipe(recipe.id, 1);
+        }
     };
 
     if (isInitialLoading) {
@@ -149,6 +183,7 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
                         onBeginCrafting(parseInt(k));
                     }}
                     onExecuteCraft={onExecuteCraft}
+                    achievementsService={achievementsServiceRef.current}
                 />
             )
         );
@@ -161,6 +196,7 @@ export function POCGamePage(props: { navigate: (path: string) => void }) {
                     pool={pool}
                     onChainGame={onChainGameRef.current}
                     availableGames={availableGames}
+                    achievementService={achievementsServiceRef.current}
                 />
                 <hr />
                 <div className="columns is-multiline">

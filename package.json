@@ -225,6 +225,8 @@
     "deploy:extract": "npm run -w @not-a-bird/deployer extract",
     "deploy:build": "npm run -w @not-a-bird/deployer build",
     "deploy:start": "npm run -w @not-a-bird/deployer start",
+    "deploy:dev": "npm run -w @not-a-bird/deployer start -- --dev",
+    "deploy:sionet": "npm run -w @not-a-bird/deployer start -- --sionet",
     "faucet:build": "npm run -w @not-a-bird/dev-faucet build",
     "faucet:start": "npm run -w @not-a-bird/dev-faucet start"
   }

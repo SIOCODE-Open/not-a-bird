@@ -7,88 +7,16 @@ import {
   IWorld,
 } from "@not-a-bird/model";
 import { BulmaButton } from "../../components/BulmaButton";
-import { $modals } from "../../service/Modals";
 import { EmojioneMonotoneFire } from "../../components/EmojioneMonotoneFire.tsx";
-import { ILoadableGame } from "@not-a-bird/on-chain-game";
-import { loadGameChainWallet } from "@not-a-bird/game-chain-wallet";
-import { IModalContext } from "../../modals/IModalContext";
+import { IAchievementService, ILoadableGame } from "@not-a-bird/on-chain-game";
 import { $gameService } from "../../service/GameService";
-
-async function showGameChangeDialog(
-  selectableGames: Array<ILoadableGame>,
-): Promise<ILoadableGame | null> {
-  const playGame = (ctx: IModalContext, game: ILoadableGame) => {
-    ctx.closeModal();
-    $gameService.loadGame(game.id);
-  };
-  const selectedGame = await new Promise<ILoadableGame>((resolve, reject) => {
-    $modals.openModal({
-      title: "Select game",
-      content: (ctx: IModalContext) => {
-        const gameButtons = selectableGames.map((game) => (<>
-          <BulmaButton color="ghost" onClick={() => { ctx.closeModal(); resolve(game) }}>
-            {game.metadata.name} <span className="tag is-info">{game.metadata.chainInfo}</span>
-          </BulmaButton>
-        </>
-        ));
-        return (<>
-          <p>
-            Select the game you want to play
-          </p>
-          {gameButtons}
-        </>);
-      },
-      actions: [
-        {
-          label: "Cancel",
-          onAction: ({ closeModal }) => {
-            closeModal();
-            resolve(null);
-          },
-        },
-      ],
-    });
-  });
-  return selectedGame;
-}
-
-async function showBalanceDialog(
-  wallet: IGameWallet
-) {
-  const chainWallet = await loadGameChainWallet();
-  await new Promise<void>((resolve, reject) => {
-    $modals.openModal({
-      title: "Wallet",
-      message: "",
-      content: (ctx: IModalContext) => {
-        return <>
-          <p>
-            <b>Address: </b><span>{wallet.address}</span>
-          </p>
-          <p>
-            <b>SURI: </b><span>{chainWallet?.suri || 'UNKNOWN'}</span>
-          </p>
-          <p>
-            <b>Balance: </b><span>
-              {(
-                parseInt(wallet.balance.toString()) / Math.pow(10, wallet.token.decimals)
-              ).toFixed(4)}
-            </span>
-          </p>
-        </>
-      },
-      actions: [
-        {
-          label: "Close",
-          onAction: ({ closeModal }) => {
-            closeModal();
-            resolve();
-          },
-        },
-      ],
-    })
-  });
-}
+import {
+  showGameChangeDialog
+} from "../../modals/game-change.dialog";
+import {
+  showWalletDialog
+} from "../../modals/wallet.dialog";
+import { useEffect, useState } from "react";
 
 export function GameHeader(props: {
   world: IWorld;
@@ -96,7 +24,13 @@ export function GameHeader(props: {
   pool: IPool;
   onChainGame: IOnChainGame;
   availableGames?: Array<ILoadableGame>;
+  achievementService?: IAchievementService | null;
 }) {
+  const [achievementCount, setAchievementCount] = useState(0);
+  const [awardedAchievementCount, setAwardedAchievementCount] = useState(0);
+  const [mintedAchievementCount, setMintedAchievementCount] = useState(0);
+
+
   const onStartChangeGame = async () => {
     const newGame = await showGameChangeDialog(
       props.availableGames || [],
@@ -106,12 +40,54 @@ export function GameHeader(props: {
     }
   };
 
+
+  /// Fetch achievements count
+  useEffect(
+    () => {
+      const fetcher = async () => {
+        const allAchievements = await props.achievementService?.all();
+        if (allAchievements) {
+          setAchievementCount(allAchievements.length);
+          setAwardedAchievementCount(
+            allAchievements.filter((a) => !!a.awarded).length
+          );
+          setMintedAchievementCount(
+            allAchievements.filter((a) => !!a.minted).length
+          );
+        }
+      };
+      fetcher();
+    },
+    []
+  );
+
+  /// Subscribe to awards and mints
+  useEffect(
+    () => {
+      const awardsSub = props.achievementService?.awards.subscribe(
+        async (a) => {
+          setAwardedAchievementCount((c) => c + 1);
+        }
+      );
+      const mintsSub = props.achievementService?.mints.subscribe(
+        async (a) => {
+          setMintedAchievementCount((c) => c + 1);
+        }
+      );
+      return () => {
+        awardsSub?.unsubscribe();
+        mintsSub?.unsubscribe();
+      };
+    },
+    []
+  );
+
   return (<>
     <div className="level">
       <div className="level-item has-text-centered">
         <div>
           <div className="heading">
-            <div className="is-flex is-flex-direction-row is-justify-content-flex-start is-align-items-center">
+            <div className="is-flex is-flex-direction-row is-justify-content-center is-align-items-center">
               <EmojioneMonotoneFire />
               <BulmaButton color="ghost" onClick={onStartChangeGame}>
                 {props.onChainGame.name}
@@ -133,6 +109,9 @@ export function GameHeader(props: {
             ,{" "}
             <span className="has-text-link">
               {props.world.recipes.length} R
+            </span>,{" "}
+            <span className="has-text-success">
+              {achievementCount} A
             </span>
           </div>
         </div>
@@ -140,7 +119,7 @@ export function GameHeader(props: {
       <div className="level-item has-text-centered">
         <div>
           <div className="heading">
-            <BulmaButton color="ghost" onClick={() => showBalanceDialog(props.wallet)}>
+            <BulmaButton color="ghost" onClick={() => showWalletDialog(props.wallet)}>
               Wallet
             </BulmaButton>
           </div>
@@ -164,6 +143,20 @@ export function GameHeader(props: {
               ).toFixed(4)}
             </span>{" "}
             {props.wallet.token.symbol}
+          </div>
+        </div>
+      </div>
+      <div className="level-item has-text-centered">
+        <div>
+          <div className="heading">Achievements</div>
+          <div className="title">
+            <span className="has-text-success">
+              {awardedAchievementCount} A
+            </span>
+            ,{" "}
+            <span className="has-text-info">
+              {mintedAchievementCount} M
+            </span>
           </div>
         </div>
       </div>

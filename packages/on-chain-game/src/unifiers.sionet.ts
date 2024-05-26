@@ -10,87 +10,93 @@ import { loadGameChainWallet, createRandomGameChainWallet } from '@not-a-bird/ga
 const UNIFIERS_CHAIN_DEPLOYMENT: IChainDeployment = {
     rpcUrl: "wss://sionet.siocode.hu",
     gameContract: {
-        address: "5FQ3niouwLpFkYivFodNu3h9S2zJzqqsjyugeboVVSxxiQC4"
+        address: "5GFNRwe53M4TP1BjbcTpuAdEsNfQsykLUpoPkBFXZavXbfcf"
     },
     elementContracts: {
         0: {
-                address: "5EL3KRheqwU3t3ATuiVF5JcYxQTKViomWCWv1H2Ai1cgL359"
+                address: "5HKzRyZbZeBiBr8gjwTNVDNoeGqMSKBi8fVptbSqWgJxKt7t"
             },
 1: {
-                address: "5FttYA3skkkbGpcFBSwZfWPZg9jngMWKtBNWLpQ93otXt3VW"
+                address: "5CFNyKip4TYa6NPvD2ELdA7YmsWh8UdYNa6GCDQCo4qyEtMc"
             },
 2: {
-                address: "5CHVi8PX6J2ATPHSJsrSXakwTuM9iNNAbADXBpfvVNdPLavy"
+                address: "5FTe4tNAoPaznJ6q9jcrpd1VUhednWwy7DTw5hhYGEsnS2yJ"
             },
 3: {
-                address: "5Co8mTr61PXJAmGj63YAcB9CxcqRM7efNGd8PCupWuhFJV34"
+                address: "5GZBqCMLsQ3xibBUoe8NHGujLV5ZKpt7C8MYgUcGvZ816SzF"
             },
 4: {
-                address: "5HFM4y4vpAvqdrSQWFhdRHQKCzteRMNdwVSERuwW8p3aMHNN"
+                address: "5ELWzM9LbyYFjcQks7eUp82JHPpGF8QwDAqjVqpRJBYGA3rr"
             },
 5: {
-                address: "5GGSXgsD3ntSic7b7grHgfq5bLuACMnwcRGQMiuwCz7zqQvK"
+                address: "5DQTBLJ7qTJynVSzhEARzxsNLDTvifUKkxhyn5QGXXSbCXy9"
             },
 6: {
-                address: "5CjMDP7zvy98U6RvAmJCExHWGUtjpiUiMEkfi8p5CygjC9JG"
+                address: "5DC48zhVjM8DvTFir3CGrEjemuYvXn6PwUsH9nkCbngrSmbo"
             },
 7: {
-                address: "5Cku54v5euqF64uVoAMu7Ci6HzKHzuTadu3CoSU7bDfZzjHN"
+                address: "5E6b5rPfEr1aa9Jx3gdzc9ctGoZT78Q4f8HyRE2MohJDbT7s"
             },
 8: {
-                address: "5EJaT1jNnLHXoBB6tVSnjsaKAEYzdhHi1qgPT7fUMwJCnZsU"
+                address: "5FYdyc3S81qBC1ptssfqM7vgEdhQ1Tqoz2U5WS9ymzmzNkGV"
             },
 9: {
-                address: "5H5JFApPqDMkdXP34YiS5YS3V4zTQLyieHCVJsPCuFHrhfCU"
+                address: "5HhbbYnMdzDWBTiPH8Yd7RRaGqzbkJJj7mwxuiz79dF6svVf"
             },
 10: {
-                address: "5ELZVLH64c2q1iu5WwXBb1zs9WjxquRuFgNpkmywUcyv4DHM"
+                address: "5Gea3wfJNLJEpDx9a65xuW6TeViTLv7H1HRfAhsu8W5GgsxF"
             },
 11: {
-                address: "5CRMTX85TtoP1XwjUVeAoMagz2R5S3FeSoAzrML6NaYsmdR4"
+                address: "5D3MWsfMgXFiD5xBcrd2uHQGXMAprKnFs1szTMMbBtPzNcws"
             },
 12: {
-                address: "5DWxeCYv3wcfc1MP69MGR9BvHarsrMEe2nagZ9BriCYUkDiF"
+                address: "5DhatKVr7hkAG3QuWZQ82Yw9Q8tqGFiU8PXSXPHo3ZQ18inz"
             },
 13: {
-                address: "5HFKAzRRa3F7pjCpdttHp2EDZmQmxWDqhirzZRfWxX94bSEp"
+                address: "5FJw6QeaWwCSkQv4Ms2urf5w4UdW5CvvFhcihEgRisb14cbx"
             },
 14: {
-                address: "5C7aJQnzuUL79MDxLaGXdCJUp7iv9BxhPJrav4BoSa8hLCg4"
+                address: "5FYtzJA3uE7zqBP3CNtH859EWVmzNsvJcFvyszWk38vC3kjW"
             },
 15: {
-                address: "5CDFLTaBR63EWCmzAgEBXqQwcmqCnG3N27Tdgrc9K6TtaPVQ"
+                address: "5Gekw9tERuPfVSQYbowdqjj8m4MZDWkSJe518QPg7s9Pax94"
             },
 16: {
-                address: "5EHe4XLk4ZxwFqXiSLuv9Avdmki3qFFJNrTxrNdZzAPfjx2j"
+                address: "5EAGLVjbKrVz3TUE6YS1DQ5vRq1osnqap1wb1iT3m4xxH4wq"
             },
 17: {
-                address: "5GLfk2i4yDqtBs6QcXSewjYbTmFbahSs8j6wSUrFawWfo57k"
+                address: "5DQK8Gvk3zAgmaEpd6aDF9CL1nyWTR8LHzJ29hbwVmH2cf64"
             },
 18: {
-                address: "5HXm7p2PfHUo5ti8aZas5q1MTDY4MwN25zMjnBNZiqQNpUKG"
+                address: "5ER3z8keGFFodFeyaZ2VciEuLpH2biCEgYqFBiabWzANP55X"
             },
 19: {
-                address: "5Eb1WbDyUm1hxMn9yRuV1RJD2pnrDFXwLMDFGt7FM2LmSFre"
+                address: "5HETqC126uZUQLTs2HW5bcuESbx51aX2QhvTNNEWZCCKgAF8"
             },
 20: {
-                address: "5DeXy3X1yJYPrkNd7EJvBh9NqNdZC8RH2ZYH5GXf5Rcn3PLv"
+                address: "5DGu28KirebSUrzrrJXAQMkKV5Etwmftuv7hTcUN3gRnCoAi"
             },
 21: {
-                address: "5CS7FupSeRsKjiv38FHWiADn2yntAdzmhri16UFRxs5V4wsQ"
+                address: "5FZYDWBud5TF7pd6Vv2Qe7cTu1pPtNA4SMyuEBb7FcXhzSyk"
             },
 22: {
-                address: "5Ene2KbGwztbPftDYLYYpxnSAVcU6DYfq9ueavF9hpM5cDhw"
+                address: "5CJmV3fUYNgrJW7qfzT7vCYp5UMzwiVdzNi3SiTCCooytMA4"
             },
 23: {
-                address: "5Dow4RjsbUmpUDjKZ46hfysZQ4YXY9pX4pZU6gP8fuvJtR3V"
+                address: "5EKb72NT6PeCnCjQwJ8rQeFh11TY1VhWV4Q2eSwi11KqW9cE"
             },
 24: {
-                address: "5GN7aJ2fSdWwkKeQKriY9rLALhfwYMFF5NjUQrseBhF5vDvQ"
+                address: "5HPy2XvzFeSsPUGdTYi7AAvdtwnJhrEauBFmQu9qKHWwszbg"
             }
     },
     content: GAME_UNIFIERS
 }
+
+const GAME_CHAIN_NATIVE_TOKEN_META = {
+    name: 'SIOCOIN',
+    symbol: 'SIO',
+    decimals: 12
+};
 
 registerLazyGame(
     'unifiers.polkadotjs.sionet',
@@ -108,7 +114,8 @@ registerLazyGame(
         return createPolkadotJSGame(
             UNIFIERS_CHAIN_DEPLOYMENT,
             GAME_UNIFIERS,
-            suri
+            suri,
+            GAME_CHAIN_NATIVE_TOKEN_META
         );
     }
 );

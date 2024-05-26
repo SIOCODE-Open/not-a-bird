@@ -9,3 +9,5 @@ export { useGame, getUsableGames } from "./use-game";
 export { createSinglePlayerGame, createDeployedGame, createPolkadotJSGame, createNonDeployedGame, SinglePlayerGame } from "./create-game";
 export { ILoadableGame } from "./ILoadableGame";
 export { ILoadableGameMetadata } from "./ILoadableGameMetadata";
+export { IAchievementService } from "./achievements/IAchievementService";
+export { useAchievementService } from "./use-achievement-service";
