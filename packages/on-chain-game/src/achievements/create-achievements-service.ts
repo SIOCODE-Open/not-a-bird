@@ -1,7 +1,7 @@
 import { ALL_ACHIEVEMENTS, IAchievement } from "@not-a-bird/model";
 import { IAchievementService } from "./IAchievementService";
 import { IPlayerStats } from "@not-a-bird/model/src/IPlayerStats";
-import { Subject } from "rxjs";
+import { BehaviorSubject, Subject } from "rxjs";
 import { Sr25519Account, ISr25519Account } from "@unique-nft/sr25519";
 import UniqueSdk, { Options } from "@unique-nft/sdk";
 
@@ -20,6 +20,7 @@ class AchievementsServiceImpl implements IAchievementService {
     private _uniqueAccount: ISr25519Account | null = null;
     private _uniqueSdk: UniqueSdk | null = null;
     private _uniqueCollectionId: string | null = null;
+    private _uniqueCanMint: BehaviorSubject<boolean> = new BehaviorSubject(false);
 
     constructor(
         private _nodeUrl: string,
@@ -68,12 +69,48 @@ class AchievementsServiceImpl implements IAchievementService {
             if (storedCollectionId) {
                 this._uniqueCollectionId = storedCollectionId;
                 console.log("STORED Unique collection id: ", this._uniqueCollectionId);
+                this._uniqueCanMint.next(true);
             } else {
                 const { parsed, error } = await this._uniqueSdk.collection.create.submitWaitResult({
                     name: "Not A Bird Achievements",
                     description: "Achievements earned by a player in the game Not a Bird",
                     address: this._uniqueAccount!.address,
                     tokenPrefix: "NABA",
+                    schema: {
+                        schemaName: "unique",
+                        schemaVersion: "1.0.0",
+                        coverPicture: {
+                            url: "https://polkadot-global-na-2024-not-a-bird-game.surge.sh/assets/achievements/trophy.png"
+                        },
+                        image: {
+                            urlTemplate: "https://polkadot-global-na-2024-not-a-bird-game.surge.sh/assets/achievements/{infix}"
+                        },
+                        attributesSchema: {
+                            '0': {
+                                name: {
+                                    _: "Achievement ID"
+                                },
+                                type: "string",
+                                optional: true
+                            },
+                            '1': {
+                                name: {
+                                    _: "Achievement Name"
+                                },
+                                type: "string",
+                                optional: true
+                            },
+                            '2': {
+                                name: {
+                                    _: "Achievement Description"
+                                },
+                                type: "string",
+                                optional: true
+                            }
+                        },
+                        attributesSchemaVersion: "1.0.0",
+                    },
+                    mode: "NFT",
                 });
                 if (error) {
                     console.error("Error creating collection: ", error);
@@ -82,6 +119,7 @@ class AchievementsServiceImpl implements IAchievementService {
                 this._uniqueCollectionId = `${parsed.collectionId}`;
                 localStorage.setItem("uniqueCollectionId", this._uniqueCollectionId);
                 console.log("Unique collection id: ", this._uniqueCollectionId);
+                this._uniqueCanMint.next(true);
             }
         } catch (e) {
             console.error("Error initializing Unique achievements collection: ", e);
@@ -228,9 +266,14 @@ class AchievementsServiceImpl implements IAchievementService {
                     image: {
                         url: "https://polkadot-global-na-2024-not-a-bird-game.surge.sh/assets/achievements/trophy.png"
                     },
-                    attributes: {
-                        achievementId: achievement!.id,
+                    encodedAttributes: {
+                        '0': { _: achievement!.id },
+                        '1': { _: achievement!.name },
+                        '2': { _: achievement!.description },
                     },
+                    imagePreview: {
+                        url: "https://polkadot-global-na-2024-not-a-bird-game.surge.sh/assets/achievements/trophy.png"
+                    }
                 }
             });
             if (error) {
@@ -260,6 +303,10 @@ class AchievementsServiceImpl implements IAchievementService {
 
     get mints() {
         return this._mints.asObservable();
+    }
+
+    get canMint() {
+        return this._uniqueCanMint.asObservable();
     }
 }
 

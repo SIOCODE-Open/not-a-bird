@@ -12,4 +12,5 @@ export interface IAchievementService {
     destroy(): void;
     readonly awards: Observable<IAchievement>;
     readonly mints: Observable<IAchievement>;
+    readonly canMint: Observable<boolean>;
 }

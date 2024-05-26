@@ -2,7 +2,7 @@ import { IAchievementService } from "@not-a-bird/on-chain-game";
 import { $modals } from "../service/Modals";
 import { BulmaButton } from "../components/BulmaButton";
 import { IAchievement } from "@not-a-bird/model";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const AwardedAchievement = (
     props: {
@@ -11,6 +11,17 @@ const AwardedAchievement = (
     }
 ) => {
     const [isMinting, setIsMinting] = useState(false);
+    const [canMint, setCanMint] = useState(false);
+
+    useEffect(
+        () => {
+            const canMintSub = props.achievementService.canMint.subscribe(setCanMint);
+            return () => {
+                canMintSub.unsubscribe();
+            }
+        },
+        []
+    )
 
     const onMint = async () => {
         setIsMinting(true);
@@ -23,11 +34,11 @@ const AwardedAchievement = (
         <i> ({props.achievement.awarded.date})</i>
         {
             props.achievement.minted ? (
-                <a href={`https://uniquescan.io/opal/tokens/${props.achievement.minted.collectionId}/${props.achievement.minted.tokenId}`} className="button is-small is-primary is-outlined" target="_blank">
+                <a href={`https://uniquescan.io/opal/tokens/${props.achievement.minted.collectionId}/${props.achievement.minted.tokenId}`} className="button is-ghost" target="_blank">
                     View
                 </a>
             ) : (
-                <BulmaButton color="ghost" loading={isMinting} onClick={onMint}>
+                <BulmaButton color="ghost" loading={isMinting} onClick={onMint} disabled={!canMint}>
                     Mint
                 </BulmaButton>
             )
