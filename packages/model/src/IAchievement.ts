@@ -7,7 +7,7 @@ export interface IAchievement {
     }
     minted?: {
         date: string;
-        address: string;
-        txHash: string;
+        collectionId: string;
+        tokenId: string;
     }
 }

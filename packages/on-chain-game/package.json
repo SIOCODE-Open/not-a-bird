@@ -6,6 +6,8 @@
     "dependencies": {
         "@polkadot/api": "*",
         "@polkadot/api-contract": "*",
+        "@unique-nft/accounts": "*",
+        "@unique-nft/sdk": "*",
         "@not-a-bird/model": "*",
         "@not-a-bird/game-chain-wallet": "*"
     },

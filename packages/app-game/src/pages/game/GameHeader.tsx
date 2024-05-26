@@ -17,6 +17,7 @@ import {
   showWalletDialog
 } from "../../modals/wallet.dialog";
 import { useEffect, useState } from "react";
+import { showAchievementsDialog } from "../../modals/achievements.dialog";
 
 export function GameHeader(props: {
   world: IWorld;
@@ -148,7 +149,11 @@ export function GameHeader(props: {
       </div>
       <div className="level-item has-text-centered">
         <div>
-          <div className="heading">Achievements</div>
+          <div className="heading">
+            <BulmaButton color="ghost" onClick={() => showAchievementsDialog(props.achievementService)}>
+              Achievements
+            </BulmaButton>
+          </div>
           <div className="title">
             <span className="has-text-success">
               {awardedAchievementCount} A

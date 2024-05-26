@@ -2,20 +2,20 @@ import {
     IAchievement,
 } from "./IAchievement";
 
-export const ACHIEVEMENT_BUY_1_MONKEY: IAchievement = {
-    id: "buy:0/1",
+export const ACHIEVEMENT_BUY_10_MONKEY: IAchievement = {
+    id: "buy:0/10",
     name: "Buy one Monkey",
-    description: "You have bought 1 Monkey. It's not bad for a start.",
+    description: "You have bought 10 Monkey. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_MONKEY: IAchievement = {
     id: "buy:0/100",
     name: "Buy 100 Monkey",
     description: "You have bought 100 Monkey! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_MONKEY: IAchievement = {
-    id: "sacrifice:0/1",
+export const ACHIEVEMENT_SACRIFICE_10_MONKEY: IAchievement = {
+    id: "sacrifice:0/10",
     name: "Sacrifice one Monkey",
-    description: "You have sacrificed 1 Monkey. At least you've done something.",
+    description: "You have sacrificed 10 Monkey. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_MONKEY: IAchievement = {
     id: "sacrifice:0/100",
@@ -23,25 +23,25 @@ export const ACHIEVEMENT_SACRIFICE_100_MONKEY: IAchievement = {
     description: "You have sacrificed 100 Monkey! Here, shake my hand!",
 };
 export const ITEM_MONKEY_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_MONKEY,
+    ACHIEVEMENT_BUY_10_MONKEY,
     ACHIEVEMENT_BUY_100_MONKEY,
-    ACHIEVEMENT_SACRIFICE_1_MONKEY,
+    ACHIEVEMENT_SACRIFICE_10_MONKEY,
     ACHIEVEMENT_SACRIFICE_100_MONKEY,
 ];
-export const ACHIEVEMENT_BUY_1_GIRAFFE: IAchievement = {
-    id: "buy:1/1",
+export const ACHIEVEMENT_BUY_10_GIRAFFE: IAchievement = {
+    id: "buy:1/10",
     name: "Buy one Giraffe",
-    description: "You have bought 1 Giraffe. It's not bad for a start.",
+    description: "You have bought 10 Giraffe. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_GIRAFFE: IAchievement = {
     id: "buy:1/100",
     name: "Buy 100 Giraffe",
     description: "You have bought 100 Giraffe! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_GIRAFFE: IAchievement = {
-    id: "sacrifice:1/1",
+export const ACHIEVEMENT_SACRIFICE_10_GIRAFFE: IAchievement = {
+    id: "sacrifice:1/10",
     name: "Sacrifice one Giraffe",
-    description: "You have sacrificed 1 Giraffe. At least you've done something.",
+    description: "You have sacrificed 10 Giraffe. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_GIRAFFE: IAchievement = {
     id: "sacrifice:1/100",
@@ -49,25 +49,25 @@ export const ACHIEVEMENT_SACRIFICE_100_GIRAFFE: IAchievement = {
     description: "You have sacrificed 100 Giraffe! Here, shake my hand!",
 };
 export const ITEM_GIRAFFE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_GIRAFFE,
+    ACHIEVEMENT_BUY_10_GIRAFFE,
     ACHIEVEMENT_BUY_100_GIRAFFE,
-    ACHIEVEMENT_SACRIFICE_1_GIRAFFE,
+    ACHIEVEMENT_SACRIFICE_10_GIRAFFE,
     ACHIEVEMENT_SACRIFICE_100_GIRAFFE,
 ];
-export const ACHIEVEMENT_BUY_1_BEE: IAchievement = {
-    id: "buy:2/1",
+export const ACHIEVEMENT_BUY_10_BEE: IAchievement = {
+    id: "buy:2/10",
     name: "Buy one Bee",
-    description: "You have bought 1 Bee. It's not bad for a start.",
+    description: "You have bought 10 Bee. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BEE: IAchievement = {
     id: "buy:2/100",
     name: "Buy 100 Bee",
     description: "You have bought 100 Bee! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BEE: IAchievement = {
-    id: "sacrifice:2/1",
+export const ACHIEVEMENT_SACRIFICE_10_BEE: IAchievement = {
+    id: "sacrifice:2/10",
     name: "Sacrifice one Bee",
-    description: "You have sacrificed 1 Bee. At least you've done something.",
+    description: "You have sacrificed 10 Bee. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BEE: IAchievement = {
     id: "sacrifice:2/100",
@@ -75,25 +75,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BEE: IAchievement = {
     description: "You have sacrificed 100 Bee! Here, shake my hand!",
 };
 export const ITEM_BEE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BEE,
+    ACHIEVEMENT_BUY_10_BEE,
     ACHIEVEMENT_BUY_100_BEE,
-    ACHIEVEMENT_SACRIFICE_1_BEE,
+    ACHIEVEMENT_SACRIFICE_10_BEE,
     ACHIEVEMENT_SACRIFICE_100_BEE,
 ];
-export const ACHIEVEMENT_BUY_1_COIN: IAchievement = {
-    id: "buy:3/1",
+export const ACHIEVEMENT_BUY_10_COIN: IAchievement = {
+    id: "buy:3/10",
     name: "Buy one Coin",
-    description: "You have bought 1 Coin. It's not bad for a start.",
+    description: "You have bought 10 Coin. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_COIN: IAchievement = {
     id: "buy:3/100",
     name: "Buy 100 Coin",
     description: "You have bought 100 Coin! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_COIN: IAchievement = {
-    id: "sacrifice:3/1",
+export const ACHIEVEMENT_SACRIFICE_10_COIN: IAchievement = {
+    id: "sacrifice:3/10",
     name: "Sacrifice one Coin",
-    description: "You have sacrificed 1 Coin. At least you've done something.",
+    description: "You have sacrificed 10 Coin. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_COIN: IAchievement = {
     id: "sacrifice:3/100",
@@ -101,25 +101,25 @@ export const ACHIEVEMENT_SACRIFICE_100_COIN: IAchievement = {
     description: "You have sacrificed 100 Coin! Here, shake my hand!",
 };
 export const ITEM_COIN_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_COIN,
+    ACHIEVEMENT_BUY_10_COIN,
     ACHIEVEMENT_BUY_100_COIN,
-    ACHIEVEMENT_SACRIFICE_1_COIN,
+    ACHIEVEMENT_SACRIFICE_10_COIN,
     ACHIEVEMENT_SACRIFICE_100_COIN,
 ];
-export const ACHIEVEMENT_BUY_1_SWARM: IAchievement = {
-    id: "buy:4/1",
+export const ACHIEVEMENT_BUY_10_SWARM: IAchievement = {
+    id: "buy:4/10",
     name: "Buy one Swarm",
-    description: "You have bought 1 Swarm. It's not bad for a start.",
+    description: "You have bought 10 Swarm. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SWARM: IAchievement = {
     id: "buy:4/100",
     name: "Buy 100 Swarm",
     description: "You have bought 100 Swarm! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SWARM: IAchievement = {
-    id: "sacrifice:4/1",
+export const ACHIEVEMENT_SACRIFICE_10_SWARM: IAchievement = {
+    id: "sacrifice:4/10",
     name: "Sacrifice one Swarm",
-    description: "You have sacrificed 1 Swarm. At least you've done something.",
+    description: "You have sacrificed 10 Swarm. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SWARM: IAchievement = {
     id: "sacrifice:4/100",
@@ -127,25 +127,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SWARM: IAchievement = {
     description: "You have sacrificed 100 Swarm! Here, shake my hand!",
 };
 export const ITEM_SWARM_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SWARM,
+    ACHIEVEMENT_BUY_10_SWARM,
     ACHIEVEMENT_BUY_100_SWARM,
-    ACHIEVEMENT_SACRIFICE_1_SWARM,
+    ACHIEVEMENT_SACRIFICE_10_SWARM,
     ACHIEVEMENT_SACRIFICE_100_SWARM,
 ];
-export const ACHIEVEMENT_BUY_1_HYDRA: IAchievement = {
-    id: "buy:5/1",
+export const ACHIEVEMENT_BUY_10_HYDRA: IAchievement = {
+    id: "buy:5/10",
     name: "Buy one Hydra",
-    description: "You have bought 1 Hydra. It's not bad for a start.",
+    description: "You have bought 10 Hydra. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_HYDRA: IAchievement = {
     id: "buy:5/100",
     name: "Buy 100 Hydra",
     description: "You have bought 100 Hydra! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_HYDRA: IAchievement = {
-    id: "sacrifice:5/1",
+export const ACHIEVEMENT_SACRIFICE_10_HYDRA: IAchievement = {
+    id: "sacrifice:5/10",
     name: "Sacrifice one Hydra",
-    description: "You have sacrificed 1 Hydra. At least you've done something.",
+    description: "You have sacrificed 10 Hydra. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_HYDRA: IAchievement = {
     id: "sacrifice:5/100",
@@ -153,25 +153,25 @@ export const ACHIEVEMENT_SACRIFICE_100_HYDRA: IAchievement = {
     description: "You have sacrificed 100 Hydra! Here, shake my hand!",
 };
 export const ITEM_HYDRA_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_HYDRA,
+    ACHIEVEMENT_BUY_10_HYDRA,
     ACHIEVEMENT_BUY_100_HYDRA,
-    ACHIEVEMENT_SACRIFICE_1_HYDRA,
+    ACHIEVEMENT_SACRIFICE_10_HYDRA,
     ACHIEVEMENT_SACRIFICE_100_HYDRA,
 ];
-export const ACHIEVEMENT_BUY_1_MONKEY_BRANCH: IAchievement = {
-    id: "buy:6/1",
+export const ACHIEVEMENT_BUY_10_MONKEY_BRANCH: IAchievement = {
+    id: "buy:6/10",
     name: "Buy one Monkey Branch",
-    description: "You have bought 1 Monkey Branch. It's not bad for a start.",
+    description: "You have bought 10 Monkey Branch. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_MONKEY_BRANCH: IAchievement = {
     id: "buy:6/100",
     name: "Buy 100 Monkey Branch",
     description: "You have bought 100 Monkey Branch! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_MONKEY_BRANCH: IAchievement = {
-    id: "sacrifice:6/1",
+export const ACHIEVEMENT_SACRIFICE_10_MONKEY_BRANCH: IAchievement = {
+    id: "sacrifice:6/10",
     name: "Sacrifice one Monkey Branch",
-    description: "You have sacrificed 1 Monkey Branch. At least you've done something.",
+    description: "You have sacrificed 10 Monkey Branch. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_MONKEY_BRANCH: IAchievement = {
     id: "sacrifice:6/100",
@@ -179,25 +179,25 @@ export const ACHIEVEMENT_SACRIFICE_100_MONKEY_BRANCH: IAchievement = {
     description: "You have sacrificed 100 Monkey Branch! Here, shake my hand!",
 };
 export const ITEM_MONKEY_BRANCH_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_MONKEY_BRANCH,
+    ACHIEVEMENT_BUY_10_MONKEY_BRANCH,
     ACHIEVEMENT_BUY_100_MONKEY_BRANCH,
-    ACHIEVEMENT_SACRIFICE_1_MONKEY_BRANCH,
+    ACHIEVEMENT_SACRIFICE_10_MONKEY_BRANCH,
     ACHIEVEMENT_SACRIFICE_100_MONKEY_BRANCH,
 ];
-export const ACHIEVEMENT_BUY_1_BRIDGE: IAchievement = {
-    id: "buy:7/1",
+export const ACHIEVEMENT_BUY_10_BRIDGE: IAchievement = {
+    id: "buy:7/10",
     name: "Buy one Bridge",
-    description: "You have bought 1 Bridge. It's not bad for a start.",
+    description: "You have bought 10 Bridge. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BRIDGE: IAchievement = {
     id: "buy:7/100",
     name: "Buy 100 Bridge",
     description: "You have bought 100 Bridge! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BRIDGE: IAchievement = {
-    id: "sacrifice:7/1",
+export const ACHIEVEMENT_SACRIFICE_10_BRIDGE: IAchievement = {
+    id: "sacrifice:7/10",
     name: "Sacrifice one Bridge",
-    description: "You have sacrificed 1 Bridge. At least you've done something.",
+    description: "You have sacrificed 10 Bridge. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BRIDGE: IAchievement = {
     id: "sacrifice:7/100",
@@ -205,25 +205,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BRIDGE: IAchievement = {
     description: "You have sacrificed 100 Bridge! Here, shake my hand!",
 };
 export const ITEM_BRIDGE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BRIDGE,
+    ACHIEVEMENT_BUY_10_BRIDGE,
     ACHIEVEMENT_BUY_100_BRIDGE,
-    ACHIEVEMENT_SACRIFICE_1_BRIDGE,
+    ACHIEVEMENT_SACRIFICE_10_BRIDGE,
     ACHIEVEMENT_SACRIFICE_100_BRIDGE,
 ];
-export const ACHIEVEMENT_BUY_1_GOLDEN_GATE: IAchievement = {
-    id: "buy:8/1",
+export const ACHIEVEMENT_BUY_10_GOLDEN_GATE: IAchievement = {
+    id: "buy:8/10",
     name: "Buy one Golden Gate",
-    description: "You have bought 1 Golden Gate. It's not bad for a start.",
+    description: "You have bought 10 Golden Gate. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_GOLDEN_GATE: IAchievement = {
     id: "buy:8/100",
     name: "Buy 100 Golden Gate",
     description: "You have bought 100 Golden Gate! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_GOLDEN_GATE: IAchievement = {
-    id: "sacrifice:8/1",
+export const ACHIEVEMENT_SACRIFICE_10_GOLDEN_GATE: IAchievement = {
+    id: "sacrifice:8/10",
     name: "Sacrifice one Golden Gate",
-    description: "You have sacrificed 1 Golden Gate. At least you've done something.",
+    description: "You have sacrificed 10 Golden Gate. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_GOLDEN_GATE: IAchievement = {
     id: "sacrifice:8/100",
@@ -231,25 +231,25 @@ export const ACHIEVEMENT_SACRIFICE_100_GOLDEN_GATE: IAchievement = {
     description: "You have sacrificed 100 Golden Gate! Here, shake my hand!",
 };
 export const ITEM_GOLDEN_GATE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_GOLDEN_GATE,
+    ACHIEVEMENT_BUY_10_GOLDEN_GATE,
     ACHIEVEMENT_BUY_100_GOLDEN_GATE,
-    ACHIEVEMENT_SACRIFICE_1_GOLDEN_GATE,
+    ACHIEVEMENT_SACRIFICE_10_GOLDEN_GATE,
     ACHIEVEMENT_SACRIFICE_100_GOLDEN_GATE,
 ];
-export const ACHIEVEMENT_BUY_1_GOLD: IAchievement = {
-    id: "buy:9/1",
+export const ACHIEVEMENT_BUY_10_GOLD: IAchievement = {
+    id: "buy:9/10",
     name: "Buy one Gold",
-    description: "You have bought 1 Gold. It's not bad for a start.",
+    description: "You have bought 10 Gold. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_GOLD: IAchievement = {
     id: "buy:9/100",
     name: "Buy 100 Gold",
     description: "You have bought 100 Gold! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_GOLD: IAchievement = {
-    id: "sacrifice:9/1",
+export const ACHIEVEMENT_SACRIFICE_10_GOLD: IAchievement = {
+    id: "sacrifice:9/10",
     name: "Sacrifice one Gold",
-    description: "You have sacrificed 1 Gold. At least you've done something.",
+    description: "You have sacrificed 10 Gold. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_GOLD: IAchievement = {
     id: "sacrifice:9/100",
@@ -257,25 +257,25 @@ export const ACHIEVEMENT_SACRIFICE_100_GOLD: IAchievement = {
     description: "You have sacrificed 100 Gold! Here, shake my hand!",
 };
 export const ITEM_GOLD_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_GOLD,
+    ACHIEVEMENT_BUY_10_GOLD,
     ACHIEVEMENT_BUY_100_GOLD,
-    ACHIEVEMENT_SACRIFICE_1_GOLD,
+    ACHIEVEMENT_SACRIFICE_10_GOLD,
     ACHIEVEMENT_SACRIFICE_100_GOLD,
 ];
-export const ACHIEVEMENT_BUY_1_SILVER: IAchievement = {
-    id: "buy:10/1",
+export const ACHIEVEMENT_BUY_10_SILVER: IAchievement = {
+    id: "buy:10/10",
     name: "Buy one Silver",
-    description: "You have bought 1 Silver. It's not bad for a start.",
+    description: "You have bought 10 Silver. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SILVER: IAchievement = {
     id: "buy:10/100",
     name: "Buy 100 Silver",
     description: "You have bought 100 Silver! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SILVER: IAchievement = {
-    id: "sacrifice:10/1",
+export const ACHIEVEMENT_SACRIFICE_10_SILVER: IAchievement = {
+    id: "sacrifice:10/10",
     name: "Sacrifice one Silver",
-    description: "You have sacrificed 1 Silver. At least you've done something.",
+    description: "You have sacrificed 10 Silver. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SILVER: IAchievement = {
     id: "sacrifice:10/100",
@@ -283,25 +283,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SILVER: IAchievement = {
     description: "You have sacrificed 100 Silver! Here, shake my hand!",
 };
 export const ITEM_SILVER_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SILVER,
+    ACHIEVEMENT_BUY_10_SILVER,
     ACHIEVEMENT_BUY_100_SILVER,
-    ACHIEVEMENT_SACRIFICE_1_SILVER,
+    ACHIEVEMENT_SACRIFICE_10_SILVER,
     ACHIEVEMENT_SACRIFICE_100_SILVER,
 ];
-export const ACHIEVEMENT_BUY_1_RHODIUM: IAchievement = {
-    id: "buy:11/1",
+export const ACHIEVEMENT_BUY_10_RHODIUM: IAchievement = {
+    id: "buy:11/10",
     name: "Buy one Rhodium",
-    description: "You have bought 1 Rhodium. It's not bad for a start.",
+    description: "You have bought 10 Rhodium. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_RHODIUM: IAchievement = {
     id: "buy:11/100",
     name: "Buy 100 Rhodium",
     description: "You have bought 100 Rhodium! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_RHODIUM: IAchievement = {
-    id: "sacrifice:11/1",
+export const ACHIEVEMENT_SACRIFICE_10_RHODIUM: IAchievement = {
+    id: "sacrifice:11/10",
     name: "Sacrifice one Rhodium",
-    description: "You have sacrificed 1 Rhodium. At least you've done something.",
+    description: "You have sacrificed 10 Rhodium. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_RHODIUM: IAchievement = {
     id: "sacrifice:11/100",
@@ -309,25 +309,25 @@ export const ACHIEVEMENT_SACRIFICE_100_RHODIUM: IAchievement = {
     description: "You have sacrificed 100 Rhodium! Here, shake my hand!",
 };
 export const ITEM_RHODIUM_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_RHODIUM,
+    ACHIEVEMENT_BUY_10_RHODIUM,
     ACHIEVEMENT_BUY_100_RHODIUM,
-    ACHIEVEMENT_SACRIFICE_1_RHODIUM,
+    ACHIEVEMENT_SACRIFICE_10_RHODIUM,
     ACHIEVEMENT_SACRIFICE_100_RHODIUM,
 ];
-export const ACHIEVEMENT_BUY_1_HIVE: IAchievement = {
-    id: "buy:12/1",
+export const ACHIEVEMENT_BUY_10_HIVE: IAchievement = {
+    id: "buy:12/10",
     name: "Buy one Hive",
-    description: "You have bought 1 Hive. It's not bad for a start.",
+    description: "You have bought 10 Hive. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_HIVE: IAchievement = {
     id: "buy:12/100",
     name: "Buy 100 Hive",
     description: "You have bought 100 Hive! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_HIVE: IAchievement = {
-    id: "sacrifice:12/1",
+export const ACHIEVEMENT_SACRIFICE_10_HIVE: IAchievement = {
+    id: "sacrifice:12/10",
     name: "Sacrifice one Hive",
-    description: "You have sacrificed 1 Hive. At least you've done something.",
+    description: "You have sacrificed 10 Hive. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_HIVE: IAchievement = {
     id: "sacrifice:12/100",
@@ -335,25 +335,25 @@ export const ACHIEVEMENT_SACRIFICE_100_HIVE: IAchievement = {
     description: "You have sacrificed 100 Hive! Here, shake my hand!",
 };
 export const ITEM_HIVE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_HIVE,
+    ACHIEVEMENT_BUY_10_HIVE,
     ACHIEVEMENT_BUY_100_HIVE,
-    ACHIEVEMENT_SACRIFICE_1_HIVE,
+    ACHIEVEMENT_SACRIFICE_10_HIVE,
     ACHIEVEMENT_SACRIFICE_100_HIVE,
 ];
-export const ACHIEVEMENT_BUY_1_TRANSACTION: IAchievement = {
-    id: "buy:13/1",
+export const ACHIEVEMENT_BUY_10_TRANSACTION: IAchievement = {
+    id: "buy:13/10",
     name: "Buy one Transaction",
-    description: "You have bought 1 Transaction. It's not bad for a start.",
+    description: "You have bought 10 Transaction. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_TRANSACTION: IAchievement = {
     id: "buy:13/100",
     name: "Buy 100 Transaction",
     description: "You have bought 100 Transaction! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_TRANSACTION: IAchievement = {
-    id: "sacrifice:13/1",
+export const ACHIEVEMENT_SACRIFICE_10_TRANSACTION: IAchievement = {
+    id: "sacrifice:13/10",
     name: "Sacrifice one Transaction",
-    description: "You have sacrificed 1 Transaction. At least you've done something.",
+    description: "You have sacrificed 10 Transaction. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_TRANSACTION: IAchievement = {
     id: "sacrifice:13/100",
@@ -361,25 +361,25 @@ export const ACHIEVEMENT_SACRIFICE_100_TRANSACTION: IAchievement = {
     description: "You have sacrificed 100 Transaction! Here, shake my hand!",
 };
 export const ITEM_TRANSACTION_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_TRANSACTION,
+    ACHIEVEMENT_BUY_10_TRANSACTION,
     ACHIEVEMENT_BUY_100_TRANSACTION,
-    ACHIEVEMENT_SACRIFICE_1_TRANSACTION,
+    ACHIEVEMENT_SACRIFICE_10_TRANSACTION,
     ACHIEVEMENT_SACRIFICE_100_TRANSACTION,
 ];
-export const ACHIEVEMENT_BUY_1_BLOCK: IAchievement = {
-    id: "buy:14/1",
+export const ACHIEVEMENT_BUY_10_BLOCK: IAchievement = {
+    id: "buy:14/10",
     name: "Buy one Block",
-    description: "You have bought 1 Block. It's not bad for a start.",
+    description: "You have bought 10 Block. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BLOCK: IAchievement = {
     id: "buy:14/100",
     name: "Buy 100 Block",
     description: "You have bought 100 Block! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BLOCK: IAchievement = {
-    id: "sacrifice:14/1",
+export const ACHIEVEMENT_SACRIFICE_10_BLOCK: IAchievement = {
+    id: "sacrifice:14/10",
     name: "Sacrifice one Block",
-    description: "You have sacrificed 1 Block. At least you've done something.",
+    description: "You have sacrificed 10 Block. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BLOCK: IAchievement = {
     id: "sacrifice:14/100",
@@ -387,25 +387,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BLOCK: IAchievement = {
     description: "You have sacrificed 100 Block! Here, shake my hand!",
 };
 export const ITEM_BLOCK_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BLOCK,
+    ACHIEVEMENT_BUY_10_BLOCK,
     ACHIEVEMENT_BUY_100_BLOCK,
-    ACHIEVEMENT_SACRIFICE_1_BLOCK,
+    ACHIEVEMENT_SACRIFICE_10_BLOCK,
     ACHIEVEMENT_SACRIFICE_100_BLOCK,
 ];
-export const ACHIEVEMENT_BUY_1_BLOCKCHAIN: IAchievement = {
-    id: "buy:15/1",
+export const ACHIEVEMENT_BUY_10_BLOCKCHAIN: IAchievement = {
+    id: "buy:15/10",
     name: "Buy one Blockchain",
-    description: "You have bought 1 Blockchain. It's not bad for a start.",
+    description: "You have bought 10 Blockchain. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BLOCKCHAIN: IAchievement = {
     id: "buy:15/100",
     name: "Buy 100 Blockchain",
     description: "You have bought 100 Blockchain! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BLOCKCHAIN: IAchievement = {
-    id: "sacrifice:15/1",
+export const ACHIEVEMENT_SACRIFICE_10_BLOCKCHAIN: IAchievement = {
+    id: "sacrifice:15/10",
     name: "Sacrifice one Blockchain",
-    description: "You have sacrificed 1 Blockchain. At least you've done something.",
+    description: "You have sacrificed 10 Blockchain. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BLOCKCHAIN: IAchievement = {
     id: "sacrifice:15/100",
@@ -413,25 +413,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BLOCKCHAIN: IAchievement = {
     description: "You have sacrificed 100 Blockchain! Here, shake my hand!",
 };
 export const ITEM_BLOCKCHAIN_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BLOCKCHAIN,
+    ACHIEVEMENT_BUY_10_BLOCKCHAIN,
     ACHIEVEMENT_BUY_100_BLOCKCHAIN,
-    ACHIEVEMENT_SACRIFICE_1_BLOCKCHAIN,
+    ACHIEVEMENT_SACRIFICE_10_BLOCKCHAIN,
     ACHIEVEMENT_SACRIFICE_100_BLOCKCHAIN,
 ];
-export const ACHIEVEMENT_BUY_1_POLKADOT: IAchievement = {
-    id: "buy:16/1",
+export const ACHIEVEMENT_BUY_10_POLKADOT: IAchievement = {
+    id: "buy:16/10",
     name: "Buy one Polkadot",
-    description: "You have bought 1 Polkadot. It's not bad for a start.",
+    description: "You have bought 10 Polkadot. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_POLKADOT: IAchievement = {
     id: "buy:16/100",
     name: "Buy 100 Polkadot",
     description: "You have bought 100 Polkadot! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_POLKADOT: IAchievement = {
-    id: "sacrifice:16/1",
+export const ACHIEVEMENT_SACRIFICE_10_POLKADOT: IAchievement = {
+    id: "sacrifice:16/10",
     name: "Sacrifice one Polkadot",
-    description: "You have sacrificed 1 Polkadot. At least you've done something.",
+    description: "You have sacrificed 10 Polkadot. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_POLKADOT: IAchievement = {
     id: "sacrifice:16/100",
@@ -439,25 +439,25 @@ export const ACHIEVEMENT_SACRIFICE_100_POLKADOT: IAchievement = {
     description: "You have sacrificed 100 Polkadot! Here, shake my hand!",
 };
 export const ITEM_POLKADOT_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_POLKADOT,
+    ACHIEVEMENT_BUY_10_POLKADOT,
     ACHIEVEMENT_BUY_100_POLKADOT,
-    ACHIEVEMENT_SACRIFICE_1_POLKADOT,
+    ACHIEVEMENT_SACRIFICE_10_POLKADOT,
     ACHIEVEMENT_SACRIFICE_100_POLKADOT,
 ];
-export const ACHIEVEMENT_BUY_1_PEER_REVIEW: IAchievement = {
-    id: "buy:17/1",
+export const ACHIEVEMENT_BUY_10_PEER_REVIEW: IAchievement = {
+    id: "buy:17/10",
     name: "Buy one Peer Review",
-    description: "You have bought 1 Peer Review. It's not bad for a start.",
+    description: "You have bought 10 Peer Review. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_PEER_REVIEW: IAchievement = {
     id: "buy:17/100",
     name: "Buy 100 Peer Review",
     description: "You have bought 100 Peer Review! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_PEER_REVIEW: IAchievement = {
-    id: "sacrifice:17/1",
+export const ACHIEVEMENT_SACRIFICE_10_PEER_REVIEW: IAchievement = {
+    id: "sacrifice:17/10",
     name: "Sacrifice one Peer Review",
-    description: "You have sacrificed 1 Peer Review. At least you've done something.",
+    description: "You have sacrificed 10 Peer Review. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_PEER_REVIEW: IAchievement = {
     id: "sacrifice:17/100",
@@ -465,25 +465,25 @@ export const ACHIEVEMENT_SACRIFICE_100_PEER_REVIEW: IAchievement = {
     description: "You have sacrificed 100 Peer Review! Here, shake my hand!",
 };
 export const ITEM_PEER_REVIEW_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_PEER_REVIEW,
+    ACHIEVEMENT_BUY_10_PEER_REVIEW,
     ACHIEVEMENT_BUY_100_PEER_REVIEW,
-    ACHIEVEMENT_SACRIFICE_1_PEER_REVIEW,
+    ACHIEVEMENT_SACRIFICE_10_PEER_REVIEW,
     ACHIEVEMENT_SACRIFICE_100_PEER_REVIEW,
 ];
-export const ACHIEVEMENT_BUY_1_CARDANO: IAchievement = {
-    id: "buy:18/1",
+export const ACHIEVEMENT_BUY_10_CARDANO: IAchievement = {
+    id: "buy:18/10",
     name: "Buy one Cardano",
-    description: "You have bought 1 Cardano. It's not bad for a start.",
+    description: "You have bought 10 Cardano. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_CARDANO: IAchievement = {
     id: "buy:18/100",
     name: "Buy 100 Cardano",
     description: "You have bought 100 Cardano! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_CARDANO: IAchievement = {
-    id: "sacrifice:18/1",
+export const ACHIEVEMENT_SACRIFICE_10_CARDANO: IAchievement = {
+    id: "sacrifice:18/10",
     name: "Sacrifice one Cardano",
-    description: "You have sacrificed 1 Cardano. At least you've done something.",
+    description: "You have sacrificed 10 Cardano. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_CARDANO: IAchievement = {
     id: "sacrifice:18/100",
@@ -491,25 +491,25 @@ export const ACHIEVEMENT_SACRIFICE_100_CARDANO: IAchievement = {
     description: "You have sacrificed 100 Cardano! Here, shake my hand!",
 };
 export const ITEM_CARDANO_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_CARDANO,
+    ACHIEVEMENT_BUY_10_CARDANO,
     ACHIEVEMENT_BUY_100_CARDANO,
-    ACHIEVEMENT_SACRIFICE_1_CARDANO,
+    ACHIEVEMENT_SACRIFICE_10_CARDANO,
     ACHIEVEMENT_SACRIFICE_100_CARDANO,
 ];
-export const ACHIEVEMENT_BUY_1_BEAR: IAchievement = {
-    id: "buy:19/1",
+export const ACHIEVEMENT_BUY_10_BEAR: IAchievement = {
+    id: "buy:19/10",
     name: "Buy one Bear",
-    description: "You have bought 1 Bear. It's not bad for a start.",
+    description: "You have bought 10 Bear. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BEAR: IAchievement = {
     id: "buy:19/100",
     name: "Buy 100 Bear",
     description: "You have bought 100 Bear! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BEAR: IAchievement = {
-    id: "sacrifice:19/1",
+export const ACHIEVEMENT_SACRIFICE_10_BEAR: IAchievement = {
+    id: "sacrifice:19/10",
     name: "Sacrifice one Bear",
-    description: "You have sacrificed 1 Bear. At least you've done something.",
+    description: "You have sacrificed 10 Bear. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BEAR: IAchievement = {
     id: "sacrifice:19/100",
@@ -517,25 +517,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BEAR: IAchievement = {
     description: "You have sacrificed 100 Bear! Here, shake my hand!",
 };
 export const ITEM_BEAR_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BEAR,
+    ACHIEVEMENT_BUY_10_BEAR,
     ACHIEVEMENT_BUY_100_BEAR,
-    ACHIEVEMENT_SACRIFICE_1_BEAR,
+    ACHIEVEMENT_SACRIFICE_10_BEAR,
     ACHIEVEMENT_SACRIFICE_100_BEAR,
 ];
-export const ACHIEVEMENT_BUY_1_BEER: IAchievement = {
-    id: "buy:20/1",
+export const ACHIEVEMENT_BUY_10_BEER: IAchievement = {
+    id: "buy:20/10",
     name: "Buy one Beer",
-    description: "You have bought 1 Beer. It's not bad for a start.",
+    description: "You have bought 10 Beer. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BEER: IAchievement = {
     id: "buy:20/100",
     name: "Buy 100 Beer",
     description: "You have bought 100 Beer! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BEER: IAchievement = {
-    id: "sacrifice:20/1",
+export const ACHIEVEMENT_SACRIFICE_10_BEER: IAchievement = {
+    id: "sacrifice:20/10",
     name: "Sacrifice one Beer",
-    description: "You have sacrificed 1 Beer. At least you've done something.",
+    description: "You have sacrificed 10 Beer. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BEER: IAchievement = {
     id: "sacrifice:20/100",
@@ -543,25 +543,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BEER: IAchievement = {
     description: "You have sacrificed 100 Beer! Here, shake my hand!",
 };
 export const ITEM_BEER_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BEER,
+    ACHIEVEMENT_BUY_10_BEER,
     ACHIEVEMENT_BUY_100_BEER,
-    ACHIEVEMENT_SACRIFICE_1_BEER,
+    ACHIEVEMENT_SACRIFICE_10_BEER,
     ACHIEVEMENT_SACRIFICE_100_BEER,
 ];
-export const ACHIEVEMENT_BUY_1_LOCK: IAchievement = {
-    id: "buy:21/1",
+export const ACHIEVEMENT_BUY_10_LOCK: IAchievement = {
+    id: "buy:21/10",
     name: "Buy one Lock",
-    description: "You have bought 1 Lock. It's not bad for a start.",
+    description: "You have bought 10 Lock. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_LOCK: IAchievement = {
     id: "buy:21/100",
     name: "Buy 100 Lock",
     description: "You have bought 100 Lock! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_LOCK: IAchievement = {
-    id: "sacrifice:21/1",
+export const ACHIEVEMENT_SACRIFICE_10_LOCK: IAchievement = {
+    id: "sacrifice:21/10",
     name: "Sacrifice one Lock",
-    description: "You have sacrificed 1 Lock. At least you've done something.",
+    description: "You have sacrificed 10 Lock. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_LOCK: IAchievement = {
     id: "sacrifice:21/100",
@@ -569,25 +569,25 @@ export const ACHIEVEMENT_SACRIFICE_100_LOCK: IAchievement = {
     description: "You have sacrificed 100 Lock! Here, shake my hand!",
 };
 export const ITEM_LOCK_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_LOCK,
+    ACHIEVEMENT_BUY_10_LOCK,
     ACHIEVEMENT_BUY_100_LOCK,
-    ACHIEVEMENT_SACRIFICE_1_LOCK,
+    ACHIEVEMENT_SACRIFICE_10_LOCK,
     ACHIEVEMENT_SACRIFICE_100_LOCK,
 ];
-export const ACHIEVEMENT_BUY_1_MARMALADE: IAchievement = {
-    id: "buy:22/1",
+export const ACHIEVEMENT_BUY_10_MARMALADE: IAchievement = {
+    id: "buy:22/10",
     name: "Buy one Marmalade",
-    description: "You have bought 1 Marmalade. It's not bad for a start.",
+    description: "You have bought 10 Marmalade. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_MARMALADE: IAchievement = {
     id: "buy:22/100",
     name: "Buy 100 Marmalade",
     description: "You have bought 100 Marmalade! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_MARMALADE: IAchievement = {
-    id: "sacrifice:22/1",
+export const ACHIEVEMENT_SACRIFICE_10_MARMALADE: IAchievement = {
+    id: "sacrifice:22/10",
     name: "Sacrifice one Marmalade",
-    description: "You have sacrificed 1 Marmalade. At least you've done something.",
+    description: "You have sacrificed 10 Marmalade. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_MARMALADE: IAchievement = {
     id: "sacrifice:22/100",
@@ -595,25 +595,25 @@ export const ACHIEVEMENT_SACRIFICE_100_MARMALADE: IAchievement = {
     description: "You have sacrificed 100 Marmalade! Here, shake my hand!",
 };
 export const ITEM_MARMALADE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_MARMALADE,
+    ACHIEVEMENT_BUY_10_MARMALADE,
     ACHIEVEMENT_BUY_100_MARMALADE,
-    ACHIEVEMENT_SACRIFICE_1_MARMALADE,
+    ACHIEVEMENT_SACRIFICE_10_MARMALADE,
     ACHIEVEMENT_SACRIFICE_100_MARMALADE,
 ];
-export const ACHIEVEMENT_BUY_1_SUPER_MARMALADE: IAchievement = {
-    id: "buy:23/1",
+export const ACHIEVEMENT_BUY_10_SUPER_MARMALADE: IAchievement = {
+    id: "buy:23/10",
     name: "Buy one Super Marmalade",
-    description: "You have bought 1 Super Marmalade. It's not bad for a start.",
+    description: "You have bought 10 Super Marmalade. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SUPER_MARMALADE: IAchievement = {
     id: "buy:23/100",
     name: "Buy 100 Super Marmalade",
     description: "You have bought 100 Super Marmalade! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SUPER_MARMALADE: IAchievement = {
-    id: "sacrifice:23/1",
+export const ACHIEVEMENT_SACRIFICE_10_SUPER_MARMALADE: IAchievement = {
+    id: "sacrifice:23/10",
     name: "Sacrifice one Super Marmalade",
-    description: "You have sacrificed 1 Super Marmalade. At least you've done something.",
+    description: "You have sacrificed 10 Super Marmalade. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SUPER_MARMALADE: IAchievement = {
     id: "sacrifice:23/100",
@@ -621,25 +621,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SUPER_MARMALADE: IAchievement = {
     description: "You have sacrificed 100 Super Marmalade! Here, shake my hand!",
 };
 export const ITEM_SUPER_MARMALADE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SUPER_MARMALADE,
+    ACHIEVEMENT_BUY_10_SUPER_MARMALADE,
     ACHIEVEMENT_BUY_100_SUPER_MARMALADE,
-    ACHIEVEMENT_SACRIFICE_1_SUPER_MARMALADE,
+    ACHIEVEMENT_SACRIFICE_10_SUPER_MARMALADE,
     ACHIEVEMENT_SACRIFICE_100_SUPER_MARMALADE,
 ];
-export const ACHIEVEMENT_BUY_1_HYPER_MARMALADE: IAchievement = {
-    id: "buy:24/1",
+export const ACHIEVEMENT_BUY_10_HYPER_MARMALADE: IAchievement = {
+    id: "buy:24/10",
     name: "Buy one Hyper Marmalade",
-    description: "You have bought 1 Hyper Marmalade. It's not bad for a start.",
+    description: "You have bought 10 Hyper Marmalade. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_HYPER_MARMALADE: IAchievement = {
     id: "buy:24/100",
     name: "Buy 100 Hyper Marmalade",
     description: "You have bought 100 Hyper Marmalade! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_HYPER_MARMALADE: IAchievement = {
-    id: "sacrifice:24/1",
+export const ACHIEVEMENT_SACRIFICE_10_HYPER_MARMALADE: IAchievement = {
+    id: "sacrifice:24/10",
     name: "Sacrifice one Hyper Marmalade",
-    description: "You have sacrificed 1 Hyper Marmalade. At least you've done something.",
+    description: "You have sacrificed 10 Hyper Marmalade. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_HYPER_MARMALADE: IAchievement = {
     id: "sacrifice:24/100",
@@ -647,25 +647,25 @@ export const ACHIEVEMENT_SACRIFICE_100_HYPER_MARMALADE: IAchievement = {
     description: "You have sacrificed 100 Hyper Marmalade! Here, shake my hand!",
 };
 export const ITEM_HYPER_MARMALADE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_HYPER_MARMALADE,
+    ACHIEVEMENT_BUY_10_HYPER_MARMALADE,
     ACHIEVEMENT_BUY_100_HYPER_MARMALADE,
-    ACHIEVEMENT_SACRIFICE_1_HYPER_MARMALADE,
+    ACHIEVEMENT_SACRIFICE_10_HYPER_MARMALADE,
     ACHIEVEMENT_SACRIFICE_100_HYPER_MARMALADE,
 ];
-export const ACHIEVEMENT_BUY_1_WATER: IAchievement = {
-    id: "buy:25/1",
+export const ACHIEVEMENT_BUY_10_WATER: IAchievement = {
+    id: "buy:25/10",
     name: "Buy one Water",
-    description: "You have bought 1 Water. It's not bad for a start.",
+    description: "You have bought 10 Water. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WATER: IAchievement = {
     id: "buy:25/100",
     name: "Buy 100 Water",
     description: "You have bought 100 Water! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WATER: IAchievement = {
-    id: "sacrifice:25/1",
+export const ACHIEVEMENT_SACRIFICE_10_WATER: IAchievement = {
+    id: "sacrifice:25/10",
     name: "Sacrifice one Water",
-    description: "You have sacrificed 1 Water. At least you've done something.",
+    description: "You have sacrificed 10 Water. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WATER: IAchievement = {
     id: "sacrifice:25/100",
@@ -673,25 +673,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WATER: IAchievement = {
     description: "You have sacrificed 100 Water! Here, shake my hand!",
 };
 export const ITEM_WATER_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WATER,
+    ACHIEVEMENT_BUY_10_WATER,
     ACHIEVEMENT_BUY_100_WATER,
-    ACHIEVEMENT_SACRIFICE_1_WATER,
+    ACHIEVEMENT_SACRIFICE_10_WATER,
     ACHIEVEMENT_SACRIFICE_100_WATER,
 ];
-export const ACHIEVEMENT_BUY_1_FIRE: IAchievement = {
-    id: "buy:26/1",
+export const ACHIEVEMENT_BUY_10_FIRE: IAchievement = {
+    id: "buy:26/10",
     name: "Buy one Fire",
-    description: "You have bought 1 Fire. It's not bad for a start.",
+    description: "You have bought 10 Fire. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_FIRE: IAchievement = {
     id: "buy:26/100",
     name: "Buy 100 Fire",
     description: "You have bought 100 Fire! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_FIRE: IAchievement = {
-    id: "sacrifice:26/1",
+export const ACHIEVEMENT_SACRIFICE_10_FIRE: IAchievement = {
+    id: "sacrifice:26/10",
     name: "Sacrifice one Fire",
-    description: "You have sacrificed 1 Fire. At least you've done something.",
+    description: "You have sacrificed 10 Fire. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_FIRE: IAchievement = {
     id: "sacrifice:26/100",
@@ -699,25 +699,25 @@ export const ACHIEVEMENT_SACRIFICE_100_FIRE: IAchievement = {
     description: "You have sacrificed 100 Fire! Here, shake my hand!",
 };
 export const ITEM_FIRE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_FIRE,
+    ACHIEVEMENT_BUY_10_FIRE,
     ACHIEVEMENT_BUY_100_FIRE,
-    ACHIEVEMENT_SACRIFICE_1_FIRE,
+    ACHIEVEMENT_SACRIFICE_10_FIRE,
     ACHIEVEMENT_SACRIFICE_100_FIRE,
 ];
-export const ACHIEVEMENT_BUY_1_STEAM: IAchievement = {
-    id: "buy:27/1",
+export const ACHIEVEMENT_BUY_10_STEAM: IAchievement = {
+    id: "buy:27/10",
     name: "Buy one Steam",
-    description: "You have bought 1 Steam. It's not bad for a start.",
+    description: "You have bought 10 Steam. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_STEAM: IAchievement = {
     id: "buy:27/100",
     name: "Buy 100 Steam",
     description: "You have bought 100 Steam! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_STEAM: IAchievement = {
-    id: "sacrifice:27/1",
+export const ACHIEVEMENT_SACRIFICE_10_STEAM: IAchievement = {
+    id: "sacrifice:27/10",
     name: "Sacrifice one Steam",
-    description: "You have sacrificed 1 Steam. At least you've done something.",
+    description: "You have sacrificed 10 Steam. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_STEAM: IAchievement = {
     id: "sacrifice:27/100",
@@ -725,25 +725,25 @@ export const ACHIEVEMENT_SACRIFICE_100_STEAM: IAchievement = {
     description: "You have sacrificed 100 Steam! Here, shake my hand!",
 };
 export const ITEM_STEAM_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_STEAM,
+    ACHIEVEMENT_BUY_10_STEAM,
     ACHIEVEMENT_BUY_100_STEAM,
-    ACHIEVEMENT_SACRIFICE_1_STEAM,
+    ACHIEVEMENT_SACRIFICE_10_STEAM,
     ACHIEVEMENT_SACRIFICE_100_STEAM,
 ];
-export const ACHIEVEMENT_BUY_1_EARTH: IAchievement = {
-    id: "buy:28/1",
+export const ACHIEVEMENT_BUY_10_EARTH: IAchievement = {
+    id: "buy:28/10",
     name: "Buy one Earth",
-    description: "You have bought 1 Earth. It's not bad for a start.",
+    description: "You have bought 10 Earth. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_EARTH: IAchievement = {
     id: "buy:28/100",
     name: "Buy 100 Earth",
     description: "You have bought 100 Earth! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_EARTH: IAchievement = {
-    id: "sacrifice:28/1",
+export const ACHIEVEMENT_SACRIFICE_10_EARTH: IAchievement = {
+    id: "sacrifice:28/10",
     name: "Sacrifice one Earth",
-    description: "You have sacrificed 1 Earth. At least you've done something.",
+    description: "You have sacrificed 10 Earth. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_EARTH: IAchievement = {
     id: "sacrifice:28/100",
@@ -751,25 +751,25 @@ export const ACHIEVEMENT_SACRIFICE_100_EARTH: IAchievement = {
     description: "You have sacrificed 100 Earth! Here, shake my hand!",
 };
 export const ITEM_EARTH_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_EARTH,
+    ACHIEVEMENT_BUY_10_EARTH,
     ACHIEVEMENT_BUY_100_EARTH,
-    ACHIEVEMENT_SACRIFICE_1_EARTH,
+    ACHIEVEMENT_SACRIFICE_10_EARTH,
     ACHIEVEMENT_SACRIFICE_100_EARTH,
 ];
-export const ACHIEVEMENT_BUY_1_MUD: IAchievement = {
-    id: "buy:29/1",
+export const ACHIEVEMENT_BUY_10_MUD: IAchievement = {
+    id: "buy:29/10",
     name: "Buy one Mud",
-    description: "You have bought 1 Mud. It's not bad for a start.",
+    description: "You have bought 10 Mud. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_MUD: IAchievement = {
     id: "buy:29/100",
     name: "Buy 100 Mud",
     description: "You have bought 100 Mud! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_MUD: IAchievement = {
-    id: "sacrifice:29/1",
+export const ACHIEVEMENT_SACRIFICE_10_MUD: IAchievement = {
+    id: "sacrifice:29/10",
     name: "Sacrifice one Mud",
-    description: "You have sacrificed 1 Mud. At least you've done something.",
+    description: "You have sacrificed 10 Mud. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_MUD: IAchievement = {
     id: "sacrifice:29/100",
@@ -777,25 +777,25 @@ export const ACHIEVEMENT_SACRIFICE_100_MUD: IAchievement = {
     description: "You have sacrificed 100 Mud! Here, shake my hand!",
 };
 export const ITEM_MUD_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_MUD,
+    ACHIEVEMENT_BUY_10_MUD,
     ACHIEVEMENT_BUY_100_MUD,
-    ACHIEVEMENT_SACRIFICE_1_MUD,
+    ACHIEVEMENT_SACRIFICE_10_MUD,
     ACHIEVEMENT_SACRIFICE_100_MUD,
 ];
-export const ACHIEVEMENT_BUY_1_LAVA: IAchievement = {
-    id: "buy:30/1",
+export const ACHIEVEMENT_BUY_10_LAVA: IAchievement = {
+    id: "buy:30/10",
     name: "Buy one Lava",
-    description: "You have bought 1 Lava. It's not bad for a start.",
+    description: "You have bought 10 Lava. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_LAVA: IAchievement = {
     id: "buy:30/100",
     name: "Buy 100 Lava",
     description: "You have bought 100 Lava! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_LAVA: IAchievement = {
-    id: "sacrifice:30/1",
+export const ACHIEVEMENT_SACRIFICE_10_LAVA: IAchievement = {
+    id: "sacrifice:30/10",
     name: "Sacrifice one Lava",
-    description: "You have sacrificed 1 Lava. At least you've done something.",
+    description: "You have sacrificed 10 Lava. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_LAVA: IAchievement = {
     id: "sacrifice:30/100",
@@ -803,25 +803,25 @@ export const ACHIEVEMENT_SACRIFICE_100_LAVA: IAchievement = {
     description: "You have sacrificed 100 Lava! Here, shake my hand!",
 };
 export const ITEM_LAVA_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_LAVA,
+    ACHIEVEMENT_BUY_10_LAVA,
     ACHIEVEMENT_BUY_100_LAVA,
-    ACHIEVEMENT_SACRIFICE_1_LAVA,
+    ACHIEVEMENT_SACRIFICE_10_LAVA,
     ACHIEVEMENT_SACRIFICE_100_LAVA,
 ];
-export const ACHIEVEMENT_BUY_1_WIND: IAchievement = {
-    id: "buy:31/1",
+export const ACHIEVEMENT_BUY_10_WIND: IAchievement = {
+    id: "buy:31/10",
     name: "Buy one Wind",
-    description: "You have bought 1 Wind. It's not bad for a start.",
+    description: "You have bought 10 Wind. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WIND: IAchievement = {
     id: "buy:31/100",
     name: "Buy 100 Wind",
     description: "You have bought 100 Wind! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WIND: IAchievement = {
-    id: "sacrifice:31/1",
+export const ACHIEVEMENT_SACRIFICE_10_WIND: IAchievement = {
+    id: "sacrifice:31/10",
     name: "Sacrifice one Wind",
-    description: "You have sacrificed 1 Wind. At least you've done something.",
+    description: "You have sacrificed 10 Wind. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WIND: IAchievement = {
     id: "sacrifice:31/100",
@@ -829,25 +829,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WIND: IAchievement = {
     description: "You have sacrificed 100 Wind! Here, shake my hand!",
 };
 export const ITEM_WIND_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WIND,
+    ACHIEVEMENT_BUY_10_WIND,
     ACHIEVEMENT_BUY_100_WIND,
-    ACHIEVEMENT_SACRIFICE_1_WIND,
+    ACHIEVEMENT_SACRIFICE_10_WIND,
     ACHIEVEMENT_SACRIFICE_100_WIND,
 ];
-export const ACHIEVEMENT_BUY_1_DUST: IAchievement = {
-    id: "buy:32/1",
+export const ACHIEVEMENT_BUY_10_DUST: IAchievement = {
+    id: "buy:32/10",
     name: "Buy one Dust",
-    description: "You have bought 1 Dust. It's not bad for a start.",
+    description: "You have bought 10 Dust. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_DUST: IAchievement = {
     id: "buy:32/100",
     name: "Buy 100 Dust",
     description: "You have bought 100 Dust! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_DUST: IAchievement = {
-    id: "sacrifice:32/1",
+export const ACHIEVEMENT_SACRIFICE_10_DUST: IAchievement = {
+    id: "sacrifice:32/10",
     name: "Sacrifice one Dust",
-    description: "You have sacrificed 1 Dust. At least you've done something.",
+    description: "You have sacrificed 10 Dust. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_DUST: IAchievement = {
     id: "sacrifice:32/100",
@@ -855,25 +855,25 @@ export const ACHIEVEMENT_SACRIFICE_100_DUST: IAchievement = {
     description: "You have sacrificed 100 Dust! Here, shake my hand!",
 };
 export const ITEM_DUST_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_DUST,
+    ACHIEVEMENT_BUY_10_DUST,
     ACHIEVEMENT_BUY_100_DUST,
-    ACHIEVEMENT_SACRIFICE_1_DUST,
+    ACHIEVEMENT_SACRIFICE_10_DUST,
     ACHIEVEMENT_SACRIFICE_100_DUST,
 ];
-export const ACHIEVEMENT_BUY_1_RAIN: IAchievement = {
-    id: "buy:33/1",
+export const ACHIEVEMENT_BUY_10_RAIN: IAchievement = {
+    id: "buy:33/10",
     name: "Buy one Rain",
-    description: "You have bought 1 Rain. It's not bad for a start.",
+    description: "You have bought 10 Rain. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_RAIN: IAchievement = {
     id: "buy:33/100",
     name: "Buy 100 Rain",
     description: "You have bought 100 Rain! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_RAIN: IAchievement = {
-    id: "sacrifice:33/1",
+export const ACHIEVEMENT_SACRIFICE_10_RAIN: IAchievement = {
+    id: "sacrifice:33/10",
     name: "Sacrifice one Rain",
-    description: "You have sacrificed 1 Rain. At least you've done something.",
+    description: "You have sacrificed 10 Rain. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_RAIN: IAchievement = {
     id: "sacrifice:33/100",
@@ -881,25 +881,25 @@ export const ACHIEVEMENT_SACRIFICE_100_RAIN: IAchievement = {
     description: "You have sacrificed 100 Rain! Here, shake my hand!",
 };
 export const ITEM_RAIN_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_RAIN,
+    ACHIEVEMENT_BUY_10_RAIN,
     ACHIEVEMENT_BUY_100_RAIN,
-    ACHIEVEMENT_SACRIFICE_1_RAIN,
+    ACHIEVEMENT_SACRIFICE_10_RAIN,
     ACHIEVEMENT_SACRIFICE_100_RAIN,
 ];
-export const ACHIEVEMENT_BUY_1_SMOKE: IAchievement = {
-    id: "buy:34/1",
+export const ACHIEVEMENT_BUY_10_SMOKE: IAchievement = {
+    id: "buy:34/10",
     name: "Buy one Smoke",
-    description: "You have bought 1 Smoke. It's not bad for a start.",
+    description: "You have bought 10 Smoke. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SMOKE: IAchievement = {
     id: "buy:34/100",
     name: "Buy 100 Smoke",
     description: "You have bought 100 Smoke! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SMOKE: IAchievement = {
-    id: "sacrifice:34/1",
+export const ACHIEVEMENT_SACRIFICE_10_SMOKE: IAchievement = {
+    id: "sacrifice:34/10",
     name: "Sacrifice one Smoke",
-    description: "You have sacrificed 1 Smoke. At least you've done something.",
+    description: "You have sacrificed 10 Smoke. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SMOKE: IAchievement = {
     id: "sacrifice:34/100",
@@ -907,25 +907,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SMOKE: IAchievement = {
     description: "You have sacrificed 100 Smoke! Here, shake my hand!",
 };
 export const ITEM_SMOKE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SMOKE,
+    ACHIEVEMENT_BUY_10_SMOKE,
     ACHIEVEMENT_BUY_100_SMOKE,
-    ACHIEVEMENT_SACRIFICE_1_SMOKE,
+    ACHIEVEMENT_SACRIFICE_10_SMOKE,
     ACHIEVEMENT_SACRIFICE_100_SMOKE,
 ];
-export const ACHIEVEMENT_BUY_1_GEYSER: IAchievement = {
-    id: "buy:35/1",
+export const ACHIEVEMENT_BUY_10_GEYSER: IAchievement = {
+    id: "buy:35/10",
     name: "Buy one Geyser",
-    description: "You have bought 1 Geyser. It's not bad for a start.",
+    description: "You have bought 10 Geyser. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_GEYSER: IAchievement = {
     id: "buy:35/100",
     name: "Buy 100 Geyser",
     description: "You have bought 100 Geyser! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_GEYSER: IAchievement = {
-    id: "sacrifice:35/1",
+export const ACHIEVEMENT_SACRIFICE_10_GEYSER: IAchievement = {
+    id: "sacrifice:35/10",
     name: "Sacrifice one Geyser",
-    description: "You have sacrificed 1 Geyser. At least you've done something.",
+    description: "You have sacrificed 10 Geyser. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_GEYSER: IAchievement = {
     id: "sacrifice:35/100",
@@ -933,25 +933,25 @@ export const ACHIEVEMENT_SACRIFICE_100_GEYSER: IAchievement = {
     description: "You have sacrificed 100 Geyser! Here, shake my hand!",
 };
 export const ITEM_GEYSER_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_GEYSER,
+    ACHIEVEMENT_BUY_10_GEYSER,
     ACHIEVEMENT_BUY_100_GEYSER,
-    ACHIEVEMENT_SACRIFICE_1_GEYSER,
+    ACHIEVEMENT_SACRIFICE_10_GEYSER,
     ACHIEVEMENT_SACRIFICE_100_GEYSER,
 ];
-export const ACHIEVEMENT_BUY_1_CLAY: IAchievement = {
-    id: "buy:36/1",
+export const ACHIEVEMENT_BUY_10_CLAY: IAchievement = {
+    id: "buy:36/10",
     name: "Buy one Clay",
-    description: "You have bought 1 Clay. It's not bad for a start.",
+    description: "You have bought 10 Clay. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_CLAY: IAchievement = {
     id: "buy:36/100",
     name: "Buy 100 Clay",
     description: "You have bought 100 Clay! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_CLAY: IAchievement = {
-    id: "sacrifice:36/1",
+export const ACHIEVEMENT_SACRIFICE_10_CLAY: IAchievement = {
+    id: "sacrifice:36/10",
     name: "Sacrifice one Clay",
-    description: "You have sacrificed 1 Clay. At least you've done something.",
+    description: "You have sacrificed 10 Clay. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_CLAY: IAchievement = {
     id: "sacrifice:36/100",
@@ -959,25 +959,25 @@ export const ACHIEVEMENT_SACRIFICE_100_CLAY: IAchievement = {
     description: "You have sacrificed 100 Clay! Here, shake my hand!",
 };
 export const ITEM_CLAY_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_CLAY,
+    ACHIEVEMENT_BUY_10_CLAY,
     ACHIEVEMENT_BUY_100_CLAY,
-    ACHIEVEMENT_SACRIFICE_1_CLAY,
+    ACHIEVEMENT_SACRIFICE_10_CLAY,
     ACHIEVEMENT_SACRIFICE_100_CLAY,
 ];
-export const ACHIEVEMENT_BUY_1_SAND: IAchievement = {
-    id: "buy:37/1",
+export const ACHIEVEMENT_BUY_10_SAND: IAchievement = {
+    id: "buy:37/10",
     name: "Buy one Sand",
-    description: "You have bought 1 Sand. It's not bad for a start.",
+    description: "You have bought 10 Sand. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SAND: IAchievement = {
     id: "buy:37/100",
     name: "Buy 100 Sand",
     description: "You have bought 100 Sand! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SAND: IAchievement = {
-    id: "sacrifice:37/1",
+export const ACHIEVEMENT_SACRIFICE_10_SAND: IAchievement = {
+    id: "sacrifice:37/10",
     name: "Sacrifice one Sand",
-    description: "You have sacrificed 1 Sand. At least you've done something.",
+    description: "You have sacrificed 10 Sand. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SAND: IAchievement = {
     id: "sacrifice:37/100",
@@ -985,25 +985,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SAND: IAchievement = {
     description: "You have sacrificed 100 Sand! Here, shake my hand!",
 };
 export const ITEM_SAND_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SAND,
+    ACHIEVEMENT_BUY_10_SAND,
     ACHIEVEMENT_BUY_100_SAND,
-    ACHIEVEMENT_SACRIFICE_1_SAND,
+    ACHIEVEMENT_SACRIFICE_10_SAND,
     ACHIEVEMENT_SACRIFICE_100_SAND,
 ];
-export const ACHIEVEMENT_BUY_1_PLANT: IAchievement = {
-    id: "buy:38/1",
+export const ACHIEVEMENT_BUY_10_PLANT: IAchievement = {
+    id: "buy:38/10",
     name: "Buy one Plant",
-    description: "You have bought 1 Plant. It's not bad for a start.",
+    description: "You have bought 10 Plant. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_PLANT: IAchievement = {
     id: "buy:38/100",
     name: "Buy 100 Plant",
     description: "You have bought 100 Plant! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_PLANT: IAchievement = {
-    id: "sacrifice:38/1",
+export const ACHIEVEMENT_SACRIFICE_10_PLANT: IAchievement = {
+    id: "sacrifice:38/10",
     name: "Sacrifice one Plant",
-    description: "You have sacrificed 1 Plant. At least you've done something.",
+    description: "You have sacrificed 10 Plant. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_PLANT: IAchievement = {
     id: "sacrifice:38/100",
@@ -1011,25 +1011,25 @@ export const ACHIEVEMENT_SACRIFICE_100_PLANT: IAchievement = {
     description: "You have sacrificed 100 Plant! Here, shake my hand!",
 };
 export const ITEM_PLANT_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_PLANT,
+    ACHIEVEMENT_BUY_10_PLANT,
     ACHIEVEMENT_BUY_100_PLANT,
-    ACHIEVEMENT_SACRIFICE_1_PLANT,
+    ACHIEVEMENT_SACRIFICE_10_PLANT,
     ACHIEVEMENT_SACRIFICE_100_PLANT,
 ];
-export const ACHIEVEMENT_BUY_1_RAINBOW: IAchievement = {
-    id: "buy:39/1",
+export const ACHIEVEMENT_BUY_10_RAINBOW: IAchievement = {
+    id: "buy:39/10",
     name: "Buy one Rainbow",
-    description: "You have bought 1 Rainbow. It's not bad for a start.",
+    description: "You have bought 10 Rainbow. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_RAINBOW: IAchievement = {
     id: "buy:39/100",
     name: "Buy 100 Rainbow",
     description: "You have bought 100 Rainbow! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_RAINBOW: IAchievement = {
-    id: "sacrifice:39/1",
+export const ACHIEVEMENT_SACRIFICE_10_RAINBOW: IAchievement = {
+    id: "sacrifice:39/10",
     name: "Sacrifice one Rainbow",
-    description: "You have sacrificed 1 Rainbow. At least you've done something.",
+    description: "You have sacrificed 10 Rainbow. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_RAINBOW: IAchievement = {
     id: "sacrifice:39/100",
@@ -1037,25 +1037,25 @@ export const ACHIEVEMENT_SACRIFICE_100_RAINBOW: IAchievement = {
     description: "You have sacrificed 100 Rainbow! Here, shake my hand!",
 };
 export const ITEM_RAINBOW_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_RAINBOW,
+    ACHIEVEMENT_BUY_10_RAINBOW,
     ACHIEVEMENT_BUY_100_RAINBOW,
-    ACHIEVEMENT_SACRIFICE_1_RAINBOW,
+    ACHIEVEMENT_SACRIFICE_10_RAINBOW,
     ACHIEVEMENT_SACRIFICE_100_RAINBOW,
 ];
-export const ACHIEVEMENT_BUY_1_STORM: IAchievement = {
-    id: "buy:40/1",
+export const ACHIEVEMENT_BUY_10_STORM: IAchievement = {
+    id: "buy:40/10",
     name: "Buy one Storm",
-    description: "You have bought 1 Storm. It's not bad for a start.",
+    description: "You have bought 10 Storm. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_STORM: IAchievement = {
     id: "buy:40/100",
     name: "Buy 100 Storm",
     description: "You have bought 100 Storm! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_STORM: IAchievement = {
-    id: "sacrifice:40/1",
+export const ACHIEVEMENT_SACRIFICE_10_STORM: IAchievement = {
+    id: "sacrifice:40/10",
     name: "Sacrifice one Storm",
-    description: "You have sacrificed 1 Storm. At least you've done something.",
+    description: "You have sacrificed 10 Storm. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_STORM: IAchievement = {
     id: "sacrifice:40/100",
@@ -1063,25 +1063,25 @@ export const ACHIEVEMENT_SACRIFICE_100_STORM: IAchievement = {
     description: "You have sacrificed 100 Storm! Here, shake my hand!",
 };
 export const ITEM_STORM_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_STORM,
+    ACHIEVEMENT_BUY_10_STORM,
     ACHIEVEMENT_BUY_100_STORM,
-    ACHIEVEMENT_SACRIFICE_1_STORM,
+    ACHIEVEMENT_SACRIFICE_10_STORM,
     ACHIEVEMENT_SACRIFICE_100_STORM,
 ];
-export const ACHIEVEMENT_BUY_1_OBSIDIAN: IAchievement = {
-    id: "buy:41/1",
+export const ACHIEVEMENT_BUY_10_OBSIDIAN: IAchievement = {
+    id: "buy:41/10",
     name: "Buy one Obsidian",
-    description: "You have bought 1 Obsidian. It's not bad for a start.",
+    description: "You have bought 10 Obsidian. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_OBSIDIAN: IAchievement = {
     id: "buy:41/100",
     name: "Buy 100 Obsidian",
     description: "You have bought 100 Obsidian! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_OBSIDIAN: IAchievement = {
-    id: "sacrifice:41/1",
+export const ACHIEVEMENT_SACRIFICE_10_OBSIDIAN: IAchievement = {
+    id: "sacrifice:41/10",
     name: "Sacrifice one Obsidian",
-    description: "You have sacrificed 1 Obsidian. At least you've done something.",
+    description: "You have sacrificed 10 Obsidian. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_OBSIDIAN: IAchievement = {
     id: "sacrifice:41/100",
@@ -1089,25 +1089,25 @@ export const ACHIEVEMENT_SACRIFICE_100_OBSIDIAN: IAchievement = {
     description: "You have sacrificed 100 Obsidian! Here, shake my hand!",
 };
 export const ITEM_OBSIDIAN_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_OBSIDIAN,
+    ACHIEVEMENT_BUY_10_OBSIDIAN,
     ACHIEVEMENT_BUY_100_OBSIDIAN,
-    ACHIEVEMENT_SACRIFICE_1_OBSIDIAN,
+    ACHIEVEMENT_SACRIFICE_10_OBSIDIAN,
     ACHIEVEMENT_SACRIFICE_100_OBSIDIAN,
 ];
-export const ACHIEVEMENT_BUY_1_ASH: IAchievement = {
-    id: "buy:42/1",
+export const ACHIEVEMENT_BUY_10_ASH: IAchievement = {
+    id: "buy:42/10",
     name: "Buy one Ash",
-    description: "You have bought 1 Ash. It's not bad for a start.",
+    description: "You have bought 10 Ash. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_ASH: IAchievement = {
     id: "buy:42/100",
     name: "Buy 100 Ash",
     description: "You have bought 100 Ash! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_ASH: IAchievement = {
-    id: "sacrifice:42/1",
+export const ACHIEVEMENT_SACRIFICE_10_ASH: IAchievement = {
+    id: "sacrifice:42/10",
     name: "Sacrifice one Ash",
-    description: "You have sacrificed 1 Ash. At least you've done something.",
+    description: "You have sacrificed 10 Ash. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_ASH: IAchievement = {
     id: "sacrifice:42/100",
@@ -1115,25 +1115,25 @@ export const ACHIEVEMENT_SACRIFICE_100_ASH: IAchievement = {
     description: "You have sacrificed 100 Ash! Here, shake my hand!",
 };
 export const ITEM_ASH_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_ASH,
+    ACHIEVEMENT_BUY_10_ASH,
     ACHIEVEMENT_BUY_100_ASH,
-    ACHIEVEMENT_SACRIFICE_1_ASH,
+    ACHIEVEMENT_SACRIFICE_10_ASH,
     ACHIEVEMENT_SACRIFICE_100_ASH,
 ];
-export const ACHIEVEMENT_BUY_1_VOLCANO: IAchievement = {
-    id: "buy:43/1",
+export const ACHIEVEMENT_BUY_10_VOLCANO: IAchievement = {
+    id: "buy:43/10",
     name: "Buy one Volcano",
-    description: "You have bought 1 Volcano. It's not bad for a start.",
+    description: "You have bought 10 Volcano. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_VOLCANO: IAchievement = {
     id: "buy:43/100",
     name: "Buy 100 Volcano",
     description: "You have bought 100 Volcano! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_VOLCANO: IAchievement = {
-    id: "sacrifice:43/1",
+export const ACHIEVEMENT_SACRIFICE_10_VOLCANO: IAchievement = {
+    id: "sacrifice:43/10",
     name: "Sacrifice one Volcano",
-    description: "You have sacrificed 1 Volcano. At least you've done something.",
+    description: "You have sacrificed 10 Volcano. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_VOLCANO: IAchievement = {
     id: "sacrifice:43/100",
@@ -1141,25 +1141,25 @@ export const ACHIEVEMENT_SACRIFICE_100_VOLCANO: IAchievement = {
     description: "You have sacrificed 100 Volcano! Here, shake my hand!",
 };
 export const ITEM_VOLCANO_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_VOLCANO,
+    ACHIEVEMENT_BUY_10_VOLCANO,
     ACHIEVEMENT_BUY_100_VOLCANO,
-    ACHIEVEMENT_SACRIFICE_1_VOLCANO,
+    ACHIEVEMENT_SACRIFICE_10_VOLCANO,
     ACHIEVEMENT_SACRIFICE_100_VOLCANO,
 ];
-export const ACHIEVEMENT_BUY_1_SANDSTORM: IAchievement = {
-    id: "buy:44/1",
+export const ACHIEVEMENT_BUY_10_SANDSTORM: IAchievement = {
+    id: "buy:44/10",
     name: "Buy one Sandstorm",
-    description: "You have bought 1 Sandstorm. It's not bad for a start.",
+    description: "You have bought 10 Sandstorm. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SANDSTORM: IAchievement = {
     id: "buy:44/100",
     name: "Buy 100 Sandstorm",
     description: "You have bought 100 Sandstorm! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SANDSTORM: IAchievement = {
-    id: "sacrifice:44/1",
+export const ACHIEVEMENT_SACRIFICE_10_SANDSTORM: IAchievement = {
+    id: "sacrifice:44/10",
     name: "Sacrifice one Sandstorm",
-    description: "You have sacrificed 1 Sandstorm. At least you've done something.",
+    description: "You have sacrificed 10 Sandstorm. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SANDSTORM: IAchievement = {
     id: "sacrifice:44/100",
@@ -1167,25 +1167,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SANDSTORM: IAchievement = {
     description: "You have sacrificed 100 Sandstorm! Here, shake my hand!",
 };
 export const ITEM_SANDSTORM_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SANDSTORM,
+    ACHIEVEMENT_BUY_10_SANDSTORM,
     ACHIEVEMENT_BUY_100_SANDSTORM,
-    ACHIEVEMENT_SACRIFICE_1_SANDSTORM,
+    ACHIEVEMENT_SACRIFICE_10_SANDSTORM,
     ACHIEVEMENT_SACRIFICE_100_SANDSTORM,
 ];
-export const ACHIEVEMENT_BUY_1_CLOUD: IAchievement = {
-    id: "buy:45/1",
+export const ACHIEVEMENT_BUY_10_CLOUD: IAchievement = {
+    id: "buy:45/10",
     name: "Buy one Cloud",
-    description: "You have bought 1 Cloud. It's not bad for a start.",
+    description: "You have bought 10 Cloud. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_CLOUD: IAchievement = {
     id: "buy:45/100",
     name: "Buy 100 Cloud",
     description: "You have bought 100 Cloud! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_CLOUD: IAchievement = {
-    id: "sacrifice:45/1",
+export const ACHIEVEMENT_SACRIFICE_10_CLOUD: IAchievement = {
+    id: "sacrifice:45/10",
     name: "Sacrifice one Cloud",
-    description: "You have sacrificed 1 Cloud. At least you've done something.",
+    description: "You have sacrificed 10 Cloud. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_CLOUD: IAchievement = {
     id: "sacrifice:45/100",
@@ -1193,25 +1193,25 @@ export const ACHIEVEMENT_SACRIFICE_100_CLOUD: IAchievement = {
     description: "You have sacrificed 100 Cloud! Here, shake my hand!",
 };
 export const ITEM_CLOUD_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_CLOUD,
+    ACHIEVEMENT_BUY_10_CLOUD,
     ACHIEVEMENT_BUY_100_CLOUD,
-    ACHIEVEMENT_SACRIFICE_1_CLOUD,
+    ACHIEVEMENT_SACRIFICE_10_CLOUD,
     ACHIEVEMENT_SACRIFICE_100_CLOUD,
 ];
-export const ACHIEVEMENT_BUY_1_FOG: IAchievement = {
-    id: "buy:46/1",
+export const ACHIEVEMENT_BUY_10_FOG: IAchievement = {
+    id: "buy:46/10",
     name: "Buy one Fog",
-    description: "You have bought 1 Fog. It's not bad for a start.",
+    description: "You have bought 10 Fog. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_FOG: IAchievement = {
     id: "buy:46/100",
     name: "Buy 100 Fog",
     description: "You have bought 100 Fog! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_FOG: IAchievement = {
-    id: "sacrifice:46/1",
+export const ACHIEVEMENT_SACRIFICE_10_FOG: IAchievement = {
+    id: "sacrifice:46/10",
     name: "Sacrifice one Fog",
-    description: "You have sacrificed 1 Fog. At least you've done something.",
+    description: "You have sacrificed 10 Fog. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_FOG: IAchievement = {
     id: "sacrifice:46/100",
@@ -1219,25 +1219,25 @@ export const ACHIEVEMENT_SACRIFICE_100_FOG: IAchievement = {
     description: "You have sacrificed 100 Fog! Here, shake my hand!",
 };
 export const ITEM_FOG_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_FOG,
+    ACHIEVEMENT_BUY_10_FOG,
     ACHIEVEMENT_BUY_100_FOG,
-    ACHIEVEMENT_SACRIFICE_1_FOG,
+    ACHIEVEMENT_SACRIFICE_10_FOG,
     ACHIEVEMENT_SACRIFICE_100_FOG,
 ];
-export const ACHIEVEMENT_BUY_1_TREE: IAchievement = {
-    id: "buy:47/1",
+export const ACHIEVEMENT_BUY_10_TREE: IAchievement = {
+    id: "buy:47/10",
     name: "Buy one Tree",
-    description: "You have bought 1 Tree. It's not bad for a start.",
+    description: "You have bought 10 Tree. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_TREE: IAchievement = {
     id: "buy:47/100",
     name: "Buy 100 Tree",
     description: "You have bought 100 Tree! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_TREE: IAchievement = {
-    id: "sacrifice:47/1",
+export const ACHIEVEMENT_SACRIFICE_10_TREE: IAchievement = {
+    id: "sacrifice:47/10",
     name: "Sacrifice one Tree",
-    description: "You have sacrificed 1 Tree. At least you've done something.",
+    description: "You have sacrificed 10 Tree. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_TREE: IAchievement = {
     id: "sacrifice:47/100",
@@ -1245,25 +1245,25 @@ export const ACHIEVEMENT_SACRIFICE_100_TREE: IAchievement = {
     description: "You have sacrificed 100 Tree! Here, shake my hand!",
 };
 export const ITEM_TREE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_TREE,
+    ACHIEVEMENT_BUY_10_TREE,
     ACHIEVEMENT_BUY_100_TREE,
-    ACHIEVEMENT_SACRIFICE_1_TREE,
+    ACHIEVEMENT_SACRIFICE_10_TREE,
     ACHIEVEMENT_SACRIFICE_100_TREE,
 ];
-export const ACHIEVEMENT_BUY_1_FOREST: IAchievement = {
-    id: "buy:48/1",
+export const ACHIEVEMENT_BUY_10_FOREST: IAchievement = {
+    id: "buy:48/10",
     name: "Buy one Forest",
-    description: "You have bought 1 Forest. It's not bad for a start.",
+    description: "You have bought 10 Forest. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_FOREST: IAchievement = {
     id: "buy:48/100",
     name: "Buy 100 Forest",
     description: "You have bought 100 Forest! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_FOREST: IAchievement = {
-    id: "sacrifice:48/1",
+export const ACHIEVEMENT_SACRIFICE_10_FOREST: IAchievement = {
+    id: "sacrifice:48/10",
     name: "Sacrifice one Forest",
-    description: "You have sacrificed 1 Forest. At least you've done something.",
+    description: "You have sacrificed 10 Forest. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_FOREST: IAchievement = {
     id: "sacrifice:48/100",
@@ -1271,25 +1271,25 @@ export const ACHIEVEMENT_SACRIFICE_100_FOREST: IAchievement = {
     description: "You have sacrificed 100 Forest! Here, shake my hand!",
 };
 export const ITEM_FOREST_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_FOREST,
+    ACHIEVEMENT_BUY_10_FOREST,
     ACHIEVEMENT_BUY_100_FOREST,
-    ACHIEVEMENT_SACRIFICE_1_FOREST,
+    ACHIEVEMENT_SACRIFICE_10_FOREST,
     ACHIEVEMENT_SACRIFICE_100_FOREST,
 ];
-export const ACHIEVEMENT_BUY_1_SEEDS: IAchievement = {
-    id: "buy:49/1",
+export const ACHIEVEMENT_BUY_10_SEEDS: IAchievement = {
+    id: "buy:49/10",
     name: "Buy one Seeds",
-    description: "You have bought 1 Seeds. It's not bad for a start.",
+    description: "You have bought 10 Seeds. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SEEDS: IAchievement = {
     id: "buy:49/100",
     name: "Buy 100 Seeds",
     description: "You have bought 100 Seeds! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SEEDS: IAchievement = {
-    id: "sacrifice:49/1",
+export const ACHIEVEMENT_SACRIFICE_10_SEEDS: IAchievement = {
+    id: "sacrifice:49/10",
     name: "Sacrifice one Seeds",
-    description: "You have sacrificed 1 Seeds. At least you've done something.",
+    description: "You have sacrificed 10 Seeds. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SEEDS: IAchievement = {
     id: "sacrifice:49/100",
@@ -1297,25 +1297,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SEEDS: IAchievement = {
     description: "You have sacrificed 100 Seeds! Here, shake my hand!",
 };
 export const ITEM_SEEDS_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SEEDS,
+    ACHIEVEMENT_BUY_10_SEEDS,
     ACHIEVEMENT_BUY_100_SEEDS,
-    ACHIEVEMENT_SACRIFICE_1_SEEDS,
+    ACHIEVEMENT_SACRIFICE_10_SEEDS,
     ACHIEVEMENT_SACRIFICE_100_SEEDS,
 ];
-export const ACHIEVEMENT_BUY_1_POTTERY: IAchievement = {
-    id: "buy:50/1",
+export const ACHIEVEMENT_BUY_10_POTTERY: IAchievement = {
+    id: "buy:50/10",
     name: "Buy one Pottery",
-    description: "You have bought 1 Pottery. It's not bad for a start.",
+    description: "You have bought 10 Pottery. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_POTTERY: IAchievement = {
     id: "buy:50/100",
     name: "Buy 100 Pottery",
     description: "You have bought 100 Pottery! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_POTTERY: IAchievement = {
-    id: "sacrifice:50/1",
+export const ACHIEVEMENT_SACRIFICE_10_POTTERY: IAchievement = {
+    id: "sacrifice:50/10",
     name: "Sacrifice one Pottery",
-    description: "You have sacrificed 1 Pottery. At least you've done something.",
+    description: "You have sacrificed 10 Pottery. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_POTTERY: IAchievement = {
     id: "sacrifice:50/100",
@@ -1323,25 +1323,25 @@ export const ACHIEVEMENT_SACRIFICE_100_POTTERY: IAchievement = {
     description: "You have sacrificed 100 Pottery! Here, shake my hand!",
 };
 export const ITEM_POTTERY_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_POTTERY,
+    ACHIEVEMENT_BUY_10_POTTERY,
     ACHIEVEMENT_BUY_100_POTTERY,
-    ACHIEVEMENT_SACRIFICE_1_POTTERY,
+    ACHIEVEMENT_SACRIFICE_10_POTTERY,
     ACHIEVEMENT_SACRIFICE_100_POTTERY,
 ];
-export const ACHIEVEMENT_BUY_1_BRICK: IAchievement = {
-    id: "buy:51/1",
+export const ACHIEVEMENT_BUY_10_BRICK: IAchievement = {
+    id: "buy:51/10",
     name: "Buy one Brick",
-    description: "You have bought 1 Brick. It's not bad for a start.",
+    description: "You have bought 10 Brick. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BRICK: IAchievement = {
     id: "buy:51/100",
     name: "Buy 100 Brick",
     description: "You have bought 100 Brick! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BRICK: IAchievement = {
-    id: "sacrifice:51/1",
+export const ACHIEVEMENT_SACRIFICE_10_BRICK: IAchievement = {
+    id: "sacrifice:51/10",
     name: "Sacrifice one Brick",
-    description: "You have sacrificed 1 Brick. At least you've done something.",
+    description: "You have sacrificed 10 Brick. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BRICK: IAchievement = {
     id: "sacrifice:51/100",
@@ -1349,25 +1349,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BRICK: IAchievement = {
     description: "You have sacrificed 100 Brick! Here, shake my hand!",
 };
 export const ITEM_BRICK_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BRICK,
+    ACHIEVEMENT_BUY_10_BRICK,
     ACHIEVEMENT_BUY_100_BRICK,
-    ACHIEVEMENT_SACRIFICE_1_BRICK,
+    ACHIEVEMENT_SACRIFICE_10_BRICK,
     ACHIEVEMENT_SACRIFICE_100_BRICK,
 ];
-export const ACHIEVEMENT_BUY_1_QUICKSAND: IAchievement = {
-    id: "buy:52/1",
+export const ACHIEVEMENT_BUY_10_QUICKSAND: IAchievement = {
+    id: "buy:52/10",
     name: "Buy one Quicksand",
-    description: "You have bought 1 Quicksand. It's not bad for a start.",
+    description: "You have bought 10 Quicksand. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_QUICKSAND: IAchievement = {
     id: "buy:52/100",
     name: "Buy 100 Quicksand",
     description: "You have bought 100 Quicksand! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_QUICKSAND: IAchievement = {
-    id: "sacrifice:52/1",
+export const ACHIEVEMENT_SACRIFICE_10_QUICKSAND: IAchievement = {
+    id: "sacrifice:52/10",
     name: "Sacrifice one Quicksand",
-    description: "You have sacrificed 1 Quicksand. At least you've done something.",
+    description: "You have sacrificed 10 Quicksand. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_QUICKSAND: IAchievement = {
     id: "sacrifice:52/100",
@@ -1375,25 +1375,25 @@ export const ACHIEVEMENT_SACRIFICE_100_QUICKSAND: IAchievement = {
     description: "You have sacrificed 100 Quicksand! Here, shake my hand!",
 };
 export const ITEM_QUICKSAND_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_QUICKSAND,
+    ACHIEVEMENT_BUY_10_QUICKSAND,
     ACHIEVEMENT_BUY_100_QUICKSAND,
-    ACHIEVEMENT_SACRIFICE_1_QUICKSAND,
+    ACHIEVEMENT_SACRIFICE_10_QUICKSAND,
     ACHIEVEMENT_SACRIFICE_100_QUICKSAND,
 ];
-export const ACHIEVEMENT_BUY_1_GLASS: IAchievement = {
-    id: "buy:53/1",
+export const ACHIEVEMENT_BUY_10_GLASS: IAchievement = {
+    id: "buy:53/10",
     name: "Buy one Glass",
-    description: "You have bought 1 Glass. It's not bad for a start.",
+    description: "You have bought 10 Glass. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_GLASS: IAchievement = {
     id: "buy:53/100",
     name: "Buy 100 Glass",
     description: "You have bought 100 Glass! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_GLASS: IAchievement = {
-    id: "sacrifice:53/1",
+export const ACHIEVEMENT_SACRIFICE_10_GLASS: IAchievement = {
+    id: "sacrifice:53/10",
     name: "Sacrifice one Glass",
-    description: "You have sacrificed 1 Glass. At least you've done something.",
+    description: "You have sacrificed 10 Glass. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_GLASS: IAchievement = {
     id: "sacrifice:53/100",
@@ -1401,25 +1401,25 @@ export const ACHIEVEMENT_SACRIFICE_100_GLASS: IAchievement = {
     description: "You have sacrificed 100 Glass! Here, shake my hand!",
 };
 export const ITEM_GLASS_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_GLASS,
+    ACHIEVEMENT_BUY_10_GLASS,
     ACHIEVEMENT_BUY_100_GLASS,
-    ACHIEVEMENT_SACRIFICE_1_GLASS,
+    ACHIEVEMENT_SACRIFICE_10_GLASS,
     ACHIEVEMENT_SACRIFICE_100_GLASS,
 ];
-export const ACHIEVEMENT_BUY_1_DUNE: IAchievement = {
-    id: "buy:54/1",
+export const ACHIEVEMENT_BUY_10_DUNE: IAchievement = {
+    id: "buy:54/10",
     name: "Buy one Dune",
-    description: "You have bought 1 Dune. It's not bad for a start.",
+    description: "You have bought 10 Dune. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_DUNE: IAchievement = {
     id: "buy:54/100",
     name: "Buy 100 Dune",
     description: "You have bought 100 Dune! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_DUNE: IAchievement = {
-    id: "sacrifice:54/1",
+export const ACHIEVEMENT_SACRIFICE_10_DUNE: IAchievement = {
+    id: "sacrifice:54/10",
     name: "Sacrifice one Dune",
-    description: "You have sacrificed 1 Dune. At least you've done something.",
+    description: "You have sacrificed 10 Dune. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_DUNE: IAchievement = {
     id: "sacrifice:54/100",
@@ -1427,25 +1427,25 @@ export const ACHIEVEMENT_SACRIFICE_100_DUNE: IAchievement = {
     description: "You have sacrificed 100 Dune! Here, shake my hand!",
 };
 export const ITEM_DUNE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_DUNE,
+    ACHIEVEMENT_BUY_10_DUNE,
     ACHIEVEMENT_BUY_100_DUNE,
-    ACHIEVEMENT_SACRIFICE_1_DUNE,
+    ACHIEVEMENT_SACRIFICE_10_DUNE,
     ACHIEVEMENT_SACRIFICE_100_DUNE,
 ];
-export const ACHIEVEMENT_BUY_1_CHARCOAL: IAchievement = {
-    id: "buy:55/1",
+export const ACHIEVEMENT_BUY_10_CHARCOAL: IAchievement = {
+    id: "buy:55/10",
     name: "Buy one Charcoal",
-    description: "You have bought 1 Charcoal. It's not bad for a start.",
+    description: "You have bought 10 Charcoal. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_CHARCOAL: IAchievement = {
     id: "buy:55/100",
     name: "Buy 100 Charcoal",
     description: "You have bought 100 Charcoal! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_CHARCOAL: IAchievement = {
-    id: "sacrifice:55/1",
+export const ACHIEVEMENT_SACRIFICE_10_CHARCOAL: IAchievement = {
+    id: "sacrifice:55/10",
     name: "Sacrifice one Charcoal",
-    description: "You have sacrificed 1 Charcoal. At least you've done something.",
+    description: "You have sacrificed 10 Charcoal. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_CHARCOAL: IAchievement = {
     id: "sacrifice:55/100",
@@ -1453,25 +1453,25 @@ export const ACHIEVEMENT_SACRIFICE_100_CHARCOAL: IAchievement = {
     description: "You have sacrificed 100 Charcoal! Here, shake my hand!",
 };
 export const ITEM_CHARCOAL_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_CHARCOAL,
+    ACHIEVEMENT_BUY_10_CHARCOAL,
     ACHIEVEMENT_BUY_100_CHARCOAL,
-    ACHIEVEMENT_SACRIFICE_1_CHARCOAL,
+    ACHIEVEMENT_SACRIFICE_10_CHARCOAL,
     ACHIEVEMENT_SACRIFICE_100_CHARCOAL,
 ];
-export const ACHIEVEMENT_BUY_1_LEAVES: IAchievement = {
-    id: "buy:56/1",
+export const ACHIEVEMENT_BUY_10_LEAVES: IAchievement = {
+    id: "buy:56/10",
     name: "Buy one Leaves",
-    description: "You have bought 1 Leaves. It's not bad for a start.",
+    description: "You have bought 10 Leaves. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_LEAVES: IAchievement = {
     id: "buy:56/100",
     name: "Buy 100 Leaves",
     description: "You have bought 100 Leaves! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_LEAVES: IAchievement = {
-    id: "sacrifice:56/1",
+export const ACHIEVEMENT_SACRIFICE_10_LEAVES: IAchievement = {
+    id: "sacrifice:56/10",
     name: "Sacrifice one Leaves",
-    description: "You have sacrificed 1 Leaves. At least you've done something.",
+    description: "You have sacrificed 10 Leaves. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_LEAVES: IAchievement = {
     id: "sacrifice:56/100",
@@ -1479,25 +1479,25 @@ export const ACHIEVEMENT_SACRIFICE_100_LEAVES: IAchievement = {
     description: "You have sacrificed 100 Leaves! Here, shake my hand!",
 };
 export const ITEM_LEAVES_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_LEAVES,
+    ACHIEVEMENT_BUY_10_LEAVES,
     ACHIEVEMENT_BUY_100_LEAVES,
-    ACHIEVEMENT_SACRIFICE_1_LEAVES,
+    ACHIEVEMENT_SACRIFICE_10_LEAVES,
     ACHIEVEMENT_SACRIFICE_100_LEAVES,
 ];
-export const ACHIEVEMENT_BUY_1_WILDFIRE: IAchievement = {
-    id: "buy:57/1",
+export const ACHIEVEMENT_BUY_10_WILDFIRE: IAchievement = {
+    id: "buy:57/10",
     name: "Buy one Wildfire",
-    description: "You have bought 1 Wildfire. It's not bad for a start.",
+    description: "You have bought 10 Wildfire. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WILDFIRE: IAchievement = {
     id: "buy:57/100",
     name: "Buy 100 Wildfire",
     description: "You have bought 100 Wildfire! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WILDFIRE: IAchievement = {
-    id: "sacrifice:57/1",
+export const ACHIEVEMENT_SACRIFICE_10_WILDFIRE: IAchievement = {
+    id: "sacrifice:57/10",
     name: "Sacrifice one Wildfire",
-    description: "You have sacrificed 1 Wildfire. At least you've done something.",
+    description: "You have sacrificed 10 Wildfire. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WILDFIRE: IAchievement = {
     id: "sacrifice:57/100",
@@ -1505,25 +1505,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WILDFIRE: IAchievement = {
     description: "You have sacrificed 100 Wildfire! Here, shake my hand!",
 };
 export const ITEM_WILDFIRE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WILDFIRE,
+    ACHIEVEMENT_BUY_10_WILDFIRE,
     ACHIEVEMENT_BUY_100_WILDFIRE,
-    ACHIEVEMENT_SACRIFICE_1_WILDFIRE,
+    ACHIEVEMENT_SACRIFICE_10_WILDFIRE,
     ACHIEVEMENT_SACRIFICE_100_WILDFIRE,
 ];
-export const ACHIEVEMENT_BUY_1_JUNGLE: IAchievement = {
-    id: "buy:58/1",
+export const ACHIEVEMENT_BUY_10_JUNGLE: IAchievement = {
+    id: "buy:58/10",
     name: "Buy one Jungle",
-    description: "You have bought 1 Jungle. It's not bad for a start.",
+    description: "You have bought 10 Jungle. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_JUNGLE: IAchievement = {
     id: "buy:58/100",
     name: "Buy 100 Jungle",
     description: "You have bought 100 Jungle! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_JUNGLE: IAchievement = {
-    id: "sacrifice:58/1",
+export const ACHIEVEMENT_SACRIFICE_10_JUNGLE: IAchievement = {
+    id: "sacrifice:58/10",
     name: "Sacrifice one Jungle",
-    description: "You have sacrificed 1 Jungle. At least you've done something.",
+    description: "You have sacrificed 10 Jungle. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_JUNGLE: IAchievement = {
     id: "sacrifice:58/100",
@@ -1531,25 +1531,25 @@ export const ACHIEVEMENT_SACRIFICE_100_JUNGLE: IAchievement = {
     description: "You have sacrificed 100 Jungle! Here, shake my hand!",
 };
 export const ITEM_JUNGLE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_JUNGLE,
+    ACHIEVEMENT_BUY_10_JUNGLE,
     ACHIEVEMENT_BUY_100_JUNGLE,
-    ACHIEVEMENT_SACRIFICE_1_JUNGLE,
+    ACHIEVEMENT_SACRIFICE_10_JUNGLE,
     ACHIEVEMENT_SACRIFICE_100_JUNGLE,
 ];
-export const ACHIEVEMENT_BUY_1_FROSTED_GLASS: IAchievement = {
-    id: "buy:59/1",
+export const ACHIEVEMENT_BUY_10_FROSTED_GLASS: IAchievement = {
+    id: "buy:59/10",
     name: "Buy one Frosted Glass",
-    description: "You have bought 1 Frosted Glass. It's not bad for a start.",
+    description: "You have bought 10 Frosted Glass. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_FROSTED_GLASS: IAchievement = {
     id: "buy:59/100",
     name: "Buy 100 Frosted Glass",
     description: "You have bought 100 Frosted Glass! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_FROSTED_GLASS: IAchievement = {
-    id: "sacrifice:59/1",
+export const ACHIEVEMENT_SACRIFICE_10_FROSTED_GLASS: IAchievement = {
+    id: "sacrifice:59/10",
     name: "Sacrifice one Frosted Glass",
-    description: "You have sacrificed 1 Frosted Glass. At least you've done something.",
+    description: "You have sacrificed 10 Frosted Glass. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_FROSTED_GLASS: IAchievement = {
     id: "sacrifice:59/100",
@@ -1557,25 +1557,25 @@ export const ACHIEVEMENT_SACRIFICE_100_FROSTED_GLASS: IAchievement = {
     description: "You have sacrificed 100 Frosted Glass! Here, shake my hand!",
 };
 export const ITEM_FROSTED_GLASS_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_FROSTED_GLASS,
+    ACHIEVEMENT_BUY_10_FROSTED_GLASS,
     ACHIEVEMENT_BUY_100_FROSTED_GLASS,
-    ACHIEVEMENT_SACRIFICE_1_FROSTED_GLASS,
+    ACHIEVEMENT_SACRIFICE_10_FROSTED_GLASS,
     ACHIEVEMENT_SACRIFICE_100_FROSTED_GLASS,
 ];
-export const ACHIEVEMENT_BUY_1_CRYSTAL: IAchievement = {
-    id: "buy:60/1",
+export const ACHIEVEMENT_BUY_10_CRYSTAL: IAchievement = {
+    id: "buy:60/10",
     name: "Buy one Crystal",
-    description: "You have bought 1 Crystal. It's not bad for a start.",
+    description: "You have bought 10 Crystal. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_CRYSTAL: IAchievement = {
     id: "buy:60/100",
     name: "Buy 100 Crystal",
     description: "You have bought 100 Crystal! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_CRYSTAL: IAchievement = {
-    id: "sacrifice:60/1",
+export const ACHIEVEMENT_SACRIFICE_10_CRYSTAL: IAchievement = {
+    id: "sacrifice:60/10",
     name: "Sacrifice one Crystal",
-    description: "You have sacrificed 1 Crystal. At least you've done something.",
+    description: "You have sacrificed 10 Crystal. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_CRYSTAL: IAchievement = {
     id: "sacrifice:60/100",
@@ -1583,25 +1583,25 @@ export const ACHIEVEMENT_SACRIFICE_100_CRYSTAL: IAchievement = {
     description: "You have sacrificed 100 Crystal! Here, shake my hand!",
 };
 export const ITEM_CRYSTAL_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_CRYSTAL,
+    ACHIEVEMENT_BUY_10_CRYSTAL,
     ACHIEVEMENT_BUY_100_CRYSTAL,
-    ACHIEVEMENT_SACRIFICE_1_CRYSTAL,
+    ACHIEVEMENT_SACRIFICE_10_CRYSTAL,
     ACHIEVEMENT_SACRIFICE_100_CRYSTAL,
 ];
-export const ACHIEVEMENT_BUY_1_MAGMA: IAchievement = {
-    id: "buy:61/1",
+export const ACHIEVEMENT_BUY_10_MAGMA: IAchievement = {
+    id: "buy:61/10",
     name: "Buy one Magma",
-    description: "You have bought 1 Magma. It's not bad for a start.",
+    description: "You have bought 10 Magma. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_MAGMA: IAchievement = {
     id: "buy:61/100",
     name: "Buy 100 Magma",
     description: "You have bought 100 Magma! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_MAGMA: IAchievement = {
-    id: "sacrifice:61/1",
+export const ACHIEVEMENT_SACRIFICE_10_MAGMA: IAchievement = {
+    id: "sacrifice:61/10",
     name: "Sacrifice one Magma",
-    description: "You have sacrificed 1 Magma. At least you've done something.",
+    description: "You have sacrificed 10 Magma. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_MAGMA: IAchievement = {
     id: "sacrifice:61/100",
@@ -1609,25 +1609,25 @@ export const ACHIEVEMENT_SACRIFICE_100_MAGMA: IAchievement = {
     description: "You have sacrificed 100 Magma! Here, shake my hand!",
 };
 export const ITEM_MAGMA_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_MAGMA,
+    ACHIEVEMENT_BUY_10_MAGMA,
     ACHIEVEMENT_BUY_100_MAGMA,
-    ACHIEVEMENT_SACRIFICE_1_MAGMA,
+    ACHIEVEMENT_SACRIFICE_10_MAGMA,
     ACHIEVEMENT_SACRIFICE_100_MAGMA,
 ];
-export const ACHIEVEMENT_BUY_1_ROCK: IAchievement = {
-    id: "buy:62/1",
+export const ACHIEVEMENT_BUY_10_ROCK: IAchievement = {
+    id: "buy:62/10",
     name: "Buy one Rock",
-    description: "You have bought 1 Rock. It's not bad for a start.",
+    description: "You have bought 10 Rock. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_ROCK: IAchievement = {
     id: "buy:62/100",
     name: "Buy 100 Rock",
     description: "You have bought 100 Rock! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_ROCK: IAchievement = {
-    id: "sacrifice:62/1",
+export const ACHIEVEMENT_SACRIFICE_10_ROCK: IAchievement = {
+    id: "sacrifice:62/10",
     name: "Sacrifice one Rock",
-    description: "You have sacrificed 1 Rock. At least you've done something.",
+    description: "You have sacrificed 10 Rock. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_ROCK: IAchievement = {
     id: "sacrifice:62/100",
@@ -1635,25 +1635,25 @@ export const ACHIEVEMENT_SACRIFICE_100_ROCK: IAchievement = {
     description: "You have sacrificed 100 Rock! Here, shake my hand!",
 };
 export const ITEM_ROCK_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_ROCK,
+    ACHIEVEMENT_BUY_10_ROCK,
     ACHIEVEMENT_BUY_100_ROCK,
-    ACHIEVEMENT_SACRIFICE_1_ROCK,
+    ACHIEVEMENT_SACRIFICE_10_ROCK,
     ACHIEVEMENT_SACRIFICE_100_ROCK,
 ];
-export const ACHIEVEMENT_BUY_1_SHARD: IAchievement = {
-    id: "buy:63/1",
+export const ACHIEVEMENT_BUY_10_SHARD: IAchievement = {
+    id: "buy:63/10",
     name: "Buy one Shard",
-    description: "You have bought 1 Shard. It's not bad for a start.",
+    description: "You have bought 10 Shard. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SHARD: IAchievement = {
     id: "buy:63/100",
     name: "Buy 100 Shard",
     description: "You have bought 100 Shard! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SHARD: IAchievement = {
-    id: "sacrifice:63/1",
+export const ACHIEVEMENT_SACRIFICE_10_SHARD: IAchievement = {
+    id: "sacrifice:63/10",
     name: "Sacrifice one Shard",
-    description: "You have sacrificed 1 Shard. At least you've done something.",
+    description: "You have sacrificed 10 Shard. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SHARD: IAchievement = {
     id: "sacrifice:63/100",
@@ -1661,25 +1661,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SHARD: IAchievement = {
     description: "You have sacrificed 100 Shard! Here, shake my hand!",
 };
 export const ITEM_SHARD_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SHARD,
+    ACHIEVEMENT_BUY_10_SHARD,
     ACHIEVEMENT_BUY_100_SHARD,
-    ACHIEVEMENT_SACRIFICE_1_SHARD,
+    ACHIEVEMENT_SACRIFICE_10_SHARD,
     ACHIEVEMENT_SACRIFICE_100_SHARD,
 ];
-export const ACHIEVEMENT_BUY_1_PEBBLE: IAchievement = {
-    id: "buy:64/1",
+export const ACHIEVEMENT_BUY_10_PEBBLE: IAchievement = {
+    id: "buy:64/10",
     name: "Buy one Pebble",
-    description: "You have bought 1 Pebble. It's not bad for a start.",
+    description: "You have bought 10 Pebble. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_PEBBLE: IAchievement = {
     id: "buy:64/100",
     name: "Buy 100 Pebble",
     description: "You have bought 100 Pebble! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_PEBBLE: IAchievement = {
-    id: "sacrifice:64/1",
+export const ACHIEVEMENT_SACRIFICE_10_PEBBLE: IAchievement = {
+    id: "sacrifice:64/10",
     name: "Sacrifice one Pebble",
-    description: "You have sacrificed 1 Pebble. At least you've done something.",
+    description: "You have sacrificed 10 Pebble. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_PEBBLE: IAchievement = {
     id: "sacrifice:64/100",
@@ -1687,25 +1687,25 @@ export const ACHIEVEMENT_SACRIFICE_100_PEBBLE: IAchievement = {
     description: "You have sacrificed 100 Pebble! Here, shake my hand!",
 };
 export const ITEM_PEBBLE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_PEBBLE,
+    ACHIEVEMENT_BUY_10_PEBBLE,
     ACHIEVEMENT_BUY_100_PEBBLE,
-    ACHIEVEMENT_SACRIFICE_1_PEBBLE,
+    ACHIEVEMENT_SACRIFICE_10_PEBBLE,
     ACHIEVEMENT_SACRIFICE_100_PEBBLE,
 ];
-export const ACHIEVEMENT_BUY_1_MOUNTAIN: IAchievement = {
-    id: "buy:65/1",
+export const ACHIEVEMENT_BUY_10_MOUNTAIN: IAchievement = {
+    id: "buy:65/10",
     name: "Buy one Mountain",
-    description: "You have bought 1 Mountain. It's not bad for a start.",
+    description: "You have bought 10 Mountain. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_MOUNTAIN: IAchievement = {
     id: "buy:65/100",
     name: "Buy 100 Mountain",
     description: "You have bought 100 Mountain! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_MOUNTAIN: IAchievement = {
-    id: "sacrifice:65/1",
+export const ACHIEVEMENT_SACRIFICE_10_MOUNTAIN: IAchievement = {
+    id: "sacrifice:65/10",
     name: "Sacrifice one Mountain",
-    description: "You have sacrificed 1 Mountain. At least you've done something.",
+    description: "You have sacrificed 10 Mountain. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_MOUNTAIN: IAchievement = {
     id: "sacrifice:65/100",
@@ -1713,25 +1713,25 @@ export const ACHIEVEMENT_SACRIFICE_100_MOUNTAIN: IAchievement = {
     description: "You have sacrificed 100 Mountain! Here, shake my hand!",
 };
 export const ITEM_MOUNTAIN_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_MOUNTAIN,
+    ACHIEVEMENT_BUY_10_MOUNTAIN,
     ACHIEVEMENT_BUY_100_MOUNTAIN,
-    ACHIEVEMENT_SACRIFICE_1_MOUNTAIN,
+    ACHIEVEMENT_SACRIFICE_10_MOUNTAIN,
     ACHIEVEMENT_SACRIFICE_100_MOUNTAIN,
 ];
-export const ACHIEVEMENT_BUY_1_FERTILIZER: IAchievement = {
-    id: "buy:66/1",
+export const ACHIEVEMENT_BUY_10_FERTILIZER: IAchievement = {
+    id: "buy:66/10",
     name: "Buy one Fertilizer",
-    description: "You have bought 1 Fertilizer. It's not bad for a start.",
+    description: "You have bought 10 Fertilizer. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_FERTILIZER: IAchievement = {
     id: "buy:66/100",
     name: "Buy 100 Fertilizer",
     description: "You have bought 100 Fertilizer! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_FERTILIZER: IAchievement = {
-    id: "sacrifice:66/1",
+export const ACHIEVEMENT_SACRIFICE_10_FERTILIZER: IAchievement = {
+    id: "sacrifice:66/10",
     name: "Sacrifice one Fertilizer",
-    description: "You have sacrificed 1 Fertilizer. At least you've done something.",
+    description: "You have sacrificed 10 Fertilizer. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_FERTILIZER: IAchievement = {
     id: "sacrifice:66/100",
@@ -1739,25 +1739,25 @@ export const ACHIEVEMENT_SACRIFICE_100_FERTILIZER: IAchievement = {
     description: "You have sacrificed 100 Fertilizer! Here, shake my hand!",
 };
 export const ITEM_FERTILIZER_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_FERTILIZER,
+    ACHIEVEMENT_BUY_10_FERTILIZER,
     ACHIEVEMENT_BUY_100_FERTILIZER,
-    ACHIEVEMENT_SACRIFICE_1_FERTILIZER,
+    ACHIEVEMENT_SACRIFICE_10_FERTILIZER,
     ACHIEVEMENT_SACRIFICE_100_FERTILIZER,
 ];
-export const ACHIEVEMENT_BUY_1_SOOT: IAchievement = {
-    id: "buy:67/1",
+export const ACHIEVEMENT_BUY_10_SOOT: IAchievement = {
+    id: "buy:67/10",
     name: "Buy one Soot",
-    description: "You have bought 1 Soot. It's not bad for a start.",
+    description: "You have bought 10 Soot. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SOOT: IAchievement = {
     id: "buy:67/100",
     name: "Buy 100 Soot",
     description: "You have bought 100 Soot! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SOOT: IAchievement = {
-    id: "sacrifice:67/1",
+export const ACHIEVEMENT_SACRIFICE_10_SOOT: IAchievement = {
+    id: "sacrifice:67/10",
     name: "Sacrifice one Soot",
-    description: "You have sacrificed 1 Soot. At least you've done something.",
+    description: "You have sacrificed 10 Soot. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SOOT: IAchievement = {
     id: "sacrifice:67/100",
@@ -1765,25 +1765,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SOOT: IAchievement = {
     description: "You have sacrificed 100 Soot! Here, shake my hand!",
 };
 export const ITEM_SOOT_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SOOT,
+    ACHIEVEMENT_BUY_10_SOOT,
     ACHIEVEMENT_BUY_100_SOOT,
-    ACHIEVEMENT_SACRIFICE_1_SOOT,
+    ACHIEVEMENT_SACRIFICE_10_SOOT,
     ACHIEVEMENT_SACRIFICE_100_SOOT,
 ];
-export const ACHIEVEMENT_BUY_1_LIGHTNING: IAchievement = {
-    id: "buy:68/1",
+export const ACHIEVEMENT_BUY_10_LIGHTNING: IAchievement = {
+    id: "buy:68/10",
     name: "Buy one Lightning",
-    description: "You have bought 1 Lightning. It's not bad for a start.",
+    description: "You have bought 10 Lightning. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_LIGHTNING: IAchievement = {
     id: "buy:68/100",
     name: "Buy 100 Lightning",
     description: "You have bought 100 Lightning! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_LIGHTNING: IAchievement = {
-    id: "sacrifice:68/1",
+export const ACHIEVEMENT_SACRIFICE_10_LIGHTNING: IAchievement = {
+    id: "sacrifice:68/10",
     name: "Sacrifice one Lightning",
-    description: "You have sacrificed 1 Lightning. At least you've done something.",
+    description: "You have sacrificed 10 Lightning. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_LIGHTNING: IAchievement = {
     id: "sacrifice:68/100",
@@ -1791,25 +1791,25 @@ export const ACHIEVEMENT_SACRIFICE_100_LIGHTNING: IAchievement = {
     description: "You have sacrificed 100 Lightning! Here, shake my hand!",
 };
 export const ITEM_LIGHTNING_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_LIGHTNING,
+    ACHIEVEMENT_BUY_10_LIGHTNING,
     ACHIEVEMENT_BUY_100_LIGHTNING,
-    ACHIEVEMENT_SACRIFICE_1_LIGHTNING,
+    ACHIEVEMENT_SACRIFICE_10_LIGHTNING,
     ACHIEVEMENT_SACRIFICE_100_LIGHTNING,
 ];
-export const ACHIEVEMENT_BUY_1_MIST: IAchievement = {
-    id: "buy:69/1",
+export const ACHIEVEMENT_BUY_10_MIST: IAchievement = {
+    id: "buy:69/10",
     name: "Buy one Mist",
-    description: "You have bought 1 Mist. It's not bad for a start.",
+    description: "You have bought 10 Mist. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_MIST: IAchievement = {
     id: "buy:69/100",
     name: "Buy 100 Mist",
     description: "You have bought 100 Mist! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_MIST: IAchievement = {
-    id: "sacrifice:69/1",
+export const ACHIEVEMENT_SACRIFICE_10_MIST: IAchievement = {
+    id: "sacrifice:69/10",
     name: "Sacrifice one Mist",
-    description: "You have sacrificed 1 Mist. At least you've done something.",
+    description: "You have sacrificed 10 Mist. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_MIST: IAchievement = {
     id: "sacrifice:69/100",
@@ -1817,25 +1817,25 @@ export const ACHIEVEMENT_SACRIFICE_100_MIST: IAchievement = {
     description: "You have sacrificed 100 Mist! Here, shake my hand!",
 };
 export const ITEM_MIST_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_MIST,
+    ACHIEVEMENT_BUY_10_MIST,
     ACHIEVEMENT_BUY_100_MIST,
-    ACHIEVEMENT_SACRIFICE_1_MIST,
+    ACHIEVEMENT_SACRIFICE_10_MIST,
     ACHIEVEMENT_SACRIFICE_100_MIST,
 ];
-export const ACHIEVEMENT_BUY_1_HAZE: IAchievement = {
-    id: "buy:70/1",
+export const ACHIEVEMENT_BUY_10_HAZE: IAchievement = {
+    id: "buy:70/10",
     name: "Buy one Haze",
-    description: "You have bought 1 Haze. It's not bad for a start.",
+    description: "You have bought 10 Haze. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_HAZE: IAchievement = {
     id: "buy:70/100",
     name: "Buy 100 Haze",
     description: "You have bought 100 Haze! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_HAZE: IAchievement = {
-    id: "sacrifice:70/1",
+export const ACHIEVEMENT_SACRIFICE_10_HAZE: IAchievement = {
+    id: "sacrifice:70/10",
     name: "Sacrifice one Haze",
-    description: "You have sacrificed 1 Haze. At least you've done something.",
+    description: "You have sacrificed 10 Haze. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_HAZE: IAchievement = {
     id: "sacrifice:70/100",
@@ -1843,25 +1843,25 @@ export const ACHIEVEMENT_SACRIFICE_100_HAZE: IAchievement = {
     description: "You have sacrificed 100 Haze! Here, shake my hand!",
 };
 export const ITEM_HAZE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_HAZE,
+    ACHIEVEMENT_BUY_10_HAZE,
     ACHIEVEMENT_BUY_100_HAZE,
-    ACHIEVEMENT_SACRIFICE_1_HAZE,
+    ACHIEVEMENT_SACRIFICE_10_HAZE,
     ACHIEVEMENT_SACRIFICE_100_HAZE,
 ];
-export const ACHIEVEMENT_BUY_1_FLOOD: IAchievement = {
-    id: "buy:71/1",
+export const ACHIEVEMENT_BUY_10_FLOOD: IAchievement = {
+    id: "buy:71/10",
     name: "Buy one Flood",
-    description: "You have bought 1 Flood. It's not bad for a start.",
+    description: "You have bought 10 Flood. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_FLOOD: IAchievement = {
     id: "buy:71/100",
     name: "Buy 100 Flood",
     description: "You have bought 100 Flood! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_FLOOD: IAchievement = {
-    id: "sacrifice:71/1",
+export const ACHIEVEMENT_SACRIFICE_10_FLOOD: IAchievement = {
+    id: "sacrifice:71/10",
     name: "Sacrifice one Flood",
-    description: "You have sacrificed 1 Flood. At least you've done something.",
+    description: "You have sacrificed 10 Flood. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_FLOOD: IAchievement = {
     id: "sacrifice:71/100",
@@ -1869,25 +1869,25 @@ export const ACHIEVEMENT_SACRIFICE_100_FLOOD: IAchievement = {
     description: "You have sacrificed 100 Flood! Here, shake my hand!",
 };
 export const ITEM_FLOOD_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_FLOOD,
+    ACHIEVEMENT_BUY_10_FLOOD,
     ACHIEVEMENT_BUY_100_FLOOD,
-    ACHIEVEMENT_SACRIFICE_1_FLOOD,
+    ACHIEVEMENT_SACRIFICE_10_FLOOD,
     ACHIEVEMENT_SACRIFICE_100_FLOOD,
 ];
-export const ACHIEVEMENT_BUY_1_LANDSLIDE: IAchievement = {
-    id: "buy:72/1",
+export const ACHIEVEMENT_BUY_10_LANDSLIDE: IAchievement = {
+    id: "buy:72/10",
     name: "Buy one Landslide",
-    description: "You have bought 1 Landslide. It's not bad for a start.",
+    description: "You have bought 10 Landslide. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_LANDSLIDE: IAchievement = {
     id: "buy:72/100",
     name: "Buy 100 Landslide",
     description: "You have bought 100 Landslide! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_LANDSLIDE: IAchievement = {
-    id: "sacrifice:72/1",
+export const ACHIEVEMENT_SACRIFICE_10_LANDSLIDE: IAchievement = {
+    id: "sacrifice:72/10",
     name: "Sacrifice one Landslide",
-    description: "You have sacrificed 1 Landslide. At least you've done something.",
+    description: "You have sacrificed 10 Landslide. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_LANDSLIDE: IAchievement = {
     id: "sacrifice:72/100",
@@ -1895,25 +1895,25 @@ export const ACHIEVEMENT_SACRIFICE_100_LANDSLIDE: IAchievement = {
     description: "You have sacrificed 100 Landslide! Here, shake my hand!",
 };
 export const ITEM_LANDSLIDE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_LANDSLIDE,
+    ACHIEVEMENT_BUY_10_LANDSLIDE,
     ACHIEVEMENT_BUY_100_LANDSLIDE,
-    ACHIEVEMENT_SACRIFICE_1_LANDSLIDE,
+    ACHIEVEMENT_SACRIFICE_10_LANDSLIDE,
     ACHIEVEMENT_SACRIFICE_100_LANDSLIDE,
 ];
-export const ACHIEVEMENT_BUY_1_THUNDER: IAchievement = {
-    id: "buy:73/1",
+export const ACHIEVEMENT_BUY_10_THUNDER: IAchievement = {
+    id: "buy:73/10",
     name: "Buy one Thunder",
-    description: "You have bought 1 Thunder. It's not bad for a start.",
+    description: "You have bought 10 Thunder. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_THUNDER: IAchievement = {
     id: "buy:73/100",
     name: "Buy 100 Thunder",
     description: "You have bought 100 Thunder! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_THUNDER: IAchievement = {
-    id: "sacrifice:73/1",
+export const ACHIEVEMENT_SACRIFICE_10_THUNDER: IAchievement = {
+    id: "sacrifice:73/10",
     name: "Sacrifice one Thunder",
-    description: "You have sacrificed 1 Thunder. At least you've done something.",
+    description: "You have sacrificed 10 Thunder. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_THUNDER: IAchievement = {
     id: "sacrifice:73/100",
@@ -1921,25 +1921,25 @@ export const ACHIEVEMENT_SACRIFICE_100_THUNDER: IAchievement = {
     description: "You have sacrificed 100 Thunder! Here, shake my hand!",
 };
 export const ITEM_THUNDER_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_THUNDER,
+    ACHIEVEMENT_BUY_10_THUNDER,
     ACHIEVEMENT_BUY_100_THUNDER,
-    ACHIEVEMENT_SACRIFICE_1_THUNDER,
+    ACHIEVEMENT_SACRIFICE_10_THUNDER,
     ACHIEVEMENT_SACRIFICE_100_THUNDER,
 ];
-export const ACHIEVEMENT_BUY_1_TORNADO: IAchievement = {
-    id: "buy:74/1",
+export const ACHIEVEMENT_BUY_10_TORNADO: IAchievement = {
+    id: "buy:74/10",
     name: "Buy one Tornado",
-    description: "You have bought 1 Tornado. It's not bad for a start.",
+    description: "You have bought 10 Tornado. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_TORNADO: IAchievement = {
     id: "buy:74/100",
     name: "Buy 100 Tornado",
     description: "You have bought 100 Tornado! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_TORNADO: IAchievement = {
-    id: "sacrifice:74/1",
+export const ACHIEVEMENT_SACRIFICE_10_TORNADO: IAchievement = {
+    id: "sacrifice:74/10",
     name: "Sacrifice one Tornado",
-    description: "You have sacrificed 1 Tornado. At least you've done something.",
+    description: "You have sacrificed 10 Tornado. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_TORNADO: IAchievement = {
     id: "sacrifice:74/100",
@@ -1947,25 +1947,25 @@ export const ACHIEVEMENT_SACRIFICE_100_TORNADO: IAchievement = {
     description: "You have sacrificed 100 Tornado! Here, shake my hand!",
 };
 export const ITEM_TORNADO_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_TORNADO,
+    ACHIEVEMENT_BUY_10_TORNADO,
     ACHIEVEMENT_BUY_100_TORNADO,
-    ACHIEVEMENT_SACRIFICE_1_TORNADO,
+    ACHIEVEMENT_SACRIFICE_10_TORNADO,
     ACHIEVEMENT_SACRIFICE_100_TORNADO,
 ];
-export const ACHIEVEMENT_BUY_1_GARDEN: IAchievement = {
-    id: "buy:75/1",
+export const ACHIEVEMENT_BUY_10_GARDEN: IAchievement = {
+    id: "buy:75/10",
     name: "Buy one Garden",
-    description: "You have bought 1 Garden. It's not bad for a start.",
+    description: "You have bought 10 Garden. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_GARDEN: IAchievement = {
     id: "buy:75/100",
     name: "Buy 100 Garden",
     description: "You have bought 100 Garden! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_GARDEN: IAchievement = {
-    id: "sacrifice:75/1",
+export const ACHIEVEMENT_SACRIFICE_10_GARDEN: IAchievement = {
+    id: "sacrifice:75/10",
     name: "Sacrifice one Garden",
-    description: "You have sacrificed 1 Garden. At least you've done something.",
+    description: "You have sacrificed 10 Garden. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_GARDEN: IAchievement = {
     id: "sacrifice:75/100",
@@ -1973,25 +1973,25 @@ export const ACHIEVEMENT_SACRIFICE_100_GARDEN: IAchievement = {
     description: "You have sacrificed 100 Garden! Here, shake my hand!",
 };
 export const ITEM_GARDEN_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_GARDEN,
+    ACHIEVEMENT_BUY_10_GARDEN,
     ACHIEVEMENT_BUY_100_GARDEN,
-    ACHIEVEMENT_SACRIFICE_1_GARDEN,
+    ACHIEVEMENT_SACRIFICE_10_GARDEN,
     ACHIEVEMENT_SACRIFICE_100_GARDEN,
 ];
-export const ACHIEVEMENT_BUY_1_EMBER: IAchievement = {
-    id: "buy:76/1",
+export const ACHIEVEMENT_BUY_10_EMBER: IAchievement = {
+    id: "buy:76/10",
     name: "Buy one Ember",
-    description: "You have bought 1 Ember. It's not bad for a start.",
+    description: "You have bought 10 Ember. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_EMBER: IAchievement = {
     id: "buy:76/100",
     name: "Buy 100 Ember",
     description: "You have bought 100 Ember! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_EMBER: IAchievement = {
-    id: "sacrifice:76/1",
+export const ACHIEVEMENT_SACRIFICE_10_EMBER: IAchievement = {
+    id: "sacrifice:76/10",
     name: "Sacrifice one Ember",
-    description: "You have sacrificed 1 Ember. At least you've done something.",
+    description: "You have sacrificed 10 Ember. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_EMBER: IAchievement = {
     id: "sacrifice:76/100",
@@ -1999,25 +1999,25 @@ export const ACHIEVEMENT_SACRIFICE_100_EMBER: IAchievement = {
     description: "You have sacrificed 100 Ember! Here, shake my hand!",
 };
 export const ITEM_EMBER_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_EMBER,
+    ACHIEVEMENT_BUY_10_EMBER,
     ACHIEVEMENT_BUY_100_EMBER,
-    ACHIEVEMENT_SACRIFICE_1_EMBER,
+    ACHIEVEMENT_SACRIFICE_10_EMBER,
     ACHIEVEMENT_SACRIFICE_100_EMBER,
 ];
-export const ACHIEVEMENT_BUY_1_KILN: IAchievement = {
-    id: "buy:77/1",
+export const ACHIEVEMENT_BUY_10_KILN: IAchievement = {
+    id: "buy:77/10",
     name: "Buy one Kiln",
-    description: "You have bought 1 Kiln. It's not bad for a start.",
+    description: "You have bought 10 Kiln. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_KILN: IAchievement = {
     id: "buy:77/100",
     name: "Buy 100 Kiln",
     description: "You have bought 100 Kiln! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_KILN: IAchievement = {
-    id: "sacrifice:77/1",
+export const ACHIEVEMENT_SACRIFICE_10_KILN: IAchievement = {
+    id: "sacrifice:77/10",
     name: "Sacrifice one Kiln",
-    description: "You have sacrificed 1 Kiln. At least you've done something.",
+    description: "You have sacrificed 10 Kiln. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_KILN: IAchievement = {
     id: "sacrifice:77/100",
@@ -2025,25 +2025,25 @@ export const ACHIEVEMENT_SACRIFICE_100_KILN: IAchievement = {
     description: "You have sacrificed 100 Kiln! Here, shake my hand!",
 };
 export const ITEM_KILN_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_KILN,
+    ACHIEVEMENT_BUY_10_KILN,
     ACHIEVEMENT_BUY_100_KILN,
-    ACHIEVEMENT_SACRIFICE_1_KILN,
+    ACHIEVEMENT_SACRIFICE_10_KILN,
     ACHIEVEMENT_SACRIFICE_100_KILN,
 ];
-export const ACHIEVEMENT_BUY_1_POLLINATION: IAchievement = {
-    id: "buy:78/1",
+export const ACHIEVEMENT_BUY_10_POLLINATION: IAchievement = {
+    id: "buy:78/10",
     name: "Buy one Pollination",
-    description: "You have bought 1 Pollination. It's not bad for a start.",
+    description: "You have bought 10 Pollination. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_POLLINATION: IAchievement = {
     id: "buy:78/100",
     name: "Buy 100 Pollination",
     description: "You have bought 100 Pollination! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_POLLINATION: IAchievement = {
-    id: "sacrifice:78/1",
+export const ACHIEVEMENT_SACRIFICE_10_POLLINATION: IAchievement = {
+    id: "sacrifice:78/10",
     name: "Sacrifice one Pollination",
-    description: "You have sacrificed 1 Pollination. At least you've done something.",
+    description: "You have sacrificed 10 Pollination. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_POLLINATION: IAchievement = {
     id: "sacrifice:78/100",
@@ -2051,25 +2051,25 @@ export const ACHIEVEMENT_SACRIFICE_100_POLLINATION: IAchievement = {
     description: "You have sacrificed 100 Pollination! Here, shake my hand!",
 };
 export const ITEM_POLLINATION_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_POLLINATION,
+    ACHIEVEMENT_BUY_10_POLLINATION,
     ACHIEVEMENT_BUY_100_POLLINATION,
-    ACHIEVEMENT_SACRIFICE_1_POLLINATION,
+    ACHIEVEMENT_SACRIFICE_10_POLLINATION,
     ACHIEVEMENT_SACRIFICE_100_POLLINATION,
 ];
-export const ACHIEVEMENT_BUY_1_SINKHOLE: IAchievement = {
-    id: "buy:79/1",
+export const ACHIEVEMENT_BUY_10_SINKHOLE: IAchievement = {
+    id: "buy:79/10",
     name: "Buy one Sinkhole",
-    description: "You have bought 1 Sinkhole. It's not bad for a start.",
+    description: "You have bought 10 Sinkhole. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SINKHOLE: IAchievement = {
     id: "buy:79/100",
     name: "Buy 100 Sinkhole",
     description: "You have bought 100 Sinkhole! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SINKHOLE: IAchievement = {
-    id: "sacrifice:79/1",
+export const ACHIEVEMENT_SACRIFICE_10_SINKHOLE: IAchievement = {
+    id: "sacrifice:79/10",
     name: "Sacrifice one Sinkhole",
-    description: "You have sacrificed 1 Sinkhole. At least you've done something.",
+    description: "You have sacrificed 10 Sinkhole. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SINKHOLE: IAchievement = {
     id: "sacrifice:79/100",
@@ -2077,25 +2077,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SINKHOLE: IAchievement = {
     description: "You have sacrificed 100 Sinkhole! Here, shake my hand!",
 };
 export const ITEM_SINKHOLE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SINKHOLE,
+    ACHIEVEMENT_BUY_10_SINKHOLE,
     ACHIEVEMENT_BUY_100_SINKHOLE,
-    ACHIEVEMENT_SACRIFICE_1_SINKHOLE,
+    ACHIEVEMENT_SACRIFICE_10_SINKHOLE,
     ACHIEVEMENT_SACRIFICE_100_SINKHOLE,
 ];
-export const ACHIEVEMENT_BUY_1_BEACH: IAchievement = {
-    id: "buy:80/1",
+export const ACHIEVEMENT_BUY_10_BEACH: IAchievement = {
+    id: "buy:80/10",
     name: "Buy one Beach",
-    description: "You have bought 1 Beach. It's not bad for a start.",
+    description: "You have bought 10 Beach. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BEACH: IAchievement = {
     id: "buy:80/100",
     name: "Buy 100 Beach",
     description: "You have bought 100 Beach! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BEACH: IAchievement = {
-    id: "sacrifice:80/1",
+export const ACHIEVEMENT_SACRIFICE_10_BEACH: IAchievement = {
+    id: "sacrifice:80/10",
     name: "Sacrifice one Beach",
-    description: "You have sacrificed 1 Beach. At least you've done something.",
+    description: "You have sacrificed 10 Beach. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BEACH: IAchievement = {
     id: "sacrifice:80/100",
@@ -2103,25 +2103,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BEACH: IAchievement = {
     description: "You have sacrificed 100 Beach! Here, shake my hand!",
 };
 export const ITEM_BEACH_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BEACH,
+    ACHIEVEMENT_BUY_10_BEACH,
     ACHIEVEMENT_BUY_100_BEACH,
-    ACHIEVEMENT_SACRIFICE_1_BEACH,
+    ACHIEVEMENT_SACRIFICE_10_BEACH,
     ACHIEVEMENT_SACRIFICE_100_BEACH,
 ];
-export const ACHIEVEMENT_BUY_1_WETSTONE: IAchievement = {
-    id: "buy:81/1",
+export const ACHIEVEMENT_BUY_10_WETSTONE: IAchievement = {
+    id: "buy:81/10",
     name: "Buy one Wetstone",
-    description: "You have bought 1 Wetstone. It's not bad for a start.",
+    description: "You have bought 10 Wetstone. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WETSTONE: IAchievement = {
     id: "buy:81/100",
     name: "Buy 100 Wetstone",
     description: "You have bought 100 Wetstone! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WETSTONE: IAchievement = {
-    id: "sacrifice:81/1",
+export const ACHIEVEMENT_SACRIFICE_10_WETSTONE: IAchievement = {
+    id: "sacrifice:81/10",
     name: "Sacrifice one Wetstone",
-    description: "You have sacrificed 1 Wetstone. At least you've done something.",
+    description: "You have sacrificed 10 Wetstone. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WETSTONE: IAchievement = {
     id: "sacrifice:81/100",
@@ -2129,25 +2129,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WETSTONE: IAchievement = {
     description: "You have sacrificed 100 Wetstone! Here, shake my hand!",
 };
 export const ITEM_WETSTONE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WETSTONE,
+    ACHIEVEMENT_BUY_10_WETSTONE,
     ACHIEVEMENT_BUY_100_WETSTONE,
-    ACHIEVEMENT_SACRIFICE_1_WETSTONE,
+    ACHIEVEMENT_SACRIFICE_10_WETSTONE,
     ACHIEVEMENT_SACRIFICE_100_WETSTONE,
 ];
-export const ACHIEVEMENT_BUY_1_EROSION: IAchievement = {
-    id: "buy:82/1",
+export const ACHIEVEMENT_BUY_10_EROSION: IAchievement = {
+    id: "buy:82/10",
     name: "Buy one Erosion",
-    description: "You have bought 1 Erosion. It's not bad for a start.",
+    description: "You have bought 10 Erosion. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_EROSION: IAchievement = {
     id: "buy:82/100",
     name: "Buy 100 Erosion",
     description: "You have bought 100 Erosion! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_EROSION: IAchievement = {
-    id: "sacrifice:82/1",
+export const ACHIEVEMENT_SACRIFICE_10_EROSION: IAchievement = {
+    id: "sacrifice:82/10",
     name: "Sacrifice one Erosion",
-    description: "You have sacrificed 1 Erosion. At least you've done something.",
+    description: "You have sacrificed 10 Erosion. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_EROSION: IAchievement = {
     id: "sacrifice:82/100",
@@ -2155,25 +2155,25 @@ export const ACHIEVEMENT_SACRIFICE_100_EROSION: IAchievement = {
     description: "You have sacrificed 100 Erosion! Here, shake my hand!",
 };
 export const ITEM_EROSION_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_EROSION,
+    ACHIEVEMENT_BUY_10_EROSION,
     ACHIEVEMENT_BUY_100_EROSION,
-    ACHIEVEMENT_SACRIFICE_1_EROSION,
+    ACHIEVEMENT_SACRIFICE_10_EROSION,
     ACHIEVEMENT_SACRIFICE_100_EROSION,
 ];
-export const ACHIEVEMENT_BUY_1_BASALT: IAchievement = {
-    id: "buy:83/1",
+export const ACHIEVEMENT_BUY_10_BASALT: IAchievement = {
+    id: "buy:83/10",
     name: "Buy one Basalt",
-    description: "You have bought 1 Basalt. It's not bad for a start.",
+    description: "You have bought 10 Basalt. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BASALT: IAchievement = {
     id: "buy:83/100",
     name: "Buy 100 Basalt",
     description: "You have bought 100 Basalt! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BASALT: IAchievement = {
-    id: "sacrifice:83/1",
+export const ACHIEVEMENT_SACRIFICE_10_BASALT: IAchievement = {
+    id: "sacrifice:83/10",
     name: "Sacrifice one Basalt",
-    description: "You have sacrificed 1 Basalt. At least you've done something.",
+    description: "You have sacrificed 10 Basalt. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BASALT: IAchievement = {
     id: "sacrifice:83/100",
@@ -2181,25 +2181,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BASALT: IAchievement = {
     description: "You have sacrificed 100 Basalt! Here, shake my hand!",
 };
 export const ITEM_BASALT_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BASALT,
+    ACHIEVEMENT_BUY_10_BASALT,
     ACHIEVEMENT_BUY_100_BASALT,
-    ACHIEVEMENT_SACRIFICE_1_BASALT,
+    ACHIEVEMENT_SACRIFICE_10_BASALT,
     ACHIEVEMENT_SACRIFICE_100_BASALT,
 ];
-export const ACHIEVEMENT_BUY_1_MAGMA_CHAMBER: IAchievement = {
-    id: "buy:84/1",
+export const ACHIEVEMENT_BUY_10_MAGMA_CHAMBER: IAchievement = {
+    id: "buy:84/10",
     name: "Buy one Magma Chamber",
-    description: "You have bought 1 Magma Chamber. It's not bad for a start.",
+    description: "You have bought 10 Magma Chamber. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_MAGMA_CHAMBER: IAchievement = {
     id: "buy:84/100",
     name: "Buy 100 Magma Chamber",
     description: "You have bought 100 Magma Chamber! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_MAGMA_CHAMBER: IAchievement = {
-    id: "sacrifice:84/1",
+export const ACHIEVEMENT_SACRIFICE_10_MAGMA_CHAMBER: IAchievement = {
+    id: "sacrifice:84/10",
     name: "Sacrifice one Magma Chamber",
-    description: "You have sacrificed 1 Magma Chamber. At least you've done something.",
+    description: "You have sacrificed 10 Magma Chamber. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_MAGMA_CHAMBER: IAchievement = {
     id: "sacrifice:84/100",
@@ -2207,25 +2207,25 @@ export const ACHIEVEMENT_SACRIFICE_100_MAGMA_CHAMBER: IAchievement = {
     description: "You have sacrificed 100 Magma Chamber! Here, shake my hand!",
 };
 export const ITEM_MAGMA_CHAMBER_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_MAGMA_CHAMBER,
+    ACHIEVEMENT_BUY_10_MAGMA_CHAMBER,
     ACHIEVEMENT_BUY_100_MAGMA_CHAMBER,
-    ACHIEVEMENT_SACRIFICE_1_MAGMA_CHAMBER,
+    ACHIEVEMENT_SACRIFICE_10_MAGMA_CHAMBER,
     ACHIEVEMENT_SACRIFICE_100_MAGMA_CHAMBER,
 ];
-export const ACHIEVEMENT_BUY_1_BREEZE: IAchievement = {
-    id: "buy:85/1",
+export const ACHIEVEMENT_BUY_10_BREEZE: IAchievement = {
+    id: "buy:85/10",
     name: "Buy one Breeze",
-    description: "You have bought 1 Breeze. It's not bad for a start.",
+    description: "You have bought 10 Breeze. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BREEZE: IAchievement = {
     id: "buy:85/100",
     name: "Buy 100 Breeze",
     description: "You have bought 100 Breeze! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BREEZE: IAchievement = {
-    id: "sacrifice:85/1",
+export const ACHIEVEMENT_SACRIFICE_10_BREEZE: IAchievement = {
+    id: "sacrifice:85/10",
     name: "Sacrifice one Breeze",
-    description: "You have sacrificed 1 Breeze. At least you've done something.",
+    description: "You have sacrificed 10 Breeze. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BREEZE: IAchievement = {
     id: "sacrifice:85/100",
@@ -2233,25 +2233,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BREEZE: IAchievement = {
     description: "You have sacrificed 100 Breeze! Here, shake my hand!",
 };
 export const ITEM_BREEZE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BREEZE,
+    ACHIEVEMENT_BUY_10_BREEZE,
     ACHIEVEMENT_BUY_100_BREEZE,
-    ACHIEVEMENT_SACRIFICE_1_BREEZE,
+    ACHIEVEMENT_SACRIFICE_10_BREEZE,
     ACHIEVEMENT_SACRIFICE_100_BREEZE,
 ];
-export const ACHIEVEMENT_BUY_1_WARM_BREEZE: IAchievement = {
-    id: "buy:86/1",
+export const ACHIEVEMENT_BUY_10_WARM_BREEZE: IAchievement = {
+    id: "buy:86/10",
     name: "Buy one Warm Breeze",
-    description: "You have bought 1 Warm Breeze. It's not bad for a start.",
+    description: "You have bought 10 Warm Breeze. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WARM_BREEZE: IAchievement = {
     id: "buy:86/100",
     name: "Buy 100 Warm Breeze",
     description: "You have bought 100 Warm Breeze! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WARM_BREEZE: IAchievement = {
-    id: "sacrifice:86/1",
+export const ACHIEVEMENT_SACRIFICE_10_WARM_BREEZE: IAchievement = {
+    id: "sacrifice:86/10",
     name: "Sacrifice one Warm Breeze",
-    description: "You have sacrificed 1 Warm Breeze. At least you've done something.",
+    description: "You have sacrificed 10 Warm Breeze. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WARM_BREEZE: IAchievement = {
     id: "sacrifice:86/100",
@@ -2259,25 +2259,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WARM_BREEZE: IAchievement = {
     description: "You have sacrificed 100 Warm Breeze! Here, shake my hand!",
 };
 export const ITEM_WARM_BREEZE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WARM_BREEZE,
+    ACHIEVEMENT_BUY_10_WARM_BREEZE,
     ACHIEVEMENT_BUY_100_WARM_BREEZE,
-    ACHIEVEMENT_SACRIFICE_1_WARM_BREEZE,
+    ACHIEVEMENT_SACRIFICE_10_WARM_BREEZE,
     ACHIEVEMENT_SACRIFICE_100_WARM_BREEZE,
 ];
-export const ACHIEVEMENT_BUY_1_SOIL: IAchievement = {
-    id: "buy:87/1",
+export const ACHIEVEMENT_BUY_10_SOIL: IAchievement = {
+    id: "buy:87/10",
     name: "Buy one Soil",
-    description: "You have bought 1 Soil. It's not bad for a start.",
+    description: "You have bought 10 Soil. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SOIL: IAchievement = {
     id: "buy:87/100",
     name: "Buy 100 Soil",
     description: "You have bought 100 Soil! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SOIL: IAchievement = {
-    id: "sacrifice:87/1",
+export const ACHIEVEMENT_SACRIFICE_10_SOIL: IAchievement = {
+    id: "sacrifice:87/10",
     name: "Sacrifice one Soil",
-    description: "You have sacrificed 1 Soil. At least you've done something.",
+    description: "You have sacrificed 10 Soil. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SOIL: IAchievement = {
     id: "sacrifice:87/100",
@@ -2285,25 +2285,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SOIL: IAchievement = {
     description: "You have sacrificed 100 Soil! Here, shake my hand!",
 };
 export const ITEM_SOIL_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SOIL,
+    ACHIEVEMENT_BUY_10_SOIL,
     ACHIEVEMENT_BUY_100_SOIL,
-    ACHIEVEMENT_SACRIFICE_1_SOIL,
+    ACHIEVEMENT_SACRIFICE_10_SOIL,
     ACHIEVEMENT_SACRIFICE_100_SOIL,
 ];
-export const ACHIEVEMENT_BUY_1_CANYON: IAchievement = {
-    id: "buy:88/1",
+export const ACHIEVEMENT_BUY_10_CANYON: IAchievement = {
+    id: "buy:88/10",
     name: "Buy one Canyon",
-    description: "You have bought 1 Canyon. It's not bad for a start.",
+    description: "You have bought 10 Canyon. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_CANYON: IAchievement = {
     id: "buy:88/100",
     name: "Buy 100 Canyon",
     description: "You have bought 100 Canyon! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_CANYON: IAchievement = {
-    id: "sacrifice:88/1",
+export const ACHIEVEMENT_SACRIFICE_10_CANYON: IAchievement = {
+    id: "sacrifice:88/10",
     name: "Sacrifice one Canyon",
-    description: "You have sacrificed 1 Canyon. At least you've done something.",
+    description: "You have sacrificed 10 Canyon. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_CANYON: IAchievement = {
     id: "sacrifice:88/100",
@@ -2311,25 +2311,25 @@ export const ACHIEVEMENT_SACRIFICE_100_CANYON: IAchievement = {
     description: "You have sacrificed 100 Canyon! Here, shake my hand!",
 };
 export const ITEM_CANYON_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_CANYON,
+    ACHIEVEMENT_BUY_10_CANYON,
     ACHIEVEMENT_BUY_100_CANYON,
-    ACHIEVEMENT_SACRIFICE_1_CANYON,
+    ACHIEVEMENT_SACRIFICE_10_CANYON,
     ACHIEVEMENT_SACRIFICE_100_CANYON,
 ];
-export const ACHIEVEMENT_BUY_1_WINDMILL: IAchievement = {
-    id: "buy:89/1",
+export const ACHIEVEMENT_BUY_10_WINDMILL: IAchievement = {
+    id: "buy:89/10",
     name: "Buy one Windmill",
-    description: "You have bought 1 Windmill. It's not bad for a start.",
+    description: "You have bought 10 Windmill. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WINDMILL: IAchievement = {
     id: "buy:89/100",
     name: "Buy 100 Windmill",
     description: "You have bought 100 Windmill! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WINDMILL: IAchievement = {
-    id: "sacrifice:89/1",
+export const ACHIEVEMENT_SACRIFICE_10_WINDMILL: IAchievement = {
+    id: "sacrifice:89/10",
     name: "Sacrifice one Windmill",
-    description: "You have sacrificed 1 Windmill. At least you've done something.",
+    description: "You have sacrificed 10 Windmill. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WINDMILL: IAchievement = {
     id: "sacrifice:89/100",
@@ -2337,25 +2337,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WINDMILL: IAchievement = {
     description: "You have sacrificed 100 Windmill! Here, shake my hand!",
 };
 export const ITEM_WINDMILL_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WINDMILL,
+    ACHIEVEMENT_BUY_10_WINDMILL,
     ACHIEVEMENT_BUY_100_WINDMILL,
-    ACHIEVEMENT_SACRIFICE_1_WINDMILL,
+    ACHIEVEMENT_SACRIFICE_10_WINDMILL,
     ACHIEVEMENT_SACRIFICE_100_WINDMILL,
 ];
-export const ACHIEVEMENT_BUY_1_ADOBE: IAchievement = {
-    id: "buy:90/1",
+export const ACHIEVEMENT_BUY_10_ADOBE: IAchievement = {
+    id: "buy:90/10",
     name: "Buy one Adobe",
-    description: "You have bought 1 Adobe. It's not bad for a start.",
+    description: "You have bought 10 Adobe. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_ADOBE: IAchievement = {
     id: "buy:90/100",
     name: "Buy 100 Adobe",
     description: "You have bought 100 Adobe! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_ADOBE: IAchievement = {
-    id: "sacrifice:90/1",
+export const ACHIEVEMENT_SACRIFICE_10_ADOBE: IAchievement = {
+    id: "sacrifice:90/10",
     name: "Sacrifice one Adobe",
-    description: "You have sacrificed 1 Adobe. At least you've done something.",
+    description: "You have sacrificed 10 Adobe. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_ADOBE: IAchievement = {
     id: "sacrifice:90/100",
@@ -2363,25 +2363,25 @@ export const ACHIEVEMENT_SACRIFICE_100_ADOBE: IAchievement = {
     description: "You have sacrificed 100 Adobe! Here, shake my hand!",
 };
 export const ITEM_ADOBE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_ADOBE,
+    ACHIEVEMENT_BUY_10_ADOBE,
     ACHIEVEMENT_BUY_100_ADOBE,
-    ACHIEVEMENT_SACRIFICE_1_ADOBE,
+    ACHIEVEMENT_SACRIFICE_10_ADOBE,
     ACHIEVEMENT_SACRIFICE_100_ADOBE,
 ];
-export const ACHIEVEMENT_BUY_1_WALL: IAchievement = {
-    id: "buy:91/1",
+export const ACHIEVEMENT_BUY_10_WALL: IAchievement = {
+    id: "buy:91/10",
     name: "Buy one Wall",
-    description: "You have bought 1 Wall. It's not bad for a start.",
+    description: "You have bought 10 Wall. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WALL: IAchievement = {
     id: "buy:91/100",
     name: "Buy 100 Wall",
     description: "You have bought 100 Wall! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WALL: IAchievement = {
-    id: "sacrifice:91/1",
+export const ACHIEVEMENT_SACRIFICE_10_WALL: IAchievement = {
+    id: "sacrifice:91/10",
     name: "Sacrifice one Wall",
-    description: "You have sacrificed 1 Wall. At least you've done something.",
+    description: "You have sacrificed 10 Wall. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WALL: IAchievement = {
     id: "sacrifice:91/100",
@@ -2389,25 +2389,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WALL: IAchievement = {
     description: "You have sacrificed 100 Wall! Here, shake my hand!",
 };
 export const ITEM_WALL_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WALL,
+    ACHIEVEMENT_BUY_10_WALL,
     ACHIEVEMENT_BUY_100_WALL,
-    ACHIEVEMENT_SACRIFICE_1_WALL,
+    ACHIEVEMENT_SACRIFICE_10_WALL,
     ACHIEVEMENT_SACRIFICE_100_WALL,
 ];
-export const ACHIEVEMENT_BUY_1_PUMICE: IAchievement = {
-    id: "buy:92/1",
+export const ACHIEVEMENT_BUY_10_PUMICE: IAchievement = {
+    id: "buy:92/10",
     name: "Buy one Pumice",
-    description: "You have bought 1 Pumice. It's not bad for a start.",
+    description: "You have bought 10 Pumice. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_PUMICE: IAchievement = {
     id: "buy:92/100",
     name: "Buy 100 Pumice",
     description: "You have bought 100 Pumice! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_PUMICE: IAchievement = {
-    id: "sacrifice:92/1",
+export const ACHIEVEMENT_SACRIFICE_10_PUMICE: IAchievement = {
+    id: "sacrifice:92/10",
     name: "Sacrifice one Pumice",
-    description: "You have sacrificed 1 Pumice. At least you've done something.",
+    description: "You have sacrificed 10 Pumice. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_PUMICE: IAchievement = {
     id: "sacrifice:92/100",
@@ -2415,25 +2415,25 @@ export const ACHIEVEMENT_SACRIFICE_100_PUMICE: IAchievement = {
     description: "You have sacrificed 100 Pumice! Here, shake my hand!",
 };
 export const ITEM_PUMICE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_PUMICE,
+    ACHIEVEMENT_BUY_10_PUMICE,
     ACHIEVEMENT_BUY_100_PUMICE,
-    ACHIEVEMENT_SACRIFICE_1_PUMICE,
+    ACHIEVEMENT_SACRIFICE_10_PUMICE,
     ACHIEVEMENT_SACRIFICE_100_PUMICE,
 ];
-export const ACHIEVEMENT_BUY_1_BARBECUE: IAchievement = {
-    id: "buy:93/1",
+export const ACHIEVEMENT_BUY_10_BARBECUE: IAchievement = {
+    id: "buy:93/10",
     name: "Buy one Barbecue",
-    description: "You have bought 1 Barbecue. It's not bad for a start.",
+    description: "You have bought 10 Barbecue. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BARBECUE: IAchievement = {
     id: "buy:93/100",
     name: "Buy 100 Barbecue",
     description: "You have bought 100 Barbecue! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BARBECUE: IAchievement = {
-    id: "sacrifice:93/1",
+export const ACHIEVEMENT_SACRIFICE_10_BARBECUE: IAchievement = {
+    id: "sacrifice:93/10",
     name: "Sacrifice one Barbecue",
-    description: "You have sacrificed 1 Barbecue. At least you've done something.",
+    description: "You have sacrificed 10 Barbecue. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BARBECUE: IAchievement = {
     id: "sacrifice:93/100",
@@ -2441,25 +2441,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BARBECUE: IAchievement = {
     description: "You have sacrificed 100 Barbecue! Here, shake my hand!",
 };
 export const ITEM_BARBECUE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BARBECUE,
+    ACHIEVEMENT_BUY_10_BARBECUE,
     ACHIEVEMENT_BUY_100_BARBECUE,
-    ACHIEVEMENT_SACRIFICE_1_BARBECUE,
+    ACHIEVEMENT_SACRIFICE_10_BARBECUE,
     ACHIEVEMENT_SACRIFICE_100_BARBECUE,
 ];
-export const ACHIEVEMENT_BUY_1_FARM: IAchievement = {
-    id: "buy:94/1",
+export const ACHIEVEMENT_BUY_10_FARM: IAchievement = {
+    id: "buy:94/10",
     name: "Buy one Farm",
-    description: "You have bought 1 Farm. It's not bad for a start.",
+    description: "You have bought 10 Farm. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_FARM: IAchievement = {
     id: "buy:94/100",
     name: "Buy 100 Farm",
     description: "You have bought 100 Farm! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_FARM: IAchievement = {
-    id: "sacrifice:94/1",
+export const ACHIEVEMENT_SACRIFICE_10_FARM: IAchievement = {
+    id: "sacrifice:94/10",
     name: "Sacrifice one Farm",
-    description: "You have sacrificed 1 Farm. At least you've done something.",
+    description: "You have sacrificed 10 Farm. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_FARM: IAchievement = {
     id: "sacrifice:94/100",
@@ -2467,25 +2467,25 @@ export const ACHIEVEMENT_SACRIFICE_100_FARM: IAchievement = {
     description: "You have sacrificed 100 Farm! Here, shake my hand!",
 };
 export const ITEM_FARM_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_FARM,
+    ACHIEVEMENT_BUY_10_FARM,
     ACHIEVEMENT_BUY_100_FARM,
-    ACHIEVEMENT_SACRIFICE_1_FARM,
+    ACHIEVEMENT_SACRIFICE_10_FARM,
     ACHIEVEMENT_SACRIFICE_100_FARM,
 ];
-export const ACHIEVEMENT_BUY_1_SHARDS: IAchievement = {
-    id: "buy:95/1",
+export const ACHIEVEMENT_BUY_10_SHARDS: IAchievement = {
+    id: "buy:95/10",
     name: "Buy one Shards",
-    description: "You have bought 1 Shards. It's not bad for a start.",
+    description: "You have bought 10 Shards. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SHARDS: IAchievement = {
     id: "buy:95/100",
     name: "Buy 100 Shards",
     description: "You have bought 100 Shards! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SHARDS: IAchievement = {
-    id: "sacrifice:95/1",
+export const ACHIEVEMENT_SACRIFICE_10_SHARDS: IAchievement = {
+    id: "sacrifice:95/10",
     name: "Sacrifice one Shards",
-    description: "You have sacrificed 1 Shards. At least you've done something.",
+    description: "You have sacrificed 10 Shards. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SHARDS: IAchievement = {
     id: "sacrifice:95/100",
@@ -2493,25 +2493,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SHARDS: IAchievement = {
     description: "You have sacrificed 100 Shards! Here, shake my hand!",
 };
 export const ITEM_SHARDS_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SHARDS,
+    ACHIEVEMENT_BUY_10_SHARDS,
     ACHIEVEMENT_BUY_100_SHARDS,
-    ACHIEVEMENT_SACRIFICE_1_SHARDS,
+    ACHIEVEMENT_SACRIFICE_10_SHARDS,
     ACHIEVEMENT_SACRIFICE_100_SHARDS,
 ];
-export const ACHIEVEMENT_BUY_1_MOLTEN_GLASS: IAchievement = {
-    id: "buy:96/1",
+export const ACHIEVEMENT_BUY_10_MOLTEN_GLASS: IAchievement = {
+    id: "buy:96/10",
     name: "Buy one Molten Glass",
-    description: "You have bought 1 Molten Glass. It's not bad for a start.",
+    description: "You have bought 10 Molten Glass. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_MOLTEN_GLASS: IAchievement = {
     id: "buy:96/100",
     name: "Buy 100 Molten Glass",
     description: "You have bought 100 Molten Glass! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_MOLTEN_GLASS: IAchievement = {
-    id: "sacrifice:96/1",
+export const ACHIEVEMENT_SACRIFICE_10_MOLTEN_GLASS: IAchievement = {
+    id: "sacrifice:96/10",
     name: "Sacrifice one Molten Glass",
-    description: "You have sacrificed 1 Molten Glass. At least you've done something.",
+    description: "You have sacrificed 10 Molten Glass. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_MOLTEN_GLASS: IAchievement = {
     id: "sacrifice:96/100",
@@ -2519,25 +2519,25 @@ export const ACHIEVEMENT_SACRIFICE_100_MOLTEN_GLASS: IAchievement = {
     description: "You have sacrificed 100 Molten Glass! Here, shake my hand!",
 };
 export const ITEM_MOLTEN_GLASS_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_MOLTEN_GLASS,
+    ACHIEVEMENT_BUY_10_MOLTEN_GLASS,
     ACHIEVEMENT_BUY_100_MOLTEN_GLASS,
-    ACHIEVEMENT_SACRIFICE_1_MOLTEN_GLASS,
+    ACHIEVEMENT_SACRIFICE_10_MOLTEN_GLASS,
     ACHIEVEMENT_SACRIFICE_100_MOLTEN_GLASS,
 ];
-export const ACHIEVEMENT_BUY_1_PRISM: IAchievement = {
-    id: "buy:97/1",
+export const ACHIEVEMENT_BUY_10_PRISM: IAchievement = {
+    id: "buy:97/10",
     name: "Buy one Prism",
-    description: "You have bought 1 Prism. It's not bad for a start.",
+    description: "You have bought 10 Prism. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_PRISM: IAchievement = {
     id: "buy:97/100",
     name: "Buy 100 Prism",
     description: "You have bought 100 Prism! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_PRISM: IAchievement = {
-    id: "sacrifice:97/1",
+export const ACHIEVEMENT_SACRIFICE_10_PRISM: IAchievement = {
+    id: "sacrifice:97/10",
     name: "Sacrifice one Prism",
-    description: "You have sacrificed 1 Prism. At least you've done something.",
+    description: "You have sacrificed 10 Prism. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_PRISM: IAchievement = {
     id: "sacrifice:97/100",
@@ -2545,25 +2545,25 @@ export const ACHIEVEMENT_SACRIFICE_100_PRISM: IAchievement = {
     description: "You have sacrificed 100 Prism! Here, shake my hand!",
 };
 export const ITEM_PRISM_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_PRISM,
+    ACHIEVEMENT_BUY_10_PRISM,
     ACHIEVEMENT_BUY_100_PRISM,
-    ACHIEVEMENT_SACRIFICE_1_PRISM,
+    ACHIEVEMENT_SACRIFICE_10_PRISM,
     ACHIEVEMENT_SACRIFICE_100_PRISM,
 ];
-export const ACHIEVEMENT_BUY_1_SPARKLE: IAchievement = {
-    id: "buy:98/1",
+export const ACHIEVEMENT_BUY_10_SPARKLE: IAchievement = {
+    id: "buy:98/10",
     name: "Buy one Sparkle",
-    description: "You have bought 1 Sparkle. It's not bad for a start.",
+    description: "You have bought 10 Sparkle. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SPARKLE: IAchievement = {
     id: "buy:98/100",
     name: "Buy 100 Sparkle",
     description: "You have bought 100 Sparkle! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SPARKLE: IAchievement = {
-    id: "sacrifice:98/1",
+export const ACHIEVEMENT_SACRIFICE_10_SPARKLE: IAchievement = {
+    id: "sacrifice:98/10",
     name: "Sacrifice one Sparkle",
-    description: "You have sacrificed 1 Sparkle. At least you've done something.",
+    description: "You have sacrificed 10 Sparkle. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SPARKLE: IAchievement = {
     id: "sacrifice:98/100",
@@ -2571,25 +2571,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SPARKLE: IAchievement = {
     description: "You have sacrificed 100 Sparkle! Here, shake my hand!",
 };
 export const ITEM_SPARKLE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SPARKLE,
+    ACHIEVEMENT_BUY_10_SPARKLE,
     ACHIEVEMENT_BUY_100_SPARKLE,
-    ACHIEVEMENT_SACRIFICE_1_SPARKLE,
+    ACHIEVEMENT_SACRIFICE_10_SPARKLE,
     ACHIEVEMENT_SACRIFICE_100_SPARKLE,
 ];
-export const ACHIEVEMENT_BUY_1_DESERT: IAchievement = {
-    id: "buy:99/1",
+export const ACHIEVEMENT_BUY_10_DESERT: IAchievement = {
+    id: "buy:99/10",
     name: "Buy one Desert",
-    description: "You have bought 1 Desert. It's not bad for a start.",
+    description: "You have bought 10 Desert. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_DESERT: IAchievement = {
     id: "buy:99/100",
     name: "Buy 100 Desert",
     description: "You have bought 100 Desert! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_DESERT: IAchievement = {
-    id: "sacrifice:99/1",
+export const ACHIEVEMENT_SACRIFICE_10_DESERT: IAchievement = {
+    id: "sacrifice:99/10",
     name: "Sacrifice one Desert",
-    description: "You have sacrificed 1 Desert. At least you've done something.",
+    description: "You have sacrificed 10 Desert. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_DESERT: IAchievement = {
     id: "sacrifice:99/100",
@@ -2597,25 +2597,25 @@ export const ACHIEVEMENT_SACRIFICE_100_DESERT: IAchievement = {
     description: "You have sacrificed 100 Desert! Here, shake my hand!",
 };
 export const ITEM_DESERT_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_DESERT,
+    ACHIEVEMENT_BUY_10_DESERT,
     ACHIEVEMENT_BUY_100_DESERT,
-    ACHIEVEMENT_SACRIFICE_1_DESERT,
+    ACHIEVEMENT_SACRIFICE_10_DESERT,
     ACHIEVEMENT_SACRIFICE_100_DESERT,
 ];
-export const ACHIEVEMENT_BUY_1_OASIS: IAchievement = {
-    id: "buy:100/1",
+export const ACHIEVEMENT_BUY_10_OASIS: IAchievement = {
+    id: "buy:100/10",
     name: "Buy one Oasis",
-    description: "You have bought 1 Oasis. It's not bad for a start.",
+    description: "You have bought 10 Oasis. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_OASIS: IAchievement = {
     id: "buy:100/100",
     name: "Buy 100 Oasis",
     description: "You have bought 100 Oasis! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_OASIS: IAchievement = {
-    id: "sacrifice:100/1",
+export const ACHIEVEMENT_SACRIFICE_10_OASIS: IAchievement = {
+    id: "sacrifice:100/10",
     name: "Sacrifice one Oasis",
-    description: "You have sacrificed 1 Oasis. At least you've done something.",
+    description: "You have sacrificed 10 Oasis. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_OASIS: IAchievement = {
     id: "sacrifice:100/100",
@@ -2623,25 +2623,25 @@ export const ACHIEVEMENT_SACRIFICE_100_OASIS: IAchievement = {
     description: "You have sacrificed 100 Oasis! Here, shake my hand!",
 };
 export const ITEM_OASIS_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_OASIS,
+    ACHIEVEMENT_BUY_10_OASIS,
     ACHIEVEMENT_BUY_100_OASIS,
-    ACHIEVEMENT_SACRIFICE_1_OASIS,
+    ACHIEVEMENT_SACRIFICE_10_OASIS,
     ACHIEVEMENT_SACRIFICE_100_OASIS,
 ];
-export const ACHIEVEMENT_BUY_1_MIRAGE: IAchievement = {
-    id: "buy:101/1",
+export const ACHIEVEMENT_BUY_10_MIRAGE: IAchievement = {
+    id: "buy:101/10",
     name: "Buy one Mirage",
-    description: "You have bought 1 Mirage. It's not bad for a start.",
+    description: "You have bought 10 Mirage. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_MIRAGE: IAchievement = {
     id: "buy:101/100",
     name: "Buy 100 Mirage",
     description: "You have bought 100 Mirage! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_MIRAGE: IAchievement = {
-    id: "sacrifice:101/1",
+export const ACHIEVEMENT_SACRIFICE_10_MIRAGE: IAchievement = {
+    id: "sacrifice:101/10",
     name: "Sacrifice one Mirage",
-    description: "You have sacrificed 1 Mirage. At least you've done something.",
+    description: "You have sacrificed 10 Mirage. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_MIRAGE: IAchievement = {
     id: "sacrifice:101/100",
@@ -2649,25 +2649,25 @@ export const ACHIEVEMENT_SACRIFICE_100_MIRAGE: IAchievement = {
     description: "You have sacrificed 100 Mirage! Here, shake my hand!",
 };
 export const ITEM_MIRAGE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_MIRAGE,
+    ACHIEVEMENT_BUY_10_MIRAGE,
     ACHIEVEMENT_BUY_100_MIRAGE,
-    ACHIEVEMENT_SACRIFICE_1_MIRAGE,
+    ACHIEVEMENT_SACRIFICE_10_MIRAGE,
     ACHIEVEMENT_SACRIFICE_100_MIRAGE,
 ];
-export const ACHIEVEMENT_BUY_1_SAND_DUNE: IAchievement = {
-    id: "buy:102/1",
+export const ACHIEVEMENT_BUY_10_SAND_DUNE: IAchievement = {
+    id: "buy:102/10",
     name: "Buy one Sand Dune",
-    description: "You have bought 1 Sand Dune. It's not bad for a start.",
+    description: "You have bought 10 Sand Dune. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SAND_DUNE: IAchievement = {
     id: "buy:102/100",
     name: "Buy 100 Sand Dune",
     description: "You have bought 100 Sand Dune! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SAND_DUNE: IAchievement = {
-    id: "sacrifice:102/1",
+export const ACHIEVEMENT_SACRIFICE_10_SAND_DUNE: IAchievement = {
+    id: "sacrifice:102/10",
     name: "Sacrifice one Sand Dune",
-    description: "You have sacrificed 1 Sand Dune. At least you've done something.",
+    description: "You have sacrificed 10 Sand Dune. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SAND_DUNE: IAchievement = {
     id: "sacrifice:102/100",
@@ -2675,25 +2675,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SAND_DUNE: IAchievement = {
     description: "You have sacrificed 100 Sand Dune! Here, shake my hand!",
 };
 export const ITEM_SAND_DUNE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SAND_DUNE,
+    ACHIEVEMENT_BUY_10_SAND_DUNE,
     ACHIEVEMENT_BUY_100_SAND_DUNE,
-    ACHIEVEMENT_SACRIFICE_1_SAND_DUNE,
+    ACHIEVEMENT_SACRIFICE_10_SAND_DUNE,
     ACHIEVEMENT_SACRIFICE_100_SAND_DUNE,
 ];
-export const ACHIEVEMENT_BUY_1_DAM: IAchievement = {
-    id: "buy:103/1",
+export const ACHIEVEMENT_BUY_10_DAM: IAchievement = {
+    id: "buy:103/10",
     name: "Buy one Dam",
-    description: "You have bought 1 Dam. It's not bad for a start.",
+    description: "You have bought 10 Dam. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_DAM: IAchievement = {
     id: "buy:103/100",
     name: "Buy 100 Dam",
     description: "You have bought 100 Dam! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_DAM: IAchievement = {
-    id: "sacrifice:103/1",
+export const ACHIEVEMENT_SACRIFICE_10_DAM: IAchievement = {
+    id: "sacrifice:103/10",
     name: "Sacrifice one Dam",
-    description: "You have sacrificed 1 Dam. At least you've done something.",
+    description: "You have sacrificed 10 Dam. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_DAM: IAchievement = {
     id: "sacrifice:103/100",
@@ -2701,25 +2701,25 @@ export const ACHIEVEMENT_SACRIFICE_100_DAM: IAchievement = {
     description: "You have sacrificed 100 Dam! Here, shake my hand!",
 };
 export const ITEM_DAM_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_DAM,
+    ACHIEVEMENT_BUY_10_DAM,
     ACHIEVEMENT_BUY_100_DAM,
-    ACHIEVEMENT_SACRIFICE_1_DAM,
+    ACHIEVEMENT_SACRIFICE_10_DAM,
     ACHIEVEMENT_SACRIFICE_100_DAM,
 ];
-export const ACHIEVEMENT_BUY_1_FIREWALL: IAchievement = {
-    id: "buy:104/1",
+export const ACHIEVEMENT_BUY_10_FIREWALL: IAchievement = {
+    id: "buy:104/10",
     name: "Buy one Firewall",
-    description: "You have bought 1 Firewall. It's not bad for a start.",
+    description: "You have bought 10 Firewall. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_FIREWALL: IAchievement = {
     id: "buy:104/100",
     name: "Buy 100 Firewall",
     description: "You have bought 100 Firewall! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_FIREWALL: IAchievement = {
-    id: "sacrifice:104/1",
+export const ACHIEVEMENT_SACRIFICE_10_FIREWALL: IAchievement = {
+    id: "sacrifice:104/10",
     name: "Sacrifice one Firewall",
-    description: "You have sacrificed 1 Firewall. At least you've done something.",
+    description: "You have sacrificed 10 Firewall. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_FIREWALL: IAchievement = {
     id: "sacrifice:104/100",
@@ -2727,25 +2727,25 @@ export const ACHIEVEMENT_SACRIFICE_100_FIREWALL: IAchievement = {
     description: "You have sacrificed 100 Firewall! Here, shake my hand!",
 };
 export const ITEM_FIREWALL_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_FIREWALL,
+    ACHIEVEMENT_BUY_10_FIREWALL,
     ACHIEVEMENT_BUY_100_FIREWALL,
-    ACHIEVEMENT_SACRIFICE_1_FIREWALL,
+    ACHIEVEMENT_SACRIFICE_10_FIREWALL,
     ACHIEVEMENT_SACRIFICE_100_FIREWALL,
 ];
-export const ACHIEVEMENT_BUY_1_BARRICADE: IAchievement = {
-    id: "buy:105/1",
+export const ACHIEVEMENT_BUY_10_BARRICADE: IAchievement = {
+    id: "buy:105/10",
     name: "Buy one Barricade",
-    description: "You have bought 1 Barricade. It's not bad for a start.",
+    description: "You have bought 10 Barricade. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BARRICADE: IAchievement = {
     id: "buy:105/100",
     name: "Buy 100 Barricade",
     description: "You have bought 100 Barricade! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BARRICADE: IAchievement = {
-    id: "sacrifice:105/1",
+export const ACHIEVEMENT_SACRIFICE_10_BARRICADE: IAchievement = {
+    id: "sacrifice:105/10",
     name: "Sacrifice one Barricade",
-    description: "You have sacrificed 1 Barricade. At least you've done something.",
+    description: "You have sacrificed 10 Barricade. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BARRICADE: IAchievement = {
     id: "sacrifice:105/100",
@@ -2753,25 +2753,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BARRICADE: IAchievement = {
     description: "You have sacrificed 100 Barricade! Here, shake my hand!",
 };
 export const ITEM_BARRICADE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BARRICADE,
+    ACHIEVEMENT_BUY_10_BARRICADE,
     ACHIEVEMENT_BUY_100_BARRICADE,
-    ACHIEVEMENT_SACRIFICE_1_BARRICADE,
+    ACHIEVEMENT_SACRIFICE_10_BARRICADE,
     ACHIEVEMENT_SACRIFICE_100_BARRICADE,
 ];
-export const ACHIEVEMENT_BUY_1_PLATEAU: IAchievement = {
-    id: "buy:106/1",
+export const ACHIEVEMENT_BUY_10_PLATEAU: IAchievement = {
+    id: "buy:106/10",
     name: "Buy one Plateau",
-    description: "You have bought 1 Plateau. It's not bad for a start.",
+    description: "You have bought 10 Plateau. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_PLATEAU: IAchievement = {
     id: "buy:106/100",
     name: "Buy 100 Plateau",
     description: "You have bought 100 Plateau! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_PLATEAU: IAchievement = {
-    id: "sacrifice:106/1",
+export const ACHIEVEMENT_SACRIFICE_10_PLATEAU: IAchievement = {
+    id: "sacrifice:106/10",
     name: "Sacrifice one Plateau",
-    description: "You have sacrificed 1 Plateau. At least you've done something.",
+    description: "You have sacrificed 10 Plateau. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_PLATEAU: IAchievement = {
     id: "sacrifice:106/100",
@@ -2779,25 +2779,25 @@ export const ACHIEVEMENT_SACRIFICE_100_PLATEAU: IAchievement = {
     description: "You have sacrificed 100 Plateau! Here, shake my hand!",
 };
 export const ITEM_PLATEAU_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_PLATEAU,
+    ACHIEVEMENT_BUY_10_PLATEAU,
     ACHIEVEMENT_BUY_100_PLATEAU,
-    ACHIEVEMENT_SACRIFICE_1_PLATEAU,
+    ACHIEVEMENT_SACRIFICE_10_PLATEAU,
     ACHIEVEMENT_SACRIFICE_100_PLATEAU,
 ];
-export const ACHIEVEMENT_BUY_1_POND: IAchievement = {
-    id: "buy:107/1",
+export const ACHIEVEMENT_BUY_10_POND: IAchievement = {
+    id: "buy:107/10",
     name: "Buy one Pond",
-    description: "You have bought 1 Pond. It's not bad for a start.",
+    description: "You have bought 10 Pond. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_POND: IAchievement = {
     id: "buy:107/100",
     name: "Buy 100 Pond",
     description: "You have bought 100 Pond! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_POND: IAchievement = {
-    id: "sacrifice:107/1",
+export const ACHIEVEMENT_SACRIFICE_10_POND: IAchievement = {
+    id: "sacrifice:107/10",
     name: "Sacrifice one Pond",
-    description: "You have sacrificed 1 Pond. At least you've done something.",
+    description: "You have sacrificed 10 Pond. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_POND: IAchievement = {
     id: "sacrifice:107/100",
@@ -2805,25 +2805,25 @@ export const ACHIEVEMENT_SACRIFICE_100_POND: IAchievement = {
     description: "You have sacrificed 100 Pond! Here, shake my hand!",
 };
 export const ITEM_POND_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_POND,
+    ACHIEVEMENT_BUY_10_POND,
     ACHIEVEMENT_BUY_100_POND,
-    ACHIEVEMENT_SACRIFICE_1_POND,
+    ACHIEVEMENT_SACRIFICE_10_POND,
     ACHIEVEMENT_SACRIFICE_100_POND,
 ];
-export const ACHIEVEMENT_BUY_1_AROMAS: IAchievement = {
-    id: "buy:108/1",
+export const ACHIEVEMENT_BUY_10_AROMAS: IAchievement = {
+    id: "buy:108/10",
     name: "Buy one Aromas",
-    description: "You have bought 1 Aromas. It's not bad for a start.",
+    description: "You have bought 10 Aromas. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_AROMAS: IAchievement = {
     id: "buy:108/100",
     name: "Buy 100 Aromas",
     description: "You have bought 100 Aromas! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_AROMAS: IAchievement = {
-    id: "sacrifice:108/1",
+export const ACHIEVEMENT_SACRIFICE_10_AROMAS: IAchievement = {
+    id: "sacrifice:108/10",
     name: "Sacrifice one Aromas",
-    description: "You have sacrificed 1 Aromas. At least you've done something.",
+    description: "You have sacrificed 10 Aromas. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_AROMAS: IAchievement = {
     id: "sacrifice:108/100",
@@ -2831,25 +2831,25 @@ export const ACHIEVEMENT_SACRIFICE_100_AROMAS: IAchievement = {
     description: "You have sacrificed 100 Aromas! Here, shake my hand!",
 };
 export const ITEM_AROMAS_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_AROMAS,
+    ACHIEVEMENT_BUY_10_AROMAS,
     ACHIEVEMENT_BUY_100_AROMAS,
-    ACHIEVEMENT_SACRIFICE_1_AROMAS,
+    ACHIEVEMENT_SACRIFICE_10_AROMAS,
     ACHIEVEMENT_SACRIFICE_100_AROMAS,
 ];
-export const ACHIEVEMENT_BUY_1_FLOWER: IAchievement = {
-    id: "buy:109/1",
+export const ACHIEVEMENT_BUY_10_FLOWER: IAchievement = {
+    id: "buy:109/10",
     name: "Buy one Flower",
-    description: "You have bought 1 Flower. It's not bad for a start.",
+    description: "You have bought 10 Flower. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_FLOWER: IAchievement = {
     id: "buy:109/100",
     name: "Buy 100 Flower",
     description: "You have bought 100 Flower! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_FLOWER: IAchievement = {
-    id: "sacrifice:109/1",
+export const ACHIEVEMENT_SACRIFICE_10_FLOWER: IAchievement = {
+    id: "sacrifice:109/10",
     name: "Sacrifice one Flower",
-    description: "You have sacrificed 1 Flower. At least you've done something.",
+    description: "You have sacrificed 10 Flower. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_FLOWER: IAchievement = {
     id: "sacrifice:109/100",
@@ -2857,25 +2857,25 @@ export const ACHIEVEMENT_SACRIFICE_100_FLOWER: IAchievement = {
     description: "You have sacrificed 100 Flower! Here, shake my hand!",
 };
 export const ITEM_FLOWER_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_FLOWER,
+    ACHIEVEMENT_BUY_10_FLOWER,
     ACHIEVEMENT_BUY_100_FLOWER,
-    ACHIEVEMENT_SACRIFICE_1_FLOWER,
+    ACHIEVEMENT_SACRIFICE_10_FLOWER,
     ACHIEVEMENT_SACRIFICE_100_FLOWER,
 ];
-export const ACHIEVEMENT_BUY_1_SPORE: IAchievement = {
-    id: "buy:110/1",
+export const ACHIEVEMENT_BUY_10_SPORE: IAchievement = {
+    id: "buy:110/10",
     name: "Buy one Spore",
-    description: "You have bought 1 Spore. It's not bad for a start.",
+    description: "You have bought 10 Spore. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SPORE: IAchievement = {
     id: "buy:110/100",
     name: "Buy 100 Spore",
     description: "You have bought 100 Spore! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SPORE: IAchievement = {
-    id: "sacrifice:110/1",
+export const ACHIEVEMENT_SACRIFICE_10_SPORE: IAchievement = {
+    id: "sacrifice:110/10",
     name: "Sacrifice one Spore",
-    description: "You have sacrificed 1 Spore. At least you've done something.",
+    description: "You have sacrificed 10 Spore. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SPORE: IAchievement = {
     id: "sacrifice:110/100",
@@ -2883,25 +2883,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SPORE: IAchievement = {
     description: "You have sacrificed 100 Spore! Here, shake my hand!",
 };
 export const ITEM_SPORE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SPORE,
+    ACHIEVEMENT_BUY_10_SPORE,
     ACHIEVEMENT_BUY_100_SPORE,
-    ACHIEVEMENT_SACRIFICE_1_SPORE,
+    ACHIEVEMENT_SACRIFICE_10_SPORE,
     ACHIEVEMENT_SACRIFICE_100_SPORE,
 ];
-export const ACHIEVEMENT_BUY_1_SPREAD: IAchievement = {
-    id: "buy:111/1",
+export const ACHIEVEMENT_BUY_10_SPREAD: IAchievement = {
+    id: "buy:111/10",
     name: "Buy one Spread",
-    description: "You have bought 1 Spread. It's not bad for a start.",
+    description: "You have bought 10 Spread. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SPREAD: IAchievement = {
     id: "buy:111/100",
     name: "Buy 100 Spread",
     description: "You have bought 100 Spread! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SPREAD: IAchievement = {
-    id: "sacrifice:111/1",
+export const ACHIEVEMENT_SACRIFICE_10_SPREAD: IAchievement = {
+    id: "sacrifice:111/10",
     name: "Sacrifice one Spread",
-    description: "You have sacrificed 1 Spread. At least you've done something.",
+    description: "You have sacrificed 10 Spread. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SPREAD: IAchievement = {
     id: "sacrifice:111/100",
@@ -2909,25 +2909,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SPREAD: IAchievement = {
     description: "You have sacrificed 100 Spread! Here, shake my hand!",
 };
 export const ITEM_SPREAD_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SPREAD,
+    ACHIEVEMENT_BUY_10_SPREAD,
     ACHIEVEMENT_BUY_100_SPREAD,
-    ACHIEVEMENT_SACRIFICE_1_SPREAD,
+    ACHIEVEMENT_SACRIFICE_10_SPREAD,
     ACHIEVEMENT_SACRIFICE_100_SPREAD,
 ];
-export const ACHIEVEMENT_BUY_1_FERTILE_LAND: IAchievement = {
-    id: "buy:112/1",
+export const ACHIEVEMENT_BUY_10_FERTILE_LAND: IAchievement = {
+    id: "buy:112/10",
     name: "Buy one Fertile Land",
-    description: "You have bought 1 Fertile Land. It's not bad for a start.",
+    description: "You have bought 10 Fertile Land. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_FERTILE_LAND: IAchievement = {
     id: "buy:112/100",
     name: "Buy 100 Fertile Land",
     description: "You have bought 100 Fertile Land! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_FERTILE_LAND: IAchievement = {
-    id: "sacrifice:112/1",
+export const ACHIEVEMENT_SACRIFICE_10_FERTILE_LAND: IAchievement = {
+    id: "sacrifice:112/10",
     name: "Sacrifice one Fertile Land",
-    description: "You have sacrificed 1 Fertile Land. At least you've done something.",
+    description: "You have sacrificed 10 Fertile Land. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_FERTILE_LAND: IAchievement = {
     id: "sacrifice:112/100",
@@ -2935,25 +2935,25 @@ export const ACHIEVEMENT_SACRIFICE_100_FERTILE_LAND: IAchievement = {
     description: "You have sacrificed 100 Fertile Land! Here, shake my hand!",
 };
 export const ITEM_FERTILE_LAND_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_FERTILE_LAND,
+    ACHIEVEMENT_BUY_10_FERTILE_LAND,
     ACHIEVEMENT_BUY_100_FERTILE_LAND,
-    ACHIEVEMENT_SACRIFICE_1_FERTILE_LAND,
+    ACHIEVEMENT_SACRIFICE_10_FERTILE_LAND,
     ACHIEVEMENT_SACRIFICE_100_FERTILE_LAND,
 ];
-export const ACHIEVEMENT_BUY_1_WETLAND: IAchievement = {
-    id: "buy:113/1",
+export const ACHIEVEMENT_BUY_10_WETLAND: IAchievement = {
+    id: "buy:113/10",
     name: "Buy one Wetland",
-    description: "You have bought 1 Wetland. It's not bad for a start.",
+    description: "You have bought 10 Wetland. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WETLAND: IAchievement = {
     id: "buy:113/100",
     name: "Buy 100 Wetland",
     description: "You have bought 100 Wetland! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WETLAND: IAchievement = {
-    id: "sacrifice:113/1",
+export const ACHIEVEMENT_SACRIFICE_10_WETLAND: IAchievement = {
+    id: "sacrifice:113/10",
     name: "Sacrifice one Wetland",
-    description: "You have sacrificed 1 Wetland. At least you've done something.",
+    description: "You have sacrificed 10 Wetland. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WETLAND: IAchievement = {
     id: "sacrifice:113/100",
@@ -2961,25 +2961,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WETLAND: IAchievement = {
     description: "You have sacrificed 100 Wetland! Here, shake my hand!",
 };
 export const ITEM_WETLAND_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WETLAND,
+    ACHIEVEMENT_BUY_10_WETLAND,
     ACHIEVEMENT_BUY_100_WETLAND,
-    ACHIEVEMENT_SACRIFICE_1_WETLAND,
+    ACHIEVEMENT_SACRIFICE_10_WETLAND,
     ACHIEVEMENT_SACRIFICE_100_WETLAND,
 ];
-export const ACHIEVEMENT_BUY_1_PEAT: IAchievement = {
-    id: "buy:114/1",
+export const ACHIEVEMENT_BUY_10_PEAT: IAchievement = {
+    id: "buy:114/10",
     name: "Buy one Peat",
-    description: "You have bought 1 Peat. It's not bad for a start.",
+    description: "You have bought 10 Peat. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_PEAT: IAchievement = {
     id: "buy:114/100",
     name: "Buy 100 Peat",
     description: "You have bought 100 Peat! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_PEAT: IAchievement = {
-    id: "sacrifice:114/1",
+export const ACHIEVEMENT_SACRIFICE_10_PEAT: IAchievement = {
+    id: "sacrifice:114/10",
     name: "Sacrifice one Peat",
-    description: "You have sacrificed 1 Peat. At least you've done something.",
+    description: "You have sacrificed 10 Peat. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_PEAT: IAchievement = {
     id: "sacrifice:114/100",
@@ -2987,25 +2987,25 @@ export const ACHIEVEMENT_SACRIFICE_100_PEAT: IAchievement = {
     description: "You have sacrificed 100 Peat! Here, shake my hand!",
 };
 export const ITEM_PEAT_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_PEAT,
+    ACHIEVEMENT_BUY_10_PEAT,
     ACHIEVEMENT_BUY_100_PEAT,
-    ACHIEVEMENT_SACRIFICE_1_PEAT,
+    ACHIEVEMENT_SACRIFICE_10_PEAT,
     ACHIEVEMENT_SACRIFICE_100_PEAT,
 ];
-export const ACHIEVEMENT_BUY_1_REEDS: IAchievement = {
-    id: "buy:115/1",
+export const ACHIEVEMENT_BUY_10_REEDS: IAchievement = {
+    id: "buy:115/10",
     name: "Buy one Reeds",
-    description: "You have bought 1 Reeds. It's not bad for a start.",
+    description: "You have bought 10 Reeds. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_REEDS: IAchievement = {
     id: "buy:115/100",
     name: "Buy 100 Reeds",
     description: "You have bought 100 Reeds! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_REEDS: IAchievement = {
-    id: "sacrifice:115/1",
+export const ACHIEVEMENT_SACRIFICE_10_REEDS: IAchievement = {
+    id: "sacrifice:115/10",
     name: "Sacrifice one Reeds",
-    description: "You have sacrificed 1 Reeds. At least you've done something.",
+    description: "You have sacrificed 10 Reeds. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_REEDS: IAchievement = {
     id: "sacrifice:115/100",
@@ -3013,25 +3013,25 @@ export const ACHIEVEMENT_SACRIFICE_100_REEDS: IAchievement = {
     description: "You have sacrificed 100 Reeds! Here, shake my hand!",
 };
 export const ITEM_REEDS_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_REEDS,
+    ACHIEVEMENT_BUY_10_REEDS,
     ACHIEVEMENT_BUY_100_REEDS,
-    ACHIEVEMENT_SACRIFICE_1_REEDS,
+    ACHIEVEMENT_SACRIFICE_10_REEDS,
     ACHIEVEMENT_SACRIFICE_100_REEDS,
 ];
-export const ACHIEVEMENT_BUY_1_VALLEY: IAchievement = {
-    id: "buy:116/1",
+export const ACHIEVEMENT_BUY_10_VALLEY: IAchievement = {
+    id: "buy:116/10",
     name: "Buy one Valley",
-    description: "You have bought 1 Valley. It's not bad for a start.",
+    description: "You have bought 10 Valley. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_VALLEY: IAchievement = {
     id: "buy:116/100",
     name: "Buy 100 Valley",
     description: "You have bought 100 Valley! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_VALLEY: IAchievement = {
-    id: "sacrifice:116/1",
+export const ACHIEVEMENT_SACRIFICE_10_VALLEY: IAchievement = {
+    id: "sacrifice:116/10",
     name: "Sacrifice one Valley",
-    description: "You have sacrificed 1 Valley. At least you've done something.",
+    description: "You have sacrificed 10 Valley. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_VALLEY: IAchievement = {
     id: "sacrifice:116/100",
@@ -3039,25 +3039,25 @@ export const ACHIEVEMENT_SACRIFICE_100_VALLEY: IAchievement = {
     description: "You have sacrificed 100 Valley! Here, shake my hand!",
 };
 export const ITEM_VALLEY_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_VALLEY,
+    ACHIEVEMENT_BUY_10_VALLEY,
     ACHIEVEMENT_BUY_100_VALLEY,
-    ACHIEVEMENT_SACRIFICE_1_VALLEY,
+    ACHIEVEMENT_SACRIFICE_10_VALLEY,
     ACHIEVEMENT_SACRIFICE_100_VALLEY,
 ];
-export const ACHIEVEMENT_BUY_1_RIVER: IAchievement = {
-    id: "buy:117/1",
+export const ACHIEVEMENT_BUY_10_RIVER: IAchievement = {
+    id: "buy:117/10",
     name: "Buy one River",
-    description: "You have bought 1 River. It's not bad for a start.",
+    description: "You have bought 10 River. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_RIVER: IAchievement = {
     id: "buy:117/100",
     name: "Buy 100 River",
     description: "You have bought 100 River! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_RIVER: IAchievement = {
-    id: "sacrifice:117/1",
+export const ACHIEVEMENT_SACRIFICE_10_RIVER: IAchievement = {
+    id: "sacrifice:117/10",
     name: "Sacrifice one River",
-    description: "You have sacrificed 1 River. At least you've done something.",
+    description: "You have sacrificed 10 River. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_RIVER: IAchievement = {
     id: "sacrifice:117/100",
@@ -3065,25 +3065,25 @@ export const ACHIEVEMENT_SACRIFICE_100_RIVER: IAchievement = {
     description: "You have sacrificed 100 River! Here, shake my hand!",
 };
 export const ITEM_RIVER_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_RIVER,
+    ACHIEVEMENT_BUY_10_RIVER,
     ACHIEVEMENT_BUY_100_RIVER,
-    ACHIEVEMENT_SACRIFICE_1_RIVER,
+    ACHIEVEMENT_SACRIFICE_10_RIVER,
     ACHIEVEMENT_SACRIFICE_100_RIVER,
 ];
-export const ACHIEVEMENT_BUY_1_SCORCHED_EARTH: IAchievement = {
-    id: "buy:118/1",
+export const ACHIEVEMENT_BUY_10_SCORCHED_EARTH: IAchievement = {
+    id: "buy:118/10",
     name: "Buy one Scorched Earth",
-    description: "You have bought 1 Scorched Earth. It's not bad for a start.",
+    description: "You have bought 10 Scorched Earth. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SCORCHED_EARTH: IAchievement = {
     id: "buy:118/100",
     name: "Buy 100 Scorched Earth",
     description: "You have bought 100 Scorched Earth! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SCORCHED_EARTH: IAchievement = {
-    id: "sacrifice:118/1",
+export const ACHIEVEMENT_SACRIFICE_10_SCORCHED_EARTH: IAchievement = {
+    id: "sacrifice:118/10",
     name: "Sacrifice one Scorched Earth",
-    description: "You have sacrificed 1 Scorched Earth. At least you've done something.",
+    description: "You have sacrificed 10 Scorched Earth. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SCORCHED_EARTH: IAchievement = {
     id: "sacrifice:118/100",
@@ -3091,25 +3091,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SCORCHED_EARTH: IAchievement = {
     description: "You have sacrificed 100 Scorched Earth! Here, shake my hand!",
 };
 export const ITEM_SCORCHED_EARTH_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SCORCHED_EARTH,
+    ACHIEVEMENT_BUY_10_SCORCHED_EARTH,
     ACHIEVEMENT_BUY_100_SCORCHED_EARTH,
-    ACHIEVEMENT_SACRIFICE_1_SCORCHED_EARTH,
+    ACHIEVEMENT_SACRIFICE_10_SCORCHED_EARTH,
     ACHIEVEMENT_SACRIFICE_100_SCORCHED_EARTH,
 ];
-export const ACHIEVEMENT_BUY_1_DELTA: IAchievement = {
-    id: "buy:119/1",
+export const ACHIEVEMENT_BUY_10_DELTA: IAchievement = {
+    id: "buy:119/10",
     name: "Buy one Delta",
-    description: "You have bought 1 Delta. It's not bad for a start.",
+    description: "You have bought 10 Delta. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_DELTA: IAchievement = {
     id: "buy:119/100",
     name: "Buy 100 Delta",
     description: "You have bought 100 Delta! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_DELTA: IAchievement = {
-    id: "sacrifice:119/1",
+export const ACHIEVEMENT_SACRIFICE_10_DELTA: IAchievement = {
+    id: "sacrifice:119/10",
     name: "Sacrifice one Delta",
-    description: "You have sacrificed 1 Delta. At least you've done something.",
+    description: "You have sacrificed 10 Delta. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_DELTA: IAchievement = {
     id: "sacrifice:119/100",
@@ -3117,25 +3117,25 @@ export const ACHIEVEMENT_SACRIFICE_100_DELTA: IAchievement = {
     description: "You have sacrificed 100 Delta! Here, shake my hand!",
 };
 export const ITEM_DELTA_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_DELTA,
+    ACHIEVEMENT_BUY_10_DELTA,
     ACHIEVEMENT_BUY_100_DELTA,
-    ACHIEVEMENT_SACRIFICE_1_DELTA,
+    ACHIEVEMENT_SACRIFICE_10_DELTA,
     ACHIEVEMENT_SACRIFICE_100_DELTA,
 ];
-export const ACHIEVEMENT_BUY_1_ESTUARY: IAchievement = {
-    id: "buy:120/1",
+export const ACHIEVEMENT_BUY_10_ESTUARY: IAchievement = {
+    id: "buy:120/10",
     name: "Buy one Estuary",
-    description: "You have bought 1 Estuary. It's not bad for a start.",
+    description: "You have bought 10 Estuary. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_ESTUARY: IAchievement = {
     id: "buy:120/100",
     name: "Buy 100 Estuary",
     description: "You have bought 100 Estuary! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_ESTUARY: IAchievement = {
-    id: "sacrifice:120/1",
+export const ACHIEVEMENT_SACRIFICE_10_ESTUARY: IAchievement = {
+    id: "sacrifice:120/10",
     name: "Sacrifice one Estuary",
-    description: "You have sacrificed 1 Estuary. At least you've done something.",
+    description: "You have sacrificed 10 Estuary. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_ESTUARY: IAchievement = {
     id: "sacrifice:120/100",
@@ -3143,25 +3143,25 @@ export const ACHIEVEMENT_SACRIFICE_100_ESTUARY: IAchievement = {
     description: "You have sacrificed 100 Estuary! Here, shake my hand!",
 };
 export const ITEM_ESTUARY_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_ESTUARY,
+    ACHIEVEMENT_BUY_10_ESTUARY,
     ACHIEVEMENT_BUY_100_ESTUARY,
-    ACHIEVEMENT_SACRIFICE_1_ESTUARY,
+    ACHIEVEMENT_SACRIFICE_10_ESTUARY,
     ACHIEVEMENT_SACRIFICE_100_ESTUARY,
 ];
-export const ACHIEVEMENT_BUY_1_FIRE_SWAMP: IAchievement = {
-    id: "buy:121/1",
+export const ACHIEVEMENT_BUY_10_FIRE_SWAMP: IAchievement = {
+    id: "buy:121/10",
     name: "Buy one Fire Swamp",
-    description: "You have bought 1 Fire Swamp. It's not bad for a start.",
+    description: "You have bought 10 Fire Swamp. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_FIRE_SWAMP: IAchievement = {
     id: "buy:121/100",
     name: "Buy 100 Fire Swamp",
     description: "You have bought 100 Fire Swamp! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_FIRE_SWAMP: IAchievement = {
-    id: "sacrifice:121/1",
+export const ACHIEVEMENT_SACRIFICE_10_FIRE_SWAMP: IAchievement = {
+    id: "sacrifice:121/10",
     name: "Sacrifice one Fire Swamp",
-    description: "You have sacrificed 1 Fire Swamp. At least you've done something.",
+    description: "You have sacrificed 10 Fire Swamp. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_FIRE_SWAMP: IAchievement = {
     id: "sacrifice:121/100",
@@ -3169,25 +3169,25 @@ export const ACHIEVEMENT_SACRIFICE_100_FIRE_SWAMP: IAchievement = {
     description: "You have sacrificed 100 Fire Swamp! Here, shake my hand!",
 };
 export const ITEM_FIRE_SWAMP_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_FIRE_SWAMP,
+    ACHIEVEMENT_BUY_10_FIRE_SWAMP,
     ACHIEVEMENT_BUY_100_FIRE_SWAMP,
-    ACHIEVEMENT_SACRIFICE_1_FIRE_SWAMP,
+    ACHIEVEMENT_SACRIFICE_10_FIRE_SWAMP,
     ACHIEVEMENT_SACRIFICE_100_FIRE_SWAMP,
 ];
-export const ACHIEVEMENT_BUY_1_RIVERBANK: IAchievement = {
-    id: "buy:122/1",
+export const ACHIEVEMENT_BUY_10_RIVERBANK: IAchievement = {
+    id: "buy:122/10",
     name: "Buy one Riverbank",
-    description: "You have bought 1 Riverbank. It's not bad for a start.",
+    description: "You have bought 10 Riverbank. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_RIVERBANK: IAchievement = {
     id: "buy:122/100",
     name: "Buy 100 Riverbank",
     description: "You have bought 100 Riverbank! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_RIVERBANK: IAchievement = {
-    id: "sacrifice:122/1",
+export const ACHIEVEMENT_SACRIFICE_10_RIVERBANK: IAchievement = {
+    id: "sacrifice:122/10",
     name: "Sacrifice one Riverbank",
-    description: "You have sacrificed 1 Riverbank. At least you've done something.",
+    description: "You have sacrificed 10 Riverbank. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_RIVERBANK: IAchievement = {
     id: "sacrifice:122/100",
@@ -3195,25 +3195,25 @@ export const ACHIEVEMENT_SACRIFICE_100_RIVERBANK: IAchievement = {
     description: "You have sacrificed 100 Riverbank! Here, shake my hand!",
 };
 export const ITEM_RIVERBANK_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_RIVERBANK,
+    ACHIEVEMENT_BUY_10_RIVERBANK,
     ACHIEVEMENT_BUY_100_RIVERBANK,
-    ACHIEVEMENT_SACRIFICE_1_RIVERBANK,
+    ACHIEVEMENT_SACRIFICE_10_RIVERBANK,
     ACHIEVEMENT_SACRIFICE_100_RIVERBANK,
 ];
-export const ACHIEVEMENT_BUY_1_RAVINE: IAchievement = {
-    id: "buy:123/1",
+export const ACHIEVEMENT_BUY_10_RAVINE: IAchievement = {
+    id: "buy:123/10",
     name: "Buy one Ravine",
-    description: "You have bought 1 Ravine. It's not bad for a start.",
+    description: "You have bought 10 Ravine. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_RAVINE: IAchievement = {
     id: "buy:123/100",
     name: "Buy 100 Ravine",
     description: "You have bought 100 Ravine! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_RAVINE: IAchievement = {
-    id: "sacrifice:123/1",
+export const ACHIEVEMENT_SACRIFICE_10_RAVINE: IAchievement = {
+    id: "sacrifice:123/10",
     name: "Sacrifice one Ravine",
-    description: "You have sacrificed 1 Ravine. At least you've done something.",
+    description: "You have sacrificed 10 Ravine. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_RAVINE: IAchievement = {
     id: "sacrifice:123/100",
@@ -3221,25 +3221,25 @@ export const ACHIEVEMENT_SACRIFICE_100_RAVINE: IAchievement = {
     description: "You have sacrificed 100 Ravine! Here, shake my hand!",
 };
 export const ITEM_RAVINE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_RAVINE,
+    ACHIEVEMENT_BUY_10_RAVINE,
     ACHIEVEMENT_BUY_100_RAVINE,
-    ACHIEVEMENT_SACRIFICE_1_RAVINE,
+    ACHIEVEMENT_SACRIFICE_10_RAVINE,
     ACHIEVEMENT_SACRIFICE_100_RAVINE,
 ];
-export const ACHIEVEMENT_BUY_1_GORGE: IAchievement = {
-    id: "buy:124/1",
+export const ACHIEVEMENT_BUY_10_GORGE: IAchievement = {
+    id: "buy:124/10",
     name: "Buy one Gorge",
-    description: "You have bought 1 Gorge. It's not bad for a start.",
+    description: "You have bought 10 Gorge. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_GORGE: IAchievement = {
     id: "buy:124/100",
     name: "Buy 100 Gorge",
     description: "You have bought 100 Gorge! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_GORGE: IAchievement = {
-    id: "sacrifice:124/1",
+export const ACHIEVEMENT_SACRIFICE_10_GORGE: IAchievement = {
+    id: "sacrifice:124/10",
     name: "Sacrifice one Gorge",
-    description: "You have sacrificed 1 Gorge. At least you've done something.",
+    description: "You have sacrificed 10 Gorge. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_GORGE: IAchievement = {
     id: "sacrifice:124/100",
@@ -3247,25 +3247,25 @@ export const ACHIEVEMENT_SACRIFICE_100_GORGE: IAchievement = {
     description: "You have sacrificed 100 Gorge! Here, shake my hand!",
 };
 export const ITEM_GORGE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_GORGE,
+    ACHIEVEMENT_BUY_10_GORGE,
     ACHIEVEMENT_BUY_100_GORGE,
-    ACHIEVEMENT_SACRIFICE_1_GORGE,
+    ACHIEVEMENT_SACRIFICE_10_GORGE,
     ACHIEVEMENT_SACRIFICE_100_GORGE,
 ];
-export const ACHIEVEMENT_BUY_1_CHARRED_RAVINE: IAchievement = {
-    id: "buy:125/1",
+export const ACHIEVEMENT_BUY_10_CHARRED_RAVINE: IAchievement = {
+    id: "buy:125/10",
     name: "Buy one Charred Ravine",
-    description: "You have bought 1 Charred Ravine. It's not bad for a start.",
+    description: "You have bought 10 Charred Ravine. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_CHARRED_RAVINE: IAchievement = {
     id: "buy:125/100",
     name: "Buy 100 Charred Ravine",
     description: "You have bought 100 Charred Ravine! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_CHARRED_RAVINE: IAchievement = {
-    id: "sacrifice:125/1",
+export const ACHIEVEMENT_SACRIFICE_10_CHARRED_RAVINE: IAchievement = {
+    id: "sacrifice:125/10",
     name: "Sacrifice one Charred Ravine",
-    description: "You have sacrificed 1 Charred Ravine. At least you've done something.",
+    description: "You have sacrificed 10 Charred Ravine. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_CHARRED_RAVINE: IAchievement = {
     id: "sacrifice:125/100",
@@ -3273,25 +3273,25 @@ export const ACHIEVEMENT_SACRIFICE_100_CHARRED_RAVINE: IAchievement = {
     description: "You have sacrificed 100 Charred Ravine! Here, shake my hand!",
 };
 export const ITEM_CHARRED_RAVINE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_CHARRED_RAVINE,
+    ACHIEVEMENT_BUY_10_CHARRED_RAVINE,
     ACHIEVEMENT_BUY_100_CHARRED_RAVINE,
-    ACHIEVEMENT_SACRIFICE_1_CHARRED_RAVINE,
+    ACHIEVEMENT_SACRIFICE_10_CHARRED_RAVINE,
     ACHIEVEMENT_SACRIFICE_100_CHARRED_RAVINE,
 ];
-export const ACHIEVEMENT_BUY_1_ECHO: IAchievement = {
-    id: "buy:126/1",
+export const ACHIEVEMENT_BUY_10_ECHO: IAchievement = {
+    id: "buy:126/10",
     name: "Buy one Echo",
-    description: "You have bought 1 Echo. It's not bad for a start.",
+    description: "You have bought 10 Echo. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_ECHO: IAchievement = {
     id: "buy:126/100",
     name: "Buy 100 Echo",
     description: "You have bought 100 Echo! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_ECHO: IAchievement = {
-    id: "sacrifice:126/1",
+export const ACHIEVEMENT_SACRIFICE_10_ECHO: IAchievement = {
+    id: "sacrifice:126/10",
     name: "Sacrifice one Echo",
-    description: "You have sacrificed 1 Echo. At least you've done something.",
+    description: "You have sacrificed 10 Echo. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_ECHO: IAchievement = {
     id: "sacrifice:126/100",
@@ -3299,25 +3299,25 @@ export const ACHIEVEMENT_SACRIFICE_100_ECHO: IAchievement = {
     description: "You have sacrificed 100 Echo! Here, shake my hand!",
 };
 export const ITEM_ECHO_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_ECHO,
+    ACHIEVEMENT_BUY_10_ECHO,
     ACHIEVEMENT_BUY_100_ECHO,
-    ACHIEVEMENT_SACRIFICE_1_ECHO,
+    ACHIEVEMENT_SACRIFICE_10_ECHO,
     ACHIEVEMENT_SACRIFICE_100_ECHO,
 ];
-export const ACHIEVEMENT_BUY_1_CAVE: IAchievement = {
-    id: "buy:127/1",
+export const ACHIEVEMENT_BUY_10_CAVE: IAchievement = {
+    id: "buy:127/10",
     name: "Buy one Cave",
-    description: "You have bought 1 Cave. It's not bad for a start.",
+    description: "You have bought 10 Cave. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_CAVE: IAchievement = {
     id: "buy:127/100",
     name: "Buy 100 Cave",
     description: "You have bought 100 Cave! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_CAVE: IAchievement = {
-    id: "sacrifice:127/1",
+export const ACHIEVEMENT_SACRIFICE_10_CAVE: IAchievement = {
+    id: "sacrifice:127/10",
     name: "Sacrifice one Cave",
-    description: "You have sacrificed 1 Cave. At least you've done something.",
+    description: "You have sacrificed 10 Cave. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_CAVE: IAchievement = {
     id: "sacrifice:127/100",
@@ -3325,25 +3325,25 @@ export const ACHIEVEMENT_SACRIFICE_100_CAVE: IAchievement = {
     description: "You have sacrificed 100 Cave! Here, shake my hand!",
 };
 export const ITEM_CAVE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_CAVE,
+    ACHIEVEMENT_BUY_10_CAVE,
     ACHIEVEMENT_BUY_100_CAVE,
-    ACHIEVEMENT_SACRIFICE_1_CAVE,
+    ACHIEVEMENT_SACRIFICE_10_CAVE,
     ACHIEVEMENT_SACRIFICE_100_CAVE,
 ];
-export const ACHIEVEMENT_BUY_1_UNDERGROUND_LAKE: IAchievement = {
-    id: "buy:128/1",
+export const ACHIEVEMENT_BUY_10_UNDERGROUND_LAKE: IAchievement = {
+    id: "buy:128/10",
     name: "Buy one Underground Lake",
-    description: "You have bought 1 Underground Lake. It's not bad for a start.",
+    description: "You have bought 10 Underground Lake. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_UNDERGROUND_LAKE: IAchievement = {
     id: "buy:128/100",
     name: "Buy 100 Underground Lake",
     description: "You have bought 100 Underground Lake! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_UNDERGROUND_LAKE: IAchievement = {
-    id: "sacrifice:128/1",
+export const ACHIEVEMENT_SACRIFICE_10_UNDERGROUND_LAKE: IAchievement = {
+    id: "sacrifice:128/10",
     name: "Sacrifice one Underground Lake",
-    description: "You have sacrificed 1 Underground Lake. At least you've done something.",
+    description: "You have sacrificed 10 Underground Lake. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_UNDERGROUND_LAKE: IAchievement = {
     id: "sacrifice:128/100",
@@ -3351,25 +3351,25 @@ export const ACHIEVEMENT_SACRIFICE_100_UNDERGROUND_LAKE: IAchievement = {
     description: "You have sacrificed 100 Underground Lake! Here, shake my hand!",
 };
 export const ITEM_UNDERGROUND_LAKE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_UNDERGROUND_LAKE,
+    ACHIEVEMENT_BUY_10_UNDERGROUND_LAKE,
     ACHIEVEMENT_BUY_100_UNDERGROUND_LAKE,
-    ACHIEVEMENT_SACRIFICE_1_UNDERGROUND_LAKE,
+    ACHIEVEMENT_SACRIFICE_10_UNDERGROUND_LAKE,
     ACHIEVEMENT_SACRIFICE_100_UNDERGROUND_LAKE,
 ];
-export const ACHIEVEMENT_BUY_1_LAVA_CAVE: IAchievement = {
-    id: "buy:129/1",
+export const ACHIEVEMENT_BUY_10_LAVA_CAVE: IAchievement = {
+    id: "buy:129/10",
     name: "Buy one Lava Cave",
-    description: "You have bought 1 Lava Cave. It's not bad for a start.",
+    description: "You have bought 10 Lava Cave. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_LAVA_CAVE: IAchievement = {
     id: "buy:129/100",
     name: "Buy 100 Lava Cave",
     description: "You have bought 100 Lava Cave! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_LAVA_CAVE: IAchievement = {
-    id: "sacrifice:129/1",
+export const ACHIEVEMENT_SACRIFICE_10_LAVA_CAVE: IAchievement = {
+    id: "sacrifice:129/10",
     name: "Sacrifice one Lava Cave",
-    description: "You have sacrificed 1 Lava Cave. At least you've done something.",
+    description: "You have sacrificed 10 Lava Cave. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_LAVA_CAVE: IAchievement = {
     id: "sacrifice:129/100",
@@ -3377,25 +3377,25 @@ export const ACHIEVEMENT_SACRIFICE_100_LAVA_CAVE: IAchievement = {
     description: "You have sacrificed 100 Lava Cave! Here, shake my hand!",
 };
 export const ITEM_LAVA_CAVE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_LAVA_CAVE,
+    ACHIEVEMENT_BUY_10_LAVA_CAVE,
     ACHIEVEMENT_BUY_100_LAVA_CAVE,
-    ACHIEVEMENT_SACRIFICE_1_LAVA_CAVE,
+    ACHIEVEMENT_SACRIFICE_10_LAVA_CAVE,
     ACHIEVEMENT_SACRIFICE_100_LAVA_CAVE,
 ];
-export const ACHIEVEMENT_BUY_1_WHISPERING_CAVE: IAchievement = {
-    id: "buy:130/1",
+export const ACHIEVEMENT_BUY_10_WHISPERING_CAVE: IAchievement = {
+    id: "buy:130/10",
     name: "Buy one Whispering Cave",
-    description: "You have bought 1 Whispering Cave. It's not bad for a start.",
+    description: "You have bought 10 Whispering Cave. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WHISPERING_CAVE: IAchievement = {
     id: "buy:130/100",
     name: "Buy 100 Whispering Cave",
     description: "You have bought 100 Whispering Cave! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WHISPERING_CAVE: IAchievement = {
-    id: "sacrifice:130/1",
+export const ACHIEVEMENT_SACRIFICE_10_WHISPERING_CAVE: IAchievement = {
+    id: "sacrifice:130/10",
     name: "Sacrifice one Whispering Cave",
-    description: "You have sacrificed 1 Whispering Cave. At least you've done something.",
+    description: "You have sacrificed 10 Whispering Cave. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WHISPERING_CAVE: IAchievement = {
     id: "sacrifice:130/100",
@@ -3403,25 +3403,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WHISPERING_CAVE: IAchievement = {
     description: "You have sacrificed 100 Whispering Cave! Here, shake my hand!",
 };
 export const ITEM_WHISPERING_CAVE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WHISPERING_CAVE,
+    ACHIEVEMENT_BUY_10_WHISPERING_CAVE,
     ACHIEVEMENT_BUY_100_WHISPERING_CAVE,
-    ACHIEVEMENT_SACRIFICE_1_WHISPERING_CAVE,
+    ACHIEVEMENT_SACRIFICE_10_WHISPERING_CAVE,
     ACHIEVEMENT_SACRIFICE_100_WHISPERING_CAVE,
 ];
-export const ACHIEVEMENT_BUY_1_SUBTERRANEAN_POOL: IAchievement = {
-    id: "buy:131/1",
+export const ACHIEVEMENT_BUY_10_SUBTERRANEAN_POOL: IAchievement = {
+    id: "buy:131/10",
     name: "Buy one Subterranean Pool",
-    description: "You have bought 1 Subterranean Pool. It's not bad for a start.",
+    description: "You have bought 10 Subterranean Pool. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SUBTERRANEAN_POOL: IAchievement = {
     id: "buy:131/100",
     name: "Buy 100 Subterranean Pool",
     description: "You have bought 100 Subterranean Pool! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SUBTERRANEAN_POOL: IAchievement = {
-    id: "sacrifice:131/1",
+export const ACHIEVEMENT_SACRIFICE_10_SUBTERRANEAN_POOL: IAchievement = {
+    id: "sacrifice:131/10",
     name: "Sacrifice one Subterranean Pool",
-    description: "You have sacrificed 1 Subterranean Pool. At least you've done something.",
+    description: "You have sacrificed 10 Subterranean Pool. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SUBTERRANEAN_POOL: IAchievement = {
     id: "sacrifice:131/100",
@@ -3429,25 +3429,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SUBTERRANEAN_POOL: IAchievement = {
     description: "You have sacrificed 100 Subterranean Pool! Here, shake my hand!",
 };
 export const ITEM_SUBTERRANEAN_POOL_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SUBTERRANEAN_POOL,
+    ACHIEVEMENT_BUY_10_SUBTERRANEAN_POOL,
     ACHIEVEMENT_BUY_100_SUBTERRANEAN_POOL,
-    ACHIEVEMENT_SACRIFICE_1_SUBTERRANEAN_POOL,
+    ACHIEVEMENT_SACRIFICE_10_SUBTERRANEAN_POOL,
     ACHIEVEMENT_SACRIFICE_100_SUBTERRANEAN_POOL,
 ];
-export const ACHIEVEMENT_BUY_1_SPRING: IAchievement = {
-    id: "buy:132/1",
+export const ACHIEVEMENT_BUY_10_SPRING: IAchievement = {
+    id: "buy:132/10",
     name: "Buy one Spring",
-    description: "You have bought 1 Spring. It's not bad for a start.",
+    description: "You have bought 10 Spring. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_SPRING: IAchievement = {
     id: "buy:132/100",
     name: "Buy 100 Spring",
     description: "You have bought 100 Spring! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_SPRING: IAchievement = {
-    id: "sacrifice:132/1",
+export const ACHIEVEMENT_SACRIFICE_10_SPRING: IAchievement = {
+    id: "sacrifice:132/10",
     name: "Sacrifice one Spring",
-    description: "You have sacrificed 1 Spring. At least you've done something.",
+    description: "You have sacrificed 10 Spring. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_SPRING: IAchievement = {
     id: "sacrifice:132/100",
@@ -3455,25 +3455,25 @@ export const ACHIEVEMENT_SACRIFICE_100_SPRING: IAchievement = {
     description: "You have sacrificed 100 Spring! Here, shake my hand!",
 };
 export const ITEM_SPRING_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_SPRING,
+    ACHIEVEMENT_BUY_10_SPRING,
     ACHIEVEMENT_BUY_100_SPRING,
-    ACHIEVEMENT_SACRIFICE_1_SPRING,
+    ACHIEVEMENT_SACRIFICE_10_SPRING,
     ACHIEVEMENT_SACRIFICE_100_SPRING,
 ];
-export const ACHIEVEMENT_BUY_1_HOT_SPRING: IAchievement = {
-    id: "buy:133/1",
+export const ACHIEVEMENT_BUY_10_HOT_SPRING: IAchievement = {
+    id: "buy:133/10",
     name: "Buy one Hot Spring",
-    description: "You have bought 1 Hot Spring. It's not bad for a start.",
+    description: "You have bought 10 Hot Spring. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_HOT_SPRING: IAchievement = {
     id: "buy:133/100",
     name: "Buy 100 Hot Spring",
     description: "You have bought 100 Hot Spring! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_HOT_SPRING: IAchievement = {
-    id: "sacrifice:133/1",
+export const ACHIEVEMENT_SACRIFICE_10_HOT_SPRING: IAchievement = {
+    id: "sacrifice:133/10",
     name: "Sacrifice one Hot Spring",
-    description: "You have sacrificed 1 Hot Spring. At least you've done something.",
+    description: "You have sacrificed 10 Hot Spring. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_HOT_SPRING: IAchievement = {
     id: "sacrifice:133/100",
@@ -3481,25 +3481,25 @@ export const ACHIEVEMENT_SACRIFICE_100_HOT_SPRING: IAchievement = {
     description: "You have sacrificed 100 Hot Spring! Here, shake my hand!",
 };
 export const ITEM_HOT_SPRING_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_HOT_SPRING,
+    ACHIEVEMENT_BUY_10_HOT_SPRING,
     ACHIEVEMENT_BUY_100_HOT_SPRING,
-    ACHIEVEMENT_SACRIFICE_1_HOT_SPRING,
+    ACHIEVEMENT_SACRIFICE_10_HOT_SPRING,
     ACHIEVEMENT_SACRIFICE_100_HOT_SPRING,
 ];
-export const ACHIEVEMENT_BUY_1_GROTTO: IAchievement = {
-    id: "buy:134/1",
+export const ACHIEVEMENT_BUY_10_GROTTO: IAchievement = {
+    id: "buy:134/10",
     name: "Buy one Grotto",
-    description: "You have bought 1 Grotto. It's not bad for a start.",
+    description: "You have bought 10 Grotto. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_GROTTO: IAchievement = {
     id: "buy:134/100",
     name: "Buy 100 Grotto",
     description: "You have bought 100 Grotto! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_GROTTO: IAchievement = {
-    id: "sacrifice:134/1",
+export const ACHIEVEMENT_SACRIFICE_10_GROTTO: IAchievement = {
+    id: "sacrifice:134/10",
     name: "Sacrifice one Grotto",
-    description: "You have sacrificed 1 Grotto. At least you've done something.",
+    description: "You have sacrificed 10 Grotto. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_GROTTO: IAchievement = {
     id: "sacrifice:134/100",
@@ -3507,25 +3507,25 @@ export const ACHIEVEMENT_SACRIFICE_100_GROTTO: IAchievement = {
     description: "You have sacrificed 100 Grotto! Here, shake my hand!",
 };
 export const ITEM_GROTTO_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_GROTTO,
+    ACHIEVEMENT_BUY_10_GROTTO,
     ACHIEVEMENT_BUY_100_GROTTO,
-    ACHIEVEMENT_SACRIFICE_1_GROTTO,
+    ACHIEVEMENT_SACRIFICE_10_GROTTO,
     ACHIEVEMENT_SACRIFICE_100_GROTTO,
 ];
-export const ACHIEVEMENT_BUY_1_FOUNTAIN: IAchievement = {
-    id: "buy:135/1",
+export const ACHIEVEMENT_BUY_10_FOUNTAIN: IAchievement = {
+    id: "buy:135/10",
     name: "Buy one Fountain",
-    description: "You have bought 1 Fountain. It's not bad for a start.",
+    description: "You have bought 10 Fountain. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_FOUNTAIN: IAchievement = {
     id: "buy:135/100",
     name: "Buy 100 Fountain",
     description: "You have bought 100 Fountain! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_FOUNTAIN: IAchievement = {
-    id: "sacrifice:135/1",
+export const ACHIEVEMENT_SACRIFICE_10_FOUNTAIN: IAchievement = {
+    id: "sacrifice:135/10",
     name: "Sacrifice one Fountain",
-    description: "You have sacrificed 1 Fountain. At least you've done something.",
+    description: "You have sacrificed 10 Fountain. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_FOUNTAIN: IAchievement = {
     id: "sacrifice:135/100",
@@ -3533,25 +3533,25 @@ export const ACHIEVEMENT_SACRIFICE_100_FOUNTAIN: IAchievement = {
     description: "You have sacrificed 100 Fountain! Here, shake my hand!",
 };
 export const ITEM_FOUNTAIN_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_FOUNTAIN,
+    ACHIEVEMENT_BUY_10_FOUNTAIN,
     ACHIEVEMENT_BUY_100_FOUNTAIN,
-    ACHIEVEMENT_SACRIFICE_1_FOUNTAIN,
+    ACHIEVEMENT_SACRIFICE_10_FOUNTAIN,
     ACHIEVEMENT_SACRIFICE_100_FOUNTAIN,
 ];
-export const ACHIEVEMENT_BUY_1_STEAM_VENT: IAchievement = {
-    id: "buy:136/1",
+export const ACHIEVEMENT_BUY_10_STEAM_VENT: IAchievement = {
+    id: "buy:136/10",
     name: "Buy one Steam Vent",
-    description: "You have bought 1 Steam Vent. It's not bad for a start.",
+    description: "You have bought 10 Steam Vent. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_STEAM_VENT: IAchievement = {
     id: "buy:136/100",
     name: "Buy 100 Steam Vent",
     description: "You have bought 100 Steam Vent! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_STEAM_VENT: IAchievement = {
-    id: "sacrifice:136/1",
+export const ACHIEVEMENT_SACRIFICE_10_STEAM_VENT: IAchievement = {
+    id: "sacrifice:136/10",
     name: "Sacrifice one Steam Vent",
-    description: "You have sacrificed 1 Steam Vent. At least you've done something.",
+    description: "You have sacrificed 10 Steam Vent. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_STEAM_VENT: IAchievement = {
     id: "sacrifice:136/100",
@@ -3559,25 +3559,25 @@ export const ACHIEVEMENT_SACRIFICE_100_STEAM_VENT: IAchievement = {
     description: "You have sacrificed 100 Steam Vent! Here, shake my hand!",
 };
 export const ITEM_STEAM_VENT_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_STEAM_VENT,
+    ACHIEVEMENT_BUY_10_STEAM_VENT,
     ACHIEVEMENT_BUY_100_STEAM_VENT,
-    ACHIEVEMENT_SACRIFICE_1_STEAM_VENT,
+    ACHIEVEMENT_SACRIFICE_10_STEAM_VENT,
     ACHIEVEMENT_SACRIFICE_100_STEAM_VENT,
 ];
-export const ACHIEVEMENT_BUY_1_COOL_BREEZE: IAchievement = {
-    id: "buy:137/1",
+export const ACHIEVEMENT_BUY_10_COOL_BREEZE: IAchievement = {
+    id: "buy:137/10",
     name: "Buy one Cool Breeze",
-    description: "You have bought 1 Cool Breeze. It's not bad for a start.",
+    description: "You have bought 10 Cool Breeze. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_COOL_BREEZE: IAchievement = {
     id: "buy:137/100",
     name: "Buy 100 Cool Breeze",
     description: "You have bought 100 Cool Breeze! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_COOL_BREEZE: IAchievement = {
-    id: "sacrifice:137/1",
+export const ACHIEVEMENT_SACRIFICE_10_COOL_BREEZE: IAchievement = {
+    id: "sacrifice:137/10",
     name: "Sacrifice one Cool Breeze",
-    description: "You have sacrificed 1 Cool Breeze. At least you've done something.",
+    description: "You have sacrificed 10 Cool Breeze. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_COOL_BREEZE: IAchievement = {
     id: "sacrifice:137/100",
@@ -3585,25 +3585,25 @@ export const ACHIEVEMENT_SACRIFICE_100_COOL_BREEZE: IAchievement = {
     description: "You have sacrificed 100 Cool Breeze! Here, shake my hand!",
 };
 export const ITEM_COOL_BREEZE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_COOL_BREEZE,
+    ACHIEVEMENT_BUY_10_COOL_BREEZE,
     ACHIEVEMENT_BUY_100_COOL_BREEZE,
-    ACHIEVEMENT_SACRIFICE_1_COOL_BREEZE,
+    ACHIEVEMENT_SACRIFICE_10_COOL_BREEZE,
     ACHIEVEMENT_SACRIFICE_100_COOL_BREEZE,
 ];
-export const ACHIEVEMENT_BUY_1_MONUMENT: IAchievement = {
-    id: "buy:138/1",
+export const ACHIEVEMENT_BUY_10_MONUMENT: IAchievement = {
+    id: "buy:138/10",
     name: "Buy one Monument",
-    description: "You have bought 1 Monument. It's not bad for a start.",
+    description: "You have bought 10 Monument. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_MONUMENT: IAchievement = {
     id: "buy:138/100",
     name: "Buy 100 Monument",
     description: "You have bought 100 Monument! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_MONUMENT: IAchievement = {
-    id: "sacrifice:138/1",
+export const ACHIEVEMENT_SACRIFICE_10_MONUMENT: IAchievement = {
+    id: "sacrifice:138/10",
     name: "Sacrifice one Monument",
-    description: "You have sacrificed 1 Monument. At least you've done something.",
+    description: "You have sacrificed 10 Monument. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_MONUMENT: IAchievement = {
     id: "sacrifice:138/100",
@@ -3611,25 +3611,25 @@ export const ACHIEVEMENT_SACRIFICE_100_MONUMENT: IAchievement = {
     description: "You have sacrificed 100 Monument! Here, shake my hand!",
 };
 export const ITEM_MONUMENT_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_MONUMENT,
+    ACHIEVEMENT_BUY_10_MONUMENT,
     ACHIEVEMENT_BUY_100_MONUMENT,
-    ACHIEVEMENT_SACRIFICE_1_MONUMENT,
+    ACHIEVEMENT_SACRIFICE_10_MONUMENT,
     ACHIEVEMENT_SACRIFICE_100_MONUMENT,
 ];
-export const ACHIEVEMENT_BUY_1_WATERFALL: IAchievement = {
-    id: "buy:139/1",
+export const ACHIEVEMENT_BUY_10_WATERFALL: IAchievement = {
+    id: "buy:139/10",
     name: "Buy one Waterfall",
-    description: "You have bought 1 Waterfall. It's not bad for a start.",
+    description: "You have bought 10 Waterfall. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WATERFALL: IAchievement = {
     id: "buy:139/100",
     name: "Buy 100 Waterfall",
     description: "You have bought 100 Waterfall! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WATERFALL: IAchievement = {
-    id: "sacrifice:139/1",
+export const ACHIEVEMENT_SACRIFICE_10_WATERFALL: IAchievement = {
+    id: "sacrifice:139/10",
     name: "Sacrifice one Waterfall",
-    description: "You have sacrificed 1 Waterfall. At least you've done something.",
+    description: "You have sacrificed 10 Waterfall. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WATERFALL: IAchievement = {
     id: "sacrifice:139/100",
@@ -3637,25 +3637,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WATERFALL: IAchievement = {
     description: "You have sacrificed 100 Waterfall! Here, shake my hand!",
 };
 export const ITEM_WATERFALL_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WATERFALL,
+    ACHIEVEMENT_BUY_10_WATERFALL,
     ACHIEVEMENT_BUY_100_WATERFALL,
-    ACHIEVEMENT_SACRIFICE_1_WATERFALL,
+    ACHIEVEMENT_SACRIFICE_10_WATERFALL,
     ACHIEVEMENT_SACRIFICE_100_WATERFALL,
 ];
-export const ACHIEVEMENT_BUY_1_ETERNAL_FLAME: IAchievement = {
-    id: "buy:140/1",
+export const ACHIEVEMENT_BUY_10_ETERNAL_FLAME: IAchievement = {
+    id: "buy:140/10",
     name: "Buy one Eternal Flame",
-    description: "You have bought 1 Eternal Flame. It's not bad for a start.",
+    description: "You have bought 10 Eternal Flame. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_ETERNAL_FLAME: IAchievement = {
     id: "buy:140/100",
     name: "Buy 100 Eternal Flame",
     description: "You have bought 100 Eternal Flame! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_ETERNAL_FLAME: IAchievement = {
-    id: "sacrifice:140/1",
+export const ACHIEVEMENT_SACRIFICE_10_ETERNAL_FLAME: IAchievement = {
+    id: "sacrifice:140/10",
     name: "Sacrifice one Eternal Flame",
-    description: "You have sacrificed 1 Eternal Flame. At least you've done something.",
+    description: "You have sacrificed 10 Eternal Flame. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_ETERNAL_FLAME: IAchievement = {
     id: "sacrifice:140/100",
@@ -3663,25 +3663,25 @@ export const ACHIEVEMENT_SACRIFICE_100_ETERNAL_FLAME: IAchievement = {
     description: "You have sacrificed 100 Eternal Flame! Here, shake my hand!",
 };
 export const ITEM_ETERNAL_FLAME_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_ETERNAL_FLAME,
+    ACHIEVEMENT_BUY_10_ETERNAL_FLAME,
     ACHIEVEMENT_BUY_100_ETERNAL_FLAME,
-    ACHIEVEMENT_SACRIFICE_1_ETERNAL_FLAME,
+    ACHIEVEMENT_SACRIFICE_10_ETERNAL_FLAME,
     ACHIEVEMENT_SACRIFICE_100_ETERNAL_FLAME,
 ];
-export const ACHIEVEMENT_BUY_1_PILLAR_OF_WIND: IAchievement = {
-    id: "buy:141/1",
+export const ACHIEVEMENT_BUY_10_PILLAR_OF_WIND: IAchievement = {
+    id: "buy:141/10",
     name: "Buy one Pillar Of Wind",
-    description: "You have bought 1 Pillar Of Wind. It's not bad for a start.",
+    description: "You have bought 10 Pillar Of Wind. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_PILLAR_OF_WIND: IAchievement = {
     id: "buy:141/100",
     name: "Buy 100 Pillar Of Wind",
     description: "You have bought 100 Pillar Of Wind! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_PILLAR_OF_WIND: IAchievement = {
-    id: "sacrifice:141/1",
+export const ACHIEVEMENT_SACRIFICE_10_PILLAR_OF_WIND: IAchievement = {
+    id: "sacrifice:141/10",
     name: "Sacrifice one Pillar Of Wind",
-    description: "You have sacrificed 1 Pillar Of Wind. At least you've done something.",
+    description: "You have sacrificed 10 Pillar Of Wind. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_PILLAR_OF_WIND: IAchievement = {
     id: "sacrifice:141/100",
@@ -3689,25 +3689,25 @@ export const ACHIEVEMENT_SACRIFICE_100_PILLAR_OF_WIND: IAchievement = {
     description: "You have sacrificed 100 Pillar Of Wind! Here, shake my hand!",
 };
 export const ITEM_PILLAR_OF_WIND_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_PILLAR_OF_WIND,
+    ACHIEVEMENT_BUY_10_PILLAR_OF_WIND,
     ACHIEVEMENT_BUY_100_PILLAR_OF_WIND,
-    ACHIEVEMENT_SACRIFICE_1_PILLAR_OF_WIND,
+    ACHIEVEMENT_SACRIFICE_10_PILLAR_OF_WIND,
     ACHIEVEMENT_SACRIFICE_100_PILLAR_OF_WIND,
 ];
-export const ACHIEVEMENT_BUY_1_STREAM: IAchievement = {
-    id: "buy:142/1",
+export const ACHIEVEMENT_BUY_10_STREAM: IAchievement = {
+    id: "buy:142/10",
     name: "Buy one Stream",
-    description: "You have bought 1 Stream. It's not bad for a start.",
+    description: "You have bought 10 Stream. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_STREAM: IAchievement = {
     id: "buy:142/100",
     name: "Buy 100 Stream",
     description: "You have bought 100 Stream! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_STREAM: IAchievement = {
-    id: "sacrifice:142/1",
+export const ACHIEVEMENT_SACRIFICE_10_STREAM: IAchievement = {
+    id: "sacrifice:142/10",
     name: "Sacrifice one Stream",
-    description: "You have sacrificed 1 Stream. At least you've done something.",
+    description: "You have sacrificed 10 Stream. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_STREAM: IAchievement = {
     id: "sacrifice:142/100",
@@ -3715,25 +3715,25 @@ export const ACHIEVEMENT_SACRIFICE_100_STREAM: IAchievement = {
     description: "You have sacrificed 100 Stream! Here, shake my hand!",
 };
 export const ITEM_STREAM_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_STREAM,
+    ACHIEVEMENT_BUY_10_STREAM,
     ACHIEVEMENT_BUY_100_STREAM,
-    ACHIEVEMENT_SACRIFICE_1_STREAM,
+    ACHIEVEMENT_SACRIFICE_10_STREAM,
     ACHIEVEMENT_SACRIFICE_100_STREAM,
 ];
-export const ACHIEVEMENT_BUY_1_ZEPHYR: IAchievement = {
-    id: "buy:143/1",
+export const ACHIEVEMENT_BUY_10_ZEPHYR: IAchievement = {
+    id: "buy:143/10",
     name: "Buy one Zephyr",
-    description: "You have bought 1 Zephyr. It's not bad for a start.",
+    description: "You have bought 10 Zephyr. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_ZEPHYR: IAchievement = {
     id: "buy:143/100",
     name: "Buy 100 Zephyr",
     description: "You have bought 100 Zephyr! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_ZEPHYR: IAchievement = {
-    id: "sacrifice:143/1",
+export const ACHIEVEMENT_SACRIFICE_10_ZEPHYR: IAchievement = {
+    id: "sacrifice:143/10",
     name: "Sacrifice one Zephyr",
-    description: "You have sacrificed 1 Zephyr. At least you've done something.",
+    description: "You have sacrificed 10 Zephyr. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_ZEPHYR: IAchievement = {
     id: "sacrifice:143/100",
@@ -3741,25 +3741,25 @@ export const ACHIEVEMENT_SACRIFICE_100_ZEPHYR: IAchievement = {
     description: "You have sacrificed 100 Zephyr! Here, shake my hand!",
 };
 export const ITEM_ZEPHYR_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_ZEPHYR,
+    ACHIEVEMENT_BUY_10_ZEPHYR,
     ACHIEVEMENT_BUY_100_ZEPHYR,
-    ACHIEVEMENT_SACRIFICE_1_ZEPHYR,
+    ACHIEVEMENT_SACRIFICE_10_ZEPHYR,
     ACHIEVEMENT_SACRIFICE_100_ZEPHYR,
 ];
-export const ACHIEVEMENT_BUY_1_CREEK: IAchievement = {
-    id: "buy:144/1",
+export const ACHIEVEMENT_BUY_10_CREEK: IAchievement = {
+    id: "buy:144/10",
     name: "Buy one Creek",
-    description: "You have bought 1 Creek. It's not bad for a start.",
+    description: "You have bought 10 Creek. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_CREEK: IAchievement = {
     id: "buy:144/100",
     name: "Buy 100 Creek",
     description: "You have bought 100 Creek! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_CREEK: IAchievement = {
-    id: "sacrifice:144/1",
+export const ACHIEVEMENT_SACRIFICE_10_CREEK: IAchievement = {
+    id: "sacrifice:144/10",
     name: "Sacrifice one Creek",
-    description: "You have sacrificed 1 Creek. At least you've done something.",
+    description: "You have sacrificed 10 Creek. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_CREEK: IAchievement = {
     id: "sacrifice:144/100",
@@ -3767,25 +3767,25 @@ export const ACHIEVEMENT_SACRIFICE_100_CREEK: IAchievement = {
     description: "You have sacrificed 100 Creek! Here, shake my hand!",
 };
 export const ITEM_CREEK_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_CREEK,
+    ACHIEVEMENT_BUY_10_CREEK,
     ACHIEVEMENT_BUY_100_CREEK,
-    ACHIEVEMENT_SACRIFICE_1_CREEK,
+    ACHIEVEMENT_SACRIFICE_10_CREEK,
     ACHIEVEMENT_SACRIFICE_100_CREEK,
 ];
-export const ACHIEVEMENT_BUY_1_BROOK: IAchievement = {
-    id: "buy:145/1",
+export const ACHIEVEMENT_BUY_10_BROOK: IAchievement = {
+    id: "buy:145/10",
     name: "Buy one Brook",
-    description: "You have bought 1 Brook. It's not bad for a start.",
+    description: "You have bought 10 Brook. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BROOK: IAchievement = {
     id: "buy:145/100",
     name: "Buy 100 Brook",
     description: "You have bought 100 Brook! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BROOK: IAchievement = {
-    id: "sacrifice:145/1",
+export const ACHIEVEMENT_SACRIFICE_10_BROOK: IAchievement = {
+    id: "sacrifice:145/10",
     name: "Sacrifice one Brook",
-    description: "You have sacrificed 1 Brook. At least you've done something.",
+    description: "You have sacrificed 10 Brook. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BROOK: IAchievement = {
     id: "sacrifice:145/100",
@@ -3793,25 +3793,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BROOK: IAchievement = {
     description: "You have sacrificed 100 Brook! Here, shake my hand!",
 };
 export const ITEM_BROOK_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BROOK,
+    ACHIEVEMENT_BUY_10_BROOK,
     ACHIEVEMENT_BUY_100_BROOK,
-    ACHIEVEMENT_SACRIFICE_1_BROOK,
+    ACHIEVEMENT_SACRIFICE_10_BROOK,
     ACHIEVEMENT_SACRIFICE_100_BROOK,
 ];
-export const ACHIEVEMENT_BUY_1_WHISPER: IAchievement = {
-    id: "buy:146/1",
+export const ACHIEVEMENT_BUY_10_WHISPER: IAchievement = {
+    id: "buy:146/10",
     name: "Buy one Whisper",
-    description: "You have bought 1 Whisper. It's not bad for a start.",
+    description: "You have bought 10 Whisper. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WHISPER: IAchievement = {
     id: "buy:146/100",
     name: "Buy 100 Whisper",
     description: "You have bought 100 Whisper! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WHISPER: IAchievement = {
-    id: "sacrifice:146/1",
+export const ACHIEVEMENT_SACRIFICE_10_WHISPER: IAchievement = {
+    id: "sacrifice:146/10",
     name: "Sacrifice one Whisper",
-    description: "You have sacrificed 1 Whisper. At least you've done something.",
+    description: "You have sacrificed 10 Whisper. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WHISPER: IAchievement = {
     id: "sacrifice:146/100",
@@ -3819,25 +3819,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WHISPER: IAchievement = {
     description: "You have sacrificed 100 Whisper! Here, shake my hand!",
 };
 export const ITEM_WHISPER_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WHISPER,
+    ACHIEVEMENT_BUY_10_WHISPER,
     ACHIEVEMENT_BUY_100_WHISPER,
-    ACHIEVEMENT_SACRIFICE_1_WHISPER,
+    ACHIEVEMENT_SACRIFICE_10_WHISPER,
     ACHIEVEMENT_SACRIFICE_100_WHISPER,
 ];
-export const ACHIEVEMENT_BUY_1_RIVULET: IAchievement = {
-    id: "buy:147/1",
+export const ACHIEVEMENT_BUY_10_RIVULET: IAchievement = {
+    id: "buy:147/10",
     name: "Buy one Rivulet",
-    description: "You have bought 1 Rivulet. It's not bad for a start.",
+    description: "You have bought 10 Rivulet. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_RIVULET: IAchievement = {
     id: "buy:147/100",
     name: "Buy 100 Rivulet",
     description: "You have bought 100 Rivulet! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_RIVULET: IAchievement = {
-    id: "sacrifice:147/1",
+export const ACHIEVEMENT_SACRIFICE_10_RIVULET: IAchievement = {
+    id: "sacrifice:147/10",
     name: "Sacrifice one Rivulet",
-    description: "You have sacrificed 1 Rivulet. At least you've done something.",
+    description: "You have sacrificed 10 Rivulet. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_RIVULET: IAchievement = {
     id: "sacrifice:147/100",
@@ -3845,25 +3845,25 @@ export const ACHIEVEMENT_SACRIFICE_100_RIVULET: IAchievement = {
     description: "You have sacrificed 100 Rivulet! Here, shake my hand!",
 };
 export const ITEM_RIVULET_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_RIVULET,
+    ACHIEVEMENT_BUY_10_RIVULET,
     ACHIEVEMENT_BUY_100_RIVULET,
-    ACHIEVEMENT_SACRIFICE_1_RIVULET,
+    ACHIEVEMENT_SACRIFICE_10_RIVULET,
     ACHIEVEMENT_SACRIFICE_100_RIVULET,
 ];
-export const ACHIEVEMENT_BUY_1_TRIBUTARY: IAchievement = {
-    id: "buy:148/1",
+export const ACHIEVEMENT_BUY_10_TRIBUTARY: IAchievement = {
+    id: "buy:148/10",
     name: "Buy one Tributary",
-    description: "You have bought 1 Tributary. It's not bad for a start.",
+    description: "You have bought 10 Tributary. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_TRIBUTARY: IAchievement = {
     id: "buy:148/100",
     name: "Buy 100 Tributary",
     description: "You have bought 100 Tributary! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_TRIBUTARY: IAchievement = {
-    id: "sacrifice:148/1",
+export const ACHIEVEMENT_SACRIFICE_10_TRIBUTARY: IAchievement = {
+    id: "sacrifice:148/10",
     name: "Sacrifice one Tributary",
-    description: "You have sacrificed 1 Tributary. At least you've done something.",
+    description: "You have sacrificed 10 Tributary. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_TRIBUTARY: IAchievement = {
     id: "sacrifice:148/100",
@@ -3871,25 +3871,25 @@ export const ACHIEVEMENT_SACRIFICE_100_TRIBUTARY: IAchievement = {
     description: "You have sacrificed 100 Tributary! Here, shake my hand!",
 };
 export const ITEM_TRIBUTARY_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_TRIBUTARY,
+    ACHIEVEMENT_BUY_10_TRIBUTARY,
     ACHIEVEMENT_BUY_100_TRIBUTARY,
-    ACHIEVEMENT_SACRIFICE_1_TRIBUTARY,
+    ACHIEVEMENT_SACRIFICE_10_TRIBUTARY,
     ACHIEVEMENT_SACRIFICE_100_TRIBUTARY,
 ];
-export const ACHIEVEMENT_BUY_1_MURMUR: IAchievement = {
-    id: "buy:149/1",
+export const ACHIEVEMENT_BUY_10_MURMUR: IAchievement = {
+    id: "buy:149/10",
     name: "Buy one Murmur",
-    description: "You have bought 1 Murmur. It's not bad for a start.",
+    description: "You have bought 10 Murmur. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_MURMUR: IAchievement = {
     id: "buy:149/100",
     name: "Buy 100 Murmur",
     description: "You have bought 100 Murmur! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_MURMUR: IAchievement = {
-    id: "sacrifice:149/1",
+export const ACHIEVEMENT_SACRIFICE_10_MURMUR: IAchievement = {
+    id: "sacrifice:149/10",
     name: "Sacrifice one Murmur",
-    description: "You have sacrificed 1 Murmur. At least you've done something.",
+    description: "You have sacrificed 10 Murmur. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_MURMUR: IAchievement = {
     id: "sacrifice:149/100",
@@ -3897,25 +3897,25 @@ export const ACHIEVEMENT_SACRIFICE_100_MURMUR: IAchievement = {
     description: "You have sacrificed 100 Murmur! Here, shake my hand!",
 };
 export const ITEM_MURMUR_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_MURMUR,
+    ACHIEVEMENT_BUY_10_MURMUR,
     ACHIEVEMENT_BUY_100_MURMUR,
-    ACHIEVEMENT_SACRIFICE_1_MURMUR,
+    ACHIEVEMENT_SACRIFICE_10_MURMUR,
     ACHIEVEMENT_SACRIFICE_100_MURMUR,
 ];
-export const ACHIEVEMENT_BUY_1_WATERSHED: IAchievement = {
-    id: "buy:150/1",
+export const ACHIEVEMENT_BUY_10_WATERSHED: IAchievement = {
+    id: "buy:150/10",
     name: "Buy one Watershed",
-    description: "You have bought 1 Watershed. It's not bad for a start.",
+    description: "You have bought 10 Watershed. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WATERSHED: IAchievement = {
     id: "buy:150/100",
     name: "Buy 100 Watershed",
     description: "You have bought 100 Watershed! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WATERSHED: IAchievement = {
-    id: "sacrifice:150/1",
+export const ACHIEVEMENT_SACRIFICE_10_WATERSHED: IAchievement = {
+    id: "sacrifice:150/10",
     name: "Sacrifice one Watershed",
-    description: "You have sacrificed 1 Watershed. At least you've done something.",
+    description: "You have sacrificed 10 Watershed. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WATERSHED: IAchievement = {
     id: "sacrifice:150/100",
@@ -3923,25 +3923,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WATERSHED: IAchievement = {
     description: "You have sacrificed 100 Watershed! Here, shake my hand!",
 };
 export const ITEM_WATERSHED_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WATERSHED,
+    ACHIEVEMENT_BUY_10_WATERSHED,
     ACHIEVEMENT_BUY_100_WATERSHED,
-    ACHIEVEMENT_SACRIFICE_1_WATERSHED,
+    ACHIEVEMENT_SACRIFICE_10_WATERSHED,
     ACHIEVEMENT_SACRIFICE_100_WATERSHED,
 ];
-export const ACHIEVEMENT_BUY_1_AQUIFER: IAchievement = {
-    id: "buy:151/1",
+export const ACHIEVEMENT_BUY_10_AQUIFER: IAchievement = {
+    id: "buy:151/10",
     name: "Buy one Aquifer",
-    description: "You have bought 1 Aquifer. It's not bad for a start.",
+    description: "You have bought 10 Aquifer. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_AQUIFER: IAchievement = {
     id: "buy:151/100",
     name: "Buy 100 Aquifer",
     description: "You have bought 100 Aquifer! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_AQUIFER: IAchievement = {
-    id: "sacrifice:151/1",
+export const ACHIEVEMENT_SACRIFICE_10_AQUIFER: IAchievement = {
+    id: "sacrifice:151/10",
     name: "Sacrifice one Aquifer",
-    description: "You have sacrificed 1 Aquifer. At least you've done something.",
+    description: "You have sacrificed 10 Aquifer. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_AQUIFER: IAchievement = {
     id: "sacrifice:151/100",
@@ -3949,25 +3949,25 @@ export const ACHIEVEMENT_SACRIFICE_100_AQUIFER: IAchievement = {
     description: "You have sacrificed 100 Aquifer! Here, shake my hand!",
 };
 export const ITEM_AQUIFER_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_AQUIFER,
+    ACHIEVEMENT_BUY_10_AQUIFER,
     ACHIEVEMENT_BUY_100_AQUIFER,
-    ACHIEVEMENT_SACRIFICE_1_AQUIFER,
+    ACHIEVEMENT_SACRIFICE_10_AQUIFER,
     ACHIEVEMENT_SACRIFICE_100_AQUIFER,
 ];
-export const ACHIEVEMENT_BUY_1_PARCHED_EARTH: IAchievement = {
-    id: "buy:152/1",
+export const ACHIEVEMENT_BUY_10_PARCHED_EARTH: IAchievement = {
+    id: "buy:152/10",
     name: "Buy one Parched Earth",
-    description: "You have bought 1 Parched Earth. It's not bad for a start.",
+    description: "You have bought 10 Parched Earth. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_PARCHED_EARTH: IAchievement = {
     id: "buy:152/100",
     name: "Buy 100 Parched Earth",
     description: "You have bought 100 Parched Earth! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_PARCHED_EARTH: IAchievement = {
-    id: "sacrifice:152/1",
+export const ACHIEVEMENT_SACRIFICE_10_PARCHED_EARTH: IAchievement = {
+    id: "sacrifice:152/10",
     name: "Sacrifice one Parched Earth",
-    description: "You have sacrificed 1 Parched Earth. At least you've done something.",
+    description: "You have sacrificed 10 Parched Earth. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_PARCHED_EARTH: IAchievement = {
     id: "sacrifice:152/100",
@@ -3975,25 +3975,25 @@ export const ACHIEVEMENT_SACRIFICE_100_PARCHED_EARTH: IAchievement = {
     description: "You have sacrificed 100 Parched Earth! Here, shake my hand!",
 };
 export const ITEM_PARCHED_EARTH_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_PARCHED_EARTH,
+    ACHIEVEMENT_BUY_10_PARCHED_EARTH,
     ACHIEVEMENT_BUY_100_PARCHED_EARTH,
-    ACHIEVEMENT_SACRIFICE_1_PARCHED_EARTH,
+    ACHIEVEMENT_SACRIFICE_10_PARCHED_EARTH,
     ACHIEVEMENT_SACRIFICE_100_PARCHED_EARTH,
 ];
-export const ACHIEVEMENT_BUY_1_FRESH_BREEZE: IAchievement = {
-    id: "buy:153/1",
+export const ACHIEVEMENT_BUY_10_FRESH_BREEZE: IAchievement = {
+    id: "buy:153/10",
     name: "Buy one Fresh Breeze",
-    description: "You have bought 1 Fresh Breeze. It's not bad for a start.",
+    description: "You have bought 10 Fresh Breeze. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_FRESH_BREEZE: IAchievement = {
     id: "buy:153/100",
     name: "Buy 100 Fresh Breeze",
     description: "You have bought 100 Fresh Breeze! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_FRESH_BREEZE: IAchievement = {
-    id: "sacrifice:153/1",
+export const ACHIEVEMENT_SACRIFICE_10_FRESH_BREEZE: IAchievement = {
+    id: "sacrifice:153/10",
     name: "Sacrifice one Fresh Breeze",
-    description: "You have sacrificed 1 Fresh Breeze. At least you've done something.",
+    description: "You have sacrificed 10 Fresh Breeze. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_FRESH_BREEZE: IAchievement = {
     id: "sacrifice:153/100",
@@ -4001,25 +4001,25 @@ export const ACHIEVEMENT_SACRIFICE_100_FRESH_BREEZE: IAchievement = {
     description: "You have sacrificed 100 Fresh Breeze! Here, shake my hand!",
 };
 export const ITEM_FRESH_BREEZE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_FRESH_BREEZE,
+    ACHIEVEMENT_BUY_10_FRESH_BREEZE,
     ACHIEVEMENT_BUY_100_FRESH_BREEZE,
-    ACHIEVEMENT_SACRIFICE_1_FRESH_BREEZE,
+    ACHIEVEMENT_SACRIFICE_10_FRESH_BREEZE,
     ACHIEVEMENT_SACRIFICE_100_FRESH_BREEZE,
 ];
-export const ACHIEVEMENT_BUY_1_GROUNDWATER: IAchievement = {
-    id: "buy:154/1",
+export const ACHIEVEMENT_BUY_10_GROUNDWATER: IAchievement = {
+    id: "buy:154/10",
     name: "Buy one Groundwater",
-    description: "You have bought 1 Groundwater. It's not bad for a start.",
+    description: "You have bought 10 Groundwater. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_GROUNDWATER: IAchievement = {
     id: "buy:154/100",
     name: "Buy 100 Groundwater",
     description: "You have bought 100 Groundwater! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_GROUNDWATER: IAchievement = {
-    id: "sacrifice:154/1",
+export const ACHIEVEMENT_SACRIFICE_10_GROUNDWATER: IAchievement = {
+    id: "sacrifice:154/10",
     name: "Sacrifice one Groundwater",
-    description: "You have sacrificed 1 Groundwater. At least you've done something.",
+    description: "You have sacrificed 10 Groundwater. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_GROUNDWATER: IAchievement = {
     id: "sacrifice:154/100",
@@ -4027,25 +4027,25 @@ export const ACHIEVEMENT_SACRIFICE_100_GROUNDWATER: IAchievement = {
     description: "You have sacrificed 100 Groundwater! Here, shake my hand!",
 };
 export const ITEM_GROUNDWATER_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_GROUNDWATER,
+    ACHIEVEMENT_BUY_10_GROUNDWATER,
     ACHIEVEMENT_BUY_100_GROUNDWATER,
-    ACHIEVEMENT_SACRIFICE_1_GROUNDWATER,
+    ACHIEVEMENT_SACRIFICE_10_GROUNDWATER,
     ACHIEVEMENT_SACRIFICE_100_GROUNDWATER,
 ];
-export const ACHIEVEMENT_BUY_1_RESERVOIR: IAchievement = {
-    id: "buy:155/1",
+export const ACHIEVEMENT_BUY_10_RESERVOIR: IAchievement = {
+    id: "buy:155/10",
     name: "Buy one Reservoir",
-    description: "You have bought 1 Reservoir. It's not bad for a start.",
+    description: "You have bought 10 Reservoir. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_RESERVOIR: IAchievement = {
     id: "buy:155/100",
     name: "Buy 100 Reservoir",
     description: "You have bought 100 Reservoir! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_RESERVOIR: IAchievement = {
-    id: "sacrifice:155/1",
+export const ACHIEVEMENT_SACRIFICE_10_RESERVOIR: IAchievement = {
+    id: "sacrifice:155/10",
     name: "Sacrifice one Reservoir",
-    description: "You have sacrificed 1 Reservoir. At least you've done something.",
+    description: "You have sacrificed 10 Reservoir. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_RESERVOIR: IAchievement = {
     id: "sacrifice:155/100",
@@ -4053,25 +4053,25 @@ export const ACHIEVEMENT_SACRIFICE_100_RESERVOIR: IAchievement = {
     description: "You have sacrificed 100 Reservoir! Here, shake my hand!",
 };
 export const ITEM_RESERVOIR_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_RESERVOIR,
+    ACHIEVEMENT_BUY_10_RESERVOIR,
     ACHIEVEMENT_BUY_100_RESERVOIR,
-    ACHIEVEMENT_SACRIFICE_1_RESERVOIR,
+    ACHIEVEMENT_SACRIFICE_10_RESERVOIR,
     ACHIEVEMENT_SACRIFICE_100_RESERVOIR,
 ];
-export const ACHIEVEMENT_BUY_1_GEOTHERMAL_SPRING: IAchievement = {
-    id: "buy:156/1",
+export const ACHIEVEMENT_BUY_10_GEOTHERMAL_SPRING: IAchievement = {
+    id: "buy:156/10",
     name: "Buy one Geothermal Spring",
-    description: "You have bought 1 Geothermal Spring. It's not bad for a start.",
+    description: "You have bought 10 Geothermal Spring. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_GEOTHERMAL_SPRING: IAchievement = {
     id: "buy:156/100",
     name: "Buy 100 Geothermal Spring",
     description: "You have bought 100 Geothermal Spring! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_GEOTHERMAL_SPRING: IAchievement = {
-    id: "sacrifice:156/1",
+export const ACHIEVEMENT_SACRIFICE_10_GEOTHERMAL_SPRING: IAchievement = {
+    id: "sacrifice:156/10",
     name: "Sacrifice one Geothermal Spring",
-    description: "You have sacrificed 1 Geothermal Spring. At least you've done something.",
+    description: "You have sacrificed 10 Geothermal Spring. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_GEOTHERMAL_SPRING: IAchievement = {
     id: "sacrifice:156/100",
@@ -4079,25 +4079,25 @@ export const ACHIEVEMENT_SACRIFICE_100_GEOTHERMAL_SPRING: IAchievement = {
     description: "You have sacrificed 100 Geothermal Spring! Here, shake my hand!",
 };
 export const ITEM_GEOTHERMAL_SPRING_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_GEOTHERMAL_SPRING,
+    ACHIEVEMENT_BUY_10_GEOTHERMAL_SPRING,
     ACHIEVEMENT_BUY_100_GEOTHERMAL_SPRING,
-    ACHIEVEMENT_SACRIFICE_1_GEOTHERMAL_SPRING,
+    ACHIEVEMENT_SACRIFICE_10_GEOTHERMAL_SPRING,
     ACHIEVEMENT_SACRIFICE_100_GEOTHERMAL_SPRING,
 ];
-export const ACHIEVEMENT_BUY_1_ARTESIAN_WELL: IAchievement = {
-    id: "buy:157/1",
+export const ACHIEVEMENT_BUY_10_ARTESIAN_WELL: IAchievement = {
+    id: "buy:157/10",
     name: "Buy one Artesian Well",
-    description: "You have bought 1 Artesian Well. It's not bad for a start.",
+    description: "You have bought 10 Artesian Well. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_ARTESIAN_WELL: IAchievement = {
     id: "buy:157/100",
     name: "Buy 100 Artesian Well",
     description: "You have bought 100 Artesian Well! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_ARTESIAN_WELL: IAchievement = {
-    id: "sacrifice:157/1",
+export const ACHIEVEMENT_SACRIFICE_10_ARTESIAN_WELL: IAchievement = {
+    id: "sacrifice:157/10",
     name: "Sacrifice one Artesian Well",
-    description: "You have sacrificed 1 Artesian Well. At least you've done something.",
+    description: "You have sacrificed 10 Artesian Well. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_ARTESIAN_WELL: IAchievement = {
     id: "sacrifice:157/100",
@@ -4105,25 +4105,25 @@ export const ACHIEVEMENT_SACRIFICE_100_ARTESIAN_WELL: IAchievement = {
     description: "You have sacrificed 100 Artesian Well! Here, shake my hand!",
 };
 export const ITEM_ARTESIAN_WELL_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_ARTESIAN_WELL,
+    ACHIEVEMENT_BUY_10_ARTESIAN_WELL,
     ACHIEVEMENT_BUY_100_ARTESIAN_WELL,
-    ACHIEVEMENT_SACRIFICE_1_ARTESIAN_WELL,
+    ACHIEVEMENT_SACRIFICE_10_ARTESIAN_WELL,
     ACHIEVEMENT_SACRIFICE_100_ARTESIAN_WELL,
 ];
-export const ACHIEVEMENT_BUY_1_BASIN: IAchievement = {
-    id: "buy:158/1",
+export const ACHIEVEMENT_BUY_10_BASIN: IAchievement = {
+    id: "buy:158/10",
     name: "Buy one Basin",
-    description: "You have bought 1 Basin. It's not bad for a start.",
+    description: "You have bought 10 Basin. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BASIN: IAchievement = {
     id: "buy:158/100",
     name: "Buy 100 Basin",
     description: "You have bought 100 Basin! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BASIN: IAchievement = {
-    id: "sacrifice:158/1",
+export const ACHIEVEMENT_SACRIFICE_10_BASIN: IAchievement = {
+    id: "sacrifice:158/10",
     name: "Sacrifice one Basin",
-    description: "You have sacrificed 1 Basin. At least you've done something.",
+    description: "You have sacrificed 10 Basin. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BASIN: IAchievement = {
     id: "sacrifice:158/100",
@@ -4131,25 +4131,25 @@ export const ACHIEVEMENT_SACRIFICE_100_BASIN: IAchievement = {
     description: "You have sacrificed 100 Basin! Here, shake my hand!",
 };
 export const ITEM_BASIN_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BASIN,
+    ACHIEVEMENT_BUY_10_BASIN,
     ACHIEVEMENT_BUY_100_BASIN,
-    ACHIEVEMENT_SACRIFICE_1_BASIN,
+    ACHIEVEMENT_SACRIFICE_10_BASIN,
     ACHIEVEMENT_SACRIFICE_100_BASIN,
 ];
-export const ACHIEVEMENT_BUY_1_LAKE: IAchievement = {
-    id: "buy:159/1",
+export const ACHIEVEMENT_BUY_10_LAKE: IAchievement = {
+    id: "buy:159/10",
     name: "Buy one Lake",
-    description: "You have bought 1 Lake. It's not bad for a start.",
+    description: "You have bought 10 Lake. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_LAKE: IAchievement = {
     id: "buy:159/100",
     name: "Buy 100 Lake",
     description: "You have bought 100 Lake! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_LAKE: IAchievement = {
-    id: "sacrifice:159/1",
+export const ACHIEVEMENT_SACRIFICE_10_LAKE: IAchievement = {
+    id: "sacrifice:159/10",
     name: "Sacrifice one Lake",
-    description: "You have sacrificed 1 Lake. At least you've done something.",
+    description: "You have sacrificed 10 Lake. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_LAKE: IAchievement = {
     id: "sacrifice:159/100",
@@ -4157,25 +4157,25 @@ export const ACHIEVEMENT_SACRIFICE_100_LAKE: IAchievement = {
     description: "You have sacrificed 100 Lake! Here, shake my hand!",
 };
 export const ITEM_LAKE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_LAKE,
+    ACHIEVEMENT_BUY_10_LAKE,
     ACHIEVEMENT_BUY_100_LAKE,
-    ACHIEVEMENT_SACRIFICE_1_LAKE,
+    ACHIEVEMENT_SACRIFICE_10_LAKE,
     ACHIEVEMENT_SACRIFICE_100_LAKE,
 ];
-export const ACHIEVEMENT_BUY_1_DRY_BASIN: IAchievement = {
-    id: "buy:160/1",
+export const ACHIEVEMENT_BUY_10_DRY_BASIN: IAchievement = {
+    id: "buy:160/10",
     name: "Buy one Dry Basin",
-    description: "You have bought 1 Dry Basin. It's not bad for a start.",
+    description: "You have bought 10 Dry Basin. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_DRY_BASIN: IAchievement = {
     id: "buy:160/100",
     name: "Buy 100 Dry Basin",
     description: "You have bought 100 Dry Basin! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_DRY_BASIN: IAchievement = {
-    id: "sacrifice:160/1",
+export const ACHIEVEMENT_SACRIFICE_10_DRY_BASIN: IAchievement = {
+    id: "sacrifice:160/10",
     name: "Sacrifice one Dry Basin",
-    description: "You have sacrificed 1 Dry Basin. At least you've done something.",
+    description: "You have sacrificed 10 Dry Basin. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_DRY_BASIN: IAchievement = {
     id: "sacrifice:160/100",
@@ -4183,25 +4183,25 @@ export const ACHIEVEMENT_SACRIFICE_100_DRY_BASIN: IAchievement = {
     description: "You have sacrificed 100 Dry Basin! Here, shake my hand!",
 };
 export const ITEM_DRY_BASIN_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_DRY_BASIN,
+    ACHIEVEMENT_BUY_10_DRY_BASIN,
     ACHIEVEMENT_BUY_100_DRY_BASIN,
-    ACHIEVEMENT_SACRIFICE_1_DRY_BASIN,
+    ACHIEVEMENT_SACRIFICE_10_DRY_BASIN,
     ACHIEVEMENT_SACRIFICE_100_DRY_BASIN,
 ];
-export const ACHIEVEMENT_BUY_1_DEPRESSION: IAchievement = {
-    id: "buy:161/1",
+export const ACHIEVEMENT_BUY_10_DEPRESSION: IAchievement = {
+    id: "buy:161/10",
     name: "Buy one Depression",
-    description: "You have bought 1 Depression. It's not bad for a start.",
+    description: "You have bought 10 Depression. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_DEPRESSION: IAchievement = {
     id: "buy:161/100",
     name: "Buy 100 Depression",
     description: "You have bought 100 Depression! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_DEPRESSION: IAchievement = {
-    id: "sacrifice:161/1",
+export const ACHIEVEMENT_SACRIFICE_10_DEPRESSION: IAchievement = {
+    id: "sacrifice:161/10",
     name: "Sacrifice one Depression",
-    description: "You have sacrificed 1 Depression. At least you've done something.",
+    description: "You have sacrificed 10 Depression. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_DEPRESSION: IAchievement = {
     id: "sacrifice:161/100",
@@ -4209,25 +4209,25 @@ export const ACHIEVEMENT_SACRIFICE_100_DEPRESSION: IAchievement = {
     description: "You have sacrificed 100 Depression! Here, shake my hand!",
 };
 export const ITEM_DEPRESSION_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_DEPRESSION,
+    ACHIEVEMENT_BUY_10_DEPRESSION,
     ACHIEVEMENT_BUY_100_DEPRESSION,
-    ACHIEVEMENT_SACRIFICE_1_DEPRESSION,
+    ACHIEVEMENT_SACRIFICE_10_DEPRESSION,
     ACHIEVEMENT_SACRIFICE_100_DEPRESSION,
 ];
-export const ACHIEVEMENT_BUY_1_ISLAND: IAchievement = {
-    id: "buy:162/1",
+export const ACHIEVEMENT_BUY_10_ISLAND: IAchievement = {
+    id: "buy:162/10",
     name: "Buy one Island",
-    description: "You have bought 1 Island. It's not bad for a start.",
+    description: "You have bought 10 Island. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_ISLAND: IAchievement = {
     id: "buy:162/100",
     name: "Buy 100 Island",
     description: "You have bought 100 Island! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_ISLAND: IAchievement = {
-    id: "sacrifice:162/1",
+export const ACHIEVEMENT_SACRIFICE_10_ISLAND: IAchievement = {
+    id: "sacrifice:162/10",
     name: "Sacrifice one Island",
-    description: "You have sacrificed 1 Island. At least you've done something.",
+    description: "You have sacrificed 10 Island. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_ISLAND: IAchievement = {
     id: "sacrifice:162/100",
@@ -4235,25 +4235,25 @@ export const ACHIEVEMENT_SACRIFICE_100_ISLAND: IAchievement = {
     description: "You have sacrificed 100 Island! Here, shake my hand!",
 };
 export const ITEM_ISLAND_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_ISLAND,
+    ACHIEVEMENT_BUY_10_ISLAND,
     ACHIEVEMENT_BUY_100_ISLAND,
-    ACHIEVEMENT_SACRIFICE_1_ISLAND,
+    ACHIEVEMENT_SACRIFICE_10_ISLAND,
     ACHIEVEMENT_SACRIFICE_100_ISLAND,
 ];
-export const ACHIEVEMENT_BUY_1_LAGOON: IAchievement = {
-    id: "buy:163/1",
+export const ACHIEVEMENT_BUY_10_LAGOON: IAchievement = {
+    id: "buy:163/10",
     name: "Buy one Lagoon",
-    description: "You have bought 1 Lagoon. It's not bad for a start.",
+    description: "You have bought 10 Lagoon. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_LAGOON: IAchievement = {
     id: "buy:163/100",
     name: "Buy 100 Lagoon",
     description: "You have bought 100 Lagoon! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_LAGOON: IAchievement = {
-    id: "sacrifice:163/1",
+export const ACHIEVEMENT_SACRIFICE_10_LAGOON: IAchievement = {
+    id: "sacrifice:163/10",
     name: "Sacrifice one Lagoon",
-    description: "You have sacrificed 1 Lagoon. At least you've done something.",
+    description: "You have sacrificed 10 Lagoon. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_LAGOON: IAchievement = {
     id: "sacrifice:163/100",
@@ -4261,25 +4261,25 @@ export const ACHIEVEMENT_SACRIFICE_100_LAGOON: IAchievement = {
     description: "You have sacrificed 100 Lagoon! Here, shake my hand!",
 };
 export const ITEM_LAGOON_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_LAGOON,
+    ACHIEVEMENT_BUY_10_LAGOON,
     ACHIEVEMENT_BUY_100_LAGOON,
-    ACHIEVEMENT_SACRIFICE_1_LAGOON,
+    ACHIEVEMENT_SACRIFICE_10_LAGOON,
     ACHIEVEMENT_SACRIFICE_100_LAGOON,
 ];
-export const ACHIEVEMENT_BUY_1_WAVE: IAchievement = {
-    id: "buy:164/1",
+export const ACHIEVEMENT_BUY_10_WAVE: IAchievement = {
+    id: "buy:164/10",
     name: "Buy one Wave",
-    description: "You have bought 1 Wave. It's not bad for a start.",
+    description: "You have bought 10 Wave. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WAVE: IAchievement = {
     id: "buy:164/100",
     name: "Buy 100 Wave",
     description: "You have bought 100 Wave! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WAVE: IAchievement = {
-    id: "sacrifice:164/1",
+export const ACHIEVEMENT_SACRIFICE_10_WAVE: IAchievement = {
+    id: "sacrifice:164/10",
     name: "Sacrifice one Wave",
-    description: "You have sacrificed 1 Wave. At least you've done something.",
+    description: "You have sacrificed 10 Wave. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WAVE: IAchievement = {
     id: "sacrifice:164/100",
@@ -4287,25 +4287,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WAVE: IAchievement = {
     description: "You have sacrificed 100 Wave! Here, shake my hand!",
 };
 export const ITEM_WAVE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WAVE,
+    ACHIEVEMENT_BUY_10_WAVE,
     ACHIEVEMENT_BUY_100_WAVE,
-    ACHIEVEMENT_SACRIFICE_1_WAVE,
+    ACHIEVEMENT_SACRIFICE_10_WAVE,
     ACHIEVEMENT_SACRIFICE_100_WAVE,
 ];
-export const ACHIEVEMENT_BUY_1_REEF: IAchievement = {
-    id: "buy:165/1",
+export const ACHIEVEMENT_BUY_10_REEF: IAchievement = {
+    id: "buy:165/10",
     name: "Buy one Reef",
-    description: "You have bought 1 Reef. It's not bad for a start.",
+    description: "You have bought 10 Reef. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_REEF: IAchievement = {
     id: "buy:165/100",
     name: "Buy 100 Reef",
     description: "You have bought 100 Reef! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_REEF: IAchievement = {
-    id: "sacrifice:165/1",
+export const ACHIEVEMENT_SACRIFICE_10_REEF: IAchievement = {
+    id: "sacrifice:165/10",
     name: "Sacrifice one Reef",
-    description: "You have sacrificed 1 Reef. At least you've done something.",
+    description: "You have sacrificed 10 Reef. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_REEF: IAchievement = {
     id: "sacrifice:165/100",
@@ -4313,25 +4313,25 @@ export const ACHIEVEMENT_SACRIFICE_100_REEF: IAchievement = {
     description: "You have sacrificed 100 Reef! Here, shake my hand!",
 };
 export const ITEM_REEF_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_REEF,
+    ACHIEVEMENT_BUY_10_REEF,
     ACHIEVEMENT_BUY_100_REEF,
-    ACHIEVEMENT_SACRIFICE_1_REEF,
+    ACHIEVEMENT_SACRIFICE_10_REEF,
     ACHIEVEMENT_SACRIFICE_100_REEF,
 ];
-export const ACHIEVEMENT_BUY_1_CORAL: IAchievement = {
-    id: "buy:166/1",
+export const ACHIEVEMENT_BUY_10_CORAL: IAchievement = {
+    id: "buy:166/10",
     name: "Buy one Coral",
-    description: "You have bought 1 Coral. It's not bad for a start.",
+    description: "You have bought 10 Coral. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_CORAL: IAchievement = {
     id: "buy:166/100",
     name: "Buy 100 Coral",
     description: "You have bought 100 Coral! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_CORAL: IAchievement = {
-    id: "sacrifice:166/1",
+export const ACHIEVEMENT_SACRIFICE_10_CORAL: IAchievement = {
+    id: "sacrifice:166/10",
     name: "Sacrifice one Coral",
-    description: "You have sacrificed 1 Coral. At least you've done something.",
+    description: "You have sacrificed 10 Coral. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_CORAL: IAchievement = {
     id: "sacrifice:166/100",
@@ -4339,25 +4339,25 @@ export const ACHIEVEMENT_SACRIFICE_100_CORAL: IAchievement = {
     description: "You have sacrificed 100 Coral! Here, shake my hand!",
 };
 export const ITEM_CORAL_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_CORAL,
+    ACHIEVEMENT_BUY_10_CORAL,
     ACHIEVEMENT_BUY_100_CORAL,
-    ACHIEVEMENT_SACRIFICE_1_CORAL,
+    ACHIEVEMENT_SACRIFICE_10_CORAL,
     ACHIEVEMENT_SACRIFICE_100_CORAL,
 ];
-export const ACHIEVEMENT_BUY_1_WHIRL: IAchievement = {
-    id: "buy:167/1",
+export const ACHIEVEMENT_BUY_10_WHIRL: IAchievement = {
+    id: "buy:167/10",
     name: "Buy one Whirl",
-    description: "You have bought 1 Whirl. It's not bad for a start.",
+    description: "You have bought 10 Whirl. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_WHIRL: IAchievement = {
     id: "buy:167/100",
     name: "Buy 100 Whirl",
     description: "You have bought 100 Whirl! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_WHIRL: IAchievement = {
-    id: "sacrifice:167/1",
+export const ACHIEVEMENT_SACRIFICE_10_WHIRL: IAchievement = {
+    id: "sacrifice:167/10",
     name: "Sacrifice one Whirl",
-    description: "You have sacrificed 1 Whirl. At least you've done something.",
+    description: "You have sacrificed 10 Whirl. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_WHIRL: IAchievement = {
     id: "sacrifice:167/100",
@@ -4365,25 +4365,25 @@ export const ACHIEVEMENT_SACRIFICE_100_WHIRL: IAchievement = {
     description: "You have sacrificed 100 Whirl! Here, shake my hand!",
 };
 export const ITEM_WHIRL_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_WHIRL,
+    ACHIEVEMENT_BUY_10_WHIRL,
     ACHIEVEMENT_BUY_100_WHIRL,
-    ACHIEVEMENT_SACRIFICE_1_WHIRL,
+    ACHIEVEMENT_SACRIFICE_10_WHIRL,
     ACHIEVEMENT_SACRIFICE_100_WHIRL,
 ];
-export const ACHIEVEMENT_BUY_1_LIMESTONE: IAchievement = {
-    id: "buy:168/1",
+export const ACHIEVEMENT_BUY_10_LIMESTONE: IAchievement = {
+    id: "buy:168/10",
     name: "Buy one Limestone",
-    description: "You have bought 1 Limestone. It's not bad for a start.",
+    description: "You have bought 10 Limestone. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_LIMESTONE: IAchievement = {
     id: "buy:168/100",
     name: "Buy 100 Limestone",
     description: "You have bought 100 Limestone! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_LIMESTONE: IAchievement = {
-    id: "sacrifice:168/1",
+export const ACHIEVEMENT_SACRIFICE_10_LIMESTONE: IAchievement = {
+    id: "sacrifice:168/10",
     name: "Sacrifice one Limestone",
-    description: "You have sacrificed 1 Limestone. At least you've done something.",
+    description: "You have sacrificed 10 Limestone. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_LIMESTONE: IAchievement = {
     id: "sacrifice:168/100",
@@ -4391,25 +4391,25 @@ export const ACHIEVEMENT_SACRIFICE_100_LIMESTONE: IAchievement = {
     description: "You have sacrificed 100 Limestone! Here, shake my hand!",
 };
 export const ITEM_LIMESTONE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_LIMESTONE,
+    ACHIEVEMENT_BUY_10_LIMESTONE,
     ACHIEVEMENT_BUY_100_LIMESTONE,
-    ACHIEVEMENT_SACRIFICE_1_LIMESTONE,
+    ACHIEVEMENT_SACRIFICE_10_LIMESTONE,
     ACHIEVEMENT_SACRIFICE_100_LIMESTONE,
 ];
-export const ACHIEVEMENT_BUY_1_KARST: IAchievement = {
-    id: "buy:169/1",
+export const ACHIEVEMENT_BUY_10_KARST: IAchievement = {
+    id: "buy:169/10",
     name: "Buy one Karst",
-    description: "You have bought 1 Karst. It's not bad for a start.",
+    description: "You have bought 10 Karst. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_KARST: IAchievement = {
     id: "buy:169/100",
     name: "Buy 100 Karst",
     description: "You have bought 100 Karst! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_KARST: IAchievement = {
-    id: "sacrifice:169/1",
+export const ACHIEVEMENT_SACRIFICE_10_KARST: IAchievement = {
+    id: "sacrifice:169/10",
     name: "Sacrifice one Karst",
-    description: "You have sacrificed 1 Karst. At least you've done something.",
+    description: "You have sacrificed 10 Karst. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_KARST: IAchievement = {
     id: "sacrifice:169/100",
@@ -4417,25 +4417,25 @@ export const ACHIEVEMENT_SACRIFICE_100_KARST: IAchievement = {
     description: "You have sacrificed 100 Karst! Here, shake my hand!",
 };
 export const ITEM_KARST_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_KARST,
+    ACHIEVEMENT_BUY_10_KARST,
     ACHIEVEMENT_BUY_100_KARST,
-    ACHIEVEMENT_SACRIFICE_1_KARST,
+    ACHIEVEMENT_SACRIFICE_10_KARST,
     ACHIEVEMENT_SACRIFICE_100_KARST,
 ];
-export const ACHIEVEMENT_BUY_1_QUICKLIME: IAchievement = {
-    id: "buy:170/1",
+export const ACHIEVEMENT_BUY_10_QUICKLIME: IAchievement = {
+    id: "buy:170/10",
     name: "Buy one Quicklime",
-    description: "You have bought 1 Quicklime. It's not bad for a start.",
+    description: "You have bought 10 Quicklime. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_QUICKLIME: IAchievement = {
     id: "buy:170/100",
     name: "Buy 100 Quicklime",
     description: "You have bought 100 Quicklime! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_QUICKLIME: IAchievement = {
-    id: "sacrifice:170/1",
+export const ACHIEVEMENT_SACRIFICE_10_QUICKLIME: IAchievement = {
+    id: "sacrifice:170/10",
     name: "Sacrifice one Quicklime",
-    description: "You have sacrificed 1 Quicklime. At least you've done something.",
+    description: "You have sacrificed 10 Quicklime. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_QUICKLIME: IAchievement = {
     id: "sacrifice:170/100",
@@ -4443,25 +4443,25 @@ export const ACHIEVEMENT_SACRIFICE_100_QUICKLIME: IAchievement = {
     description: "You have sacrificed 100 Quicklime! Here, shake my hand!",
 };
 export const ITEM_QUICKLIME_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_QUICKLIME,
+    ACHIEVEMENT_BUY_10_QUICKLIME,
     ACHIEVEMENT_BUY_100_QUICKLIME,
-    ACHIEVEMENT_SACRIFICE_1_QUICKLIME,
+    ACHIEVEMENT_SACRIFICE_10_QUICKLIME,
     ACHIEVEMENT_SACRIFICE_100_QUICKLIME,
 ];
-export const ACHIEVEMENT_BUY_1_BLOWHOLE: IAchievement = {
-    id: "buy:171/1",
+export const ACHIEVEMENT_BUY_10_BLOWHOLE: IAchievement = {
+    id: "buy:171/10",
     name: "Buy one Blowhole",
-    description: "You have bought 1 Blowhole. It's not bad for a start.",
+    description: "You have bought 10 Blowhole. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_BLOWHOLE: IAchievement = {
     id: "buy:171/100",
     name: "Buy 100 Blowhole",
     description: "You have bought 100 Blowhole! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_BLOWHOLE: IAchievement = {
-    id: "sacrifice:171/1",
+export const ACHIEVEMENT_SACRIFICE_10_BLOWHOLE: IAchievement = {
+    id: "sacrifice:171/10",
     name: "Sacrifice one Blowhole",
-    description: "You have sacrificed 1 Blowhole. At least you've done something.",
+    description: "You have sacrificed 10 Blowhole. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_BLOWHOLE: IAchievement = {
     id: "sacrifice:171/100",
@@ -4469,9 +4469,9 @@ export const ACHIEVEMENT_SACRIFICE_100_BLOWHOLE: IAchievement = {
     description: "You have sacrificed 100 Blowhole! Here, shake my hand!",
 };
 export const ITEM_BLOWHOLE_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_BLOWHOLE,
+    ACHIEVEMENT_BUY_10_BLOWHOLE,
     ACHIEVEMENT_BUY_100_BLOWHOLE,
-    ACHIEVEMENT_SACRIFICE_1_BLOWHOLE,
+    ACHIEVEMENT_SACRIFICE_10_BLOWHOLE,
     ACHIEVEMENT_SACRIFICE_100_BLOWHOLE,
 ];
 

@@ -12,20 +12,20 @@ import {
 } from "./IAchievement";
 
 {{#each items}}
-export const ACHIEVEMENT_BUY_1_{{constantCase name}}: IAchievement = {
-    id: "buy:{{@index}}/1",
+export const ACHIEVEMENT_BUY_10_{{constantCase name}}: IAchievement = {
+    id: "buy:{{@index}}/10",
     name: "Buy one {{capitalCase name}}",
-    description: "You have bought 1 {{capitalCase name}}. It's not bad for a start.",
+    description: "You have bought 10 {{capitalCase name}}. It's not bad for a start.",
 };
 export const ACHIEVEMENT_BUY_100_{{constantCase name}}: IAchievement = {
     id: "buy:{{@index}}/100",
     name: "Buy 100 {{capitalCase name}}",
     description: "You have bought 100 {{capitalCase name}}! That's something!",
 };
-export const ACHIEVEMENT_SACRIFICE_1_{{constantCase name}}: IAchievement = {
-    id: "sacrifice:{{@index}}/1",
+export const ACHIEVEMENT_SACRIFICE_10_{{constantCase name}}: IAchievement = {
+    id: "sacrifice:{{@index}}/10",
     name: "Sacrifice one {{capitalCase name}}",
-    description: "You have sacrificed 1 {{capitalCase name}}. At least you've done something.",
+    description: "You have sacrificed 10 {{capitalCase name}}. At least you've done something.",
 };
 export const ACHIEVEMENT_SACRIFICE_100_{{constantCase name}}: IAchievement = {
     id: "sacrifice:{{@index}}/100",
@@ -33,9 +33,9 @@ export const ACHIEVEMENT_SACRIFICE_100_{{constantCase name}}: IAchievement = {
     description: "You have sacrificed 100 {{capitalCase name}}! Here, shake my hand!",
 };
 export const ITEM_{{constantCase name}}_ACHIEVEMENTS = [
-    ACHIEVEMENT_BUY_1_{{constantCase name}},
+    ACHIEVEMENT_BUY_10_{{constantCase name}},
     ACHIEVEMENT_BUY_100_{{constantCase name}},
-    ACHIEVEMENT_SACRIFICE_1_{{constantCase name}},
+    ACHIEVEMENT_SACRIFICE_10_{{constantCase name}},
     ACHIEVEMENT_SACRIFICE_100_{{constantCase name}},
 ];
 {{/each}}

@@ -8,6 +8,7 @@ export interface IAchievementService {
     onBuyElement(elementId: number, N: number): Promise<void>;
     onSacrificeElement(elementId: number, N: number): Promise<void>;
     onCraftRecipe(recipeId: number, N: number): Promise<void>;
+    onMint(achievementId: string): Promise<void>;
     destroy(): void;
     readonly awards: Observable<IAchievement>;
     readonly mints: Observable<IAchievement>;
