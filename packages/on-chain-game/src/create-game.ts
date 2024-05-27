@@ -70,7 +70,6 @@ export class SinglePlayerGame implements IOnChainGame {
                 recipe => recipe.result.id === item.id
             )
         );
-        console.log("SinglePlayerGame.initialWorld: ", rootElements);
         const w = {
             assets: [],
             inventory: {
@@ -166,8 +165,6 @@ export class SinglePlayerGame implements IOnChainGame {
                 break;
             }
         }
-
-        console.log("MockedOnChainGame.craft: ", a, b, foundRecipe, this._world.recipes);
 
         if (foundRecipe) {
             let hasA = false;
@@ -362,11 +359,30 @@ class OnChainGameImpl implements IOnChainGame {
             recipes: []
         };
 
+        let itemTypeBalancePromises: Promise<number>[] = [];
+        let itemTypeBalanceIds: number[] = [];
+
+        const onChainAddress = await this._chain.getAddress();
+
         for (let itemType of this._content.items) {
-            console.log("OnChainGameImpl.world: ", itemType.id, this._elementContracts[itemType.id])
-            _world.inventory.balances[itemType.id] = await this._elementContracts[itemType.id].balanceOf(
-                await this._chain.getAddress()
+            itemTypeBalancePromises.push(
+                this._elementContracts[itemType.id].balanceOf(
+                    onChainAddress
+                )
             );
+            itemTypeBalanceIds.push(itemType.id);
+        }
+
+        console.log("OnChainGameImpl.world", "fetching balances ...");
+        const itemTypeBalanceResultss = await Promise.all(itemTypeBalancePromises);
+        const itemTypeBalances: Record<number, number> = {};
+        for (let i = 0; i < itemTypeBalanceIds.length; i++) {
+            itemTypeBalances[itemTypeBalanceIds[i]] = itemTypeBalanceResultss[i];
+        }
+        console.log("OnChainGameImpl.world", "balances: ", itemTypeBalances);
+
+        for (let itemType of this._content.items) {
+            _world.inventory.balances[itemType.id] = itemTypeBalances[itemType.id];
             _world.items.push(itemType);
         }
 

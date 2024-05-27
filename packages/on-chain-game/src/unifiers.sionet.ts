@@ -10,83 +10,83 @@ import { loadGameChainWallet, createRandomGameChainWallet } from '@not-a-bird/ga
 const UNIFIERS_CHAIN_DEPLOYMENT: IChainDeployment = {
     rpcUrl: "wss://sionet.siocode.hu",
     gameContract: {
-        address: "5GFNRwe53M4TP1BjbcTpuAdEsNfQsykLUpoPkBFXZavXbfcf"
+        address: "5DRPc2VBauQwqofwnGYP59j3ZtHt4RebPjy8L1hHhrAFhdVj"
     },
     elementContracts: {
         0: {
-                address: "5HKzRyZbZeBiBr8gjwTNVDNoeGqMSKBi8fVptbSqWgJxKt7t"
+                address: "5DRMQZxSGmycgpXiHrQhSMDSHkX3mEZDWp285US7AsHfDTkw"
             },
 1: {
-                address: "5CFNyKip4TYa6NPvD2ELdA7YmsWh8UdYNa6GCDQCo4qyEtMc"
+                address: "5EGCHKKevRercVSaazrs8bmZdVNT6mK5shKT4z7WiY1kEDiS"
             },
 2: {
-                address: "5FTe4tNAoPaznJ6q9jcrpd1VUhednWwy7DTw5hhYGEsnS2yJ"
+                address: "5FkRvfWiRir955mnxcyX6xmVfJ93jedmN1s1WZoPAw26qhiS"
             },
 3: {
-                address: "5GZBqCMLsQ3xibBUoe8NHGujLV5ZKpt7C8MYgUcGvZ816SzF"
+                address: "5FTTdVjzfbgGd1PW4VNKz9ZYDNUw8p3y4hPR62AkMmSEqyvF"
             },
 4: {
-                address: "5ELWzM9LbyYFjcQks7eUp82JHPpGF8QwDAqjVqpRJBYGA3rr"
+                address: "5FQ1y9ErNw4vyBNduLzz53yoGC84Gm8T89dntAgKujZgNcqb"
             },
 5: {
-                address: "5DQTBLJ7qTJynVSzhEARzxsNLDTvifUKkxhyn5QGXXSbCXy9"
+                address: "5CCipLoTcrXguF1Nbo9upKwpmpWrpoFQdTX6XRs7kFMduAjc"
             },
 6: {
-                address: "5DC48zhVjM8DvTFir3CGrEjemuYvXn6PwUsH9nkCbngrSmbo"
+                address: "5Fc9jR3vYhy4C6BsAN3QVwUQbm8GjciXNxkR7XDvMCFDXShC"
             },
 7: {
-                address: "5E6b5rPfEr1aa9Jx3gdzc9ctGoZT78Q4f8HyRE2MohJDbT7s"
+                address: "5GXPe3FA5KvxpwMcYRHqZoGz58viMwGCRU4UDw2eV97H9Mwg"
             },
 8: {
-                address: "5FYdyc3S81qBC1ptssfqM7vgEdhQ1Tqoz2U5WS9ymzmzNkGV"
+                address: "5FKRACRUcnj9Lr3rFCwsXmmZbdbKJWBwGorF5goSMF2VvBdR"
             },
 9: {
-                address: "5HhbbYnMdzDWBTiPH8Yd7RRaGqzbkJJj7mwxuiz79dF6svVf"
+                address: "5FZkRhUjn2h73KBCBkEusVsytXjyYGn5umRzARU4s8Pj5WkH"
             },
 10: {
-                address: "5Gea3wfJNLJEpDx9a65xuW6TeViTLv7H1HRfAhsu8W5GgsxF"
+                address: "5GTbRM614e62mbTXZbwzAB3mStBhf14uzJYxHYN8Jqpu6khv"
             },
 11: {
-                address: "5D3MWsfMgXFiD5xBcrd2uHQGXMAprKnFs1szTMMbBtPzNcws"
+                address: "5HKgkxUaKJApXWAmxQmG5Wrn9xBQKx9VZRwwhaHH2xGc524d"
             },
 12: {
-                address: "5DhatKVr7hkAG3QuWZQ82Yw9Q8tqGFiU8PXSXPHo3ZQ18inz"
+                address: "5DETpFuw8yUjQYWv6z2CCdoPTCUeFLA9LywCYf5SSDjQmNb4"
             },
 13: {
-                address: "5FJw6QeaWwCSkQv4Ms2urf5w4UdW5CvvFhcihEgRisb14cbx"
+                address: "5F6ZRGueUobAzvbr8o2baLXVwg1vvmsTwaZP7KSW6kQ1gTCC"
             },
 14: {
-                address: "5FYtzJA3uE7zqBP3CNtH859EWVmzNsvJcFvyszWk38vC3kjW"
+                address: "5GQe6PH1RJQZMk2FszWJk2VJCwX7RGrUZgNmQArKNDYsgD1J"
             },
 15: {
-                address: "5Gekw9tERuPfVSQYbowdqjj8m4MZDWkSJe518QPg7s9Pax94"
+                address: "5FnW6134ZcqZh4em13kDAT2JiPTCg2v4v57iLEr8CuFtY4oF"
             },
 16: {
-                address: "5EAGLVjbKrVz3TUE6YS1DQ5vRq1osnqap1wb1iT3m4xxH4wq"
+                address: "5GSr5dic9HHRP1MJSRVvLS7QvZ8fNJVmSrjqZmvGYw98cKci"
             },
 17: {
-                address: "5DQK8Gvk3zAgmaEpd6aDF9CL1nyWTR8LHzJ29hbwVmH2cf64"
+                address: "5EkrTtKRaGjW96yHPxaheT68rhE3iEywasw2fY3gpQimFixT"
             },
 18: {
-                address: "5ER3z8keGFFodFeyaZ2VciEuLpH2biCEgYqFBiabWzANP55X"
+                address: "5FysNF73NaQAdf3yMp6Vcd96sUsTQMAGfnuFq8VZ1nHMtXyo"
             },
 19: {
-                address: "5HETqC126uZUQLTs2HW5bcuESbx51aX2QhvTNNEWZCCKgAF8"
+                address: "5GHjkdMdfYeLBuumHNGnaiqYAeBxMw7Jz4FK4ANaY3TiUZnA"
             },
 20: {
-                address: "5DGu28KirebSUrzrrJXAQMkKV5Etwmftuv7hTcUN3gRnCoAi"
+                address: "5HXkpbSteKwW23fqr5TUqKmXZftSZHL88V8xz7fjp2XutrQv"
             },
 21: {
-                address: "5FZYDWBud5TF7pd6Vv2Qe7cTu1pPtNA4SMyuEBb7FcXhzSyk"
+                address: "5GoGwSzo8FNckqrLfK7AD8pH4sZf8xbeKfWm4kjK6x9BbncA"
             },
 22: {
-                address: "5CJmV3fUYNgrJW7qfzT7vCYp5UMzwiVdzNi3SiTCCooytMA4"
+                address: "5Er66Lw6v692mZhgxhpv8wb2bDUU6qfvXYvorNZ55R9UxmDt"
             },
 23: {
-                address: "5EKb72NT6PeCnCjQwJ8rQeFh11TY1VhWV4Q2eSwi11KqW9cE"
+                address: "5CrjdDUsXCcwTbjje2ELXH4K7ZhKPDDXFTGEyRK9LMbnCrZA"
             },
 24: {
-                address: "5HPy2XvzFeSsPUGdTYi7AAvdtwnJhrEauBFmQu9qKHWwszbg"
+                address: "5EwoXbeaN5Pqgk1tcnbHmZGTKWzYxaUEoSknfCfdfnvyW7Xy"
             }
     },
     content: GAME_UNIFIERS

@@ -25,14 +25,14 @@ class GameContractImpl implements IGameContract {
             proofSize: new BN("200000"),
         });
         const transferValue = N * buyOffer[0];
-        console.log("GameContractImpl.buy", itemId, N, buyOffer, transferValue);
+        // console.log("GameContractImpl.buy", itemId, N, buyOffer, transferValue);
         const callResult = await this._chain.signAndSend(
             contractApi.tx.buy(
                 { gasLimit, storageDepositLimit: null, value: `1000000000000` },
                 itemId,
             )
         );
-        console.log("GameContractImpl.buy", callResult);
+        // console.log("GameContractImpl.buy", callResult);
     }
 
     async craft(a: number, b: number): Promise<void> {
@@ -48,7 +48,7 @@ class GameContractImpl implements IGameContract {
             }
         }
 
-        console.log("GameContractImpl.craft", a, b, foundRecipe);
+        // console.log("GameContractImpl.craft", a, b, foundRecipe);
 
         if (foundRecipe) {
             const contractApi = await this._chain.getContract({ name: "game" });
@@ -89,7 +89,7 @@ class GameContractImpl implements IGameContract {
         if (!outputJson || outputJson["ok"] === undefined) {
             throw new Error("Invalid output");
         }
-        console.log("GameContractImpl.buyOffer", outputJson);
+        // console.log("GameContractImpl.buyOffer", outputJson);
         return outputJson.ok.ok;
     }
 
@@ -187,10 +187,10 @@ class GameContractImpl implements IGameContract {
         ));
         const outputJson = output?.toJSON() as any;
         if (!outputJson || outputJson["ok"] === undefined) {
-            console.log("GameContractImpl.pool ***", outputJson);
+            // console.log("GameContractImpl.pool ***", outputJson);
             throw new Error("Invalid output");
         }
-        console.log("GameContractImpl.pool", outputJson);
+        // console.log("GameContractImpl.pool", outputJson);
         return outputJson.ok.ok;
     }
 }

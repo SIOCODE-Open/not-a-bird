@@ -33,7 +33,7 @@ class ElementContractImpl implements IElementContract {
         if (!outputJson || outputJson["ok"] === undefined) {
             throw new Error("Invalid output: " + JSON.stringify(outputJson));
         }
-        console.log("ElementContractImpl.allowance", outputJson);
+        // console.log("ElementContractImpl.allowance", outputJson);
         return outputJson.ok;
     }
 
@@ -51,7 +51,7 @@ class ElementContractImpl implements IElementContract {
                 value
             )
         );
-        console.log("ElementContractImpl.approve", callResult);
+        // console.log("ElementContractImpl.approve", callResult);
     }
 
     async balanceOf(owner: string): Promise<number> {
@@ -70,7 +70,7 @@ class ElementContractImpl implements IElementContract {
         if (!outputJson || outputJson["ok"] === undefined) {
             throw new Error("Invalid output: " + JSON.stringify(outputJson));
         }
-        console.log("ElementContractImpl.balanceOf", outputJson);
+        // console.log("ElementContractImpl.balanceOf", outputJson);
         return outputJson.ok;
 
     }
@@ -116,7 +116,7 @@ class ElementContractImpl implements IElementContract {
         if (!outputJson || outputJson["ok"] === undefined) {
             throw new Error("Invalid output: " + JSON.stringify(outputJson));
         }
-        console.log("ElementContractImpl.totalSupply", outputJson);
+        // console.log("ElementContractImpl.totalSupply", outputJson);
         return outputJson.ok;
     }
 
@@ -155,7 +155,7 @@ class ElementContractImpl implements IElementContract {
         if (!outputJson || outputJson["ok"] === undefined) {
             throw new Error("Invalid output: " + JSON.stringify(outputJson));
         }
-        console.log("ElementContractImpl.tokenDecimals", outputJson);
+        // console.log("ElementContractImpl.tokenDecimals", outputJson);
         return outputJson.ok;
     }
 
@@ -174,7 +174,7 @@ class ElementContractImpl implements IElementContract {
         if (!outputJson || outputJson["ok"] === undefined) {
             throw new Error("Invalid output: " + JSON.stringify(outputJson));
         }
-        console.log("ElementContractImpl.tokenName", outputJson);
+        // console.log("ElementContractImpl.tokenName", outputJson);
         return outputJson.ok;
     }
 
@@ -193,7 +193,7 @@ class ElementContractImpl implements IElementContract {
         if (!outputJson || outputJson["ok"] === undefined) {
             throw new Error("Invalid output: " + JSON.stringify(outputJson));
         }
-        console.log("ElementContractImpl.tokenSymbol", outputJson);
+        // console.log("ElementContractImpl.tokenSymbol", outputJson);
         return outputJson.ok;
     }
 }
