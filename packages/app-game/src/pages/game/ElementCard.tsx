@@ -136,8 +136,13 @@ export function ElementCard(
                 </>
             }
         </>)
-
-    ]}>
+    ]}
+    >
+        <p className="block is-flex is-justify-content-center is-align-items-center">
+            <figure className="image is-128x128">
+                <img className="is-rounded" src={"/assets/items/item." + elementItem.name.split(' ').map(s => s.toLowerCase()).join('') + ".png"} alt={elementItem.name} />
+            </figure>
+        </p>
         <h1 className="title">
             {elementItem.name}
         </h1>
