@@ -1,8 +1,14 @@
 # Reservoir
 
+![](/wiki/images/item.reservoir.png)
+
 **Tier**: 1
 
 Hoarder of H2O: Where all the local water droplets hang out and gossip about breaking dams and making waves!
+
+## How to make?
+
+* Combine [Water](/wiki/elements/water) and [Groundwater](/wiki/elements/groundwater) to make [Reservoir](/wiki/elements/reservoir). This process is known as [Make Reservoir](/wiki/recipes/make-reservoir).
 
 ## See also
 

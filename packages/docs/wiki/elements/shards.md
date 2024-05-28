@@ -1,8 +1,14 @@
 # Shards
 
+![](/wiki/images/item.shards.png)
+
 **Tier**: 1
 
 Fragments of a broken heart? Or just pieces of yesterday's piñata—either way, they're sharp!
+
+## How to make?
+
+* Combine [Wind](/wiki/elements/wind) and [Obsidian](/wiki/elements/obsidian) to make [Shards](/wiki/elements/shards). This process is known as [Make Shards](/wiki/recipes/make-shards).
 
 ## See also
 

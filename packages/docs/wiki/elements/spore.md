@@ -1,8 +1,14 @@
 # Spore
 
+![](/wiki/images/item.spore.png)
+
 **Tier**: 1
 
 Tiny, invisible disco balls of doom, ready to throw a rave in your sinuses!
+
+## How to make?
+
+* Combine [Fire](/wiki/elements/fire) and [Pollination](/wiki/elements/pollination) to make [Spore](/wiki/elements/spore). This process is known as [Make Spore](/wiki/recipes/make-spore).
 
 ## See also
 

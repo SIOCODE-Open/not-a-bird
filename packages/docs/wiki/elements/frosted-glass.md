@@ -1,8 +1,14 @@
 # Frosted Glass
 
+![](/wiki/images/item.frostedglass.png)
+
 **Tier**: 1
 
 Clearer than your intentions after a night out, but still elusive as your friend who promises to show up on time.
+
+## How to make?
+
+* Combine [Glass](/wiki/elements/glass) and [Water](/wiki/elements/water) to make [Frosted Glass](/wiki/elements/frosted-glass). This process is known as [Make Frosted Glass](/wiki/recipes/make-frosted-glass).
 
 ## See also
 

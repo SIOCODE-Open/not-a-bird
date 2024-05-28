@@ -1,8 +1,14 @@
 # Brick
 
+![](/wiki/images/item.brick.png)
+
 **Tier**: 1
 
 As indestructible as your WiFi on a good day, this brick could build a mansion or your Minecraft empire.
+
+## How to make?
+
+* Combine [Clay](/wiki/elements/clay) and [Earth](/wiki/elements/earth) to make [Brick](/wiki/elements/brick). This process is known as [Make Brick](/wiki/recipes/make-brick).
 
 ## See also
 

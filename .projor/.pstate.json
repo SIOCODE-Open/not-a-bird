@@ -5264,1034 +5264,1034 @@
     },
     {
       "filename": "packages/docs/wiki/elements/adobe.md",
-      "content": "# Adobe\n\n**Tier**: 1\n\nThe ancient Minecraft enchantment that grants you the power to build desert dream homes with just a handful of dirt and some water!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "5383c5dffe93b2336cd139cad30e5367d6ec904702efb5ec5fb97261cd30da06",
+      "content": "# Adobe\n\n![](/wiki/images/item.adobe.png)\n\n**Tier**: 1\n\nThe ancient Minecraft enchantment that grants you the power to build desert dream homes with just a handful of dirt and some water!\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Clay](/wiki/elements/clay) to make [Adobe](/wiki/elements/adobe). This process is known as [Make Adobe](/wiki/recipes/make-adobe).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "ea40379b9dd514a11963379e3a525232c26359fe38e378990e461f81bd1993b7",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/aquifer.md",
-      "content": "# Aquifer\n\n**Tier**: 1\n\nNature's secret underground swimming pool, perfect for when groundwater wants to chill out.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "a636bff94321547e112530e01f37101264dce9f41de312ee117d243662cdcc8e",
+      "content": "# Aquifer\n\n![](/wiki/images/item.aquifer.png)\n\n**Tier**: 1\n\nNature's secret underground swimming pool, perfect for when groundwater wants to chill out.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Watershed](/wiki/elements/watershed) to make [Aquifer](/wiki/elements/aquifer). This process is known as [Make Aquifer](/wiki/recipes/make-aquifer).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "f1a58f77ccdbd71b5bd96981b50bb12eb2dc2cc9d984f38eab3c72e64e505f28",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/aromas.md",
-      "content": "# Aromas\n\n**Tier**: 1\n\nSprinkle a bit of Hogwarts' magic under your nose and breathe in the essence of enchanted forests and dragon's breath!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "4e842081cba2813a0b08a13b009730f48a1186cf32dabcb2813f028684a45cf9",
+      "content": "# Aromas\n\n![](/wiki/images/item.aromas.png)\n\n**Tier**: 1\n\nSprinkle a bit of Hogwarts' magic under your nose and breathe in the essence of enchanted forests and dragon's breath!\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Garden](/wiki/elements/garden) to make [Aromas](/wiki/elements/aromas). This process is known as [Make Aromas](/wiki/recipes/make-aromas).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e92e11482ff99685e466471ce1c15bda8f62b91db98f3cbac05b1423f4a94a61",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/artesian-well.md",
-      "content": "# Artesian Well\n\n**Tier**: 1\n\nThe bottomless mimosa bar of water sources, constantly refilling without you lifting a finger - cheers!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "f25bfa7f0c0b13354f40a715b7411741d413b78f2df04671a06471228a6588ac",
+      "content": "# Artesian Well\n\n![](/wiki/images/item.artesianwell.png)\n\n**Tier**: 1\n\nThe bottomless mimosa bar of water sources, constantly refilling without you lifting a finger - cheers!\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Groundwater](/wiki/elements/groundwater) to make [Artesian Well](/wiki/elements/artesian-well). This process is known as [Make Artesian Well](/wiki/recipes/make-artesian-well).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "d188bf61573c34f340a9d8a71ba47c3516e323b5ad050c04df8ed6b649d56337",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/ash.md",
-      "content": "# Ash\n\n**Tier**: 1\n\nThe remains of your epic campfire story that burned out faster than your WiFi during a binge session.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "6e4cd47b80534a1e3ea34fcb8498f8658efc3be835c0bb21a1f165ee23a4e5bd",
+      "content": "# Ash\n\n![](/wiki/images/item.ash.png)\n\n**Tier**: 1\n\nThe remains of your epic campfire story that burned out faster than your WiFi during a binge session.\n\n## How to make?\n\n* Combine [Lava](/wiki/elements/lava) and [Wind](/wiki/elements/wind) to make [Ash](/wiki/elements/ash). This process is known as [Make Ash](/wiki/recipes/make-ash).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1f25180f605bf57e155770fb3b9cc07c4656a569fed608322656012764dc0af7",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/barbecue.md",
-      "content": "# Barbecue\n\n**Tier**: 1\n\nUnleash your inner pitmaster with this meat sizzle maker, as seen on grill-enthusiast reality shows!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "eb4523fa2df07d068ff312cf31d7be9572f996b8d02aaa23b69075fd3dcba624",
+      "content": "# Barbecue\n\n![](/wiki/images/item.barbecue.png)\n\n**Tier**: 1\n\nUnleash your inner pitmaster with this meat sizzle maker, as seen on grill-enthusiast reality shows!\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Charcoal](/wiki/elements/charcoal) to make [Barbecue](/wiki/elements/barbecue). This process is known as [Make Barbecue](/wiki/recipes/make-barbecue).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "d1d70453ac43af08681eacd27f85e69e68a74f5acf8fc3dd4d75e162aeb298c4",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/barricade.md",
-      "content": "# Barricade\n\n**Tier**: 1\n\nLike Gandalf facing a Balrog, it's the 'You shall not pass!' of fortifications.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "eb92a1e97b2bb9d33ab7f42222369dbd1c544ff9577d6e9e1f18aa310e425117",
+      "content": "# Barricade\n\n![](/wiki/images/item.barricade.png)\n\n**Tier**: 1\n\nLike Gandalf facing a Balrog, it's the 'You shall not pass!' of fortifications.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Wall](/wiki/elements/wall) to make [Barricade](/wiki/elements/barricade). This process is known as [Make Barricade](/wiki/recipes/make-barricade).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e070e9cb04bd6225abc2477e326f09c2cb5f55ce2b0cfdb220ebd180c4a1482d",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/basalt.md",
-      "content": "# Basalt\n\n**Tier**: 1\n\nForged in the depths of the earth, harder than your ex's heart and cooler than the underside of your pillow.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "fb2390b4f936fa0dfce31ec57afb8f817869de5cd2abce486a30bb7a3c506d00",
+      "content": "# Basalt\n\n![](/wiki/images/item.basalt.png)\n\n**Tier**: 1\n\nForged in the depths of the earth, harder than your ex's heart and cooler than the underside of your pillow.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Lava](/wiki/elements/lava) to make [Basalt](/wiki/elements/basalt). This process is known as [Make Basalt](/wiki/recipes/make-basalt).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e0fc1832efe6f02e47fc10412cd06301fc49aa26024857bd0a3e851be43a2729",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/basin.md",
-      "content": "# Basin\n\n**Tier**: 1\n\nThe Holy Grail of your bathroom, where soap bubbles dream of escape and rubber duckies rule!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "cae96282c32df5b32fe27d3c921809a104040204edaef1d264ab018f925428f1",
+      "content": "# Basin\n\n![](/wiki/images/item.basin.png)\n\n**Tier**: 1\n\nThe Holy Grail of your bathroom, where soap bubbles dream of escape and rubber duckies rule!\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Reservoir](/wiki/elements/reservoir) to make [Basin](/wiki/elements/basin). This process is known as [Make Basin](/wiki/recipes/make-basin).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "156bc7bb244fffbfa1e4d6cf488b31678a2909c1a1c9167ef2efbd81bf26ba9a",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/beach.md",
-      "content": "# Beach\n\n**Tier**: 1\n\nA sun-kissed playground where sand gets everywhere, like glitter but from hell.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "c2af19e0d095b406e9eb91ec2451b7a574784ce560675558ca2a2081005dbd0f",
+      "content": "# Beach\n\n![](/wiki/images/item.beach.png)\n\n**Tier**: 1\n\nA sun-kissed playground where sand gets everywhere, like glitter but from hell.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Sand](/wiki/elements/sand) to make [Beach](/wiki/elements/beach). This process is known as [Make Beach](/wiki/recipes/make-beach).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "818411e85a54266019c86541e220c2baf7bf3097129e9fb3e200e47f84160486",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/bear.md",
-      "content": "# Bear\n\n**Tier**: 1\n\nThis fuzzy giant decided to move out of the forest and into your nightmares on the advice of its therapist, Yogi.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "6b7ea7c5d9fb2defadc3caa9897206d08b807623a874fef942747153ff64edc0",
+      "content": "# Bear\n\n![](/wiki/images/item.bear.png)\n\n**Tier**: 1\n\nThis fuzzy giant decided to move out of the forest and into your nightmares on the advice of its therapist, Yogi.\n\n## How to make?\n\n_There is no way to make Bear. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "eddc73c6b0c891d2f408476409b0674a6e3f24384acf0c83762ef886e32a4c62",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/bee.md",
-      "content": "# Bee\n\n**Tier**: 1\n\nThe buzzing little cousin of Buzzie Lightyear, Defender of the Flora and Champion of Sweetness!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "2f29ff7a7398545608a8c4b3e3550d67a9133bc00fce503a50cfbc42d932707e",
+      "content": "# Bee\n\n![](/wiki/images/item.bee.png)\n\n**Tier**: 1\n\nThe buzzing little cousin of Buzzie Lightyear, Defender of the Flora and Champion of Sweetness!\n\n## How to make?\n\n_There is no way to make Bee. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "909920cec3182b894cf54901c3eb6d899cfaf87b38e27a0bfd8aea4c4d99bf05",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/beer.md",
-      "content": "# Beer\n\n**Tier**: 2\n\nThe golden elixir of the gods, best enjoyed when your quest log is empty and your dance moves are questionable.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "d8f5b2eb1d8d2ff132ead9e9fdc68b54cd8319db653c1ca0bf6f6d2c9fd54de4",
+      "content": "# Beer\n\n![](/wiki/images/item.beer.png)\n\n**Tier**: 2\n\nThe golden elixir of the gods, best enjoyed when your quest log is empty and your dance moves are questionable.\n\n## How to make?\n\n* Combine [Bee](/wiki/elements/bee) and [Bear](/wiki/elements/bear) to make [Beer](/wiki/elements/beer). This process is known as [Make Beer](/wiki/recipes/make-beer).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3bf937b5264e12fa9c6711d5082af5dc5d2144f1e2f39a1d84cad79e3b391511",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/block.md",
-      "content": "# Block\n\n**Tier**: 1\n\nLike adult Legos, but less fun and more about stopping that lava from ruining your day!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "2fd4dadb8ac9fe2646145810121f1bf001a4f5b8329f45513152d1b0ee357130",
+      "content": "# Block\n\n![](/wiki/images/item.block.png)\n\n**Tier**: 1\n\nLike adult Legos, but less fun and more about stopping that lava from ruining your day!\n\n## How to make?\n\n_There is no way to make Block. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "95ac7b569fe15214f296c1d8d75db8b52c9138e9adf7fbccf18f05066220af4e",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/blockchain.md",
-      "content": "# Blockchain\n\n**Tier**: 1\n\nThe magical internet ledger of destiny that Satoshi dreamt up, where everything is transparent, immutable, and forever entwined like the plot of a Christopher Nolan movie.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "d5afd55cd530aa68784a4764d81b5942e7097ec8d1333aec3fa6cea16774c6b4",
+      "content": "# Blockchain\n\n![](/wiki/images/item.blockchain.png)\n\n**Tier**: 1\n\nThe magical internet ledger of destiny that Satoshi dreamt up, where everything is transparent, immutable, and forever entwined like the plot of a Christopher Nolan movie.\n\n## How to make?\n\n_There is no way to make Blockchain. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4d46d985242f69176b4f1d4670f5176d0f6a2088660235aa22e9b4b235b031ab",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/blowhole.md",
-      "content": "# Blowhole\n\n**Tier**: 1\n\nThe marine mammal's N64 controller button for an epic H2O power-up!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "2ba8806888b75651c00ef5d708b98ad6725066861def10d35e33ef477d74e092",
+      "content": "# Blowhole\n\n![](/wiki/images/item.blowhole.png)\n\n**Tier**: 1\n\nThe marine mammal's N64 controller button for an epic H2O power-up!\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Karst](/wiki/elements/karst) to make [Blowhole](/wiki/elements/blowhole). This process is known as [Make Blowhole](/wiki/recipes/make-blowhole).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "9b0df89af352904fe27e30dae84c002d5a1638cb87c163269d21b8700b617d0c",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/breeze.md",
-      "content": "# Breeze\n\n**Tier**: 1\n\nLike Gandalf's whisper, this gentle wind will casually rearrange your bad hair day.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "97bc393f419fb5b45cbad0ea5127dd138c7251e9fc24eed9af401d0df6816fd2",
+      "content": "# Breeze\n\n![](/wiki/images/item.breeze.png)\n\n**Tier**: 1\n\nLike Gandalf's whisper, this gentle wind will casually rearrange your bad hair day.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Dust](/wiki/elements/dust) to make [Breeze](/wiki/elements/breeze). This process is known as [Make Breeze](/wiki/recipes/make-breeze).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4abf14d64f961a6a5859820bc07afa1c4608deb2449447e050a4659dd9fc927b",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/brick.md",
-      "content": "# Brick\n\n**Tier**: 1\n\nAs indestructible as your WiFi on a good day, this brick could build a mansion or your Minecraft empire.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "3f524449d729d3ae9f9df5de643f9ffdfa7259fdded547dad1b3166cda7872a8",
+      "content": "# Brick\n\n![](/wiki/images/item.brick.png)\n\n**Tier**: 1\n\nAs indestructible as your WiFi on a good day, this brick could build a mansion or your Minecraft empire.\n\n## How to make?\n\n* Combine [Clay](/wiki/elements/clay) and [Earth](/wiki/elements/earth) to make [Brick](/wiki/elements/brick). This process is known as [Make Brick](/wiki/recipes/make-brick).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "dd48f4959e0523925a20732b6072c17dedd5312bd3a2ed467265d0a2581b8884",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/bridge.md",
-      "content": "# Bridge\n\n**Tier**: 2\n\nThe majestic road-over-nothing, perfect for trolls and billy goats alike.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "46163e84f3dfd42ba9420968a250f9e4a59eb7373267e03cc772aead2f2748fb",
+      "content": "# Bridge\n\n![](/wiki/images/item.bridge.png)\n\n**Tier**: 2\n\nThe majestic road-over-nothing, perfect for trolls and billy goats alike.\n\n## How to make?\n\n* Combine [Monkey Branch](/wiki/elements/monkey-branch) and [Monkey Branch](/wiki/elements/monkey-branch) to make [Bridge](/wiki/elements/bridge). This process is known as [Make Bridge](/wiki/recipes/make-bridge).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "79d0752df9c10e1cb7ecef6bb3370386f4ca44a048bad8992fda8a252ec0e175",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/brook.md",
-      "content": "# Brook\n\n**Tier**: 1\n\nWhere baby rivers are born and sent to Hogwarts.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "79ec13824ff5679a417f4bfe204ccfdd5519e900351a75d0ec6476c47cd87192",
+      "content": "# Brook\n\n![](/wiki/images/item.brook.png)\n\n**Tier**: 1\n\nWhere baby rivers are born and sent to Hogwarts.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Creek](/wiki/elements/creek) to make [Brook](/wiki/elements/brook). This process is known as [Make Brook](/wiki/recipes/make-brook).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "66cdc3603f2ac5f1ec03cd7f631875e3b94e6b969aee39d7b4d5abb4b9232108",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/canyon.md",
-      "content": "# Canyon\n\n**Tier**: 1\n\nNature's gigantic frown; perfect for epic echoes and bottomless pratfalls.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "e8459b801c10c305e4d1e92bf87755e7f55d3818a4b36d3020f3334143f5f28e",
+      "content": "# Canyon\n\n![](/wiki/images/item.canyon.png)\n\n**Tier**: 1\n\nNature's gigantic frown; perfect for epic echoes and bottomless pratfalls.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Erosion](/wiki/elements/erosion) to make [Canyon](/wiki/elements/canyon). This process is known as [Make Canyon](/wiki/recipes/make-canyon).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a511ca46500e3ce86b975623e16a9f34ef53982a54cfd2e6018618c59771cf42",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/cardano.md",
-      "content": "# Cardano\n\n**Tier**: 2\n\nTime to unleash the blockchain beast that's more confusing than an IKEA assembly manual!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "2063df8c656a20aafdb450090db8261574348edb3032fd2ef5ba24835e6423fb",
+      "content": "# Cardano\n\n![](/wiki/images/item.cardano.png)\n\n**Tier**: 2\n\nTime to unleash the blockchain beast that's more confusing than an IKEA assembly manual!\n\n## How to make?\n\n* Combine [Blockchain](/wiki/elements/blockchain) and [Peer Review](/wiki/elements/peer-review) to make [Cardano](/wiki/elements/cardano). This process is known as [Make Cardano](/wiki/recipes/make-cardano).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "41fb4cca0b445badcd0d66f5d9233b03deae6566f1d61af2b6ba68003d2a2fd4",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/cave.md",
-      "content": "# Cave\n\n**Tier**: 1\n\nA dark, damp Airbnb for bats and trolls, with zero Wi-Fi signal but plenty of natural 'rockitecture'.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "dc1f1fd150bcf006144b5a7c123e18ebbc92aab1e065178cda6620b7a0b89a9c",
+      "content": "# Cave\n\n![](/wiki/images/item.cave.png)\n\n**Tier**: 1\n\nA dark, damp Airbnb for bats and trolls, with zero Wi-Fi signal but plenty of natural 'rockitecture'.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Echo](/wiki/elements/echo) to make [Cave](/wiki/elements/cave). This process is known as [Make Cave](/wiki/recipes/make-cave).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "8431dff23aa1348e3e8499ec805ab9780eeec415f3ade04d27e5e836610b9eb6",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/charcoal.md",
-      "content": "# Charcoal\n\n**Tier**: 1\n\nThe BBQ Master's secret ingredient for transforming your steaks from zero to hero faster than you can say 'Grill-Zilla!'\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "403e88eb6136a58de90a8157d994f63314e869ddbd0342fc30942a11ae64bbd0",
+      "content": "# Charcoal\n\n![](/wiki/images/item.charcoal.png)\n\n**Tier**: 1\n\nThe BBQ Master's secret ingredient for transforming your steaks from zero to hero faster than you can say 'Grill-Zilla!'\n\n## How to make?\n\n* Combine [Tree](/wiki/elements/tree) and [Fire](/wiki/elements/fire) to make [Charcoal](/wiki/elements/charcoal). This process is known as [Make Charcoal](/wiki/recipes/make-charcoal).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "cb8bcdf24ab52cd72240b15c1f6cd56771720aaa6fd69f741f63b1d816e23072",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/charred-ravine.md",
-      "content": "# Charred Ravine\n\n**Tier**: 1\n\nA spicy hot potato chip of doom, hotter than a dragon's sneeze in a volcano.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "19c1709e936a82084333d7a090902b56bf6511da0ec25745fcb1545e5899bd27",
+      "content": "# Charred Ravine\n\n![](/wiki/images/item.charredravine.png)\n\n**Tier**: 1\n\nA spicy hot potato chip of doom, hotter than a dragon's sneeze in a volcano.\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Ravine](/wiki/elements/ravine) to make [Charred Ravine](/wiki/elements/charred-ravine). This process is known as [Make Charred Ravine](/wiki/recipes/make-charred-ravine).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "b0271666a4fb05d85dd066c01d300d38b9b68c0315a2c3981423f9d35a474a94",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/clay.md",
-      "content": "# Clay\n\n**Tier**: 1\n\nMold this earthy Play-Doh into something magical, or just make yourself a new best friend, Wilson style!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "acb59319f03f1c0a0e2dadc1e4e773bd734129612b67422478f2d95aa80cc2dc",
+      "content": "# Clay\n\n![](/wiki/images/item.clay.png)\n\n**Tier**: 1\n\nMold this earthy Play-Doh into something magical, or just make yourself a new best friend, Wilson style!\n\n## How to make?\n\n* Combine [Mud](/wiki/elements/mud) and [Fire](/wiki/elements/fire) to make [Clay](/wiki/elements/clay). This process is known as [Make Clay](/wiki/recipes/make-clay).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "60b9da2e854d9c24d4a6453104d47844ddd09d1c2c5b8cb10ca7ad665c41c4e0",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/cloud.md",
-      "content": "# Cloud\n\n**Tier**: 1\n\nFluffier than marshmallows and moodier than a teenager, this sky cotton candy hides the secrets of the weather gods.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "2c40ae742691c18111f5d5427331f54e9d71ad9aff2e9cf2beb35a1e2c3bb4cb",
+      "content": "# Cloud\n\n![](/wiki/images/item.cloud.png)\n\n**Tier**: 1\n\nFluffier than marshmallows and moodier than a teenager, this sky cotton candy hides the secrets of the weather gods.\n\n## How to make?\n\n* Combine [Smoke](/wiki/elements/smoke) and [Water](/wiki/elements/water) to make [Cloud](/wiki/elements/cloud). This process is known as [Make Cloud](/wiki/recipes/make-cloud).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "9bcdb8416de49b46d8ef17b406e0707dad75c573c0f50cb5f696b7f26bbcefeb",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/coin.md",
-      "content": "# Coin\n\n**Tier**: 1\n\nMore valuable than a chest full of dragon's gold, this shiny round thing makes NPCs do your bidding.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "6a9d0d7f681ff986809a39c6601eee8f928ce91e90a92668465eddcd61e7d752",
+      "content": "# Coin\n\n![](/wiki/images/item.coin.png)\n\n**Tier**: 1\n\nMore valuable than a chest full of dragon's gold, this shiny round thing makes NPCs do your bidding.\n\n## How to make?\n\n_There is no way to make Coin. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "495e500e473fb90ecb188b4403cf34bf8cf324edb3bf953b53e15388b7ce6eda",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/cool-breeze.md",
-      "content": "# Cool Breeze\n\n**Tier**: 1\n\nAs refreshing as a surprise pizza party in summer, but with zero calories!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "444f3bbfeba80bbf28f5e0ff5536298e60a6064dc2981f6ba91303c5d68ae37c",
+      "content": "# Cool Breeze\n\n![](/wiki/images/item.coolbreeze.png)\n\n**Tier**: 1\n\nAs refreshing as a surprise pizza party in summer, but with zero calories!\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Spring](/wiki/elements/spring) to make [Cool Breeze](/wiki/elements/cool-breeze). This process is known as [Make Cool Breeze](/wiki/recipes/make-cool-breeze).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "757ac9e9c109f56d3b514480d3bea682ea459de63029749775fe7514b715658c",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/coral.md",
-      "content": "# Coral\n\n**Tier**: 1\n\nNature's underwater apartment complex—complete with quirky neighbors!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "da02240ece65355fdf330e946c8a1b6c4a2d50626daf343c0d97ea4e22b65228",
+      "content": "# Coral\n\n![](/wiki/images/item.coral.png)\n\n**Tier**: 1\n\nNature's underwater apartment complex—complete with quirky neighbors!\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Reef](/wiki/elements/reef) to make [Coral](/wiki/elements/coral). This process is known as [Make Coral](/wiki/recipes/make-coral).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3ff290b064e7de92ee92ad2500357ab1c67ead021b8bf66a6340042626efa9c6",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/creek.md",
-      "content": "# Creek\n\n**Tier**: 1\n\nTiny river, think of it as a baby Amazon just learning to meme.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "94c2b99daaeb877613821bf18e3a289644d264f7d033137e3676ea3e9e558867",
+      "content": "# Creek\n\n![](/wiki/images/item.creek.png)\n\n**Tier**: 1\n\nTiny river, think of it as a baby Amazon just learning to meme.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Stream](/wiki/elements/stream) to make [Creek](/wiki/elements/creek). This process is known as [Make Creek](/wiki/recipes/make-creek).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "2191e6fbe5494664e5edd000f68367cbd3ba8ee0a64edc643a705dcda1efb55a",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/crystal.md",
-      "content": "# Crystal\n\n**Tier**: 1\n\nShiny as Edward Cullen and twice as sparkly in the moonlight!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "42049dd463ecd9879a2020dcdc6c19dbf2bfa612a5bbf17738296014bfbdebac",
+      "content": "# Crystal\n\n![](/wiki/images/item.crystal.png)\n\n**Tier**: 1\n\nShiny as Edward Cullen and twice as sparkly in the moonlight!\n\n## How to make?\n\n* Combine [Glass](/wiki/elements/glass) and [Earth](/wiki/elements/earth) to make [Crystal](/wiki/elements/crystal). This process is known as [Make Crystal](/wiki/recipes/make-crystal).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3a497851cc854cc429be26f20f1f6cb91daac3090a07afde72531a845329ee39",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/dam.md",
-      "content": "# Dam\n\n**Tier**: 1\n\nThe Dwayne 'The Rock' Johnson of water barriers, holding back the wet with sheer muscle.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "08b33a67696a9495441dc390218124c1102dab976cac69373766b15f6eb8899a",
+      "content": "# Dam\n\n![](/wiki/images/item.dam.png)\n\n**Tier**: 1\n\nThe Dwayne 'The Rock' Johnson of water barriers, holding back the wet with sheer muscle.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Wall](/wiki/elements/wall) to make [Dam](/wiki/elements/dam). This process is known as [Make Dam](/wiki/recipes/make-dam).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "bcd3dcf415e3677415282127cf6a93f8f6ad478e27c261430b0cb031bd293677",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/delta.md",
-      "content": "# Delta\n\n**Tier**: 1\n\nThe river’s final boss battle, where water splits like an indecisive rom-com character in the season finale.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "c8df7de0fe661039adcd2c928fd024f941b0274eecbc4afb9ee6c7428cac6278",
+      "content": "# Delta\n\n![](/wiki/images/item.delta.png)\n\n**Tier**: 1\n\nThe river’s final boss battle, where water splits like an indecisive rom-com character in the season finale.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [River](/wiki/elements/river) to make [Delta](/wiki/elements/delta). This process is known as [Make Delta](/wiki/recipes/make-delta).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "933eb9d968fae334c9b6295b1ce2074e5fb157ff0f4ad7a3578a73227d362282",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/depression.md",
-      "content": "# Depression\n\n**Tier**: 1\n\nFeeling like Eeyore in a world full of Tiggers.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "b790e904ec1a6d646ad429d07b0eb38203c28fb1310156e4e4ba7c6e8ee5fe69",
+      "content": "# Depression\n\n![](/wiki/images/item.depression.png)\n\n**Tier**: 1\n\nFeeling like Eeyore in a world full of Tiggers.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Basin](/wiki/elements/basin) to make [Depression](/wiki/elements/depression). This process is known as [Make Depression](/wiki/recipes/make-depression).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "86d68655f60e9fa1addeff6c3e58ef0e7810896f0d9bec565cf7f3be6073fe93",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/desert.md",
-      "content": "# Desert\n\n**Tier**: 1\n\nA vast sandbox of banishment where even cacti consider sunblock.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "9e1ff9c4542d7ac61750cccea7792913894df1a7be89e66c92ba8237d98a5229",
+      "content": "# Desert\n\n![](/wiki/images/item.desert.png)\n\n**Tier**: 1\n\nA vast sandbox of banishment where even cacti consider sunblock.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Beach](/wiki/elements/beach) to make [Desert](/wiki/elements/desert). This process is known as [Make Desert](/wiki/recipes/make-desert).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "314b13b84fc11becc98121c9c7a2997d49911dff1f66aa26117f7c4c1ab63308",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/dry-basin.md",
-      "content": "# Dry Basin\n\n**Tier**: 1\n\nA bowl so devoid of moisture, even SpongeBob would dry up in here.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "fd1183b63b3d6dc94b8cadb36c64cdcd0fa00d895c1867d71190ac061a6c020f",
+      "content": "# Dry Basin\n\n![](/wiki/images/item.drybasin.png)\n\n**Tier**: 1\n\nA bowl so devoid of moisture, even SpongeBob would dry up in here.\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Basin](/wiki/elements/basin) to make [Dry Basin](/wiki/elements/dry-basin). This process is known as [Make Dry Basin](/wiki/recipes/make-dry-basin).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "92635c5d136ea0b1be97566f1000736be55381add13a49c52f5f47e53025bab8",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/dune.md",
-      "content": "# Dune\n\n**Tier**: 1\n\nGet ready to channel your inner Muad'Dib and rule the sandy seas while dodging giant worms and political plots!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "b01da5772040819da3e834599a3912d55b761350ce06786c6990583eb9d0757c",
+      "content": "# Dune\n\n![](/wiki/images/item.dune.png)\n\n**Tier**: 1\n\nGet ready to channel your inner Muad'Dib and rule the sandy seas while dodging giant worms and political plots!\n\n## How to make?\n\n* Combine [Sand](/wiki/elements/sand) and [Wind](/wiki/elements/wind) to make [Dune](/wiki/elements/dune). This process is known as [Make Dune](/wiki/recipes/make-dune).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "62b188eeb5f33219e9825c85ecfec1e0e8a704c01e8d1bdab8c8d01ae5c1d131",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/dust.md",
-      "content": "# Dust\n\n**Tier**: 1\n\nThe forgotten remains of battles long past, or your enemy when you forget to clean under the sofa.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "221fd899fea8ed126db1d80baece5e7e4d6a016be74fe1cc76fbf9ee8c691732",
+      "content": "# Dust\n\n![](/wiki/images/item.dust.png)\n\n**Tier**: 1\n\nThe forgotten remains of battles long past, or your enemy when you forget to clean under the sofa.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Earth](/wiki/elements/earth) to make [Dust](/wiki/elements/dust). This process is known as [Make Dust](/wiki/recipes/make-dust).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "df500ed2aafbbcb2196393cfeb998252fc36b91fc564c1ae9d4469b99bd77bd9",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/earth.md",
-      "content": "# Earth\n\n**Tier**: 1\n\nBecause who doesn't want a handful of dirt from Mother Nature's handbag?\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "d7821bafaaf61ce0381568e9cfcd97550d03606b844d712e94d3240b6ea7e2c5",
+      "content": "# Earth\n\n![](/wiki/images/item.earth.png)\n\n**Tier**: 1\n\nBecause who doesn't want a handful of dirt from Mother Nature's handbag?\n\n## How to make?\n\n_There is no way to make Earth. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "f05aaedd2b05a8e3ae5d6001c90c4029fcbc04b7cbd744570223d17883ee4fe8",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/echo.md",
-      "content": "# Echo\n\n**Tier**: 1\n\nIt's like shouting into a canyon, but the canyon actually cares about what you said and keeps repeating it back.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "77a285329f6a218377a31acf20538035cab1f453fcf940869fd9f780d3e6515a",
+      "content": "# Echo\n\n![](/wiki/images/item.echo.png)\n\n**Tier**: 1\n\nIt's like shouting into a canyon, but the canyon actually cares about what you said and keeps repeating it back.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Ravine](/wiki/elements/ravine) to make [Echo](/wiki/elements/echo). This process is known as [Make Echo](/wiki/recipes/make-echo).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "cf15048b66a9b07d7e8c79f05c31e44af373db40984fc9102a5822c3a20eede5",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/ember.md",
-      "content": "# Ember\n\n**Tier**: 1\n\nLike a tiny dragon's sneeze, this little spark packs a fiery punch!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "1e3e883a0977ed39ef0d7f68c12c691bde1a36c5ce7cca81cba121297d39cec6",
+      "content": "# Ember\n\n![](/wiki/images/item.ember.png)\n\n**Tier**: 1\n\nLike a tiny dragon's sneeze, this little spark packs a fiery punch!\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Ash](/wiki/elements/ash) to make [Ember](/wiki/elements/ember). This process is known as [Make Ember](/wiki/recipes/make-ember).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7e7296ca9a34ba2a1e9ecb02cefaf00fbb9f293a9ce2202f015a035db25f02e0",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/erosion.md",
-      "content": "# Erosion\n\n**Tier**: 1\n\nNature's slow-motion magic trick, turning mighty mountains into beach sand one grain at a time.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "380f4a3f15628b62c0028ff8a6be96e355af6bd5f95e3ffaf5e5a0a9b1d38e1b",
+      "content": "# Erosion\n\n![](/wiki/images/item.erosion.png)\n\n**Tier**: 1\n\nNature's slow-motion magic trick, turning mighty mountains into beach sand one grain at a time.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Rock](/wiki/elements/rock) to make [Erosion](/wiki/elements/erosion). This process is known as [Make Erosion](/wiki/recipes/make-erosion).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "cb9cb3b03af110b73ea1213893058b374f939802dc43a9755d56c7fc69b48179",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/estuary.md",
-      "content": "# Estuary\n\n**Tier**: 1\n\nWhere the river meets the sea, like the ultimate mashup album nobody asked for but everyone loves.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "87fd2da4440864a7ee33322bbd8a0134449013197de4c9f8dd6585c36e61083b",
+      "content": "# Estuary\n\n![](/wiki/images/item.estuary.png)\n\n**Tier**: 1\n\nWhere the river meets the sea, like the ultimate mashup album nobody asked for but everyone loves.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Delta](/wiki/elements/delta) to make [Estuary](/wiki/elements/estuary). This process is known as [Make Estuary](/wiki/recipes/make-estuary).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "8e96c4056258a8763bcb0092f4b5966b600bcac80f207648824d490a0db6feb1",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/eternal-flame.md",
-      "content": "# Eternal Flame\n\n**Tier**: 1\n\nHotter than a dragon's sneeze, this flame burns with the angst of a thousand rejected pop stars!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "8b9eea4b253b104300de190f573ccdf3764eba6c36f789e493ca1ca5cf3fcc40",
+      "content": "# Eternal Flame\n\n![](/wiki/images/item.eternalflame.png)\n\n**Tier**: 1\n\nHotter than a dragon's sneeze, this flame burns with the angst of a thousand rejected pop stars!\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Monument](/wiki/elements/monument) to make [Eternal Flame](/wiki/elements/eternal-flame). This process is known as [Make Eternal Flame](/wiki/recipes/make-eternal-flame).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7bc2f23330a0e0304ddfa9c6ef38025ffb66d9dee6771c30bf29112c7ec2dd75",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/farm.md",
-      "content": "# Farm\n\n**Tier**: 1\n\nThe ultimate pre-industrial protein shake factory, where plants and animals live in suspenseful harmony waiting to be useful.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "e19f011849ed91f12ac237558124fff702b1610e350ee006a32f1e13f27eec90",
+      "content": "# Farm\n\n![](/wiki/images/item.farm.png)\n\n**Tier**: 1\n\nThe ultimate pre-industrial protein shake factory, where plants and animals live in suspenseful harmony waiting to be useful.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Seeds](/wiki/elements/seeds) to make [Farm](/wiki/elements/farm). This process is known as [Make Farm](/wiki/recipes/make-farm).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4a6804287ad662fb0b8145784b2b1b875377d98c3986ef870768f4783d6ae894",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/fertile-land.md",
-      "content": "# Fertile Land\n\n**Tier**: 1\n\nAs luxurious and bountiful as Bob Ross’s paint palette, it's the MVP of Mother Nature's garden party.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "72fa19162dc2e7369d7ae7569e722eb592e6a4245ae5ad510b2d5d5ca1efc824",
+      "content": "# Fertile Land\n\n![](/wiki/images/item.fertileland.png)\n\n**Tier**: 1\n\nAs luxurious and bountiful as Bob Ross’s paint palette, it's the MVP of Mother Nature's garden party.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Soil](/wiki/elements/soil) to make [Fertile Land](/wiki/elements/fertile-land). This process is known as [Make Fertile Land](/wiki/recipes/make-fertile-land).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1d12d1baa00a313768ae049459053daa0e12fdb34f6d966a3d45b1b0f8751199",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/fertilizer.md",
-      "content": "# Fertilizer\n\n**Tier**: 1\n\nSprinkle a little of this magic dust and watch your plants grow faster than a YouTube tutorial on 'getting rich quick!'\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "11fd10eb61397f8fc42b2fb69995bda004a9bc64ce74f13bf17fd10cf0b422ca",
+      "content": "# Fertilizer\n\n![](/wiki/images/item.fertilizer.png)\n\n**Tier**: 1\n\nSprinkle a little of this magic dust and watch your plants grow faster than a YouTube tutorial on 'getting rich quick!'\n\n## How to make?\n\n* Combine [Ash](/wiki/elements/ash) and [Earth](/wiki/elements/earth) to make [Fertilizer](/wiki/elements/fertilizer). This process is known as [Make Fertilizer](/wiki/recipes/make-fertilizer).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1800e602862c1bc622b81de78587bfc55529a684195cf9d2560c216f97d50a7a",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/fire-swamp.md",
-      "content": "# Fire Swamp\n\n**Tier**: 1\n\nEnter at your own risk and remember, the trees have a fiery personality akin to dragons after a spicy taco night!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "2089cf3e5ef7074d410db1ce3ad4d36842f4ba3ec38f180019d5f6022924c99f",
+      "content": "# Fire Swamp\n\n![](/wiki/images/item.fireswamp.png)\n\n**Tier**: 1\n\nEnter at your own risk and remember, the trees have a fiery personality akin to dragons after a spicy taco night!\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Delta](/wiki/elements/delta) to make [Fire Swamp](/wiki/elements/fire-swamp). This process is known as [Make Fire Swamp](/wiki/recipes/make-fire-swamp).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "392611da619659c1edcd9b01792f2d50e0e75ed03cf9356287eb52b4e3f6955e",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/fire.md",
-      "content": "# Fire\n\n**Tier**: 1\n\nSummon a flickering tongue of destruction that makes dragons envious and marshmallows tremble in awe!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "0f0d8f120ed9ab75dc072115307c45d0c6021a8bde16d14d1b18fff4beebde6c",
+      "content": "# Fire\n\n![](/wiki/images/item.fire.png)\n\n**Tier**: 1\n\nSummon a flickering tongue of destruction that makes dragons envious and marshmallows tremble in awe!\n\n## How to make?\n\n_There is no way to make Fire. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "bd752a7e997d97b1f6072c925454d8b102e0016027fed6912537fc75bfbeace6",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/firewall.md",
-      "content": "# Firewall\n\n**Tier**: 1\n\nThe Gandalf of cybersecurity: 'You shall not pass!'\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "1b825250ff7fd36a80a27365f3faac3f6cb4f8e28563a6b33d89fe1555291068",
+      "content": "# Firewall\n\n![](/wiki/images/item.firewall.png)\n\n**Tier**: 1\n\nThe Gandalf of cybersecurity: 'You shall not pass!'\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Wall](/wiki/elements/wall) to make [Firewall](/wiki/elements/firewall). This process is known as [Make Firewall](/wiki/recipes/make-firewall).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0f150eb6f757dd03d1138b47017912322fa4138ec406a04c37c9db2f083259a1",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/flood.md",
-      "content": "# Flood\n\n**Tier**: 1\n\nWhen Mother Nature throws the ultimate pool party and forgets to send the 'BYO life jacket' memo.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "10f8937467cd45e8c28ad8c000ec4aff2b41cef507d816573d2352d9e6d2202d",
+      "content": "# Flood\n\n![](/wiki/images/item.flood.png)\n\n**Tier**: 1\n\nWhen Mother Nature throws the ultimate pool party and forgets to send the 'BYO life jacket' memo.\n\n## How to make?\n\n* Combine [Storm](/wiki/elements/storm) and [Water](/wiki/elements/water) to make [Flood](/wiki/elements/flood). This process is known as [Make Flood](/wiki/recipes/make-flood).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "041b5b15e0397a579e4eb98b79a3fc03c885be28cda084284cc60d5491055c3f",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/flower.md",
-      "content": "# Flower\n\n**Tier**: 1\n\nThe colorful Wi-Fi signal for bees; smells better than your ex's perfume!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "71698da32768ed6205d986966dbbe7e6f0c0736e5eac5f97380c5bf82d408971",
+      "content": "# Flower\n\n![](/wiki/images/item.flower.png)\n\n**Tier**: 1\n\nThe colorful Wi-Fi signal for bees; smells better than your ex's perfume!\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Pollination](/wiki/elements/pollination) to make [Flower](/wiki/elements/flower). This process is known as [Make Flower](/wiki/recipes/make-flower).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3e4fa6ced92a083c58e84d0193ef8c7eb2f6bd40590514be8970bf7ebef47b20",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/fog.md",
-      "content": "# Fog\n\n**Tier**: 1\n\nIt’s like someone took all the clouds, shredded them, and set them loose to play hide and seek with your vision.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "29e10d5f94cc4ae8cc80f98b2d3764d2a86b008b94c6797cb011b00722d89b64",
+      "content": "# Fog\n\n![](/wiki/images/item.fog.png)\n\n**Tier**: 1\n\nIt’s like someone took all the clouds, shredded them, and set them loose to play hide and seek with your vision.\n\n## How to make?\n\n* Combine [Smoke](/wiki/elements/smoke) and [Wind](/wiki/elements/wind) to make [Fog](/wiki/elements/fog). This process is known as [Make Fog](/wiki/recipes/make-fog).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "65a21b6e5390682dc716855bf09c69f32c316851c8af51730f05c376dbd58114",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/forest.md",
-      "content": "# Forest\n\n**Tier**: 1\n\nA dense collection of trees where even squirrels hire GPS, home of the mythical Wi-Fi-repellent green zone.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "9693c38c8e03464ba63a08e9d03399fb4db916f7ef31a021a334911bfa97c992",
+      "content": "# Forest\n\n![](/wiki/images/item.forest.png)\n\n**Tier**: 1\n\nA dense collection of trees where even squirrels hire GPS, home of the mythical Wi-Fi-repellent green zone.\n\n## How to make?\n\n* Combine [Plant](/wiki/elements/plant) and [Earth](/wiki/elements/earth) to make [Forest](/wiki/elements/forest). This process is known as [Make Forest](/wiki/recipes/make-forest).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "5540f790126f4c03a2caac9608c08c8b2819006bc3bc488e6b94360ab61f29bf",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/fountain.md",
-      "content": "# Fountain\n\n**Tier**: 1\n\nWhere wishes and coins go on a wild water slide together.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "ddd70d75e9bf2c0a841ba0e647639046e456d26455377a3e22b3c51332822efd",
+      "content": "# Fountain\n\n![](/wiki/images/item.fountain.png)\n\n**Tier**: 1\n\nWhere wishes and coins go on a wild water slide together.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Spring](/wiki/elements/spring) to make [Fountain](/wiki/elements/fountain). This process is known as [Make Fountain](/wiki/recipes/make-fountain).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "47d7c934a62423297613f2b197b4339e914713f41b95ba26ca7bea1594ab5f3a",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/fresh-breeze.md",
-      "content": "# Fresh Breeze\n\n**Tier**: 1\n\nA zephyr so crisp it could convince even Darth Vader to join a yoga retreat!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "b7b19902d66c3ab0b510f70c4e0aa03f178f8c7960fb5112b97c147176640efa",
+      "content": "# Fresh Breeze\n\n![](/wiki/images/item.freshbreeze.png)\n\n**Tier**: 1\n\nA zephyr so crisp it could convince even Darth Vader to join a yoga retreat!\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Watershed](/wiki/elements/watershed) to make [Fresh Breeze](/wiki/elements/fresh-breeze). This process is known as [Make Fresh Breeze](/wiki/recipes/make-fresh-breeze).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "68c7f7a74a61dbfc3775e8f530cb124f3cfb1a8e73e7783f88e2f515416ba960",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/frosted-glass.md",
-      "content": "# Frosted Glass\n\n**Tier**: 1\n\nClearer than your intentions after a night out, but still elusive as your friend who promises to show up on time.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "07ddb0a1d522aaed09759c14969270c98d0c01a0cec937c560b9238781564bfa",
+      "content": "# Frosted Glass\n\n![](/wiki/images/item.frostedglass.png)\n\n**Tier**: 1\n\nClearer than your intentions after a night out, but still elusive as your friend who promises to show up on time.\n\n## How to make?\n\n* Combine [Glass](/wiki/elements/glass) and [Water](/wiki/elements/water) to make [Frosted Glass](/wiki/elements/frosted-glass). This process is known as [Make Frosted Glass](/wiki/recipes/make-frosted-glass).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "9ecd9bddded3ea71215ad001f9337b6c045dffe49f04cf925bd6ceeeefa0a25a",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/garden.md",
-      "content": "# Garden\n\n**Tier**: 1\n\nNature's sunlit Wi-Fi free zone, and the original farm-to-table restaurant!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "ec5ce3b2bca31c8eff13fa10e0876c48a464f71e615caf008eda36b986725459",
+      "content": "# Garden\n\n![](/wiki/images/item.garden.png)\n\n**Tier**: 1\n\nNature's sunlit Wi-Fi free zone, and the original farm-to-table restaurant!\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Plant](/wiki/elements/plant) to make [Garden](/wiki/elements/garden). This process is known as [Make Garden](/wiki/recipes/make-garden).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "cfcc5677f02dc63d744ba0104a2f2a924941169fe13164714630739e8f82b629",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/geothermal-spring.md",
-      "content": "# Geothermal Spring\n\n**Tier**: 1\n\nMother Nature's jacuzzi, hotter than the coffee your soul relies on.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "ea4e37e380c7936259f5d9504633e3f3d596ee90d069de366cc9d77271be4624",
+      "content": "# Geothermal Spring\n\n![](/wiki/images/item.geothermalspring.png)\n\n**Tier**: 1\n\nMother Nature's jacuzzi, hotter than the coffee your soul relies on.\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Groundwater](/wiki/elements/groundwater) to make [Geothermal Spring](/wiki/elements/geothermal-spring). This process is known as [Make Geothermal Spring](/wiki/recipes/make-geothermal-spring).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "d08c725e69392c1b1924df837d615509013a61189be513207fee751a8cf6856d",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/geyser.md",
-      "content": "# Geyser\n\n**Tier**: 1\n\nMother Nature's boiling hot water cannon, now available as a decorative backyard feature!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "c7e402a17e336fe2ceebe617157025522ede6d7afa89da71963046fbd1352f0b",
+      "content": "# Geyser\n\n![](/wiki/images/item.geyser.png)\n\n**Tier**: 1\n\nMother Nature's boiling hot water cannon, now available as a decorative backyard feature!\n\n## How to make?\n\n* Combine [Steam](/wiki/elements/steam) and [Earth](/wiki/elements/earth) to make [Geyser](/wiki/elements/geyser). This process is known as [Make Geyser](/wiki/recipes/make-geyser).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "5c9ccf26051bd6f2e87e600246ce0490d6afb2c7c58115b77237178ce3675abc",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/giraffe.md",
-      "content": "# Giraffe\n\n**Tier**: 1\n\nThe long-necked, leafy buffet enthusiast that would make even a stepladder feel short.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "2e62c0368a604f583d86638fe1b438e01ad7ceb1c56fab9db572044102787ba3",
+      "content": "# Giraffe\n\n![](/wiki/images/item.giraffe.png)\n\n**Tier**: 1\n\nThe long-necked, leafy buffet enthusiast that would make even a stepladder feel short.\n\n## How to make?\n\n_There is no way to make Giraffe. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1596c12e5f9a37e7cd52fc38cf3937f718fae706ea5aa934a95d2d8cda7cc82b",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/glass.md",
-      "content": "# Glass\n\n**Tier**: 1\n\nAs delicate as your ego after a bad break-up, but see-through like your best friend's terrible poker face.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "105572b9427ceb9db43806b048f94e23838c9a993b1edcf62a8f58b51640f340",
+      "content": "# Glass\n\n![](/wiki/images/item.glass.png)\n\n**Tier**: 1\n\nAs delicate as your ego after a bad break-up, but see-through like your best friend's terrible poker face.\n\n## How to make?\n\n* Combine [Sand](/wiki/elements/sand) and [Fire](/wiki/elements/fire) to make [Glass](/wiki/elements/glass). This process is known as [Make Glass](/wiki/recipes/make-glass).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "773fe09e14de15f9046572de5d1bb6bd4f133ca21a37450af9165bd838f2d7c8",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/gold.md",
-      "content": "# Gold\n\n**Tier**: 1\n\nShinier than a disco ball at Studio 54, this glistening treasure will make Scrooge McDuck jealous!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "695a60881d5d19638091b9c0c8029214dc6278229731af713e43ab20a9609bc5",
+      "content": "# Gold\n\n![](/wiki/images/item.gold.png)\n\n**Tier**: 1\n\nShinier than a disco ball at Studio 54, this glistening treasure will make Scrooge McDuck jealous!\n\n## How to make?\n\n_There is no way to make Gold. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "db82c1f9b990f24655333a245b1eb45fc171b4613c7a43b459edf13127d555b3",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/golden-gate.md",
-      "content": "# Golden Gate\n\n**Tier**: 2\n\nThe mystical bridge that Gandalf would totally approve of, connecting realms and charging tolls in riddles.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "102c6e6f1d2766c7cf16577d2d5b249fbb36328064e8a9a46289338228f76613",
+      "content": "# Golden Gate\n\n![](/wiki/images/item.goldengate.png)\n\n**Tier**: 2\n\nThe mystical bridge that Gandalf would totally approve of, connecting realms and charging tolls in riddles.\n\n## How to make?\n\n* Combine [Coin](/wiki/elements/coin) and [Bridge](/wiki/elements/bridge) to make [Golden Gate](/wiki/elements/golden-gate). This process is known as [Make Goldengate](/wiki/recipes/make-goldengate).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "b49b512147cc576713c349f0a13bb97f2b040a450219b39d303e7e8d774cfdcc",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/gorge.md",
-      "content": "# Gorge\n\n**Tier**: 1\n\nWhen wandering through this natural wonder, remember: it's like Mother Earth's really dramatic cleavage.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "49d80be33f42cdeef24c45aa2666b71774040b42d60395217296a14a51891302",
+      "content": "# Gorge\n\n![](/wiki/images/item.gorge.png)\n\n**Tier**: 1\n\nWhen wandering through this natural wonder, remember: it's like Mother Earth's really dramatic cleavage.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Ravine](/wiki/elements/ravine) to make [Gorge](/wiki/elements/gorge). This process is known as [Make Gorge](/wiki/recipes/make-gorge).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a92210b1d911272a0538ca6930aa0c76a739185a8aa4aadaf84c2f1f034bc180",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/grotto.md",
-      "content": "# Grotto\n\n**Tier**: 1\n\nThe ultimate bachelor pad for goblins—think of it as a man cave, but with actual caves.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "656ac9f834f6a2b17bb14c343caafd67539a115af76600f5a83114933a55f216",
+      "content": "# Grotto\n\n![](/wiki/images/item.grotto.png)\n\n**Tier**: 1\n\nThe ultimate bachelor pad for goblins—think of it as a man cave, but with actual caves.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Subterranean Pool](/wiki/elements/subterranean-pool) to make [Grotto](/wiki/elements/grotto). This process is known as [Make Grotto](/wiki/recipes/make-grotto).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "300ec815505318c295b3f9eeb649a1dca9df4ee2718c9a74f33c55be347259f0",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/groundwater.md",
-      "content": "# Groundwater\n\n**Tier**: 1\n\nMother Earth's secret stash, hidden beneath her rocky garments like a hip flask at a dry wedding.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "41618f9f40e33b991a622f62c11ea3f72b5a2c7f3484d0e4f8b3ef7b7b25a4c1",
+      "content": "# Groundwater\n\n![](/wiki/images/item.groundwater.png)\n\n**Tier**: 1\n\nMother Earth's secret stash, hidden beneath her rocky garments like a hip flask at a dry wedding.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Aquifer](/wiki/elements/aquifer) to make [Groundwater](/wiki/elements/groundwater). This process is known as [Make Groundwater](/wiki/recipes/make-groundwater).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "9a690416fa6fc1d5691aba727f5e5f171057f065a94797154916a5ddfbcf1e5c",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/haze.md",
-      "content": "# Haze\n\n**Tier**: 1\n\nLike Gandalf's vape party, but a lot less fun and way more confusing.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "549171440e7b6ef45ce5737f0e391255afdcdf7060f6cdab8fcf915879b85fb7",
+      "content": "# Haze\n\n![](/wiki/images/item.haze.png)\n\n**Tier**: 1\n\nLike Gandalf's vape party, but a lot less fun and way more confusing.\n\n## How to make?\n\n* Combine [Fog](/wiki/elements/fog) and [Wind](/wiki/elements/wind) to make [Haze](/wiki/elements/haze). This process is known as [Make Haze](/wiki/recipes/make-haze).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7c4707f165384826317d8bb699772e84692ab7f6b74361c1e922634dff3bc7c7",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/hive.md",
-      "content": "# Hive\n\n**Tier**: 1\n\nWelcome to the buzzfeed mansion, where every room has a bee-convincing argument!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "557527c80db4c7a5a3ec3ae42f145be24aeb43e98dec7950a8bb4fb475481a24",
+      "content": "# Hive\n\n![](/wiki/images/item.hive.png)\n\n**Tier**: 1\n\nWelcome to the buzzfeed mansion, where every room has a bee-convincing argument!\n\n## How to make?\n\n_There is no way to make Hive. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "179def80d5844e3c924e83124bd0fa55538907c482e9c3459ac3ec1f10f7ad77",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/hot-spring.md",
-      "content": "# Hot Spring\n\n**Tier**: 1\n\nLike soaking in a jacuzzi made by Mother Nature, but without the awkward vacation photos!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "ca882c9500b44db721c18f7f101502ff68addebcd77cdb9de021dd4cf4eee717",
+      "content": "# Hot Spring\n\n![](/wiki/images/item.hotspring.png)\n\n**Tier**: 1\n\nLike soaking in a jacuzzi made by Mother Nature, but without the awkward vacation photos!\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Subterranean Pool](/wiki/elements/subterranean-pool) to make [Hot Spring](/wiki/elements/hot-spring). This process is known as [Make Hot Spring](/wiki/recipes/make-hot-spring).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "25a70eb8c7f188598f590afb16696f08e71130f42a4185cca8c100c903f6efde",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/hydra.md",
-      "content": "# Hydra\n\n**Tier**: 2\n\nWhen one head isn't enough to argue with you, this multi-headed reptilian nightmare is ready to rumble!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "cfb5844bf4ca3652ddccdcce8fe180498bd50e7709bdcc1eff2d31f22d11bb4f",
+      "content": "# Hydra\n\n![](/wiki/images/item.hydra.png)\n\n**Tier**: 2\n\nWhen one head isn't enough to argue with you, this multi-headed reptilian nightmare is ready to rumble!\n\n## How to make?\n\n* Combine [Giraffe](/wiki/elements/giraffe) and [Giraffe](/wiki/elements/giraffe) to make [Hydra](/wiki/elements/hydra). This process is known as [Make Hydra](/wiki/recipes/make-hydra).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a6bbf95993fdb018eda41c6a013374b01697a7313f0bc73aa5d9fc229cf407d5",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/hyper-marmalade.md",
-      "content": "# Hyper Marmalade\n\n**Tier**: 2\n\nLike regular marmalade, but it makes you feel like you've had a double shot of espresso and a lightning bolt to the brain!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "2c5a52bcb14d5dd589bf3c606dc655a68c565f3202ea3cf7fb52f6cfc314cfb3",
+      "content": "# Hyper Marmalade\n\n![](/wiki/images/item.hypermarmalade.png)\n\n**Tier**: 2\n\nLike regular marmalade, but it makes you feel like you've had a double shot of espresso and a lightning bolt to the brain!\n\n## How to make?\n\n* Combine [Super Marmalade](/wiki/elements/super-marmalade) and [Super Marmalade](/wiki/elements/super-marmalade) to make [Hyper Marmalade](/wiki/elements/hyper-marmalade). This process is known as [Make Hypermarmalade](/wiki/recipes/make-hypermarmalade).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "f1123d0a033a471da5c2b65aa307beb7f36f104812f7bb92a24cf117f97fa4b1",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/island.md",
-      "content": "# Island\n\n**Tier**: 1\n\nA chunk of land adrift in the ocean, like a slice of pizza floating in tomato soup.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "6bcc39121eae5dfc017587d28c536f14c0a2eec112a1deb4fef57b37ebed70f1",
+      "content": "# Island\n\n![](/wiki/images/item.island.png)\n\n**Tier**: 1\n\nA chunk of land adrift in the ocean, like a slice of pizza floating in tomato soup.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Lake](/wiki/elements/lake) to make [Island](/wiki/elements/island). This process is known as [Make Island](/wiki/recipes/make-island).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "411e6e275549c075bab667691e66f0af288c2bcf19d0c45f2ed7ecc1276bb99e",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/jungle.md",
-      "content": "# Jungle\n\n**Tier**: 1\n\nLike Tarzan's playground but with 99% more bugs and 100% less Wi-Fi.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "bad4c9e0fd7b392a161ccb91500c6d199ecd2dde3964b9301599c5f2c41d9eda",
+      "content": "# Jungle\n\n![](/wiki/images/item.jungle.png)\n\n**Tier**: 1\n\nLike Tarzan's playground but with 99% more bugs and 100% less Wi-Fi.\n\n## How to make?\n\n* Combine [Forest](/wiki/elements/forest) and [Earth](/wiki/elements/earth) to make [Jungle](/wiki/elements/jungle). This process is known as [Make Jungle](/wiki/recipes/make-jungle).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "6c47194099cbbc55adad1e87ae478168e5e707acb6f532ffdd3937f139d928ff",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/karst.md",
-      "content": "# Karst\n\n**Tier**: 1\n\nThe Swiss cheese of landscapes—full of holes, surprises, and probably a hidden treasure if you look close enough!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "3f3672031bf7c13d960c65fdb9cee70cd36c027de40db85ad1bd33855fc0bd78",
+      "content": "# Karst\n\n![](/wiki/images/item.karst.png)\n\n**Tier**: 1\n\nThe Swiss cheese of landscapes—full of holes, surprises, and probably a hidden treasure if you look close enough!\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Limestone](/wiki/elements/limestone) to make [Karst](/wiki/elements/karst). This process is known as [Make Karst](/wiki/recipes/make-karst).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "5014a0c183c66127fabf9a640b42f42117d22954e70806c4815b05ea72d8505d",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/kiln.md",
-      "content": "# Kiln\n\n**Tier**: 1\n\nThe oven that turns your pottery dreams into reality, just like Hogwarts turns kids into wizards.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "9ab291491a9e96f3196ceb0c4c804b7e5bc26eda15348166cb6ba006f5954a43",
+      "content": "# Kiln\n\n![](/wiki/images/item.kiln.png)\n\n**Tier**: 1\n\nThe oven that turns your pottery dreams into reality, just like Hogwarts turns kids into wizards.\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Pottery](/wiki/elements/pottery) to make [Kiln](/wiki/elements/kiln). This process is known as [Make Kiln](/wiki/recipes/make-kiln).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "47dd684913b82eca23721d83cff5e7172db578a1a82820733cfd7c02ccc1ea65",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/lagoon.md",
-      "content": "# Lagoon\n\n**Tier**: 1\n\nA lazy lake who's too cool to hang with the ocean, featuring more zen than a yoga retreat for dolphins.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "aec818b1b927a12c81f2c1d95b46e29f8a95a2717093f7681e7a2a3c4418c669",
+      "content": "# Lagoon\n\n![](/wiki/images/item.lagoon.png)\n\n**Tier**: 1\n\nA lazy lake who's too cool to hang with the ocean, featuring more zen than a yoga retreat for dolphins.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Lake](/wiki/elements/lake) to make [Lagoon](/wiki/elements/lagoon). This process is known as [Make Lagoon](/wiki/recipes/make-lagoon).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "bc0ebd9590f4edd5dfd2fa9e1346c3e613e4ea1b1a42c62aedbef9df69f97baa",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/lake.md",
-      "content": "# Lake\n\n**Tier**: 1\n\nNature's giant puddle, perfect for lazy fish, and where mythical creatures might just throw tea parties.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "4e779ec7a0ef9980a78d28c374c6088bf1a7257ef8c08c851dbd36ddbe468b3f",
+      "content": "# Lake\n\n![](/wiki/images/item.lake.png)\n\n**Tier**: 1\n\nNature's giant puddle, perfect for lazy fish, and where mythical creatures might just throw tea parties.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Basin](/wiki/elements/basin) to make [Lake](/wiki/elements/lake). This process is known as [Make Lake](/wiki/recipes/make-lake).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "f8ea8b7643a76be8c2048d54744e5a07c6869f1dc8a3c1fd4f70b61c53f22c53",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/landslide.md",
-      "content": "# Landslide\n\n**Tier**: 1\n\nA geological temper tantrum that sends boulders downhill faster than a caffeine-crazed squirrel on roller skates!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "70185d24098adceee0690ff03cdcdc6b673000de248de149615fbb7ddabca03a",
+      "content": "# Landslide\n\n![](/wiki/images/item.landslide.png)\n\n**Tier**: 1\n\nA geological temper tantrum that sends boulders downhill faster than a caffeine-crazed squirrel on roller skates!\n\n## How to make?\n\n* Combine [Storm](/wiki/elements/storm) and [Earth](/wiki/elements/earth) to make [Landslide](/wiki/elements/landslide). This process is known as [Make Landslide](/wiki/recipes/make-landslide).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a397423fe33a6f3ffd692d29950ba71f6e2d8d5d214b6b593ccef25105028c2a",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/lava-cave.md",
-      "content": "# Lava Cave\n\n**Tier**: 1\n\nA fiery Airbnb for fire-breathing dragons and grilled marshmallows.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "e5f726f05bde090422dcd80da7e6b565a6b2179465e1db3306a5d23cc87c61b3",
+      "content": "# Lava Cave\n\n![](/wiki/images/item.lavacave.png)\n\n**Tier**: 1\n\nA fiery Airbnb for fire-breathing dragons and grilled marshmallows.\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Cave](/wiki/elements/cave) to make [Lava Cave](/wiki/elements/lava-cave). This process is known as [Make Lava Cave](/wiki/recipes/make-lava-cave).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0d049b30fe8616f7b75c8122a6dbb6243afab420856ce2ef91acb74597150a06",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/lava.md",
-      "content": "# Lava\n\n**Tier**: 1\n\nSpicy earth salsa that guarantees an insta-tan and some crispy new shoes!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "18faea04b07a4f84827da0745968712db858d39da55cb0e9415f39c8c42ef458",
+      "content": "# Lava\n\n![](/wiki/images/item.lava.png)\n\n**Tier**: 1\n\nSpicy earth salsa that guarantees an insta-tan and some crispy new shoes!\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Earth](/wiki/elements/earth) to make [Lava](/wiki/elements/lava). This process is known as [Make Lava](/wiki/recipes/make-lava).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "c9be0ea77dbe757b9c7d635ee304638d9850a59b95d32d59e3420c059221e36c",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/leaves.md",
-      "content": "# Leaves\n\n**Tier**: 1\n\nGreen confetti for Mother Nature's never-ending party, with a hint of chlorophyll chic!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "19b4c0e68225cb2a8f2c477925a3a31fadc9b2ace15d45b043bcda2d3710c757",
+      "content": "# Leaves\n\n![](/wiki/images/item.leaves.png)\n\n**Tier**: 1\n\nGreen confetti for Mother Nature's never-ending party, with a hint of chlorophyll chic!\n\n## How to make?\n\n* Combine [Tree](/wiki/elements/tree) and [Wind](/wiki/elements/wind) to make [Leaves](/wiki/elements/leaves). This process is known as [Make Leaves](/wiki/recipes/make-leaves).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "ceb93385cb745976ff6f6b805fe0cd59b8cc32b199fe9074e2858dd46e14b033",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/lightning.md",
-      "content": "# Lightning\n\n**Tier**: 1\n\nLike Thor's tantrum in a bottle, ready to zap your foes into crispy critters!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "94d29c9082686401ae768df6b0ae90aebac6371ca71db364280281b89261c9a0",
+      "content": "# Lightning\n\n![](/wiki/images/item.lightning.png)\n\n**Tier**: 1\n\nLike Thor's tantrum in a bottle, ready to zap your foes into crispy critters!\n\n## How to make?\n\n* Combine [Cloud](/wiki/elements/cloud) and [Fire](/wiki/elements/fire) to make [Lightning](/wiki/elements/lightning). This process is known as [Make Lightning](/wiki/recipes/make-lightning).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "6cca82e9ce768480460be07c23a63a47669c822aef5af0ab1a5df08a58979235",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/limestone.md",
-      "content": "# Limestone\n\n**Tier**: 1\n\nThe rock Dwayne Johnson wished he was named after - capable of building empires and perfect for caveman graffiti.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "a7ad91b70e8a3030a30c97c8e48f5b06424ed53efa2da1acfae402986cfca458",
+      "content": "# Limestone\n\n![](/wiki/images/item.limestone.png)\n\n**Tier**: 1\n\nThe rock Dwayne Johnson wished he was named after - capable of building empires and perfect for caveman graffiti.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Coral](/wiki/elements/coral) to make [Limestone](/wiki/elements/limestone). This process is known as [Make Limestone](/wiki/recipes/make-limestone).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "40f391b8eb343b966a3705771cb853d3362e367fda107f7fc1f035e84a0ce5ae",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/lock.md",
-      "content": "# Lock\n\n**Tier**: 2\n\nWho needs a dragon when you've got this security boss blocking your treasure chest?\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "4491fa678cc46fde62d173dfca76ea95678b102ac6dc98569d7d56b9073cd34d",
+      "content": "# Lock\n\n![](/wiki/images/item.lock.png)\n\n**Tier**: 2\n\nWho needs a dragon when you've got this security boss blocking your treasure chest?\n\n## How to make?\n\n* Combine [Silver](/wiki/elements/silver) and [Silver](/wiki/elements/silver) to make [Lock](/wiki/elements/lock). This process is known as [Make Lock](/wiki/recipes/make-lock).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "58f28ae0ecfe21cf02c64c2c555b0c54275dd5106816c62f2cf08c98079008b2",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/magma-chamber.md",
-      "content": "# Magma Chamber\n\n**Tier**: 1\n\nHotter than a dragon's sneeze, this is the spicy jacuzzi of the underworld.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "d3629fd685ee1d87e45818e7d2bdf45e176ffc2c838237201d720b49fda7c3ca",
+      "content": "# Magma Chamber\n\n![](/wiki/images/item.magmachamber.png)\n\n**Tier**: 1\n\nHotter than a dragon's sneeze, this is the spicy jacuzzi of the underworld.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Lava](/wiki/elements/lava) to make [Magma Chamber](/wiki/elements/magma-chamber). This process is known as [Make Magma Chamber](/wiki/recipes/make-magma-chamber).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4f3ff0bc38f2c9e865ac6a3f40c816805626b6f7e55eb7fb0aafe88db72ed1be",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/magma.md",
-      "content": "# Magma\n\n**Tier**: 1\n\nHotter than your ex's last text, this molten rock sauce will turn enemies into toast.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "e144c114501fe6bb809ee6765821513a1dac02b6a5e7485319b672dd3ab2fe1a",
+      "content": "# Magma\n\n![](/wiki/images/item.magma.png)\n\n**Tier**: 1\n\nHotter than your ex's last text, this molten rock sauce will turn enemies into toast.\n\n## How to make?\n\n* Combine [Obsidian](/wiki/elements/obsidian) and [Fire](/wiki/elements/fire) to make [Magma](/wiki/elements/magma). This process is known as [Make Magma](/wiki/recipes/make-magma).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "86af674c99b5fea9e9bfd22eefe894b7972c0e8c6d4450646ace65db222ae067",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/marmalade.md",
-      "content": "# Marmalade\n\n**Tier**: 1\n\nThe sticky, fruity concoction that Paddington Bear would trade his hat for.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "41ed130e0f76882ee2a7f584f69f29d1aae0281d0539bd40102d98f7dd035598",
+      "content": "# Marmalade\n\n![](/wiki/images/item.marmalade.png)\n\n**Tier**: 1\n\nThe sticky, fruity concoction that Paddington Bear would trade his hat for.\n\n## How to make?\n\n_There is no way to make Marmalade. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "d9789ab29c9dd629201602cbcf1fc3bfbacc466ad01d6fff8b3addb6a14cd14d",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/mirage.md",
-      "content": "# Mirage\n\n**Tier**: 1\n\nAs elusive as your mom's Wi-Fi password and twice as frustrating to catch!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "48ef0099fb00d89bd2fac3252efbb936393ade53a82caaa8da16ea91e6deb01d",
+      "content": "# Mirage\n\n![](/wiki/images/item.mirage.png)\n\n**Tier**: 1\n\nAs elusive as your mom's Wi-Fi password and twice as frustrating to catch!\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Desert](/wiki/elements/desert) to make [Mirage](/wiki/elements/mirage). This process is known as [Make Mirage](/wiki/recipes/make-mirage).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1d02a7dc6a8ae48bbcb8f5c63367da89c662b8dd291defee03ecc2dd07333925",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/mist.md",
-      "content": "# Mist\n\n**Tier**: 1\n\nLike a ghost doing the moonwalk, it slips through your fingers and cloaks the world in mystery!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "da9f960201232edc0869102896645fc1a0ab90b63a8fd038244ea2be1bd56daa",
+      "content": "# Mist\n\n![](/wiki/images/item.mist.png)\n\n**Tier**: 1\n\nLike a ghost doing the moonwalk, it slips through your fingers and cloaks the world in mystery!\n\n## How to make?\n\n* Combine [Fog](/wiki/elements/fog) and [Earth](/wiki/elements/earth) to make [Mist](/wiki/elements/mist). This process is known as [Make Mist](/wiki/recipes/make-mist).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "af92b8737406618566ebe511c9ea28ed444202203250f7e4392ac4bbbd2a94a9",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/molten-glass.md",
-      "content": "# Molten Glass\n\n**Tier**: 1\n\nHotter than a dragon's breath after Taco Tuesday, this molten glass can melt through your problems... literally.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "6112139fade1c56d49ff18159f1faceee83756149dfb771ff70b344ba7b495c1",
+      "content": "# Molten Glass\n\n![](/wiki/images/item.moltenglass.png)\n\n**Tier**: 1\n\nHotter than a dragon's breath after Taco Tuesday, this molten glass can melt through your problems... literally.\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Crystal](/wiki/elements/crystal) to make [Molten Glass](/wiki/elements/molten-glass). This process is known as [Make Molten Glass](/wiki/recipes/make-molten-glass).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "d6c2f3562ffb1d83f44a0e6c4d10cf9fb2ac755925af6fa2afa3a12f34b290ea",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/monkey-branch.md",
-      "content": "# Monkey Branch\n\n**Tier**: 2\n\nSwing through the jungle like Tarzan with this monkey-approved vine, perfect for dramatic escapes and awkward landings.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "d5e6b976a3172abf93b8bfe2d8ac2cccef4686928d9947dd1993b73c37d6af48",
+      "content": "# Monkey Branch\n\n![](/wiki/images/item.monkeybranch.png)\n\n**Tier**: 2\n\nSwing through the jungle like Tarzan with this monkey-approved vine, perfect for dramatic escapes and awkward landings.\n\n## How to make?\n\n* Combine [Monkey](/wiki/elements/monkey) and [Hydra](/wiki/elements/hydra) to make [Monkey Branch](/wiki/elements/monkey-branch). This process is known as [Make Monkeybranch](/wiki/recipes/make-monkeybranch).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "016e1840f1cea405b2451986a52fab334545c7d0721ca592a9773b688e642ca8",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/monkey.md",
-      "content": "# Monkey\n\n**Tier**: 1\n\nThis banana-loving acrobat is like if Tarzan had a caffeine addiction!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "bf5a16285fc38b86d771edb792e1717039d352abdfc2dcd5ebcd5c3ccfc5f933",
+      "content": "# Monkey\n\n![](/wiki/images/item.monkey.png)\n\n**Tier**: 1\n\nThis banana-loving acrobat is like if Tarzan had a caffeine addiction!\n\n## How to make?\n\n_There is no way to make Monkey. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0d307a20d086e48bf5bb37a4e6620f461f6141d22679539883bd6750caae53e7",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/monument.md",
-      "content": "# Monument\n\n**Tier**: 1\n\nA stone tribute that's so towering, it could give the Statue of Liberty vertigo!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "4a1b3b5aeb648e8dcb629ad06329ab93f28bba71991a6ca6f2f917738b40f783",
+      "content": "# Monument\n\n![](/wiki/images/item.monument.png)\n\n**Tier**: 1\n\nA stone tribute that's so towering, it could give the Statue of Liberty vertigo!\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Fountain](/wiki/elements/fountain) to make [Monument](/wiki/elements/monument). This process is known as [Make Monument](/wiki/recipes/make-monument).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "39e9b1dd8c915b4fa6bd2ae08dda6fd38e6195cab111c996b9250110e9c67421",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/mountain.md",
-      "content": "# Mountain\n\n**Tier**: 1\n\nThe colossal nature bump that's basically Earth's awkward zit.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "e6fe7770d5cc81a8560a594bab4095a81b4c7e5a147b4316253c31be47a31c0c",
+      "content": "# Mountain\n\n![](/wiki/images/item.mountain.png)\n\n**Tier**: 1\n\nThe colossal nature bump that's basically Earth's awkward zit.\n\n## How to make?\n\n* Combine [Rock](/wiki/elements/rock) and [Earth](/wiki/elements/earth) to make [Mountain](/wiki/elements/mountain). This process is known as [Make Mountain](/wiki/recipes/make-mountain).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "99fd190f50e158c8c7e8ac7e8414c073f75a64d94899e9b4bfe559f9d55b8b92",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/mud.md",
-      "content": "# Mud\n\n**Tier**: 1\n\nMother Nature's messy smoothie, perfect for impromptu spa days or sabotaging the hero's clean shoes!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "74ace187a85f7ae6d21cf85dd9883ff1c9befbcaa1cb9344100047c3ea0bfef3",
+      "content": "# Mud\n\n![](/wiki/images/item.mud.png)\n\n**Tier**: 1\n\nMother Nature's messy smoothie, perfect for impromptu spa days or sabotaging the hero's clean shoes!\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Earth](/wiki/elements/earth) to make [Mud](/wiki/elements/mud). This process is known as [Make Mud](/wiki/recipes/make-mud).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "6654d3b7939cd6314be0de6ec755699940df44cca1d2092c3629389aae66379c",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/murmur.md",
-      "content": "# Murmur\n\n**Tier**: 1\n\nLike the whisper of a ninja, Murmur is the sound your enemies will never hear until it’s too late.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "896d0eb121acc000276034288fe404426e4e3f48d1872b01a2e7dd8a96f057ea",
+      "content": "# Murmur\n\n![](/wiki/images/item.murmur.png)\n\n**Tier**: 1\n\nLike the whisper of a ninja, Murmur is the sound your enemies will never hear until it’s too late.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Rivulet](/wiki/elements/rivulet) to make [Murmur](/wiki/elements/murmur). This process is known as [Make Murmur](/wiki/recipes/make-murmur).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1aaeac0b443ef5655a284b03e085b006873a580923ac427569b761c60b23b227",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/oasis.md",
-      "content": "# Oasis\n\n**Tier**: 1\n\nThe desert's VIP lounge, complete with complimentary palm trees and mirage-resistant seating!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "e2a6111e70e1f82639d59957dac0b6e57fd9c4244c1b3f5f3aaa1d5a805c5c70",
+      "content": "# Oasis\n\n![](/wiki/images/item.oasis.png)\n\n**Tier**: 1\n\nThe desert's VIP lounge, complete with complimentary palm trees and mirage-resistant seating!\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Desert](/wiki/elements/desert) to make [Oasis](/wiki/elements/oasis). This process is known as [Make Oasis](/wiki/recipes/make-oasis).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "cbe8f07a1927ed5d2c03854231a527d00abd7285db5475834467b6666f9de58b",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/obsidian.md",
-      "content": "# Obsidian\n\n**Tier**: 1\n\nCrafted by the earth's angriest volcano, it's tougher than your grandma's fruitcake and twice as unforgiving.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "f31b9dbddac44fd8cd0a9dbb5954f0a2792518cc78a1674633fb17438a79b147",
+      "content": "# Obsidian\n\n![](/wiki/images/item.obsidian.png)\n\n**Tier**: 1\n\nCrafted by the earth's angriest volcano, it's tougher than your grandma's fruitcake and twice as unforgiving.\n\n## How to make?\n\n* Combine [Lava](/wiki/elements/lava) and [Water](/wiki/elements/water) to make [Obsidian](/wiki/elements/obsidian). This process is known as [Make Obsidian](/wiki/recipes/make-obsidian).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "fcdc99304a5c00f2cb2313f30c1ee30d93af0cf18850c78f858e78169105dcb7",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/parched-earth.md",
-      "content": "# Parched Earth\n\n**Tier**: 1\n\nMore thirst-quenching than a backstage pass at a Beyoncé concert!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "f2a499686e9480ec5c917aefae92f991e51cb853748f5c601a02956d9f2eb13a",
+      "content": "# Parched Earth\n\n![](/wiki/images/item.parchedearth.png)\n\n**Tier**: 1\n\nMore thirst-quenching than a backstage pass at a Beyoncé concert!\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Watershed](/wiki/elements/watershed) to make [Parched Earth](/wiki/elements/parched-earth). This process is known as [Make Parched Earth](/wiki/recipes/make-parched-earth).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "8d02329fd58057a467e814bd9988ddf7fafa5deb6652087bffea3c586632c0fa",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/peat.md",
-      "content": "# Peat\n\n**Tier**: 1\n\nIt's like the cozy blanket of soil—excellent for plants, terrible for couch potatoes.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "c4d8e65fe2af6774d27ee9a927a43e963a5fdd9d3d7cf78ac14a706e39a5ff96",
+      "content": "# Peat\n\n![](/wiki/images/item.peat.png)\n\n**Tier**: 1\n\nIt's like the cozy blanket of soil—excellent for plants, terrible for couch potatoes.\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Wetland](/wiki/elements/wetland) to make [Peat](/wiki/elements/peat). This process is known as [Make Peat](/wiki/recipes/make-peat).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "290b5cf571d50f55bfbd741d4d1f35dd068d1799ee8efe3656c0826eef6c5724",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/pebble.md",
-      "content": "# Pebble\n\n**Tier**: 1\n\nAs insignificant as the pebble you kicked on your way to saving the world.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "aed421bad219f7e0b46f50b330b13986efde0e18b9eba10baea5a295bf015b50",
+      "content": "# Pebble\n\n![](/wiki/images/item.pebble.png)\n\n**Tier**: 1\n\nAs insignificant as the pebble you kicked on your way to saving the world.\n\n## How to make?\n\n* Combine [Rock](/wiki/elements/rock) and [Water](/wiki/elements/water) to make [Pebble](/wiki/elements/pebble). This process is known as [Make Pebble](/wiki/recipes/make-pebble).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "2487e2d37d5875d0f55075626efbe635cf33650d0c2b86ba399d179dc53d9e6a",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/peer-review.md",
-      "content": "# Peer Review\n\n**Tier**: 1\n\nA scroll that makes your friends question their life choices and your enemies spit out their coffee in disbelief.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "e26977d10256aad67b0b6246f021e2e9aa93a666cb07f75be87b9ce29b0778dd",
+      "content": "# Peer Review\n\n![](/wiki/images/item.peerreview.png)\n\n**Tier**: 1\n\nA scroll that makes your friends question their life choices and your enemies spit out their coffee in disbelief.\n\n## How to make?\n\n_There is no way to make Peer Review. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "6158fa0d4345d53231f966310415b889295833f3178232c2285147ea1e6cc54b",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/pillar-of-wind.md",
-      "content": "# Pillar Of Wind\n\n**Tier**: 1\n\nA swirling cyclone of air that even the Weather Channel fears to forecast.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "b93e617e3ade0ba47834553ad269b2bc8ffb9482148081ddc6fd6f7be9ff74cc",
+      "content": "# Pillar Of Wind\n\n![](/wiki/images/item.pillarofwind.png)\n\n**Tier**: 1\n\nA swirling cyclone of air that even the Weather Channel fears to forecast.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Monument](/wiki/elements/monument) to make [Pillar Of Wind](/wiki/elements/pillar-of-wind). This process is known as [Make Pillar Of Wind](/wiki/recipes/make-pillar-of-wind).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a4247e932133856efbdb3b7f0a89a4cdee04b92d54e3c4e0cbaeccc5d39282c2",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/plant.md",
-      "content": "# Plant\n\n**Tier**: 1\n\nThe botanical equivalent of Wi-Fi for oxygen, providing full bars since prehistoric times.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "afda1c9f0c65c151401020dc76c81a6e3cced98d35372d40a705c9831ddbc4d7",
+      "content": "# Plant\n\n![](/wiki/images/item.plant.png)\n\n**Tier**: 1\n\nThe botanical equivalent of Wi-Fi for oxygen, providing full bars since prehistoric times.\n\n## How to make?\n\n* Combine [Rain](/wiki/elements/rain) and [Earth](/wiki/elements/earth) to make [Plant](/wiki/elements/plant). This process is known as [Make Plant](/wiki/recipes/make-plant).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0aeced3eaaba1b1cc6ae1d830d02529f71dc66d6ca3ac1784fe60500969932a0",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/plateau.md",
-      "content": "# Plateau\n\n**Tier**: 1\n\nA flat piece of land that got tired of climbing mountains and decided to chill forever.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "d939bc2cd6d840eb1f758e74f7cc42226a5135bf039b9873dc37a4ebe269ec68",
+      "content": "# Plateau\n\n![](/wiki/images/item.plateau.png)\n\n**Tier**: 1\n\nA flat piece of land that got tired of climbing mountains and decided to chill forever.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Canyon](/wiki/elements/canyon) to make [Plateau](/wiki/elements/plateau). This process is known as [Make Plateau](/wiki/recipes/make-plateau).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "dcba0116f9c276da8bf72e0d405bf2d847e0d060ab869d8f0d4af1222a5a3e76",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/polkadot.md",
-      "content": "# Polkadot\n\n**Tier**: 1\n\nThink Bitcoin's eccentric cousin who shows up at parties in a spotted suit and shocks everyone with their dazzlingly efficient dancing.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "ef8f4ae04bbe6ed1747b749a2c533052b950dfdac6aa6f2a23a296f474388e24",
+      "content": "# Polkadot\n\n![](/wiki/images/item.polkadot.png)\n\n**Tier**: 1\n\nThink Bitcoin's eccentric cousin who shows up at parties in a spotted suit and shocks everyone with their dazzlingly efficient dancing.\n\n## How to make?\n\n_There is no way to make Polkadot. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4db1b8fa6c2b18cc1dd9de53791f4744d1211fd26babec4c7f8f4f8742dc439e",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/pollination.md",
-      "content": "# Pollination\n\n**Tier**: 1\n\nNature's Tinder for plants, where bees are the swiping right matchmakers.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "396c3761790afdc33fbad6f635d6e917472bbaadf4a9f08c9f369b45128b887f",
+      "content": "# Pollination\n\n![](/wiki/images/item.pollination.png)\n\n**Tier**: 1\n\nNature's Tinder for plants, where bees are the swiping right matchmakers.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Plant](/wiki/elements/plant) to make [Pollination](/wiki/elements/pollination). This process is known as [Make Pollination](/wiki/recipes/make-pollination).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1fbf434abd444b5230f010dac4b3d911207387a1eef8cc791015985eb2493919",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/pond.md",
-      "content": "# Pond\n\n**Tier**: 1\n\nWhere ducks hold their secret aquatic raves and lily pads plot world domination.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "b1d7e8d324280372cd2f73910447cfc9f131e071e17781404de2dd8b77c07fea",
+      "content": "# Pond\n\n![](/wiki/images/item.pond.png)\n\n**Tier**: 1\n\nWhere ducks hold their secret aquatic raves and lily pads plot world domination.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Garden](/wiki/elements/garden) to make [Pond](/wiki/elements/pond). This process is known as [Make Pond](/wiki/recipes/make-pond).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "98450f4ed6c7eab0ac52ad1abe75a8f6f78148c2e9179d3bad52c037859ffadf",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/pottery.md",
-      "content": "# Pottery\n\n**Tier**: 1\n\nPerfect for storing all your grandma's secret cookie recipes and ancient legendary treasures, one chip at a time!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "b6180a8dc490c6d682a660a5116b17a90a15c4582ee3d76c88ea2b01ff149ef4",
+      "content": "# Pottery\n\n![](/wiki/images/item.pottery.png)\n\n**Tier**: 1\n\nPerfect for storing all your grandma's secret cookie recipes and ancient legendary treasures, one chip at a time!\n\n## How to make?\n\n* Combine [Clay](/wiki/elements/clay) and [Fire](/wiki/elements/fire) to make [Pottery](/wiki/elements/pottery). This process is known as [Make Pottery](/wiki/recipes/make-pottery).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "717c6b6a7905641efe5dba501928b41bb226d73d3bf650ef92ed68754f2312ee",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/prism.md",
-      "content": "# Prism\n\n**Tier**: 1\n\nDivide light like a 70's disco ball at a Saturday night fever party.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "3398f4cd8c0c5cf3b9b624858f01a51d05f9ee663f73f059b9d6f06f7e174425",
+      "content": "# Prism\n\n![](/wiki/images/item.prism.png)\n\n**Tier**: 1\n\nDivide light like a 70's disco ball at a Saturday night fever party.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Crystal](/wiki/elements/crystal) to make [Prism](/wiki/elements/prism). This process is known as [Make Prism](/wiki/recipes/make-prism).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "ce0b623aacb0c6127c8d060c113484ce76c43f74b0bcb96934d439c841835c40",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/pumice.md",
-      "content": "# Pumice\n\n**Tier**: 1\n\nFloats like a butterfly, scrubs like Mr. Clean - the Swiss cheese of rocks!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "adb75c16fb93cbad5128ba295ff31f8c4f9ffaa70d94061fa695d0b92796fc33",
+      "content": "# Pumice\n\n![](/wiki/images/item.pumice.png)\n\n**Tier**: 1\n\nFloats like a butterfly, scrubs like Mr. Clean - the Swiss cheese of rocks!\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Ash](/wiki/elements/ash) to make [Pumice](/wiki/elements/pumice). This process is known as [Make Pumice](/wiki/recipes/make-pumice).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4771f137acf65c0e63ecdffabea4cc4d8d90891ab6499bfe4118d4c5336a0207",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/quicklime.md",
-      "content": "# Quicklime\n\n**Tier**: 1\n\nJust add water and watch this rock go all 'Hulk Smash' on your hydration dreams!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "aec78bef5872318658ae11f30c800cf6f9563672c35380a721ef0dffbab8188b",
+      "content": "# Quicklime\n\n![](/wiki/images/item.quicklime.png)\n\n**Tier**: 1\n\nJust add water and watch this rock go all 'Hulk Smash' on your hydration dreams!\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Limestone](/wiki/elements/limestone) to make [Quicklime](/wiki/elements/quicklime). This process is known as [Make Quicklime](/wiki/recipes/make-quicklime).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "b05fb836b3c69e24e9755a581d28e093dc1815bf94e96c7318f685bc1a42a400",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/quicksand.md",
-      "content": "# Quicksand\n\n**Tier**: 1\n\nThe Earth's way of saying 'GOTCHA!' when you thought a leisurely stroll through the desert sounded appealing.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "3566c3220e79bc0f45777eb0b46e3debe76c76a038c169dfb851363dd270c65a",
+      "content": "# Quicksand\n\n![](/wiki/images/item.quicksand.png)\n\n**Tier**: 1\n\nThe Earth's way of saying 'GOTCHA!' when you thought a leisurely stroll through the desert sounded appealing.\n\n## How to make?\n\n* Combine [Sand](/wiki/elements/sand) and [Water](/wiki/elements/water) to make [Quicksand](/wiki/elements/quicksand). This process is known as [Make Quicksand](/wiki/recipes/make-quicksand).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e45e433dd4da069a51d231d931e18fe1274fc62707440f784c035990f8d5a9db",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/rain.md",
-      "content": "# Rain\n\n**Tier**: 1\n\nSky's attempt at a group shower: brings hydration and dramatic window views!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "6c670bc5afe74387082fe094e8d1b16bd06d424485888547aeacf0857390d102",
+      "content": "# Rain\n\n![](/wiki/images/item.rain.png)\n\n**Tier**: 1\n\nSky's attempt at a group shower: brings hydration and dramatic window views!\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Wind](/wiki/elements/wind) to make [Rain](/wiki/elements/rain). This process is known as [Make Rain](/wiki/recipes/make-rain).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "088e7fe6aae7fd14234be8ba8c5689cbbc52a880aae9175df525570852318339",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/rainbow.md",
-      "content": "# Rainbow\n\n**Tier**: 1\n\nThe sky's post-rain refurbishment job, brought to you by Mother Nature's favorite highlighter pack.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "1291dd2fcdbad8305ad9a64bb3f5ed80243372a36fced584bb26f9402ecd2a00",
+      "content": "# Rainbow\n\n![](/wiki/images/item.rainbow.png)\n\n**Tier**: 1\n\nThe sky's post-rain refurbishment job, brought to you by Mother Nature's favorite highlighter pack.\n\n## How to make?\n\n* Combine [Rain](/wiki/elements/rain) and [Fire](/wiki/elements/fire) to make [Rainbow](/wiki/elements/rainbow). This process is known as [Make Rainbow](/wiki/recipes/make-rainbow).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e169b2603d953af335ddc7e62ea1e339da7028101a82a90c74147f6b4c8cd803",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/ravine.md",
-      "content": "# Ravine\n\n**Tier**: 1\n\nThe Grand Canyon's emo teenager cousin, endless depths of angsty chasms.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "90e97f8ee86559cc5f2a681fe8912f249733cee5499003239feddd3cf841c14a",
+      "content": "# Ravine\n\n![](/wiki/images/item.ravine.png)\n\n**Tier**: 1\n\nThe Grand Canyon's emo teenager cousin, endless depths of angsty chasms.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Erosion](/wiki/elements/erosion) to make [Ravine](/wiki/elements/ravine). This process is known as [Make Ravine](/wiki/recipes/make-ravine).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "76fd6b59261cd78c4ace2a69ee384d1354e03e7107efcdda543fb988eca55dae",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/reeds.md",
-      "content": "# Reeds\n\n**Tier**: 1\n\nThe nature-made cocktail straws that just might call Gandalf from Middle-earth; beware of hobbits sneaking around!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "9675a4daf261a2d064f08513afd678df5d5b3ad5e713c526a81d9b5051a6e686",
+      "content": "# Reeds\n\n![](/wiki/images/item.reeds.png)\n\n**Tier**: 1\n\nThe nature-made cocktail straws that just might call Gandalf from Middle-earth; beware of hobbits sneaking around!\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Wetland](/wiki/elements/wetland) to make [Reeds](/wiki/elements/reeds). This process is known as [Make Reeds](/wiki/recipes/make-reeds).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0e3d7b10334e85675b9f6076a1fd7e17861e8b77fe4658bc6b63c1aeaf942e13",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/reef.md",
-      "content": "# Reef\n\n**Tier**: 1\n\nThe underwater rock concert where fish party harder than rockstars!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "e9521b63e74add827db3f752f9867e27b2544d64c772cc479994f2422f6e58cb",
+      "content": "# Reef\n\n![](/wiki/images/item.reef.png)\n\n**Tier**: 1\n\nThe underwater rock concert where fish party harder than rockstars!\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Lagoon](/wiki/elements/lagoon) to make [Reef](/wiki/elements/reef). This process is known as [Make Reef](/wiki/recipes/make-reef).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "78b190a7dd518371a299825d8868fbd514bd19284481cba738b0aa1c211703a2",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/reservoir.md",
-      "content": "# Reservoir\n\n**Tier**: 1\n\nHoarder of H2O: Where all the local water droplets hang out and gossip about breaking dams and making waves!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "55357b6d70c0e939196a87e5bfca9418111038d7ec0531669d33da4c68c7a90a",
+      "content": "# Reservoir\n\n![](/wiki/images/item.reservoir.png)\n\n**Tier**: 1\n\nHoarder of H2O: Where all the local water droplets hang out and gossip about breaking dams and making waves!\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Groundwater](/wiki/elements/groundwater) to make [Reservoir](/wiki/elements/reservoir). This process is known as [Make Reservoir](/wiki/recipes/make-reservoir).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "bf88d0b2ec9ad8c0001e0093291b5ce464feb97fba99f263e893b50f1dfe9a40",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/rhodium.md",
-      "content": "# Rhodium\n\n**Tier**: 1\n\nThe bling-bling metal of the periodic table: shinier than your future, harder than your math homework.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "87c70643e694d8105d44017f5f5941e5eb1377194056c78a15434025e06f59ca",
+      "content": "# Rhodium\n\n![](/wiki/images/item.rhodium.png)\n\n**Tier**: 1\n\nThe bling-bling metal of the periodic table: shinier than your future, harder than your math homework.\n\n## How to make?\n\n_There is no way to make Rhodium. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "bb1ea251035e4e60c55b7e2c4c4819c62b2e4c84b69c9014649054730485a6eb",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/river.md",
-      "content": "# River\n\n**Tier**: 1\n\nThe highway for fish and the misplaced bathtubs of nature, flowing with more twists than a soap opera plotline.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "468d31e4c1ae63c61ffabe4b4e5059315ce8ae1ef99341588b776d6c332473eb",
+      "content": "# River\n\n![](/wiki/images/item.river.png)\n\n**Tier**: 1\n\nThe highway for fish and the misplaced bathtubs of nature, flowing with more twists than a soap opera plotline.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Valley](/wiki/elements/valley) to make [River](/wiki/elements/river). This process is known as [Make River](/wiki/recipes/make-river).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1105e74b71fe0c74fad628a613ed4cb4a7ae4dd488f03dbd738561329db6bba8",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/riverbank.md",
-      "content": "# Riverbank\n\n**Tier**: 1\n\nWhere Gandalf would come for a picnic with his hobbit homies if Middle-earth had longer vacations.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "b0f4305b0b5aeb842157d51b3e287914916be67a29f1ce1d5b63001c9a1f1f8c",
+      "content": "# Riverbank\n\n![](/wiki/images/item.riverbank.png)\n\n**Tier**: 1\n\nWhere Gandalf would come for a picnic with his hobbit homies if Middle-earth had longer vacations.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Delta](/wiki/elements/delta) to make [Riverbank](/wiki/elements/riverbank). This process is known as [Make Riverbank](/wiki/recipes/make-riverbank).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "9fde842cd27cdcf0143ab2ee951b202cb900c5a0613719bbd775869a27092b21",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/rivulet.md",
-      "content": "# Rivulet\n\n**Tier**: 1\n\nA tiny stream so small that even ants use it as their personal slip-n-slide.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "de0b4c05e7c5d0b7274a20944de65bfc88f98252ecdea91896e182b6373c77fe",
+      "content": "# Rivulet\n\n![](/wiki/images/item.rivulet.png)\n\n**Tier**: 1\n\nA tiny stream so small that even ants use it as their personal slip-n-slide.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Brook](/wiki/elements/brook) to make [Rivulet](/wiki/elements/rivulet). This process is known as [Make Rivulet](/wiki/recipes/make-rivulet).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "c87b781fe71071a42e35a4ebafd2e2bfaa55a7e260de6752708d471a60466e5a",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/rock.md",
-      "content": "# Rock\n\n**Tier**: 1\n\nIt's Dwayne Johnson's stony cousin, perfect for smashing enemies or just sitting there, being all geology-like.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "7f14b7628c6ff03ff41b39a439fa8709d48b8cb7a01e4d059793a0cdd03ec236",
+      "content": "# Rock\n\n![](/wiki/images/item.rock.png)\n\n**Tier**: 1\n\nIt's Dwayne Johnson's stony cousin, perfect for smashing enemies or just sitting there, being all geology-like.\n\n## How to make?\n\n* Combine [Obsidian](/wiki/elements/obsidian) and [Earth](/wiki/elements/earth) to make [Rock](/wiki/elements/rock). This process is known as [Make Rock](/wiki/recipes/make-rock).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1e6deec7a25a60e86ce6e586d1ca88f2ca1e736452110d52bf11b468f9472558",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/sand-dune.md",
-      "content": "# Sand Dune\n\n**Tier**: 1\n\nAs majestic as a stack of pancakes, but far more abrasive and less syrupy.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "ba60cd0ee5153692e68f8cd1f8d1fc5fdb8757c00f05c1e4f08186e554edb6ce",
+      "content": "# Sand Dune\n\n![](/wiki/images/item.sanddune.png)\n\n**Tier**: 1\n\nAs majestic as a stack of pancakes, but far more abrasive and less syrupy.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Desert](/wiki/elements/desert) to make [Sand Dune](/wiki/elements/sand-dune). This process is known as [Make Sand Dune](/wiki/recipes/make-sand-dune).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "f9f7963e73380f9ff4892a1b2202b383d2d9e996826e7a0f31174f0bf75e2d0e",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/sand.md",
-      "content": "# Sand\n\n**Tier**: 1\n\nPocketful of tiny wizards' teeth, creating beaches and cat litter archeology!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "d9c32ef76dee8357b6613f741437826e20a9b09da11820aa95126be811aea9ad",
+      "content": "# Sand\n\n![](/wiki/images/item.sand.png)\n\n**Tier**: 1\n\nPocketful of tiny wizards' teeth, creating beaches and cat litter archeology!\n\n## How to make?\n\n* Combine [Mud](/wiki/elements/mud) and [Wind](/wiki/elements/wind) to make [Sand](/wiki/elements/sand). This process is known as [Make Sand](/wiki/recipes/make-sand).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "530148d8238750bd9c2ec0e8b781c6b2e1e4c4412c299f4b00136f083afd7482",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/sandstorm.md",
-      "content": "# Sandstorm\n\n**Tier**: 1\n\nIt's like Mother Nature's version of a blender set to 'desert' mode, without the fruity cocktail at the end.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "f89ea22264b32485e7bad435ff23bc330c8c0d754d8c7a57359555440859fb32",
+      "content": "# Sandstorm\n\n![](/wiki/images/item.sandstorm.png)\n\n**Tier**: 1\n\nIt's like Mother Nature's version of a blender set to 'desert' mode, without the fruity cocktail at the end.\n\n## How to make?\n\n* Combine [Dust](/wiki/elements/dust) and [Wind](/wiki/elements/wind) to make [Sandstorm](/wiki/elements/sandstorm). This process is known as [Make Sandstorm](/wiki/recipes/make-sandstorm).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a04053be952bda529e52dbb3ce1d943c97d78dde4eed7e104cd9b11cbc56f260",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/scorched-earth.md",
-      "content": "# Scorched Earth\n\n**Tier**: 1\n\nMore devastating than an expired hot sauce binge, it turns fertile land into a Mad Max wasteland!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "15c28d580bf13578755a5d0a0a3dc052bd89369bc10674e14a512701f457c195",
+      "content": "# Scorched Earth\n\n![](/wiki/images/item.scorchedearth.png)\n\n**Tier**: 1\n\nMore devastating than an expired hot sauce binge, it turns fertile land into a Mad Max wasteland!\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Valley](/wiki/elements/valley) to make [Scorched Earth](/wiki/elements/scorched-earth). This process is known as [Make Scorched Earth](/wiki/recipes/make-scorched-earth).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4b87b2308789a072498dad1dbf1dc8fc46866450884ca674ececd7b07efa0743",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/seeds.md",
-      "content": "# Seeds\n\n**Tier**: 1\n\nNature's popcorn kernels, just add dirt and patience for a flourishing snack!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "a07d8d1fd9dd364158e220390b90c0210dcd7d72bc92c56dca83d63f4d58f6da",
+      "content": "# Seeds\n\n![](/wiki/images/item.seeds.png)\n\n**Tier**: 1\n\nNature's popcorn kernels, just add dirt and patience for a flourishing snack!\n\n## How to make?\n\n* Combine [Plant](/wiki/elements/plant) and [Wind](/wiki/elements/wind) to make [Seeds](/wiki/elements/seeds). This process is known as [Make Seeds](/wiki/recipes/make-seeds).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "517bfcacf8a4792d4fbd2f3abd22191d6ae52cdeeb71ba527dbb7e060b56d496",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/shard.md",
-      "content": "# Shard\n\n**Tier**: 1\n\nThis is the majestic piece of glitter, sharper than your ex-girlfriend's comebacks!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "27a9098caee1f25af3790c77170f267acc8208258e7b22659da8837c8ade4611",
+      "content": "# Shard\n\n![](/wiki/images/item.shard.png)\n\n**Tier**: 1\n\nThis is the majestic piece of glitter, sharper than your ex-girlfriend's comebacks!\n\n## How to make?\n\n* Combine [Obsidian](/wiki/elements/obsidian) and [Wind](/wiki/elements/wind) to make [Shard](/wiki/elements/shard). This process is known as [Make Shard](/wiki/recipes/make-shard).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4947c4a8dea54672e9a860da6154011dac65217ec09f9e9a79df28bc8b0dc93b",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/shards.md",
-      "content": "# Shards\n\n**Tier**: 1\n\nFragments of a broken heart? Or just pieces of yesterday's piñata—either way, they're sharp!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "f6bcd78aa8bae44b797927be86989c75782def634d44b2fb00a799b938715212",
+      "content": "# Shards\n\n![](/wiki/images/item.shards.png)\n\n**Tier**: 1\n\nFragments of a broken heart? Or just pieces of yesterday's piñata—either way, they're sharp!\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Obsidian](/wiki/elements/obsidian) to make [Shards](/wiki/elements/shards). This process is known as [Make Shards](/wiki/recipes/make-shards).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "14a777d26db4ab2e61e3c39610668e2cbfa0ff25cab91ba77b50bb559d35f287",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/silver.md",
-      "content": "# Silver\n\n**Tier**: 1\n\nShinier than a vampire at a disco party, it's what werewolves dread and jewelry lovers adore.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "11a4f125906ab365012c064288a997b7744059cf5e49a0e87975eff4faeb9379",
+      "content": "# Silver\n\n![](/wiki/images/item.silver.png)\n\n**Tier**: 1\n\nShinier than a vampire at a disco party, it's what werewolves dread and jewelry lovers adore.\n\n## How to make?\n\n_There is no way to make Silver. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "208fd549363afafb7e01bf3e26fa812d4685b34020bc27d2c8dff617f4a6f580",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/sinkhole.md",
-      "content": "# Sinkhole\n\n**Tier**: 1\n\nSuddenly feeling like you starred in a Looney Tunes cartoon, minus the anvil and roadrunner.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "5e97186a0758643a2db9dfa0a734c646a5ae02ee884b2f15aa896944f8f24f76",
+      "content": "# Sinkhole\n\n![](/wiki/images/item.sinkhole.png)\n\n**Tier**: 1\n\nSuddenly feeling like you starred in a Looney Tunes cartoon, minus the anvil and roadrunner.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Quicksand](/wiki/elements/quicksand) to make [Sinkhole](/wiki/elements/sinkhole). This process is known as [Make Sinkhole](/wiki/recipes/make-sinkhole).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a99763f70b82075e75a347bbefc7865cdb1635eb486b1f8a543ed1c6e0df18b7",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/smoke.md",
-      "content": "# Smoke\n\n**Tier**: 1\n\nAs elusive as your New Year's resolutions, it vanishes faster than free Wi-Fi at a coffee shop.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "d767c647b02c8d348d82fb57f5280fd67784ab847856704813fef4b7fbd8255a",
+      "content": "# Smoke\n\n![](/wiki/images/item.smoke.png)\n\n**Tier**: 1\n\nAs elusive as your New Year's resolutions, it vanishes faster than free Wi-Fi at a coffee shop.\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Wind](/wiki/elements/wind) to make [Smoke](/wiki/elements/smoke). This process is known as [Make Smoke](/wiki/recipes/make-smoke).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "0bcbefb215ecdeb288a5e2b798d62ea1a3afb9d5a3bfe05a8be2c56524b00638",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/soil.md",
-      "content": "# Soil\n\n**Tier**: 1\n\nDirt-napped cousin of terra-firma, perfect for your eco-friendly carpet installations!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "e2f60aa683080a42c4e279235b7e25a630f30aaa9be7e117e3739d81bdc5571a",
+      "content": "# Soil\n\n![](/wiki/images/item.soil.png)\n\n**Tier**: 1\n\nDirt-napped cousin of terra-firma, perfect for your eco-friendly carpet installations!\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Plant](/wiki/elements/plant) to make [Soil](/wiki/elements/soil). This process is known as [Make Soil](/wiki/recipes/make-soil).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "57fa9ed4a4c9898acb49d1979a165283ca02d5140c7e41ceec04e947239ff9af",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/soot.md",
-      "content": "# Soot\n\n**Tier**: 1\n\nDust bunnies' granddaddy who moonlights as a chimney sweep in a Dickens novel.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "eddabb8a7d07df53c351b5785ae2911f2578932640f28c4a36df5fce25546c28",
+      "content": "# Soot\n\n![](/wiki/images/item.soot.png)\n\n**Tier**: 1\n\nDust bunnies' granddaddy who moonlights as a chimney sweep in a Dickens novel.\n\n## How to make?\n\n* Combine [Ash](/wiki/elements/ash) and [Wind](/wiki/elements/wind) to make [Soot](/wiki/elements/soot). This process is known as [Make Soot](/wiki/recipes/make-soot).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1367eb6f379da75529d893cff617c47188b757e6f6547a9425dde2f0f50e9186",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/sparkle.md",
-      "content": "# Sparkle\n\n**Tier**: 1\n\nGlitter brighter than a unicorn's tears at a K-pop concert.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "45d0a020ef1372094af12d07f113a985aace9ead26b846906d7b2644bd7c2e20",
+      "content": "# Sparkle\n\n![](/wiki/images/item.sparkle.png)\n\n**Tier**: 1\n\nGlitter brighter than a unicorn's tears at a K-pop concert.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Crystal](/wiki/elements/crystal) to make [Sparkle](/wiki/elements/sparkle). This process is known as [Make Sparkle](/wiki/recipes/make-sparkle).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "cbedb1093cc781fcc663dfcef20bde63c86e59362d8b0e3fc14c8cee8f8424c3",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/spore.md",
-      "content": "# Spore\n\n**Tier**: 1\n\nTiny, invisible disco balls of doom, ready to throw a rave in your sinuses!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "0d3a2463c877e28aa1ded8e6bb1bb9638e4a7f6b187ac0fa1cfeb62e122e7407",
+      "content": "# Spore\n\n![](/wiki/images/item.spore.png)\n\n**Tier**: 1\n\nTiny, invisible disco balls of doom, ready to throw a rave in your sinuses!\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Pollination](/wiki/elements/pollination) to make [Spore](/wiki/elements/spore). This process is known as [Make Spore](/wiki/recipes/make-spore).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "75e37bf844eb4b7b64ec3b437211798481b1472bbb8047750f0cc0fc0ebcb8f1",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/spread.md",
-      "content": "# Spread\n\n**Tier**: 1\n\nAs versatile as a Swiss army knife, it's the social butterfly of condiments!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "063531887001e8eb8a76cbb4c93e187ade331ce0334b992a4ba1339c55516b07",
+      "content": "# Spread\n\n![](/wiki/images/item.spread.png)\n\n**Tier**: 1\n\nAs versatile as a Swiss army knife, it's the social butterfly of condiments!\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Pollination](/wiki/elements/pollination) to make [Spread](/wiki/elements/spread). This process is known as [Make Spread](/wiki/recipes/make-spread).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a03f32ea79bbb3e6fae57aa7a9ba9b567320a84cba36a2c4fc02027e3b8db668",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/spring.md",
-      "content": "# Spring\n\n**Tier**: 1\n\nJump higher than your dreams, or at least higher than your disappointments, with this bouncy boing-boing.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "d5dd4de5a1574510ec2c47937cc00b67fbe52273cb63536588c4415d41a70661",
+      "content": "# Spring\n\n![](/wiki/images/item.spring.png)\n\n**Tier**: 1\n\nJump higher than your dreams, or at least higher than your disappointments, with this bouncy boing-boing.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Subterranean Pool](/wiki/elements/subterranean-pool) to make [Spring](/wiki/elements/spring). This process is known as [Make Spring](/wiki/recipes/make-spring).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7f99c92e827a33bc61880e3119cb4a8876b3489b8bc362b45a0f05f4be21bef2",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/steam-vent.md",
-      "content": "# Steam Vent\n\n**Tier**: 1\n\nWhen regular air conditioning just won't cut it, unleash this spicy hot air geyser and channel your inner Old Faithful!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "828436b257e1bff1e0746ee7d5bde562d051aecb90f24024b2d47afc339e73cc",
+      "content": "# Steam Vent\n\n![](/wiki/images/item.steamvent.png)\n\n**Tier**: 1\n\nWhen regular air conditioning just won't cut it, unleash this spicy hot air geyser and channel your inner Old Faithful!\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Spring](/wiki/elements/spring) to make [Steam Vent](/wiki/elements/steam-vent). This process is known as [Make Steam Vent](/wiki/recipes/make-steam-vent).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "856a373e939d2726a4b1cd4d7c923f3565951add7e36de8ba4ecce8a92c4a336",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/steam.md",
-      "content": "# Steam\n\n**Tier**: 1\n\nIt's water's sassy teen phase before it cools down and becomes boring again.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "caa4eace1b7e997bcd5c9e0eeb89ca8161bf6b8c286a6222f2e56775ecc87738",
+      "content": "# Steam\n\n![](/wiki/images/item.steam.png)\n\n**Tier**: 1\n\nIt's water's sassy teen phase before it cools down and becomes boring again.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Fire](/wiki/elements/fire) to make [Steam](/wiki/elements/steam). This process is known as [Make Steam](/wiki/recipes/make-steam).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "bd34a9e1fde37054a5697b7d20171a867ccb44fb4d6fcb5b2970ba42f8d13ef1",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/storm.md",
-      "content": "# Storm\n\n**Tier**: 1\n\nAngry sky kittens throwing tantrums and lightning bolts like Thor after a double espresso.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "6931f0cd76ce985a97829169ad4f44d0d04b6f21b0792f9d6ce5301e9748ee57",
+      "content": "# Storm\n\n![](/wiki/images/item.storm.png)\n\n**Tier**: 1\n\nAngry sky kittens throwing tantrums and lightning bolts like Thor after a double espresso.\n\n## How to make?\n\n* Combine [Rain](/wiki/elements/rain) and [Wind](/wiki/elements/wind) to make [Storm](/wiki/elements/storm). This process is known as [Make Storm](/wiki/recipes/make-storm).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a04992c9c3ea3046cdd01b25f5622d49c5229d309e42ea014f86fe099f0e72fa",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/stream.md",
-      "content": "# Stream\n\n**Tier**: 1\n\nLike Netflix for fish, this babbling brook is constantly streaming new episodes of nature’s playlist!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "0acefd74a8a51d0ca3444a6acefc6d25c71fea70c2ff1f28b5cc8406ffdab839",
+      "content": "# Stream\n\n![](/wiki/images/item.stream.png)\n\n**Tier**: 1\n\nLike Netflix for fish, this babbling brook is constantly streaming new episodes of nature’s playlist!\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [River](/wiki/elements/river) to make [Stream](/wiki/elements/stream). This process is known as [Make Stream](/wiki/recipes/make-stream).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "7678eac00b725c4af8883c1eccfac8ca8ab0a463125c5a3ca4e02e288c6da08d",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/subterranean-pool.md",
-      "content": "# Subterranean Pool\n\n**Tier**: 1\n\nWhere the Teenage Mutant Ninja Turtles learned to swim and rediscover lost rubber duckies!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "613a373e312e5bc4973931a23ed714d7828993f8828c3beaf6e349fa6af5a3bd",
+      "content": "# Subterranean Pool\n\n![](/wiki/images/item.subterraneanpool.png)\n\n**Tier**: 1\n\nWhere the Teenage Mutant Ninja Turtles learned to swim and rediscover lost rubber duckies!\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Underground Lake](/wiki/elements/underground-lake) to make [Subterranean Pool](/wiki/elements/subterranean-pool). This process is known as [Make Subterranean Pool](/wiki/recipes/make-subterranean-pool).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "56777900cc77627fd76b9ae59cc19094d6add447e3c4e13ea226554a20b9d29a",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/super-marmalade.md",
-      "content": "# Super Marmalade\n\n**Tier**: 2\n\nAs if Spider-Man and your grandma's secret jam recipe had a citrusy baby that swings through breakfast toast saving your taste buds one bite at a time!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "fb4d874a1707e3b4c85892f9f9e72e8ef0ee8b8488983fd30f8f5fb974562043",
+      "content": "# Super Marmalade\n\n![](/wiki/images/item.supermarmalade.png)\n\n**Tier**: 2\n\nAs if Spider-Man and your grandma's secret jam recipe had a citrusy baby that swings through breakfast toast saving your taste buds one bite at a time!\n\n## How to make?\n\n* Combine [Marmalade](/wiki/elements/marmalade) and [Marmalade](/wiki/elements/marmalade) to make [Super Marmalade](/wiki/elements/super-marmalade). This process is known as [Make Supermarmalade](/wiki/recipes/make-supermarmalade).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e5b5d6375a021462ea1ff7957954d63ca6342c68f38dea8a8292d81cb9a5bf78",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/swarm.md",
-      "content": "# Swarm\n\n**Tier**: 2\n\nUnleash a tiny, buzzing army that makes you feel like the villain in a superhero movie.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "952fa838e6e94353d5597f09d88ac610fe0cdfb01606ac7cd1136b4da5b4968f",
+      "content": "# Swarm\n\n![](/wiki/images/item.swarm.png)\n\n**Tier**: 2\n\nUnleash a tiny, buzzing army that makes you feel like the villain in a superhero movie.\n\n## How to make?\n\n* Combine [Bee](/wiki/elements/bee) and [Bee](/wiki/elements/bee) to make [Swarm](/wiki/elements/swarm). This process is known as [Make Swarm](/wiki/recipes/make-swarm).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "5d46df52363ccd6b463a220caafde584e71d3eff1762fc5c58dfffe24b8ce820",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/thunder.md",
-      "content": "# Thunder\n\n**Tier**: 1\n\nLike Thor's mixtape at full volume, this electrifying zap will leave your enemies shocked and awed!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "6cce9fdfcbcd6cfcba5e0432888deca34fb6e3216fe9464ea5eb59638a770cf2",
+      "content": "# Thunder\n\n![](/wiki/images/item.thunder.png)\n\n**Tier**: 1\n\nLike Thor's mixtape at full volume, this electrifying zap will leave your enemies shocked and awed!\n\n## How to make?\n\n* Combine [Storm](/wiki/elements/storm) and [Fire](/wiki/elements/fire) to make [Thunder](/wiki/elements/thunder). This process is known as [Make Thunder](/wiki/recipes/make-thunder).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "b9666119d81bbbf0c29e04e45ba28ff778ba288d9f19c41fd8483126ec7ffe40",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/tornado.md",
-      "content": "# Tornado\n\n**Tier**: 1\n\nNature's blender on steroids, mixing up cows, houses, and your afternoon picnic.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "7505248808d021444e985c8c85cca985d75a23107772f62b375136883958530d",
+      "content": "# Tornado\n\n![](/wiki/images/item.tornado.png)\n\n**Tier**: 1\n\nNature's blender on steroids, mixing up cows, houses, and your afternoon picnic.\n\n## How to make?\n\n* Combine [Storm](/wiki/elements/storm) and [Wind](/wiki/elements/wind) to make [Tornado](/wiki/elements/tornado). This process is known as [Make Tornado](/wiki/recipes/make-tornado).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3e456c313bd379285524d26c4ec76d723ca033e17834919d329711e308dc14d2",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/transaction.md",
-      "content": "# Transaction\n\n**Tier**: 1\n\nThe magical moment when your gold coins vanish and you're left wondering if you've been pickpocketed by a ninja or just bought a shiny new sword.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "4c1e7d78bd3c510c5feee2f318ac187b4227dbdcfea69003fe90c9924bd57e54",
+      "content": "# Transaction\n\n![](/wiki/images/item.transaction.png)\n\n**Tier**: 1\n\nThe magical moment when your gold coins vanish and you're left wondering if you've been pickpocketed by a ninja or just bought a shiny new sword.\n\n## How to make?\n\n_There is no way to make Transaction. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1aa07174e4ca7c0a3c4d9b541474ad26c5e9ffd5e5c41c00bb15fa6773d15a39",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/tree.md",
-      "content": "# Tree\n\n**Tier**: 1\n\nThe original WiFi router for squirrels, providing shade and nuts with zero bars of signal!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "1b7b9e319a48f9b53e635218bb5fe2dfc57ecff186b374e36a182349f04a7dbd",
+      "content": "# Tree\n\n![](/wiki/images/item.tree.png)\n\n**Tier**: 1\n\nThe original WiFi router for squirrels, providing shade and nuts with zero bars of signal!\n\n## How to make?\n\n* Combine [Plant](/wiki/elements/plant) and [Water](/wiki/elements/water) to make [Tree](/wiki/elements/tree). This process is known as [Make Tree](/wiki/recipes/make-tree).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a4632d0cfaf7ab3b8e52860242bf4eaac46abda33988f03bfb9577cc506a24a2",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/tributary.md",
-      "content": "# Tributary\n\n**Tier**: 1\n\nA glorified water delivery service, bringing aqua goodness to bigger, bossier rivers.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "611d33f68eaf25bd8c28677121dc952113a1af8ccfa358f5df8d92c865487f92",
+      "content": "# Tributary\n\n![](/wiki/images/item.tributary.png)\n\n**Tier**: 1\n\nA glorified water delivery service, bringing aqua goodness to bigger, bossier rivers.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Rivulet](/wiki/elements/rivulet) to make [Tributary](/wiki/elements/tributary). This process is known as [Make Tributary](/wiki/recipes/make-tributary).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a65e80b87077367622777fec89ecca384df36c68391af551b3d165f161ab4e99",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/underground-lake.md",
-      "content": "# Underground Lake\n\n**Tier**: 1\n\nThe Batcave of aquatic hideaways, home to timid fish and overly ambitious spelunkers alike.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "b84024f80d6052e110d80ec2d5c71bea563771b717f04b6658293167feaac7b7",
+      "content": "# Underground Lake\n\n![](/wiki/images/item.undergroundlake.png)\n\n**Tier**: 1\n\nThe Batcave of aquatic hideaways, home to timid fish and overly ambitious spelunkers alike.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Cave](/wiki/elements/cave) to make [Underground Lake](/wiki/elements/underground-lake). This process is known as [Make Underground Lake](/wiki/recipes/make-underground-lake).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "4e28bdccc9d94b749bf66b70eddf0ad2db3c7892e208ba11e96b55ca9f0e1384",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/valley.md",
-      "content": "# Valley\n\n**Tier**: 1\n\nThe place where hills take a break and gossip about mountains.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "b244f1c32c7fd9b3467525ea19cbbade85ccdf18b21014246b03f292b206c593",
+      "content": "# Valley\n\n![](/wiki/images/item.valley.png)\n\n**Tier**: 1\n\nThe place where hills take a break and gossip about mountains.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Canyon](/wiki/elements/canyon) to make [Valley](/wiki/elements/valley). This process is known as [Make Valley](/wiki/recipes/make-valley).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "544f62d411323d91ba255c3e034fdc6001e211e97fa06a0f9a8b615a35ed5235",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/volcano.md",
-      "content": "# Volcano\n\n**Tier**: 1\n\nMount Doom's flamboyant cousin who's always ready to throw a tantrum and belch fiery salsa.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "5ce0c4a5354052084f288632a4b3415adde6320b8cbae2bb071e2fce4c3d2de4",
+      "content": "# Volcano\n\n![](/wiki/images/item.volcano.png)\n\n**Tier**: 1\n\nMount Doom's flamboyant cousin who's always ready to throw a tantrum and belch fiery salsa.\n\n## How to make?\n\n* Combine [Lava](/wiki/elements/lava) and [Earth](/wiki/elements/earth) to make [Volcano](/wiki/elements/volcano). This process is known as [Make Volcano](/wiki/recipes/make-volcano).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "1a3585090621868e4b43f6261cde52a6a50756043a3dedf7c49268edd8b2960c",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/wall.md",
-      "content": "# Wall\n\n**Tier**: 1\n\nThe Gentleman Bouncer of your castle, politely informing intruders that the party's over.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "f5680a9a74f174cfb7d40bb94322a503466a83dcd751e19a6e9a8c12cb007034",
+      "content": "# Wall\n\n![](/wiki/images/item.wall.png)\n\n**Tier**: 1\n\nThe Gentleman Bouncer of your castle, politely informing intruders that the party's over.\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Brick](/wiki/elements/brick) to make [Wall](/wiki/elements/wall). This process is known as [Make Wall](/wiki/recipes/make-wall).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "8fbab81186caa50f9fa3ef793b48587de7668f2c3175a4206b23114a31e1f4fc",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/warm-breeze.md",
-      "content": "# Warm Breeze\n\n**Tier**: 1\n\nIt's like Mother Nature left the hairdryer on; embrace the cozy winds of summer hugs!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "31447353019b6613a47474ba70a27653a557f1d33c77d560c001fa421e01bfed",
+      "content": "# Warm Breeze\n\n![](/wiki/images/item.warmbreeze.png)\n\n**Tier**: 1\n\nIt's like Mother Nature left the hairdryer on; embrace the cozy winds of summer hugs!\n\n## How to make?\n\n* Combine [Fire](/wiki/elements/fire) and [Breeze](/wiki/elements/breeze) to make [Warm Breeze](/wiki/elements/warm-breeze). This process is known as [Make Warm Breeze](/wiki/recipes/make-warm-breeze).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "b47187a5ee103142bb3c7b985a15d024c7b3d83e0839b7daeef986da6332c42b",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/water.md",
-      "content": "# Water\n\n**Tier**: 1\n\nH2-Oh no, you spilled it again!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "8a2f25aeda74eb6d703c1080f395e8d7993da6c68de3929083e4e9527ebe39d5",
+      "content": "# Water\n\n![](/wiki/images/item.water.png)\n\n**Tier**: 1\n\nH2-Oh no, you spilled it again!\n\n## How to make?\n\n_There is no way to make Water. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "fad5aa0b08c08cf08fc5bda7c087ddf442d479c6756f847056ea9ca021526719",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/waterfall.md",
-      "content": "# Waterfall\n\n**Tier**: 1\n\nNiagara's younger, slightly less impressive cousin that still turns heads like a supermodel on a catwalk.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "e8f2e8a63664825328ec4b0720efc4ef4ab30868d9fd1903b03880cc55884e1d",
+      "content": "# Waterfall\n\n![](/wiki/images/item.waterfall.png)\n\n**Tier**: 1\n\nNiagara's younger, slightly less impressive cousin that still turns heads like a supermodel on a catwalk.\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Monument](/wiki/elements/monument) to make [Waterfall](/wiki/elements/waterfall). This process is known as [Make Waterfall](/wiki/recipes/make-waterfall).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "fd9ed44a72cfc73573bc8bcd478043f5e1510bc87321779954c7a830c195cabc",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/watershed.md",
-      "content": "# Watershed\n\n**Tier**: 1\n\nA pivotal plot twist in the landscape where water decides which way it wants to go for the grand finale!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "e418a2e1c869577523d4d85cbdd9ba1b9f84a1e1155d1d6a9d08cf16a04d991b",
+      "content": "# Watershed\n\n![](/wiki/images/item.watershed.png)\n\n**Tier**: 1\n\nA pivotal plot twist in the landscape where water decides which way it wants to go for the grand finale!\n\n## How to make?\n\n* Combine [Earth](/wiki/elements/earth) and [Tributary](/wiki/elements/tributary) to make [Watershed](/wiki/elements/watershed). This process is known as [Make Watershed](/wiki/recipes/make-watershed).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "2d4f88fccfe454b9339f89e3e7f9746e4345f7ef48c57f4a3e8248e66c564b3b",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/wave.md",
-      "content": "# Wave\n\n**Tier**: 1\n\nSurf's up, dude–ride this aquatic rollercoaster like a water wizard!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "965fd28b3f17fb292bbf9ce2c9db1fa52c40b2793dedb0f4188ff1f8c3513078",
+      "content": "# Wave\n\n![](/wiki/images/item.wave.png)\n\n**Tier**: 1\n\nSurf's up, dude–ride this aquatic rollercoaster like a water wizard!\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Lake](/wiki/elements/lake) to make [Wave](/wiki/elements/wave). This process is known as [Make Wave](/wiki/recipes/make-wave).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "a12654fb3c9e12821c895115f22e003ebc337cf5a1a4773acd17686dbeb2b57f",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/wetland.md",
-      "content": "# Wetland\n\n**Tier**: 1\n\nAs if Mother Nature decided to recreate the set of Jumanji with extra humidity and a smorgasbord of mosquitoes!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "2eea61944d127fe4a0fa3f4ed5702e54ef35e5b7515bff5e5848732d8ccf5682",
+      "content": "# Wetland\n\n![](/wiki/images/item.wetland.png)\n\n**Tier**: 1\n\nAs if Mother Nature decided to recreate the set of Jumanji with extra humidity and a smorgasbord of mosquitoes!\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Fertile Land](/wiki/elements/fertile-land) to make [Wetland](/wiki/elements/wetland). This process is known as [Make Wetland](/wiki/recipes/make-wetland).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "9e05bb412992644990a9bff785b6df39f8fd9213045ec7d2820c8a34874d92cf",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/wetstone.md",
-      "content": "# Wetstone\n\n**Tier**: 1\n\nSharpen your blades while pondering life's mysteries with this slippery soapy rock, straight from the stones of Soapland!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "6bc3f8890fb432f7874ad3d821c2bc3e6894eb84327cd6645fc2354f5107670f",
+      "content": "# Wetstone\n\n![](/wiki/images/item.wetstone.png)\n\n**Tier**: 1\n\nSharpen your blades while pondering life's mysteries with this slippery soapy rock, straight from the stones of Soapland!\n\n## How to make?\n\n* Combine [Water](/wiki/elements/water) and [Obsidian](/wiki/elements/obsidian) to make [Wetstone](/wiki/elements/wetstone). This process is known as [Make Wetstone](/wiki/recipes/make-wetstone).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e6df25e7571ec16ab81cd0f2090798f9039e26890fc81e7c0f52c739c7920710",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/whirl.md",
-      "content": "# Whirl\n\n**Tier**: 1\n\nLike a blender on steroids, this mini-maelstrom promises to mix up your enemies' day!\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "54749f370a18d3ca08775fb725711828fd5ecea80582008577cd630fca009433",
+      "content": "# Whirl\n\n![](/wiki/images/item.whirl.png)\n\n**Tier**: 1\n\nLike a blender on steroids, this mini-maelstrom promises to mix up your enemies' day!\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Reef](/wiki/elements/reef) to make [Whirl](/wiki/elements/whirl). This process is known as [Make Whirl](/wiki/recipes/make-whirl).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "e4d48d76accf88dfbe74c49e7cc3c174cdad9560a8b24b94d0dd25e85201c2ed",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/whisper.md",
-      "content": "# Whisper\n\n**Tier**: 1\n\nThe secret handshake of the wind and your ear, as if a gossiping fairy had a megaphone.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "04059be6f4fa7c4cf64b987b7952d2ef6ebff3815f910182535b2ba37bd6c950",
+      "content": "# Whisper\n\n![](/wiki/images/item.whisper.png)\n\n**Tier**: 1\n\nThe secret handshake of the wind and your ear, as if a gossiping fairy had a megaphone.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Creek](/wiki/elements/creek) to make [Whisper](/wiki/elements/whisper). This process is known as [Make Whisper](/wiki/recipes/make-whisper).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "706ca479c34af68a0f3b3b248d52267be163f60e4e7249ff228ae8c4290262dd",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/whispering-cave.md",
-      "content": "# Whispering Cave\n\n**Tier**: 1\n\nA cave so chatty it makes high school gossip sound like monk's meditation.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "b9789695d7b5da396c2a1f5e8d2fba7390afec1a63ce7f8f5f82e0820dadcab9",
+      "content": "# Whispering Cave\n\n![](/wiki/images/item.whisperingcave.png)\n\n**Tier**: 1\n\nA cave so chatty it makes high school gossip sound like monk's meditation.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Cave](/wiki/elements/cave) to make [Whispering Cave](/wiki/elements/whispering-cave). This process is known as [Make Whispering Cave](/wiki/recipes/make-whispering-cave).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "da4e62fb5a56ead7f56da29fbfbaedad4cb00c62b8380457c9babb6cb6922ff1",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/wildfire.md",
-      "content": "# Wildfire\n\n**Tier**: 1\n\nSpicier than your ex's DMs, this blaze turns forests into toast and marshmallows into napalm.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "c378904e62a03ef12a31a609a23dba675f96e76438a0302af0b9630e74bcf8e5",
+      "content": "# Wildfire\n\n![](/wiki/images/item.wildfire.png)\n\n**Tier**: 1\n\nSpicier than your ex's DMs, this blaze turns forests into toast and marshmallows into napalm.\n\n## How to make?\n\n* Combine [Forest](/wiki/elements/forest) and [Fire](/wiki/elements/fire) to make [Wildfire](/wiki/elements/wildfire). This process is known as [Make Wildfire](/wiki/recipes/make-wildfire).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "d9fea258e2fbccf53f058e616825ad1e5e5cd876a03de570761a8dd7dc690d8e",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/wind.md",
-      "content": "# Wind\n\n**Tier**: 1\n\nThe invisible ninja that gives trees a good hair day.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "6f4836740133887936e12a48ca934cac4d27d6bafe36546d9c988aa37a392da4",
+      "content": "# Wind\n\n![](/wiki/images/item.wind.png)\n\n**Tier**: 1\n\nThe invisible ninja that gives trees a good hair day.\n\n## How to make?\n\n_There is no way to make Wind. You can buy it from the game, by pressing the **Buy** button._\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "6b5251b4e4719c55bcfd005d242ad5342b52bef65dfbbc0ba08e4fd73ba80fb8",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/windmill.md",
-      "content": "# Windmill\n\n**Tier**: 1\n\nSpinning like your favorite DJ, this eco-friendly giant turns breezes into electrical symphonies.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "a3d3685a7d2d7342d60fdb9b98add227d2b3ed92fe26e4baebe7bef66a256982",
+      "content": "# Windmill\n\n![](/wiki/images/item.windmill.png)\n\n**Tier**: 1\n\nSpinning like your favorite DJ, this eco-friendly giant turns breezes into electrical symphonies.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [Plant](/wiki/elements/plant) to make [Windmill](/wiki/elements/windmill). This process is known as [Make Windmill](/wiki/recipes/make-windmill).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "3c8fd6e44543e58b21dfe694111a57ba61f2b06195f54f6872c85e05645b87aa",
       "noWriteIfExists": false
     },
     {
       "filename": "packages/docs/wiki/elements/zephyr.md",
-      "content": "# Zephyr\n\n**Tier**: 1\n\nA breeze so gentle, it could whisper lullabies to butterflies while moonwalking through daisies.\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
-      "contentHash": "3d9025ab42c03900ebebab6730f88fd01ee098fa1431554fbd6009ef9ec27c12",
+      "content": "# Zephyr\n\n![](/wiki/images/item.zephyr.png)\n\n**Tier**: 1\n\nA breeze so gentle, it could whisper lullabies to butterflies while moonwalking through daisies.\n\n## How to make?\n\n* Combine [Wind](/wiki/elements/wind) and [River](/wiki/elements/river) to make [Zephyr](/wiki/elements/zephyr). This process is known as [Make Zephyr](/wiki/recipes/make-zephyr).\n\n## See also\n\n* [Games](/wiki/games)\n* [Elements](/wiki/elements)\n* [Recipes](/wiki/recipes)\n* [Wiki](/wiki/index)\n* [Learn](/learn/index)",
+      "contentHash": "9826afab2ca6c617e68eca926d9ef8107506de2c88ba883f1b0075203bdfdf08",
       "noWriteIfExists": false
     },
     {

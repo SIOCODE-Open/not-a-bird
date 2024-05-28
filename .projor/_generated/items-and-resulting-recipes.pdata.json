@@ -1,0 +1,1346 @@
+{
+    "id": "items-and-resulting-recipes",
+    "name": "Items and Resulting Recipes",
+    "description": "List of all items, and the recipes that use them",
+    "schema": "s/ItemAndResultingRecipes",
+    "objects": [
+        {
+            "name": "Monkey",
+            "description": "This banana-loving acrobat is like if Tarzan had a caffeine addiction!",
+            "item": "items#Monkey",
+            "recipes": []
+        },
+        {
+            "name": "Giraffe",
+            "description": "The long-necked, leafy buffet enthusiast that would make even a stepladder feel short.",
+            "item": "items#Giraffe",
+            "recipes": []
+        },
+        {
+            "name": "Bee",
+            "description": "The buzzing little cousin of Buzzie Lightyear, Defender of the Flora and Champion of Sweetness!",
+            "item": "items#Bee",
+            "recipes": []
+        },
+        {
+            "name": "Coin",
+            "description": "More valuable than a chest full of dragon's gold, this shiny round thing makes NPCs do your bidding.",
+            "item": "items#Coin",
+            "recipes": []
+        },
+        {
+            "name": "SWARM",
+            "description": "Unleash a tiny, buzzing army that makes you feel like the villain in a superhero movie.",
+            "item": "items#SWARM",
+            "recipes": [
+                "recipes#make_swarm"
+            ]
+        },
+        {
+            "name": "Hydra",
+            "description": "When one head isn't enough to argue with you, this multi-headed reptilian nightmare is ready to rumble!",
+            "item": "items#Hydra",
+            "recipes": [
+                "recipes#make_hydra"
+            ]
+        },
+        {
+            "name": "MonkeyBranch",
+            "description": "Swing through the jungle like Tarzan with this monkey-approved vine, perfect for dramatic escapes and awkward landings.",
+            "item": "items#MonkeyBranch",
+            "recipes": [
+                "recipes#make_monkeybranch"
+            ]
+        },
+        {
+            "name": "Bridge",
+            "description": "The majestic road-over-nothing, perfect for trolls and billy goats alike.",
+            "item": "items#Bridge",
+            "recipes": [
+                "recipes#make_bridge"
+            ]
+        },
+        {
+            "name": "GoldenGate",
+            "description": "The mystical bridge that Gandalf would totally approve of, connecting realms and charging tolls in riddles.",
+            "item": "items#GoldenGate",
+            "recipes": [
+                "recipes#make_goldengate"
+            ]
+        },
+        {
+            "name": "Gold",
+            "description": "Shinier than a disco ball at Studio 54, this glistening treasure will make Scrooge McDuck jealous!",
+            "item": "items#Gold",
+            "recipes": []
+        },
+        {
+            "name": "Silver",
+            "description": "Shinier than a vampire at a disco party, it's what werewolves dread and jewelry lovers adore.",
+            "item": "items#Silver",
+            "recipes": []
+        },
+        {
+            "name": "Rhodium",
+            "description": "The bling-bling metal of the periodic table: shinier than your future, harder than your math homework.",
+            "item": "items#Rhodium",
+            "recipes": []
+        },
+        {
+            "name": "Hive",
+            "description": "Welcome to the buzzfeed mansion, where every room has a bee-convincing argument!",
+            "item": "items#Hive",
+            "recipes": []
+        },
+        {
+            "name": "Transaction",
+            "description": "The magical moment when your gold coins vanish and you're left wondering if you've been pickpocketed by a ninja or just bought a shiny new sword.",
+            "item": "items#Transaction",
+            "recipes": []
+        },
+        {
+            "name": "Block",
+            "description": "Like adult Legos, but less fun and more about stopping that lava from ruining your day!",
+            "item": "items#Block",
+            "recipes": []
+        },
+        {
+            "name": "Blockchain",
+            "description": "The magical internet ledger of destiny that Satoshi dreamt up, where everything is transparent, immutable, and forever entwined like the plot of a Christopher Nolan movie.",
+            "item": "items#Blockchain",
+            "recipes": []
+        },
+        {
+            "name": "Polkadot",
+            "description": "Think Bitcoin's eccentric cousin who shows up at parties in a spotted suit and shocks everyone with their dazzlingly efficient dancing.",
+            "item": "items#Polkadot",
+            "recipes": []
+        },
+        {
+            "name": "PeerReview",
+            "description": "A scroll that makes your friends question their life choices and your enemies spit out their coffee in disbelief.",
+            "item": "items#PeerReview",
+            "recipes": []
+        },
+        {
+            "name": "Cardano",
+            "description": "Time to unleash the blockchain beast that's more confusing than an IKEA assembly manual!",
+            "item": "items#Cardano",
+            "recipes": [
+                "recipes#make_cardano"
+            ]
+        },
+        {
+            "name": "Bear",
+            "description": "This fuzzy giant decided to move out of the forest and into your nightmares on the advice of its therapist, Yogi.",
+            "item": "items#Bear",
+            "recipes": []
+        },
+        {
+            "name": "Beer",
+            "description": "The golden elixir of the gods, best enjoyed when your quest log is empty and your dance moves are questionable.",
+            "item": "items#Beer",
+            "recipes": [
+                "recipes#make_beer"
+            ]
+        },
+        {
+            "name": "Lock",
+            "description": "Who needs a dragon when you've got this security boss blocking your treasure chest?",
+            "item": "items#Lock",
+            "recipes": [
+                "recipes#make_lock"
+            ]
+        },
+        {
+            "name": "Marmalade",
+            "description": "The sticky, fruity concoction that Paddington Bear would trade his hat for.",
+            "item": "items#Marmalade",
+            "recipes": []
+        },
+        {
+            "name": "SuperMarmalade",
+            "description": "As if Spider-Man and your grandma's secret jam recipe had a citrusy baby that swings through breakfast toast saving your taste buds one bite at a time!",
+            "item": "items#SuperMarmalade",
+            "recipes": [
+                "recipes#make_supermarmalade"
+            ]
+        },
+        {
+            "name": "HyperMarmalade",
+            "description": "Like regular marmalade, but it makes you feel like you've had a double shot of espresso and a lightning bolt to the brain!",
+            "item": "items#HyperMarmalade",
+            "recipes": [
+                "recipes#make_hypermarmalade"
+            ]
+        },
+        {
+            "name": "Water",
+            "description": "H2-Oh no, you spilled it again!",
+            "item": "items#Water",
+            "recipes": []
+        },
+        {
+            "name": "Fire",
+            "description": "Summon a flickering tongue of destruction that makes dragons envious and marshmallows tremble in awe!",
+            "item": "items#Fire",
+            "recipes": []
+        },
+        {
+            "name": "Steam",
+            "description": "It's water's sassy teen phase before it cools down and becomes boring again.",
+            "item": "items#Steam",
+            "recipes": [
+                "recipes#MakeSteam"
+            ]
+        },
+        {
+            "name": "Earth",
+            "description": "Because who doesn't want a handful of dirt from Mother Nature's handbag?",
+            "item": "items#Earth",
+            "recipes": []
+        },
+        {
+            "name": "Mud",
+            "description": "Mother Nature's messy smoothie, perfect for impromptu spa days or sabotaging the hero's clean shoes!",
+            "item": "items#Mud",
+            "recipes": [
+                "recipes#MakeMud"
+            ]
+        },
+        {
+            "name": "Lava",
+            "description": "Spicy earth salsa that guarantees an insta-tan and some crispy new shoes!",
+            "item": "items#Lava",
+            "recipes": [
+                "recipes#MakeLava"
+            ]
+        },
+        {
+            "name": "Wind",
+            "description": "The invisible ninja that gives trees a good hair day.",
+            "item": "items#Wind",
+            "recipes": []
+        },
+        {
+            "name": "Dust",
+            "description": "The forgotten remains of battles long past, or your enemy when you forget to clean under the sofa.",
+            "item": "items#Dust",
+            "recipes": [
+                "recipes#MakeDust"
+            ]
+        },
+        {
+            "name": "Rain",
+            "description": "Sky's attempt at a group shower: brings hydration and dramatic window views!",
+            "item": "items#Rain",
+            "recipes": [
+                "recipes#MakeRain"
+            ]
+        },
+        {
+            "name": "Smoke",
+            "description": "As elusive as your New Year's resolutions, it vanishes faster than free Wi-Fi at a coffee shop.",
+            "item": "items#Smoke",
+            "recipes": [
+                "recipes#MakeSmoke"
+            ]
+        },
+        {
+            "name": "Geyser",
+            "description": "Mother Nature's boiling hot water cannon, now available as a decorative backyard feature!",
+            "item": "items#Geyser",
+            "recipes": [
+                "recipes#MakeGeyser"
+            ]
+        },
+        {
+            "name": "Clay",
+            "description": "Mold this earthy Play-Doh into something magical, or just make yourself a new best friend, Wilson style!",
+            "item": "items#Clay",
+            "recipes": [
+                "recipes#MakeClay"
+            ]
+        },
+        {
+            "name": "Sand",
+            "description": "Pocketful of tiny wizards' teeth, creating beaches and cat litter archeology!",
+            "item": "items#Sand",
+            "recipes": [
+                "recipes#MakeSand"
+            ]
+        },
+        {
+            "name": "Plant",
+            "description": "The botanical equivalent of Wi-Fi for oxygen, providing full bars since prehistoric times.",
+            "item": "items#Plant",
+            "recipes": [
+                "recipes#MakePlant"
+            ]
+        },
+        {
+            "name": "Rainbow",
+            "description": "The sky's post-rain refurbishment job, brought to you by Mother Nature's favorite highlighter pack.",
+            "item": "items#Rainbow",
+            "recipes": [
+                "recipes#MakeRainbow"
+            ]
+        },
+        {
+            "name": "Storm",
+            "description": "Angry sky kittens throwing tantrums and lightning bolts like Thor after a double espresso.",
+            "item": "items#Storm",
+            "recipes": [
+                "recipes#MakeStorm"
+            ]
+        },
+        {
+            "name": "Obsidian",
+            "description": "Crafted by the earth's angriest volcano, it's tougher than your grandma's fruitcake and twice as unforgiving.",
+            "item": "items#Obsidian",
+            "recipes": [
+                "recipes#MakeObsidian"
+            ]
+        },
+        {
+            "name": "Ash",
+            "description": "The remains of your epic campfire story that burned out faster than your WiFi during a binge session.",
+            "item": "items#Ash",
+            "recipes": [
+                "recipes#MakeAsh"
+            ]
+        },
+        {
+            "name": "Volcano",
+            "description": "Mount Doom's flamboyant cousin who's always ready to throw a tantrum and belch fiery salsa.",
+            "item": "items#Volcano",
+            "recipes": [
+                "recipes#MakeVolcano"
+            ]
+        },
+        {
+            "name": "Sandstorm",
+            "description": "It's like Mother Nature's version of a blender set to 'desert' mode, without the fruity cocktail at the end.",
+            "item": "items#Sandstorm",
+            "recipes": [
+                "recipes#MakeSandstorm"
+            ]
+        },
+        {
+            "name": "Cloud",
+            "description": "Fluffier than marshmallows and moodier than a teenager, this sky cotton candy hides the secrets of the weather gods.",
+            "item": "items#Cloud",
+            "recipes": [
+                "recipes#MakeCloud"
+            ]
+        },
+        {
+            "name": "Fog",
+            "description": "It’s like someone took all the clouds, shredded them, and set them loose to play hide and seek with your vision.",
+            "item": "items#Fog",
+            "recipes": [
+                "recipes#MakeFog"
+            ]
+        },
+        {
+            "name": "Tree",
+            "description": "The original WiFi router for squirrels, providing shade and nuts with zero bars of signal!",
+            "item": "items#Tree",
+            "recipes": [
+                "recipes#MakeTree"
+            ]
+        },
+        {
+            "name": "Forest",
+            "description": "A dense collection of trees where even squirrels hire GPS, home of the mythical Wi-Fi-repellent green zone.",
+            "item": "items#Forest",
+            "recipes": [
+                "recipes#MakeForest"
+            ]
+        },
+        {
+            "name": "Seeds",
+            "description": "Nature's popcorn kernels, just add dirt and patience for a flourishing snack!",
+            "item": "items#Seeds",
+            "recipes": [
+                "recipes#MakeSeeds"
+            ]
+        },
+        {
+            "name": "Pottery",
+            "description": "Perfect for storing all your grandma's secret cookie recipes and ancient legendary treasures, one chip at a time!",
+            "item": "items#Pottery",
+            "recipes": [
+                "recipes#MakePottery"
+            ]
+        },
+        {
+            "name": "Brick",
+            "description": "As indestructible as your WiFi on a good day, this brick could build a mansion or your Minecraft empire.",
+            "item": "items#Brick",
+            "recipes": [
+                "recipes#MakeBrick"
+            ]
+        },
+        {
+            "name": "Quicksand",
+            "description": "The Earth's way of saying 'GOTCHA!' when you thought a leisurely stroll through the desert sounded appealing.",
+            "item": "items#Quicksand",
+            "recipes": [
+                "recipes#MakeQuicksand"
+            ]
+        },
+        {
+            "name": "Glass",
+            "description": "As delicate as your ego after a bad break-up, but see-through like your best friend's terrible poker face.",
+            "item": "items#Glass",
+            "recipes": [
+                "recipes#MakeGlass"
+            ]
+        },
+        {
+            "name": "Dune",
+            "description": "Get ready to channel your inner Muad'Dib and rule the sandy seas while dodging giant worms and political plots!",
+            "item": "items#Dune",
+            "recipes": [
+                "recipes#MakeDune"
+            ]
+        },
+        {
+            "name": "Charcoal",
+            "description": "The BBQ Master's secret ingredient for transforming your steaks from zero to hero faster than you can say 'Grill-Zilla!'",
+            "item": "items#Charcoal",
+            "recipes": [
+                "recipes#MakeCharcoal"
+            ]
+        },
+        {
+            "name": "Leaves",
+            "description": "Green confetti for Mother Nature's never-ending party, with a hint of chlorophyll chic!",
+            "item": "items#Leaves",
+            "recipes": [
+                "recipes#MakeLeaves"
+            ]
+        },
+        {
+            "name": "Wildfire",
+            "description": "Spicier than your ex's DMs, this blaze turns forests into toast and marshmallows into napalm.",
+            "item": "items#Wildfire",
+            "recipes": [
+                "recipes#MakeWildfire"
+            ]
+        },
+        {
+            "name": "Jungle",
+            "description": "Like Tarzan's playground but with 99% more bugs and 100% less Wi-Fi.",
+            "item": "items#Jungle",
+            "recipes": [
+                "recipes#MakeJungle"
+            ]
+        },
+        {
+            "name": "FrostedGlass",
+            "description": "Clearer than your intentions after a night out, but still elusive as your friend who promises to show up on time.",
+            "item": "items#FrostedGlass",
+            "recipes": [
+                "recipes#MakeFrostedGlass"
+            ]
+        },
+        {
+            "name": "Crystal",
+            "description": "Shiny as Edward Cullen and twice as sparkly in the moonlight!",
+            "item": "items#Crystal",
+            "recipes": [
+                "recipes#MakeCrystal"
+            ]
+        },
+        {
+            "name": "Magma",
+            "description": "Hotter than your ex's last text, this molten rock sauce will turn enemies into toast.",
+            "item": "items#Magma",
+            "recipes": [
+                "recipes#MakeMagma"
+            ]
+        },
+        {
+            "name": "Rock",
+            "description": "It's Dwayne Johnson's stony cousin, perfect for smashing enemies or just sitting there, being all geology-like.",
+            "item": "items#Rock",
+            "recipes": [
+                "recipes#MakeRock"
+            ]
+        },
+        {
+            "name": "Shard",
+            "description": "This is the majestic piece of glitter, sharper than your ex-girlfriend's comebacks!",
+            "item": "items#Shard",
+            "recipes": [
+                "recipes#MakeShard"
+            ]
+        },
+        {
+            "name": "Pebble",
+            "description": "As insignificant as the pebble you kicked on your way to saving the world.",
+            "item": "items#Pebble",
+            "recipes": [
+                "recipes#MakePebble"
+            ]
+        },
+        {
+            "name": "Mountain",
+            "description": "The colossal nature bump that's basically Earth's awkward zit.",
+            "item": "items#Mountain",
+            "recipes": [
+                "recipes#MakeMountain"
+            ]
+        },
+        {
+            "name": "Fertilizer",
+            "description": "Sprinkle a little of this magic dust and watch your plants grow faster than a YouTube tutorial on 'getting rich quick!'",
+            "item": "items#Fertilizer",
+            "recipes": [
+                "recipes#MakeFertilizer"
+            ]
+        },
+        {
+            "name": "Soot",
+            "description": "Dust bunnies' granddaddy who moonlights as a chimney sweep in a Dickens novel.",
+            "item": "items#Soot",
+            "recipes": [
+                "recipes#MakeSoot"
+            ]
+        },
+        {
+            "name": "Lightning",
+            "description": "Like Thor's tantrum in a bottle, ready to zap your foes into crispy critters!",
+            "item": "items#Lightning",
+            "recipes": [
+                "recipes#MakeLightning"
+            ]
+        },
+        {
+            "name": "Mist",
+            "description": "Like a ghost doing the moonwalk, it slips through your fingers and cloaks the world in mystery!",
+            "item": "items#Mist",
+            "recipes": [
+                "recipes#MakeMist"
+            ]
+        },
+        {
+            "name": "Haze",
+            "description": "Like Gandalf's vape party, but a lot less fun and way more confusing.",
+            "item": "items#Haze",
+            "recipes": [
+                "recipes#MakeHaze"
+            ]
+        },
+        {
+            "name": "Flood",
+            "description": "When Mother Nature throws the ultimate pool party and forgets to send the 'BYO life jacket' memo.",
+            "item": "items#Flood",
+            "recipes": [
+                "recipes#MakeFlood"
+            ]
+        },
+        {
+            "name": "Landslide",
+            "description": "A geological temper tantrum that sends boulders downhill faster than a caffeine-crazed squirrel on roller skates!",
+            "item": "items#Landslide",
+            "recipes": [
+                "recipes#MakeLandslide"
+            ]
+        },
+        {
+            "name": "Thunder",
+            "description": "Like Thor's mixtape at full volume, this electrifying zap will leave your enemies shocked and awed!",
+            "item": "items#Thunder",
+            "recipes": [
+                "recipes#MakeThunder"
+            ]
+        },
+        {
+            "name": "Tornado",
+            "description": "Nature's blender on steroids, mixing up cows, houses, and your afternoon picnic.",
+            "item": "items#Tornado",
+            "recipes": [
+                "recipes#MakeTornado"
+            ]
+        },
+        {
+            "name": "Garden",
+            "description": "Nature's sunlit Wi-Fi free zone, and the original farm-to-table restaurant!",
+            "item": "items#Garden",
+            "recipes": [
+                "recipes#MakeGarden"
+            ]
+        },
+        {
+            "name": "Ember",
+            "description": "Like a tiny dragon's sneeze, this little spark packs a fiery punch!",
+            "item": "items#Ember",
+            "recipes": [
+                "recipes#MakeEmber"
+            ]
+        },
+        {
+            "name": "Kiln",
+            "description": "The oven that turns your pottery dreams into reality, just like Hogwarts turns kids into wizards.",
+            "item": "items#Kiln",
+            "recipes": [
+                "recipes#MakeKiln"
+            ]
+        },
+        {
+            "name": "Pollination",
+            "description": "Nature's Tinder for plants, where bees are the swiping right matchmakers.",
+            "item": "items#Pollination",
+            "recipes": [
+                "recipes#MakePollination"
+            ]
+        },
+        {
+            "name": "Sinkhole",
+            "description": "Suddenly feeling like you starred in a Looney Tunes cartoon, minus the anvil and roadrunner.",
+            "item": "items#Sinkhole",
+            "recipes": [
+                "recipes#MakeSinkhole"
+            ]
+        },
+        {
+            "name": "Beach",
+            "description": "A sun-kissed playground where sand gets everywhere, like glitter but from hell.",
+            "item": "items#Beach",
+            "recipes": [
+                "recipes#MakeBeach"
+            ]
+        },
+        {
+            "name": "Wetstone",
+            "description": "Sharpen your blades while pondering life's mysteries with this slippery soapy rock, straight from the stones of Soapland!",
+            "item": "items#Wetstone",
+            "recipes": [
+                "recipes#MakeWetstone"
+            ]
+        },
+        {
+            "name": "Erosion",
+            "description": "Nature's slow-motion magic trick, turning mighty mountains into beach sand one grain at a time.",
+            "item": "items#Erosion",
+            "recipes": [
+                "recipes#MakeErosion"
+            ]
+        },
+        {
+            "name": "Basalt",
+            "description": "Forged in the depths of the earth, harder than your ex's heart and cooler than the underside of your pillow.",
+            "item": "items#Basalt",
+            "recipes": [
+                "recipes#MakeBasalt"
+            ]
+        },
+        {
+            "name": "MagmaChamber",
+            "description": "Hotter than a dragon's sneeze, this is the spicy jacuzzi of the underworld.",
+            "item": "items#MagmaChamber",
+            "recipes": [
+                "recipes#MakeMagmaChamber"
+            ]
+        },
+        {
+            "name": "Breeze",
+            "description": "Like Gandalf's whisper, this gentle wind will casually rearrange your bad hair day.",
+            "item": "items#Breeze",
+            "recipes": [
+                "recipes#MakeBreeze"
+            ]
+        },
+        {
+            "name": "WarmBreeze",
+            "description": "It's like Mother Nature left the hairdryer on; embrace the cozy winds of summer hugs!",
+            "item": "items#WarmBreeze",
+            "recipes": [
+                "recipes#MakeWarmBreeze"
+            ]
+        },
+        {
+            "name": "Soil",
+            "description": "Dirt-napped cousin of terra-firma, perfect for your eco-friendly carpet installations!",
+            "item": "items#Soil",
+            "recipes": [
+                "recipes#MakeSoil"
+            ]
+        },
+        {
+            "name": "Canyon",
+            "description": "Nature's gigantic frown; perfect for epic echoes and bottomless pratfalls.",
+            "item": "items#Canyon",
+            "recipes": [
+                "recipes#MakeCanyon"
+            ]
+        },
+        {
+            "name": "Windmill",
+            "description": "Spinning like your favorite DJ, this eco-friendly giant turns breezes into electrical symphonies.",
+            "item": "items#Windmill",
+            "recipes": [
+                "recipes#MakeWindmill"
+            ]
+        },
+        {
+            "name": "Adobe",
+            "description": "The ancient Minecraft enchantment that grants you the power to build desert dream homes with just a handful of dirt and some water!",
+            "item": "items#Adobe",
+            "recipes": [
+                "recipes#MakeAdobe"
+            ]
+        },
+        {
+            "name": "Wall",
+            "description": "The Gentleman Bouncer of your castle, politely informing intruders that the party's over.",
+            "item": "items#Wall",
+            "recipes": [
+                "recipes#MakeWall"
+            ]
+        },
+        {
+            "name": "Pumice",
+            "description": "Floats like a butterfly, scrubs like Mr. Clean - the Swiss cheese of rocks!",
+            "item": "items#Pumice",
+            "recipes": [
+                "recipes#MakePumice"
+            ]
+        },
+        {
+            "name": "Barbecue",
+            "description": "Unleash your inner pitmaster with this meat sizzle maker, as seen on grill-enthusiast reality shows!",
+            "item": "items#Barbecue",
+            "recipes": [
+                "recipes#MakeBarbecue"
+            ]
+        },
+        {
+            "name": "Farm",
+            "description": "The ultimate pre-industrial protein shake factory, where plants and animals live in suspenseful harmony waiting to be useful.",
+            "item": "items#Farm",
+            "recipes": [
+                "recipes#MakeFarm"
+            ]
+        },
+        {
+            "name": "Shards",
+            "description": "Fragments of a broken heart? Or just pieces of yesterday's piñata—either way, they're sharp!",
+            "item": "items#Shards",
+            "recipes": [
+                "recipes#MakeShards"
+            ]
+        },
+        {
+            "name": "MoltenGlass",
+            "description": "Hotter than a dragon's breath after Taco Tuesday, this molten glass can melt through your problems... literally.",
+            "item": "items#MoltenGlass",
+            "recipes": [
+                "recipes#MakeMoltenGlass"
+            ]
+        },
+        {
+            "name": "Prism",
+            "description": "Divide light like a 70's disco ball at a Saturday night fever party.",
+            "item": "items#Prism",
+            "recipes": [
+                "recipes#MakePrism"
+            ]
+        },
+        {
+            "name": "Sparkle",
+            "description": "Glitter brighter than a unicorn's tears at a K-pop concert.",
+            "item": "items#Sparkle",
+            "recipes": [
+                "recipes#MakeSparkle"
+            ]
+        },
+        {
+            "name": "Desert",
+            "description": "A vast sandbox of banishment where even cacti consider sunblock.",
+            "item": "items#Desert",
+            "recipes": [
+                "recipes#MakeDesert"
+            ]
+        },
+        {
+            "name": "Oasis",
+            "description": "The desert's VIP lounge, complete with complimentary palm trees and mirage-resistant seating!",
+            "item": "items#Oasis",
+            "recipes": [
+                "recipes#MakeOasis"
+            ]
+        },
+        {
+            "name": "Mirage",
+            "description": "As elusive as your mom's Wi-Fi password and twice as frustrating to catch!",
+            "item": "items#Mirage",
+            "recipes": [
+                "recipes#MakeMirage"
+            ]
+        },
+        {
+            "name": "SandDune",
+            "description": "As majestic as a stack of pancakes, but far more abrasive and less syrupy.",
+            "item": "items#SandDune",
+            "recipes": [
+                "recipes#MakeSandDune"
+            ]
+        },
+        {
+            "name": "Dam",
+            "description": "The Dwayne 'The Rock' Johnson of water barriers, holding back the wet with sheer muscle.",
+            "item": "items#Dam",
+            "recipes": [
+                "recipes#MakeDam"
+            ]
+        },
+        {
+            "name": "Firewall",
+            "description": "The Gandalf of cybersecurity: 'You shall not pass!'",
+            "item": "items#Firewall",
+            "recipes": [
+                "recipes#MakeFirewall"
+            ]
+        },
+        {
+            "name": "Barricade",
+            "description": "Like Gandalf facing a Balrog, it's the 'You shall not pass!' of fortifications.",
+            "item": "items#Barricade",
+            "recipes": [
+                "recipes#MakeBarricade"
+            ]
+        },
+        {
+            "name": "Plateau",
+            "description": "A flat piece of land that got tired of climbing mountains and decided to chill forever.",
+            "item": "items#Plateau",
+            "recipes": [
+                "recipes#MakePlateau"
+            ]
+        },
+        {
+            "name": "Pond",
+            "description": "Where ducks hold their secret aquatic raves and lily pads plot world domination.",
+            "item": "items#Pond",
+            "recipes": [
+                "recipes#MakePond"
+            ]
+        },
+        {
+            "name": "Aromas",
+            "description": "Sprinkle a bit of Hogwarts' magic under your nose and breathe in the essence of enchanted forests and dragon's breath!",
+            "item": "items#Aromas",
+            "recipes": [
+                "recipes#MakeAromas"
+            ]
+        },
+        {
+            "name": "Flower",
+            "description": "The colorful Wi-Fi signal for bees; smells better than your ex's perfume!",
+            "item": "items#Flower",
+            "recipes": [
+                "recipes#MakeFlower"
+            ]
+        },
+        {
+            "name": "Spore",
+            "description": "Tiny, invisible disco balls of doom, ready to throw a rave in your sinuses!",
+            "item": "items#Spore",
+            "recipes": [
+                "recipes#MakeSpore"
+            ]
+        },
+        {
+            "name": "Spread",
+            "description": "As versatile as a Swiss army knife, it's the social butterfly of condiments!",
+            "item": "items#Spread",
+            "recipes": [
+                "recipes#MakeSpread"
+            ]
+        },
+        {
+            "name": "FertileLand",
+            "description": "As luxurious and bountiful as Bob Ross’s paint palette, it's the MVP of Mother Nature's garden party.",
+            "item": "items#FertileLand",
+            "recipes": [
+                "recipes#MakeFertileLand"
+            ]
+        },
+        {
+            "name": "Wetland",
+            "description": "As if Mother Nature decided to recreate the set of Jumanji with extra humidity and a smorgasbord of mosquitoes!",
+            "item": "items#Wetland",
+            "recipes": [
+                "recipes#MakeWetland"
+            ]
+        },
+        {
+            "name": "Peat",
+            "description": "It's like the cozy blanket of soil—excellent for plants, terrible for couch potatoes.",
+            "item": "items#Peat",
+            "recipes": [
+                "recipes#MakePeat"
+            ]
+        },
+        {
+            "name": "Reeds",
+            "description": "The nature-made cocktail straws that just might call Gandalf from Middle-earth; beware of hobbits sneaking around!",
+            "item": "items#Reeds",
+            "recipes": [
+                "recipes#MakeReeds"
+            ]
+        },
+        {
+            "name": "Valley",
+            "description": "The place where hills take a break and gossip about mountains.",
+            "item": "items#Valley",
+            "recipes": [
+                "recipes#MakeValley"
+            ]
+        },
+        {
+            "name": "River",
+            "description": "The highway for fish and the misplaced bathtubs of nature, flowing with more twists than a soap opera plotline.",
+            "item": "items#River",
+            "recipes": [
+                "recipes#MakeRiver"
+            ]
+        },
+        {
+            "name": "ScorchedEarth",
+            "description": "More devastating than an expired hot sauce binge, it turns fertile land into a Mad Max wasteland!",
+            "item": "items#ScorchedEarth",
+            "recipes": [
+                "recipes#MakeScorchedEarth"
+            ]
+        },
+        {
+            "name": "Delta",
+            "description": "The river’s final boss battle, where water splits like an indecisive rom-com character in the season finale.",
+            "item": "items#Delta",
+            "recipes": [
+                "recipes#MakeDelta"
+            ]
+        },
+        {
+            "name": "Estuary",
+            "description": "Where the river meets the sea, like the ultimate mashup album nobody asked for but everyone loves.",
+            "item": "items#Estuary",
+            "recipes": [
+                "recipes#MakeEstuary"
+            ]
+        },
+        {
+            "name": "FireSwamp",
+            "description": "Enter at your own risk and remember, the trees have a fiery personality akin to dragons after a spicy taco night!",
+            "item": "items#FireSwamp",
+            "recipes": [
+                "recipes#MakeFireSwamp"
+            ]
+        },
+        {
+            "name": "Riverbank",
+            "description": "Where Gandalf would come for a picnic with his hobbit homies if Middle-earth had longer vacations.",
+            "item": "items#Riverbank",
+            "recipes": [
+                "recipes#MakeRiverbank"
+            ]
+        },
+        {
+            "name": "Ravine",
+            "description": "The Grand Canyon's emo teenager cousin, endless depths of angsty chasms.",
+            "item": "items#Ravine",
+            "recipes": [
+                "recipes#MakeRavine"
+            ]
+        },
+        {
+            "name": "Gorge",
+            "description": "When wandering through this natural wonder, remember: it's like Mother Earth's really dramatic cleavage.",
+            "item": "items#Gorge",
+            "recipes": [
+                "recipes#MakeGorge"
+            ]
+        },
+        {
+            "name": "CharredRavine",
+            "description": "A spicy hot potato chip of doom, hotter than a dragon's sneeze in a volcano.",
+            "item": "items#CharredRavine",
+            "recipes": [
+                "recipes#MakeCharredRavine"
+            ]
+        },
+        {
+            "name": "Echo",
+            "description": "It's like shouting into a canyon, but the canyon actually cares about what you said and keeps repeating it back.",
+            "item": "items#Echo",
+            "recipes": [
+                "recipes#MakeEcho"
+            ]
+        },
+        {
+            "name": "Cave",
+            "description": "A dark, damp Airbnb for bats and trolls, with zero Wi-Fi signal but plenty of natural 'rockitecture'.",
+            "item": "items#Cave",
+            "recipes": [
+                "recipes#MakeCave"
+            ]
+        },
+        {
+            "name": "UndergroundLake",
+            "description": "The Batcave of aquatic hideaways, home to timid fish and overly ambitious spelunkers alike.",
+            "item": "items#UndergroundLake",
+            "recipes": [
+                "recipes#MakeUndergroundLake"
+            ]
+        },
+        {
+            "name": "LavaCave",
+            "description": "A fiery Airbnb for fire-breathing dragons and grilled marshmallows.",
+            "item": "items#LavaCave",
+            "recipes": [
+                "recipes#MakeLavaCave"
+            ]
+        },
+        {
+            "name": "WhisperingCave",
+            "description": "A cave so chatty it makes high school gossip sound like monk's meditation.",
+            "item": "items#WhisperingCave",
+            "recipes": [
+                "recipes#MakeWhisperingCave"
+            ]
+        },
+        {
+            "name": "SubterraneanPool",
+            "description": "Where the Teenage Mutant Ninja Turtles learned to swim and rediscover lost rubber duckies!",
+            "item": "items#SubterraneanPool",
+            "recipes": [
+                "recipes#MakeSubterraneanPool"
+            ]
+        },
+        {
+            "name": "Spring",
+            "description": "Jump higher than your dreams, or at least higher than your disappointments, with this bouncy boing-boing.",
+            "item": "items#Spring",
+            "recipes": [
+                "recipes#MakeSpring"
+            ]
+        },
+        {
+            "name": "HotSpring",
+            "description": "Like soaking in a jacuzzi made by Mother Nature, but without the awkward vacation photos!",
+            "item": "items#HotSpring",
+            "recipes": [
+                "recipes#MakeHotSpring"
+            ]
+        },
+        {
+            "name": "Grotto",
+            "description": "The ultimate bachelor pad for goblins—think of it as a man cave, but with actual caves.",
+            "item": "items#Grotto",
+            "recipes": [
+                "recipes#MakeGrotto"
+            ]
+        },
+        {
+            "name": "Fountain",
+            "description": "Where wishes and coins go on a wild water slide together.",
+            "item": "items#Fountain",
+            "recipes": [
+                "recipes#MakeFountain"
+            ]
+        },
+        {
+            "name": "SteamVent",
+            "description": "When regular air conditioning just won't cut it, unleash this spicy hot air geyser and channel your inner Old Faithful!",
+            "item": "items#SteamVent",
+            "recipes": [
+                "recipes#MakeSteamVent"
+            ]
+        },
+        {
+            "name": "CoolBreeze",
+            "description": "As refreshing as a surprise pizza party in summer, but with zero calories!",
+            "item": "items#CoolBreeze",
+            "recipes": [
+                "recipes#MakeCoolBreeze"
+            ]
+        },
+        {
+            "name": "Monument",
+            "description": "A stone tribute that's so towering, it could give the Statue of Liberty vertigo!",
+            "item": "items#Monument",
+            "recipes": [
+                "recipes#MakeMonument"
+            ]
+        },
+        {
+            "name": "Waterfall",
+            "description": "Niagara's younger, slightly less impressive cousin that still turns heads like a supermodel on a catwalk.",
+            "item": "items#Waterfall",
+            "recipes": [
+                "recipes#MakeWaterfall"
+            ]
+        },
+        {
+            "name": "EternalFlame",
+            "description": "Hotter than a dragon's sneeze, this flame burns with the angst of a thousand rejected pop stars!",
+            "item": "items#EternalFlame",
+            "recipes": [
+                "recipes#MakeEternalFlame"
+            ]
+        },
+        {
+            "name": "PillarOfWind",
+            "description": "A swirling cyclone of air that even the Weather Channel fears to forecast.",
+            "item": "items#PillarOfWind",
+            "recipes": [
+                "recipes#MakePillarOfWind"
+            ]
+        },
+        {
+            "name": "Stream",
+            "description": "Like Netflix for fish, this babbling brook is constantly streaming new episodes of nature’s playlist!",
+            "item": "items#Stream",
+            "recipes": [
+                "recipes#MakeStream"
+            ]
+        },
+        {
+            "name": "Zephyr",
+            "description": "A breeze so gentle, it could whisper lullabies to butterflies while moonwalking through daisies.",
+            "item": "items#Zephyr",
+            "recipes": [
+                "recipes#MakeZephyr"
+            ]
+        },
+        {
+            "name": "Creek",
+            "description": "Tiny river, think of it as a baby Amazon just learning to meme.",
+            "item": "items#Creek",
+            "recipes": [
+                "recipes#MakeCreek"
+            ]
+        },
+        {
+            "name": "Brook",
+            "description": "Where baby rivers are born and sent to Hogwarts.",
+            "item": "items#Brook",
+            "recipes": [
+                "recipes#MakeBrook"
+            ]
+        },
+        {
+            "name": "Whisper",
+            "description": "The secret handshake of the wind and your ear, as if a gossiping fairy had a megaphone.",
+            "item": "items#Whisper",
+            "recipes": [
+                "recipes#MakeWhisper"
+            ]
+        },
+        {
+            "name": "Rivulet",
+            "description": "A tiny stream so small that even ants use it as their personal slip-n-slide.",
+            "item": "items#Rivulet",
+            "recipes": [
+                "recipes#MakeRivulet"
+            ]
+        },
+        {
+            "name": "Tributary",
+            "description": "A glorified water delivery service, bringing aqua goodness to bigger, bossier rivers.",
+            "item": "items#Tributary",
+            "recipes": [
+                "recipes#MakeTributary"
+            ]
+        },
+        {
+            "name": "Murmur",
+            "description": "Like the whisper of a ninja, Murmur is the sound your enemies will never hear until it’s too late.",
+            "item": "items#Murmur",
+            "recipes": [
+                "recipes#MakeMurmur"
+            ]
+        },
+        {
+            "name": "Watershed",
+            "description": "A pivotal plot twist in the landscape where water decides which way it wants to go for the grand finale!",
+            "item": "items#Watershed",
+            "recipes": [
+                "recipes#MakeWatershed"
+            ]
+        },
+        {
+            "name": "Aquifer",
+            "description": "Nature's secret underground swimming pool, perfect for when groundwater wants to chill out.",
+            "item": "items#Aquifer",
+            "recipes": [
+                "recipes#MakeAquifer"
+            ]
+        },
+        {
+            "name": "ParchedEarth",
+            "description": "More thirst-quenching than a backstage pass at a Beyoncé concert!",
+            "item": "items#ParchedEarth",
+            "recipes": [
+                "recipes#MakeParchedEarth"
+            ]
+        },
+        {
+            "name": "FreshBreeze",
+            "description": "A zephyr so crisp it could convince even Darth Vader to join a yoga retreat!",
+            "item": "items#FreshBreeze",
+            "recipes": [
+                "recipes#MakeFreshBreeze"
+            ]
+        },
+        {
+            "name": "Groundwater",
+            "description": "Mother Earth's secret stash, hidden beneath her rocky garments like a hip flask at a dry wedding.",
+            "item": "items#Groundwater",
+            "recipes": [
+                "recipes#MakeGroundwater"
+            ]
+        },
+        {
+            "name": "Reservoir",
+            "description": "Hoarder of H2O: Where all the local water droplets hang out and gossip about breaking dams and making waves!",
+            "item": "items#Reservoir",
+            "recipes": [
+                "recipes#MakeReservoir"
+            ]
+        },
+        {
+            "name": "GeothermalSpring",
+            "description": "Mother Nature's jacuzzi, hotter than the coffee your soul relies on.",
+            "item": "items#GeothermalSpring",
+            "recipes": [
+                "recipes#MakeGeothermalSpring"
+            ]
+        },
+        {
+            "name": "ArtesianWell",
+            "description": "The bottomless mimosa bar of water sources, constantly refilling without you lifting a finger - cheers!",
+            "item": "items#ArtesianWell",
+            "recipes": [
+                "recipes#MakeArtesianWell"
+            ]
+        },
+        {
+            "name": "Basin",
+            "description": "The Holy Grail of your bathroom, where soap bubbles dream of escape and rubber duckies rule!",
+            "item": "items#Basin",
+            "recipes": [
+                "recipes#MakeBasin"
+            ]
+        },
+        {
+            "name": "Lake",
+            "description": "Nature's giant puddle, perfect for lazy fish, and where mythical creatures might just throw tea parties.",
+            "item": "items#Lake",
+            "recipes": [
+                "recipes#MakeLake"
+            ]
+        },
+        {
+            "name": "DryBasin",
+            "description": "A bowl so devoid of moisture, even SpongeBob would dry up in here.",
+            "item": "items#DryBasin",
+            "recipes": [
+                "recipes#MakeDryBasin"
+            ]
+        },
+        {
+            "name": "Depression",
+            "description": "Feeling like Eeyore in a world full of Tiggers.",
+            "item": "items#Depression",
+            "recipes": [
+                "recipes#MakeDepression"
+            ]
+        },
+        {
+            "name": "Island",
+            "description": "A chunk of land adrift in the ocean, like a slice of pizza floating in tomato soup.",
+            "item": "items#Island",
+            "recipes": [
+                "recipes#MakeIsland"
+            ]
+        },
+        {
+            "name": "Lagoon",
+            "description": "A lazy lake who's too cool to hang with the ocean, featuring more zen than a yoga retreat for dolphins.",
+            "item": "items#Lagoon",
+            "recipes": [
+                "recipes#MakeLagoon"
+            ]
+        },
+        {
+            "name": "Wave",
+            "description": "Surf's up, dude–ride this aquatic rollercoaster like a water wizard!",
+            "item": "items#Wave",
+            "recipes": [
+                "recipes#MakeWave"
+            ]
+        },
+        {
+            "name": "Reef",
+            "description": "The underwater rock concert where fish party harder than rockstars!",
+            "item": "items#Reef",
+            "recipes": [
+                "recipes#MakeReef"
+            ]
+        },
+        {
+            "name": "Coral",
+            "description": "Nature's underwater apartment complex—complete with quirky neighbors!",
+            "item": "items#Coral",
+            "recipes": [
+                "recipes#MakeCoral"
+            ]
+        },
+        {
+            "name": "Whirl",
+            "description": "Like a blender on steroids, this mini-maelstrom promises to mix up your enemies' day!",
+            "item": "items#Whirl",
+            "recipes": [
+                "recipes#MakeWhirl"
+            ]
+        },
+        {
+            "name": "Limestone",
+            "description": "The rock Dwayne Johnson wished he was named after - capable of building empires and perfect for caveman graffiti.",
+            "item": "items#Limestone",
+            "recipes": [
+                "recipes#MakeLimestone"
+            ]
+        },
+        {
+            "name": "Karst",
+            "description": "The Swiss cheese of landscapes—full of holes, surprises, and probably a hidden treasure if you look close enough!",
+            "item": "items#Karst",
+            "recipes": [
+                "recipes#MakeKarst"
+            ]
+        },
+        {
+            "name": "Quicklime",
+            "description": "Just add water and watch this rock go all 'Hulk Smash' on your hydration dreams!",
+            "item": "items#Quicklime",
+            "recipes": [
+                "recipes#MakeQuicklime"
+            ]
+        },
+        {
+            "name": "Blowhole",
+            "description": "The marine mammal's N64 controller button for an epic H2O power-up!",
+            "item": "items#Blowhole",
+            "recipes": [
+                "recipes#MakeBlowhole"
+            ]
+        }
+    ]
+}

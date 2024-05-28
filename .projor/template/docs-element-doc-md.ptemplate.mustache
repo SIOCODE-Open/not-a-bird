@@ -1,13 +1,26 @@
 {
-    "forEach": "items",
-    "filename": "packages/docs/wiki/elements/{{kebabCase name}}.md"
+    "forEach": "items-and-resulting-recipes",
+    "filename": "packages/docs/wiki/elements/{{kebabCase item.name}}.md"
 }
 ---
-# {{capitalCase name}}
+# {{capitalCase item.name}}
 
-**Tier**: {{{tier}}}
+![](/wiki/images/item.{{lowerCase item.name}}.png)
 
-{{{description}}}
+**Tier**: {{{item.tier}}}
+
+{{{item.description}}}
+
+## How to make?
+
+{{#if recipes}}
+{{#each recipes}}
+* Combine [{{capitalCase a.name}}](/wiki/elements/{{kebabCase a.name}}) and [{{capitalCase b.name}}](/wiki/elements/{{kebabCase b.name}}) to make [{{capitalCase c.name}}](/wiki/elements/{{kebabCase c.name}}). This process is known as [{{capitalCase name}}](/wiki/recipes/{{kebabCase name}}).
+{{/each}}
+{{/if}}
+{{#unless recipes}}
+_There is no way to make {{capitalCase item.name}}. You can buy it from the game, by pressing the **Buy** button._
+{{/unless}}
 
 ## See also
 

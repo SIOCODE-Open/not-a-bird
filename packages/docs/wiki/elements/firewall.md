@@ -1,8 +1,14 @@
 # Firewall
 
+![](/wiki/images/item.firewall.png)
+
 **Tier**: 1
 
 The Gandalf of cybersecurity: 'You shall not pass!'
+
+## How to make?
+
+* Combine [Fire](/wiki/elements/fire) and [Wall](/wiki/elements/wall) to make [Firewall](/wiki/elements/firewall). This process is known as [Make Firewall](/wiki/recipes/make-firewall).
 
 ## See also
 

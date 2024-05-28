@@ -1,0 +1,13 @@
+id: s/ItemAndResultingRecipes
+name: ItemAndResultingRecipes
+description: An item, and the recipes that result in it.
+fields:
+  - name: item
+    type: reference
+    references: s/Item
+    description: The item.
+  - name: recipes
+    type: reference
+    references: s/Recipe
+    multiple: true
+    description: The recipes that result in the item.
