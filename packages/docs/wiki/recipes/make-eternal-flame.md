@@ -1,3 +1,8 @@
+---
+title: Make Eternal Flame
+description: |
+  Combine Fire and Monument to create Eternal Flame.
+---
 # Make Eternal Flame
 
 We need a description here

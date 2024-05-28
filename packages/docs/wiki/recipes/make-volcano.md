@@ -1,3 +1,8 @@
+---
+title: Make Volcano
+description: |
+  Combine Lava and Earth to create Volcano.
+---
 # Make Volcano
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Make Windmill
+description: |
+  Combine Wind and Plant to create Windmill.
+---
 # Make Windmill
 
 We need a description here

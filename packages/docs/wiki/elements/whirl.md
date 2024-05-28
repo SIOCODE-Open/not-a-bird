@@ -1,3 +1,8 @@
+---
+title: Whirl
+description: |
+  Like a blender on steroids, this mini-maelstrom promises to mix up your enemies' day!
+---
 # Whirl
 
 ![](../images/item.whirl.png)

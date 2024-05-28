@@ -1,3 +1,8 @@
+---
+title: Make Wetstone
+description: |
+  Combine Water and Obsidian to create Wetstone.
+---
 # Make Wetstone
 
 We need a description here

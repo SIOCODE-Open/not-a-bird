@@ -1,3 +1,8 @@
+---
+title: Erosion
+description: |
+  Nature's slow-motion magic trick, turning mighty mountains into beach sand one grain at a time.
+---
 # Erosion
 
 ![](../images/item.erosion.png)

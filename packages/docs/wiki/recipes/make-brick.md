@@ -1,3 +1,8 @@
+---
+title: Make Brick
+description: |
+  Combine Clay and Earth to create Brick.
+---
 # Make Brick
 
 We need a description here

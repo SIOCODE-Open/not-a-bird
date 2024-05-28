@@ -1,3 +1,8 @@
+---
+title: Make Obsidian
+description: |
+  Combine Lava and Water to create Obsidian.
+---
 # Make Obsidian
 
 We need a description here

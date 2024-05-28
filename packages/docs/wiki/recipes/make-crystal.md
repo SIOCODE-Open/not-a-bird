@@ -1,3 +1,8 @@
+---
+title: Make Crystal
+description: |
+  Combine Glass and Earth to create Crystal.
+---
 # Make Crystal
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Coin
+description: |
+  More valuable than a chest full of dragon's gold, this shiny round thing makes NPCs do your bidding.
+---
 # Coin
 
 ![](../images/item.coin.png)

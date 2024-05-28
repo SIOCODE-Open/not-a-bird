@@ -1,3 +1,8 @@
+---
+title: Firewall
+description: |
+  The Gandalf of cybersecurity: 'You shall not pass!'
+---
 # Firewall
 
 ![](../images/item.firewall.png)

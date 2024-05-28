@@ -1,3 +1,8 @@
+---
+title: Soot
+description: |
+  Dust bunnies' granddaddy who moonlights as a chimney sweep in a Dickens novel.
+---
 # Soot
 
 ![](../images/item.soot.png)

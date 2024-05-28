@@ -1,3 +1,8 @@
+---
+title: Make Stream
+description: |
+  Combine Water and River to create Stream.
+---
 # Make Stream
 
 We need a description here

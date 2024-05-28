@@ -1,3 +1,8 @@
+---
+title: Lava
+description: |
+  Spicy earth salsa that guarantees an insta-tan and some crispy new shoes!
+---
 # Lava
 
 ![](../images/item.lava.png)

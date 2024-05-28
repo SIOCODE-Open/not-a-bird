@@ -1,3 +1,8 @@
+---
+title: Make Lava
+description: |
+  Combine Fire and Earth to create Lava.
+---
 # Make Lava
 
 We need a description here

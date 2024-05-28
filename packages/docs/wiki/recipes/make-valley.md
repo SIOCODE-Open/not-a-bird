@@ -1,3 +1,8 @@
+---
+title: Make Valley
+description: |
+  Combine Earth and Canyon to create Valley.
+---
 # Make Valley
 
 We need a description here

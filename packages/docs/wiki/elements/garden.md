@@ -1,3 +1,8 @@
+---
+title: Garden
+description: |
+  Nature's sunlit Wi-Fi free zone, and the original farm-to-table restaurant!
+---
 # Garden
 
 ![](../images/item.garden.png)

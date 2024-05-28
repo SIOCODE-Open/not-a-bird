@@ -1,3 +1,8 @@
+---
+title: Make Sinkhole
+description: |
+  Combine Earth and Quicksand to create Sinkhole.
+---
 # Make Sinkhole
 
 We need a description here

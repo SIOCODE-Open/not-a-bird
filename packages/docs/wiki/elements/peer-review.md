@@ -1,3 +1,8 @@
+---
+title: Peer Review
+description: |
+  A scroll that makes your friends question their life choices and your enemies spit out their coffee in disbelief.
+---
 # Peer Review
 
 ![](../images/item.peerreview.png)

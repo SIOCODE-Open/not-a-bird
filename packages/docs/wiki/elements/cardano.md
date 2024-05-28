@@ -1,3 +1,8 @@
+---
+title: Cardano
+description: |
+  Time to unleash the blockchain beast that's more confusing than an IKEA assembly manual!
+---
 # Cardano
 
 ![](../images/item.cardano.png)

@@ -1,3 +1,8 @@
+---
+title: Make Thunder
+description: |
+  Combine Storm and Fire to create Thunder.
+---
 # Make Thunder
 
 We need a description here

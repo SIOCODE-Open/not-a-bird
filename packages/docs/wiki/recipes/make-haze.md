@@ -1,3 +1,8 @@
+---
+title: Make Haze
+description: |
+  Combine Fog and Wind to create Haze.
+---
 # Make Haze
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Make Monument
+description: |
+  Combine Earth and Fountain to create Monument.
+---
 # Make Monument
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Make Beer
+description: |
+  Combine Bee and Bear to create Beer.
+---
 # Make Beer
 
 

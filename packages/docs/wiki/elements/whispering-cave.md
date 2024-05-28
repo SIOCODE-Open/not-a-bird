@@ -1,3 +1,8 @@
+---
+title: Whispering Cave
+description: |
+  A cave so chatty it makes high school gossip sound like monk's meditation.
+---
 # Whispering Cave
 
 ![](../images/item.whisperingcave.png)

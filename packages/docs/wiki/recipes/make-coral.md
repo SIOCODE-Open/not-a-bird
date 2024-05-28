@@ -1,3 +1,8 @@
+---
+title: Make Coral
+description: |
+  Combine Water and Reef to create Coral.
+---
 # Make Coral
 
 We need a description here

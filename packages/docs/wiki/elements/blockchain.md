@@ -1,3 +1,8 @@
+---
+title: Blockchain
+description: |
+  The magical internet ledger of destiny that Satoshi dreamt up, where everything is transparent, immutable, and forever entwined like the plot of a Christopher Nolan movie.
+---
 # Blockchain
 
 ![](../images/item.blockchain.png)

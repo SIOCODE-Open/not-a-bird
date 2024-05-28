@@ -1,3 +1,8 @@
+---
+title: Beach
+description: |
+  A sun-kissed playground where sand gets everywhere, like glitter but from hell.
+---
 # Beach
 
 ![](../images/item.beach.png)

@@ -1,3 +1,8 @@
+---
+title: Lava Cave
+description: |
+  A fiery Airbnb for fire-breathing dragons and grilled marshmallows.
+---
 # Lava Cave
 
 ![](../images/item.lavacave.png)

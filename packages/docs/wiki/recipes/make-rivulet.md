@@ -1,3 +1,8 @@
+---
+title: Make Rivulet
+description: |
+  Combine Earth and Brook to create Rivulet.
+---
 # Make Rivulet
 
 We need a description here

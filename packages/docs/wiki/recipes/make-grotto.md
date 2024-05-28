@@ -1,3 +1,8 @@
+---
+title: Make Grotto
+description: |
+  Combine Wind and Subterranean Pool to create Grotto.
+---
 # Make Grotto
 
 We need a description here

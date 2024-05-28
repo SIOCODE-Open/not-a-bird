@@ -1,3 +1,8 @@
+---
+title: Limestone
+description: |
+  The rock Dwayne Johnson wished he was named after - capable of building empires and perfect for caveman graffiti.
+---
 # Limestone
 
 ![](../images/item.limestone.png)

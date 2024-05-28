@@ -1,3 +1,8 @@
+---
+title: Oasis
+description: |
+  The desert's VIP lounge, complete with complimentary palm trees and mirage-resistant seating!
+---
 # Oasis
 
 ![](../images/item.oasis.png)

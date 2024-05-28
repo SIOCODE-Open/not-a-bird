@@ -1,3 +1,8 @@
+---
+title: Frosted Glass
+description: |
+  Clearer than your intentions after a night out, but still elusive as your friend who promises to show up on time.
+---
 # Frosted Glass
 
 ![](../images/item.frostedglass.png)

@@ -1,3 +1,8 @@
+---
+title: Landslide
+description: |
+  A geological temper tantrum that sends boulders downhill faster than a caffeine-crazed squirrel on roller skates!
+---
 # Landslide
 
 ![](../images/item.landslide.png)

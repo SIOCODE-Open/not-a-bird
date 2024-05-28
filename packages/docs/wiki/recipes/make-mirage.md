@@ -1,3 +1,8 @@
+---
+title: Make Mirage
+description: |
+  Combine Fire and Desert to create Mirage.
+---
 # Make Mirage
 
 We need a description here

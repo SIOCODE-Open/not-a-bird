@@ -1,3 +1,8 @@
+---
+title: Groundwater
+description: |
+  Mother Earth's secret stash, hidden beneath her rocky garments like a hip flask at a dry wedding.
+---
 # Groundwater
 
 ![](../images/item.groundwater.png)

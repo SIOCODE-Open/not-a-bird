@@ -1,3 +1,8 @@
+---
+title: Make Whispering Cave
+description: |
+  Combine Wind and Cave to create Whispering Cave.
+---
 # Make Whispering Cave
 
 We need a description here

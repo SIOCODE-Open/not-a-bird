@@ -1,3 +1,8 @@
+---
+title: Adobe
+description: |
+  The ancient Minecraft enchantment that grants you the power to build desert dream homes with just a handful of dirt and some water!
+---
 # Adobe
 
 ![](../images/item.adobe.png)

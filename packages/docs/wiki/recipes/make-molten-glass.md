@@ -1,3 +1,8 @@
+---
+title: Make Molten Glass
+description: |
+  Combine Fire and Crystal to create Molten Glass.
+---
 # Make Molten Glass
 
 We need a description here

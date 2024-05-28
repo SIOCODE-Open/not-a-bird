@@ -1,3 +1,8 @@
+---
+title: Make Rainbow
+description: |
+  Combine Rain and Fire to create Rainbow.
+---
 # Make Rainbow
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Warm Breeze
+description: |
+  It's like Mother Nature left the hairdryer on; embrace the cozy winds of summer hugs!
+---
 # Warm Breeze
 
 ![](../images/item.warmbreeze.png)

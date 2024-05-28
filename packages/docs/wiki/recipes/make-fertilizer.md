@@ -1,3 +1,8 @@
+---
+title: Make Fertilizer
+description: |
+  Combine Ash and Earth to create Fertilizer.
+---
 # Make Fertilizer
 
 We need a description here

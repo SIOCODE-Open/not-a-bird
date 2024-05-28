@@ -1,3 +1,8 @@
+---
+title: Spring
+description: |
+  Jump higher than your dreams, or at least higher than your disappointments, with this bouncy boing-boing.
+---
 # Spring
 
 ![](../images/item.spring.png)

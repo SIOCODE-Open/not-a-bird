@@ -1,3 +1,8 @@
+---
+title: Stream
+description: |
+  Like Netflix for fish, this babbling brook is constantly streaming new episodes of nature’s playlist!
+---
 # Stream
 
 ![](../images/item.stream.png)

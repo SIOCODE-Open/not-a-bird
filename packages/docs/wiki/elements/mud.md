@@ -1,3 +1,8 @@
+---
+title: Mud
+description: |
+  Mother Nature's messy smoothie, perfect for impromptu spa days or sabotaging the hero's clean shoes!
+---
 # Mud
 
 ![](../images/item.mud.png)

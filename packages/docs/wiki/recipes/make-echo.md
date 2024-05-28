@@ -1,3 +1,8 @@
+---
+title: Make Echo
+description: |
+  Combine Wind and Ravine to create Echo.
+---
 # Make Echo
 
 We need a description here

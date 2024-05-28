@@ -1,3 +1,8 @@
+---
+title: Wave
+description: |
+  Surf's up, dude–ride this aquatic rollercoaster like a water wizard!
+---
 # Wave
 
 ![](../images/item.wave.png)

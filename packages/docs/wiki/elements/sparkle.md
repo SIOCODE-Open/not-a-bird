@@ -1,3 +1,8 @@
+---
+title: Sparkle
+description: |
+  Glitter brighter than a unicorn's tears at a K-pop concert.
+---
 # Sparkle
 
 ![](../images/item.sparkle.png)

@@ -1,3 +1,8 @@
+---
+title: Mist
+description: |
+  Like a ghost doing the moonwalk, it slips through your fingers and cloaks the world in mystery!
+---
 # Mist
 
 ![](../images/item.mist.png)

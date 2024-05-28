@@ -1,3 +1,8 @@
+---
+title: Flower
+description: |
+  The colorful Wi-Fi signal for bees; smells better than your ex's perfume!
+---
 # Flower
 
 ![](../images/item.flower.png)

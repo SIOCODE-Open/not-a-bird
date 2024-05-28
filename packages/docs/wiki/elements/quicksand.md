@@ -1,3 +1,8 @@
+---
+title: Quicksand
+description: |
+  The Earth's way of saying 'GOTCHA!' when you thought a leisurely stroll through the desert sounded appealing.
+---
 # Quicksand
 
 ![](../images/item.quicksand.png)

@@ -1,3 +1,8 @@
+---
+title: Wall
+description: |
+  The Gentleman Bouncer of your castle, politely informing intruders that the party's over.
+---
 # Wall
 
 ![](../images/item.wall.png)

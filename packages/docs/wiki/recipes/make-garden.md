@@ -1,3 +1,8 @@
+---
+title: Make Garden
+description: |
+  Combine Earth and Plant to create Garden.
+---
 # Make Garden
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Artesian Well
+description: |
+  The bottomless mimosa bar of water sources, constantly refilling without you lifting a finger - cheers!
+---
 # Artesian Well
 
 ![](../images/item.artesianwell.png)

@@ -1,3 +1,8 @@
+---
+title: Make Barricade
+description: |
+  Combine Wind and Wall to create Barricade.
+---
 # Make Barricade
 
 We need a description here

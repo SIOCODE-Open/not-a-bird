@@ -1,3 +1,8 @@
+---
+title: Transaction
+description: |
+  The magical moment when your gold coins vanish and you're left wondering if you've been pickpocketed by a ninja or just bought a shiny new sword.
+---
 # Transaction
 
 ![](../images/item.transaction.png)

@@ -1,3 +1,8 @@
+---
+title: Cool Breeze
+description: |
+  As refreshing as a surprise pizza party in summer, but with zero calories!
+---
 # Cool Breeze
 
 ![](../images/item.coolbreeze.png)

@@ -1,3 +1,8 @@
+---
+title: Dam
+description: |
+  The Dwayne 'The Rock' Johnson of water barriers, holding back the wet with sheer muscle.
+---
 # Dam
 
 ![](../images/item.dam.png)

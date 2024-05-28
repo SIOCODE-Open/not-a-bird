@@ -1,3 +1,8 @@
+---
+title: Plant
+description: |
+  The botanical equivalent of Wi-Fi for oxygen, providing full bars since prehistoric times.
+---
 # Plant
 
 ![](../images/item.plant.png)

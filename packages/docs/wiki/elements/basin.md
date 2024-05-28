@@ -1,3 +1,8 @@
+---
+title: Basin
+description: |
+  The Holy Grail of your bathroom, where soap bubbles dream of escape and rubber duckies rule!
+---
 # Basin
 
 ![](../images/item.basin.png)

@@ -1,3 +1,8 @@
+---
+title: Make Pumice
+description: |
+  Combine Water and Ash to create Pumice.
+---
 # Make Pumice
 
 We need a description here

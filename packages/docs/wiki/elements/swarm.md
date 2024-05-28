@@ -1,3 +1,8 @@
+---
+title: Swarm
+description: |
+  Unleash a tiny, buzzing army that makes you feel like the villain in a superhero movie.
+---
 # Swarm
 
 ![](../images/item.swarm.png)

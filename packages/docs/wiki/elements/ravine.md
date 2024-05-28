@@ -1,3 +1,8 @@
+---
+title: Ravine
+description: |
+  The Grand Canyon's emo teenager cousin, endless depths of angsty chasms.
+---
 # Ravine
 
 ![](../images/item.ravine.png)

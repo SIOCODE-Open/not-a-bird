@@ -1,3 +1,8 @@
+---
+title: Make Fog
+description: |
+  Combine Smoke and Wind to create Fog.
+---
 # Make Fog
 
 We need a description here

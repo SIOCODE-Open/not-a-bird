@@ -1,3 +1,8 @@
+---
+title: Make Swarm
+description: |
+  Combine Bee and Bee to create Swarm.
+---
 # Make Swarm
 
 

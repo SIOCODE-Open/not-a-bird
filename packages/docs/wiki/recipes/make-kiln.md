@@ -1,3 +1,8 @@
+---
+title: Make Kiln
+description: |
+  Combine Fire and Pottery to create Kiln.
+---
 # Make Kiln
 
 We need a description here

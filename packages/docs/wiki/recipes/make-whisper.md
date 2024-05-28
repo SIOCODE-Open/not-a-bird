@@ -1,3 +1,8 @@
+---
+title: Make Whisper
+description: |
+  Combine Wind and Creek to create Whisper.
+---
 # Make Whisper
 
 We need a description here

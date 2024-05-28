@@ -1,3 +1,8 @@
+---
+title: Magma
+description: |
+  Hotter than your ex's last text, this molten rock sauce will turn enemies into toast.
+---
 # Magma
 
 ![](../images/item.magma.png)

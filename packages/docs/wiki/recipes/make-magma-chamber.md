@@ -1,3 +1,8 @@
+---
+title: Make Magma Chamber
+description: |
+  Combine Earth and Lava to create Magma Chamber.
+---
 # Make Magma Chamber
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Tree
+description: |
+  The original WiFi router for squirrels, providing shade and nuts with zero bars of signal!
+---
 # Tree
 
 ![](../images/item.tree.png)

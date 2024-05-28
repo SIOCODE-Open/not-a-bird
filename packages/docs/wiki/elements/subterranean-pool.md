@@ -1,3 +1,8 @@
+---
+title: Subterranean Pool
+description: |
+  Where the Teenage Mutant Ninja Turtles learned to swim and rediscover lost rubber duckies!
+---
 # Subterranean Pool
 
 ![](../images/item.subterraneanpool.png)

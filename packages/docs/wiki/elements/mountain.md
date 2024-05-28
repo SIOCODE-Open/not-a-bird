@@ -1,3 +1,8 @@
+---
+title: Mountain
+description: |
+  The colossal nature bump that's basically Earth's awkward zit.
+---
 # Mountain
 
 ![](../images/item.mountain.png)

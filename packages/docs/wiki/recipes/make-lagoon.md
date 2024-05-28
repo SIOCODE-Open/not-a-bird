@@ -1,3 +1,8 @@
+---
+title: Make Lagoon
+description: |
+  Combine Water and Lake to create Lagoon.
+---
 # Make Lagoon
 
 We need a description here

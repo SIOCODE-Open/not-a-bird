@@ -1,3 +1,8 @@
+---
+title: Make Sand Dune
+description: |
+  Combine Wind and Desert to create Sand Dune.
+---
 # Make Sand Dune
 
 We need a description here

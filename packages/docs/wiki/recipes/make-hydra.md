@@ -1,3 +1,8 @@
+---
+title: Make Hydra
+description: |
+  Combine Giraffe and Giraffe to create Hydra.
+---
 # Make Hydra
 
 

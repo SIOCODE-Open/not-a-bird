@@ -1,3 +1,8 @@
+---
+title: Bee
+description: |
+  The buzzing little cousin of Buzzie Lightyear, Defender of the Flora and Champion of Sweetness!
+---
 # Bee
 
 ![](../images/item.bee.png)

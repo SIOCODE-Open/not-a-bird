@@ -1,3 +1,8 @@
+---
+title: Monkey
+description: |
+  This banana-loving acrobat is like if Tarzan had a caffeine addiction!
+---
 # Monkey
 
 ![](../images/item.monkey.png)

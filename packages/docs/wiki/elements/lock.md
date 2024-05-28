@@ -1,3 +1,8 @@
+---
+title: Lock
+description: |
+  Who needs a dragon when you've got this security boss blocking your treasure chest?
+---
 # Lock
 
 ![](../images/item.lock.png)

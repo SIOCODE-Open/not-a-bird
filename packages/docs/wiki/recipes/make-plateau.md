@@ -1,3 +1,8 @@
+---
+title: Make Plateau
+description: |
+  Combine Earth and Canyon to create Plateau.
+---
 # Make Plateau
 
 We need a description here

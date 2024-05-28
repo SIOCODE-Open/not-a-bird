@@ -1,3 +1,8 @@
+---
+title: Rock
+description: |
+  It's Dwayne Johnson's stony cousin, perfect for smashing enemies or just sitting there, being all geology-like.
+---
 # Rock
 
 ![](../images/item.rock.png)

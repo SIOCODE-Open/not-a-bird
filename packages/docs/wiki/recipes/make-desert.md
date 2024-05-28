@@ -1,3 +1,8 @@
+---
+title: Make Desert
+description: |
+  Combine Earth and Beach to create Desert.
+---
 # Make Desert
 
 We need a description here

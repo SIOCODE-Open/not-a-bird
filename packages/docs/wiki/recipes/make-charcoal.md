@@ -1,3 +1,8 @@
+---
+title: Make Charcoal
+description: |
+  Combine Tree and Fire to create Charcoal.
+---
 # Make Charcoal
 
 We need a description here

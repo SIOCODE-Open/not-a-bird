@@ -1,3 +1,8 @@
+---
+title: Golden Gate
+description: |
+  The mystical bridge that Gandalf would totally approve of, connecting realms and charging tolls in riddles.
+---
 # Golden Gate
 
 ![](../images/item.goldengate.png)

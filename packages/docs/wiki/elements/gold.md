@@ -1,3 +1,8 @@
+---
+title: Gold
+description: |
+  Shinier than a disco ball at Studio 54, this glistening treasure will make Scrooge McDuck jealous!
+---
 # Gold
 
 ![](../images/item.gold.png)

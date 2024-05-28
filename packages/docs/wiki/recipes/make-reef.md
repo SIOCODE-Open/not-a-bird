@@ -1,3 +1,8 @@
+---
+title: Make Reef
+description: |
+  Combine Earth and Lagoon to create Reef.
+---
 # Make Reef
 
 We need a description here

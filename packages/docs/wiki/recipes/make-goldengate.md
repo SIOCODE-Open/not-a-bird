@@ -1,3 +1,8 @@
+---
+title: Make Goldengate
+description: |
+  Combine Coin and Bridge to create Golden Gate.
+---
 # Make Goldengate
 
 

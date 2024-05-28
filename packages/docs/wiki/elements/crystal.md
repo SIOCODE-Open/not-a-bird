@@ -1,3 +1,8 @@
+---
+title: Crystal
+description: |
+  Shiny as Edward Cullen and twice as sparkly in the moonlight!
+---
 # Crystal
 
 ![](../images/item.crystal.png)

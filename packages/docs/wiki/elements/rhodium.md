@@ -1,3 +1,8 @@
+---
+title: Rhodium
+description: |
+  The bling-bling metal of the periodic table: shinier than your future, harder than your math homework.
+---
 # Rhodium
 
 ![](../images/item.rhodium.png)

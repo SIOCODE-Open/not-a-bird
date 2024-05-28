@@ -1,3 +1,8 @@
+---
+title: Delta
+description: |
+  The river’s final boss battle, where water splits like an indecisive rom-com character in the season finale.
+---
 # Delta
 
 ![](../images/item.delta.png)

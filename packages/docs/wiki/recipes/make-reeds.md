@@ -1,3 +1,8 @@
+---
+title: Make Reeds
+description: |
+  Combine Wind and Wetland to create Reeds.
+---
 # Make Reeds
 
 We need a description here

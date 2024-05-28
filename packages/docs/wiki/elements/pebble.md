@@ -1,3 +1,8 @@
+---
+title: Pebble
+description: |
+  As insignificant as the pebble you kicked on your way to saving the world.
+---
 # Pebble
 
 ![](../images/item.pebble.png)

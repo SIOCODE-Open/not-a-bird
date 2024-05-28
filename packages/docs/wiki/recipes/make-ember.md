@@ -1,3 +1,8 @@
+---
+title: Make Ember
+description: |
+  Combine Fire and Ash to create Ember.
+---
 # Make Ember
 
 We need a description here

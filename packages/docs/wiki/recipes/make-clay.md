@@ -1,3 +1,8 @@
+---
+title: Make Clay
+description: |
+  Combine Mud and Fire to create Clay.
+---
 # Make Clay
 
 We need a description here

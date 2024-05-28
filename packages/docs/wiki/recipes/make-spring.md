@@ -1,3 +1,8 @@
+---
+title: Make Spring
+description: |
+  Combine Water and Subterranean Pool to create Spring.
+---
 # Make Spring
 
 We need a description here

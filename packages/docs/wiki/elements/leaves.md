@@ -1,3 +1,8 @@
+---
+title: Leaves
+description: |
+  Green confetti for Mother Nature's never-ending party, with a hint of chlorophyll chic!
+---
 # Leaves
 
 ![](../images/item.leaves.png)

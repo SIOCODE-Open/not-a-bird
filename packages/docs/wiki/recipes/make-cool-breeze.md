@@ -1,3 +1,8 @@
+---
+title: Make Cool Breeze
+description: |
+  Combine Wind and Spring to create Cool Breeze.
+---
 # Make Cool Breeze
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Volcano
+description: |
+  Mount Doom's flamboyant cousin who's always ready to throw a tantrum and belch fiery salsa.
+---
 # Volcano
 
 ![](../images/item.volcano.png)

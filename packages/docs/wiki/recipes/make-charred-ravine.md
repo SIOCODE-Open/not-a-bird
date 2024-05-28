@@ -1,3 +1,8 @@
+---
+title: Make Charred Ravine
+description: |
+  Combine Fire and Ravine to create Charred Ravine.
+---
 # Make Charred Ravine
 
 We need a description here

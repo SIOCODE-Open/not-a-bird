@@ -1,3 +1,8 @@
+---
+title: Make Glass
+description: |
+  Combine Sand and Fire to create Glass.
+---
 # Make Glass
 
 We need a description here

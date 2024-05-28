@@ -1,3 +1,8 @@
+---
+title: Parched Earth
+description: |
+  More thirst-quenching than a backstage pass at a Beyoncé concert!
+---
 # Parched Earth
 
 ![](../images/item.parchedearth.png)

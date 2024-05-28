@@ -1,3 +1,8 @@
+---
+title: Wind
+description: |
+  The invisible ninja that gives trees a good hair day.
+---
 # Wind
 
 ![](../images/item.wind.png)

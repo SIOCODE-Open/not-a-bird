@@ -1,3 +1,8 @@
+---
+title: Underground Lake
+description: |
+  The Batcave of aquatic hideaways, home to timid fish and overly ambitious spelunkers alike.
+---
 # Underground Lake
 
 ![](../images/item.undergroundlake.png)

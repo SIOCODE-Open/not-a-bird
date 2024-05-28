@@ -1,3 +1,8 @@
+---
+title: Ember
+description: |
+  Like a tiny dragon's sneeze, this little spark packs a fiery punch!
+---
 # Ember
 
 ![](../images/item.ember.png)

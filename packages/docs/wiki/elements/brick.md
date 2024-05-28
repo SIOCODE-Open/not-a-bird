@@ -1,3 +1,8 @@
+---
+title: Brick
+description: |
+  As indestructible as your WiFi on a good day, this brick could build a mansion or your Minecraft empire.
+---
 # Brick
 
 ![](../images/item.brick.png)

@@ -1,3 +1,8 @@
+---
+title: Make Dust
+description: |
+  Combine Wind and Earth to create Dust.
+---
 # Make Dust
 
 We need a description here

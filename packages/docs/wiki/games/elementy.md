@@ -1,3 +1,8 @@
+---
+title: Elementy
+description: |
+  A game in which you combine elements to create new ones.
+---
 # Elementy
 
 A game in which you combine elements to create new ones.

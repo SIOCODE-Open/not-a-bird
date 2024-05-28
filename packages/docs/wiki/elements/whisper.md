@@ -1,3 +1,8 @@
+---
+title: Whisper
+description: |
+  The secret handshake of the wind and your ear, as if a gossiping fairy had a megaphone.
+---
 # Whisper
 
 ![](../images/item.whisper.png)

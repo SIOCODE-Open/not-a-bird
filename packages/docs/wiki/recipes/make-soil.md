@@ -1,3 +1,8 @@
+---
+title: Make Soil
+description: |
+  Combine Earth and Plant to create Soil.
+---
 # Make Soil
 
 We need a description here

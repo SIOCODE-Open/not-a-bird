@@ -1,3 +1,8 @@
+---
+title: Make Jungle
+description: |
+  Combine Forest and Earth to create Jungle.
+---
 # Make Jungle
 
 We need a description here

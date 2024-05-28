@@ -1,3 +1,8 @@
+---
+title: Make Mud
+description: |
+  Combine Water and Earth to create Mud.
+---
 # Make Mud
 
 We need a description here

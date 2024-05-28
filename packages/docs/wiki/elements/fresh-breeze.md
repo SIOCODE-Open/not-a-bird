@@ -1,3 +1,8 @@
+---
+title: Fresh Breeze
+description: |
+  A zephyr so crisp it could convince even Darth Vader to join a yoga retreat!
+---
 # Fresh Breeze
 
 ![](../images/item.freshbreeze.png)

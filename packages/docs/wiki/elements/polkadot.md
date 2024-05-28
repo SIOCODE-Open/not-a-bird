@@ -1,3 +1,8 @@
+---
+title: Polkadot
+description: |
+  Think Bitcoin's eccentric cousin who shows up at parties in a spotted suit and shocks everyone with their dazzlingly efficient dancing.
+---
 # Polkadot
 
 ![](../images/item.polkadot.png)

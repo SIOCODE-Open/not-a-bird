@@ -1,3 +1,8 @@
+---
+title: Lagoon
+description: |
+  A lazy lake who's too cool to hang with the ocean, featuring more zen than a yoga retreat for dolphins.
+---
 # Lagoon
 
 ![](../images/item.lagoon.png)

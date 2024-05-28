@@ -1,3 +1,8 @@
+---
+title: Giraffe
+description: |
+  The long-necked, leafy buffet enthusiast that would make even a stepladder feel short.
+---
 # Giraffe
 
 ![](../images/item.giraffe.png)

@@ -1,3 +1,8 @@
+---
+title: Make Seeds
+description: |
+  Combine Plant and Wind to create Seeds.
+---
 # Make Seeds
 
 We need a description here

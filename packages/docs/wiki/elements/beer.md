@@ -1,3 +1,8 @@
+---
+title: Beer
+description: |
+  The golden elixir of the gods, best enjoyed when your quest log is empty and your dance moves are questionable.
+---
 # Beer
 
 ![](../images/item.beer.png)

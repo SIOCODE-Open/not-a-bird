@@ -1,3 +1,8 @@
+---
+title: Make Ash
+description: |
+  Combine Lava and Wind to create Ash.
+---
 # Make Ash
 
 We need a description here

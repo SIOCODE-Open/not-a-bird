@@ -1,3 +1,8 @@
+---
+title: Make Soot
+description: |
+  Combine Ash and Wind to create Soot.
+---
 # Make Soot
 
 We need a description here

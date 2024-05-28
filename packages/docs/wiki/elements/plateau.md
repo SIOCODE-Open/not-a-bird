@@ -1,3 +1,8 @@
+---
+title: Plateau
+description: |
+  A flat piece of land that got tired of climbing mountains and decided to chill forever.
+---
 # Plateau
 
 ![](../images/item.plateau.png)

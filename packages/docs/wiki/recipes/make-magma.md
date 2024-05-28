@@ -1,3 +1,8 @@
+---
+title: Make Magma
+description: |
+  Combine Obsidian and Fire to create Magma.
+---
 # Make Magma
 
 We need a description here

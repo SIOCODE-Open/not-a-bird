@@ -1,3 +1,8 @@
+---
+title: Make Warm Breeze
+description: |
+  Combine Fire and Breeze to create Warm Breeze.
+---
 # Make Warm Breeze
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Make Smoke
+description: |
+  Combine Fire and Wind to create Smoke.
+---
 # Make Smoke
 
 We need a description here

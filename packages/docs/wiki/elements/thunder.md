@@ -1,3 +1,8 @@
+---
+title: Thunder
+description: |
+  Like Thor's mixtape at full volume, this electrifying zap will leave your enemies shocked and awed!
+---
 # Thunder
 
 ![](../images/item.thunder.png)

@@ -1,3 +1,8 @@
+---
+title: Tributary
+description: |
+  A glorified water delivery service, bringing aqua goodness to bigger, bossier rivers.
+---
 # Tributary
 
 ![](../images/item.tributary.png)

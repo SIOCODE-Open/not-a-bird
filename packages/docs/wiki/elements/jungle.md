@@ -1,3 +1,8 @@
+---
+title: Jungle
+description: |
+  Like Tarzan's playground but with 99% more bugs and 100% less Wi-Fi.
+---
 # Jungle
 
 ![](../images/item.jungle.png)

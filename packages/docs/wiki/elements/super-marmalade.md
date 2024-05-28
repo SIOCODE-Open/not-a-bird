@@ -1,3 +1,8 @@
+---
+title: Super Marmalade
+description: |
+  As if Spider-Man and your grandma's secret jam recipe had a citrusy baby that swings through breakfast toast saving your taste buds one bite at a time!
+---
 # Super Marmalade
 
 ![](../images/item.supermarmalade.png)

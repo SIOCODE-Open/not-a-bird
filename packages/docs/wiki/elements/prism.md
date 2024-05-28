@@ -1,3 +1,8 @@
+---
+title: Prism
+description: |
+  Divide light like a 70's disco ball at a Saturday night fever party.
+---
 # Prism
 
 ![](../images/item.prism.png)

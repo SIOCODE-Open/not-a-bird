@@ -1,3 +1,8 @@
+---
+title: Wetland
+description: |
+  As if Mother Nature decided to recreate the set of Jumanji with extra humidity and a smorgasbord of mosquitoes!
+---
 # Wetland
 
 ![](../images/item.wetland.png)

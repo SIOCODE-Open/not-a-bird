@@ -1,3 +1,8 @@
+---
+title: Make Quicksand
+description: |
+  Combine Sand and Water to create Quicksand.
+---
 # Make Quicksand
 
 We need a description here

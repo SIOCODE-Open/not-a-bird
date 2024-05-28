@@ -1,3 +1,8 @@
+---
+title: Canyon
+description: |
+  Nature's gigantic frown; perfect for epic echoes and bottomless pratfalls.
+---
 # Canyon
 
 ![](../images/item.canyon.png)

@@ -1,3 +1,8 @@
+---
+title: Make Lava Cave
+description: |
+  Combine Fire and Cave to create Lava Cave.
+---
 # Make Lava Cave
 
 We need a description here

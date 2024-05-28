@@ -1,3 +1,8 @@
+---
+title: Aquifer
+description: |
+  Nature's secret underground swimming pool, perfect for when groundwater wants to chill out.
+---
 # Aquifer
 
 ![](../images/item.aquifer.png)

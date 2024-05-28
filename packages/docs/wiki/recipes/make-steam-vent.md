@@ -1,3 +1,8 @@
+---
+title: Make Steam Vent
+description: |
+  Combine Fire and Spring to create Steam Vent.
+---
 # Make Steam Vent
 
 We need a description here

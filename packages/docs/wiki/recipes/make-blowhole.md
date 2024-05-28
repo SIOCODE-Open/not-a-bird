@@ -1,3 +1,8 @@
+---
+title: Make Blowhole
+description: |
+  Combine Wind and Karst to create Blowhole.
+---
 # Make Blowhole
 
 We need a description here

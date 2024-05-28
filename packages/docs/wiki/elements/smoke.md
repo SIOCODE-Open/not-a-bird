@@ -1,3 +1,8 @@
+---
+title: Smoke
+description: |
+  As elusive as your New Year's resolutions, it vanishes faster than free Wi-Fi at a coffee shop.
+---
 # Smoke
 
 ![](../images/item.smoke.png)

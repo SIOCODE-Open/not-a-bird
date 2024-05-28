@@ -1,3 +1,8 @@
+---
+title: Dust
+description: |
+  The forgotten remains of battles long past, or your enemy when you forget to clean under the sofa.
+---
 # Dust
 
 ![](../images/item.dust.png)

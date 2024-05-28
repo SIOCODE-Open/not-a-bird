@@ -1,3 +1,8 @@
+---
+title: Coral
+description: |
+  Nature's underwater apartment complex—complete with quirky neighbors!
+---
 # Coral
 
 ![](../images/item.coral.png)

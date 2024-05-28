@@ -1,3 +1,8 @@
+---
+title: Riverbank
+description: |
+  Where Gandalf would come for a picnic with his hobbit homies if Middle-earth had longer vacations.
+---
 # Riverbank
 
 ![](../images/item.riverbank.png)

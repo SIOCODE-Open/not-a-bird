@@ -1,3 +1,8 @@
+---
+title: Peat
+description: |
+  It's like the cozy blanket of soil—excellent for plants, terrible for couch potatoes.
+---
 # Peat
 
 ![](../images/item.peat.png)

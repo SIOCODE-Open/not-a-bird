@@ -1,3 +1,8 @@
+---
+title: Sand
+description: |
+  Pocketful of tiny wizards' teeth, creating beaches and cat litter archeology!
+---
 # Sand
 
 ![](../images/item.sand.png)

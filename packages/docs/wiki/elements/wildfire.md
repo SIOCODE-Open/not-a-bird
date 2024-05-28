@@ -1,3 +1,8 @@
+---
+title: Wildfire
+description: |
+  Spicier than your ex's DMs, this blaze turns forests into toast and marshmallows into napalm.
+---
 # Wildfire
 
 ![](../images/item.wildfire.png)

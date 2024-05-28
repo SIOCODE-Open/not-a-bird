@@ -1,3 +1,8 @@
+---
+title: Make Farm
+description: |
+  Combine Earth and Seeds to create Farm.
+---
 # Make Farm
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Make Peat
+description: |
+  Combine Fire and Wetland to create Peat.
+---
 # Make Peat
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Fog
+description: |
+  It’s like someone took all the clouds, shredded them, and set them loose to play hide and seek with your vision.
+---
 # Fog
 
 ![](../images/item.fog.png)

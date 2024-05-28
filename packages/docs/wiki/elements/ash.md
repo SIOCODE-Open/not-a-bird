@@ -1,3 +1,8 @@
+---
+title: Ash
+description: |
+  The remains of your epic campfire story that burned out faster than your WiFi during a binge session.
+---
 # Ash
 
 ![](../images/item.ash.png)

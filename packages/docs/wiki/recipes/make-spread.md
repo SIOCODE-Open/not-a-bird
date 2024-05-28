@@ -1,3 +1,8 @@
+---
+title: Make Spread
+description: |
+  Combine Wind and Pollination to create Spread.
+---
 # Make Spread
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Make Whirl
+description: |
+  Combine Wind and Reef to create Whirl.
+---
 # Make Whirl
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Make Brook
+description: |
+  Combine Water and Creek to create Brook.
+---
 # Make Brook
 
 We need a description here

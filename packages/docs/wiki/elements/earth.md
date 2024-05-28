@@ -1,3 +1,8 @@
+---
+title: Earth
+description: |
+  Because who doesn't want a handful of dirt from Mother Nature's handbag?
+---
 # Earth
 
 ![](../images/item.earth.png)

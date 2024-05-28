@@ -1,3 +1,8 @@
+---
+title: Glass
+description: |
+  As delicate as your ego after a bad break-up, but see-through like your best friend's terrible poker face.
+---
 # Glass
 
 ![](../images/item.glass.png)

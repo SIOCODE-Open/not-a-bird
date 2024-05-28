@@ -1,3 +1,8 @@
+---
+title: Make Dry Basin
+description: |
+  Combine Fire and Basin to create Dry Basin.
+---
 # Make Dry Basin
 
 We need a description here

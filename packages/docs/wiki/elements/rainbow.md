@@ -1,3 +1,8 @@
+---
+title: Rainbow
+description: |
+  The sky's post-rain refurbishment job, brought to you by Mother Nature's favorite highlighter pack.
+---
 # Rainbow
 
 ![](../images/item.rainbow.png)

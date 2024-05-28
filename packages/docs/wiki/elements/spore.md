@@ -1,3 +1,8 @@
+---
+title: Spore
+description: |
+  Tiny, invisible disco balls of doom, ready to throw a rave in your sinuses!
+---
 # Spore
 
 ![](../images/item.spore.png)

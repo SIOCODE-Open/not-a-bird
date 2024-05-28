@@ -1,3 +1,8 @@
+---
+title: Make Parched Earth
+description: |
+  Combine Fire and Watershed to create Parched Earth.
+---
 # Make Parched Earth
 
 We need a description here

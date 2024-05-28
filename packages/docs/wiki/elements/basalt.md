@@ -1,3 +1,8 @@
+---
+title: Basalt
+description: |
+  Forged in the depths of the earth, harder than your ex's heart and cooler than the underside of your pillow.
+---
 # Basalt
 
 ![](../images/item.basalt.png)

@@ -1,3 +1,8 @@
+---
+title: Steam Vent
+description: |
+  When regular air conditioning just won't cut it, unleash this spicy hot air geyser and channel your inner Old Faithful!
+---
 # Steam Vent
 
 ![](../images/item.steamvent.png)

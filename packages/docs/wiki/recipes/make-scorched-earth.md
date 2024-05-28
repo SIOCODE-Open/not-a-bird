@@ -1,3 +1,8 @@
+---
+title: Make Scorched Earth
+description: |
+  Combine Fire and Valley to create Scorched Earth.
+---
 # Make Scorched Earth
 
 We need a description here

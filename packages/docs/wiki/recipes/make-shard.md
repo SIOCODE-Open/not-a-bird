@@ -1,3 +1,8 @@
+---
+title: Make Shard
+description: |
+  Combine Obsidian and Wind to create Shard.
+---
 # Make Shard
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Hydra
+description: |
+  When one head isn't enough to argue with you, this multi-headed reptilian nightmare is ready to rumble!
+---
 # Hydra
 
 ![](../images/item.hydra.png)

@@ -1,3 +1,8 @@
+---
+title: Make Barbecue
+description: |
+  Combine Fire and Charcoal to create Barbecue.
+---
 # Make Barbecue
 
 We need a description here

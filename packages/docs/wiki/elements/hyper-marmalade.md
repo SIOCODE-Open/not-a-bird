@@ -1,3 +1,8 @@
+---
+title: Hyper Marmalade
+description: |
+  Like regular marmalade, but it makes you feel like you've had a double shot of espresso and a lightning bolt to the brain!
+---
 # Hyper Marmalade
 
 ![](../images/item.hypermarmalade.png)

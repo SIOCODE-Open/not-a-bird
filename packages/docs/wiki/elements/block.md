@@ -1,3 +1,8 @@
+---
+title: Block
+description: |
+  Like adult Legos, but less fun and more about stopping that lava from ruining your day!
+---
 # Block
 
 ![](../images/item.block.png)

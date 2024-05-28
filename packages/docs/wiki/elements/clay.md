@@ -1,3 +1,8 @@
+---
+title: Clay
+description: |
+  Mold this earthy Play-Doh into something magical, or just make yourself a new best friend, Wilson style!
+---
 # Clay
 
 ![](../images/item.clay.png)

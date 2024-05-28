@@ -1,3 +1,8 @@
+---
+title: Make Wave
+description: |
+  Combine Wind and Lake to create Wave.
+---
 # Make Wave
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Make Beach
+description: |
+  Combine Water and Sand to create Beach.
+---
 # Make Beach
 
 We need a description here

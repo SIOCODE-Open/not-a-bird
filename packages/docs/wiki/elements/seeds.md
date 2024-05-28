@@ -1,3 +1,8 @@
+---
+title: Seeds
+description: |
+  Nature's popcorn kernels, just add dirt and patience for a flourishing snack!
+---
 # Seeds
 
 ![](../images/item.seeds.png)

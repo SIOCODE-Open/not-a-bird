@@ -1,3 +1,8 @@
+---
+title: Sinkhole
+description: |
+  Suddenly feeling like you starred in a Looney Tunes cartoon, minus the anvil and roadrunner.
+---
 # Sinkhole
 
 ![](../images/item.sinkhole.png)

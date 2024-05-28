@@ -1,3 +1,8 @@
+---
+title: Make Oasis
+description: |
+  Combine Water and Desert to create Oasis.
+---
 # Make Oasis
 
 We need a description here

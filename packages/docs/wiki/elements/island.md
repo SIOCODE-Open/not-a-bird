@@ -1,3 +1,8 @@
+---
+title: Island
+description: |
+  A chunk of land adrift in the ocean, like a slice of pizza floating in tomato soup.
+---
 # Island
 
 ![](../images/item.island.png)

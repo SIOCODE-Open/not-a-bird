@@ -1,3 +1,8 @@
+---
+title: Make Forest
+description: |
+  Combine Plant and Earth to create Forest.
+---
 # Make Forest
 
 We need a description here

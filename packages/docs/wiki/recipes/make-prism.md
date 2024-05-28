@@ -1,3 +1,8 @@
+---
+title: Make Prism
+description: |
+  Combine Water and Crystal to create Prism.
+---
 # Make Prism
 
 We need a description here

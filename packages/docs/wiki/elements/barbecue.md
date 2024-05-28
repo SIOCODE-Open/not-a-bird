@@ -1,3 +1,8 @@
+---
+title: Barbecue
+description: |
+  Unleash your inner pitmaster with this meat sizzle maker, as seen on grill-enthusiast reality shows!
+---
 # Barbecue
 
 ![](../images/item.barbecue.png)

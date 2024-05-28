@@ -1,3 +1,8 @@
+---
+title: Make Hot Spring
+description: |
+  Combine Fire and Subterranean Pool to create Hot Spring.
+---
 # Make Hot Spring
 
 We need a description here

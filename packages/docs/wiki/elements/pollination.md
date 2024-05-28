@@ -1,3 +1,8 @@
+---
+title: Pollination
+description: |
+  Nature's Tinder for plants, where bees are the swiping right matchmakers.
+---
 # Pollination
 
 ![](../images/item.pollination.png)

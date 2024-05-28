@@ -1,3 +1,8 @@
+---
+title: Lake
+description: |
+  Nature's giant puddle, perfect for lazy fish, and where mythical creatures might just throw tea parties.
+---
 # Lake
 
 ![](../images/item.lake.png)

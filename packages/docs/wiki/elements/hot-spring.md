@@ -1,3 +1,8 @@
+---
+title: Hot Spring
+description: |
+  Like soaking in a jacuzzi made by Mother Nature, but without the awkward vacation photos!
+---
 # Hot Spring
 
 ![](../images/item.hotspring.png)

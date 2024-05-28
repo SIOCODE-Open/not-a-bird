@@ -1,3 +1,8 @@
+---
+title: Desert
+description: |
+  A vast sandbox of banishment where even cacti consider sunblock.
+---
 # Desert
 
 ![](../images/item.desert.png)

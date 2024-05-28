@@ -1,3 +1,8 @@
+---
+title: Make Basalt
+description: |
+  Combine Water and Lava to create Basalt.
+---
 # Make Basalt
 
 We need a description here

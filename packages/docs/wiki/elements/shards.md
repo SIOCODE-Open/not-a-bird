@@ -1,3 +1,8 @@
+---
+title: Shards
+description: |
+  Fragments of a broken heart? Or just pieces of yesterday's piñata—either way, they're sharp!
+---
 # Shards
 
 ![](../images/item.shards.png)

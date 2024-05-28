@@ -1,3 +1,8 @@
+---
+title: Brook
+description: |
+  Where baby rivers are born and sent to Hogwarts.
+---
 # Brook
 
 ![](../images/item.brook.png)

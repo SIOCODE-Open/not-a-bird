@@ -1,3 +1,8 @@
+---
+title: Make Fire Swamp
+description: |
+  Combine Fire and Delta to create Fire Swamp.
+---
 # Make Fire Swamp
 
 We need a description here

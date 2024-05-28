@@ -1,3 +1,8 @@
+---
+title: Windmill
+description: |
+  Spinning like your favorite DJ, this eco-friendly giant turns breezes into electrical symphonies.
+---
 # Windmill
 
 ![](../images/item.windmill.png)

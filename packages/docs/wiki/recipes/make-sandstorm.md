@@ -1,3 +1,8 @@
+---
+title: Make Sandstorm
+description: |
+  Combine Dust and Wind to create Sandstorm.
+---
 # Make Sandstorm
 
 We need a description here

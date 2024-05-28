@@ -1,3 +1,8 @@
+---
+title: Molten Glass
+description: |
+  Hotter than a dragon's breath after Taco Tuesday, this molten glass can melt through your problems... literally.
+---
 # Molten Glass
 
 ![](../images/item.moltenglass.png)

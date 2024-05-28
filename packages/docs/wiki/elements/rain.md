@@ -1,3 +1,8 @@
+---
+title: Rain
+description: |
+  Sky's attempt at a group shower: brings hydration and dramatic window views!
+---
 # Rain
 
 ![](../images/item.rain.png)

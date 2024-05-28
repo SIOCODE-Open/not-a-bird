@@ -1,3 +1,8 @@
+---
+title: Make Rock
+description: |
+  Combine Obsidian and Earth to create Rock.
+---
 # Make Rock
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Aromas
+description: |
+  Sprinkle a bit of Hogwarts' magic under your nose and breathe in the essence of enchanted forests and dragon's breath!
+---
 # Aromas
 
 ![](../images/item.aromas.png)

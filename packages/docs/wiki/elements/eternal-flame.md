@@ -1,3 +1,8 @@
+---
+title: Eternal Flame
+description: |
+  Hotter than a dragon's sneeze, this flame burns with the angst of a thousand rejected pop stars!
+---
 # Eternal Flame
 
 ![](../images/item.eternalflame.png)

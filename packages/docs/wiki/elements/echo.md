@@ -1,3 +1,8 @@
+---
+title: Echo
+description: |
+  It's like shouting into a canyon, but the canyon actually cares about what you said and keeps repeating it back.
+---
 # Echo
 
 ![](../images/item.echo.png)

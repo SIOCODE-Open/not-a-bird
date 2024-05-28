@@ -1,3 +1,8 @@
+---
+title: Charred Ravine
+description: |
+  A spicy hot potato chip of doom, hotter than a dragon's sneeze in a volcano.
+---
 # Charred Ravine
 
 ![](../images/item.charredravine.png)

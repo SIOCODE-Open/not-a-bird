@@ -1,3 +1,8 @@
+---
+title: Make Pebble
+description: |
+  Combine Rock and Water to create Pebble.
+---
 # Make Pebble
 
 We need a description here

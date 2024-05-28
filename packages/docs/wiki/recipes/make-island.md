@@ -1,3 +1,8 @@
+---
+title: Make Island
+description: |
+  Combine Earth and Lake to create Island.
+---
 # Make Island
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Wetstone
+description: |
+  Sharpen your blades while pondering life's mysteries with this slippery soapy rock, straight from the stones of Soapland!
+---
 # Wetstone
 
 ![](../images/item.wetstone.png)

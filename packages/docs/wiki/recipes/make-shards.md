@@ -1,3 +1,8 @@
+---
+title: Make Shards
+description: |
+  Combine Wind and Obsidian to create Shards.
+---
 # Make Shards
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Silver
+description: |
+  Shinier than a vampire at a disco party, it's what werewolves dread and jewelry lovers adore.
+---
 # Silver
 
 ![](../images/item.silver.png)

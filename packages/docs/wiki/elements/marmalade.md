@@ -1,3 +1,8 @@
+---
+title: Marmalade
+description: |
+  The sticky, fruity concoction that Paddington Bear would trade his hat for.
+---
 # Marmalade
 
 ![](../images/item.marmalade.png)

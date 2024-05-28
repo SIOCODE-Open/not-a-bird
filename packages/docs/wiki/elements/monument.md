@@ -1,3 +1,8 @@
+---
+title: Monument
+description: |
+  A stone tribute that's so towering, it could give the Statue of Liberty vertigo!
+---
 # Monument
 
 ![](../images/item.monument.png)

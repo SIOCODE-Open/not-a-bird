@@ -1,3 +1,8 @@
+---
+title: Depression
+description: |
+  Feeling like Eeyore in a world full of Tiggers.
+---
 # Depression
 
 ![](../images/item.depression.png)

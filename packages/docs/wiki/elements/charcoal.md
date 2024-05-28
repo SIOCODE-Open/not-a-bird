@@ -1,3 +1,8 @@
+---
+title: Charcoal
+description: |
+  The BBQ Master's secret ingredient for transforming your steaks from zero to hero faster than you can say 'Grill-Zilla!'
+---
 # Charcoal
 
 ![](../images/item.charcoal.png)

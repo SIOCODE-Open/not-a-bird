@@ -1,3 +1,8 @@
+---
+title: Reeds
+description: |
+  The nature-made cocktail straws that just might call Gandalf from Middle-earth; beware of hobbits sneaking around!
+---
 # Reeds
 
 ![](../images/item.reeds.png)

@@ -1,3 +1,8 @@
+---
+title: Magma Chamber
+description: |
+  Hotter than a dragon's sneeze, this is the spicy jacuzzi of the underworld.
+---
 # Magma Chamber
 
 ![](../images/item.magmachamber.png)

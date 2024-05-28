@@ -1,3 +1,8 @@
+---
+title: Make Geothermal Spring
+description: |
+  Combine Fire and Groundwater to create Geothermal Spring.
+---
 # Make Geothermal Spring
 
 We need a description here

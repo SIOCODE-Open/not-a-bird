@@ -1,3 +1,8 @@
+---
+title: Make Plant
+description: |
+  Combine Rain and Earth to create Plant.
+---
 # Make Plant
 
 We need a description here

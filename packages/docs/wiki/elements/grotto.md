@@ -1,3 +1,8 @@
+---
+title: Grotto
+description: |
+  The ultimate bachelor pad for goblins—think of it as a man cave, but with actual caves.
+---
 # Grotto
 
 ![](../images/item.grotto.png)

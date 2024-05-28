@@ -1,3 +1,8 @@
+---
+title: Haze
+description: |
+  Like Gandalf's vape party, but a lot less fun and way more confusing.
+---
 # Haze
 
 ![](../images/item.haze.png)

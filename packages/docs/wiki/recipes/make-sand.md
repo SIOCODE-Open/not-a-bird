@@ -1,3 +1,8 @@
+---
+title: Make Sand
+description: |
+  Combine Mud and Wind to create Sand.
+---
 # Make Sand
 
 We need a description here

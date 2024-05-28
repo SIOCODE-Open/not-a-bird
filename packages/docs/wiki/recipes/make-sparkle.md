@@ -1,3 +1,8 @@
+---
+title: Make Sparkle
+description: |
+  Combine Wind and Crystal to create Sparkle.
+---
 # Make Sparkle
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Blowhole
+description: |
+  The marine mammal's N64 controller button for an epic H2O power-up!
+---
 # Blowhole
 
 ![](../images/item.blowhole.png)

@@ -1,3 +1,8 @@
+---
+title: Make Pottery
+description: |
+  Combine Clay and Fire to create Pottery.
+---
 # Make Pottery
 
 We need a description here

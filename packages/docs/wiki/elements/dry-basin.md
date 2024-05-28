@@ -1,3 +1,8 @@
+---
+title: Dry Basin
+description: |
+  A bowl so devoid of moisture, even SpongeBob would dry up in here.
+---
 # Dry Basin
 
 ![](../images/item.drybasin.png)

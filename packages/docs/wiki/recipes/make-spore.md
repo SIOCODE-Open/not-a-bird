@@ -1,3 +1,8 @@
+---
+title: Make Spore
+description: |
+  Combine Fire and Pollination to create Spore.
+---
 # Make Spore
 
 We need a description here

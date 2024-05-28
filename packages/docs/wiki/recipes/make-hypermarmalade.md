@@ -1,3 +1,8 @@
+---
+title: Make Hypermarmalade
+description: |
+  Combine Super Marmalade and Super Marmalade to create Hyper Marmalade.
+---
 # Make Hypermarmalade
 
 

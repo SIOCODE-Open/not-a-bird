@@ -1,3 +1,8 @@
+---
+title: Forest
+description: |
+  A dense collection of trees where even squirrels hire GPS, home of the mythical Wi-Fi-repellent green zone.
+---
 # Forest
 
 ![](../images/item.forest.png)

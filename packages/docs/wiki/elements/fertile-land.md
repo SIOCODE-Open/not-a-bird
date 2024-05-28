@@ -1,3 +1,8 @@
+---
+title: Fertile Land
+description: |
+  As luxurious and bountiful as Bob Ross’s paint palette, it's the MVP of Mother Nature's garden party.
+---
 # Fertile Land
 
 ![](../images/item.fertileland.png)

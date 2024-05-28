@@ -1,3 +1,8 @@
+---
+title: Make Cave
+description: |
+  Combine Earth and Echo to create Cave.
+---
 # Make Cave
 
 We need a description here

@@ -1,3 +1,8 @@
+---
+title: Hive
+description: |
+  Welcome to the buzzfeed mansion, where every room has a bee-convincing argument!
+---
 # Hive
 
 ![](../images/item.hive.png)

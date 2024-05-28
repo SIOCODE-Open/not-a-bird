@@ -1,3 +1,8 @@
+---
+title: Quicklime
+description: |
+  Just add water and watch this rock go all 'Hulk Smash' on your hydration dreams!
+---
 # Quicklime
 
 ![](../images/item.quicklime.png)

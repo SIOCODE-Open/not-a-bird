@@ -1,3 +1,8 @@
+---
+title: Make Quicklime
+description: |
+  Combine Fire and Limestone to create Quicklime.
+---
 # Make Quicklime
 
 We need a description here

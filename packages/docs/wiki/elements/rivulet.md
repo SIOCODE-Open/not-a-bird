@@ -1,3 +1,8 @@
+---
+title: Rivulet
+description: |
+  A tiny stream so small that even ants use it as their personal slip-n-slide.
+---
 # Rivulet
 
 ![](../images/item.rivulet.png)

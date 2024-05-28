@@ -1,3 +1,8 @@
+---
+title: Bridge
+description: |
+  The majestic road-over-nothing, perfect for trolls and billy goats alike.
+---
 # Bridge
 
 ![](../images/item.bridge.png)

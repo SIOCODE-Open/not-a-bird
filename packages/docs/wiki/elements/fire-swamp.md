@@ -1,3 +1,8 @@
+---
+title: Fire Swamp
+description: |
+  Enter at your own risk and remember, the trees have a fiery personality akin to dragons after a spicy taco night!
+---
 # Fire Swamp
 
 ![](../images/item.fireswamp.png)

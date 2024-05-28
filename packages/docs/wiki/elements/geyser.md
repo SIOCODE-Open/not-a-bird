@@ -1,3 +1,8 @@
+---
+title: Geyser
+description: |
+  Mother Nature's boiling hot water cannon, now available as a decorative backyard feature!
+---
 # Geyser
 
 ![](../images/item.geyser.png)

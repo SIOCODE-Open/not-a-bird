@@ -1,3 +1,8 @@
+---
+title: Spread
+description: |
+  As versatile as a Swiss army knife, it's the social butterfly of condiments!
+---
 # Spread
 
 ![](../images/item.spread.png)

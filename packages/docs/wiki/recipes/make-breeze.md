@@ -1,3 +1,8 @@
+---
+title: Make Breeze
+description: |
+  Combine Wind and Dust to create Breeze.
+---
 # Make Breeze
 
 We need a description here

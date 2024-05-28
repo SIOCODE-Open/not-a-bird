@@ -1,3 +1,8 @@
+---
+title: Make Wall
+description: |
+  Combine Earth and Brick to create Wall.
+---
 # Make Wall
 
 We need a description here

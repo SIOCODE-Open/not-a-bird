@@ -1,3 +1,8 @@
+---
+title: Make Frosted Glass
+description: |
+  Combine Glass and Water to create Frosted Glass.
+---
 # Make Frosted Glass
 
 We need a description here

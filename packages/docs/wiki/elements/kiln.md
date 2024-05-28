@@ -1,3 +1,8 @@
+---
+title: Kiln
+description: |
+  The oven that turns your pottery dreams into reality, just like Hogwarts turns kids into wizards.
+---
 # Kiln
 
 ![](../images/item.kiln.png)

@@ -1,3 +1,8 @@
+---
+title: Shard
+description: |
+  This is the majestic piece of glitter, sharper than your ex-girlfriend's comebacks!
+---
 # Shard
 
 ![](../images/item.shard.png)

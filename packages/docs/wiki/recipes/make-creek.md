@@ -1,3 +1,8 @@
+---
+title: Make Creek
+description: |
+  Combine Earth and Stream to create Creek.
+---
 # Make Creek
 
 We need a description here

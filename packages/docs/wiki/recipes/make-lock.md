@@ -1,3 +1,8 @@
+---
+title: Make Lock
+description: |
+  Combine Silver and Silver to create Lock.
+---
 # Make Lock
 
 

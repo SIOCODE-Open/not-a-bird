@@ -1,3 +1,8 @@
+---
+title: Make Subterranean Pool
+description: |
+  Combine Earth and Underground Lake to create Subterranean Pool.
+---
 # Make Subterranean Pool
 
 We need a description here

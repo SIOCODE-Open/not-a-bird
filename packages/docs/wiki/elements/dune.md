@@ -1,3 +1,8 @@
+---
+title: Dune
+description: |
+  Get ready to channel your inner Muad'Dib and rule the sandy seas while dodging giant worms and political plots!
+---
 # Dune
 
 ![](../images/item.dune.png)

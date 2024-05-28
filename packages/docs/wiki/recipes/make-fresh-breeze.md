@@ -1,3 +1,8 @@
+---
+title: Make Fresh Breeze
+description: |
+  Combine Wind and Watershed to create Fresh Breeze.
+---
 # Make Fresh Breeze
 
 We need a description here

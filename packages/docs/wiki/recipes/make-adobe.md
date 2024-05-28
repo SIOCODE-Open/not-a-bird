@@ -1,3 +1,8 @@
+---
+title: Make Adobe
+description: |
+  Combine Earth and Clay to create Adobe.
+---
 # Make Adobe
 
 We need a description here

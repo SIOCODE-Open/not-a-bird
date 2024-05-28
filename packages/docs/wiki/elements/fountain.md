@@ -1,3 +1,8 @@
+---
+title: Fountain
+description: |
+  Where wishes and coins go on a wild water slide together.
+---
 # Fountain
 
 ![](../images/item.fountain.png)

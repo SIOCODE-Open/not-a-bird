@@ -1,3 +1,8 @@
+---
+title: Geothermal Spring
+description: |
+  Mother Nature's jacuzzi, hotter than the coffee your soul relies on.
+---
 # Geothermal Spring
 
 ![](../images/item.geothermalspring.png)

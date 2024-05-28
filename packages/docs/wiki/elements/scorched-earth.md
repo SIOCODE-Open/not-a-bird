@@ -1,3 +1,8 @@
+---
+title: Scorched Earth
+description: |
+  More devastating than an expired hot sauce binge, it turns fertile land into a Mad Max wasteland!
+---
 # Scorched Earth
 
 ![](../images/item.scorchedearth.png)

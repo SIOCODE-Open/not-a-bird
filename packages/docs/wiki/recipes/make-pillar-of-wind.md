@@ -1,3 +1,8 @@
+---
+title: Make Pillar Of Wind
+description: |
+  Combine Wind and Monument to create Pillar Of Wind.
+---
 # Make Pillar Of Wind
 
 We need a description here

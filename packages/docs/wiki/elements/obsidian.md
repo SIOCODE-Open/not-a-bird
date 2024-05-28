@@ -1,3 +1,8 @@
+---
+title: Obsidian
+description: |
+  Crafted by the earth's angriest volcano, it's tougher than your grandma's fruitcake and twice as unforgiving.
+---
 # Obsidian
 
 ![](../images/item.obsidian.png)

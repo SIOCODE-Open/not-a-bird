@@ -1,3 +1,8 @@
+---
+title: Mirage
+description: |
+  As elusive as your mom's Wi-Fi password and twice as frustrating to catch!
+---
 # Mirage
 
 ![](../images/item.mirage.png)

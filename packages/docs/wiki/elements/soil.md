@@ -1,3 +1,8 @@
+---
+title: Soil
+description: |
+  Dirt-napped cousin of terra-firma, perfect for your eco-friendly carpet installations!
+---
 # Soil
 
 ![](../images/item.soil.png)

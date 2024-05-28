@@ -1,3 +1,8 @@
+---
+title: Make Erosion
+description: |
+  Combine Wind and Rock to create Erosion.
+---
 # Make Erosion
 
 We need a description here

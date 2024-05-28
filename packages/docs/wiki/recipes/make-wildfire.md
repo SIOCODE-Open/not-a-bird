@@ -1,3 +1,8 @@
+---
+title: Make Wildfire
+description: |
+  Combine Forest and Fire to create Wildfire.
+---
 # Make Wildfire
 
 We need a description here

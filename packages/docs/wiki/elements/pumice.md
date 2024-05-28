@@ -1,3 +1,8 @@
+---
+title: Pumice
+description: |
+  Floats like a butterfly, scrubs like Mr. Clean - the Swiss cheese of rocks!
+---
 # Pumice
 
 ![](../images/item.pumice.png)

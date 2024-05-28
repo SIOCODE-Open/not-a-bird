@@ -1,3 +1,8 @@
+---
+title: Lightning
+description: |
+  Like Thor's tantrum in a bottle, ready to zap your foes into crispy critters!
+---
 # Lightning
 
 ![](../images/item.lightning.png)

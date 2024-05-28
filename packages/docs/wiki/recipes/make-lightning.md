@@ -1,3 +1,8 @@
+---
+title: Make Lightning
+description: |
+  Combine Cloud and Fire to create Lightning.
+---
 # Make Lightning
 
 We need a description here

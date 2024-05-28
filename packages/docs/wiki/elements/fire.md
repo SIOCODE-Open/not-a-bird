@@ -1,3 +1,8 @@
+---
+title: Fire
+description: |
+  Summon a flickering tongue of destruction that makes dragons envious and marshmallows tremble in awe!
+---
 # Fire
 
 ![](../images/item.fire.png)

@@ -1,3 +1,8 @@
+---
+title: Gorge
+description: |
+  When wandering through this natural wonder, remember: it's like Mother Earth's really dramatic cleavage.
+---
 # Gorge
 
 ![](../images/item.gorge.png)

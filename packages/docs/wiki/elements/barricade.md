@@ -1,3 +1,8 @@
+---
+title: Barricade
+description: |
+  Like Gandalf facing a Balrog, it's the 'You shall not pass!' of fortifications.
+---
 # Barricade
 
 ![](../images/item.barricade.png)

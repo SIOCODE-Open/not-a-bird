@@ -1,3 +1,8 @@
+---
+title: Make Mist
+description: |
+  Combine Fog and Earth to create Mist.
+---
 # Make Mist
 
 We need a description here

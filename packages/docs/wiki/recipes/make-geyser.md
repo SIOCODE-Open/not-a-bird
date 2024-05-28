@@ -1,3 +1,8 @@
+---
+title: Make Geyser
+description: |
+  Combine Steam and Earth to create Geyser.
+---
 # Make Geyser
 
 We need a description here

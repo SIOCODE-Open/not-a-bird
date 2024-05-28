@@ -1,3 +1,8 @@
+---
+title: Sand Dune
+description: |
+  As majestic as a stack of pancakes, but far more abrasive and less syrupy.
+---
 # Sand Dune
 
 ![](../images/item.sanddune.png)

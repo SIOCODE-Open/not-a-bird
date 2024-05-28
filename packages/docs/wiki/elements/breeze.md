@@ -1,3 +1,8 @@
+---
+title: Breeze
+description: |
+  Like Gandalf's whisper, this gentle wind will casually rearrange your bad hair day.
+---
 # Breeze
 
 ![](../images/item.breeze.png)
