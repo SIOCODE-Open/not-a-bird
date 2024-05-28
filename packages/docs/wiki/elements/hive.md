@@ -1,6 +1,6 @@
 # Hive
 
-![](/wiki/images/item.hive.png)
+![](../images/item.hive.png)
 
 **Tier**: 1
 

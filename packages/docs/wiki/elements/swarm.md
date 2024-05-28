@@ -1,6 +1,6 @@
 # Swarm
 
-![](/wiki/images/item.swarm.png)
+![](../images/item.swarm.png)
 
 **Tier**: 2
 

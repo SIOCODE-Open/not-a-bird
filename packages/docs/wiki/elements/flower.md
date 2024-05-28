@@ -1,6 +1,6 @@
 # Flower
 
-![](/wiki/images/item.flower.png)
+![](../images/item.flower.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Ravine
 
-![](/wiki/images/item.ravine.png)
+![](../images/item.ravine.png)
 
 **Tier**: 1
 

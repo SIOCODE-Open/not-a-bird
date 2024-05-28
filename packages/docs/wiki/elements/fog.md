@@ -1,6 +1,6 @@
 # Fog
 
-![](/wiki/images/item.fog.png)
+![](../images/item.fog.png)
 
 **Tier**: 1
 

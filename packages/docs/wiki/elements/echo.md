@@ -1,6 +1,6 @@
 # Echo
 
-![](/wiki/images/item.echo.png)
+![](../images/item.echo.png)
 
 **Tier**: 1
 

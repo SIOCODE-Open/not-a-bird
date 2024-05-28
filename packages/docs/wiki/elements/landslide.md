@@ -1,6 +1,6 @@
 # Landslide
 
-![](/wiki/images/item.landslide.png)
+![](../images/item.landslide.png)
 
 **Tier**: 1
 

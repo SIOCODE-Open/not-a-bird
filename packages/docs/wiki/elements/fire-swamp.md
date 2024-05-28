@@ -1,6 +1,6 @@
 # Fire Swamp
 
-![](/wiki/images/item.fireswamp.png)
+![](../images/item.fireswamp.png)
 
 **Tier**: 1
 

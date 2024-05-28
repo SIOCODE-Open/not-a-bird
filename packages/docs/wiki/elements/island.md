@@ -1,6 +1,6 @@
 # Island
 
-![](/wiki/images/item.island.png)
+![](../images/item.island.png)
 
 **Tier**: 1
 

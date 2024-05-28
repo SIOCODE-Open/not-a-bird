@@ -1,6 +1,6 @@
 # Smoke
 
-![](/wiki/images/item.smoke.png)
+![](../images/item.smoke.png)
 
 **Tier**: 1
 

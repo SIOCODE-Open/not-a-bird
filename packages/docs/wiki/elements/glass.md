@@ -1,6 +1,6 @@
 # Glass
 
-![](/wiki/images/item.glass.png)
+![](../images/item.glass.png)
 
 **Tier**: 1
 

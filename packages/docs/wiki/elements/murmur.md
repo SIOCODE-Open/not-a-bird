@@ -1,6 +1,6 @@
 # Murmur
 
-![](/wiki/images/item.murmur.png)
+![](../images/item.murmur.png)
 
 **Tier**: 1
 

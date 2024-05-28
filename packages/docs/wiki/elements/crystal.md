@@ -1,6 +1,6 @@
 # Crystal
 
-![](/wiki/images/item.crystal.png)
+![](../images/item.crystal.png)
 
 **Tier**: 1
 

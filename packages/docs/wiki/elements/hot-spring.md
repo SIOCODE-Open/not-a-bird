@@ -1,6 +1,6 @@
 # Hot Spring
 
-![](/wiki/images/item.hotspring.png)
+![](../images/item.hotspring.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Ember
 
-![](/wiki/images/item.ember.png)
+![](../images/item.ember.png)
 
 **Tier**: 1
 

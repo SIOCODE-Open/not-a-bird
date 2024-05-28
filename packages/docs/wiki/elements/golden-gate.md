@@ -1,6 +1,6 @@
 # Golden Gate
 
-![](/wiki/images/item.goldengate.png)
+![](../images/item.goldengate.png)
 
 **Tier**: 2
 

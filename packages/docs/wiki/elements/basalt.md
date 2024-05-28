@@ -1,6 +1,6 @@
 # Basalt
 
-![](/wiki/images/item.basalt.png)
+![](../images/item.basalt.png)
 
 **Tier**: 1
 

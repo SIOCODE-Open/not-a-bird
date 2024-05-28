@@ -1,6 +1,6 @@
 # Pottery
 
-![](/wiki/images/item.pottery.png)
+![](../images/item.pottery.png)
 
 **Tier**: 1
 

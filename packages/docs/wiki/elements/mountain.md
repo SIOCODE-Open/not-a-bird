@@ -1,6 +1,6 @@
 # Mountain
 
-![](/wiki/images/item.mountain.png)
+![](../images/item.mountain.png)
 
 **Tier**: 1
 

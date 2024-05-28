@@ -1,6 +1,6 @@
 # Dam
 
-![](/wiki/images/item.dam.png)
+![](../images/item.dam.png)
 
 **Tier**: 1
 

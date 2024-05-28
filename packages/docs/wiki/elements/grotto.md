@@ -1,6 +1,6 @@
 # Grotto
 
-![](/wiki/images/item.grotto.png)
+![](../images/item.grotto.png)
 
 **Tier**: 1
 

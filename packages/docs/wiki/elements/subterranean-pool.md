@@ -1,6 +1,6 @@
 # Subterranean Pool
 
-![](/wiki/images/item.subterraneanpool.png)
+![](../images/item.subterraneanpool.png)
 
 **Tier**: 1
 

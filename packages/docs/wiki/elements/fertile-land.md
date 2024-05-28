@@ -1,6 +1,6 @@
 # Fertile Land
 
-![](/wiki/images/item.fertileland.png)
+![](../images/item.fertileland.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Haze
 
-![](/wiki/images/item.haze.png)
+![](../images/item.haze.png)
 
 **Tier**: 1
 

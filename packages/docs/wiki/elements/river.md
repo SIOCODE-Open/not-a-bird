@@ -1,6 +1,6 @@
 # River
 
-![](/wiki/images/item.river.png)
+![](../images/item.river.png)
 
 **Tier**: 1
 

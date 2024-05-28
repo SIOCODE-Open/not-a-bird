@@ -1,6 +1,6 @@
 # Geothermal Spring
 
-![](/wiki/images/item.geothermalspring.png)
+![](../images/item.geothermalspring.png)
 
 **Tier**: 1
 

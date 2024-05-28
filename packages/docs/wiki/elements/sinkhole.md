@@ -1,6 +1,6 @@
 # Sinkhole
 
-![](/wiki/images/item.sinkhole.png)
+![](../images/item.sinkhole.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Fresh Breeze
 
-![](/wiki/images/item.freshbreeze.png)
+![](../images/item.freshbreeze.png)
 
 **Tier**: 1
 

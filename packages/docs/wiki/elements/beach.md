@@ -1,6 +1,6 @@
 # Beach
 
-![](/wiki/images/item.beach.png)
+![](../images/item.beach.png)
 
 **Tier**: 1
 

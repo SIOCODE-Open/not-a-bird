@@ -1,6 +1,6 @@
 # Giraffe
 
-![](/wiki/images/item.giraffe.png)
+![](../images/item.giraffe.png)
 
 **Tier**: 1
 

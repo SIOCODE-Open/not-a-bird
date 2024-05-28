@@ -1,6 +1,6 @@
 # Brook
 
-![](/wiki/images/item.brook.png)
+![](../images/item.brook.png)
 
 **Tier**: 1
 

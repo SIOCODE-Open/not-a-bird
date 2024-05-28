@@ -1,6 +1,6 @@
 # Pebble
 
-![](/wiki/images/item.pebble.png)
+![](../images/item.pebble.png)
 
 **Tier**: 1
 

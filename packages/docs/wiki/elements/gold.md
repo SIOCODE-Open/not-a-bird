@@ -1,6 +1,6 @@
 # Gold
 
-![](/wiki/images/item.gold.png)
+![](../images/item.gold.png)
 
 **Tier**: 1
 

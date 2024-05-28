@@ -1,6 +1,6 @@
 # Blockchain
 
-![](/wiki/images/item.blockchain.png)
+![](../images/item.blockchain.png)
 
 **Tier**: 1
 

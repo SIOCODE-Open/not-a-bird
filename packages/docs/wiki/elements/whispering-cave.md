@@ -1,6 +1,6 @@
 # Whispering Cave
 
-![](/wiki/images/item.whisperingcave.png)
+![](../images/item.whisperingcave.png)
 
 **Tier**: 1
 

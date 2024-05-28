@@ -1,6 +1,6 @@
 # Warm Breeze
 
-![](/wiki/images/item.warmbreeze.png)
+![](../images/item.warmbreeze.png)
 
 **Tier**: 1
 

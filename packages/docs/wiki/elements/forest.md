@@ -1,6 +1,6 @@
 # Forest
 
-![](/wiki/images/item.forest.png)
+![](../images/item.forest.png)
 
 **Tier**: 1
 

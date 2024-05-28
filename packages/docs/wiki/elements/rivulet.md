@@ -1,6 +1,6 @@
 # Rivulet
 
-![](/wiki/images/item.rivulet.png)
+![](../images/item.rivulet.png)
 
 **Tier**: 1
 

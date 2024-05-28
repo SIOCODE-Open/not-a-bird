@@ -14,7 +14,7 @@ export function LandingPageV2(
             <div className="hero-body">
                 <div className="container">
                     <p className="title">Welcome to <b>Unnamed Game</b>!</p>
-                    <p className="subtitle">
+                    <p className="subtitle my-1">
                         <BulmaButton className="my" size="small" color="primary" rounded onClick={() => props.navigate("/pocgame")}>Play</BulmaButton>
                     </p>
                 </div>

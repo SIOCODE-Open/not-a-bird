@@ -1,6 +1,6 @@
 # Pumice
 
-![](/wiki/images/item.pumice.png)
+![](../images/item.pumice.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Hydra
 
-![](/wiki/images/item.hydra.png)
+![](../images/item.hydra.png)
 
 **Tier**: 2
 

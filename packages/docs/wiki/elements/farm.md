@@ -1,6 +1,6 @@
 # Farm
 
-![](/wiki/images/item.farm.png)
+![](../images/item.farm.png)
 
 **Tier**: 1
 

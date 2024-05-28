@@ -1,6 +1,6 @@
 # Lake
 
-![](/wiki/images/item.lake.png)
+![](../images/item.lake.png)
 
 **Tier**: 1
 

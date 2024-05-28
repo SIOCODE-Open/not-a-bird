@@ -1,6 +1,6 @@
 # Cool Breeze
 
-![](/wiki/images/item.coolbreeze.png)
+![](../images/item.coolbreeze.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Rock
 
-![](/wiki/images/item.rock.png)
+![](../images/item.rock.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Pond
 
-![](/wiki/images/item.pond.png)
+![](../images/item.pond.png)
 
 **Tier**: 1
 

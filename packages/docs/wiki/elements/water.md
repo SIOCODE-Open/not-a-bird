@@ -1,6 +1,6 @@
 # Water
 
-![](/wiki/images/item.water.png)
+![](../images/item.water.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Lagoon
 
-![](/wiki/images/item.lagoon.png)
+![](../images/item.lagoon.png)
 
 **Tier**: 1
 

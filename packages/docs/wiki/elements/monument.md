@@ -1,6 +1,6 @@
 # Monument
 
-![](/wiki/images/item.monument.png)
+![](../images/item.monument.png)
 
 **Tier**: 1
 

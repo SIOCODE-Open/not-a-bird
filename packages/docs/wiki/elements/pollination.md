@@ -1,6 +1,6 @@
 # Pollination
 
-![](/wiki/images/item.pollination.png)
+![](../images/item.pollination.png)
 
 **Tier**: 1
 

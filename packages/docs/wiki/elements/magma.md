@@ -1,6 +1,6 @@
 # Magma
 
-![](/wiki/images/item.magma.png)
+![](../images/item.magma.png)
 
 **Tier**: 1
 

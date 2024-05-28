@@ -1,6 +1,6 @@
 # Steam
 
-![](/wiki/images/item.steam.png)
+![](../images/item.steam.png)
 
 **Tier**: 1
 

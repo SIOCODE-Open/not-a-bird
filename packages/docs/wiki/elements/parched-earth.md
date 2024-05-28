@@ -1,6 +1,6 @@
 # Parched Earth
 
-![](/wiki/images/item.parchedearth.png)
+![](../images/item.parchedearth.png)
 
 **Tier**: 1
 

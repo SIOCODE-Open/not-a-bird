@@ -1,6 +1,6 @@
 # Watershed
 
-![](/wiki/images/item.watershed.png)
+![](../images/item.watershed.png)
 
 **Tier**: 1
 

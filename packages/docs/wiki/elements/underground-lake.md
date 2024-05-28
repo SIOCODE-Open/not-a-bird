@@ -1,6 +1,6 @@
 # Underground Lake
 
-![](/wiki/images/item.undergroundlake.png)
+![](../images/item.undergroundlake.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Bee
 
-![](/wiki/images/item.bee.png)
+![](../images/item.bee.png)
 
 **Tier**: 1
 

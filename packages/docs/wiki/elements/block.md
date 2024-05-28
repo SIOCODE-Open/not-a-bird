@@ -1,6 +1,6 @@
 # Block
 
-![](/wiki/images/item.block.png)
+![](../images/item.block.png)
 
 **Tier**: 1
 

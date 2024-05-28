@@ -1,6 +1,6 @@
 # Aquifer
 
-![](/wiki/images/item.aquifer.png)
+![](../images/item.aquifer.png)
 
 **Tier**: 1
 

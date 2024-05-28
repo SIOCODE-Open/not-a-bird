@@ -1,6 +1,6 @@
 # Delta
 
-![](/wiki/images/item.delta.png)
+![](../images/item.delta.png)
 
 **Tier**: 1
 

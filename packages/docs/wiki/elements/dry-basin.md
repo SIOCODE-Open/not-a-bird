@@ -1,6 +1,6 @@
 # Dry Basin
 
-![](/wiki/images/item.drybasin.png)
+![](../images/item.drybasin.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Wall
 
-![](/wiki/images/item.wall.png)
+![](../images/item.wall.png)
 
 **Tier**: 1
 

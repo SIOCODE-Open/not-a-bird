@@ -1,6 +1,6 @@
 # Fountain
 
-![](/wiki/images/item.fountain.png)
+![](../images/item.fountain.png)
 
 **Tier**: 1
 

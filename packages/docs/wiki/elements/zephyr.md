@@ -1,6 +1,6 @@
 # Zephyr
 
-![](/wiki/images/item.zephyr.png)
+![](../images/item.zephyr.png)
 
 **Tier**: 1
 

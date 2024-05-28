@@ -1,6 +1,6 @@
 # Plateau
 
-![](/wiki/images/item.plateau.png)
+![](../images/item.plateau.png)
 
 **Tier**: 1
 

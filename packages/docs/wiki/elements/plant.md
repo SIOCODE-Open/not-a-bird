@@ -1,6 +1,6 @@
 # Plant
 
-![](/wiki/images/item.plant.png)
+![](../images/item.plant.png)
 
 **Tier**: 1
 

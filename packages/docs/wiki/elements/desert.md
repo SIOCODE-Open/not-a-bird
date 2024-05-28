@@ -1,6 +1,6 @@
 # Desert
 
-![](/wiki/images/item.desert.png)
+![](../images/item.desert.png)
 
 **Tier**: 1
 

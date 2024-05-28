@@ -1,6 +1,6 @@
 # Cloud
 
-![](/wiki/images/item.cloud.png)
+![](../images/item.cloud.png)
 
 **Tier**: 1
 

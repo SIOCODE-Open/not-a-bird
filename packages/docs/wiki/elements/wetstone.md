@@ -1,6 +1,6 @@
 # Wetstone
 
-![](/wiki/images/item.wetstone.png)
+![](../images/item.wetstone.png)
 
 **Tier**: 1
 

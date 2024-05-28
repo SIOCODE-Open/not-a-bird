@@ -1,6 +1,6 @@
 # Wind
 
-![](/wiki/images/item.wind.png)
+![](../images/item.wind.png)
 
 **Tier**: 1
 

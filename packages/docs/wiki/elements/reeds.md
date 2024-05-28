@@ -1,6 +1,6 @@
 # Reeds
 
-![](/wiki/images/item.reeds.png)
+![](../images/item.reeds.png)
 
 **Tier**: 1
 

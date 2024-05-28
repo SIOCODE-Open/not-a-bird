@@ -1,6 +1,6 @@
 # Steam Vent
 
-![](/wiki/images/item.steamvent.png)
+![](../images/item.steamvent.png)
 
 **Tier**: 1
 

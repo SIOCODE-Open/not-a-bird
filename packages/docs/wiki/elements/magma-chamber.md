@@ -1,6 +1,6 @@
 # Magma Chamber
 
-![](/wiki/images/item.magmachamber.png)
+![](../images/item.magmachamber.png)
 
 **Tier**: 1
 

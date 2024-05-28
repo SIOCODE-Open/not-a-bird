@@ -1,6 +1,6 @@
 # Peat
 
-![](/wiki/images/item.peat.png)
+![](../images/item.peat.png)
 
 **Tier**: 1
 

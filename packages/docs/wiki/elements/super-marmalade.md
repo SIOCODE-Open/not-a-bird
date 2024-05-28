@@ -1,6 +1,6 @@
 # Super Marmalade
 
-![](/wiki/images/item.supermarmalade.png)
+![](../images/item.supermarmalade.png)
 
 **Tier**: 2
 

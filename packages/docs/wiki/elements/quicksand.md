@@ -1,6 +1,6 @@
 # Quicksand
 
-![](/wiki/images/item.quicksand.png)
+![](../images/item.quicksand.png)
 
 **Tier**: 1
 

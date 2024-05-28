@@ -1,6 +1,6 @@
 # Rain
 
-![](/wiki/images/item.rain.png)
+![](../images/item.rain.png)
 
 **Tier**: 1
 

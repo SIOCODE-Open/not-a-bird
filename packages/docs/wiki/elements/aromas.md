@@ -1,6 +1,6 @@
 # Aromas
 
-![](/wiki/images/item.aromas.png)
+![](../images/item.aromas.png)
 
 **Tier**: 1
 

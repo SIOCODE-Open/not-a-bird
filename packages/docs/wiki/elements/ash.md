@@ -1,6 +1,6 @@
 # Ash
 
-![](/wiki/images/item.ash.png)
+![](../images/item.ash.png)
 
 **Tier**: 1
 

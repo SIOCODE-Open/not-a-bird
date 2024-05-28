@@ -1,6 +1,6 @@
 # Depression
 
-![](/wiki/images/item.depression.png)
+![](../images/item.depression.png)
 
 **Tier**: 1
 

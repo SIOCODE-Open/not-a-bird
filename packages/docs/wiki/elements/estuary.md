@@ -1,6 +1,6 @@
 # Estuary
 
-![](/wiki/images/item.estuary.png)
+![](../images/item.estuary.png)
 
 **Tier**: 1
 

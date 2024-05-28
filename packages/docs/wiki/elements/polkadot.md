@@ -1,6 +1,6 @@
 # Polkadot
 
-![](/wiki/images/item.polkadot.png)
+![](../images/item.polkadot.png)
 
 **Tier**: 1
 

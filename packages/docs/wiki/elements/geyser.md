@@ -1,6 +1,6 @@
 # Geyser
 
-![](/wiki/images/item.geyser.png)
+![](../images/item.geyser.png)
 
 **Tier**: 1
 

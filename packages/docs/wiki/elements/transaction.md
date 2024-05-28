@@ -1,6 +1,6 @@
 # Transaction
 
-![](/wiki/images/item.transaction.png)
+![](../images/item.transaction.png)
 
 **Tier**: 1
 

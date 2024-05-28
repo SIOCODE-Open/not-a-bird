@@ -1,6 +1,6 @@
 # Firewall
 
-![](/wiki/images/item.firewall.png)
+![](../images/item.firewall.png)
 
 **Tier**: 1
 

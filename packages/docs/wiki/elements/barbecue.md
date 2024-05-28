@@ -1,6 +1,6 @@
 # Barbecue
 
-![](/wiki/images/item.barbecue.png)
+![](../images/item.barbecue.png)
 
 **Tier**: 1
 

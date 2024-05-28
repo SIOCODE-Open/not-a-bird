@@ -23,7 +23,7 @@ export function LandingPageV2_Navbar(
                     Home
                 </a>
 
-                <a className="navbar-item" onClick={() => props.navigate('/learn')}>
+                <a className="navbar-item" href="https://polkadot-global-na-2024-not-a-bird-docs.surge.sh">
                     Learn
                 </a>
             </div>

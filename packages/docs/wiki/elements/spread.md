@@ -1,6 +1,6 @@
 # Spread
 
-![](/wiki/images/item.spread.png)
+![](../images/item.spread.png)
 
 **Tier**: 1
 

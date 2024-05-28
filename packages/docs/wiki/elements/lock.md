@@ -1,6 +1,6 @@
 # Lock
 
-![](/wiki/images/item.lock.png)
+![](../images/item.lock.png)
 
 **Tier**: 2
 

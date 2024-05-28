@@ -1,6 +1,6 @@
 # Erosion
 
-![](/wiki/images/item.erosion.png)
+![](../images/item.erosion.png)
 
 **Tier**: 1
 

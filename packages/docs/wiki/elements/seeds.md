@@ -1,6 +1,6 @@
 # Seeds
 
-![](/wiki/images/item.seeds.png)
+![](../images/item.seeds.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Canyon
 
-![](/wiki/images/item.canyon.png)
+![](../images/item.canyon.png)
 
 **Tier**: 1
 

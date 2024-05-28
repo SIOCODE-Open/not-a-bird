@@ -1,6 +1,6 @@
 # Lava
 
-![](/wiki/images/item.lava.png)
+![](../images/item.lava.png)
 
 **Tier**: 1
 

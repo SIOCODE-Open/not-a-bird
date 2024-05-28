@@ -1,6 +1,6 @@
 # Prism
 
-![](/wiki/images/item.prism.png)
+![](../images/item.prism.png)
 
 **Tier**: 1
 

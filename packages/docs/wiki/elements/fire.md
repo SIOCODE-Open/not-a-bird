@@ -1,6 +1,6 @@
 # Fire
 
-![](/wiki/images/item.fire.png)
+![](../images/item.fire.png)
 
 **Tier**: 1
 

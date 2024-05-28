@@ -1,6 +1,6 @@
 # Lightning
 
-![](/wiki/images/item.lightning.png)
+![](../images/item.lightning.png)
 
 **Tier**: 1
 

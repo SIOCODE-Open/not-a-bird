@@ -1,6 +1,6 @@
 # Beer
 
-![](/wiki/images/item.beer.png)
+![](../images/item.beer.png)
 
 **Tier**: 2
 

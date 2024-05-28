@@ -1,6 +1,6 @@
 # Wave
 
-![](/wiki/images/item.wave.png)
+![](../images/item.wave.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Silver
 
-![](/wiki/images/item.silver.png)
+![](../images/item.silver.png)
 
 **Tier**: 1
 

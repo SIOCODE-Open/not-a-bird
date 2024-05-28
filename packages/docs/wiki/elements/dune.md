@@ -1,6 +1,6 @@
 # Dune
 
-![](/wiki/images/item.dune.png)
+![](../images/item.dune.png)
 
 **Tier**: 1
 

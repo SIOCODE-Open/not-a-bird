@@ -1,6 +1,6 @@
 # Lava Cave
 
-![](/wiki/images/item.lavacave.png)
+![](../images/item.lavacave.png)
 
 **Tier**: 1
 

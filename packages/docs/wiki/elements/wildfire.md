@@ -1,6 +1,6 @@
 # Wildfire
 
-![](/wiki/images/item.wildfire.png)
+![](../images/item.wildfire.png)
 
 **Tier**: 1
 

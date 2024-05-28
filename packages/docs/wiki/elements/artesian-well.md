@@ -1,6 +1,6 @@
 # Artesian Well
 
-![](/wiki/images/item.artesianwell.png)
+![](../images/item.artesianwell.png)
 
 **Tier**: 1
 

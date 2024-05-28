@@ -1,6 +1,6 @@
 # Waterfall
 
-![](/wiki/images/item.waterfall.png)
+![](../images/item.waterfall.png)
 
 **Tier**: 1
 

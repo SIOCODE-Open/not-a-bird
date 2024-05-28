@@ -1,6 +1,6 @@
 # Monkey
 
-![](/wiki/images/item.monkey.png)
+![](../images/item.monkey.png)
 
 **Tier**: 1
 

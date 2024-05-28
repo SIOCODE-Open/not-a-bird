@@ -1,6 +1,6 @@
 # Eternal Flame
 
-![](/wiki/images/item.eternalflame.png)
+![](../images/item.eternalflame.png)
 
 **Tier**: 1
 

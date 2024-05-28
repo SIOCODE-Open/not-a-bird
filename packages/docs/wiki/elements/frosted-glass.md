@@ -1,6 +1,6 @@
 # Frosted Glass
 
-![](/wiki/images/item.frostedglass.png)
+![](../images/item.frostedglass.png)
 
 **Tier**: 1
 

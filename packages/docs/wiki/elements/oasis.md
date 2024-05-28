@@ -1,6 +1,6 @@
 # Oasis
 
-![](/wiki/images/item.oasis.png)
+![](../images/item.oasis.png)
 
 **Tier**: 1
 

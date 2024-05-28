@@ -1,6 +1,6 @@
 # Coin
 
-![](/wiki/images/item.coin.png)
+![](../images/item.coin.png)
 
 **Tier**: 1
 

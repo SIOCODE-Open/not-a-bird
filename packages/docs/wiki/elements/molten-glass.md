@@ -1,6 +1,6 @@
 # Molten Glass
 
-![](/wiki/images/item.moltenglass.png)
+![](../images/item.moltenglass.png)
 
 **Tier**: 1
 

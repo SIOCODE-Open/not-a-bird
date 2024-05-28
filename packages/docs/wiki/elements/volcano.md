@@ -1,6 +1,6 @@
 # Volcano
 
-![](/wiki/images/item.volcano.png)
+![](../images/item.volcano.png)
 
 **Tier**: 1
 

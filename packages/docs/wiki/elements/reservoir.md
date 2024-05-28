@@ -1,6 +1,6 @@
 # Reservoir
 
-![](/wiki/images/item.reservoir.png)
+![](../images/item.reservoir.png)
 
 **Tier**: 1
 

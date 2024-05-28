@@ -1,6 +1,6 @@
 # Peer Review
 
-![](/wiki/images/item.peerreview.png)
+![](../images/item.peerreview.png)
 
 **Tier**: 1
 

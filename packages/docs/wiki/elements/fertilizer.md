@@ -1,6 +1,6 @@
 # Fertilizer
 
-![](/wiki/images/item.fertilizer.png)
+![](../images/item.fertilizer.png)
 
 **Tier**: 1
 

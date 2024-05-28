@@ -1,6 +1,6 @@
 # Adobe
 
-![](/wiki/images/item.adobe.png)
+![](../images/item.adobe.png)
 
 **Tier**: 1
 

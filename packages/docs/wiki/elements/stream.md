@@ -1,6 +1,6 @@
 # Stream
 
-![](/wiki/images/item.stream.png)
+![](../images/item.stream.png)
 
 **Tier**: 1
 

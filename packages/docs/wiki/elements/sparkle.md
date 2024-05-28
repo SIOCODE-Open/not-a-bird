@@ -1,6 +1,6 @@
 # Sparkle
 
-![](/wiki/images/item.sparkle.png)
+![](../images/item.sparkle.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Sand Dune
 
-![](/wiki/images/item.sanddune.png)
+![](../images/item.sanddune.png)
 
 **Tier**: 1
 

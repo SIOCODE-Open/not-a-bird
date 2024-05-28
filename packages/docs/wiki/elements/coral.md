@@ -1,6 +1,6 @@
 # Coral
 
-![](/wiki/images/item.coral.png)
+![](../images/item.coral.png)
 
 **Tier**: 1
 

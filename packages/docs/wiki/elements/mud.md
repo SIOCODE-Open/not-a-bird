@@ -1,6 +1,6 @@
 # Mud
 
-![](/wiki/images/item.mud.png)
+![](../images/item.mud.png)
 
 **Tier**: 1
 

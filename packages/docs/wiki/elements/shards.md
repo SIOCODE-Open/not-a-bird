@@ -1,6 +1,6 @@
 # Shards
 
-![](/wiki/images/item.shards.png)
+![](../images/item.shards.png)
 
 **Tier**: 1
 

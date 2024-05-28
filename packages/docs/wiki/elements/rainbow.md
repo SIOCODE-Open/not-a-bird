@@ -1,6 +1,6 @@
 # Rainbow
 
-![](/wiki/images/item.rainbow.png)
+![](../images/item.rainbow.png)
 
 **Tier**: 1
 

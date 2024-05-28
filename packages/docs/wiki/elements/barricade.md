@@ -1,6 +1,6 @@
 # Barricade
 
-![](/wiki/images/item.barricade.png)
+![](../images/item.barricade.png)
 
 **Tier**: 1
 

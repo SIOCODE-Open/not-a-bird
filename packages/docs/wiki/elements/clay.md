@@ -1,6 +1,6 @@
 # Clay
 
-![](/wiki/images/item.clay.png)
+![](../images/item.clay.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Spring
 
-![](/wiki/images/item.spring.png)
+![](../images/item.spring.png)
 
 **Tier**: 1
 

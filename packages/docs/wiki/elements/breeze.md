@@ -1,6 +1,6 @@
 # Breeze
 
-![](/wiki/images/item.breeze.png)
+![](../images/item.breeze.png)
 
 **Tier**: 1
 

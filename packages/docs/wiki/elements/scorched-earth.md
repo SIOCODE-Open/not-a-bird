@@ -1,6 +1,6 @@
 # Scorched Earth
 
-![](/wiki/images/item.scorchedearth.png)
+![](../images/item.scorchedearth.png)
 
 **Tier**: 1
 

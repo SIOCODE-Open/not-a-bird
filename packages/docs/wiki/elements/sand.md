@@ -1,6 +1,6 @@
 # Sand
 
-![](/wiki/images/item.sand.png)
+![](../images/item.sand.png)
 
 **Tier**: 1
 

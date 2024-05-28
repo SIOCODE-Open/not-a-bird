@@ -1,6 +1,6 @@
 # Reef
 
-![](/wiki/images/item.reef.png)
+![](../images/item.reef.png)
 
 **Tier**: 1
 

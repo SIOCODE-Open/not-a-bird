@@ -1,6 +1,6 @@
 # Hyper Marmalade
 
-![](/wiki/images/item.hypermarmalade.png)
+![](../images/item.hypermarmalade.png)
 
 **Tier**: 2
 

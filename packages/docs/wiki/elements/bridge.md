@@ -1,6 +1,6 @@
 # Bridge
 
-![](/wiki/images/item.bridge.png)
+![](../images/item.bridge.png)
 
 **Tier**: 2
 

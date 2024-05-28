@@ -1,6 +1,6 @@
 # Windmill
 
-![](/wiki/images/item.windmill.png)
+![](../images/item.windmill.png)
 
 **Tier**: 1
 

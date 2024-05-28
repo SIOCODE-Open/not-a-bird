@@ -1,6 +1,6 @@
 # Karst
 
-![](/wiki/images/item.karst.png)
+![](../images/item.karst.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Jungle
 
-![](/wiki/images/item.jungle.png)
+![](../images/item.jungle.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Flood
 
-![](/wiki/images/item.flood.png)
+![](../images/item.flood.png)
 
 **Tier**: 1
 

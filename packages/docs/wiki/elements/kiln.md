@@ -1,6 +1,6 @@
 # Kiln
 
-![](/wiki/images/item.kiln.png)
+![](../images/item.kiln.png)
 
 **Tier**: 1
 

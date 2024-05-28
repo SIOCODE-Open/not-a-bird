@@ -1,6 +1,6 @@
 # Obsidian
 
-![](/wiki/images/item.obsidian.png)
+![](../images/item.obsidian.png)
 
 **Tier**: 1
 

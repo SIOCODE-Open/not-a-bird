@@ -1,6 +1,6 @@
 # Blowhole
 
-![](/wiki/images/item.blowhole.png)
+![](../images/item.blowhole.png)
 
 **Tier**: 1
 

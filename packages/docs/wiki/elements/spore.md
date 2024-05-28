@@ -1,6 +1,6 @@
 # Spore
 
-![](/wiki/images/item.spore.png)
+![](../images/item.spore.png)
 
 **Tier**: 1
 

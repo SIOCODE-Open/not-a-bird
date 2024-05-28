@@ -1,6 +1,6 @@
 # Groundwater
 
-![](/wiki/images/item.groundwater.png)
+![](../images/item.groundwater.png)
 
 **Tier**: 1
 

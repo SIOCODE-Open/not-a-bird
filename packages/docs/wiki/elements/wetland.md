@@ -1,6 +1,6 @@
 # Wetland
 
-![](/wiki/images/item.wetland.png)
+![](../images/item.wetland.png)
 
 **Tier**: 1
 

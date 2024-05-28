@@ -1,6 +1,6 @@
 # Tributary
 
-![](/wiki/images/item.tributary.png)
+![](../images/item.tributary.png)
 
 **Tier**: 1
 

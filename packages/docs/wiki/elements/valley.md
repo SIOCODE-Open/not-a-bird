@@ -1,6 +1,6 @@
 # Valley
 
-![](/wiki/images/item.valley.png)
+![](../images/item.valley.png)
 
 **Tier**: 1
 

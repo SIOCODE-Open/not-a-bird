@@ -1,6 +1,6 @@
 # Mirage
 
-![](/wiki/images/item.mirage.png)
+![](../images/item.mirage.png)
 
 **Tier**: 1
 

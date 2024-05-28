@@ -1,6 +1,6 @@
 # Sandstorm
 
-![](/wiki/images/item.sandstorm.png)
+![](../images/item.sandstorm.png)
 
 **Tier**: 1
 

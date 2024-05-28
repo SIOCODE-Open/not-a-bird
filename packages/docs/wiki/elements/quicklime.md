@@ -1,6 +1,6 @@
 # Quicklime
 
-![](/wiki/images/item.quicklime.png)
+![](../images/item.quicklime.png)
 
 **Tier**: 1
 

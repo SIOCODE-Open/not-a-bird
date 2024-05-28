@@ -1,6 +1,6 @@
 # Garden
 
-![](/wiki/images/item.garden.png)
+![](../images/item.garden.png)
 
 **Tier**: 1
 

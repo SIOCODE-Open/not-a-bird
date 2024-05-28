@@ -1,6 +1,6 @@
 # Charred Ravine
 
-![](/wiki/images/item.charredravine.png)
+![](../images/item.charredravine.png)
 
 **Tier**: 1
 

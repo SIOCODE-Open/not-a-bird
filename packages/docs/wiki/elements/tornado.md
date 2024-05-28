@@ -1,6 +1,6 @@
 # Tornado
 
-![](/wiki/images/item.tornado.png)
+![](../images/item.tornado.png)
 
 **Tier**: 1
 

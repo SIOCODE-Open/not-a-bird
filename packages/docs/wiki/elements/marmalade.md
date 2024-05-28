@@ -1,6 +1,6 @@
 # Marmalade
 
-![](/wiki/images/item.marmalade.png)
+![](../images/item.marmalade.png)
 
 **Tier**: 1
 

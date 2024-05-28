@@ -1,6 +1,6 @@
 # Whirl
 
-![](/wiki/images/item.whirl.png)
+![](../images/item.whirl.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Bear
 
-![](/wiki/images/item.bear.png)
+![](../images/item.bear.png)
 
 **Tier**: 1
 

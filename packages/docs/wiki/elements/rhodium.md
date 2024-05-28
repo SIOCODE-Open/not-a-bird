@@ -1,6 +1,6 @@
 # Rhodium
 
-![](/wiki/images/item.rhodium.png)
+![](../images/item.rhodium.png)
 
 **Tier**: 1
 

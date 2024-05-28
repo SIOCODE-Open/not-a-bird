@@ -1,6 +1,6 @@
 # Cardano
 
-![](/wiki/images/item.cardano.png)
+![](../images/item.cardano.png)
 
 **Tier**: 2
 

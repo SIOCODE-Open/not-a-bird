@@ -1,6 +1,6 @@
 # Monkey Branch
 
-![](/wiki/images/item.monkeybranch.png)
+![](../images/item.monkeybranch.png)
 
 **Tier**: 2
 

@@ -1,6 +1,6 @@
 # Limestone
 
-![](/wiki/images/item.limestone.png)
+![](../images/item.limestone.png)
 
 **Tier**: 1
 

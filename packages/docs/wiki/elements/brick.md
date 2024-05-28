@@ -1,6 +1,6 @@
 # Brick
 
-![](/wiki/images/item.brick.png)
+![](../images/item.brick.png)
 
 **Tier**: 1
 

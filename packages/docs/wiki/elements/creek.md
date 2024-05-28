@@ -1,6 +1,6 @@
 # Creek
 
-![](/wiki/images/item.creek.png)
+![](../images/item.creek.png)
 
 **Tier**: 1
 

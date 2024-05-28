@@ -1,6 +1,6 @@
 # Pillar Of Wind
 
-![](/wiki/images/item.pillarofwind.png)
+![](../images/item.pillarofwind.png)
 
 **Tier**: 1
 

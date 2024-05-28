@@ -1,6 +1,6 @@
 # Charcoal
 
-![](/wiki/images/item.charcoal.png)
+![](../images/item.charcoal.png)
 
 **Tier**: 1
 

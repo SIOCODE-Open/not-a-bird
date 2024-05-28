@@ -1,6 +1,6 @@
 # Leaves
 
-![](/wiki/images/item.leaves.png)
+![](../images/item.leaves.png)
 
 **Tier**: 1
 

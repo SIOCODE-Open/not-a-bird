@@ -1,6 +1,6 @@
 # Thunder
 
-![](/wiki/images/item.thunder.png)
+![](../images/item.thunder.png)
 
 **Tier**: 1
 

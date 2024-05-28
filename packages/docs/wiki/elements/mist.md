@@ -1,6 +1,6 @@
 # Mist
 
-![](/wiki/images/item.mist.png)
+![](../images/item.mist.png)
 
 **Tier**: 1
 

@@ -1,6 +1,6 @@
 # Storm
 
-![](/wiki/images/item.storm.png)
+![](../images/item.storm.png)
 
 **Tier**: 1
 

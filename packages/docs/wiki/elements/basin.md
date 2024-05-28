@@ -1,6 +1,6 @@
 # Basin
 
-![](/wiki/images/item.basin.png)
+![](../images/item.basin.png)
 
 **Tier**: 1
 

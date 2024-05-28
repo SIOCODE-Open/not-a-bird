@@ -1,6 +1,6 @@
 # Whisper
 
-![](/wiki/images/item.whisper.png)
+![](../images/item.whisper.png)
 
 **Tier**: 1
 

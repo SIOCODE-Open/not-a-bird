@@ -1,6 +1,6 @@
 # Cave
 
-![](/wiki/images/item.cave.png)
+![](../images/item.cave.png)
 
 **Tier**: 1
 

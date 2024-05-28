@@ -1,6 +1,6 @@
 # Dust
 
-![](/wiki/images/item.dust.png)
+![](../images/item.dust.png)
 
 **Tier**: 1
 

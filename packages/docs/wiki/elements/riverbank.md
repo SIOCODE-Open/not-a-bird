@@ -1,6 +1,6 @@
 # Riverbank
 
-![](/wiki/images/item.riverbank.png)
+![](../images/item.riverbank.png)
 
 **Tier**: 1
 

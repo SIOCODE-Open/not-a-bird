@@ -1,6 +1,6 @@
 # Soot
 
-![](/wiki/images/item.soot.png)
+![](../images/item.soot.png)
 
 **Tier**: 1
 

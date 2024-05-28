@@ -1,6 +1,6 @@
 # Soil
 
-![](/wiki/images/item.soil.png)
+![](../images/item.soil.png)
 
 **Tier**: 1
 

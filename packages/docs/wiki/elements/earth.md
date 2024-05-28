@@ -1,6 +1,6 @@
 # Earth
 
-![](/wiki/images/item.earth.png)
+![](../images/item.earth.png)
 
 **Tier**: 1
 

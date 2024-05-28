@@ -1,6 +1,6 @@
 # Gorge
 
-![](/wiki/images/item.gorge.png)
+![](../images/item.gorge.png)
 
 **Tier**: 1
 
