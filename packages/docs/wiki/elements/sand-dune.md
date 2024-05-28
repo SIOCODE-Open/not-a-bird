@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+As majestic as a stack of pancakes, but far more abrasive and less syrupy.
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Like soaking in a jacuzzi made by Mother Nature, but without the awkward vacation photos!
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+As luxurious and bountiful as Bob Ross’s paint palette, it's the MVP of Mother Nature's garden party.
 
 ## See also
 

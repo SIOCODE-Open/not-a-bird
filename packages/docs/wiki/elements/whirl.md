@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Like a blender on steroids, this mini-maelstrom promises to mix up your enemies' day!
 
 ## See also
 

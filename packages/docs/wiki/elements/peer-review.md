@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A scroll that makes your friends question their life choices and your enemies spit out their coffee in disbelief.
 
 ## See also
 

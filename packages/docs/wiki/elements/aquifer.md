@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Nature's secret underground swimming pool, perfect for when groundwater wants to chill out.
 
 ## See also
 

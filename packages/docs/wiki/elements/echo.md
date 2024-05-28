@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+It's like shouting into a canyon, but the canyon actually cares about what you said and keeps repeating it back.
 
 ## See also
 

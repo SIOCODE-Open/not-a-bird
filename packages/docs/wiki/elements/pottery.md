@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Perfect for storing all your grandma's secret cookie recipes and ancient legendary treasures, one chip at a time!
 
 ## See also
 

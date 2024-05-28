@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Surf's up, dude–ride this aquatic rollercoaster like a water wizard!
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Sky's attempt at a group shower: brings hydration and dramatic window views!
 
 ## See also
 

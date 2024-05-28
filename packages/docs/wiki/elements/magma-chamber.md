@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Hotter than a dragon's sneeze, this is the spicy jacuzzi of the underworld.
 
 ## See also
 

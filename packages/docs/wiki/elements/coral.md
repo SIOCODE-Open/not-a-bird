@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Nature's underwater apartment complex—complete with quirky neighbors!
 
 ## See also
 

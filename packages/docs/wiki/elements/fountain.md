@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Where wishes and coins go on a wild water slide together.
 
 ## See also
 

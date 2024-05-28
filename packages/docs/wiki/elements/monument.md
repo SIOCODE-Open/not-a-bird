@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A stone tribute that's so towering, it could give the Statue of Liberty vertigo!
 
 ## See also
 

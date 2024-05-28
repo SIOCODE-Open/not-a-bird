@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The colorful Wi-Fi signal for bees; smells better than your ex's perfume!
 
 ## See also
 

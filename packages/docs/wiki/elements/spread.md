@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+As versatile as a Swiss army knife, it's the social butterfly of condiments!
 
 ## See also
 

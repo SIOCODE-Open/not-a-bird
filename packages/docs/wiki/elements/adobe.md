@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The ancient Minecraft enchantment that grants you the power to build desert dream homes with just a handful of dirt and some water!
 
 ## See also
 

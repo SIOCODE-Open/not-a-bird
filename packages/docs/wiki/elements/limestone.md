@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The rock Dwayne Johnson wished he was named after - capable of building empires and perfect for caveman graffiti.
 
 ## See also
 

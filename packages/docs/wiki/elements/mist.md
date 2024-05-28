@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Like a ghost doing the moonwalk, it slips through your fingers and cloaks the world in mystery!
 
 ## See also
 

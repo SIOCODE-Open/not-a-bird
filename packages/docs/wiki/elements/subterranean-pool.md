@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Where the Teenage Mutant Ninja Turtles learned to swim and rediscover lost rubber duckies!
 
 ## See also
 

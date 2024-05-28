@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Like Tarzan's playground but with 99% more bugs and 100% less Wi-Fi.
 
 ## See also
 

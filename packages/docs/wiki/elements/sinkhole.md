@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Suddenly feeling like you starred in a Looney Tunes cartoon, minus the anvil and roadrunner.
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Enter at your own risk and remember, the trees have a fiery personality akin to dragons after a spicy taco night!
 
 ## See also
 

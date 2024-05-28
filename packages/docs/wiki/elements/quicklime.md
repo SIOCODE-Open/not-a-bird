@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Just add water and watch this rock go all 'Hulk Smash' on your hydration dreams!
 
 ## See also
 

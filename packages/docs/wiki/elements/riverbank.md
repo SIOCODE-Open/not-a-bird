@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Where Gandalf would come for a picnic with his hobbit homies if Middle-earth had longer vacations.
 
 ## See also
 

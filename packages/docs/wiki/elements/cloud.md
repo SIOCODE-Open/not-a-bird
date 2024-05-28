@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Fluffier than marshmallows and moodier than a teenager, this sky cotton candy hides the secrets of the weather gods.
 
 ## See also
 

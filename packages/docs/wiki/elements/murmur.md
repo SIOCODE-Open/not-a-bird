@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Like the whisper of a ninja, Murmur is the sound your enemies will never hear until it’s too late.
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Nature's blender on steroids, mixing up cows, houses, and your afternoon picnic.
 
 ## See also
 

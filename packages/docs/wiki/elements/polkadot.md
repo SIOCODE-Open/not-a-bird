@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Think Bitcoin's eccentric cousin who shows up at parties in a spotted suit and shocks everyone with their dazzlingly efficient dancing.
 
 ## See also
 

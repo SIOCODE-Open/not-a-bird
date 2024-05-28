@@ -2,7 +2,7 @@
 
 **Tier**: 2
 
-We need a description here
+Unleash a tiny, buzzing army that makes you feel like the villain in a superhero movie.
 
 ## See also
 

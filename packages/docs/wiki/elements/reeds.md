@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The nature-made cocktail straws that just might call Gandalf from Middle-earth; beware of hobbits sneaking around!
 
 ## See also
 

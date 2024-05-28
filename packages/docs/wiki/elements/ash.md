@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The remains of your epic campfire story that burned out faster than your WiFi during a binge session.
 
 ## See also
 

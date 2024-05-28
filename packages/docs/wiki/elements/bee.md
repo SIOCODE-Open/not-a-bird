@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The buzzing little cousin of Buzzie Lightyear, Defender of the Flora and Champion of Sweetness!
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The magical internet ledger of destiny that Satoshi dreamt up, where everything is transparent, immutable, and forever entwined like the plot of a Christopher Nolan movie.
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Unleash your inner pitmaster with this meat sizzle maker, as seen on grill-enthusiast reality shows!
 
 ## See also
 

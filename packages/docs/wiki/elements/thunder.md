@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Like Thor's mixtape at full volume, this electrifying zap will leave your enemies shocked and awed!
 
 ## See also
 

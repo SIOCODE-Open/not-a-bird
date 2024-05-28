@@ -2,7 +2,7 @@
 
 **Tier**: 2
 
-We need a description here
+The mystical bridge that Gandalf would totally approve of, connecting realms and charging tolls in riddles.
 
 ## See also
 

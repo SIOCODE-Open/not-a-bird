@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Mother Nature's boiling hot water cannon, now available as a decorative backyard feature!
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The secret handshake of the wind and your ear, as if a gossiping fairy had a megaphone.
 
 ## See also
 

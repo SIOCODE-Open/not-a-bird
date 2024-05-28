@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Shinier than a vampire at a disco party, it's what werewolves dread and jewelry lovers adore.
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 2
 
-We need a description here
+As if Spider-Man and your grandma's secret jam recipe had a citrusy baby that swings through breakfast toast saving your taste buds one bite at a time!
 
 ## See also
 

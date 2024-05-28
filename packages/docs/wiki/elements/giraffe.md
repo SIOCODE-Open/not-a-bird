@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The long-necked, leafy buffet enthusiast that would make even a stepladder feel short.
 
 ## See also
 

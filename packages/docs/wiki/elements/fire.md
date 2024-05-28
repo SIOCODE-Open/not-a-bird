@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Summon a flickering tongue of destruction that makes dragons envious and marshmallows tremble in awe!
 
 ## See also
 

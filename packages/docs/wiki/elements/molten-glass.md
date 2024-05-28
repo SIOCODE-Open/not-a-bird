@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Hotter than a dragon's breath after Taco Tuesday, this molten glass can melt through your problems... literally.
 
 ## See also
 

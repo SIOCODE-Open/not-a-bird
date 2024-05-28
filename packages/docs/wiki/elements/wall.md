@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The Gentleman Bouncer of your castle, politely informing intruders that the party's over.
 
 ## See also
 

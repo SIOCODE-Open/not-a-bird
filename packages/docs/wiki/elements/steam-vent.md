@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+When regular air conditioning just won't cut it, unleash this spicy hot air geyser and channel your inner Old Faithful!
 
 ## See also
 

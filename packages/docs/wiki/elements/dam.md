@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The Dwayne 'The Rock' Johnson of water barriers, holding back the wet with sheer muscle.
 
 ## See also
 

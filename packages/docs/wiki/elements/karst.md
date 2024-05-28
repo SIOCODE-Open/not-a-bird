@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The Swiss cheese of landscapes—full of holes, surprises, and probably a hidden treasure if you look close enough!
 
 ## See also
 

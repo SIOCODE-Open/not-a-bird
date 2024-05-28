@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Mother Earth's secret stash, hidden beneath her rocky garments like a hip flask at a dry wedding.
 
 ## See also
 

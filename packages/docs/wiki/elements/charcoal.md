@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The BBQ Master's secret ingredient for transforming your steaks from zero to hero faster than you can say 'Grill-Zilla!'
 
 ## See also
 

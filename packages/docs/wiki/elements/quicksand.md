@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The Earth's way of saying 'GOTCHA!' when you thought a leisurely stroll through the desert sounded appealing.
 
 ## See also
 

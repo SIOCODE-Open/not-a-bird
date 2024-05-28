@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The bling-bling metal of the periodic table: shinier than your future, harder than your math homework.
 
 ## See also
 

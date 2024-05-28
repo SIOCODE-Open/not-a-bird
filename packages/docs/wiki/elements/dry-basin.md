@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A bowl so devoid of moisture, even SpongeBob would dry up in here.
 
 ## See also
 

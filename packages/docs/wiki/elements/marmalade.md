@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The sticky, fruity concoction that Paddington Bear would trade his hat for.
 
 ## See also
 

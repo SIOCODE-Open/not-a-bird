@@ -2,7 +2,7 @@
 
 **Tier**: 2
 
-We need a description here
+Time to unleash the blockchain beast that's more confusing than an IKEA assembly manual!
 
 ## See also
 

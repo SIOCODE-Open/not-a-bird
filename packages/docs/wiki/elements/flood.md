@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+When Mother Nature throws the ultimate pool party and forgets to send the 'BYO life jacket' memo.
 
 ## See also
 

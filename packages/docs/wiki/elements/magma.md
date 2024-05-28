@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Hotter than your ex's last text, this molten rock sauce will turn enemies into toast.
 
 ## See also
 

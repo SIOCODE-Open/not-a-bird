@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The Grand Canyon's emo teenager cousin, endless depths of angsty chasms.
 
 ## See also
 

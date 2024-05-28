@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Shiny as Edward Cullen and twice as sparkly in the moonlight!
 
 ## See also
 

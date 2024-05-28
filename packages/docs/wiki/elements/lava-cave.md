@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A fiery Airbnb for fire-breathing dragons and grilled marshmallows.
 
 ## See also
 

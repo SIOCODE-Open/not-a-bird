@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+It's water's sassy teen phase before it cools down and becomes boring again.
 
 ## See also
 

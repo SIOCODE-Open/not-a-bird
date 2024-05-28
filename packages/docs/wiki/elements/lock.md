@@ -2,7 +2,7 @@
 
 **Tier**: 2
 
-We need a description here
+Who needs a dragon when you've got this security boss blocking your treasure chest?
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+This is the majestic piece of glitter, sharper than your ex-girlfriend's comebacks!
 
 ## See also
 

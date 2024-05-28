@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The sky's post-rain refurbishment job, brought to you by Mother Nature's favorite highlighter pack.
 
 ## See also
 

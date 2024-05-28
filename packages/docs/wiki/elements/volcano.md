@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Mount Doom's flamboyant cousin who's always ready to throw a tantrum and belch fiery salsa.
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A sun-kissed playground where sand gets everywhere, like glitter but from hell.
 
 ## See also
 

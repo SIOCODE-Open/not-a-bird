@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The river’s final boss battle, where water splits like an indecisive rom-com character in the season finale.
 
 ## See also
 

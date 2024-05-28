@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The magical moment when your gold coins vanish and you're left wondering if you've been pickpocketed by a ninja or just bought a shiny new sword.
 
 ## See also
 

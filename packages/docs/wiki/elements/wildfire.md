@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Spicier than your ex's DMs, this blaze turns forests into toast and marshmallows into napalm.
 
 ## See also
 

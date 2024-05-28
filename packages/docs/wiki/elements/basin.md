@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The Holy Grail of your bathroom, where soap bubbles dream of escape and rubber duckies rule!
 
 ## See also
 

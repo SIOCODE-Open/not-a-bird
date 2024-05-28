@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The original WiFi router for squirrels, providing shade and nuts with zero bars of signal!
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A glorified water delivery service, bringing aqua goodness to bigger, bossier rivers.
 
 ## See also
 

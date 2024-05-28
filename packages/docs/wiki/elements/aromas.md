@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Sprinkle a bit of Hogwarts' magic under your nose and breathe in the essence of enchanted forests and dragon's breath!
 
 ## See also
 

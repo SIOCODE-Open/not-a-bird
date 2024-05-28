@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A dense collection of trees where even squirrels hire GPS, home of the mythical Wi-Fi-repellent green zone.
 
 ## See also
 

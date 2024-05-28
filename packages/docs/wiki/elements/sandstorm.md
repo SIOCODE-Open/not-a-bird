@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+It's like Mother Nature's version of a blender set to 'desert' mode, without the fruity cocktail at the end.
 
 ## See also
 

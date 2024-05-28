@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The marine mammal's N64 controller button for an epic H2O power-up!
 
 ## See also
 

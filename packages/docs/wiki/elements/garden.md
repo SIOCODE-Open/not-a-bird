@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Nature's sunlit Wi-Fi free zone, and the original farm-to-table restaurant!
 
 ## See also
 

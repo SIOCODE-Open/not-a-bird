@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A spicy hot potato chip of doom, hotter than a dragon's sneeze in a volcano.
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Pocketful of tiny wizards' teeth, creating beaches and cat litter archeology!
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 2
 
-We need a description here
+Like regular marmalade, but it makes you feel like you've had a double shot of espresso and a lightning bolt to the brain!
 
 ## See also
 

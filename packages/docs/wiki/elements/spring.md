@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Jump higher than your dreams, or at least higher than your disappointments, with this bouncy boing-boing.
 
 ## See also
 

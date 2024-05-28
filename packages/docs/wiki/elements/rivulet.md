@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A tiny stream so small that even ants use it as their personal slip-n-slide.
 
 ## See also
 

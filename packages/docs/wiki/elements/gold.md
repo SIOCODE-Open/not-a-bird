@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Shinier than a disco ball at Studio 54, this glistening treasure will make Scrooge McDuck jealous!
 
 ## See also
 

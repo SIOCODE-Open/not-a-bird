@@ -2,7 +2,7 @@
 
 **Tier**: 2
 
-We need a description here
+When one head isn't enough to argue with you, this multi-headed reptilian nightmare is ready to rumble!
 
 ## See also
 

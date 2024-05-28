@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Fragments of a broken heart? Or just pieces of yesterday's piñata—either way, they're sharp!
 
 ## See also
 

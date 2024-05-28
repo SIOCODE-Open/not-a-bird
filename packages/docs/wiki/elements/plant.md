@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The botanical equivalent of Wi-Fi for oxygen, providing full bars since prehistoric times.
 
 ## See also
 

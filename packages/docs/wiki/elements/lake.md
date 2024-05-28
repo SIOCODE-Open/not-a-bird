@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Nature's giant puddle, perfect for lazy fish, and where mythical creatures might just throw tea parties.
 
 ## See also
 

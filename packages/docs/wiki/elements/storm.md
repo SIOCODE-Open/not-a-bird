@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Angry sky kittens throwing tantrums and lightning bolts like Thor after a double espresso.
 
 ## See also
 

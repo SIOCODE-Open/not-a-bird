@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Where ducks hold their secret aquatic raves and lily pads plot world domination.
 
 ## See also
 

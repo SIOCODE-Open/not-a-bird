@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A chunk of land adrift in the ocean, like a slice of pizza floating in tomato soup.
 
 ## See also
 

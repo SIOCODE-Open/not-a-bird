@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+This fuzzy giant decided to move out of the forest and into your nightmares on the advice of its therapist, Yogi.
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Floats like a butterfly, scrubs like Mr. Clean - the Swiss cheese of rocks!
 
 ## See also
 

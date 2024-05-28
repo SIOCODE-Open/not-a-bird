@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Welcome to the buzzfeed mansion, where every room has a bee-convincing argument!
 
 ## See also
 

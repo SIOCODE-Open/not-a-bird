@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+As elusive as your mom's Wi-Fi password and twice as frustrating to catch!
 
 ## See also
 

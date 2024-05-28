@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Sharpen your blades while pondering life's mysteries with this slippery soapy rock, straight from the stones of Soapland!
 
 ## See also
 

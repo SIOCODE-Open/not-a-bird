@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The bottomless mimosa bar of water sources, constantly refilling without you lifting a finger - cheers!
 
 ## See also
 

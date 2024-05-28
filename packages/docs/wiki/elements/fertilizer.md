@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Sprinkle a little of this magic dust and watch your plants grow faster than a YouTube tutorial on 'getting rich quick!'
 
 ## See also
 

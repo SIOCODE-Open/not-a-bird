@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A geological temper tantrum that sends boulders downhill faster than a caffeine-crazed squirrel on roller skates!
 
 ## See also
 

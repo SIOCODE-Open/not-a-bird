@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The invisible ninja that gives trees a good hair day.
 
 ## See also
 

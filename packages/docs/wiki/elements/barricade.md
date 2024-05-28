@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Like Gandalf facing a Balrog, it's the 'You shall not pass!' of fortifications.
 
 ## See also
 

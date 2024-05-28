@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Mold this earthy Play-Doh into something magical, or just make yourself a new best friend, Wilson style!
 
 ## See also
 

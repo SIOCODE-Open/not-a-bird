@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The ultimate pre-industrial protein shake factory, where plants and animals live in suspenseful harmony waiting to be useful.
 
 ## See also
 

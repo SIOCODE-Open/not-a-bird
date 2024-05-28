@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Crafted by the earth's angriest volcano, it's tougher than your grandma's fruitcake and twice as unforgiving.
 
 ## See also
 

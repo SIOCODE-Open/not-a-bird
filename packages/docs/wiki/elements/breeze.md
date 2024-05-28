@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Like Gandalf's whisper, this gentle wind will casually rearrange your bad hair day.
 
 ## See also
 

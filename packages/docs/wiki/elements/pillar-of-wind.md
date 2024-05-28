@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A swirling cyclone of air that even the Weather Channel fears to forecast.
 
 ## See also
 

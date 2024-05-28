@@ -2,7 +2,7 @@
 
 **Tier**: 2
 
-We need a description here
+Swing through the jungle like Tarzan with this monkey-approved vine, perfect for dramatic escapes and awkward landings.
 
 ## See also
 

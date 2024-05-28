@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+More valuable than a chest full of dragon's gold, this shiny round thing makes NPCs do your bidding.
 
 ## See also
 

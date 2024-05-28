@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Nature's slow-motion magic trick, turning mighty mountains into beach sand one grain at a time.
 
 ## See also
 

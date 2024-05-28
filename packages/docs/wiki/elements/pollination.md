@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Nature's Tinder for plants, where bees are the swiping right matchmakers.
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Dirt-napped cousin of terra-firma, perfect for your eco-friendly carpet installations!
 
 ## See also
 

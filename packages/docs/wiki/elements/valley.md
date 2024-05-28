@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The place where hills take a break and gossip about mountains.
 
 ## See also
 

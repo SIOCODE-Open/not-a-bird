@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Divide light like a 70's disco ball at a Saturday night fever party.
 
 ## See also
 

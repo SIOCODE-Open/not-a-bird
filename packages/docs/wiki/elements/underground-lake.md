@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The Batcave of aquatic hideaways, home to timid fish and overly ambitious spelunkers alike.
 
 ## See also
 

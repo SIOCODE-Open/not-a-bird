@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Forged in the depths of the earth, harder than your ex's heart and cooler than the underside of your pillow.
 
 ## See also
 

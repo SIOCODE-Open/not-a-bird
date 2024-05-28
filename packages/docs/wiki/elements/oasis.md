@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The desert's VIP lounge, complete with complimentary palm trees and mirage-resistant seating!
 
 ## See also
 

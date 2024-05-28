@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A dark, damp Airbnb for bats and trolls, with zero Wi-Fi signal but plenty of natural 'rockitecture'.
 
 ## See also
 

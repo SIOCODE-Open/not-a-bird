@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+As refreshing as a surprise pizza party in summer, but with zero calories!
 
 ## See also
 

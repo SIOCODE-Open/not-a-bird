@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The oven that turns your pottery dreams into reality, just like Hogwarts turns kids into wizards.
 
 ## See also
 

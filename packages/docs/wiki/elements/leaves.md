@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Green confetti for Mother Nature's never-ending party, with a hint of chlorophyll chic!
 
 ## See also
 

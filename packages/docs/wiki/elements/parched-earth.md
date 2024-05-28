@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+More thirst-quenching than a backstage pass at a Beyoncé concert!
 
 ## See also
 

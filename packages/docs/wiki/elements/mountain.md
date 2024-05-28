@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The colossal nature bump that's basically Earth's awkward zit.
 
 ## See also
 

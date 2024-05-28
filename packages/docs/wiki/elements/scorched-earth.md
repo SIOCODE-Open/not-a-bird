@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+More devastating than an expired hot sauce binge, it turns fertile land into a Mad Max wasteland!
 
 ## See also
 

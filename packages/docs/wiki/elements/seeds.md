@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Nature's popcorn kernels, just add dirt and patience for a flourishing snack!
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Dust bunnies' granddaddy who moonlights as a chimney sweep in a Dickens novel.
 
 ## See also
 

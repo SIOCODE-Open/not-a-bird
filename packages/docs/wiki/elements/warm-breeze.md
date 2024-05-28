@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+It's like Mother Nature left the hairdryer on; embrace the cozy winds of summer hugs!
 
 ## See also
 

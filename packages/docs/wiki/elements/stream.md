@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Like Netflix for fish, this babbling brook is constantly streaming new episodes of nature’s playlist!
 
 ## See also
 

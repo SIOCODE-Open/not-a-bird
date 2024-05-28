@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A vast sandbox of banishment where even cacti consider sunblock.
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Spinning like your favorite DJ, this eco-friendly giant turns breezes into electrical symphonies.
 
 ## See also
 

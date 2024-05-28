@@ -62,151 +62,151 @@ pub mod unifiers {
     const ELEMENT_MONKEY: Element = Element {
         id: 0,
         name: "Monkey",
-        description: "We need a description here",
+        description: "This banana-loving acrobat is like if Tarzan had a caffeine addiction!",
         tier: 1,
     };
     const ELEMENT_GIRAFFE: Element = Element {
         id: 1,
         name: "Giraffe",
-        description: "We need a description here",
+        description: "The long-necked, leafy buffet enthusiast that would make even a stepladder feel short.",
         tier: 1,
     };
     const ELEMENT_BEE: Element = Element {
         id: 2,
         name: "Bee",
-        description: "We need a description here",
+        description: "The buzzing little cousin of Buzzie Lightyear, Defender of the Flora and Champion of Sweetness!",
         tier: 1,
     };
     const ELEMENT_COIN: Element = Element {
         id: 3,
         name: "Coin",
-        description: "We need a description here",
+        description: "More valuable than a chest full of dragon&#x27;s gold, this shiny round thing makes NPCs do your bidding.",
         tier: 1,
     };
     const ELEMENT_SWARM: Element = Element {
         id: 4,
         name: "SWARM",
-        description: "We need a description here",
+        description: "Unleash a tiny, buzzing army that makes you feel like the villain in a superhero movie.",
         tier: 2,
     };
     const ELEMENT_HYDRA: Element = Element {
         id: 5,
         name: "Hydra",
-        description: "We need a description here",
+        description: "When one head isn&#x27;t enough to argue with you, this multi-headed reptilian nightmare is ready to rumble!",
         tier: 2,
     };
     const ELEMENT_MONKEY_BRANCH: Element = Element {
         id: 6,
         name: "MonkeyBranch",
-        description: "We need a description here",
+        description: "Swing through the jungle like Tarzan with this monkey-approved vine, perfect for dramatic escapes and awkward landings.",
         tier: 2,
     };
     const ELEMENT_BRIDGE: Element = Element {
         id: 7,
         name: "Bridge",
-        description: "We need a description here",
+        description: "The majestic road-over-nothing, perfect for trolls and billy goats alike.",
         tier: 2,
     };
     const ELEMENT_GOLDEN_GATE: Element = Element {
         id: 8,
         name: "GoldenGate",
-        description: "We need a description here",
+        description: "The mystical bridge that Gandalf would totally approve of, connecting realms and charging tolls in riddles.",
         tier: 2,
     };
     const ELEMENT_GOLD: Element = Element {
         id: 9,
         name: "Gold",
-        description: "We need a description here",
+        description: "Shinier than a disco ball at Studio 54, this glistening treasure will make Scrooge McDuck jealous!",
         tier: 1,
     };
     const ELEMENT_SILVER: Element = Element {
         id: 10,
         name: "Silver",
-        description: "We need a description here",
+        description: "Shinier than a vampire at a disco party, it&#x27;s what werewolves dread and jewelry lovers adore.",
         tier: 1,
     };
     const ELEMENT_RHODIUM: Element = Element {
         id: 11,
         name: "Rhodium",
-        description: "We need a description here",
+        description: "The bling-bling metal of the periodic table: shinier than your future, harder than your math homework.",
         tier: 1,
     };
     const ELEMENT_HIVE: Element = Element {
         id: 12,
         name: "Hive",
-        description: "We need a description here",
+        description: "Welcome to the buzzfeed mansion, where every room has a bee-convincing argument!",
         tier: 1,
     };
     const ELEMENT_TRANSACTION: Element = Element {
         id: 13,
         name: "Transaction",
-        description: "We need a description here",
+        description: "The magical moment when your gold coins vanish and you&#x27;re left wondering if you&#x27;ve been pickpocketed by a ninja or just bought a shiny new sword.",
         tier: 1,
     };
     const ELEMENT_BLOCK: Element = Element {
         id: 14,
         name: "Block",
-        description: "We need a description here",
+        description: "Like adult Legos, but less fun and more about stopping that lava from ruining your day!",
         tier: 1,
     };
     const ELEMENT_BLOCKCHAIN: Element = Element {
         id: 15,
         name: "Blockchain",
-        description: "We need a description here",
+        description: "The magical internet ledger of destiny that Satoshi dreamt up, where everything is transparent, immutable, and forever entwined like the plot of a Christopher Nolan movie.",
         tier: 1,
     };
     const ELEMENT_POLKADOT: Element = Element {
         id: 16,
         name: "Polkadot",
-        description: "We need a description here",
+        description: "Think Bitcoin&#x27;s eccentric cousin who shows up at parties in a spotted suit and shocks everyone with their dazzlingly efficient dancing.",
         tier: 1,
     };
     const ELEMENT_PEER_REVIEW: Element = Element {
         id: 17,
         name: "PeerReview",
-        description: "We need a description here",
+        description: "A scroll that makes your friends question their life choices and your enemies spit out their coffee in disbelief.",
         tier: 1,
     };
     const ELEMENT_CARDANO: Element = Element {
         id: 18,
         name: "Cardano",
-        description: "We need a description here",
+        description: "Time to unleash the blockchain beast that&#x27;s more confusing than an IKEA assembly manual!",
         tier: 2,
     };
     const ELEMENT_BEAR: Element = Element {
         id: 19,
         name: "Bear",
-        description: "We need a description here",
+        description: "This fuzzy giant decided to move out of the forest and into your nightmares on the advice of its therapist, Yogi.",
         tier: 1,
     };
     const ELEMENT_BEER: Element = Element {
         id: 20,
         name: "Beer",
-        description: "We need a description here",
+        description: "The golden elixir of the gods, best enjoyed when your quest log is empty and your dance moves are questionable.",
         tier: 2,
     };
     const ELEMENT_LOCK: Element = Element {
         id: 21,
         name: "Lock",
-        description: "We need a description here",
+        description: "Who needs a dragon when you&#x27;ve got this security boss blocking your treasure chest?",
         tier: 2,
     };
     const ELEMENT_MARMALADE: Element = Element {
         id: 22,
         name: "Marmalade",
-        description: "We need a description here",
+        description: "The sticky, fruity concoction that Paddington Bear would trade his hat for.",
         tier: 1,
     };
     const ELEMENT_SUPER_MARMALADE: Element = Element {
         id: 23,
         name: "SuperMarmalade",
-        description: "We need a description here",
+        description: "As if Spider-Man and your grandma&#x27;s secret jam recipe had a citrusy baby that swings through breakfast toast saving your taste buds one bite at a time!",
         tier: 2,
     };
     const ELEMENT_HYPER_MARMALADE: Element = Element {
         id: 24,
         name: "HyperMarmalade",
-        description: "We need a description here",
+        description: "Like regular marmalade, but it makes you feel like you&#x27;ve had a double shot of espresso and a lightning bolt to the brain!",
         tier: 2,
     };
     const RECIPE_MAKE_SWARM: Recipe = Recipe {

@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+It's like the cozy blanket of soil—excellent for plants, terrible for couch potatoes.
 
 ## See also
 

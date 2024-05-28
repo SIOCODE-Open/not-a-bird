@@ -1,521 +1,657 @@
+description: The items in the game
 id: items
 name: items
-description: The items in the game
-schema: s/Item
 objects:
-  - description: We need a description here
-    name: Monkey
-    tier: 1
-  - description: We need a description here
-    name: Giraffe
-    tier: 1
-  - description: We need a description here
-    name: Bee
-    tier: 1
-  - description: We need a description here
-    name: Coin
-    tier: 1
-  - description: We need a description here
-    name: SWARM
-    tier: 2
-  - description: We need a description here
-    name: Hydra
-    tier: 2
-  - description: We need a description here
-    name: MonkeyBranch
-    tier: 2
-  - description: We need a description here
-    name: Bridge
-    tier: 2
-  - description: We need a description here
-    name: GoldenGate
-    tier: 2
-  - description: We need a description here
-    name: Gold
-    tier: 1
-  - description: We need a description here
-    name: Silver
-    tier: 1
-  - description: We need a description here
-    name: Rhodium
-    tier: 1
-  - description: We need a description here
-    name: Hive
-    tier: 1
-  - description: We need a description here
-    name: Transaction
-    tier: 1
-  - description: We need a description here
-    name: Block
-    tier: 1
-  - description: We need a description here
-    name: Blockchain
-    tier: 1
-  - description: We need a description here
-    name: Polkadot
-    tier: 1
-  - description: We need a description here
-    name: PeerReview
-    tier: 1
-  - description: We need a description here
-    name: Cardano
-    tier: 2
-  - description: We need a description here
-    name: Bear
-    tier: 1
-  - description: We need a description here
-    name: Beer
-    tier: 2
-  - description: We need a description here
-    name: Lock
-    tier: 2
-  - description: We need a description here
-    name: Marmalade
-    tier: 1
-  - description: We need a description here
-    name: SuperMarmalade
-    tier: 2
-  - description: We need a description here
-    name: HyperMarmalade
-    tier: 2
-  - name: Water
-    description: We need a description here
-    tier: 1
-  - name: Fire
-    description: We need a description here
-    tier: 1
-  - name: Steam
-    description: We need a description here
-    tier: 1
-  - name: Earth
-    description: We need a description here
-    tier: 1
-  - name: Mud
-    description: We need a description here
-    tier: 1
-  - name: Lava
-    description: We need a description here
-    tier: 1
-  - name: Wind
-    description: We need a description here
-    tier: 1
-  - name: Dust
-    description: We need a description here
-    tier: 1
-  - name: Rain
-    description: We need a description here
-    tier: 1
-  - name: Smoke
-    description: We need a description here
-    tier: 1
-  - name: Geyser
-    description: We need a description here
-    tier: 1
-  - name: Clay
-    description: We need a description here
-    tier: 1
-  - name: Sand
-    description: We need a description here
-    tier: 1
-  - name: Plant
-    description: We need a description here
-    tier: 1
-  - name: Rainbow
-    description: We need a description here
-    tier: 1
-  - name: Storm
-    description: We need a description here
-    tier: 1
-  - name: Obsidian
-    description: We need a description here
-    tier: 1
-  - name: Ash
-    description: We need a description here
-    tier: 1
-  - name: Volcano
-    description: We need a description here
-    tier: 1
-  - name: Sandstorm
-    description: We need a description here
-    tier: 1
-  - name: Cloud
-    description: We need a description here
-    tier: 1
-  - name: Fog
-    description: We need a description here
-    tier: 1
-  - name: Tree
-    description: We need a description here
-    tier: 1
-  - name: Forest
-    description: We need a description here
-    tier: 1
-  - name: Seeds
-    description: We need a description here
-    tier: 1
-  - name: Pottery
-    description: We need a description here
-    tier: 1
-  - name: Brick
-    description: We need a description here
-    tier: 1
-  - name: Quicksand
-    description: We need a description here
-    tier: 1
-  - name: Glass
-    description: We need a description here
-    tier: 1
-  - name: Dune
-    description: We need a description here
-    tier: 1
-  - name: Charcoal
-    description: We need a description here
-    tier: 1
-  - name: Leaves
-    description: We need a description here
-    tier: 1
-  - name: Wildfire
-    description: We need a description here
-    tier: 1
-  - name: Jungle
-    description: We need a description here
-    tier: 1
-  - name: FrostedGlass
-    description: We need a description here
-    tier: 1
-  - name: Crystal
-    description: We need a description here
-    tier: 1
-  - name: Magma
-    description: We need a description here
-    tier: 1
-  - name: Rock
-    description: We need a description here
-    tier: 1
-  - name: Shard
-    description: We need a description here
-    tier: 1
-  - name: Pebble
-    description: We need a description here
-    tier: 1
-  - name: Mountain
-    description: We need a description here
-    tier: 1
-  - name: Fertilizer
-    description: We need a description here
-    tier: 1
-  - name: Soot
-    description: We need a description here
-    tier: 1
-  - name: Lightning
-    description: We need a description here
-    tier: 1
-  - name: Mist
-    description: We need a description here
-    tier: 1
-  - name: Haze
-    description: We need a description here
-    tier: 1
-  - name: Flood
-    description: We need a description here
-    tier: 1
-  - name: Landslide
-    description: We need a description here
-    tier: 1
-  - name: Thunder
-    description: We need a description here
-    tier: 1
-  - name: Tornado
-    description: We need a description here
-    tier: 1
-  - name: Garden
-    description: We need a description here
-    tier: 1
-  - name: Ember
-    description: We need a description here
-    tier: 1
-  - name: Kiln
-    description: We need a description here
-    tier: 1
-  - name: Pollination
-    description: We need a description here
-    tier: 1
-  - name: Sinkhole
-    description: We need a description here
-    tier: 1
-  - name: Beach
-    description: We need a description here
-    tier: 1
-  - name: Wetstone
-    description: We need a description here
-    tier: 1
-  - name: Erosion
-    description: We need a description here
-    tier: 1
-  - name: Basalt
-    description: We need a description here
-    tier: 1
-  - name: MagmaChamber
-    description: We need a description here
-    tier: 1
-  - name: Breeze
-    description: We need a description here
-    tier: 1
-  - name: WarmBreeze
-    description: We need a description here
-    tier: 1
-  - name: Soil
-    description: We need a description here
-    tier: 1
-  - name: Canyon
-    description: We need a description here
-    tier: 1
-  - name: Windmill
-    description: We need a description here
-    tier: 1
-  - name: Adobe
-    description: We need a description here
-    tier: 1
-  - name: Wall
-    description: We need a description here
-    tier: 1
-  - name: Pumice
-    description: We need a description here
-    tier: 1
-  - name: Barbecue
-    description: We need a description here
-    tier: 1
-  - name: Farm
-    description: We need a description here
-    tier: 1
-  - name: Shards
-    description: We need a description here
-    tier: 1
-  - name: MoltenGlass
-    description: We need a description here
-    tier: 1
-  - name: Prism
-    description: We need a description here
-    tier: 1
-  - name: Sparkle
-    description: We need a description here
-    tier: 1
-  - name: Desert
-    description: We need a description here
-    tier: 1
-  - name: Oasis
-    description: We need a description here
-    tier: 1
-  - name: Mirage
-    description: We need a description here
-    tier: 1
-  - name: SandDune
-    description: We need a description here
-    tier: 1
-  - name: Dam
-    description: We need a description here
-    tier: 1
-  - name: Firewall
-    description: We need a description here
-    tier: 1
-  - name: Barricade
-    description: We need a description here
-    tier: 1
-  - name: Plateau
-    description: We need a description here
-    tier: 1
-  - name: Pond
-    description: We need a description here
-    tier: 1
-  - name: Aromas
-    description: We need a description here
-    tier: 1
-  - name: Flower
-    description: We need a description here
-    tier: 1
-  - name: Spore
-    description: We need a description here
-    tier: 1
-  - name: Spread
-    description: We need a description here
-    tier: 1
-  - name: FertileLand
-    description: We need a description here
-    tier: 1
-  - name: Wetland
-    description: We need a description here
-    tier: 1
-  - name: Peat
-    description: We need a description here
-    tier: 1
-  - name: Reeds
-    description: We need a description here
-    tier: 1
-  - name: Valley
-    description: We need a description here
-    tier: 1
-  - name: River
-    description: We need a description here
-    tier: 1
-  - name: ScorchedEarth
-    description: We need a description here
-    tier: 1
-  - name: Delta
-    description: We need a description here
-    tier: 1
-  - name: Estuary
-    description: We need a description here
-    tier: 1
-  - name: FireSwamp
-    description: We need a description here
-    tier: 1
-  - name: Riverbank
-    description: We need a description here
-    tier: 1
-  - name: Ravine
-    description: We need a description here
-    tier: 1
-  - name: Gorge
-    description: We need a description here
-    tier: 1
-  - name: CharredRavine
-    description: We need a description here
-    tier: 1
-  - name: Echo
-    description: We need a description here
-    tier: 1
-  - name: Cave
-    description: We need a description here
-    tier: 1
-  - name: UndergroundLake
-    description: We need a description here
-    tier: 1
-  - name: LavaCave
-    description: We need a description here
-    tier: 1
-  - name: WhisperingCave
-    description: We need a description here
-    tier: 1
-  - name: SubterraneanPool
-    description: We need a description here
-    tier: 1
-  - name: Spring
-    description: We need a description here
-    tier: 1
-  - name: HotSpring
-    description: We need a description here
-    tier: 1
-  - name: Grotto
-    description: We need a description here
-    tier: 1
-  - name: Fountain
-    description: We need a description here
-    tier: 1
-  - name: SteamVent
-    description: We need a description here
-    tier: 1
-  - name: CoolBreeze
-    description: We need a description here
-    tier: 1
-  - name: Monument
-    description: We need a description here
-    tier: 1
-  - name: Waterfall
-    description: We need a description here
-    tier: 1
-  - name: EternalFlame
-    description: We need a description here
-    tier: 1
-  - name: PillarOfWind
-    description: We need a description here
-    tier: 1
-  - name: Stream
-    description: We need a description here
-    tier: 1
-  - name: Zephyr
-    description: We need a description here
-    tier: 1
-  - name: Creek
-    description: We need a description here
-    tier: 1
-  - name: Brook
-    description: We need a description here
-    tier: 1
-  - name: Whisper
-    description: We need a description here
-    tier: 1
-  - name: Rivulet
-    description: We need a description here
-    tier: 1
-  - name: Tributary
-    description: We need a description here
-    tier: 1
-  - name: Murmur
-    description: We need a description here
-    tier: 1
-  - name: Watershed
-    description: We need a description here
-    tier: 1
-  - name: Aquifer
-    description: We need a description here
-    tier: 1
-  - name: ParchedEarth
-    description: We need a description here
-    tier: 1
-  - name: FreshBreeze
-    description: We need a description here
-    tier: 1
-  - name: Groundwater
-    description: We need a description here
-    tier: 1
-  - name: Reservoir
-    description: We need a description here
-    tier: 1
-  - name: GeothermalSpring
-    description: We need a description here
-    tier: 1
-  - name: ArtesianWell
-    description: We need a description here
-    tier: 1
-  - name: Basin
-    description: We need a description here
-    tier: 1
-  - name: Lake
-    description: We need a description here
-    tier: 1
-  - name: DryBasin
-    description: We need a description here
-    tier: 1
-  - name: Depression
-    description: We need a description here
-    tier: 1
-  - name: Island
-    description: We need a description here
-    tier: 1
-  - name: Lagoon
-    description: We need a description here
-    tier: 1
-  - name: Wave
-    description: We need a description here
-    tier: 1
-  - name: Reef
-    description: We need a description here
-    tier: 1
-  - name: Coral
-    description: We need a description here
-    tier: 1
-  - name: Whirl
-    description: We need a description here
-    tier: 1
-  - name: Limestone
-    description: We need a description here
-    tier: 1
-  - name: Karst
-    description: We need a description here
-    tier: 1
-  - name: Quicklime
-    description: We need a description here
-    tier: 1
-  - name: Blowhole
-    description: We need a description here
-    tier: 1
+- description: This banana-loving acrobat is like if Tarzan had a caffeine addiction!
+  name: Monkey
+  tier: 1
+- description: The long-necked, leafy buffet enthusiast that would make even a stepladder
+    feel short.
+  name: Giraffe
+  tier: 1
+- description: The buzzing little cousin of Buzzie Lightyear, Defender of the Flora
+    and Champion of Sweetness!
+  name: Bee
+  tier: 1
+- description: More valuable than a chest full of dragon's gold, this shiny round
+    thing makes NPCs do your bidding.
+  name: Coin
+  tier: 1
+- description: Unleash a tiny, buzzing army that makes you feel like the villain in
+    a superhero movie.
+  name: SWARM
+  tier: 2
+- description: When one head isn't enough to argue with you, this multi-headed reptilian
+    nightmare is ready to rumble!
+  name: Hydra
+  tier: 2
+- description: Swing through the jungle like Tarzan with this monkey-approved vine,
+    perfect for dramatic escapes and awkward landings.
+  name: MonkeyBranch
+  tier: 2
+- description: The majestic road-over-nothing, perfect for trolls and billy goats
+    alike.
+  name: Bridge
+  tier: 2
+- description: The mystical bridge that Gandalf would totally approve of, connecting
+    realms and charging tolls in riddles.
+  name: GoldenGate
+  tier: 2
+- description: Shinier than a disco ball at Studio 54, this glistening treasure will
+    make Scrooge McDuck jealous!
+  name: Gold
+  tier: 1
+- description: Shinier than a vampire at a disco party, it's what werewolves dread
+    and jewelry lovers adore.
+  name: Silver
+  tier: 1
+- description: 'The bling-bling metal of the periodic table: shinier than your future,
+    harder than your math homework.'
+  name: Rhodium
+  tier: 1
+- description: Welcome to the buzzfeed mansion, where every room has a bee-convincing
+    argument!
+  name: Hive
+  tier: 1
+- description: The magical moment when your gold coins vanish and you're left wondering
+    if you've been pickpocketed by a ninja or just bought a shiny new sword.
+  name: Transaction
+  tier: 1
+- description: Like adult Legos, but less fun and more about stopping that lava from
+    ruining your day!
+  name: Block
+  tier: 1
+- description: The magical internet ledger of destiny that Satoshi dreamt up, where
+    everything is transparent, immutable, and forever entwined like the plot of a
+    Christopher Nolan movie.
+  name: Blockchain
+  tier: 1
+- description: Think Bitcoin's eccentric cousin who shows up at parties in a spotted
+    suit and shocks everyone with their dazzlingly efficient dancing.
+  name: Polkadot
+  tier: 1
+- description: A scroll that makes your friends question their life choices and your
+    enemies spit out their coffee in disbelief.
+  name: PeerReview
+  tier: 1
+- description: Time to unleash the blockchain beast that's more confusing than an
+    IKEA assembly manual!
+  name: Cardano
+  tier: 2
+- description: This fuzzy giant decided to move out of the forest and into your nightmares
+    on the advice of its therapist, Yogi.
+  name: Bear
+  tier: 1
+- description: The golden elixir of the gods, best enjoyed when your quest log is
+    empty and your dance moves are questionable.
+  name: Beer
+  tier: 2
+- description: Who needs a dragon when you've got this security boss blocking your
+    treasure chest?
+  name: Lock
+  tier: 2
+- description: The sticky, fruity concoction that Paddington Bear would trade his
+    hat for.
+  name: Marmalade
+  tier: 1
+- description: As if Spider-Man and your grandma's secret jam recipe had a citrusy
+    baby that swings through breakfast toast saving your taste buds one bite at a
+    time!
+  name: SuperMarmalade
+  tier: 2
+- description: Like regular marmalade, but it makes you feel like you've had a double
+    shot of espresso and a lightning bolt to the brain!
+  name: HyperMarmalade
+  tier: 2
+- description: H2-Oh no, you spilled it again!
+  name: Water
+  tier: 1
+- description: Summon a flickering tongue of destruction that makes dragons envious
+    and marshmallows tremble in awe!
+  name: Fire
+  tier: 1
+- description: It's water's sassy teen phase before it cools down and becomes boring
+    again.
+  name: Steam
+  tier: 1
+- description: Because who doesn't want a handful of dirt from Mother Nature's handbag?
+  name: Earth
+  tier: 1
+- description: Mother Nature's messy smoothie, perfect for impromptu spa days or sabotaging
+    the hero's clean shoes!
+  name: Mud
+  tier: 1
+- description: Spicy earth salsa that guarantees an insta-tan and some crispy new
+    shoes!
+  name: Lava
+  tier: 1
+- description: The invisible ninja that gives trees a good hair day.
+  name: Wind
+  tier: 1
+- description: The forgotten remains of battles long past, or your enemy when you
+    forget to clean under the sofa.
+  name: Dust
+  tier: 1
+- description: 'Sky''s attempt at a group shower: brings hydration and dramatic window
+    views!'
+  name: Rain
+  tier: 1
+- description: As elusive as your New Year's resolutions, it vanishes faster than
+    free Wi-Fi at a coffee shop.
+  name: Smoke
+  tier: 1
+- description: Mother Nature's boiling hot water cannon, now available as a decorative
+    backyard feature!
+  name: Geyser
+  tier: 1
+- description: Mold this earthy Play-Doh into something magical, or just make yourself
+    a new best friend, Wilson style!
+  name: Clay
+  tier: 1
+- description: Pocketful of tiny wizards' teeth, creating beaches and cat litter archeology!
+  name: Sand
+  tier: 1
+- description: The botanical equivalent of Wi-Fi for oxygen, providing full bars since
+    prehistoric times.
+  name: Plant
+  tier: 1
+- description: The sky's post-rain refurbishment job, brought to you by Mother Nature's
+    favorite highlighter pack.
+  name: Rainbow
+  tier: 1
+- description: Angry sky kittens throwing tantrums and lightning bolts like Thor after
+    a double espresso.
+  name: Storm
+  tier: 1
+- description: Crafted by the earth's angriest volcano, it's tougher than your grandma's
+    fruitcake and twice as unforgiving.
+  name: Obsidian
+  tier: 1
+- description: The remains of your epic campfire story that burned out faster than
+    your WiFi during a binge session.
+  name: Ash
+  tier: 1
+- description: Mount Doom's flamboyant cousin who's always ready to throw a tantrum
+    and belch fiery salsa.
+  name: Volcano
+  tier: 1
+- description: It's like Mother Nature's version of a blender set to 'desert' mode,
+    without the fruity cocktail at the end.
+  name: Sandstorm
+  tier: 1
+- description: Fluffier than marshmallows and moodier than a teenager, this sky cotton
+    candy hides the secrets of the weather gods.
+  name: Cloud
+  tier: 1
+- description: "It\u2019s like someone took all the clouds, shredded them, and set\
+    \ them loose to play hide and seek with your vision."
+  name: Fog
+  tier: 1
+- description: The original WiFi router for squirrels, providing shade and nuts with
+    zero bars of signal!
+  name: Tree
+  tier: 1
+- description: A dense collection of trees where even squirrels hire GPS, home of
+    the mythical Wi-Fi-repellent green zone.
+  name: Forest
+  tier: 1
+- description: Nature's popcorn kernels, just add dirt and patience for a flourishing
+    snack!
+  name: Seeds
+  tier: 1
+- description: Perfect for storing all your grandma's secret cookie recipes and ancient
+    legendary treasures, one chip at a time!
+  name: Pottery
+  tier: 1
+- description: As indestructible as your WiFi on a good day, this brick could build
+    a mansion or your Minecraft empire.
+  name: Brick
+  tier: 1
+- description: The Earth's way of saying 'GOTCHA!' when you thought a leisurely stroll
+    through the desert sounded appealing.
+  name: Quicksand
+  tier: 1
+- description: As delicate as your ego after a bad break-up, but see-through like
+    your best friend's terrible poker face.
+  name: Glass
+  tier: 1
+- description: Get ready to channel your inner Muad'Dib and rule the sandy seas while
+    dodging giant worms and political plots!
+  name: Dune
+  tier: 1
+- description: The BBQ Master's secret ingredient for transforming your steaks from
+    zero to hero faster than you can say 'Grill-Zilla!'
+  name: Charcoal
+  tier: 1
+- description: Green confetti for Mother Nature's never-ending party, with a hint
+    of chlorophyll chic!
+  name: Leaves
+  tier: 1
+- description: Spicier than your ex's DMs, this blaze turns forests into toast and
+    marshmallows into napalm.
+  name: Wildfire
+  tier: 1
+- description: Like Tarzan's playground but with 99% more bugs and 100% less Wi-Fi.
+  name: Jungle
+  tier: 1
+- description: Clearer than your intentions after a night out, but still elusive as
+    your friend who promises to show up on time.
+  name: FrostedGlass
+  tier: 1
+- description: Shiny as Edward Cullen and twice as sparkly in the moonlight!
+  name: Crystal
+  tier: 1
+- description: Hotter than your ex's last text, this molten rock sauce will turn enemies
+    into toast.
+  name: Magma
+  tier: 1
+- description: It's Dwayne Johnson's stony cousin, perfect for smashing enemies or
+    just sitting there, being all geology-like.
+  name: Rock
+  tier: 1
+- description: This is the majestic piece of glitter, sharper than your ex-girlfriend's
+    comebacks!
+  name: Shard
+  tier: 1
+- description: As insignificant as the pebble you kicked on your way to saving the
+    world.
+  name: Pebble
+  tier: 1
+- description: The colossal nature bump that's basically Earth's awkward zit.
+  name: Mountain
+  tier: 1
+- description: Sprinkle a little of this magic dust and watch your plants grow faster
+    than a YouTube tutorial on 'getting rich quick!'
+  name: Fertilizer
+  tier: 1
+- description: Dust bunnies' granddaddy who moonlights as a chimney sweep in a Dickens
+    novel.
+  name: Soot
+  tier: 1
+- description: Like Thor's tantrum in a bottle, ready to zap your foes into crispy
+    critters!
+  name: Lightning
+  tier: 1
+- description: Like a ghost doing the moonwalk, it slips through your fingers and
+    cloaks the world in mystery!
+  name: Mist
+  tier: 1
+- description: Like Gandalf's vape party, but a lot less fun and way more confusing.
+  name: Haze
+  tier: 1
+- description: When Mother Nature throws the ultimate pool party and forgets to send
+    the 'BYO life jacket' memo.
+  name: Flood
+  tier: 1
+- description: A geological temper tantrum that sends boulders downhill faster than
+    a caffeine-crazed squirrel on roller skates!
+  name: Landslide
+  tier: 1
+- description: Like Thor's mixtape at full volume, this electrifying zap will leave
+    your enemies shocked and awed!
+  name: Thunder
+  tier: 1
+- description: Nature's blender on steroids, mixing up cows, houses, and your afternoon
+    picnic.
+  name: Tornado
+  tier: 1
+- description: Nature's sunlit Wi-Fi free zone, and the original farm-to-table restaurant!
+  name: Garden
+  tier: 1
+- description: Like a tiny dragon's sneeze, this little spark packs a fiery punch!
+  name: Ember
+  tier: 1
+- description: The oven that turns your pottery dreams into reality, just like Hogwarts
+    turns kids into wizards.
+  name: Kiln
+  tier: 1
+- description: Nature's Tinder for plants, where bees are the swiping right matchmakers.
+  name: Pollination
+  tier: 1
+- description: Suddenly feeling like you starred in a Looney Tunes cartoon, minus
+    the anvil and roadrunner.
+  name: Sinkhole
+  tier: 1
+- description: A sun-kissed playground where sand gets everywhere, like glitter but
+    from hell.
+  name: Beach
+  tier: 1
+- description: Sharpen your blades while pondering life's mysteries with this slippery
+    soapy rock, straight from the stones of Soapland!
+  name: Wetstone
+  tier: 1
+- description: Nature's slow-motion magic trick, turning mighty mountains into beach
+    sand one grain at a time.
+  name: Erosion
+  tier: 1
+- description: Forged in the depths of the earth, harder than your ex's heart and
+    cooler than the underside of your pillow.
+  name: Basalt
+  tier: 1
+- description: Hotter than a dragon's sneeze, this is the spicy jacuzzi of the underworld.
+  name: MagmaChamber
+  tier: 1
+- description: Like Gandalf's whisper, this gentle wind will casually rearrange your
+    bad hair day.
+  name: Breeze
+  tier: 1
+- description: It's like Mother Nature left the hairdryer on; embrace the cozy winds
+    of summer hugs!
+  name: WarmBreeze
+  tier: 1
+- description: Dirt-napped cousin of terra-firma, perfect for your eco-friendly carpet
+    installations!
+  name: Soil
+  tier: 1
+- description: Nature's gigantic frown; perfect for epic echoes and bottomless pratfalls.
+  name: Canyon
+  tier: 1
+- description: Spinning like your favorite DJ, this eco-friendly giant turns breezes
+    into electrical symphonies.
+  name: Windmill
+  tier: 1
+- description: The ancient Minecraft enchantment that grants you the power to build
+    desert dream homes with just a handful of dirt and some water!
+  name: Adobe
+  tier: 1
+- description: The Gentleman Bouncer of your castle, politely informing intruders
+    that the party's over.
+  name: Wall
+  tier: 1
+- description: Floats like a butterfly, scrubs like Mr. Clean - the Swiss cheese of
+    rocks!
+  name: Pumice
+  tier: 1
+- description: Unleash your inner pitmaster with this meat sizzle maker, as seen on
+    grill-enthusiast reality shows!
+  name: Barbecue
+  tier: 1
+- description: The ultimate pre-industrial protein shake factory, where plants and
+    animals live in suspenseful harmony waiting to be useful.
+  name: Farm
+  tier: 1
+- description: "Fragments of a broken heart? Or just pieces of yesterday's pi\xF1\
+    ata\u2014either way, they're sharp!"
+  name: Shards
+  tier: 1
+- description: Hotter than a dragon's breath after Taco Tuesday, this molten glass
+    can melt through your problems... literally.
+  name: MoltenGlass
+  tier: 1
+- description: Divide light like a 70's disco ball at a Saturday night fever party.
+  name: Prism
+  tier: 1
+- description: Glitter brighter than a unicorn's tears at a K-pop concert.
+  name: Sparkle
+  tier: 1
+- description: A vast sandbox of banishment where even cacti consider sunblock.
+  name: Desert
+  tier: 1
+- description: The desert's VIP lounge, complete with complimentary palm trees and
+    mirage-resistant seating!
+  name: Oasis
+  tier: 1
+- description: As elusive as your mom's Wi-Fi password and twice as frustrating to
+    catch!
+  name: Mirage
+  tier: 1
+- description: As majestic as a stack of pancakes, but far more abrasive and less
+    syrupy.
+  name: SandDune
+  tier: 1
+- description: The Dwayne 'The Rock' Johnson of water barriers, holding back the wet
+    with sheer muscle.
+  name: Dam
+  tier: 1
+- description: 'The Gandalf of cybersecurity: ''You shall not pass!'''
+  name: Firewall
+  tier: 1
+- description: Like Gandalf facing a Balrog, it's the 'You shall not pass!' of fortifications.
+  name: Barricade
+  tier: 1
+- description: A flat piece of land that got tired of climbing mountains and decided
+    to chill forever.
+  name: Plateau
+  tier: 1
+- description: Where ducks hold their secret aquatic raves and lily pads plot world
+    domination.
+  name: Pond
+  tier: 1
+- description: Sprinkle a bit of Hogwarts' magic under your nose and breathe in the
+    essence of enchanted forests and dragon's breath!
+  name: Aromas
+  tier: 1
+- description: The colorful Wi-Fi signal for bees; smells better than your ex's perfume!
+  name: Flower
+  tier: 1
+- description: Tiny, invisible disco balls of doom, ready to throw a rave in your
+    sinuses!
+  name: Spore
+  tier: 1
+- description: As versatile as a Swiss army knife, it's the social butterfly of condiments!
+  name: Spread
+  tier: 1
+- description: "As luxurious and bountiful as Bob Ross\u2019s paint palette, it's\
+    \ the MVP of Mother Nature's garden party."
+  name: FertileLand
+  tier: 1
+- description: As if Mother Nature decided to recreate the set of Jumanji with extra
+    humidity and a smorgasbord of mosquitoes!
+  name: Wetland
+  tier: 1
+- description: "It's like the cozy blanket of soil\u2014excellent for plants, terrible\
+    \ for couch potatoes."
+  name: Peat
+  tier: 1
+- description: The nature-made cocktail straws that just might call Gandalf from Middle-earth;
+    beware of hobbits sneaking around!
+  name: Reeds
+  tier: 1
+- description: The place where hills take a break and gossip about mountains.
+  name: Valley
+  tier: 1
+- description: The highway for fish and the misplaced bathtubs of nature, flowing
+    with more twists than a soap opera plotline.
+  name: River
+  tier: 1
+- description: More devastating than an expired hot sauce binge, it turns fertile
+    land into a Mad Max wasteland!
+  name: ScorchedEarth
+  tier: 1
+- description: "The river\u2019s final boss battle, where water splits like an indecisive\
+    \ rom-com character in the season finale."
+  name: Delta
+  tier: 1
+- description: Where the river meets the sea, like the ultimate mashup album nobody
+    asked for but everyone loves.
+  name: Estuary
+  tier: 1
+- description: Enter at your own risk and remember, the trees have a fiery personality
+    akin to dragons after a spicy taco night!
+  name: FireSwamp
+  tier: 1
+- description: Where Gandalf would come for a picnic with his hobbit homies if Middle-earth
+    had longer vacations.
+  name: Riverbank
+  tier: 1
+- description: The Grand Canyon's emo teenager cousin, endless depths of angsty chasms.
+  name: Ravine
+  tier: 1
+- description: 'When wandering through this natural wonder, remember: it''s like Mother
+    Earth''s really dramatic cleavage.'
+  name: Gorge
+  tier: 1
+- description: A spicy hot potato chip of doom, hotter than a dragon's sneeze in a
+    volcano.
+  name: CharredRavine
+  tier: 1
+- description: It's like shouting into a canyon, but the canyon actually cares about
+    what you said and keeps repeating it back.
+  name: Echo
+  tier: 1
+- description: A dark, damp Airbnb for bats and trolls, with zero Wi-Fi signal but
+    plenty of natural 'rockitecture'.
+  name: Cave
+  tier: 1
+- description: The Batcave of aquatic hideaways, home to timid fish and overly ambitious
+    spelunkers alike.
+  name: UndergroundLake
+  tier: 1
+- description: A fiery Airbnb for fire-breathing dragons and grilled marshmallows.
+  name: LavaCave
+  tier: 1
+- description: A cave so chatty it makes high school gossip sound like monk's meditation.
+  name: WhisperingCave
+  tier: 1
+- description: Where the Teenage Mutant Ninja Turtles learned to swim and rediscover
+    lost rubber duckies!
+  name: SubterraneanPool
+  tier: 1
+- description: Jump higher than your dreams, or at least higher than your disappointments,
+    with this bouncy boing-boing.
+  name: Spring
+  tier: 1
+- description: Like soaking in a jacuzzi made by Mother Nature, but without the awkward
+    vacation photos!
+  name: HotSpring
+  tier: 1
+- description: "The ultimate bachelor pad for goblins\u2014think of it as a man cave,\
+    \ but with actual caves."
+  name: Grotto
+  tier: 1
+- description: Where wishes and coins go on a wild water slide together.
+  name: Fountain
+  tier: 1
+- description: When regular air conditioning just won't cut it, unleash this spicy
+    hot air geyser and channel your inner Old Faithful!
+  name: SteamVent
+  tier: 1
+- description: As refreshing as a surprise pizza party in summer, but with zero calories!
+  name: CoolBreeze
+  tier: 1
+- description: A stone tribute that's so towering, it could give the Statue of Liberty
+    vertigo!
+  name: Monument
+  tier: 1
+- description: Niagara's younger, slightly less impressive cousin that still turns
+    heads like a supermodel on a catwalk.
+  name: Waterfall
+  tier: 1
+- description: Hotter than a dragon's sneeze, this flame burns with the angst of a
+    thousand rejected pop stars!
+  name: EternalFlame
+  tier: 1
+- description: A swirling cyclone of air that even the Weather Channel fears to forecast.
+  name: PillarOfWind
+  tier: 1
+- description: "Like Netflix for fish, this babbling brook is constantly streaming\
+    \ new episodes of nature\u2019s playlist!"
+  name: Stream
+  tier: 1
+- description: A breeze so gentle, it could whisper lullabies to butterflies while
+    moonwalking through daisies.
+  name: Zephyr
+  tier: 1
+- description: Tiny river, think of it as a baby Amazon just learning to meme.
+  name: Creek
+  tier: 1
+- description: Where baby rivers are born and sent to Hogwarts.
+  name: Brook
+  tier: 1
+- description: The secret handshake of the wind and your ear, as if a gossiping fairy
+    had a megaphone.
+  name: Whisper
+  tier: 1
+- description: A tiny stream so small that even ants use it as their personal slip-n-slide.
+  name: Rivulet
+  tier: 1
+- description: A glorified water delivery service, bringing aqua goodness to bigger,
+    bossier rivers.
+  name: Tributary
+  tier: 1
+- description: "Like the whisper of a ninja, Murmur is the sound your enemies will\
+    \ never hear until it\u2019s too late."
+  name: Murmur
+  tier: 1
+- description: A pivotal plot twist in the landscape where water decides which way
+    it wants to go for the grand finale!
+  name: Watershed
+  tier: 1
+- description: Nature's secret underground swimming pool, perfect for when groundwater
+    wants to chill out.
+  name: Aquifer
+  tier: 1
+- description: "More thirst-quenching than a backstage pass at a Beyonc\xE9 concert!"
+  name: ParchedEarth
+  tier: 1
+- description: A zephyr so crisp it could convince even Darth Vader to join a yoga
+    retreat!
+  name: FreshBreeze
+  tier: 1
+- description: Mother Earth's secret stash, hidden beneath her rocky garments like
+    a hip flask at a dry wedding.
+  name: Groundwater
+  tier: 1
+- description: 'Hoarder of H2O: Where all the local water droplets hang out and gossip
+    about breaking dams and making waves!'
+  name: Reservoir
+  tier: 1
+- description: Mother Nature's jacuzzi, hotter than the coffee your soul relies on.
+  name: GeothermalSpring
+  tier: 1
+- description: The bottomless mimosa bar of water sources, constantly refilling without
+    you lifting a finger - cheers!
+  name: ArtesianWell
+  tier: 1
+- description: The Holy Grail of your bathroom, where soap bubbles dream of escape
+    and rubber duckies rule!
+  name: Basin
+  tier: 1
+- description: Nature's giant puddle, perfect for lazy fish, and where mythical creatures
+    might just throw tea parties.
+  name: Lake
+  tier: 1
+- description: A bowl so devoid of moisture, even SpongeBob would dry up in here.
+  name: DryBasin
+  tier: 1
+- description: Feeling like Eeyore in a world full of Tiggers.
+  name: Depression
+  tier: 1
+- description: A chunk of land adrift in the ocean, like a slice of pizza floating
+    in tomato soup.
+  name: Island
+  tier: 1
+- description: A lazy lake who's too cool to hang with the ocean, featuring more zen
+    than a yoga retreat for dolphins.
+  name: Lagoon
+  tier: 1
+- description: "Surf's up, dude\u2013ride this aquatic rollercoaster like a water\
+    \ wizard!"
+  name: Wave
+  tier: 1
+- description: The underwater rock concert where fish party harder than rockstars!
+  name: Reef
+  tier: 1
+- description: "Nature's underwater apartment complex\u2014complete with quirky neighbors!"
+  name: Coral
+  tier: 1
+- description: Like a blender on steroids, this mini-maelstrom promises to mix up
+    your enemies' day!
+  name: Whirl
+  tier: 1
+- description: The rock Dwayne Johnson wished he was named after - capable of building
+    empires and perfect for caveman graffiti.
+  name: Limestone
+  tier: 1
+- description: "The Swiss cheese of landscapes\u2014full of holes, surprises, and\
+    \ probably a hidden treasure if you look close enough!"
+  name: Karst
+  tier: 1
+- description: Just add water and watch this rock go all 'Hulk Smash' on your hydration
+    dreams!
+  name: Quicklime
+  tier: 1
+- description: The marine mammal's N64 controller button for an epic H2O power-up!
+  name: Blowhole
+  tier: 1
+schema: s/Item

@@ -2,7 +2,7 @@
 
 **Tier**: 2
 
-We need a description here
+The majestic road-over-nothing, perfect for trolls and billy goats alike.
 
 ## See also
 

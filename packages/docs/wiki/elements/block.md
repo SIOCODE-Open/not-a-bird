@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Like adult Legos, but less fun and more about stopping that lava from ruining your day!
 
 ## See also
 

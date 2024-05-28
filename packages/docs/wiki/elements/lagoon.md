@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A lazy lake who's too cool to hang with the ocean, featuring more zen than a yoga retreat for dolphins.
 
 ## See also
 

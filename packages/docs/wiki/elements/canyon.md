@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Nature's gigantic frown; perfect for epic echoes and bottomless pratfalls.
 
 ## See also
 

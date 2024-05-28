@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Tiny, invisible disco balls of doom, ready to throw a rave in your sinuses!
 
 ## See also
 

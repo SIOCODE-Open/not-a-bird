@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+This banana-loving acrobat is like if Tarzan had a caffeine addiction!
 
 ## See also
 

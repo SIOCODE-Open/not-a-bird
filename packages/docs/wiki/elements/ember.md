@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Like a tiny dragon's sneeze, this little spark packs a fiery punch!
 
 ## See also
 

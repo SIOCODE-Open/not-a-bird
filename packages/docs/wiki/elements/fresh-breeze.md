@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A zephyr so crisp it could convince even Darth Vader to join a yoga retreat!
 
 ## See also
 

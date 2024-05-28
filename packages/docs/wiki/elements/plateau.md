@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+A flat piece of land that got tired of climbing mountains and decided to chill forever.
 
 ## See also
 

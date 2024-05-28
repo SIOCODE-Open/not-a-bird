@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Hotter than a dragon's sneeze, this flame burns with the angst of a thousand rejected pop stars!
 
 ## See also
 

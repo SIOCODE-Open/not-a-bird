@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Spicy earth salsa that guarantees an insta-tan and some crispy new shoes!
 
 ## See also
 

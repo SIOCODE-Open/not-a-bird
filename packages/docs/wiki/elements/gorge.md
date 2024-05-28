@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+When wandering through this natural wonder, remember: it's like Mother Earth's really dramatic cleavage.
 
 ## See also
 

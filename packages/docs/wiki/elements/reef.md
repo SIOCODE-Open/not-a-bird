@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+The underwater rock concert where fish party harder than rockstars!
 
 ## See also
 

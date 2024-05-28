@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+As if Mother Nature decided to recreate the set of Jumanji with extra humidity and a smorgasbord of mosquitoes!
 
 ## See also
 

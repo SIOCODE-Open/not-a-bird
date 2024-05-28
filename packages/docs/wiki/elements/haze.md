@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Like Gandalf's vape party, but a lot less fun and way more confusing.
 
 ## See also
 

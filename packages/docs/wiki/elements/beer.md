@@ -2,7 +2,7 @@
 
 **Tier**: 2
 
-We need a description here
+The golden elixir of the gods, best enjoyed when your quest log is empty and your dance moves are questionable.
 
 ## See also
 

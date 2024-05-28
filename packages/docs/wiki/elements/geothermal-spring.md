@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Mother Nature's jacuzzi, hotter than the coffee your soul relies on.
 
 ## See also
 

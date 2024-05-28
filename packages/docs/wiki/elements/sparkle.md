@@ -2,7 +2,7 @@
 
 **Tier**: 1
 
-We need a description here
+Glitter brighter than a unicorn's tears at a K-pop concert.
 
 ## See also
 
