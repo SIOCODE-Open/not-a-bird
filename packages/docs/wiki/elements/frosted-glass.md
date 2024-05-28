@@ -10,6 +10,10 @@ Clearer than your intentions after a night out, but still elusive as your friend
 
 * Combine [Glass](/wiki/elements/glass) and [Water](/wiki/elements/water) to make [Frosted Glass](/wiki/elements/frosted-glass). This process is known as [Make Frosted Glass](/wiki/recipes/make-frosted-glass).
 
+## How to use?
+
+_Frosted Glass is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

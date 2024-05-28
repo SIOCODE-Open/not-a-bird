@@ -10,6 +10,10 @@ The Swiss cheese of landscapes—full of holes, surprises, and probably a hidden
 
 * Combine [Water](/wiki/elements/water) and [Limestone](/wiki/elements/limestone) to make [Karst](/wiki/elements/karst). This process is known as [Make Karst](/wiki/recipes/make-karst).
 
+## How to use?
+
+* Combine [Wind](/wiki/elements/wind) and [Karst](/wiki/elements/karst) to make [Blowhole](/wiki/elements/blowhole). This process is known as [Make Blowhole](/wiki/recipes/make-blowhole).
+
 ## See also
 
 * [Games](/wiki/games)

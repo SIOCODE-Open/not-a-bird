@@ -10,6 +10,10 @@ Hoarder of H2O: Where all the local water droplets hang out and gossip about bre
 
 * Combine [Water](/wiki/elements/water) and [Groundwater](/wiki/elements/groundwater) to make [Reservoir](/wiki/elements/reservoir). This process is known as [Make Reservoir](/wiki/recipes/make-reservoir).
 
+## How to use?
+
+* Combine [Earth](/wiki/elements/earth) and [Reservoir](/wiki/elements/reservoir) to make [Basin](/wiki/elements/basin). This process is known as [Make Basin](/wiki/recipes/make-basin).
+
 ## See also
 
 * [Games](/wiki/games)

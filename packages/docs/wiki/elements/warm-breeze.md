@@ -10,6 +10,10 @@ It's like Mother Nature left the hairdryer on; embrace the cozy winds of summer 
 
 * Combine [Fire](/wiki/elements/fire) and [Breeze](/wiki/elements/breeze) to make [Warm Breeze](/wiki/elements/warm-breeze). This process is known as [Make Warm Breeze](/wiki/recipes/make-warm-breeze).
 
+## How to use?
+
+_Warm Breeze is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

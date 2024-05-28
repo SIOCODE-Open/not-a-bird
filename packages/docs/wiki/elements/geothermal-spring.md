@@ -10,6 +10,10 @@ Mother Nature's jacuzzi, hotter than the coffee your soul relies on.
 
 * Combine [Fire](/wiki/elements/fire) and [Groundwater](/wiki/elements/groundwater) to make [Geothermal Spring](/wiki/elements/geothermal-spring). This process is known as [Make Geothermal Spring](/wiki/recipes/make-geothermal-spring).
 
+## How to use?
+
+_Geothermal Spring is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

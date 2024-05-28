@@ -10,6 +10,10 @@ This banana-loving acrobat is like if Tarzan had a caffeine addiction!
 
 _There is no way to make Monkey. You can buy it from the game, by pressing the **Buy** button._
 
+## How to use?
+
+* Combine [Monkey](/wiki/elements/monkey) and [Hydra](/wiki/elements/hydra) to make [Monkey Branch](/wiki/elements/monkey-branch). This process is known as [Make Monkeybranch](/wiki/recipes/make-monkeybranch).
+
 ## See also
 
 * [Games](/wiki/games)

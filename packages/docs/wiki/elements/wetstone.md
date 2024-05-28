@@ -10,6 +10,10 @@ Sharpen your blades while pondering life's mysteries with this slippery soapy ro
 
 * Combine [Water](/wiki/elements/water) and [Obsidian](/wiki/elements/obsidian) to make [Wetstone](/wiki/elements/wetstone). This process is known as [Make Wetstone](/wiki/recipes/make-wetstone).
 
+## How to use?
+
+_Wetstone is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

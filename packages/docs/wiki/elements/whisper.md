@@ -10,6 +10,10 @@ The secret handshake of the wind and your ear, as if a gossiping fairy had a meg
 
 * Combine [Wind](/wiki/elements/wind) and [Creek](/wiki/elements/creek) to make [Whisper](/wiki/elements/whisper). This process is known as [Make Whisper](/wiki/recipes/make-whisper).
 
+## How to use?
+
+_Whisper is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

@@ -10,6 +10,10 @@ Unleash a tiny, buzzing army that makes you feel like the villain in a superhero
 
 * Combine [Bee](/wiki/elements/bee) and [Bee](/wiki/elements/bee) to make [Swarm](/wiki/elements/swarm). This process is known as [Make Swarm](/wiki/recipes/make-swarm).
 
+## How to use?
+
+_Swarm is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

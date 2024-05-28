@@ -10,6 +10,10 @@ Mount Doom's flamboyant cousin who's always ready to throw a tantrum and belch f
 
 * Combine [Lava](/wiki/elements/lava) and [Earth](/wiki/elements/earth) to make [Volcano](/wiki/elements/volcano). This process is known as [Make Volcano](/wiki/recipes/make-volcano).
 
+## How to use?
+
+_Volcano is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

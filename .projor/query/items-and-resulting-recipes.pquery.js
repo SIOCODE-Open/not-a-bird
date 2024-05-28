@@ -12,12 +12,16 @@ const queryResult = items.map(
         const resultingRecipes = recipes
             .filter(recipe => recipe.c.name === item.name)
             .map(recipe => `recipes#${recipe.name}`);
+        const usedInRecipes = recipes
+            .filter(recipe => recipe.a.name === item.name || recipe.b.name === item.name)
+            .map(recipe => `recipes#${recipe.name}`);
 
         return {
             name: item.name,
             description: item.description,
             item: `items#${item.name}`,
-            recipes: resultingRecipes
+            recipes: resultingRecipes,
+            usedInRecipes: usedInRecipes,
         };
     }
 );

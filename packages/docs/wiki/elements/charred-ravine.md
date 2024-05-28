@@ -10,6 +10,10 @@ A spicy hot potato chip of doom, hotter than a dragon's sneeze in a volcano.
 
 * Combine [Fire](/wiki/elements/fire) and [Ravine](/wiki/elements/ravine) to make [Charred Ravine](/wiki/elements/charred-ravine). This process is known as [Make Charred Ravine](/wiki/recipes/make-charred-ravine).
 
+## How to use?
+
+_Charred Ravine is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

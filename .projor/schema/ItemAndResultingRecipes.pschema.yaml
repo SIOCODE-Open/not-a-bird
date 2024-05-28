@@ -11,3 +11,8 @@ fields:
     references: s/Recipe
     multiple: true
     description: The recipes that result in the item.
+  - name: usedInRecipes
+    type: reference
+    references: s/Recipe
+    multiple: true
+    description: The recipes that use the item.

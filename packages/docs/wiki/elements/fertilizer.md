@@ -10,6 +10,10 @@ Sprinkle a little of this magic dust and watch your plants grow faster than a Yo
 
 * Combine [Ash](/wiki/elements/ash) and [Earth](/wiki/elements/earth) to make [Fertilizer](/wiki/elements/fertilizer). This process is known as [Make Fertilizer](/wiki/recipes/make-fertilizer).
 
+## How to use?
+
+_Fertilizer is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

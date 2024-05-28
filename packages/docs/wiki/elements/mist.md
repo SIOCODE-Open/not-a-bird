@@ -10,6 +10,10 @@ Like a ghost doing the moonwalk, it slips through your fingers and cloaks the wo
 
 * Combine [Fog](/wiki/elements/fog) and [Earth](/wiki/elements/earth) to make [Mist](/wiki/elements/mist). This process is known as [Make Mist](/wiki/recipes/make-mist).
 
+## How to use?
+
+_Mist is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

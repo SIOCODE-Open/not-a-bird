@@ -10,6 +10,10 @@ The Dwayne 'The Rock' Johnson of water barriers, holding back the wet with sheer
 
 * Combine [Water](/wiki/elements/water) and [Wall](/wiki/elements/wall) to make [Dam](/wiki/elements/dam). This process is known as [Make Dam](/wiki/recipes/make-dam).
 
+## How to use?
+
+_Dam is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

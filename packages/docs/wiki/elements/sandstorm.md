@@ -10,6 +10,10 @@ It's like Mother Nature's version of a blender set to 'desert' mode, without the
 
 * Combine [Dust](/wiki/elements/dust) and [Wind](/wiki/elements/wind) to make [Sandstorm](/wiki/elements/sandstorm). This process is known as [Make Sandstorm](/wiki/recipes/make-sandstorm).
 
+## How to use?
+
+_Sandstorm is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

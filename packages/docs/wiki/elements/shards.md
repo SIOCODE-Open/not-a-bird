@@ -10,6 +10,10 @@ Fragments of a broken heart? Or just pieces of yesterday's piñata—either way,
 
 * Combine [Wind](/wiki/elements/wind) and [Obsidian](/wiki/elements/obsidian) to make [Shards](/wiki/elements/shards). This process is known as [Make Shards](/wiki/recipes/make-shards).
 
+## How to use?
+
+_Shards is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

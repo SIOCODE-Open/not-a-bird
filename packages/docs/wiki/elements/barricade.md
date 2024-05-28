@@ -10,6 +10,10 @@ Like Gandalf facing a Balrog, it's the 'You shall not pass!' of fortifications.
 
 * Combine [Wind](/wiki/elements/wind) and [Wall](/wiki/elements/wall) to make [Barricade](/wiki/elements/barricade). This process is known as [Make Barricade](/wiki/recipes/make-barricade).
 
+## How to use?
+
+_Barricade is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

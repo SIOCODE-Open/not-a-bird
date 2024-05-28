@@ -10,6 +10,10 @@ Where Gandalf would come for a picnic with his hobbit homies if Middle-earth had
 
 * Combine [Wind](/wiki/elements/wind) and [Delta](/wiki/elements/delta) to make [Riverbank](/wiki/elements/riverbank). This process is known as [Make Riverbank](/wiki/recipes/make-riverbank).
 
+## How to use?
+
+_Riverbank is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

@@ -10,6 +10,10 @@ The magical moment when your gold coins vanish and you're left wondering if you'
 
 _There is no way to make Transaction. You can buy it from the game, by pressing the **Buy** button._
 
+## How to use?
+
+_Transaction is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

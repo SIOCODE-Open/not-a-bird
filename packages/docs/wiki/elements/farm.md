@@ -10,6 +10,10 @@ The ultimate pre-industrial protein shake factory, where plants and animals live
 
 * Combine [Earth](/wiki/elements/earth) and [Seeds](/wiki/elements/seeds) to make [Farm](/wiki/elements/farm). This process is known as [Make Farm](/wiki/recipes/make-farm).
 
+## How to use?
+
+_Farm is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

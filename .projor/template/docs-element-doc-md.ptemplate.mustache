@@ -22,6 +22,17 @@
 _There is no way to make {{capitalCase item.name}}. You can buy it from the game, by pressing the **Buy** button._
 {{/unless}}
 
+## How to use?
+
+{{#if usedInRecipes}}
+{{#each usedInRecipes}}
+* Combine [{{capitalCase a.name}}](/wiki/elements/{{kebabCase a.name}}) and [{{capitalCase b.name}}](/wiki/elements/{{kebabCase b.name}}) to make [{{capitalCase c.name}}](/wiki/elements/{{kebabCase c.name}}). This process is known as [{{capitalCase name}}](/wiki/recipes/{{kebabCase name}}).
+{{/each}}
+{{/if}}
+{{#unless usedInRecipes}}
+_{{capitalCase item.name}} is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+{{/unless}}
+
 ## See also
 
 * [Games](/wiki/games)

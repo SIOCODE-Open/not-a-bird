@@ -10,6 +10,10 @@ The ancient Minecraft enchantment that grants you the power to build desert drea
 
 * Combine [Earth](/wiki/elements/earth) and [Clay](/wiki/elements/clay) to make [Adobe](/wiki/elements/adobe). This process is known as [Make Adobe](/wiki/recipes/make-adobe).
 
+## How to use?
+
+_Adobe is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

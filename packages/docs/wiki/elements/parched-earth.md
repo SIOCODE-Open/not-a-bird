@@ -10,6 +10,10 @@ More thirst-quenching than a backstage pass at a Beyoncé concert!
 
 * Combine [Fire](/wiki/elements/fire) and [Watershed](/wiki/elements/watershed) to make [Parched Earth](/wiki/elements/parched-earth). This process is known as [Make Parched Earth](/wiki/recipes/make-parched-earth).
 
+## How to use?
+
+_Parched Earth is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

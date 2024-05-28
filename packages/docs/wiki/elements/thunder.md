@@ -10,6 +10,10 @@ Like Thor's mixtape at full volume, this electrifying zap will leave your enemie
 
 * Combine [Storm](/wiki/elements/storm) and [Fire](/wiki/elements/fire) to make [Thunder](/wiki/elements/thunder). This process is known as [Make Thunder](/wiki/recipes/make-thunder).
 
+## How to use?
+
+_Thunder is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

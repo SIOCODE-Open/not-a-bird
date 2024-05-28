@@ -10,6 +10,10 @@ The oven that turns your pottery dreams into reality, just like Hogwarts turns k
 
 * Combine [Fire](/wiki/elements/fire) and [Pottery](/wiki/elements/pottery) to make [Kiln](/wiki/elements/kiln). This process is known as [Make Kiln](/wiki/recipes/make-kiln).
 
+## How to use?
+
+_Kiln is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

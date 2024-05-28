@@ -181,1204 +181,1204 @@ import GAME_ELEMENTY_CONTRACT_ABI from "../../../contracts.v1/interfaces/element
 export const ITEM_MONKEY: IItem = {
     id: 0,
     name: 'Monkey',
-    description: 'This banana-loving acrobat is like if Tarzan had a caffeine addiction!',
+    description: `This banana-loving acrobat is like if Tarzan had a caffeine addiction!`,
     tier: 1,
     contractAbi: ITEM_MONKEY_CONTRACT_ABI,
 };
 export const ITEM_GIRAFFE: IItem = {
     id: 1,
     name: 'Giraffe',
-    description: 'The long-necked, leafy buffet enthusiast that would make even a stepladder feel short.',
+    description: `The long-necked, leafy buffet enthusiast that would make even a stepladder feel short.`,
     tier: 1,
     contractAbi: ITEM_GIRAFFE_CONTRACT_ABI,
 };
 export const ITEM_BEE: IItem = {
     id: 2,
     name: 'Bee',
-    description: 'The buzzing little cousin of Buzzie Lightyear, Defender of the Flora and Champion of Sweetness!',
+    description: `The buzzing little cousin of Buzzie Lightyear, Defender of the Flora and Champion of Sweetness!`,
     tier: 1,
     contractAbi: ITEM_BEE_CONTRACT_ABI,
 };
 export const ITEM_COIN: IItem = {
     id: 3,
     name: 'Coin',
-    description: 'More valuable than a chest full of dragon's gold, this shiny round thing makes NPCs do your bidding.',
+    description: `More valuable than a chest full of dragon's gold, this shiny round thing makes NPCs do your bidding.`,
     tier: 1,
     contractAbi: ITEM_COIN_CONTRACT_ABI,
 };
 export const ITEM_SWARM: IItem = {
     id: 4,
     name: 'Swarm',
-    description: 'Unleash a tiny, buzzing army that makes you feel like the villain in a superhero movie.',
+    description: `Unleash a tiny, buzzing army that makes you feel like the villain in a superhero movie.`,
     tier: 2,
     contractAbi: ITEM_SWARM_CONTRACT_ABI,
 };
 export const ITEM_HYDRA: IItem = {
     id: 5,
     name: 'Hydra',
-    description: 'When one head isn't enough to argue with you, this multi-headed reptilian nightmare is ready to rumble!',
+    description: `When one head isn't enough to argue with you, this multi-headed reptilian nightmare is ready to rumble!`,
     tier: 2,
     contractAbi: ITEM_HYDRA_CONTRACT_ABI,
 };
 export const ITEM_MONKEY_BRANCH: IItem = {
     id: 6,
     name: 'Monkey Branch',
-    description: 'Swing through the jungle like Tarzan with this monkey-approved vine, perfect for dramatic escapes and awkward landings.',
+    description: `Swing through the jungle like Tarzan with this monkey-approved vine, perfect for dramatic escapes and awkward landings.`,
     tier: 2,
     contractAbi: ITEM_MONKEY_BRANCH_CONTRACT_ABI,
 };
 export const ITEM_BRIDGE: IItem = {
     id: 7,
     name: 'Bridge',
-    description: 'The majestic road-over-nothing, perfect for trolls and billy goats alike.',
+    description: `The majestic road-over-nothing, perfect for trolls and billy goats alike.`,
     tier: 2,
     contractAbi: ITEM_BRIDGE_CONTRACT_ABI,
 };
 export const ITEM_GOLDEN_GATE: IItem = {
     id: 8,
     name: 'Golden Gate',
-    description: 'The mystical bridge that Gandalf would totally approve of, connecting realms and charging tolls in riddles.',
+    description: `The mystical bridge that Gandalf would totally approve of, connecting realms and charging tolls in riddles.`,
     tier: 2,
     contractAbi: ITEM_GOLDEN_GATE_CONTRACT_ABI,
 };
 export const ITEM_GOLD: IItem = {
     id: 9,
     name: 'Gold',
-    description: 'Shinier than a disco ball at Studio 54, this glistening treasure will make Scrooge McDuck jealous!',
+    description: `Shinier than a disco ball at Studio 54, this glistening treasure will make Scrooge McDuck jealous!`,
     tier: 1,
     contractAbi: ITEM_GOLD_CONTRACT_ABI,
 };
 export const ITEM_SILVER: IItem = {
     id: 10,
     name: 'Silver',
-    description: 'Shinier than a vampire at a disco party, it's what werewolves dread and jewelry lovers adore.',
+    description: `Shinier than a vampire at a disco party, it's what werewolves dread and jewelry lovers adore.`,
     tier: 1,
     contractAbi: ITEM_SILVER_CONTRACT_ABI,
 };
 export const ITEM_RHODIUM: IItem = {
     id: 11,
     name: 'Rhodium',
-    description: 'The bling-bling metal of the periodic table: shinier than your future, harder than your math homework.',
+    description: `The bling-bling metal of the periodic table: shinier than your future, harder than your math homework.`,
     tier: 1,
     contractAbi: ITEM_RHODIUM_CONTRACT_ABI,
 };
 export const ITEM_HIVE: IItem = {
     id: 12,
     name: 'Hive',
-    description: 'Welcome to the buzzfeed mansion, where every room has a bee-convincing argument!',
+    description: `Welcome to the buzzfeed mansion, where every room has a bee-convincing argument!`,
     tier: 1,
     contractAbi: ITEM_HIVE_CONTRACT_ABI,
 };
 export const ITEM_TRANSACTION: IItem = {
     id: 13,
     name: 'Transaction',
-    description: 'The magical moment when your gold coins vanish and you're left wondering if you've been pickpocketed by a ninja or just bought a shiny new sword.',
+    description: `The magical moment when your gold coins vanish and you're left wondering if you've been pickpocketed by a ninja or just bought a shiny new sword.`,
     tier: 1,
     contractAbi: ITEM_TRANSACTION_CONTRACT_ABI,
 };
 export const ITEM_BLOCK: IItem = {
     id: 14,
     name: 'Block',
-    description: 'Like adult Legos, but less fun and more about stopping that lava from ruining your day!',
+    description: `Like adult Legos, but less fun and more about stopping that lava from ruining your day!`,
     tier: 1,
     contractAbi: ITEM_BLOCK_CONTRACT_ABI,
 };
 export const ITEM_BLOCKCHAIN: IItem = {
     id: 15,
     name: 'Blockchain',
-    description: 'The magical internet ledger of destiny that Satoshi dreamt up, where everything is transparent, immutable, and forever entwined like the plot of a Christopher Nolan movie.',
+    description: `The magical internet ledger of destiny that Satoshi dreamt up, where everything is transparent, immutable, and forever entwined like the plot of a Christopher Nolan movie.`,
     tier: 1,
     contractAbi: ITEM_BLOCKCHAIN_CONTRACT_ABI,
 };
 export const ITEM_POLKADOT: IItem = {
     id: 16,
     name: 'Polkadot',
-    description: 'Think Bitcoin's eccentric cousin who shows up at parties in a spotted suit and shocks everyone with their dazzlingly efficient dancing.',
+    description: `Think Bitcoin's eccentric cousin who shows up at parties in a spotted suit and shocks everyone with their dazzlingly efficient dancing.`,
     tier: 1,
     contractAbi: ITEM_POLKADOT_CONTRACT_ABI,
 };
 export const ITEM_PEER_REVIEW: IItem = {
     id: 17,
     name: 'Peer Review',
-    description: 'A scroll that makes your friends question their life choices and your enemies spit out their coffee in disbelief.',
+    description: `A scroll that makes your friends question their life choices and your enemies spit out their coffee in disbelief.`,
     tier: 1,
     contractAbi: ITEM_PEER_REVIEW_CONTRACT_ABI,
 };
 export const ITEM_CARDANO: IItem = {
     id: 18,
     name: 'Cardano',
-    description: 'Time to unleash the blockchain beast that's more confusing than an IKEA assembly manual!',
+    description: `Time to unleash the blockchain beast that's more confusing than an IKEA assembly manual!`,
     tier: 2,
     contractAbi: ITEM_CARDANO_CONTRACT_ABI,
 };
 export const ITEM_BEAR: IItem = {
     id: 19,
     name: 'Bear',
-    description: 'This fuzzy giant decided to move out of the forest and into your nightmares on the advice of its therapist, Yogi.',
+    description: `This fuzzy giant decided to move out of the forest and into your nightmares on the advice of its therapist, Yogi.`,
     tier: 1,
     contractAbi: ITEM_BEAR_CONTRACT_ABI,
 };
 export const ITEM_BEER: IItem = {
     id: 20,
     name: 'Beer',
-    description: 'The golden elixir of the gods, best enjoyed when your quest log is empty and your dance moves are questionable.',
+    description: `The golden elixir of the gods, best enjoyed when your quest log is empty and your dance moves are questionable.`,
     tier: 2,
     contractAbi: ITEM_BEER_CONTRACT_ABI,
 };
 export const ITEM_LOCK: IItem = {
     id: 21,
     name: 'Lock',
-    description: 'Who needs a dragon when you've got this security boss blocking your treasure chest?',
+    description: `Who needs a dragon when you've got this security boss blocking your treasure chest?`,
     tier: 2,
     contractAbi: ITEM_LOCK_CONTRACT_ABI,
 };
 export const ITEM_MARMALADE: IItem = {
     id: 22,
     name: 'Marmalade',
-    description: 'The sticky, fruity concoction that Paddington Bear would trade his hat for.',
+    description: `The sticky, fruity concoction that Paddington Bear would trade his hat for.`,
     tier: 1,
     contractAbi: ITEM_MARMALADE_CONTRACT_ABI,
 };
 export const ITEM_SUPER_MARMALADE: IItem = {
     id: 23,
     name: 'Super Marmalade',
-    description: 'As if Spider-Man and your grandma's secret jam recipe had a citrusy baby that swings through breakfast toast saving your taste buds one bite at a time!',
+    description: `As if Spider-Man and your grandma's secret jam recipe had a citrusy baby that swings through breakfast toast saving your taste buds one bite at a time!`,
     tier: 2,
     contractAbi: ITEM_SUPER_MARMALADE_CONTRACT_ABI,
 };
 export const ITEM_HYPER_MARMALADE: IItem = {
     id: 24,
     name: 'Hyper Marmalade',
-    description: 'Like regular marmalade, but it makes you feel like you've had a double shot of espresso and a lightning bolt to the brain!',
+    description: `Like regular marmalade, but it makes you feel like you've had a double shot of espresso and a lightning bolt to the brain!`,
     tier: 2,
     contractAbi: ITEM_HYPER_MARMALADE_CONTRACT_ABI,
 };
 export const ITEM_WATER: IItem = {
     id: 25,
     name: 'Water',
-    description: 'H2-Oh no, you spilled it again!',
+    description: `H2-Oh no, you spilled it again!`,
     tier: 1,
     contractAbi: ITEM_WATER_CONTRACT_ABI,
 };
 export const ITEM_FIRE: IItem = {
     id: 26,
     name: 'Fire',
-    description: 'Summon a flickering tongue of destruction that makes dragons envious and marshmallows tremble in awe!',
+    description: `Summon a flickering tongue of destruction that makes dragons envious and marshmallows tremble in awe!`,
     tier: 1,
     contractAbi: ITEM_FIRE_CONTRACT_ABI,
 };
 export const ITEM_STEAM: IItem = {
     id: 27,
     name: 'Steam',
-    description: 'It's water's sassy teen phase before it cools down and becomes boring again.',
+    description: `It's water's sassy teen phase before it cools down and becomes boring again.`,
     tier: 1,
     contractAbi: ITEM_STEAM_CONTRACT_ABI,
 };
 export const ITEM_EARTH: IItem = {
     id: 28,
     name: 'Earth',
-    description: 'Because who doesn't want a handful of dirt from Mother Nature's handbag?',
+    description: `Because who doesn't want a handful of dirt from Mother Nature's handbag?`,
     tier: 1,
     contractAbi: ITEM_EARTH_CONTRACT_ABI,
 };
 export const ITEM_MUD: IItem = {
     id: 29,
     name: 'Mud',
-    description: 'Mother Nature's messy smoothie, perfect for impromptu spa days or sabotaging the hero's clean shoes!',
+    description: `Mother Nature's messy smoothie, perfect for impromptu spa days or sabotaging the hero's clean shoes!`,
     tier: 1,
     contractAbi: ITEM_MUD_CONTRACT_ABI,
 };
 export const ITEM_LAVA: IItem = {
     id: 30,
     name: 'Lava',
-    description: 'Spicy earth salsa that guarantees an insta-tan and some crispy new shoes!',
+    description: `Spicy earth salsa that guarantees an insta-tan and some crispy new shoes!`,
     tier: 1,
     contractAbi: ITEM_LAVA_CONTRACT_ABI,
 };
 export const ITEM_WIND: IItem = {
     id: 31,
     name: 'Wind',
-    description: 'The invisible ninja that gives trees a good hair day.',
+    description: `The invisible ninja that gives trees a good hair day.`,
     tier: 1,
     contractAbi: ITEM_WIND_CONTRACT_ABI,
 };
 export const ITEM_DUST: IItem = {
     id: 32,
     name: 'Dust',
-    description: 'The forgotten remains of battles long past, or your enemy when you forget to clean under the sofa.',
+    description: `The forgotten remains of battles long past, or your enemy when you forget to clean under the sofa.`,
     tier: 1,
     contractAbi: ITEM_DUST_CONTRACT_ABI,
 };
 export const ITEM_RAIN: IItem = {
     id: 33,
     name: 'Rain',
-    description: 'Sky's attempt at a group shower: brings hydration and dramatic window views!',
+    description: `Sky's attempt at a group shower: brings hydration and dramatic window views!`,
     tier: 1,
     contractAbi: ITEM_RAIN_CONTRACT_ABI,
 };
 export const ITEM_SMOKE: IItem = {
     id: 34,
     name: 'Smoke',
-    description: 'As elusive as your New Year's resolutions, it vanishes faster than free Wi-Fi at a coffee shop.',
+    description: `As elusive as your New Year's resolutions, it vanishes faster than free Wi-Fi at a coffee shop.`,
     tier: 1,
     contractAbi: ITEM_SMOKE_CONTRACT_ABI,
 };
 export const ITEM_GEYSER: IItem = {
     id: 35,
     name: 'Geyser',
-    description: 'Mother Nature's boiling hot water cannon, now available as a decorative backyard feature!',
+    description: `Mother Nature's boiling hot water cannon, now available as a decorative backyard feature!`,
     tier: 1,
     contractAbi: ITEM_GEYSER_CONTRACT_ABI,
 };
 export const ITEM_CLAY: IItem = {
     id: 36,
     name: 'Clay',
-    description: 'Mold this earthy Play-Doh into something magical, or just make yourself a new best friend, Wilson style!',
+    description: `Mold this earthy Play-Doh into something magical, or just make yourself a new best friend, Wilson style!`,
     tier: 1,
     contractAbi: ITEM_CLAY_CONTRACT_ABI,
 };
 export const ITEM_SAND: IItem = {
     id: 37,
     name: 'Sand',
-    description: 'Pocketful of tiny wizards' teeth, creating beaches and cat litter archeology!',
+    description: `Pocketful of tiny wizards' teeth, creating beaches and cat litter archeology!`,
     tier: 1,
     contractAbi: ITEM_SAND_CONTRACT_ABI,
 };
 export const ITEM_PLANT: IItem = {
     id: 38,
     name: 'Plant',
-    description: 'The botanical equivalent of Wi-Fi for oxygen, providing full bars since prehistoric times.',
+    description: `The botanical equivalent of Wi-Fi for oxygen, providing full bars since prehistoric times.`,
     tier: 1,
     contractAbi: ITEM_PLANT_CONTRACT_ABI,
 };
 export const ITEM_RAINBOW: IItem = {
     id: 39,
     name: 'Rainbow',
-    description: 'The sky's post-rain refurbishment job, brought to you by Mother Nature's favorite highlighter pack.',
+    description: `The sky's post-rain refurbishment job, brought to you by Mother Nature's favorite highlighter pack.`,
     tier: 1,
     contractAbi: ITEM_RAINBOW_CONTRACT_ABI,
 };
 export const ITEM_STORM: IItem = {
     id: 40,
     name: 'Storm',
-    description: 'Angry sky kittens throwing tantrums and lightning bolts like Thor after a double espresso.',
+    description: `Angry sky kittens throwing tantrums and lightning bolts like Thor after a double espresso.`,
     tier: 1,
     contractAbi: ITEM_STORM_CONTRACT_ABI,
 };
 export const ITEM_OBSIDIAN: IItem = {
     id: 41,
     name: 'Obsidian',
-    description: 'Crafted by the earth's angriest volcano, it's tougher than your grandma's fruitcake and twice as unforgiving.',
+    description: `Crafted by the earth's angriest volcano, it's tougher than your grandma's fruitcake and twice as unforgiving.`,
     tier: 1,
     contractAbi: ITEM_OBSIDIAN_CONTRACT_ABI,
 };
 export const ITEM_ASH: IItem = {
     id: 42,
     name: 'Ash',
-    description: 'The remains of your epic campfire story that burned out faster than your WiFi during a binge session.',
+    description: `The remains of your epic campfire story that burned out faster than your WiFi during a binge session.`,
     tier: 1,
     contractAbi: ITEM_ASH_CONTRACT_ABI,
 };
 export const ITEM_VOLCANO: IItem = {
     id: 43,
     name: 'Volcano',
-    description: 'Mount Doom's flamboyant cousin who's always ready to throw a tantrum and belch fiery salsa.',
+    description: `Mount Doom's flamboyant cousin who's always ready to throw a tantrum and belch fiery salsa.`,
     tier: 1,
     contractAbi: ITEM_VOLCANO_CONTRACT_ABI,
 };
 export const ITEM_SANDSTORM: IItem = {
     id: 44,
     name: 'Sandstorm',
-    description: 'It's like Mother Nature's version of a blender set to 'desert' mode, without the fruity cocktail at the end.',
+    description: `It's like Mother Nature's version of a blender set to 'desert' mode, without the fruity cocktail at the end.`,
     tier: 1,
     contractAbi: ITEM_SANDSTORM_CONTRACT_ABI,
 };
 export const ITEM_CLOUD: IItem = {
     id: 45,
     name: 'Cloud',
-    description: 'Fluffier than marshmallows and moodier than a teenager, this sky cotton candy hides the secrets of the weather gods.',
+    description: `Fluffier than marshmallows and moodier than a teenager, this sky cotton candy hides the secrets of the weather gods.`,
     tier: 1,
     contractAbi: ITEM_CLOUD_CONTRACT_ABI,
 };
 export const ITEM_FOG: IItem = {
     id: 46,
     name: 'Fog',
-    description: 'It’s like someone took all the clouds, shredded them, and set them loose to play hide and seek with your vision.',
+    description: `It’s like someone took all the clouds, shredded them, and set them loose to play hide and seek with your vision.`,
     tier: 1,
     contractAbi: ITEM_FOG_CONTRACT_ABI,
 };
 export const ITEM_TREE: IItem = {
     id: 47,
     name: 'Tree',
-    description: 'The original WiFi router for squirrels, providing shade and nuts with zero bars of signal!',
+    description: `The original WiFi router for squirrels, providing shade and nuts with zero bars of signal!`,
     tier: 1,
     contractAbi: ITEM_TREE_CONTRACT_ABI,
 };
 export const ITEM_FOREST: IItem = {
     id: 48,
     name: 'Forest',
-    description: 'A dense collection of trees where even squirrels hire GPS, home of the mythical Wi-Fi-repellent green zone.',
+    description: `A dense collection of trees where even squirrels hire GPS, home of the mythical Wi-Fi-repellent green zone.`,
     tier: 1,
     contractAbi: ITEM_FOREST_CONTRACT_ABI,
 };
 export const ITEM_SEEDS: IItem = {
     id: 49,
     name: 'Seeds',
-    description: 'Nature's popcorn kernels, just add dirt and patience for a flourishing snack!',
+    description: `Nature's popcorn kernels, just add dirt and patience for a flourishing snack!`,
     tier: 1,
     contractAbi: ITEM_SEEDS_CONTRACT_ABI,
 };
 export const ITEM_POTTERY: IItem = {
     id: 50,
     name: 'Pottery',
-    description: 'Perfect for storing all your grandma's secret cookie recipes and ancient legendary treasures, one chip at a time!',
+    description: `Perfect for storing all your grandma's secret cookie recipes and ancient legendary treasures, one chip at a time!`,
     tier: 1,
     contractAbi: ITEM_POTTERY_CONTRACT_ABI,
 };
 export const ITEM_BRICK: IItem = {
     id: 51,
     name: 'Brick',
-    description: 'As indestructible as your WiFi on a good day, this brick could build a mansion or your Minecraft empire.',
+    description: `As indestructible as your WiFi on a good day, this brick could build a mansion or your Minecraft empire.`,
     tier: 1,
     contractAbi: ITEM_BRICK_CONTRACT_ABI,
 };
 export const ITEM_QUICKSAND: IItem = {
     id: 52,
     name: 'Quicksand',
-    description: 'The Earth's way of saying 'GOTCHA!' when you thought a leisurely stroll through the desert sounded appealing.',
+    description: `The Earth's way of saying 'GOTCHA!' when you thought a leisurely stroll through the desert sounded appealing.`,
     tier: 1,
     contractAbi: ITEM_QUICKSAND_CONTRACT_ABI,
 };
 export const ITEM_GLASS: IItem = {
     id: 53,
     name: 'Glass',
-    description: 'As delicate as your ego after a bad break-up, but see-through like your best friend's terrible poker face.',
+    description: `As delicate as your ego after a bad break-up, but see-through like your best friend's terrible poker face.`,
     tier: 1,
     contractAbi: ITEM_GLASS_CONTRACT_ABI,
 };
 export const ITEM_DUNE: IItem = {
     id: 54,
     name: 'Dune',
-    description: 'Get ready to channel your inner Muad'Dib and rule the sandy seas while dodging giant worms and political plots!',
+    description: `Get ready to channel your inner Muad'Dib and rule the sandy seas while dodging giant worms and political plots!`,
     tier: 1,
     contractAbi: ITEM_DUNE_CONTRACT_ABI,
 };
 export const ITEM_CHARCOAL: IItem = {
     id: 55,
     name: 'Charcoal',
-    description: 'The BBQ Master's secret ingredient for transforming your steaks from zero to hero faster than you can say 'Grill-Zilla!'',
+    description: `The BBQ Master's secret ingredient for transforming your steaks from zero to hero faster than you can say 'Grill-Zilla!'`,
     tier: 1,
     contractAbi: ITEM_CHARCOAL_CONTRACT_ABI,
 };
 export const ITEM_LEAVES: IItem = {
     id: 56,
     name: 'Leaves',
-    description: 'Green confetti for Mother Nature's never-ending party, with a hint of chlorophyll chic!',
+    description: `Green confetti for Mother Nature's never-ending party, with a hint of chlorophyll chic!`,
     tier: 1,
     contractAbi: ITEM_LEAVES_CONTRACT_ABI,
 };
 export const ITEM_WILDFIRE: IItem = {
     id: 57,
     name: 'Wildfire',
-    description: 'Spicier than your ex's DMs, this blaze turns forests into toast and marshmallows into napalm.',
+    description: `Spicier than your ex's DMs, this blaze turns forests into toast and marshmallows into napalm.`,
     tier: 1,
     contractAbi: ITEM_WILDFIRE_CONTRACT_ABI,
 };
 export const ITEM_JUNGLE: IItem = {
     id: 58,
     name: 'Jungle',
-    description: 'Like Tarzan's playground but with 99% more bugs and 100% less Wi-Fi.',
+    description: `Like Tarzan's playground but with 99% more bugs and 100% less Wi-Fi.`,
     tier: 1,
     contractAbi: ITEM_JUNGLE_CONTRACT_ABI,
 };
 export const ITEM_FROSTED_GLASS: IItem = {
     id: 59,
     name: 'Frosted Glass',
-    description: 'Clearer than your intentions after a night out, but still elusive as your friend who promises to show up on time.',
+    description: `Clearer than your intentions after a night out, but still elusive as your friend who promises to show up on time.`,
     tier: 1,
     contractAbi: ITEM_FROSTED_GLASS_CONTRACT_ABI,
 };
 export const ITEM_CRYSTAL: IItem = {
     id: 60,
     name: 'Crystal',
-    description: 'Shiny as Edward Cullen and twice as sparkly in the moonlight!',
+    description: `Shiny as Edward Cullen and twice as sparkly in the moonlight!`,
     tier: 1,
     contractAbi: ITEM_CRYSTAL_CONTRACT_ABI,
 };
 export const ITEM_MAGMA: IItem = {
     id: 61,
     name: 'Magma',
-    description: 'Hotter than your ex's last text, this molten rock sauce will turn enemies into toast.',
+    description: `Hotter than your ex's last text, this molten rock sauce will turn enemies into toast.`,
     tier: 1,
     contractAbi: ITEM_MAGMA_CONTRACT_ABI,
 };
 export const ITEM_ROCK: IItem = {
     id: 62,
     name: 'Rock',
-    description: 'It's Dwayne Johnson's stony cousin, perfect for smashing enemies or just sitting there, being all geology-like.',
+    description: `It's Dwayne Johnson's stony cousin, perfect for smashing enemies or just sitting there, being all geology-like.`,
     tier: 1,
     contractAbi: ITEM_ROCK_CONTRACT_ABI,
 };
 export const ITEM_SHARD: IItem = {
     id: 63,
     name: 'Shard',
-    description: 'This is the majestic piece of glitter, sharper than your ex-girlfriend's comebacks!',
+    description: `This is the majestic piece of glitter, sharper than your ex-girlfriend's comebacks!`,
     tier: 1,
     contractAbi: ITEM_SHARD_CONTRACT_ABI,
 };
 export const ITEM_PEBBLE: IItem = {
     id: 64,
     name: 'Pebble',
-    description: 'As insignificant as the pebble you kicked on your way to saving the world.',
+    description: `As insignificant as the pebble you kicked on your way to saving the world.`,
     tier: 1,
     contractAbi: ITEM_PEBBLE_CONTRACT_ABI,
 };
 export const ITEM_MOUNTAIN: IItem = {
     id: 65,
     name: 'Mountain',
-    description: 'The colossal nature bump that's basically Earth's awkward zit.',
+    description: `The colossal nature bump that's basically Earth's awkward zit.`,
     tier: 1,
     contractAbi: ITEM_MOUNTAIN_CONTRACT_ABI,
 };
 export const ITEM_FERTILIZER: IItem = {
     id: 66,
     name: 'Fertilizer',
-    description: 'Sprinkle a little of this magic dust and watch your plants grow faster than a YouTube tutorial on 'getting rich quick!'',
+    description: `Sprinkle a little of this magic dust and watch your plants grow faster than a YouTube tutorial on 'getting rich quick!'`,
     tier: 1,
     contractAbi: ITEM_FERTILIZER_CONTRACT_ABI,
 };
 export const ITEM_SOOT: IItem = {
     id: 67,
     name: 'Soot',
-    description: 'Dust bunnies' granddaddy who moonlights as a chimney sweep in a Dickens novel.',
+    description: `Dust bunnies' granddaddy who moonlights as a chimney sweep in a Dickens novel.`,
     tier: 1,
     contractAbi: ITEM_SOOT_CONTRACT_ABI,
 };
 export const ITEM_LIGHTNING: IItem = {
     id: 68,
     name: 'Lightning',
-    description: 'Like Thor's tantrum in a bottle, ready to zap your foes into crispy critters!',
+    description: `Like Thor's tantrum in a bottle, ready to zap your foes into crispy critters!`,
     tier: 1,
     contractAbi: ITEM_LIGHTNING_CONTRACT_ABI,
 };
 export const ITEM_MIST: IItem = {
     id: 69,
     name: 'Mist',
-    description: 'Like a ghost doing the moonwalk, it slips through your fingers and cloaks the world in mystery!',
+    description: `Like a ghost doing the moonwalk, it slips through your fingers and cloaks the world in mystery!`,
     tier: 1,
     contractAbi: ITEM_MIST_CONTRACT_ABI,
 };
 export const ITEM_HAZE: IItem = {
     id: 70,
     name: 'Haze',
-    description: 'Like Gandalf's vape party, but a lot less fun and way more confusing.',
+    description: `Like Gandalf's vape party, but a lot less fun and way more confusing.`,
     tier: 1,
     contractAbi: ITEM_HAZE_CONTRACT_ABI,
 };
 export const ITEM_FLOOD: IItem = {
     id: 71,
     name: 'Flood',
-    description: 'When Mother Nature throws the ultimate pool party and forgets to send the 'BYO life jacket' memo.',
+    description: `When Mother Nature throws the ultimate pool party and forgets to send the 'BYO life jacket' memo.`,
     tier: 1,
     contractAbi: ITEM_FLOOD_CONTRACT_ABI,
 };
 export const ITEM_LANDSLIDE: IItem = {
     id: 72,
     name: 'Landslide',
-    description: 'A geological temper tantrum that sends boulders downhill faster than a caffeine-crazed squirrel on roller skates!',
+    description: `A geological temper tantrum that sends boulders downhill faster than a caffeine-crazed squirrel on roller skates!`,
     tier: 1,
     contractAbi: ITEM_LANDSLIDE_CONTRACT_ABI,
 };
 export const ITEM_THUNDER: IItem = {
     id: 73,
     name: 'Thunder',
-    description: 'Like Thor's mixtape at full volume, this electrifying zap will leave your enemies shocked and awed!',
+    description: `Like Thor's mixtape at full volume, this electrifying zap will leave your enemies shocked and awed!`,
     tier: 1,
     contractAbi: ITEM_THUNDER_CONTRACT_ABI,
 };
 export const ITEM_TORNADO: IItem = {
     id: 74,
     name: 'Tornado',
-    description: 'Nature's blender on steroids, mixing up cows, houses, and your afternoon picnic.',
+    description: `Nature's blender on steroids, mixing up cows, houses, and your afternoon picnic.`,
     tier: 1,
     contractAbi: ITEM_TORNADO_CONTRACT_ABI,
 };
 export const ITEM_GARDEN: IItem = {
     id: 75,
     name: 'Garden',
-    description: 'Nature's sunlit Wi-Fi free zone, and the original farm-to-table restaurant!',
+    description: `Nature's sunlit Wi-Fi free zone, and the original farm-to-table restaurant!`,
     tier: 1,
     contractAbi: ITEM_GARDEN_CONTRACT_ABI,
 };
 export const ITEM_EMBER: IItem = {
     id: 76,
     name: 'Ember',
-    description: 'Like a tiny dragon's sneeze, this little spark packs a fiery punch!',
+    description: `Like a tiny dragon's sneeze, this little spark packs a fiery punch!`,
     tier: 1,
     contractAbi: ITEM_EMBER_CONTRACT_ABI,
 };
 export const ITEM_KILN: IItem = {
     id: 77,
     name: 'Kiln',
-    description: 'The oven that turns your pottery dreams into reality, just like Hogwarts turns kids into wizards.',
+    description: `The oven that turns your pottery dreams into reality, just like Hogwarts turns kids into wizards.`,
     tier: 1,
     contractAbi: ITEM_KILN_CONTRACT_ABI,
 };
 export const ITEM_POLLINATION: IItem = {
     id: 78,
     name: 'Pollination',
-    description: 'Nature's Tinder for plants, where bees are the swiping right matchmakers.',
+    description: `Nature's Tinder for plants, where bees are the swiping right matchmakers.`,
     tier: 1,
     contractAbi: ITEM_POLLINATION_CONTRACT_ABI,
 };
 export const ITEM_SINKHOLE: IItem = {
     id: 79,
     name: 'Sinkhole',
-    description: 'Suddenly feeling like you starred in a Looney Tunes cartoon, minus the anvil and roadrunner.',
+    description: `Suddenly feeling like you starred in a Looney Tunes cartoon, minus the anvil and roadrunner.`,
     tier: 1,
     contractAbi: ITEM_SINKHOLE_CONTRACT_ABI,
 };
 export const ITEM_BEACH: IItem = {
     id: 80,
     name: 'Beach',
-    description: 'A sun-kissed playground where sand gets everywhere, like glitter but from hell.',
+    description: `A sun-kissed playground where sand gets everywhere, like glitter but from hell.`,
     tier: 1,
     contractAbi: ITEM_BEACH_CONTRACT_ABI,
 };
 export const ITEM_WETSTONE: IItem = {
     id: 81,
     name: 'Wetstone',
-    description: 'Sharpen your blades while pondering life's mysteries with this slippery soapy rock, straight from the stones of Soapland!',
+    description: `Sharpen your blades while pondering life's mysteries with this slippery soapy rock, straight from the stones of Soapland!`,
     tier: 1,
     contractAbi: ITEM_WETSTONE_CONTRACT_ABI,
 };
 export const ITEM_EROSION: IItem = {
     id: 82,
     name: 'Erosion',
-    description: 'Nature's slow-motion magic trick, turning mighty mountains into beach sand one grain at a time.',
+    description: `Nature's slow-motion magic trick, turning mighty mountains into beach sand one grain at a time.`,
     tier: 1,
     contractAbi: ITEM_EROSION_CONTRACT_ABI,
 };
 export const ITEM_BASALT: IItem = {
     id: 83,
     name: 'Basalt',
-    description: 'Forged in the depths of the earth, harder than your ex's heart and cooler than the underside of your pillow.',
+    description: `Forged in the depths of the earth, harder than your ex's heart and cooler than the underside of your pillow.`,
     tier: 1,
     contractAbi: ITEM_BASALT_CONTRACT_ABI,
 };
 export const ITEM_MAGMA_CHAMBER: IItem = {
     id: 84,
     name: 'Magma Chamber',
-    description: 'Hotter than a dragon's sneeze, this is the spicy jacuzzi of the underworld.',
+    description: `Hotter than a dragon's sneeze, this is the spicy jacuzzi of the underworld.`,
     tier: 1,
     contractAbi: ITEM_MAGMA_CHAMBER_CONTRACT_ABI,
 };
 export const ITEM_BREEZE: IItem = {
     id: 85,
     name: 'Breeze',
-    description: 'Like Gandalf's whisper, this gentle wind will casually rearrange your bad hair day.',
+    description: `Like Gandalf's whisper, this gentle wind will casually rearrange your bad hair day.`,
     tier: 1,
     contractAbi: ITEM_BREEZE_CONTRACT_ABI,
 };
 export const ITEM_WARM_BREEZE: IItem = {
     id: 86,
     name: 'Warm Breeze',
-    description: 'It's like Mother Nature left the hairdryer on; embrace the cozy winds of summer hugs!',
+    description: `It's like Mother Nature left the hairdryer on; embrace the cozy winds of summer hugs!`,
     tier: 1,
     contractAbi: ITEM_WARM_BREEZE_CONTRACT_ABI,
 };
 export const ITEM_SOIL: IItem = {
     id: 87,
     name: 'Soil',
-    description: 'Dirt-napped cousin of terra-firma, perfect for your eco-friendly carpet installations!',
+    description: `Dirt-napped cousin of terra-firma, perfect for your eco-friendly carpet installations!`,
     tier: 1,
     contractAbi: ITEM_SOIL_CONTRACT_ABI,
 };
 export const ITEM_CANYON: IItem = {
     id: 88,
     name: 'Canyon',
-    description: 'Nature's gigantic frown; perfect for epic echoes and bottomless pratfalls.',
+    description: `Nature's gigantic frown; perfect for epic echoes and bottomless pratfalls.`,
     tier: 1,
     contractAbi: ITEM_CANYON_CONTRACT_ABI,
 };
 export const ITEM_WINDMILL: IItem = {
     id: 89,
     name: 'Windmill',
-    description: 'Spinning like your favorite DJ, this eco-friendly giant turns breezes into electrical symphonies.',
+    description: `Spinning like your favorite DJ, this eco-friendly giant turns breezes into electrical symphonies.`,
     tier: 1,
     contractAbi: ITEM_WINDMILL_CONTRACT_ABI,
 };
 export const ITEM_ADOBE: IItem = {
     id: 90,
     name: 'Adobe',
-    description: 'The ancient Minecraft enchantment that grants you the power to build desert dream homes with just a handful of dirt and some water!',
+    description: `The ancient Minecraft enchantment that grants you the power to build desert dream homes with just a handful of dirt and some water!`,
     tier: 1,
     contractAbi: ITEM_ADOBE_CONTRACT_ABI,
 };
 export const ITEM_WALL: IItem = {
     id: 91,
     name: 'Wall',
-    description: 'The Gentleman Bouncer of your castle, politely informing intruders that the party's over.',
+    description: `The Gentleman Bouncer of your castle, politely informing intruders that the party's over.`,
     tier: 1,
     contractAbi: ITEM_WALL_CONTRACT_ABI,
 };
 export const ITEM_PUMICE: IItem = {
     id: 92,
     name: 'Pumice',
-    description: 'Floats like a butterfly, scrubs like Mr. Clean - the Swiss cheese of rocks!',
+    description: `Floats like a butterfly, scrubs like Mr. Clean - the Swiss cheese of rocks!`,
     tier: 1,
     contractAbi: ITEM_PUMICE_CONTRACT_ABI,
 };
 export const ITEM_BARBECUE: IItem = {
     id: 93,
     name: 'Barbecue',
-    description: 'Unleash your inner pitmaster with this meat sizzle maker, as seen on grill-enthusiast reality shows!',
+    description: `Unleash your inner pitmaster with this meat sizzle maker, as seen on grill-enthusiast reality shows!`,
     tier: 1,
     contractAbi: ITEM_BARBECUE_CONTRACT_ABI,
 };
 export const ITEM_FARM: IItem = {
     id: 94,
     name: 'Farm',
-    description: 'The ultimate pre-industrial protein shake factory, where plants and animals live in suspenseful harmony waiting to be useful.',
+    description: `The ultimate pre-industrial protein shake factory, where plants and animals live in suspenseful harmony waiting to be useful.`,
     tier: 1,
     contractAbi: ITEM_FARM_CONTRACT_ABI,
 };
 export const ITEM_SHARDS: IItem = {
     id: 95,
     name: 'Shards',
-    description: 'Fragments of a broken heart? Or just pieces of yesterday's piñata—either way, they're sharp!',
+    description: `Fragments of a broken heart? Or just pieces of yesterday's piñata—either way, they're sharp!`,
     tier: 1,
     contractAbi: ITEM_SHARDS_CONTRACT_ABI,
 };
 export const ITEM_MOLTEN_GLASS: IItem = {
     id: 96,
     name: 'Molten Glass',
-    description: 'Hotter than a dragon's breath after Taco Tuesday, this molten glass can melt through your problems... literally.',
+    description: `Hotter than a dragon's breath after Taco Tuesday, this molten glass can melt through your problems... literally.`,
     tier: 1,
     contractAbi: ITEM_MOLTEN_GLASS_CONTRACT_ABI,
 };
 export const ITEM_PRISM: IItem = {
     id: 97,
     name: 'Prism',
-    description: 'Divide light like a 70's disco ball at a Saturday night fever party.',
+    description: `Divide light like a 70's disco ball at a Saturday night fever party.`,
     tier: 1,
     contractAbi: ITEM_PRISM_CONTRACT_ABI,
 };
 export const ITEM_SPARKLE: IItem = {
     id: 98,
     name: 'Sparkle',
-    description: 'Glitter brighter than a unicorn's tears at a K-pop concert.',
+    description: `Glitter brighter than a unicorn's tears at a K-pop concert.`,
     tier: 1,
     contractAbi: ITEM_SPARKLE_CONTRACT_ABI,
 };
 export const ITEM_DESERT: IItem = {
     id: 99,
     name: 'Desert',
-    description: 'A vast sandbox of banishment where even cacti consider sunblock.',
+    description: `A vast sandbox of banishment where even cacti consider sunblock.`,
     tier: 1,
     contractAbi: ITEM_DESERT_CONTRACT_ABI,
 };
 export const ITEM_OASIS: IItem = {
     id: 100,
     name: 'Oasis',
-    description: 'The desert's VIP lounge, complete with complimentary palm trees and mirage-resistant seating!',
+    description: `The desert's VIP lounge, complete with complimentary palm trees and mirage-resistant seating!`,
     tier: 1,
     contractAbi: ITEM_OASIS_CONTRACT_ABI,
 };
 export const ITEM_MIRAGE: IItem = {
     id: 101,
     name: 'Mirage',
-    description: 'As elusive as your mom's Wi-Fi password and twice as frustrating to catch!',
+    description: `As elusive as your mom's Wi-Fi password and twice as frustrating to catch!`,
     tier: 1,
     contractAbi: ITEM_MIRAGE_CONTRACT_ABI,
 };
 export const ITEM_SAND_DUNE: IItem = {
     id: 102,
     name: 'Sand Dune',
-    description: 'As majestic as a stack of pancakes, but far more abrasive and less syrupy.',
+    description: `As majestic as a stack of pancakes, but far more abrasive and less syrupy.`,
     tier: 1,
     contractAbi: ITEM_SAND_DUNE_CONTRACT_ABI,
 };
 export const ITEM_DAM: IItem = {
     id: 103,
     name: 'Dam',
-    description: 'The Dwayne 'The Rock' Johnson of water barriers, holding back the wet with sheer muscle.',
+    description: `The Dwayne 'The Rock' Johnson of water barriers, holding back the wet with sheer muscle.`,
     tier: 1,
     contractAbi: ITEM_DAM_CONTRACT_ABI,
 };
 export const ITEM_FIREWALL: IItem = {
     id: 104,
     name: 'Firewall',
-    description: 'The Gandalf of cybersecurity: 'You shall not pass!'',
+    description: `The Gandalf of cybersecurity: 'You shall not pass!'`,
     tier: 1,
     contractAbi: ITEM_FIREWALL_CONTRACT_ABI,
 };
 export const ITEM_BARRICADE: IItem = {
     id: 105,
     name: 'Barricade',
-    description: 'Like Gandalf facing a Balrog, it's the 'You shall not pass!' of fortifications.',
+    description: `Like Gandalf facing a Balrog, it's the 'You shall not pass!' of fortifications.`,
     tier: 1,
     contractAbi: ITEM_BARRICADE_CONTRACT_ABI,
 };
 export const ITEM_PLATEAU: IItem = {
     id: 106,
     name: 'Plateau',
-    description: 'A flat piece of land that got tired of climbing mountains and decided to chill forever.',
+    description: `A flat piece of land that got tired of climbing mountains and decided to chill forever.`,
     tier: 1,
     contractAbi: ITEM_PLATEAU_CONTRACT_ABI,
 };
 export const ITEM_POND: IItem = {
     id: 107,
     name: 'Pond',
-    description: 'Where ducks hold their secret aquatic raves and lily pads plot world domination.',
+    description: `Where ducks hold their secret aquatic raves and lily pads plot world domination.`,
     tier: 1,
     contractAbi: ITEM_POND_CONTRACT_ABI,
 };
 export const ITEM_AROMAS: IItem = {
     id: 108,
     name: 'Aromas',
-    description: 'Sprinkle a bit of Hogwarts' magic under your nose and breathe in the essence of enchanted forests and dragon's breath!',
+    description: `Sprinkle a bit of Hogwarts' magic under your nose and breathe in the essence of enchanted forests and dragon's breath!`,
     tier: 1,
     contractAbi: ITEM_AROMAS_CONTRACT_ABI,
 };
 export const ITEM_FLOWER: IItem = {
     id: 109,
     name: 'Flower',
-    description: 'The colorful Wi-Fi signal for bees; smells better than your ex's perfume!',
+    description: `The colorful Wi-Fi signal for bees; smells better than your ex's perfume!`,
     tier: 1,
     contractAbi: ITEM_FLOWER_CONTRACT_ABI,
 };
 export const ITEM_SPORE: IItem = {
     id: 110,
     name: 'Spore',
-    description: 'Tiny, invisible disco balls of doom, ready to throw a rave in your sinuses!',
+    description: `Tiny, invisible disco balls of doom, ready to throw a rave in your sinuses!`,
     tier: 1,
     contractAbi: ITEM_SPORE_CONTRACT_ABI,
 };
 export const ITEM_SPREAD: IItem = {
     id: 111,
     name: 'Spread',
-    description: 'As versatile as a Swiss army knife, it's the social butterfly of condiments!',
+    description: `As versatile as a Swiss army knife, it's the social butterfly of condiments!`,
     tier: 1,
     contractAbi: ITEM_SPREAD_CONTRACT_ABI,
 };
 export const ITEM_FERTILE_LAND: IItem = {
     id: 112,
     name: 'Fertile Land',
-    description: 'As luxurious and bountiful as Bob Ross’s paint palette, it's the MVP of Mother Nature's garden party.',
+    description: `As luxurious and bountiful as Bob Ross’s paint palette, it's the MVP of Mother Nature's garden party.`,
     tier: 1,
     contractAbi: ITEM_FERTILE_LAND_CONTRACT_ABI,
 };
 export const ITEM_WETLAND: IItem = {
     id: 113,
     name: 'Wetland',
-    description: 'As if Mother Nature decided to recreate the set of Jumanji with extra humidity and a smorgasbord of mosquitoes!',
+    description: `As if Mother Nature decided to recreate the set of Jumanji with extra humidity and a smorgasbord of mosquitoes!`,
     tier: 1,
     contractAbi: ITEM_WETLAND_CONTRACT_ABI,
 };
 export const ITEM_PEAT: IItem = {
     id: 114,
     name: 'Peat',
-    description: 'It's like the cozy blanket of soil—excellent for plants, terrible for couch potatoes.',
+    description: `It's like the cozy blanket of soil—excellent for plants, terrible for couch potatoes.`,
     tier: 1,
     contractAbi: ITEM_PEAT_CONTRACT_ABI,
 };
 export const ITEM_REEDS: IItem = {
     id: 115,
     name: 'Reeds',
-    description: 'The nature-made cocktail straws that just might call Gandalf from Middle-earth; beware of hobbits sneaking around!',
+    description: `The nature-made cocktail straws that just might call Gandalf from Middle-earth; beware of hobbits sneaking around!`,
     tier: 1,
     contractAbi: ITEM_REEDS_CONTRACT_ABI,
 };
 export const ITEM_VALLEY: IItem = {
     id: 116,
     name: 'Valley',
-    description: 'The place where hills take a break and gossip about mountains.',
+    description: `The place where hills take a break and gossip about mountains.`,
     tier: 1,
     contractAbi: ITEM_VALLEY_CONTRACT_ABI,
 };
 export const ITEM_RIVER: IItem = {
     id: 117,
     name: 'River',
-    description: 'The highway for fish and the misplaced bathtubs of nature, flowing with more twists than a soap opera plotline.',
+    description: `The highway for fish and the misplaced bathtubs of nature, flowing with more twists than a soap opera plotline.`,
     tier: 1,
     contractAbi: ITEM_RIVER_CONTRACT_ABI,
 };
 export const ITEM_SCORCHED_EARTH: IItem = {
     id: 118,
     name: 'Scorched Earth',
-    description: 'More devastating than an expired hot sauce binge, it turns fertile land into a Mad Max wasteland!',
+    description: `More devastating than an expired hot sauce binge, it turns fertile land into a Mad Max wasteland!`,
     tier: 1,
     contractAbi: ITEM_SCORCHED_EARTH_CONTRACT_ABI,
 };
 export const ITEM_DELTA: IItem = {
     id: 119,
     name: 'Delta',
-    description: 'The river’s final boss battle, where water splits like an indecisive rom-com character in the season finale.',
+    description: `The river’s final boss battle, where water splits like an indecisive rom-com character in the season finale.`,
     tier: 1,
     contractAbi: ITEM_DELTA_CONTRACT_ABI,
 };
 export const ITEM_ESTUARY: IItem = {
     id: 120,
     name: 'Estuary',
-    description: 'Where the river meets the sea, like the ultimate mashup album nobody asked for but everyone loves.',
+    description: `Where the river meets the sea, like the ultimate mashup album nobody asked for but everyone loves.`,
     tier: 1,
     contractAbi: ITEM_ESTUARY_CONTRACT_ABI,
 };
 export const ITEM_FIRE_SWAMP: IItem = {
     id: 121,
     name: 'Fire Swamp',
-    description: 'Enter at your own risk and remember, the trees have a fiery personality akin to dragons after a spicy taco night!',
+    description: `Enter at your own risk and remember, the trees have a fiery personality akin to dragons after a spicy taco night!`,
     tier: 1,
     contractAbi: ITEM_FIRE_SWAMP_CONTRACT_ABI,
 };
 export const ITEM_RIVERBANK: IItem = {
     id: 122,
     name: 'Riverbank',
-    description: 'Where Gandalf would come for a picnic with his hobbit homies if Middle-earth had longer vacations.',
+    description: `Where Gandalf would come for a picnic with his hobbit homies if Middle-earth had longer vacations.`,
     tier: 1,
     contractAbi: ITEM_RIVERBANK_CONTRACT_ABI,
 };
 export const ITEM_RAVINE: IItem = {
     id: 123,
     name: 'Ravine',
-    description: 'The Grand Canyon's emo teenager cousin, endless depths of angsty chasms.',
+    description: `The Grand Canyon's emo teenager cousin, endless depths of angsty chasms.`,
     tier: 1,
     contractAbi: ITEM_RAVINE_CONTRACT_ABI,
 };
 export const ITEM_GORGE: IItem = {
     id: 124,
     name: 'Gorge',
-    description: 'When wandering through this natural wonder, remember: it's like Mother Earth's really dramatic cleavage.',
+    description: `When wandering through this natural wonder, remember: it's like Mother Earth's really dramatic cleavage.`,
     tier: 1,
     contractAbi: ITEM_GORGE_CONTRACT_ABI,
 };
 export const ITEM_CHARRED_RAVINE: IItem = {
     id: 125,
     name: 'Charred Ravine',
-    description: 'A spicy hot potato chip of doom, hotter than a dragon's sneeze in a volcano.',
+    description: `A spicy hot potato chip of doom, hotter than a dragon's sneeze in a volcano.`,
     tier: 1,
     contractAbi: ITEM_CHARRED_RAVINE_CONTRACT_ABI,
 };
 export const ITEM_ECHO: IItem = {
     id: 126,
     name: 'Echo',
-    description: 'It's like shouting into a canyon, but the canyon actually cares about what you said and keeps repeating it back.',
+    description: `It's like shouting into a canyon, but the canyon actually cares about what you said and keeps repeating it back.`,
     tier: 1,
     contractAbi: ITEM_ECHO_CONTRACT_ABI,
 };
 export const ITEM_CAVE: IItem = {
     id: 127,
     name: 'Cave',
-    description: 'A dark, damp Airbnb for bats and trolls, with zero Wi-Fi signal but plenty of natural 'rockitecture'.',
+    description: `A dark, damp Airbnb for bats and trolls, with zero Wi-Fi signal but plenty of natural 'rockitecture'.`,
     tier: 1,
     contractAbi: ITEM_CAVE_CONTRACT_ABI,
 };
 export const ITEM_UNDERGROUND_LAKE: IItem = {
     id: 128,
     name: 'Underground Lake',
-    description: 'The Batcave of aquatic hideaways, home to timid fish and overly ambitious spelunkers alike.',
+    description: `The Batcave of aquatic hideaways, home to timid fish and overly ambitious spelunkers alike.`,
     tier: 1,
     contractAbi: ITEM_UNDERGROUND_LAKE_CONTRACT_ABI,
 };
 export const ITEM_LAVA_CAVE: IItem = {
     id: 129,
     name: 'Lava Cave',
-    description: 'A fiery Airbnb for fire-breathing dragons and grilled marshmallows.',
+    description: `A fiery Airbnb for fire-breathing dragons and grilled marshmallows.`,
     tier: 1,
     contractAbi: ITEM_LAVA_CAVE_CONTRACT_ABI,
 };
 export const ITEM_WHISPERING_CAVE: IItem = {
     id: 130,
     name: 'Whispering Cave',
-    description: 'A cave so chatty it makes high school gossip sound like monk's meditation.',
+    description: `A cave so chatty it makes high school gossip sound like monk's meditation.`,
     tier: 1,
     contractAbi: ITEM_WHISPERING_CAVE_CONTRACT_ABI,
 };
 export const ITEM_SUBTERRANEAN_POOL: IItem = {
     id: 131,
     name: 'Subterranean Pool',
-    description: 'Where the Teenage Mutant Ninja Turtles learned to swim and rediscover lost rubber duckies!',
+    description: `Where the Teenage Mutant Ninja Turtles learned to swim and rediscover lost rubber duckies!`,
     tier: 1,
     contractAbi: ITEM_SUBTERRANEAN_POOL_CONTRACT_ABI,
 };
 export const ITEM_SPRING: IItem = {
     id: 132,
     name: 'Spring',
-    description: 'Jump higher than your dreams, or at least higher than your disappointments, with this bouncy boing-boing.',
+    description: `Jump higher than your dreams, or at least higher than your disappointments, with this bouncy boing-boing.`,
     tier: 1,
     contractAbi: ITEM_SPRING_CONTRACT_ABI,
 };
 export const ITEM_HOT_SPRING: IItem = {
     id: 133,
     name: 'Hot Spring',
-    description: 'Like soaking in a jacuzzi made by Mother Nature, but without the awkward vacation photos!',
+    description: `Like soaking in a jacuzzi made by Mother Nature, but without the awkward vacation photos!`,
     tier: 1,
     contractAbi: ITEM_HOT_SPRING_CONTRACT_ABI,
 };
 export const ITEM_GROTTO: IItem = {
     id: 134,
     name: 'Grotto',
-    description: 'The ultimate bachelor pad for goblins—think of it as a man cave, but with actual caves.',
+    description: `The ultimate bachelor pad for goblins—think of it as a man cave, but with actual caves.`,
     tier: 1,
     contractAbi: ITEM_GROTTO_CONTRACT_ABI,
 };
 export const ITEM_FOUNTAIN: IItem = {
     id: 135,
     name: 'Fountain',
-    description: 'Where wishes and coins go on a wild water slide together.',
+    description: `Where wishes and coins go on a wild water slide together.`,
     tier: 1,
     contractAbi: ITEM_FOUNTAIN_CONTRACT_ABI,
 };
 export const ITEM_STEAM_VENT: IItem = {
     id: 136,
     name: 'Steam Vent',
-    description: 'When regular air conditioning just won't cut it, unleash this spicy hot air geyser and channel your inner Old Faithful!',
+    description: `When regular air conditioning just won't cut it, unleash this spicy hot air geyser and channel your inner Old Faithful!`,
     tier: 1,
     contractAbi: ITEM_STEAM_VENT_CONTRACT_ABI,
 };
 export const ITEM_COOL_BREEZE: IItem = {
     id: 137,
     name: 'Cool Breeze',
-    description: 'As refreshing as a surprise pizza party in summer, but with zero calories!',
+    description: `As refreshing as a surprise pizza party in summer, but with zero calories!`,
     tier: 1,
     contractAbi: ITEM_COOL_BREEZE_CONTRACT_ABI,
 };
 export const ITEM_MONUMENT: IItem = {
     id: 138,
     name: 'Monument',
-    description: 'A stone tribute that's so towering, it could give the Statue of Liberty vertigo!',
+    description: `A stone tribute that's so towering, it could give the Statue of Liberty vertigo!`,
     tier: 1,
     contractAbi: ITEM_MONUMENT_CONTRACT_ABI,
 };
 export const ITEM_WATERFALL: IItem = {
     id: 139,
     name: 'Waterfall',
-    description: 'Niagara's younger, slightly less impressive cousin that still turns heads like a supermodel on a catwalk.',
+    description: `Niagara's younger, slightly less impressive cousin that still turns heads like a supermodel on a catwalk.`,
     tier: 1,
     contractAbi: ITEM_WATERFALL_CONTRACT_ABI,
 };
 export const ITEM_ETERNAL_FLAME: IItem = {
     id: 140,
     name: 'Eternal Flame',
-    description: 'Hotter than a dragon's sneeze, this flame burns with the angst of a thousand rejected pop stars!',
+    description: `Hotter than a dragon's sneeze, this flame burns with the angst of a thousand rejected pop stars!`,
     tier: 1,
     contractAbi: ITEM_ETERNAL_FLAME_CONTRACT_ABI,
 };
 export const ITEM_PILLAR_OF_WIND: IItem = {
     id: 141,
     name: 'Pillar Of Wind',
-    description: 'A swirling cyclone of air that even the Weather Channel fears to forecast.',
+    description: `A swirling cyclone of air that even the Weather Channel fears to forecast.`,
     tier: 1,
     contractAbi: ITEM_PILLAR_OF_WIND_CONTRACT_ABI,
 };
 export const ITEM_STREAM: IItem = {
     id: 142,
     name: 'Stream',
-    description: 'Like Netflix for fish, this babbling brook is constantly streaming new episodes of nature’s playlist!',
+    description: `Like Netflix for fish, this babbling brook is constantly streaming new episodes of nature’s playlist!`,
     tier: 1,
     contractAbi: ITEM_STREAM_CONTRACT_ABI,
 };
 export const ITEM_ZEPHYR: IItem = {
     id: 143,
     name: 'Zephyr',
-    description: 'A breeze so gentle, it could whisper lullabies to butterflies while moonwalking through daisies.',
+    description: `A breeze so gentle, it could whisper lullabies to butterflies while moonwalking through daisies.`,
     tier: 1,
     contractAbi: ITEM_ZEPHYR_CONTRACT_ABI,
 };
 export const ITEM_CREEK: IItem = {
     id: 144,
     name: 'Creek',
-    description: 'Tiny river, think of it as a baby Amazon just learning to meme.',
+    description: `Tiny river, think of it as a baby Amazon just learning to meme.`,
     tier: 1,
     contractAbi: ITEM_CREEK_CONTRACT_ABI,
 };
 export const ITEM_BROOK: IItem = {
     id: 145,
     name: 'Brook',
-    description: 'Where baby rivers are born and sent to Hogwarts.',
+    description: `Where baby rivers are born and sent to Hogwarts.`,
     tier: 1,
     contractAbi: ITEM_BROOK_CONTRACT_ABI,
 };
 export const ITEM_WHISPER: IItem = {
     id: 146,
     name: 'Whisper',
-    description: 'The secret handshake of the wind and your ear, as if a gossiping fairy had a megaphone.',
+    description: `The secret handshake of the wind and your ear, as if a gossiping fairy had a megaphone.`,
     tier: 1,
     contractAbi: ITEM_WHISPER_CONTRACT_ABI,
 };
 export const ITEM_RIVULET: IItem = {
     id: 147,
     name: 'Rivulet',
-    description: 'A tiny stream so small that even ants use it as their personal slip-n-slide.',
+    description: `A tiny stream so small that even ants use it as their personal slip-n-slide.`,
     tier: 1,
     contractAbi: ITEM_RIVULET_CONTRACT_ABI,
 };
 export const ITEM_TRIBUTARY: IItem = {
     id: 148,
     name: 'Tributary',
-    description: 'A glorified water delivery service, bringing aqua goodness to bigger, bossier rivers.',
+    description: `A glorified water delivery service, bringing aqua goodness to bigger, bossier rivers.`,
     tier: 1,
     contractAbi: ITEM_TRIBUTARY_CONTRACT_ABI,
 };
 export const ITEM_MURMUR: IItem = {
     id: 149,
     name: 'Murmur',
-    description: 'Like the whisper of a ninja, Murmur is the sound your enemies will never hear until it’s too late.',
+    description: `Like the whisper of a ninja, Murmur is the sound your enemies will never hear until it’s too late.`,
     tier: 1,
     contractAbi: ITEM_MURMUR_CONTRACT_ABI,
 };
 export const ITEM_WATERSHED: IItem = {
     id: 150,
     name: 'Watershed',
-    description: 'A pivotal plot twist in the landscape where water decides which way it wants to go for the grand finale!',
+    description: `A pivotal plot twist in the landscape where water decides which way it wants to go for the grand finale!`,
     tier: 1,
     contractAbi: ITEM_WATERSHED_CONTRACT_ABI,
 };
 export const ITEM_AQUIFER: IItem = {
     id: 151,
     name: 'Aquifer',
-    description: 'Nature's secret underground swimming pool, perfect for when groundwater wants to chill out.',
+    description: `Nature's secret underground swimming pool, perfect for when groundwater wants to chill out.`,
     tier: 1,
     contractAbi: ITEM_AQUIFER_CONTRACT_ABI,
 };
 export const ITEM_PARCHED_EARTH: IItem = {
     id: 152,
     name: 'Parched Earth',
-    description: 'More thirst-quenching than a backstage pass at a Beyoncé concert!',
+    description: `More thirst-quenching than a backstage pass at a Beyoncé concert!`,
     tier: 1,
     contractAbi: ITEM_PARCHED_EARTH_CONTRACT_ABI,
 };
 export const ITEM_FRESH_BREEZE: IItem = {
     id: 153,
     name: 'Fresh Breeze',
-    description: 'A zephyr so crisp it could convince even Darth Vader to join a yoga retreat!',
+    description: `A zephyr so crisp it could convince even Darth Vader to join a yoga retreat!`,
     tier: 1,
     contractAbi: ITEM_FRESH_BREEZE_CONTRACT_ABI,
 };
 export const ITEM_GROUNDWATER: IItem = {
     id: 154,
     name: 'Groundwater',
-    description: 'Mother Earth's secret stash, hidden beneath her rocky garments like a hip flask at a dry wedding.',
+    description: `Mother Earth's secret stash, hidden beneath her rocky garments like a hip flask at a dry wedding.`,
     tier: 1,
     contractAbi: ITEM_GROUNDWATER_CONTRACT_ABI,
 };
 export const ITEM_RESERVOIR: IItem = {
     id: 155,
     name: 'Reservoir',
-    description: 'Hoarder of H2O: Where all the local water droplets hang out and gossip about breaking dams and making waves!',
+    description: `Hoarder of H2O: Where all the local water droplets hang out and gossip about breaking dams and making waves!`,
     tier: 1,
     contractAbi: ITEM_RESERVOIR_CONTRACT_ABI,
 };
 export const ITEM_GEOTHERMAL_SPRING: IItem = {
     id: 156,
     name: 'Geothermal Spring',
-    description: 'Mother Nature's jacuzzi, hotter than the coffee your soul relies on.',
+    description: `Mother Nature's jacuzzi, hotter than the coffee your soul relies on.`,
     tier: 1,
     contractAbi: ITEM_GEOTHERMAL_SPRING_CONTRACT_ABI,
 };
 export const ITEM_ARTESIAN_WELL: IItem = {
     id: 157,
     name: 'Artesian Well',
-    description: 'The bottomless mimosa bar of water sources, constantly refilling without you lifting a finger - cheers!',
+    description: `The bottomless mimosa bar of water sources, constantly refilling without you lifting a finger - cheers!`,
     tier: 1,
     contractAbi: ITEM_ARTESIAN_WELL_CONTRACT_ABI,
 };
 export const ITEM_BASIN: IItem = {
     id: 158,
     name: 'Basin',
-    description: 'The Holy Grail of your bathroom, where soap bubbles dream of escape and rubber duckies rule!',
+    description: `The Holy Grail of your bathroom, where soap bubbles dream of escape and rubber duckies rule!`,
     tier: 1,
     contractAbi: ITEM_BASIN_CONTRACT_ABI,
 };
 export const ITEM_LAKE: IItem = {
     id: 159,
     name: 'Lake',
-    description: 'Nature's giant puddle, perfect for lazy fish, and where mythical creatures might just throw tea parties.',
+    description: `Nature's giant puddle, perfect for lazy fish, and where mythical creatures might just throw tea parties.`,
     tier: 1,
     contractAbi: ITEM_LAKE_CONTRACT_ABI,
 };
 export const ITEM_DRY_BASIN: IItem = {
     id: 160,
     name: 'Dry Basin',
-    description: 'A bowl so devoid of moisture, even SpongeBob would dry up in here.',
+    description: `A bowl so devoid of moisture, even SpongeBob would dry up in here.`,
     tier: 1,
     contractAbi: ITEM_DRY_BASIN_CONTRACT_ABI,
 };
 export const ITEM_DEPRESSION: IItem = {
     id: 161,
     name: 'Depression',
-    description: 'Feeling like Eeyore in a world full of Tiggers.',
+    description: `Feeling like Eeyore in a world full of Tiggers.`,
     tier: 1,
     contractAbi: ITEM_DEPRESSION_CONTRACT_ABI,
 };
 export const ITEM_ISLAND: IItem = {
     id: 162,
     name: 'Island',
-    description: 'A chunk of land adrift in the ocean, like a slice of pizza floating in tomato soup.',
+    description: `A chunk of land adrift in the ocean, like a slice of pizza floating in tomato soup.`,
     tier: 1,
     contractAbi: ITEM_ISLAND_CONTRACT_ABI,
 };
 export const ITEM_LAGOON: IItem = {
     id: 163,
     name: 'Lagoon',
-    description: 'A lazy lake who's too cool to hang with the ocean, featuring more zen than a yoga retreat for dolphins.',
+    description: `A lazy lake who's too cool to hang with the ocean, featuring more zen than a yoga retreat for dolphins.`,
     tier: 1,
     contractAbi: ITEM_LAGOON_CONTRACT_ABI,
 };
 export const ITEM_WAVE: IItem = {
     id: 164,
     name: 'Wave',
-    description: 'Surf's up, dude–ride this aquatic rollercoaster like a water wizard!',
+    description: `Surf's up, dude–ride this aquatic rollercoaster like a water wizard!`,
     tier: 1,
     contractAbi: ITEM_WAVE_CONTRACT_ABI,
 };
 export const ITEM_REEF: IItem = {
     id: 165,
     name: 'Reef',
-    description: 'The underwater rock concert where fish party harder than rockstars!',
+    description: `The underwater rock concert where fish party harder than rockstars!`,
     tier: 1,
     contractAbi: ITEM_REEF_CONTRACT_ABI,
 };
 export const ITEM_CORAL: IItem = {
     id: 166,
     name: 'Coral',
-    description: 'Nature's underwater apartment complex—complete with quirky neighbors!',
+    description: `Nature's underwater apartment complex—complete with quirky neighbors!`,
     tier: 1,
     contractAbi: ITEM_CORAL_CONTRACT_ABI,
 };
 export const ITEM_WHIRL: IItem = {
     id: 167,
     name: 'Whirl',
-    description: 'Like a blender on steroids, this mini-maelstrom promises to mix up your enemies' day!',
+    description: `Like a blender on steroids, this mini-maelstrom promises to mix up your enemies' day!`,
     tier: 1,
     contractAbi: ITEM_WHIRL_CONTRACT_ABI,
 };
 export const ITEM_LIMESTONE: IItem = {
     id: 168,
     name: 'Limestone',
-    description: 'The rock Dwayne Johnson wished he was named after - capable of building empires and perfect for caveman graffiti.',
+    description: `The rock Dwayne Johnson wished he was named after - capable of building empires and perfect for caveman graffiti.`,
     tier: 1,
     contractAbi: ITEM_LIMESTONE_CONTRACT_ABI,
 };
 export const ITEM_KARST: IItem = {
     id: 169,
     name: 'Karst',
-    description: 'The Swiss cheese of landscapes—full of holes, surprises, and probably a hidden treasure if you look close enough!',
+    description: `The Swiss cheese of landscapes—full of holes, surprises, and probably a hidden treasure if you look close enough!`,
     tier: 1,
     contractAbi: ITEM_KARST_CONTRACT_ABI,
 };
 export const ITEM_QUICKLIME: IItem = {
     id: 170,
     name: 'Quicklime',
-    description: 'Just add water and watch this rock go all 'Hulk Smash' on your hydration dreams!',
+    description: `Just add water and watch this rock go all 'Hulk Smash' on your hydration dreams!`,
     tier: 1,
     contractAbi: ITEM_QUICKLIME_CONTRACT_ABI,
 };
 export const ITEM_BLOWHOLE: IItem = {
     id: 171,
     name: 'Blowhole',
-    description: 'The marine mammal's N64 controller button for an epic H2O power-up!',
+    description: `The marine mammal's N64 controller button for an epic H2O power-up!`,
     tier: 1,
     contractAbi: ITEM_BLOWHOLE_CONTRACT_ABI,
 };

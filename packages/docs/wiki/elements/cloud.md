@@ -10,6 +10,10 @@ Fluffier than marshmallows and moodier than a teenager, this sky cotton candy hi
 
 * Combine [Smoke](/wiki/elements/smoke) and [Water](/wiki/elements/water) to make [Cloud](/wiki/elements/cloud). This process is known as [Make Cloud](/wiki/recipes/make-cloud).
 
+## How to use?
+
+* Combine [Cloud](/wiki/elements/cloud) and [Fire](/wiki/elements/fire) to make [Lightning](/wiki/elements/lightning). This process is known as [Make Lightning](/wiki/recipes/make-lightning).
+
 ## See also
 
 * [Games](/wiki/games)

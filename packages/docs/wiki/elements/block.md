@@ -10,6 +10,10 @@ Like adult Legos, but less fun and more about stopping that lava from ruining yo
 
 _There is no way to make Block. You can buy it from the game, by pressing the **Buy** button._
 
+## How to use?
+
+_Block is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

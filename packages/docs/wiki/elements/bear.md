@@ -10,6 +10,10 @@ This fuzzy giant decided to move out of the forest and into your nightmares on t
 
 _There is no way to make Bear. You can buy it from the game, by pressing the **Buy** button._
 
+## How to use?
+
+* Combine [Bee](/wiki/elements/bee) and [Bear](/wiki/elements/bear) to make [Beer](/wiki/elements/beer). This process is known as [Make Beer](/wiki/recipes/make-beer).
+
 ## See also
 
 * [Games](/wiki/games)

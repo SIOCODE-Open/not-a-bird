@@ -8,25 +8,38 @@
             "name": "Monkey",
             "description": "This banana-loving acrobat is like if Tarzan had a caffeine addiction!",
             "item": "items#Monkey",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": [
+                "recipes#make_monkeybranch"
+            ]
         },
         {
             "name": "Giraffe",
             "description": "The long-necked, leafy buffet enthusiast that would make even a stepladder feel short.",
             "item": "items#Giraffe",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": [
+                "recipes#make_hydra"
+            ]
         },
         {
             "name": "Bee",
             "description": "The buzzing little cousin of Buzzie Lightyear, Defender of the Flora and Champion of Sweetness!",
             "item": "items#Bee",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": [
+                "recipes#make_swarm",
+                "recipes#make_beer"
+            ]
         },
         {
             "name": "Coin",
             "description": "More valuable than a chest full of dragon's gold, this shiny round thing makes NPCs do your bidding.",
             "item": "items#Coin",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": [
+                "recipes#make_goldengate"
+            ]
         },
         {
             "name": "SWARM",
@@ -34,7 +47,8 @@
             "item": "items#SWARM",
             "recipes": [
                 "recipes#make_swarm"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Hydra",
@@ -42,6 +56,9 @@
             "item": "items#Hydra",
             "recipes": [
                 "recipes#make_hydra"
+            ],
+            "usedInRecipes": [
+                "recipes#make_monkeybranch"
             ]
         },
         {
@@ -50,6 +67,9 @@
             "item": "items#MonkeyBranch",
             "recipes": [
                 "recipes#make_monkeybranch"
+            ],
+            "usedInRecipes": [
+                "recipes#make_bridge"
             ]
         },
         {
@@ -58,6 +78,9 @@
             "item": "items#Bridge",
             "recipes": [
                 "recipes#make_bridge"
+            ],
+            "usedInRecipes": [
+                "recipes#make_goldengate"
             ]
         },
         {
@@ -66,61 +89,77 @@
             "item": "items#GoldenGate",
             "recipes": [
                 "recipes#make_goldengate"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Gold",
             "description": "Shinier than a disco ball at Studio 54, this glistening treasure will make Scrooge McDuck jealous!",
             "item": "items#Gold",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": []
         },
         {
             "name": "Silver",
             "description": "Shinier than a vampire at a disco party, it's what werewolves dread and jewelry lovers adore.",
             "item": "items#Silver",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": [
+                "recipes#make_lock"
+            ]
         },
         {
             "name": "Rhodium",
             "description": "The bling-bling metal of the periodic table: shinier than your future, harder than your math homework.",
             "item": "items#Rhodium",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": []
         },
         {
             "name": "Hive",
             "description": "Welcome to the buzzfeed mansion, where every room has a bee-convincing argument!",
             "item": "items#Hive",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": []
         },
         {
             "name": "Transaction",
             "description": "The magical moment when your gold coins vanish and you're left wondering if you've been pickpocketed by a ninja or just bought a shiny new sword.",
             "item": "items#Transaction",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": []
         },
         {
             "name": "Block",
             "description": "Like adult Legos, but less fun and more about stopping that lava from ruining your day!",
             "item": "items#Block",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": []
         },
         {
             "name": "Blockchain",
             "description": "The magical internet ledger of destiny that Satoshi dreamt up, where everything is transparent, immutable, and forever entwined like the plot of a Christopher Nolan movie.",
             "item": "items#Blockchain",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": [
+                "recipes#make_cardano"
+            ]
         },
         {
             "name": "Polkadot",
             "description": "Think Bitcoin's eccentric cousin who shows up at parties in a spotted suit and shocks everyone with their dazzlingly efficient dancing.",
             "item": "items#Polkadot",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": []
         },
         {
             "name": "PeerReview",
             "description": "A scroll that makes your friends question their life choices and your enemies spit out their coffee in disbelief.",
             "item": "items#PeerReview",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": [
+                "recipes#make_cardano"
+            ]
         },
         {
             "name": "Cardano",
@@ -128,13 +167,17 @@
             "item": "items#Cardano",
             "recipes": [
                 "recipes#make_cardano"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Bear",
             "description": "This fuzzy giant decided to move out of the forest and into your nightmares on the advice of its therapist, Yogi.",
             "item": "items#Bear",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": [
+                "recipes#make_beer"
+            ]
         },
         {
             "name": "Beer",
@@ -142,7 +185,8 @@
             "item": "items#Beer",
             "recipes": [
                 "recipes#make_beer"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Lock",
@@ -150,13 +194,17 @@
             "item": "items#Lock",
             "recipes": [
                 "recipes#make_lock"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Marmalade",
             "description": "The sticky, fruity concoction that Paddington Bear would trade his hat for.",
             "item": "items#Marmalade",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": [
+                "recipes#make_supermarmalade"
+            ]
         },
         {
             "name": "SuperMarmalade",
@@ -164,6 +212,9 @@
             "item": "items#SuperMarmalade",
             "recipes": [
                 "recipes#make_supermarmalade"
+            ],
+            "usedInRecipes": [
+                "recipes#make_hypermarmalade"
             ]
         },
         {
@@ -172,19 +223,93 @@
             "item": "items#HyperMarmalade",
             "recipes": [
                 "recipes#make_hypermarmalade"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Water",
             "description": "H2-Oh no, you spilled it again!",
             "item": "items#Water",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": [
+                "recipes#MakeSteam",
+                "recipes#MakeMud",
+                "recipes#MakeRain",
+                "recipes#MakeObsidian",
+                "recipes#MakeCloud",
+                "recipes#MakeTree",
+                "recipes#MakeQuicksand",
+                "recipes#MakeFrostedGlass",
+                "recipes#MakePebble",
+                "recipes#MakeFlood",
+                "recipes#MakeBeach",
+                "recipes#MakeWetstone",
+                "recipes#MakeBasalt",
+                "recipes#MakeCanyon",
+                "recipes#MakePumice",
+                "recipes#MakePrism",
+                "recipes#MakeOasis",
+                "recipes#MakeDam",
+                "recipes#MakePond",
+                "recipes#MakeFlower",
+                "recipes#MakeWetland",
+                "recipes#MakeRiver",
+                "recipes#MakeEstuary",
+                "recipes#MakeGorge",
+                "recipes#MakeUndergroundLake",
+                "recipes#MakeSpring",
+                "recipes#MakeFountain",
+                "recipes#MakeWaterfall",
+                "recipes#MakeStream",
+                "recipes#MakeBrook",
+                "recipes#MakeTributary",
+                "recipes#MakeAquifer",
+                "recipes#MakeReservoir",
+                "recipes#MakeLake",
+                "recipes#MakeLagoon",
+                "recipes#MakeCoral",
+                "recipes#MakeKarst"
+            ]
         },
         {
             "name": "Fire",
             "description": "Summon a flickering tongue of destruction that makes dragons envious and marshmallows tremble in awe!",
             "item": "items#Fire",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": [
+                "recipes#MakeSteam",
+                "recipes#MakeLava",
+                "recipes#MakeSmoke",
+                "recipes#MakeClay",
+                "recipes#MakeRainbow",
+                "recipes#MakePottery",
+                "recipes#MakeGlass",
+                "recipes#MakeCharcoal",
+                "recipes#MakeWildfire",
+                "recipes#MakeMagma",
+                "recipes#MakeLightning",
+                "recipes#MakeThunder",
+                "recipes#MakeEmber",
+                "recipes#MakeKiln",
+                "recipes#MakeWarmBreeze",
+                "recipes#MakeBarbecue",
+                "recipes#MakeMoltenGlass",
+                "recipes#MakeMirage",
+                "recipes#MakeFirewall",
+                "recipes#MakeSpore",
+                "recipes#MakePeat",
+                "recipes#MakeScorchedEarth",
+                "recipes#MakeFireSwamp",
+                "recipes#MakeCharredRavine",
+                "recipes#MakeLavaCave",
+                "recipes#MakeHotSpring",
+                "recipes#MakeSteamVent",
+                "recipes#MakeEternalFlame",
+                "recipes#MakeParchedEarth",
+                "recipes#MakeGeothermalSpring",
+                "recipes#MakeDryBasin",
+                "recipes#MakeQuicklime"
+            ]
         },
         {
             "name": "Steam",
@@ -192,13 +317,57 @@
             "item": "items#Steam",
             "recipes": [
                 "recipes#MakeSteam"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeGeyser"
             ]
         },
         {
             "name": "Earth",
             "description": "Because who doesn't want a handful of dirt from Mother Nature's handbag?",
             "item": "items#Earth",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": [
+                "recipes#MakeMud",
+                "recipes#MakeLava",
+                "recipes#MakeDust",
+                "recipes#MakeGeyser",
+                "recipes#MakePlant",
+                "recipes#MakeVolcano",
+                "recipes#MakeForest",
+                "recipes#MakeBrick",
+                "recipes#MakeJungle",
+                "recipes#MakeCrystal",
+                "recipes#MakeRock",
+                "recipes#MakeMountain",
+                "recipes#MakeFertilizer",
+                "recipes#MakeMist",
+                "recipes#MakeLandslide",
+                "recipes#MakeGarden",
+                "recipes#MakeSinkhole",
+                "recipes#MakeMagmaChamber",
+                "recipes#MakeSoil",
+                "recipes#MakeAdobe",
+                "recipes#MakeWall",
+                "recipes#MakeFarm",
+                "recipes#MakeDesert",
+                "recipes#MakePlateau",
+                "recipes#MakeFertileLand",
+                "recipes#MakeValley",
+                "recipes#MakeDelta",
+                "recipes#MakeRavine",
+                "recipes#MakeCave",
+                "recipes#MakeSubterraneanPool",
+                "recipes#MakeMonument",
+                "recipes#MakeCreek",
+                "recipes#MakeRivulet",
+                "recipes#MakeWatershed",
+                "recipes#MakeGroundwater",
+                "recipes#MakeBasin",
+                "recipes#MakeIsland",
+                "recipes#MakeReef",
+                "recipes#MakeLimestone"
+            ]
         },
         {
             "name": "Mud",
@@ -206,6 +375,10 @@
             "item": "items#Mud",
             "recipes": [
                 "recipes#MakeMud"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeClay",
+                "recipes#MakeSand"
             ]
         },
         {
@@ -214,13 +387,63 @@
             "item": "items#Lava",
             "recipes": [
                 "recipes#MakeLava"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeObsidian",
+                "recipes#MakeAsh",
+                "recipes#MakeVolcano",
+                "recipes#MakeBasalt",
+                "recipes#MakeMagmaChamber"
             ]
         },
         {
             "name": "Wind",
             "description": "The invisible ninja that gives trees a good hair day.",
             "item": "items#Wind",
-            "recipes": []
+            "recipes": [],
+            "usedInRecipes": [
+                "recipes#MakeDust",
+                "recipes#MakeRain",
+                "recipes#MakeSmoke",
+                "recipes#MakeSand",
+                "recipes#MakeStorm",
+                "recipes#MakeAsh",
+                "recipes#MakeSandstorm",
+                "recipes#MakeFog",
+                "recipes#MakeSeeds",
+                "recipes#MakeDune",
+                "recipes#MakeLeaves",
+                "recipes#MakeShard",
+                "recipes#MakeSoot",
+                "recipes#MakeHaze",
+                "recipes#MakeTornado",
+                "recipes#MakePollination",
+                "recipes#MakeErosion",
+                "recipes#MakeBreeze",
+                "recipes#MakeWindmill",
+                "recipes#MakeShards",
+                "recipes#MakeSparkle",
+                "recipes#MakeSandDune",
+                "recipes#MakeBarricade",
+                "recipes#MakeAromas",
+                "recipes#MakeSpread",
+                "recipes#MakeReeds",
+                "recipes#MakeRiverbank",
+                "recipes#MakeEcho",
+                "recipes#MakeWhisperingCave",
+                "recipes#MakeGrotto",
+                "recipes#MakeCoolBreeze",
+                "recipes#MakePillarOfWind",
+                "recipes#MakeZephyr",
+                "recipes#MakeWhisper",
+                "recipes#MakeMurmur",
+                "recipes#MakeFreshBreeze",
+                "recipes#MakeArtesianWell",
+                "recipes#MakeDepression",
+                "recipes#MakeWave",
+                "recipes#MakeWhirl",
+                "recipes#MakeBlowhole"
+            ]
         },
         {
             "name": "Dust",
@@ -228,6 +451,10 @@
             "item": "items#Dust",
             "recipes": [
                 "recipes#MakeDust"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeSandstorm",
+                "recipes#MakeBreeze"
             ]
         },
         {
@@ -236,6 +463,11 @@
             "item": "items#Rain",
             "recipes": [
                 "recipes#MakeRain"
+            ],
+            "usedInRecipes": [
+                "recipes#MakePlant",
+                "recipes#MakeRainbow",
+                "recipes#MakeStorm"
             ]
         },
         {
@@ -244,6 +476,10 @@
             "item": "items#Smoke",
             "recipes": [
                 "recipes#MakeSmoke"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeCloud",
+                "recipes#MakeFog"
             ]
         },
         {
@@ -252,7 +488,8 @@
             "item": "items#Geyser",
             "recipes": [
                 "recipes#MakeGeyser"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Clay",
@@ -260,6 +497,11 @@
             "item": "items#Clay",
             "recipes": [
                 "recipes#MakeClay"
+            ],
+            "usedInRecipes": [
+                "recipes#MakePottery",
+                "recipes#MakeBrick",
+                "recipes#MakeAdobe"
             ]
         },
         {
@@ -268,6 +510,12 @@
             "item": "items#Sand",
             "recipes": [
                 "recipes#MakeSand"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeQuicksand",
+                "recipes#MakeGlass",
+                "recipes#MakeDune",
+                "recipes#MakeBeach"
             ]
         },
         {
@@ -276,6 +524,15 @@
             "item": "items#Plant",
             "recipes": [
                 "recipes#MakePlant"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeTree",
+                "recipes#MakeForest",
+                "recipes#MakeSeeds",
+                "recipes#MakeGarden",
+                "recipes#MakePollination",
+                "recipes#MakeSoil",
+                "recipes#MakeWindmill"
             ]
         },
         {
@@ -284,7 +541,8 @@
             "item": "items#Rainbow",
             "recipes": [
                 "recipes#MakeRainbow"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Storm",
@@ -292,6 +550,12 @@
             "item": "items#Storm",
             "recipes": [
                 "recipes#MakeStorm"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeFlood",
+                "recipes#MakeLandslide",
+                "recipes#MakeThunder",
+                "recipes#MakeTornado"
             ]
         },
         {
@@ -300,6 +564,13 @@
             "item": "items#Obsidian",
             "recipes": [
                 "recipes#MakeObsidian"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeMagma",
+                "recipes#MakeRock",
+                "recipes#MakeShard",
+                "recipes#MakeWetstone",
+                "recipes#MakeShards"
             ]
         },
         {
@@ -308,6 +579,12 @@
             "item": "items#Ash",
             "recipes": [
                 "recipes#MakeAsh"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeFertilizer",
+                "recipes#MakeSoot",
+                "recipes#MakeEmber",
+                "recipes#MakePumice"
             ]
         },
         {
@@ -316,7 +593,8 @@
             "item": "items#Volcano",
             "recipes": [
                 "recipes#MakeVolcano"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Sandstorm",
@@ -324,7 +602,8 @@
             "item": "items#Sandstorm",
             "recipes": [
                 "recipes#MakeSandstorm"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Cloud",
@@ -332,6 +611,9 @@
             "item": "items#Cloud",
             "recipes": [
                 "recipes#MakeCloud"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeLightning"
             ]
         },
         {
@@ -340,6 +622,10 @@
             "item": "items#Fog",
             "recipes": [
                 "recipes#MakeFog"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeMist",
+                "recipes#MakeHaze"
             ]
         },
         {
@@ -348,6 +634,10 @@
             "item": "items#Tree",
             "recipes": [
                 "recipes#MakeTree"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeCharcoal",
+                "recipes#MakeLeaves"
             ]
         },
         {
@@ -356,6 +646,10 @@
             "item": "items#Forest",
             "recipes": [
                 "recipes#MakeForest"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeWildfire",
+                "recipes#MakeJungle"
             ]
         },
         {
@@ -364,6 +658,9 @@
             "item": "items#Seeds",
             "recipes": [
                 "recipes#MakeSeeds"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeFarm"
             ]
         },
         {
@@ -372,6 +669,9 @@
             "item": "items#Pottery",
             "recipes": [
                 "recipes#MakePottery"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeKiln"
             ]
         },
         {
@@ -380,6 +680,9 @@
             "item": "items#Brick",
             "recipes": [
                 "recipes#MakeBrick"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeWall"
             ]
         },
         {
@@ -388,6 +691,9 @@
             "item": "items#Quicksand",
             "recipes": [
                 "recipes#MakeQuicksand"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeSinkhole"
             ]
         },
         {
@@ -396,6 +702,10 @@
             "item": "items#Glass",
             "recipes": [
                 "recipes#MakeGlass"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeFrostedGlass",
+                "recipes#MakeCrystal"
             ]
         },
         {
@@ -404,7 +714,8 @@
             "item": "items#Dune",
             "recipes": [
                 "recipes#MakeDune"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Charcoal",
@@ -412,6 +723,9 @@
             "item": "items#Charcoal",
             "recipes": [
                 "recipes#MakeCharcoal"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeBarbecue"
             ]
         },
         {
@@ -420,7 +734,8 @@
             "item": "items#Leaves",
             "recipes": [
                 "recipes#MakeLeaves"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Wildfire",
@@ -428,7 +743,8 @@
             "item": "items#Wildfire",
             "recipes": [
                 "recipes#MakeWildfire"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Jungle",
@@ -436,7 +752,8 @@
             "item": "items#Jungle",
             "recipes": [
                 "recipes#MakeJungle"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "FrostedGlass",
@@ -444,7 +761,8 @@
             "item": "items#FrostedGlass",
             "recipes": [
                 "recipes#MakeFrostedGlass"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Crystal",
@@ -452,6 +770,11 @@
             "item": "items#Crystal",
             "recipes": [
                 "recipes#MakeCrystal"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeMoltenGlass",
+                "recipes#MakePrism",
+                "recipes#MakeSparkle"
             ]
         },
         {
@@ -460,7 +783,8 @@
             "item": "items#Magma",
             "recipes": [
                 "recipes#MakeMagma"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Rock",
@@ -468,6 +792,11 @@
             "item": "items#Rock",
             "recipes": [
                 "recipes#MakeRock"
+            ],
+            "usedInRecipes": [
+                "recipes#MakePebble",
+                "recipes#MakeMountain",
+                "recipes#MakeErosion"
             ]
         },
         {
@@ -476,7 +805,8 @@
             "item": "items#Shard",
             "recipes": [
                 "recipes#MakeShard"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Pebble",
@@ -484,7 +814,8 @@
             "item": "items#Pebble",
             "recipes": [
                 "recipes#MakePebble"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Mountain",
@@ -492,7 +823,8 @@
             "item": "items#Mountain",
             "recipes": [
                 "recipes#MakeMountain"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Fertilizer",
@@ -500,7 +832,8 @@
             "item": "items#Fertilizer",
             "recipes": [
                 "recipes#MakeFertilizer"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Soot",
@@ -508,7 +841,8 @@
             "item": "items#Soot",
             "recipes": [
                 "recipes#MakeSoot"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Lightning",
@@ -516,7 +850,8 @@
             "item": "items#Lightning",
             "recipes": [
                 "recipes#MakeLightning"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Mist",
@@ -524,7 +859,8 @@
             "item": "items#Mist",
             "recipes": [
                 "recipes#MakeMist"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Haze",
@@ -532,7 +868,8 @@
             "item": "items#Haze",
             "recipes": [
                 "recipes#MakeHaze"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Flood",
@@ -540,7 +877,8 @@
             "item": "items#Flood",
             "recipes": [
                 "recipes#MakeFlood"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Landslide",
@@ -548,7 +886,8 @@
             "item": "items#Landslide",
             "recipes": [
                 "recipes#MakeLandslide"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Thunder",
@@ -556,7 +895,8 @@
             "item": "items#Thunder",
             "recipes": [
                 "recipes#MakeThunder"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Tornado",
@@ -564,7 +904,8 @@
             "item": "items#Tornado",
             "recipes": [
                 "recipes#MakeTornado"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Garden",
@@ -572,6 +913,10 @@
             "item": "items#Garden",
             "recipes": [
                 "recipes#MakeGarden"
+            ],
+            "usedInRecipes": [
+                "recipes#MakePond",
+                "recipes#MakeAromas"
             ]
         },
         {
@@ -580,7 +925,8 @@
             "item": "items#Ember",
             "recipes": [
                 "recipes#MakeEmber"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Kiln",
@@ -588,7 +934,8 @@
             "item": "items#Kiln",
             "recipes": [
                 "recipes#MakeKiln"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Pollination",
@@ -596,6 +943,11 @@
             "item": "items#Pollination",
             "recipes": [
                 "recipes#MakePollination"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeFlower",
+                "recipes#MakeSpore",
+                "recipes#MakeSpread"
             ]
         },
         {
@@ -604,7 +956,8 @@
             "item": "items#Sinkhole",
             "recipes": [
                 "recipes#MakeSinkhole"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Beach",
@@ -612,6 +965,9 @@
             "item": "items#Beach",
             "recipes": [
                 "recipes#MakeBeach"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeDesert"
             ]
         },
         {
@@ -620,7 +976,8 @@
             "item": "items#Wetstone",
             "recipes": [
                 "recipes#MakeWetstone"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Erosion",
@@ -628,6 +985,10 @@
             "item": "items#Erosion",
             "recipes": [
                 "recipes#MakeErosion"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeCanyon",
+                "recipes#MakeRavine"
             ]
         },
         {
@@ -636,7 +997,8 @@
             "item": "items#Basalt",
             "recipes": [
                 "recipes#MakeBasalt"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "MagmaChamber",
@@ -644,7 +1006,8 @@
             "item": "items#MagmaChamber",
             "recipes": [
                 "recipes#MakeMagmaChamber"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Breeze",
@@ -652,6 +1015,9 @@
             "item": "items#Breeze",
             "recipes": [
                 "recipes#MakeBreeze"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeWarmBreeze"
             ]
         },
         {
@@ -660,7 +1026,8 @@
             "item": "items#WarmBreeze",
             "recipes": [
                 "recipes#MakeWarmBreeze"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Soil",
@@ -668,6 +1035,9 @@
             "item": "items#Soil",
             "recipes": [
                 "recipes#MakeSoil"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeFertileLand"
             ]
         },
         {
@@ -676,6 +1046,10 @@
             "item": "items#Canyon",
             "recipes": [
                 "recipes#MakeCanyon"
+            ],
+            "usedInRecipes": [
+                "recipes#MakePlateau",
+                "recipes#MakeValley"
             ]
         },
         {
@@ -684,7 +1058,8 @@
             "item": "items#Windmill",
             "recipes": [
                 "recipes#MakeWindmill"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Adobe",
@@ -692,7 +1067,8 @@
             "item": "items#Adobe",
             "recipes": [
                 "recipes#MakeAdobe"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Wall",
@@ -700,6 +1076,11 @@
             "item": "items#Wall",
             "recipes": [
                 "recipes#MakeWall"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeDam",
+                "recipes#MakeFirewall",
+                "recipes#MakeBarricade"
             ]
         },
         {
@@ -708,7 +1089,8 @@
             "item": "items#Pumice",
             "recipes": [
                 "recipes#MakePumice"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Barbecue",
@@ -716,7 +1098,8 @@
             "item": "items#Barbecue",
             "recipes": [
                 "recipes#MakeBarbecue"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Farm",
@@ -724,7 +1107,8 @@
             "item": "items#Farm",
             "recipes": [
                 "recipes#MakeFarm"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Shards",
@@ -732,7 +1116,8 @@
             "item": "items#Shards",
             "recipes": [
                 "recipes#MakeShards"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "MoltenGlass",
@@ -740,7 +1125,8 @@
             "item": "items#MoltenGlass",
             "recipes": [
                 "recipes#MakeMoltenGlass"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Prism",
@@ -748,7 +1134,8 @@
             "item": "items#Prism",
             "recipes": [
                 "recipes#MakePrism"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Sparkle",
@@ -756,7 +1143,8 @@
             "item": "items#Sparkle",
             "recipes": [
                 "recipes#MakeSparkle"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Desert",
@@ -764,6 +1152,11 @@
             "item": "items#Desert",
             "recipes": [
                 "recipes#MakeDesert"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeOasis",
+                "recipes#MakeMirage",
+                "recipes#MakeSandDune"
             ]
         },
         {
@@ -772,7 +1165,8 @@
             "item": "items#Oasis",
             "recipes": [
                 "recipes#MakeOasis"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Mirage",
@@ -780,7 +1174,8 @@
             "item": "items#Mirage",
             "recipes": [
                 "recipes#MakeMirage"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "SandDune",
@@ -788,7 +1183,8 @@
             "item": "items#SandDune",
             "recipes": [
                 "recipes#MakeSandDune"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Dam",
@@ -796,7 +1192,8 @@
             "item": "items#Dam",
             "recipes": [
                 "recipes#MakeDam"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Firewall",
@@ -804,7 +1201,8 @@
             "item": "items#Firewall",
             "recipes": [
                 "recipes#MakeFirewall"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Barricade",
@@ -812,7 +1210,8 @@
             "item": "items#Barricade",
             "recipes": [
                 "recipes#MakeBarricade"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Plateau",
@@ -820,7 +1219,8 @@
             "item": "items#Plateau",
             "recipes": [
                 "recipes#MakePlateau"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Pond",
@@ -828,7 +1228,8 @@
             "item": "items#Pond",
             "recipes": [
                 "recipes#MakePond"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Aromas",
@@ -836,7 +1237,8 @@
             "item": "items#Aromas",
             "recipes": [
                 "recipes#MakeAromas"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Flower",
@@ -844,7 +1246,8 @@
             "item": "items#Flower",
             "recipes": [
                 "recipes#MakeFlower"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Spore",
@@ -852,7 +1255,8 @@
             "item": "items#Spore",
             "recipes": [
                 "recipes#MakeSpore"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Spread",
@@ -860,7 +1264,8 @@
             "item": "items#Spread",
             "recipes": [
                 "recipes#MakeSpread"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "FertileLand",
@@ -868,6 +1273,9 @@
             "item": "items#FertileLand",
             "recipes": [
                 "recipes#MakeFertileLand"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeWetland"
             ]
         },
         {
@@ -876,6 +1284,10 @@
             "item": "items#Wetland",
             "recipes": [
                 "recipes#MakeWetland"
+            ],
+            "usedInRecipes": [
+                "recipes#MakePeat",
+                "recipes#MakeReeds"
             ]
         },
         {
@@ -884,7 +1296,8 @@
             "item": "items#Peat",
             "recipes": [
                 "recipes#MakePeat"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Reeds",
@@ -892,7 +1305,8 @@
             "item": "items#Reeds",
             "recipes": [
                 "recipes#MakeReeds"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Valley",
@@ -900,6 +1314,10 @@
             "item": "items#Valley",
             "recipes": [
                 "recipes#MakeValley"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeRiver",
+                "recipes#MakeScorchedEarth"
             ]
         },
         {
@@ -908,6 +1326,11 @@
             "item": "items#River",
             "recipes": [
                 "recipes#MakeRiver"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeDelta",
+                "recipes#MakeStream",
+                "recipes#MakeZephyr"
             ]
         },
         {
@@ -916,7 +1339,8 @@
             "item": "items#ScorchedEarth",
             "recipes": [
                 "recipes#MakeScorchedEarth"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Delta",
@@ -924,6 +1348,11 @@
             "item": "items#Delta",
             "recipes": [
                 "recipes#MakeDelta"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeEstuary",
+                "recipes#MakeFireSwamp",
+                "recipes#MakeRiverbank"
             ]
         },
         {
@@ -932,7 +1361,8 @@
             "item": "items#Estuary",
             "recipes": [
                 "recipes#MakeEstuary"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "FireSwamp",
@@ -940,7 +1370,8 @@
             "item": "items#FireSwamp",
             "recipes": [
                 "recipes#MakeFireSwamp"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Riverbank",
@@ -948,7 +1379,8 @@
             "item": "items#Riverbank",
             "recipes": [
                 "recipes#MakeRiverbank"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Ravine",
@@ -956,6 +1388,11 @@
             "item": "items#Ravine",
             "recipes": [
                 "recipes#MakeRavine"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeGorge",
+                "recipes#MakeCharredRavine",
+                "recipes#MakeEcho"
             ]
         },
         {
@@ -964,7 +1401,8 @@
             "item": "items#Gorge",
             "recipes": [
                 "recipes#MakeGorge"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "CharredRavine",
@@ -972,7 +1410,8 @@
             "item": "items#CharredRavine",
             "recipes": [
                 "recipes#MakeCharredRavine"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Echo",
@@ -980,6 +1419,9 @@
             "item": "items#Echo",
             "recipes": [
                 "recipes#MakeEcho"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeCave"
             ]
         },
         {
@@ -988,6 +1430,11 @@
             "item": "items#Cave",
             "recipes": [
                 "recipes#MakeCave"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeUndergroundLake",
+                "recipes#MakeLavaCave",
+                "recipes#MakeWhisperingCave"
             ]
         },
         {
@@ -996,6 +1443,9 @@
             "item": "items#UndergroundLake",
             "recipes": [
                 "recipes#MakeUndergroundLake"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeSubterraneanPool"
             ]
         },
         {
@@ -1004,7 +1454,8 @@
             "item": "items#LavaCave",
             "recipes": [
                 "recipes#MakeLavaCave"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "WhisperingCave",
@@ -1012,7 +1463,8 @@
             "item": "items#WhisperingCave",
             "recipes": [
                 "recipes#MakeWhisperingCave"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "SubterraneanPool",
@@ -1020,6 +1472,11 @@
             "item": "items#SubterraneanPool",
             "recipes": [
                 "recipes#MakeSubterraneanPool"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeSpring",
+                "recipes#MakeHotSpring",
+                "recipes#MakeGrotto"
             ]
         },
         {
@@ -1028,6 +1485,11 @@
             "item": "items#Spring",
             "recipes": [
                 "recipes#MakeSpring"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeFountain",
+                "recipes#MakeSteamVent",
+                "recipes#MakeCoolBreeze"
             ]
         },
         {
@@ -1036,7 +1498,8 @@
             "item": "items#HotSpring",
             "recipes": [
                 "recipes#MakeHotSpring"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Grotto",
@@ -1044,7 +1507,8 @@
             "item": "items#Grotto",
             "recipes": [
                 "recipes#MakeGrotto"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Fountain",
@@ -1052,6 +1516,9 @@
             "item": "items#Fountain",
             "recipes": [
                 "recipes#MakeFountain"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeMonument"
             ]
         },
         {
@@ -1060,7 +1527,8 @@
             "item": "items#SteamVent",
             "recipes": [
                 "recipes#MakeSteamVent"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "CoolBreeze",
@@ -1068,7 +1536,8 @@
             "item": "items#CoolBreeze",
             "recipes": [
                 "recipes#MakeCoolBreeze"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Monument",
@@ -1076,6 +1545,11 @@
             "item": "items#Monument",
             "recipes": [
                 "recipes#MakeMonument"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeWaterfall",
+                "recipes#MakeEternalFlame",
+                "recipes#MakePillarOfWind"
             ]
         },
         {
@@ -1084,7 +1558,8 @@
             "item": "items#Waterfall",
             "recipes": [
                 "recipes#MakeWaterfall"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "EternalFlame",
@@ -1092,7 +1567,8 @@
             "item": "items#EternalFlame",
             "recipes": [
                 "recipes#MakeEternalFlame"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "PillarOfWind",
@@ -1100,7 +1576,8 @@
             "item": "items#PillarOfWind",
             "recipes": [
                 "recipes#MakePillarOfWind"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Stream",
@@ -1108,6 +1585,9 @@
             "item": "items#Stream",
             "recipes": [
                 "recipes#MakeStream"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeCreek"
             ]
         },
         {
@@ -1116,7 +1596,8 @@
             "item": "items#Zephyr",
             "recipes": [
                 "recipes#MakeZephyr"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Creek",
@@ -1124,6 +1605,10 @@
             "item": "items#Creek",
             "recipes": [
                 "recipes#MakeCreek"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeBrook",
+                "recipes#MakeWhisper"
             ]
         },
         {
@@ -1132,6 +1617,9 @@
             "item": "items#Brook",
             "recipes": [
                 "recipes#MakeBrook"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeRivulet"
             ]
         },
         {
@@ -1140,7 +1628,8 @@
             "item": "items#Whisper",
             "recipes": [
                 "recipes#MakeWhisper"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Rivulet",
@@ -1148,6 +1637,10 @@
             "item": "items#Rivulet",
             "recipes": [
                 "recipes#MakeRivulet"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeTributary",
+                "recipes#MakeMurmur"
             ]
         },
         {
@@ -1156,6 +1649,9 @@
             "item": "items#Tributary",
             "recipes": [
                 "recipes#MakeTributary"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeWatershed"
             ]
         },
         {
@@ -1164,7 +1660,8 @@
             "item": "items#Murmur",
             "recipes": [
                 "recipes#MakeMurmur"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Watershed",
@@ -1172,6 +1669,11 @@
             "item": "items#Watershed",
             "recipes": [
                 "recipes#MakeWatershed"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeAquifer",
+                "recipes#MakeParchedEarth",
+                "recipes#MakeFreshBreeze"
             ]
         },
         {
@@ -1180,6 +1682,9 @@
             "item": "items#Aquifer",
             "recipes": [
                 "recipes#MakeAquifer"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeGroundwater"
             ]
         },
         {
@@ -1188,7 +1693,8 @@
             "item": "items#ParchedEarth",
             "recipes": [
                 "recipes#MakeParchedEarth"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "FreshBreeze",
@@ -1196,7 +1702,8 @@
             "item": "items#FreshBreeze",
             "recipes": [
                 "recipes#MakeFreshBreeze"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Groundwater",
@@ -1204,6 +1711,11 @@
             "item": "items#Groundwater",
             "recipes": [
                 "recipes#MakeGroundwater"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeReservoir",
+                "recipes#MakeGeothermalSpring",
+                "recipes#MakeArtesianWell"
             ]
         },
         {
@@ -1212,6 +1724,9 @@
             "item": "items#Reservoir",
             "recipes": [
                 "recipes#MakeReservoir"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeBasin"
             ]
         },
         {
@@ -1220,7 +1735,8 @@
             "item": "items#GeothermalSpring",
             "recipes": [
                 "recipes#MakeGeothermalSpring"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "ArtesianWell",
@@ -1228,7 +1744,8 @@
             "item": "items#ArtesianWell",
             "recipes": [
                 "recipes#MakeArtesianWell"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Basin",
@@ -1236,6 +1753,11 @@
             "item": "items#Basin",
             "recipes": [
                 "recipes#MakeBasin"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeLake",
+                "recipes#MakeDryBasin",
+                "recipes#MakeDepression"
             ]
         },
         {
@@ -1244,6 +1766,11 @@
             "item": "items#Lake",
             "recipes": [
                 "recipes#MakeLake"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeIsland",
+                "recipes#MakeLagoon",
+                "recipes#MakeWave"
             ]
         },
         {
@@ -1252,7 +1779,8 @@
             "item": "items#DryBasin",
             "recipes": [
                 "recipes#MakeDryBasin"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Depression",
@@ -1260,7 +1788,8 @@
             "item": "items#Depression",
             "recipes": [
                 "recipes#MakeDepression"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Island",
@@ -1268,7 +1797,8 @@
             "item": "items#Island",
             "recipes": [
                 "recipes#MakeIsland"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Lagoon",
@@ -1276,6 +1806,9 @@
             "item": "items#Lagoon",
             "recipes": [
                 "recipes#MakeLagoon"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeReef"
             ]
         },
         {
@@ -1284,7 +1817,8 @@
             "item": "items#Wave",
             "recipes": [
                 "recipes#MakeWave"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Reef",
@@ -1292,6 +1826,10 @@
             "item": "items#Reef",
             "recipes": [
                 "recipes#MakeReef"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeCoral",
+                "recipes#MakeWhirl"
             ]
         },
         {
@@ -1300,6 +1838,9 @@
             "item": "items#Coral",
             "recipes": [
                 "recipes#MakeCoral"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeLimestone"
             ]
         },
         {
@@ -1308,7 +1849,8 @@
             "item": "items#Whirl",
             "recipes": [
                 "recipes#MakeWhirl"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Limestone",
@@ -1316,6 +1858,10 @@
             "item": "items#Limestone",
             "recipes": [
                 "recipes#MakeLimestone"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeKarst",
+                "recipes#MakeQuicklime"
             ]
         },
         {
@@ -1324,6 +1870,9 @@
             "item": "items#Karst",
             "recipes": [
                 "recipes#MakeKarst"
+            ],
+            "usedInRecipes": [
+                "recipes#MakeBlowhole"
             ]
         },
         {
@@ -1332,7 +1881,8 @@
             "item": "items#Quicklime",
             "recipes": [
                 "recipes#MakeQuicklime"
-            ]
+            ],
+            "usedInRecipes": []
         },
         {
             "name": "Blowhole",
@@ -1340,7 +1890,8 @@
             "item": "items#Blowhole",
             "recipes": [
                 "recipes#MakeBlowhole"
-            ]
+            ],
+            "usedInRecipes": []
         }
     ]
 }

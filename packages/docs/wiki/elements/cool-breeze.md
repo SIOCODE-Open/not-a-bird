@@ -10,6 +10,10 @@ As refreshing as a surprise pizza party in summer, but with zero calories!
 
 * Combine [Wind](/wiki/elements/wind) and [Spring](/wiki/elements/spring) to make [Cool Breeze](/wiki/elements/cool-breeze). This process is known as [Make Cool Breeze](/wiki/recipes/make-cool-breeze).
 
+## How to use?
+
+_Cool Breeze is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

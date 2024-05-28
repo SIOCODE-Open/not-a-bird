@@ -10,6 +10,10 @@ When regular air conditioning just won't cut it, unleash this spicy hot air geys
 
 * Combine [Fire](/wiki/elements/fire) and [Spring](/wiki/elements/spring) to make [Steam Vent](/wiki/elements/steam-vent). This process is known as [Make Steam Vent](/wiki/recipes/make-steam-vent).
 
+## How to use?
+
+_Steam Vent is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

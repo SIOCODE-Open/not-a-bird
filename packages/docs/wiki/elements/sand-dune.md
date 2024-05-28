@@ -10,6 +10,10 @@ As majestic as a stack of pancakes, but far more abrasive and less syrupy.
 
 * Combine [Wind](/wiki/elements/wind) and [Desert](/wiki/elements/desert) to make [Sand Dune](/wiki/elements/sand-dune). This process is known as [Make Sand Dune](/wiki/recipes/make-sand-dune).
 
+## How to use?
+
+_Sand Dune is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

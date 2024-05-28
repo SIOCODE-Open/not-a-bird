@@ -10,6 +10,10 @@ Like the whisper of a ninja, Murmur is the sound your enemies will never hear un
 
 * Combine [Wind](/wiki/elements/wind) and [Rivulet](/wiki/elements/rivulet) to make [Murmur](/wiki/elements/murmur). This process is known as [Make Murmur](/wiki/recipes/make-murmur).
 
+## How to use?
+
+_Murmur is not used for crafting in any recipes. You can still sacrifice it though with the **Sacrifice** button._
+
 ## See also
 
 * [Games](/wiki/games)

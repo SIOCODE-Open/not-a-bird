@@ -10,6 +10,11 @@ Mother Nature's messy smoothie, perfect for impromptu spa days or sabotaging the
 
 * Combine [Water](/wiki/elements/water) and [Earth](/wiki/elements/earth) to make [Mud](/wiki/elements/mud). This process is known as [Make Mud](/wiki/recipes/make-mud).
 
+## How to use?
+
+* Combine [Mud](/wiki/elements/mud) and [Fire](/wiki/elements/fire) to make [Clay](/wiki/elements/clay). This process is known as [Make Clay](/wiki/recipes/make-clay).
+* Combine [Mud](/wiki/elements/mud) and [Wind](/wiki/elements/wind) to make [Sand](/wiki/elements/sand). This process is known as [Make Sand](/wiki/recipes/make-sand).
+
 ## See also
 
 * [Games](/wiki/games)
