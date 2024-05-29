@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.subterraneanpool.png)
 
-**Tier**: 1
+**Tier**: 20
 
 Where the Teenage Mutant Ninja Turtles learned to swim and rediscover lost rubber duckies!
 

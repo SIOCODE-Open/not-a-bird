@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.island.png)
 
-**Tier**: 1
+**Tier**: 46
 
 A chunk of land adrift in the ocean, like a slice of pizza floating in tomato soup.
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.ash.png)
 
-**Tier**: 1
+**Tier**: 3
 
 The remains of your epic campfire story that burned out faster than your WiFi during a binge session.
 

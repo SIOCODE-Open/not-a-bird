@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.fireswamp.png)
 
-**Tier**: 1
+**Tier**: 25
 
 Enter at your own risk and remember, the trees have a fiery personality akin to dragons after a spicy taco night!
 

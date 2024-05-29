@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.wall.png)
 
-**Tier**: 1
+**Tier**: 8
 
 The Gentleman Bouncer of your castle, politely informing intruders that the party's over.
 

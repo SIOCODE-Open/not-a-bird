@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.plant.png)
 
-**Tier**: 1
+**Tier**: 4
 
 The botanical equivalent of Wi-Fi for oxygen, providing full bars since prehistoric times.
 

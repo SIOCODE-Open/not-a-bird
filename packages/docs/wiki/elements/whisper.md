@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.whisper.png)
 
-**Tier**: 1
+**Tier**: 24
 
 The secret handshake of the wind and your ear, as if a gossiping fairy had a megaphone.
 

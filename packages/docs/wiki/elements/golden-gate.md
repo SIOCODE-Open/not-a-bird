@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.goldengate.png)
 
-**Tier**: 2
+**Tier**: 13
 
 The mystical bridge that Gandalf would totally approve of, connecting realms and charging tolls in riddles.
 

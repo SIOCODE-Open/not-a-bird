@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.mountain.png)
 
-**Tier**: 1
+**Tier**: 10
 
 The colossal nature bump that's basically Earth's awkward zit.
 

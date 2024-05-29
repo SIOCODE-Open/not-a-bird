@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.wildfire.png)
 
-**Tier**: 1
+**Tier**: 9
 
 Spicier than your ex's DMs, this blaze turns forests into toast and marshmallows into napalm.
 

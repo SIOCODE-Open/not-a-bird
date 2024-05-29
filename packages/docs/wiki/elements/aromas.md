@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.aromas.png)
 
-**Tier**: 1
+**Tier**: 10
 
 Sprinkle a bit of Hogwarts' magic under your nose and breathe in the essence of enchanted forests and dragon's breath!
 

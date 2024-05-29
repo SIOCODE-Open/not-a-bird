@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.fountain.png)
 
-**Tier**: 1
+**Tier**: 26
 
 Where wishes and coins go on a wild water slide together.
 

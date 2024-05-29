@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.whisperingcave.png)
 
-**Tier**: 1
+**Tier**: 18
 
 A cave so chatty it makes high school gossip sound like monk's meditation.
 

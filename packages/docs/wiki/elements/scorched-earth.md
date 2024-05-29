@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.scorchedearth.png)
 
-**Tier**: 1
+**Tier**: 18
 
 More devastating than an expired hot sauce binge, it turns fertile land into a Mad Max wasteland!
 

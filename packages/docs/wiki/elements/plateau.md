@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.plateau.png)
 
-**Tier**: 1
+**Tier**: 15
 
 A flat piece of land that got tired of climbing mountains and decided to chill forever.
 

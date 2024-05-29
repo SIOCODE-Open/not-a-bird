@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.clay.png)
 
-**Tier**: 1
+**Tier**: 5
 
 Mold this earthy Play-Doh into something magical, or just make yourself a new best friend, Wilson style!
 

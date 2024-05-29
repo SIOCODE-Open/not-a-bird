@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.blowhole.png)
 
-**Tier**: 1
+**Tier**: 63
 
 The marine mammal's N64 controller button for an epic H2O power-up!
 

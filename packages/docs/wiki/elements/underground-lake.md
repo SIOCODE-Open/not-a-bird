@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.undergroundlake.png)
 
-**Tier**: 1
+**Tier**: 17
 
 The Batcave of aquatic hideaways, home to timid fish and overly ambitious spelunkers alike.
 

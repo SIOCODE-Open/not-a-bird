@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.kiln.png)
 
-**Tier**: 1
+**Tier**: 9
 
 The oven that turns your pottery dreams into reality, just like Hogwarts turns kids into wizards.
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.spread.png)
 
-**Tier**: 1
+**Tier**: 7
 
 As versatile as a Swiss army knife, it's the social butterfly of condiments!
 

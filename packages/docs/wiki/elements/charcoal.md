@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.charcoal.png)
 
-**Tier**: 1
+**Tier**: 8
 
 The BBQ Master's secret ingredient for transforming your steaks from zero to hero faster than you can say 'Grill-Zilla!'
 

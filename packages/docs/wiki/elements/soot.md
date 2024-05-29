@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.soot.png)
 
-**Tier**: 1
+**Tier**: 4
 
 Dust bunnies' granddaddy who moonlights as a chimney sweep in a Dickens novel.
 

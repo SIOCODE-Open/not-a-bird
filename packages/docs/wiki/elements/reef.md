@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.reef.png)
 
-**Tier**: 1
+**Tier**: 47
 
 The underwater rock concert where fish party harder than rockstars!
 

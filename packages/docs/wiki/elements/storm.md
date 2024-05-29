@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.storm.png)
 
-**Tier**: 1
+**Tier**: 4
 
 Angry sky kittens throwing tantrums and lightning bolts like Thor after a double espresso.
 

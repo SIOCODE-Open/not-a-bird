@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.glass.png)
 
-**Tier**: 1
+**Tier**: 7
 
 As delicate as your ego after a bad break-up, but see-through like your best friend's terrible poker face.
 

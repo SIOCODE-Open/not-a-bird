@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.whirl.png)
 
-**Tier**: 1
+**Tier**: 48
 
 Like a blender on steroids, this mini-maelstrom promises to mix up your enemies' day!
 

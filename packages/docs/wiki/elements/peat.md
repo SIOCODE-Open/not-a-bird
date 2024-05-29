@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.peat.png)
 
-**Tier**: 1
+**Tier**: 10
 
 It's like the cozy blanket of soil—excellent for plants, terrible for couch potatoes.
 

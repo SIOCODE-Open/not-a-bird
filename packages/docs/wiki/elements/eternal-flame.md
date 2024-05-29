@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.eternalflame.png)
 
-**Tier**: 1
+**Tier**: 35
 
 Hotter than a dragon's sneeze, this flame burns with the angst of a thousand rejected pop stars!
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.breeze.png)
 
-**Tier**: 1
+**Tier**: 3
 
 Like Gandalf's whisper, this gentle wind will casually rearrange your bad hair day.
 

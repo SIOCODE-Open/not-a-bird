@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.stream.png)
 
-**Tier**: 1
+**Tier**: 20
 
 Like Netflix for fish, this babbling brook is constantly streaming new episodes of nature’s playlist!
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.frostedglass.png)
 
-**Tier**: 1
+**Tier**: 10
 
 Clearer than your intentions after a night out, but still elusive as your friend who promises to show up on time.
 

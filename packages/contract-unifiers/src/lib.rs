@@ -87,31 +87,31 @@ pub mod unifiers {
         id: 4,
         name: "SWARM",
         description: "Unleash a tiny, buzzing army that makes you feel like the villain in a superhero movie.",
-        tier: 2,
+        tier: 3,
     };
     const ELEMENT_HYDRA: Element = Element {
         id: 5,
         name: "Hydra",
         description: "When one head isn&#x27;t enough to argue with you, this multi-headed reptilian nightmare is ready to rumble!",
-        tier: 2,
+        tier: 3,
     };
     const ELEMENT_MONKEY_BRANCH: Element = Element {
         id: 6,
         name: "MonkeyBranch",
         description: "Swing through the jungle like Tarzan with this monkey-approved vine, perfect for dramatic escapes and awkward landings.",
-        tier: 2,
+        tier: 5,
     };
     const ELEMENT_BRIDGE: Element = Element {
         id: 7,
         name: "Bridge",
         description: "The majestic road-over-nothing, perfect for trolls and billy goats alike.",
-        tier: 2,
+        tier: 11,
     };
     const ELEMENT_GOLDEN_GATE: Element = Element {
         id: 8,
         name: "GoldenGate",
         description: "The mystical bridge that Gandalf would totally approve of, connecting realms and charging tolls in riddles.",
-        tier: 2,
+        tier: 13,
     };
     const ELEMENT_GOLD: Element = Element {
         id: 9,
@@ -189,7 +189,7 @@ pub mod unifiers {
         id: 21,
         name: "Lock",
         description: "Who needs a dragon when you&#x27;ve got this security boss blocking your treasure chest?",
-        tier: 2,
+        tier: 3,
     };
     const ELEMENT_MARMALADE: Element = Element {
         id: 22,
@@ -207,7 +207,7 @@ pub mod unifiers {
         id: 24,
         name: "HyperMarmalade",
         description: "Like regular marmalade, but it makes you feel like you&#x27;ve had a double shot of espresso and a lightning bolt to the brain!",
-        tier: 2,
+        tier: 5,
     };
     const RECIPE_MAKE_SWARM: Recipe = Recipe {
         id: 0,

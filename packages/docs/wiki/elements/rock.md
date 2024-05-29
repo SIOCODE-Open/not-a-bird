@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.rock.png)
 
-**Tier**: 1
+**Tier**: 8
 
 It's Dwayne Johnson's stony cousin, perfect for smashing enemies or just sitting there, being all geology-like.
 

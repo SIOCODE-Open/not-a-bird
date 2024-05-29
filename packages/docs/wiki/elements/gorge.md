@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.gorge.png)
 
-**Tier**: 1
+**Tier**: 14
 
 When wandering through this natural wonder, remember: it's like Mother Earth's really dramatic cleavage.
 

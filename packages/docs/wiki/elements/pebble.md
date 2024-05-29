@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.pebble.png)
 
-**Tier**: 1
+**Tier**: 10
 
 As insignificant as the pebble you kicked on your way to saving the world.
 

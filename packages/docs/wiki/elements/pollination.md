@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.pollination.png)
 
-**Tier**: 1
+**Tier**: 5
 
 Nature's Tinder for plants, where bees are the swiping right matchmakers.
 

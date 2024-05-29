@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.prism.png)
 
-**Tier**: 1
+**Tier**: 15
 
 Divide light like a 70's disco ball at a Saturday night fever party.
 

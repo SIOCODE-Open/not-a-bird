@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.parchedearth.png)
 
-**Tier**: 1
+**Tier**: 33
 
 More thirst-quenching than a backstage pass at a Beyoncé concert!
 

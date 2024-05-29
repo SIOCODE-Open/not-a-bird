@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.sinkhole.png)
 
-**Tier**: 1
+**Tier**: 9
 
 Suddenly feeling like you starred in a Looney Tunes cartoon, minus the anvil and roadrunner.
 

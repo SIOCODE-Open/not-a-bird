@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.steamvent.png)
 
-**Tier**: 1
+**Tier**: 27
 
 When regular air conditioning just won't cut it, unleash this spicy hot air geyser and channel your inner Old Faithful!
 

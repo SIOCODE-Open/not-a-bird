@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.rainbow.png)
 
-**Tier**: 1
+**Tier**: 3
 
 The sky's post-rain refurbishment job, brought to you by Mother Nature's favorite highlighter pack.
 

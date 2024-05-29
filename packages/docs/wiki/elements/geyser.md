@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.geyser.png)
 
-**Tier**: 1
+**Tier**: 5
 
 Mother Nature's boiling hot water cannon, now available as a decorative backyard feature!
 

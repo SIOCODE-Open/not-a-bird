@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.rain.png)
 
-**Tier**: 1
+**Tier**: 2
 
 Sky's attempt at a group shower: brings hydration and dramatic window views!
 

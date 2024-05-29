@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.sparkle.png)
 
-**Tier**: 1
+**Tier**: 12
 
 Glitter brighter than a unicorn's tears at a K-pop concert.
 

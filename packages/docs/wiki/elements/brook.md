@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.brook.png)
 
-**Tier**: 1
+**Tier**: 25
 
 Where baby rivers are born and sent to Hogwarts.
 

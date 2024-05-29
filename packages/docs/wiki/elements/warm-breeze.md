@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.warmbreeze.png)
 
-**Tier**: 1
+**Tier**: 3
 
 It's like Mother Nature left the hairdryer on; embrace the cozy winds of summer hugs!
 

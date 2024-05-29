@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.artesianwell.png)
 
-**Tier**: 1
+**Tier**: 39
 
 The bottomless mimosa bar of water sources, constantly refilling without you lifting a finger - cheers!
 

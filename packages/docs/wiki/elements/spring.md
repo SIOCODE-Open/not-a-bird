@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.spring.png)
 
-**Tier**: 1
+**Tier**: 23
 
 Jump higher than your dreams, or at least higher than your disappointments, with this bouncy boing-boing.
 

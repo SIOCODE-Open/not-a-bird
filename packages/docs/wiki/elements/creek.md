@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.creek.png)
 
-**Tier**: 1
+**Tier**: 22
 
 Tiny river, think of it as a baby Amazon just learning to meme.
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.farm.png)
 
-**Tier**: 1
+**Tier**: 7
 
 The ultimate pre-industrial protein shake factory, where plants and animals live in suspenseful harmony waiting to be useful.
 

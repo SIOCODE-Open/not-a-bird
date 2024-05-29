@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.dust.png)
 
-**Tier**: 1
+**Tier**: 2
 
 The forgotten remains of battles long past, or your enemy when you forget to clean under the sofa.
 

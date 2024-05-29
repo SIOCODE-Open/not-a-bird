@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.pumice.png)
 
-**Tier**: 1
+**Tier**: 4
 
 Floats like a butterfly, scrubs like Mr. Clean - the Swiss cheese of rocks!
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.moltenglass.png)
 
-**Tier**: 1
+**Tier**: 12
 
 Hotter than a dragon's breath after Taco Tuesday, this molten glass can melt through your problems... literally.
 

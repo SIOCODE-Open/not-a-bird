@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.valley.png)
 
-**Tier**: 1
+**Tier**: 15
 
 The place where hills take a break and gossip about mountains.
 

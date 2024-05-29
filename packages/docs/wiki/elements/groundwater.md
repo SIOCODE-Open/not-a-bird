@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.groundwater.png)
 
-**Tier**: 1
+**Tier**: 36
 
 Mother Earth's secret stash, hidden beneath her rocky garments like a hip flask at a dry wedding.
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.monument.png)
 
-**Tier**: 1
+**Tier**: 30
 
 A stone tribute that's so towering, it could give the Statue of Liberty vertigo!
 

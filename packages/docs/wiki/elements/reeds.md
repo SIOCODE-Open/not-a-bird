@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.reeds.png)
 
-**Tier**: 1
+**Tier**: 12
 
 The nature-made cocktail straws that just might call Gandalf from Middle-earth; beware of hobbits sneaking around!
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.rivulet.png)
 
-**Tier**: 1
+**Tier**: 27
 
 A tiny stream so small that even ants use it as their personal slip-n-slide.
 

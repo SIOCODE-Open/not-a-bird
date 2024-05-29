@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.lava.png)
 
-**Tier**: 1
+**Tier**: 2
 
 Spicy earth salsa that guarantees an insta-tan and some crispy new shoes!
 

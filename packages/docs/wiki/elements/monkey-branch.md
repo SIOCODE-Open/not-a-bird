@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.monkeybranch.png)
 
-**Tier**: 2
+**Tier**: 5
 
 Swing through the jungle like Tarzan with this monkey-approved vine, perfect for dramatic escapes and awkward landings.
 

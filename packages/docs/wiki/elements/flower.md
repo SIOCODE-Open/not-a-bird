@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.flower.png)
 
-**Tier**: 1
+**Tier**: 7
 
 The colorful Wi-Fi signal for bees; smells better than your ex's perfume!
 

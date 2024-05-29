@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.desert.png)
 
-**Tier**: 1
+**Tier**: 10
 
 A vast sandbox of banishment where even cacti consider sunblock.
 

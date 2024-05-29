@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.shards.png)
 
-**Tier**: 1
+**Tier**: 8
 
 Fragments of a broken heart? Or just pieces of yesterday's piñata—either way, they're sharp!
 

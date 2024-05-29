@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.delta.png)
 
-**Tier**: 1
+**Tier**: 20
 
 The river’s final boss battle, where water splits like an indecisive rom-com character in the season finale.
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.fog.png)
 
-**Tier**: 1
+**Tier**: 3
 
 It’s like someone took all the clouds, shredded them, and set them loose to play hide and seek with your vision.
 

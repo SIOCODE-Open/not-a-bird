@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.smoke.png)
 
-**Tier**: 1
+**Tier**: 2
 
 As elusive as your New Year's resolutions, it vanishes faster than free Wi-Fi at a coffee shop.
 

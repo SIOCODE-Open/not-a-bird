@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.spore.png)
 
-**Tier**: 1
+**Tier**: 6
 
 Tiny, invisible disco balls of doom, ready to throw a rave in your sinuses!
 

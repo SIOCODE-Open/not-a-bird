@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.pillarofwind.png)
 
-**Tier**: 1
+**Tier**: 33
 
 A swirling cyclone of air that even the Weather Channel fears to forecast.
 

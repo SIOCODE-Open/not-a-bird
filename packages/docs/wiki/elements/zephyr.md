@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.zephyr.png)
 
-**Tier**: 1
+**Tier**: 20
 
 A breeze so gentle, it could whisper lullabies to butterflies while moonwalking through daisies.
 

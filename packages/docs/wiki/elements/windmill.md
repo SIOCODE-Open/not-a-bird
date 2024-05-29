@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.windmill.png)
 
-**Tier**: 1
+**Tier**: 6
 
 Spinning like your favorite DJ, this eco-friendly giant turns breezes into electrical symphonies.
 

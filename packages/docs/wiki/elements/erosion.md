@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.erosion.png)
 
-**Tier**: 1
+**Tier**: 9
 
 Nature's slow-motion magic trick, turning mighty mountains into beach sand one grain at a time.
 

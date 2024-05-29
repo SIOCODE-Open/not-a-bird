@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.fertilizer.png)
 
-**Tier**: 1
+**Tier**: 5
 
 Sprinkle a little of this magic dust and watch your plants grow faster than a YouTube tutorial on 'getting rich quick!'
 

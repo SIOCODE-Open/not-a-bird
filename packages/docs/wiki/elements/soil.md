@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.soil.png)
 
-**Tier**: 1
+**Tier**: 5
 
 Dirt-napped cousin of terra-firma, perfect for your eco-friendly carpet installations!
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.swarm.png)
 
-**Tier**: 2
+**Tier**: 3
 
 Unleash a tiny, buzzing army that makes you feel like the villain in a superhero movie.
 

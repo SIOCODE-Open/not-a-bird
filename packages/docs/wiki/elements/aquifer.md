@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.aquifer.png)
 
-**Tier**: 1
+**Tier**: 33
 
 Nature's secret underground swimming pool, perfect for when groundwater wants to chill out.
 

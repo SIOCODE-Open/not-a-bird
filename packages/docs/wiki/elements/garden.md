@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.garden.png)
 
-**Tier**: 1
+**Tier**: 6
 
 Nature's sunlit Wi-Fi free zone, and the original farm-to-table restaurant!
 

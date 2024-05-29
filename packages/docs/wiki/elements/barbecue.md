@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.barbecue.png)
 
-**Tier**: 1
+**Tier**: 10
 
 Unleash your inner pitmaster with this meat sizzle maker, as seen on grill-enthusiast reality shows!
 

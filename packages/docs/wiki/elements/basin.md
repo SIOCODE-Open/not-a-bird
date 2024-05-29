@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.basin.png)
 
-**Tier**: 1
+**Tier**: 40
 
 The Holy Grail of your bathroom, where soap bubbles dream of escape and rubber duckies rule!
 

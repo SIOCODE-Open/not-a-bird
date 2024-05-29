@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.lagoon.png)
 
-**Tier**: 1
+**Tier**: 45
 
 A lazy lake who's too cool to hang with the ocean, featuring more zen than a yoga retreat for dolphins.
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.reservoir.png)
 
-**Tier**: 1
+**Tier**: 38
 
 Hoarder of H2O: Where all the local water droplets hang out and gossip about breaking dams and making waves!
 

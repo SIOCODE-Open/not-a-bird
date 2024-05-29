@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.barricade.png)
 
-**Tier**: 1
+**Tier**: 13
 
 Like Gandalf facing a Balrog, it's the 'You shall not pass!' of fortifications.
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.volcano.png)
 
-**Tier**: 1
+**Tier**: 5
 
 Mount Doom's flamboyant cousin who's always ready to throw a tantrum and belch fiery salsa.
 

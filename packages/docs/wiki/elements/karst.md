@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.karst.png)
 
-**Tier**: 1
+**Tier**: 60
 
 The Swiss cheese of landscapes—full of holes, surprises, and probably a hidden treasure if you look close enough!
 

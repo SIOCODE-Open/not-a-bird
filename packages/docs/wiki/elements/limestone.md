@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.limestone.png)
 
-**Tier**: 1
+**Tier**: 55
 
 The rock Dwayne Johnson wished he was named after - capable of building empires and perfect for caveman graffiti.
 

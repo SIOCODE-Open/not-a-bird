@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.hotspring.png)
 
-**Tier**: 1
+**Tier**: 25
 
 Like soaking in a jacuzzi made by Mother Nature, but without the awkward vacation photos!
 

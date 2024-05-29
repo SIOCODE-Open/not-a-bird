@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.leaves.png)
 
-**Tier**: 1
+**Tier**: 7
 
 Green confetti for Mother Nature's never-ending party, with a hint of chlorophyll chic!
 

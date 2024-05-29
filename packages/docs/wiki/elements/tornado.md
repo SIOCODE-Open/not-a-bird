@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.tornado.png)
 
-**Tier**: 1
+**Tier**: 5
 
 Nature's blender on steroids, mixing up cows, houses, and your afternoon picnic.
 

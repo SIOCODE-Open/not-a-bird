@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.lock.png)
 
-**Tier**: 2
+**Tier**: 3
 
 Who needs a dragon when you've got this security boss blocking your treasure chest?
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.mirage.png)
 
-**Tier**: 1
+**Tier**: 12
 
 As elusive as your mom's Wi-Fi password and twice as frustrating to catch!
 

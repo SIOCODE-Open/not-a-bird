@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.coolbreeze.png)
 
-**Tier**: 1
+**Tier**: 26
 
 As refreshing as a surprise pizza party in summer, but with zero calories!
 

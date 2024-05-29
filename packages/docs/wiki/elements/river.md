@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.river.png)
 
-**Tier**: 1
+**Tier**: 18
 
 The highway for fish and the misplaced bathtubs of nature, flowing with more twists than a soap opera plotline.
 

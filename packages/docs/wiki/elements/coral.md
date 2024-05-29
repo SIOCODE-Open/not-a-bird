@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.coral.png)
 
-**Tier**: 1
+**Tier**: 50
 
 Nature's underwater apartment complex—complete with quirky neighbors!
 

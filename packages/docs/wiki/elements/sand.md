@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.sand.png)
 
-**Tier**: 1
+**Tier**: 6
 
 Pocketful of tiny wizards' teeth, creating beaches and cat litter archeology!
 

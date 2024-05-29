@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.cloud.png)
 
-**Tier**: 1
+**Tier**: 3
 
 Fluffier than marshmallows and moodier than a teenager, this sky cotton candy hides the secrets of the weather gods.
 

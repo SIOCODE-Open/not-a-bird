@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.thunder.png)
 
-**Tier**: 1
+**Tier**: 6
 
 Like Thor's mixtape at full volume, this electrifying zap will leave your enemies shocked and awed!
 

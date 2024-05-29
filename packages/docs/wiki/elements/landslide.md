@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.landslide.png)
 
-**Tier**: 1
+**Tier**: 6
 
 A geological temper tantrum that sends boulders downhill faster than a caffeine-crazed squirrel on roller skates!
 

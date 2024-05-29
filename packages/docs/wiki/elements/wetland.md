@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.wetland.png)
 
-**Tier**: 1
+**Tier**: 11
 
 As if Mother Nature decided to recreate the set of Jumanji with extra humidity and a smorgasbord of mosquitoes!
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.riverbank.png)
 
-**Tier**: 1
+**Tier**: 23
 
 Where Gandalf would come for a picnic with his hobbit homies if Middle-earth had longer vacations.
 

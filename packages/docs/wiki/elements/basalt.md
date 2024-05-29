@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.basalt.png)
 
-**Tier**: 1
+**Tier**: 4
 
 Forged in the depths of the earth, harder than your ex's heart and cooler than the underside of your pillow.
 

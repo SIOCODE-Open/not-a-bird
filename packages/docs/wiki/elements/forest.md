@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.forest.png)
 
-**Tier**: 1
+**Tier**: 8
 
 A dense collection of trees where even squirrels hire GPS, home of the mythical Wi-Fi-repellent green zone.
 

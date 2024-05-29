@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.steam.png)
 
-**Tier**: 1
+**Tier**: 3
 
 It's water's sassy teen phase before it cools down and becomes boring again.
 

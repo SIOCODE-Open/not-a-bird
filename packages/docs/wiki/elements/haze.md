@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.haze.png)
 
-**Tier**: 1
+**Tier**: 5
 
 Like Gandalf's vape party, but a lot less fun and way more confusing.
 

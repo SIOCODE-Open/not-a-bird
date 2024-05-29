@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.ravine.png)
 
-**Tier**: 1
+**Tier**: 11
 
 The Grand Canyon's emo teenager cousin, endless depths of angsty chasms.
 

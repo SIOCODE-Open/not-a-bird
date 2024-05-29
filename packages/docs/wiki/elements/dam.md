@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.dam.png)
 
-**Tier**: 1
+**Tier**: 10
 
 The Dwayne 'The Rock' Johnson of water barriers, holding back the wet with sheer muscle.
 

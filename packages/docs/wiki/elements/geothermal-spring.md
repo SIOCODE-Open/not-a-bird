@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.geothermalspring.png)
 
-**Tier**: 1
+**Tier**: 41
 
 Mother Nature's jacuzzi, hotter than the coffee your soul relies on.
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.flood.png)
 
-**Tier**: 1
+**Tier**: 6
 
 When Mother Nature throws the ultimate pool party and forgets to send the 'BYO life jacket' memo.
 

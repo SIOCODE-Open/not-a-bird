@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.crystal.png)
 
-**Tier**: 1
+**Tier**: 11
 
 Shiny as Edward Cullen and twice as sparkly in the moonlight!
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.charredravine.png)
 
-**Tier**: 1
+**Tier**: 13
 
 A spicy hot potato chip of doom, hotter than a dragon's sneeze in a volcano.
 

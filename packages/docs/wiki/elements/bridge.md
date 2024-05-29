@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.bridge.png)
 
-**Tier**: 2
+**Tier**: 11
 
 The majestic road-over-nothing, perfect for trolls and billy goats alike.
 

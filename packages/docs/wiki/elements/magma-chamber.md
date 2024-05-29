@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.magmachamber.png)
 
-**Tier**: 1
+**Tier**: 4
 
 Hotter than a dragon's sneeze, this is the spicy jacuzzi of the underworld.
 

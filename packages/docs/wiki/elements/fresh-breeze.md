@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.freshbreeze.png)
 
-**Tier**: 1
+**Tier**: 33
 
 A zephyr so crisp it could convince even Darth Vader to join a yoga retreat!
 

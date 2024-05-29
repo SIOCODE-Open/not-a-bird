@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.pond.png)
 
-**Tier**: 1
+**Tier**: 7
 
 Where ducks hold their secret aquatic raves and lily pads plot world domination.
 

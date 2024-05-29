@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.seeds.png)
 
-**Tier**: 1
+**Tier**: 5
 
 Nature's popcorn kernels, just add dirt and patience for a flourishing snack!
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.shard.png)
 
-**Tier**: 1
+**Tier**: 7
 
 This is the majestic piece of glitter, sharper than your ex-girlfriend's comebacks!
 

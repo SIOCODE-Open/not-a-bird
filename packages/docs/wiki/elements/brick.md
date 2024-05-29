@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.brick.png)
 
-**Tier**: 1
+**Tier**: 6
 
 As indestructible as your WiFi on a good day, this brick could build a mansion or your Minecraft empire.
 

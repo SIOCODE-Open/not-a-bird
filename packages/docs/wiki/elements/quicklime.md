@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.quicklime.png)
 
-**Tier**: 1
+**Tier**: 56
 
 Just add water and watch this rock go all 'Hulk Smash' on your hydration dreams!
 

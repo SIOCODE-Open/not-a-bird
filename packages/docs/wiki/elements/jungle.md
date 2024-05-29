@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.jungle.png)
 
-**Tier**: 1
+**Tier**: 10
 
 Like Tarzan's playground but with 99% more bugs and 100% less Wi-Fi.
 

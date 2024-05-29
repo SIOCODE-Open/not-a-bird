@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.hypermarmalade.png)
 
-**Tier**: 2
+**Tier**: 5
 
 Like regular marmalade, but it makes you feel like you've had a double shot of espresso and a lightning bolt to the brain!
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.canyon.png)
 
-**Tier**: 1
+**Tier**: 11
 
 Nature's gigantic frown; perfect for epic echoes and bottomless pratfalls.
 

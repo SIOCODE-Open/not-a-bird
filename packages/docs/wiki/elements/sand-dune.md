@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.sanddune.png)
 
-**Tier**: 1
+**Tier**: 11
 
 As majestic as a stack of pancakes, but far more abrasive and less syrupy.
 

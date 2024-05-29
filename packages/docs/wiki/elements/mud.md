@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.mud.png)
 
-**Tier**: 1
+**Tier**: 3
 
 Mother Nature's messy smoothie, perfect for impromptu spa days or sabotaging the hero's clean shoes!
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.tree.png)
 
-**Tier**: 1
+**Tier**: 6
 
 The original WiFi router for squirrels, providing shade and nuts with zero bars of signal!
 

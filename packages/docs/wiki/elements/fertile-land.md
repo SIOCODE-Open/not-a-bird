@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.fertileland.png)
 
-**Tier**: 1
+**Tier**: 9
 
 As luxurious and bountiful as Bob Ross’s paint palette, it's the MVP of Mother Nature's garden party.
 

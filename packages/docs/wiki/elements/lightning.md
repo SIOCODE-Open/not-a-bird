@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.lightning.png)
 
-**Tier**: 1
+**Tier**: 4
 
 Like Thor's tantrum in a bottle, ready to zap your foes into crispy critters!
 

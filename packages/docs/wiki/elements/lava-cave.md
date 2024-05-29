@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.lavacave.png)
 
-**Tier**: 1
+**Tier**: 16
 
 A fiery Airbnb for fire-breathing dragons and grilled marshmallows.
 

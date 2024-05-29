@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.waterfall.png)
 
-**Tier**: 1
+**Tier**: 33
 
 Niagara's younger, slightly less impressive cousin that still turns heads like a supermodel on a catwalk.
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.drybasin.png)
 
-**Tier**: 1
+**Tier**: 40
 
 A bowl so devoid of moisture, even SpongeBob would dry up in here.
 

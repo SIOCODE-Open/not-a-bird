@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.tributary.png)
 
-**Tier**: 1
+**Tier**: 30
 
 A glorified water delivery service, bringing aqua goodness to bigger, bossier rivers.
 

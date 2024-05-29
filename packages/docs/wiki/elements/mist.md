@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.mist.png)
 
-**Tier**: 1
+**Tier**: 5
 
 Like a ghost doing the moonwalk, it slips through your fingers and cloaks the world in mystery!
 

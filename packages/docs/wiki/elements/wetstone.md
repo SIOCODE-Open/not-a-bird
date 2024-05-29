@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.wetstone.png)
 
-**Tier**: 1
+**Tier**: 7
 
 Sharpen your blades while pondering life's mysteries with this slippery soapy rock, straight from the stones of Soapland!
 

@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.watershed.png)
 
-**Tier**: 1
+**Tier**: 31
 
 A pivotal plot twist in the landscape where water decides which way it wants to go for the grand finale!
 

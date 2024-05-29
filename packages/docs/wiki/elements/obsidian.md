@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.obsidian.png)
 
-**Tier**: 1
+**Tier**: 6
 
 Crafted by the earth's angriest volcano, it's tougher than your grandma's fruitcake and twice as unforgiving.
 

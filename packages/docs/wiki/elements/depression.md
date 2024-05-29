@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.depression.png)
 
-**Tier**: 1
+**Tier**: 45
 
 Feeling like Eeyore in a world full of Tiggers.
 

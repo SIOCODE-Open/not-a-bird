@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.wave.png)
 
-**Tier**: 1
+**Tier**: 45
 
 Surf's up, dude–ride this aquatic rollercoaster like a water wizard!
 

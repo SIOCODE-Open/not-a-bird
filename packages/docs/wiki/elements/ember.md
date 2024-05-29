@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.ember.png)
 
-**Tier**: 1
+**Tier**: 5
 
 Like a tiny dragon's sneeze, this little spark packs a fiery punch!
 

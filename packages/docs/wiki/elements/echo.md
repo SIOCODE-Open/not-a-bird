@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.echo.png)
 
-**Tier**: 1
+**Tier**: 12
 
 It's like shouting into a canyon, but the canyon actually cares about what you said and keeps repeating it back.
 

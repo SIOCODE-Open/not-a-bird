@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.grotto.png)
 
-**Tier**: 1
+**Tier**: 26
 
 The ultimate bachelor pad for goblins—think of it as a man cave, but with actual caves.
 

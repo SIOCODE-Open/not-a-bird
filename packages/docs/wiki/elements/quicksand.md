@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.quicksand.png)
 
-**Tier**: 1
+**Tier**: 8
 
 The Earth's way of saying 'GOTCHA!' when you thought a leisurely stroll through the desert sounded appealing.
 

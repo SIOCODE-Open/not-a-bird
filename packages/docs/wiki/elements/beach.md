@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.beach.png)
 
-**Tier**: 1
+**Tier**: 8
 
 A sun-kissed playground where sand gets everywhere, like glitter but from hell.
 

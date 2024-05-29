@@ -7,7 +7,7 @@ description: |
 
 ![](../images/item.hydra.png)
 
-**Tier**: 2
+**Tier**: 3
 
 When one head isn't enough to argue with you, this multi-headed reptilian nightmare is ready to rumble!
 
